@@ -1612,3 +1612,81 @@
 [2023-08-02 01:27:48] INFO root fetch - processPackages [cog]: Remove: archive file [/home/abi/fetcher/tmp/cog-0.8.5-py3-none-any.whl.zip]
 [2023-08-02 01:27:48] INFO root fetch - main [MainThread]: End processing [cog]: success
 [2023-08-02 01:27:48] INFO root fetch - main [MainThread]: Store serial: [19132396]
+[2023-08-02 01:32:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19132396]
+[2023-08-02 01:32:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-02 01:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-spykes
+[2023-08-02 01:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agentshell
+[2023-08-02 01:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openllm
+[2023-08-02 01:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: envkeeper
+[2023-08-02 01:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discovery-capability
+[2023-08-02 01:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vital
+[2023-08-02 01:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: litellm
+[2023-08-02 01:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sasanala-grandham
+[2023-08-02 01:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ledgereth
+[2023-08-02 01:32:57] INFO root fetch - processPackages [litellm]: New version: [0.1.211] Old Version: [0.1.210]
+[2023-08-02 01:32:57] INFO root fetch - processPackages [simple-spykes]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 01:32:57] INFO root fetch - processPackages [envkeeper]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 01:32:57] INFO root fetch - processPackages [discovery-capability]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-08-02 01:32:57] INFO root fetch - processPackages [openllm]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-02 01:32:57] INFO root fetch - processPackages [agentshell]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-02 01:32:57] INFO root fetch - processPackages [vital]: New version: [1.4.3] Old Version: [1.3.9]
+[2023-08-02 01:32:57] INFO root fetch - processPackages [ledgereth]: New version: [0.8.0] Old Version: [0.7.3]
+[2023-08-02 01:32:57] WARNING root fetch - processPackages [sasanala-grandham]: Skipping, unable to determine old version
+[2023-08-02 01:32:57] INFO root fetch - main [MainThread]: End processing [sasanala-grandham] error
+[2023-08-02 01:32:57] INFO root fetch - processPackages [simple-spykes]: Downloading https://files.pythonhosted.org/packages/58/59/00ad89ec4e930b19b615b3488e0d134dcbb280eabc404fe5bd2d0279dfe6/simple_spykes-0.0.2.tar.gz
+[2023-08-02 01:32:57] INFO root fetch - processPackages [envkeeper]: Downloading https://files.pythonhosted.org/packages/83/90/bb88965288a28687c807e16f06fc6131c12bdf4773ea117ac41ed43d0139/envkeeper-0.0.2.tar.gz
+[2023-08-02 01:32:57] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/3b/c6/b74f35aac273754f8970ec06e73ee3b385412e0a254330125b8a634b470f/discovery-capability-0.5.4.tar.gz
+[2023-08-02 01:32:57] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/e1/53/d4f1cb9b7b454e177793deab8ad2f1fd58154a2974f6933aad470ae61117/litellm-0.1.210.tar.gz
+[2023-08-02 01:32:57] INFO root fetch - processPackages [agentshell]: Downloading https://files.pythonhosted.org/packages/5c/08/4e44969058593dfceb814e577dfb3073d3bae5f2ce384d555855d0d974af/agentshell-0.0.6.tar.gz
+[2023-08-02 01:32:57] INFO root fetch - processPackages [vital]: Downloading https://files.pythonhosted.org/packages/f0/4b/eb1908b2416ae343cf636dc9872b96310ab249795ba2e3843d1466798a11/vital-1.3.9.tar.gz
+[2023-08-02 01:32:57] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/27/2b/ed3ffae21d77ed89079f47e2fe2393ec44984370420855383049649df8d0/openllm-0.2.8.tar.gz
+[2023-08-02 01:32:57] INFO root fetch - processPackages [ledgereth]: Downloading https://files.pythonhosted.org/packages/f9/6d/32ca5a73cf62649b8ac6d048ed5b9110f377c8360cd69c9505a9ae552bed/ledgereth-0.7.3.tar.gz
+[2023-08-02 01:32:57] INFO root fetch - processPackages [envkeeper]: Downloading https://files.pythonhosted.org/packages/b6/eb/afcae1c18fba300f981bbc8425061c30d34cecdd33bfba31b5cee25cce46/envkeeper-0.0.3.tar.gz
+[2023-08-02 01:32:57] INFO root fetch - processPackages [simple-spykes]: Downloading https://files.pythonhosted.org/packages/f0/8c/45c24f9f3de8423cfe0bfe31219be59ed5d0cb4694b575698922c911b234/simple_spykes-0.0.3.tar.gz
+[2023-08-02 01:32:57] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/15/a4/5f0a311a1d35fcc92309909bfa532dd59e1c4a2be72d07db3ee9f05b083d/litellm-0.1.211.tar.gz
+[2023-08-02 01:32:57] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/e6/25/85f283b9fd3691a8b45e326bab7760c36ad12805602d793b425cdfd2d885/discovery-capability-0.5.5.tar.gz
+[2023-08-02 01:32:57] INFO root fetch - processPackages [envkeeper]: executing diffoscope
+[2023-08-02 01:32:57] INFO root fetch - processPackages [envkeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envkeeper-0.0.2.tar.gz tmp/envkeeper-0.0.3.tar.gz --markdown 20230802/e/envkeeper/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 01:32:57] INFO root fetch - processPackages [simple-spykes]: executing diffoscope
+[2023-08-02 01:32:57] INFO root fetch - processPackages [simple-spykes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_spykes-0.0.2.tar.gz tmp/simple_spykes-0.0.3.tar.gz --markdown 20230802/s/simple-spykes/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 01:32:57] INFO root fetch - processPackages [agentshell]: Downloading https://files.pythonhosted.org/packages/f2/32/fa3dd1d19178908df7d1f9bb3fb15950dfd1460d826f99cbe16355f2b787/agentshell-0.0.7.tar.gz
+[2023-08-02 01:32:57] INFO root fetch - processPackages [vital]: Downloading https://files.pythonhosted.org/packages/7d/55/c1f5f717a02950339bc6759cdbda69e65cd55cc66d387787006f4b6b7c4d/vital-1.4.3.tar.gz
+[2023-08-02 01:32:58] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-02 01:32:58] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.210.tar.gz tmp/litellm-0.1.211.tar.gz --markdown 20230802/l/litellm/0.1.210-0.1.211/diff.md --exclude *.pyd
+[2023-08-02 01:32:58] INFO root fetch - processPackages [ledgereth]: Downloading https://files.pythonhosted.org/packages/bf/e2/fe763a46e7f239234ee0ea633c53d984a18fb68a1c00f737802d7af30436/ledgereth-0.8.0.tar.gz
+[2023-08-02 01:32:58] INFO root fetch - processPackages [agentshell]: executing diffoscope
+[2023-08-02 01:32:58] INFO root fetch - processPackages [agentshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentshell-0.0.6.tar.gz tmp/agentshell-0.0.7.tar.gz --markdown 20230802/a/agentshell/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-02 01:32:58] INFO root fetch - processPackages [vital]: executing diffoscope
+[2023-08-02 01:32:58] INFO root fetch - processPackages [vital]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vital-1.3.9.tar.gz tmp/vital-1.4.3.tar.gz --markdown 20230802/v/vital/1.3.9-1.4.3/diff.md --exclude *.pyd
+[2023-08-02 01:32:58] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/98/f2/69a32c5942ad1129fcfb76a36387dcc633b9ed99c9dfe82516730dacc46a/openllm-0.2.9.tar.gz
+[2023-08-02 01:32:58] INFO root fetch - processPackages [discovery-capability]: executing diffoscope
+[2023-08-02 01:32:58] INFO root fetch - processPackages [discovery-capability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-capability-0.5.4.tar.gz tmp/discovery-capability-0.5.5.tar.gz --markdown 20230802/d/discovery-capability/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-08-02 01:32:58] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-08-02 01:32:58] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.2.8.tar.gz tmp/openllm-0.2.9.tar.gz --markdown 20230802/o/openllm/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-02 01:32:58] INFO root fetch - processPackages [ledgereth]: executing diffoscope
+[2023-08-02 01:32:58] INFO root fetch - processPackages [ledgereth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ledgereth-0.7.3.tar.gz tmp/ledgereth-0.8.0.tar.gz --markdown 20230802/l/ledgereth/0.7.3-0.8.0/diff.md --exclude *.pyd
+[2023-08-02 01:32:59] INFO root fetch - processPackages [simple-spykes]: Remove: archive file [/home/abi/fetcher/tmp/simple_spykes-0.0.2.tar.gz]
+[2023-08-02 01:32:59] INFO root fetch - processPackages [simple-spykes]: Remove: archive file [/home/abi/fetcher/tmp/simple_spykes-0.0.3.tar.gz]
+[2023-08-02 01:32:59] INFO root fetch - main [MainThread]: End processing [simple-spykes]: success
+[2023-08-02 01:32:59] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.210.tar.gz]
+[2023-08-02 01:32:59] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.211.tar.gz]
+[2023-08-02 01:32:59] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-02 01:32:59] INFO root fetch - processPackages [agentshell]: Remove: archive file [/home/abi/fetcher/tmp/agentshell-0.0.6.tar.gz]
+[2023-08-02 01:32:59] INFO root fetch - processPackages [agentshell]: Remove: archive file [/home/abi/fetcher/tmp/agentshell-0.0.7.tar.gz]
+[2023-08-02 01:32:59] INFO root fetch - main [MainThread]: End processing [agentshell]: success
+[2023-08-02 01:32:59] INFO root fetch - processPackages [envkeeper]: Remove: archive file [/home/abi/fetcher/tmp/envkeeper-0.0.2.tar.gz]
+[2023-08-02 01:32:59] INFO root fetch - processPackages [envkeeper]: Remove: archive file [/home/abi/fetcher/tmp/envkeeper-0.0.3.tar.gz]
+[2023-08-02 01:32:59] INFO root fetch - main [MainThread]: End processing [envkeeper]: success
+[2023-08-02 01:32:59] INFO root fetch - processPackages [vital]: Remove: archive file [/home/abi/fetcher/tmp/vital-1.3.9.tar.gz]
+[2023-08-02 01:32:59] INFO root fetch - processPackages [vital]: Remove: archive file [/home/abi/fetcher/tmp/vital-1.4.3.tar.gz]
+[2023-08-02 01:32:59] INFO root fetch - main [MainThread]: End processing [vital]: success
+[2023-08-02 01:32:59] INFO root fetch - processPackages [ledgereth]: Remove: archive file [/home/abi/fetcher/tmp/ledgereth-0.7.3.tar.gz]
+[2023-08-02 01:32:59] INFO root fetch - processPackages [ledgereth]: Remove: archive file [/home/abi/fetcher/tmp/ledgereth-0.8.0.tar.gz]
+[2023-08-02 01:32:59] INFO root fetch - main [MainThread]: End processing [ledgereth]: success
+[2023-08-02 01:33:00] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.8.tar.gz]
+[2023-08-02 01:33:00] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.9.tar.gz]
+[2023-08-02 01:33:00] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-08-02 01:33:01] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.4.tar.gz]
+[2023-08-02 01:33:01] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.5.tar.gz]
+[2023-08-02 01:33:01] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
+[2023-08-02 01:33:01] INFO root fetch - main [MainThread]: Store serial: [19132428]

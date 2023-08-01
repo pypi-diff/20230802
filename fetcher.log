@@ -1853,3 +1853,60 @@
 [2023-08-02 01:51:44] INFO root fetch - processPackages [PyPartMC]: Remove: archive file [/home/abi/fetcher/tmp/PyPartMC-0.4.0.tar.gz]
 [2023-08-02 01:51:44] INFO root fetch - main [MainThread]: End processing [PyPartMC]: success
 [2023-08-02 01:51:44] INFO root fetch - main [MainThread]: Store serial: [19132519]
+[2023-08-02 01:56:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19132519]
+[2023-08-02 01:56:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-02 01:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: askedith
+[2023-08-02 01:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quinten-cli
+[2023-08-02 01:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agentcomlink
+[2023-08-02 01:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: retakesearch
+[2023-08-02 01:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: artifacts-keyring
+[2023-08-02 01:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mazikeen
+[2023-08-02 01:56:53] INFO root fetch - processPackages [askedith]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-08-02 01:56:53] INFO root fetch - processPackages [agentcomlink]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 01:56:53] INFO root fetch - processPackages [quinten-cli]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-08-02 01:56:53] INFO root fetch - processPackages [artifacts-keyring]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-02 01:56:53] INFO root fetch - processPackages [retakesearch]: New version: [0.1.22] Old Version: [0.1.21]
+[2023-08-02 01:56:53] INFO root fetch - processPackages [agentcomlink]: Downloading https://files.pythonhosted.org/packages/e2/57/5a5ee6d509122a2dba486b845ecb59a17f31c577bfa06b4243c5fcd57ce9/agentcomlink-0.1.8.tar.gz
+[2023-08-02 01:56:53] INFO root fetch - processPackages [artifacts-keyring]: Downloading https://files.pythonhosted.org/packages/a1/d4/4333d126825e65df3eb67b1175d4b7e7cc7f958a16a44c3c65c6c7be0612/artifacts-keyring-0.3.2.tar.gz
+[2023-08-02 01:56:53] INFO root fetch - processPackages [retakesearch]: Downloading https://files.pythonhosted.org/packages/b8/1c/c37a042bdb0653315341f55233dc469f45b3447583c0e3b63b31fa64d9e3/retakesearch-0.1.21.tar.gz
+[2023-08-02 01:56:53] INFO root fetch - processPackages [mazikeen]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-08-02 01:56:53] INFO root fetch - processPackages [askedith]: Downloading https://files.pythonhosted.org/packages/8b/9c/d857e04273c372f4bc184a0812fe15424d0c269deca5617a8486d4fd8e97/askedith-0.9.6-py3-none-any.whl
+[2023-08-02 01:56:53] INFO root fetch - processPackages [quinten-cli]: Downloading https://files.pythonhosted.org/packages/2c/7c/54bd75031d41559c06830f6b603382596757832e0270d34126b6d5e1d694/quinten-cli-1.1.5.tar.gz
+[2023-08-02 01:56:54] INFO root fetch - processPackages [mazikeen]: Downloading https://files.pythonhosted.org/packages/d7/29/65c4df44c9507149f983766bfab0b5b07d74a7f124493bea2d921c0ee17b/mazikeen-1.2.6.tar.gz
+[2023-08-02 01:56:54] INFO root fetch - processPackages [agentcomlink]: Downloading https://files.pythonhosted.org/packages/0f/bc/6aba49903452e21643e0fe2d03d80cf7c326864c86697cb8f2986100a4e4/agentcomlink-0.1.9.tar.gz
+[2023-08-02 01:56:54] INFO root fetch - processPackages [retakesearch]: Downloading https://files.pythonhosted.org/packages/fd/7d/b52ce970a20ebf650f242fb01bc883bd33fb50b0de58656e293777d1389d/retakesearch-0.1.22.tar.gz
+[2023-08-02 01:56:54] INFO root fetch - processPackages [quinten-cli]: Downloading https://files.pythonhosted.org/packages/8e/8d/eec1d267ff2363058f07f8061a0b0c4510a574b0053a5efd8c8eb527fc57/quinten-cli-1.1.6.tar.gz
+[2023-08-02 01:56:54] INFO root fetch - processPackages [agentcomlink]: executing diffoscope
+[2023-08-02 01:56:54] INFO root fetch - processPackages [askedith]: Downloading https://files.pythonhosted.org/packages/56/82/c1a6938e9e7452568ffff201a420669db73f22068f98a93e809a76c1381e/askedith-0.9.7-py3-none-any.whl
+[2023-08-02 01:56:54] INFO root fetch - processPackages [agentcomlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentcomlink-0.1.8.tar.gz tmp/agentcomlink-0.1.9.tar.gz --markdown 20230802/a/agentcomlink/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 01:56:54] INFO root fetch - processPackages [artifacts-keyring]: Downloading https://files.pythonhosted.org/packages/6e/cd/dac083353d75ae6e60c3a6d671ce8707c4d8b6c7e4bd63feb2ca58d526c0/artifacts-keyring-0.3.3.tar.gz
+[2023-08-02 01:56:54] INFO root fetch - processPackages [retakesearch]: executing diffoscope
+[2023-08-02 01:56:54] INFO root fetch - processPackages [retakesearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retakesearch-0.1.21.tar.gz tmp/retakesearch-0.1.22.tar.gz --markdown 20230802/r/retakesearch/0.1.21-0.1.22/diff.md --exclude *.pyd
+[2023-08-02 01:56:54] INFO root fetch - processPackages [quinten-cli]: executing diffoscope
+[2023-08-02 01:56:54] INFO root fetch - processPackages [quinten-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quinten-cli-1.1.5.tar.gz tmp/quinten-cli-1.1.6.tar.gz --markdown 20230802/q/quinten-cli/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-08-02 01:56:54] INFO root fetch - processPackages [mazikeen]: Downloading https://files.pythonhosted.org/packages/5f/80/a5d21994d6da6ba8373a919b013aa0188f3b439c62c3afa15b28c0f022d8/mazikeen-1.2.7.tar.gz
+[2023-08-02 01:56:54] INFO root fetch - processPackages [askedith]: executing diffoscope
+[2023-08-02 01:56:54] INFO root fetch - processPackages [askedith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askedith-0.9.6-py3-none-any.whl.zip tmp/askedith-0.9.7-py3-none-any.whl.zip --markdown 20230802/a/askedith/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-08-02 01:56:54] INFO root fetch - processPackages [mazikeen]: executing diffoscope
+[2023-08-02 01:56:54] INFO root fetch - processPackages [mazikeen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mazikeen-1.2.6.tar.gz tmp/mazikeen-1.2.7.tar.gz --markdown 20230802/m/mazikeen/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-08-02 01:56:54] INFO root fetch - processPackages [artifacts-keyring]: executing diffoscope
+[2023-08-02 01:56:54] INFO root fetch - processPackages [artifacts-keyring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artifacts-keyring-0.3.2.tar.gz tmp/artifacts-keyring-0.3.3.tar.gz --markdown 20230802/a/artifacts-keyring/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-02 01:56:55] INFO root fetch - processPackages [retakesearch]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-0.1.21.tar.gz]
+[2023-08-02 01:56:55] INFO root fetch - processPackages [retakesearch]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-0.1.22.tar.gz]
+[2023-08-02 01:56:55] INFO root fetch - main [MainThread]: End processing [retakesearch]: success
+[2023-08-02 01:56:55] INFO root fetch - processPackages [agentcomlink]: Remove: archive file [/home/abi/fetcher/tmp/agentcomlink-0.1.8.tar.gz]
+[2023-08-02 01:56:55] INFO root fetch - processPackages [agentcomlink]: Remove: archive file [/home/abi/fetcher/tmp/agentcomlink-0.1.9.tar.gz]
+[2023-08-02 01:56:55] INFO root fetch - main [MainThread]: End processing [agentcomlink]: success
+[2023-08-02 01:56:55] INFO root fetch - processPackages [quinten-cli]: Remove: archive file [/home/abi/fetcher/tmp/quinten-cli-1.1.5.tar.gz]
+[2023-08-02 01:56:55] INFO root fetch - processPackages [quinten-cli]: Remove: archive file [/home/abi/fetcher/tmp/quinten-cli-1.1.6.tar.gz]
+[2023-08-02 01:56:55] INFO root fetch - main [MainThread]: End processing [quinten-cli]: success
+[2023-08-02 01:56:55] INFO root fetch - processPackages [askedith]: Remove: archive file [/home/abi/fetcher/tmp/askedith-0.9.6-py3-none-any.whl.zip]
+[2023-08-02 01:56:55] INFO root fetch - processPackages [askedith]: Remove: archive file [/home/abi/fetcher/tmp/askedith-0.9.7-py3-none-any.whl.zip]
+[2023-08-02 01:56:55] INFO root fetch - main [MainThread]: End processing [askedith]: success
+[2023-08-02 01:56:55] INFO root fetch - processPackages [mazikeen]: Remove: archive file [/home/abi/fetcher/tmp/mazikeen-1.2.6.tar.gz]
+[2023-08-02 01:56:55] INFO root fetch - processPackages [mazikeen]: Remove: archive file [/home/abi/fetcher/tmp/mazikeen-1.2.7.tar.gz]
+[2023-08-02 01:56:55] INFO root fetch - main [MainThread]: End processing [mazikeen]: success
+[2023-08-02 01:56:57] INFO root fetch - processPackages [artifacts-keyring]: Remove: archive file [/home/abi/fetcher/tmp/artifacts-keyring-0.3.2.tar.gz]
+[2023-08-02 01:56:57] INFO root fetch - processPackages [artifacts-keyring]: Remove: archive file [/home/abi/fetcher/tmp/artifacts-keyring-0.3.3.tar.gz]
+[2023-08-02 01:56:57] INFO root fetch - main [MainThread]: End processing [artifacts-keyring]: success
+[2023-08-02 01:56:57] INFO root fetch - main [MainThread]: Store serial: [19132534]

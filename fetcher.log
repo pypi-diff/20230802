@@ -73,3 +73,90 @@
 [2023-08-02 00:03:37] INFO root fetch - processPackages [trimesh]: Remove: archive file [/home/abi/fetcher/tmp/trimesh-3.9.9.tar.gz]
 [2023-08-02 00:03:37] INFO root fetch - main [MainThread]: End processing [trimesh]: success
 [2023-08-02 00:03:37] INFO root fetch - main [MainThread]: Store serial: [19131592]
+[2023-08-02 00:08:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19131592]
+[2023-08-02 00:08:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-02 00:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jpy
+[2023-08-02 00:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AndroidTools
+[2023-08-02 00:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hoppr-jq-filter
+[2023-08-02 00:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hoppr-nexus-bundler
+[2023-08-02 00:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sleepydatapeek
+[2023-08-02 00:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gearsllm
+[2023-08-02 00:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: strawberry-graphql
+[2023-08-02 00:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simple-spykes
+[2023-08-02 00:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-savepic
+[2023-08-02 00:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spl-widgets
+[2023-08-02 00:08:46] INFO root fetch - processPackages [AndroidTools]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-08-02 00:08:46] INFO root fetch - processPackages [gearsllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 00:08:46] INFO root fetch - processPackages [hoppr-jq-filter]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 00:08:46] WARNING root fetch - processPackages [simple-spykes]: Skipping, unable to determine old version
+[2023-08-02 00:08:46] INFO root fetch - main [MainThread]: End processing [simple-spykes] error
+[2023-08-02 00:08:46] INFO root fetch - processPackages [jpy]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-08-02 00:08:46] INFO root fetch - processPackages [sleepydatapeek]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-02 00:08:46] INFO root fetch - processPackages [hoppr-nexus-bundler]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-08-02 00:08:46] INFO root fetch - processPackages [nonebot-plugin-savepic]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-02 00:08:46] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-08-02 00:08:46] INFO root fetch - processPackages [spl-widgets]: New version: [1.7.6] Old Version: [1.7.5]
+[2023-08-02 00:08:46] INFO root fetch - processPackages [AndroidTools]: Downloading https://files.pythonhosted.org/packages/4d/87/77f73c223c494ac347622185d8496caefa7da980efdf85352ad639c4d437/AndroidTools-0.0.9.tar.gz
+[2023-08-02 00:08:46] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/d4/a2/0687c5f8865e7fd066846289fd27a5bf1c319b505e2287c9d6ddbe8cf895/gearsllm-0.1.8.tar.gz
+[2023-08-02 00:08:46] INFO root fetch - processPackages [hoppr-nexus-bundler]: Downloading https://files.pythonhosted.org/packages/9d/08/548884a9b465db60c631cebd843a2d14ad58577d39a61ea16fb8d4267475/hoppr_nexus_bundler-0.5.1.tar.gz
+[2023-08-02 00:08:46] INFO root fetch - processPackages [nonebot-plugin-savepic]: Downloading https://files.pythonhosted.org/packages/61/0e/55c7ca8d21bfb2f4720f372bce99ad33e1e97d4e87d7776239435288ea2c/nonebot_plugin_savepic-0.1.0.tar.gz
+[2023-08-02 00:08:47] INFO root fetch - processPackages [hoppr-jq-filter]: Downloading https://files.pythonhosted.org/packages/01/f6/b9ad64653cb617e70e2ee213fad1528dcb4e455f5bd8068f5f161acb88b7/hoppr_jq_filter-0.2.0.tar.gz
+[2023-08-02 00:08:47] INFO root fetch - processPackages [sleepydatapeek]: Downloading https://files.pythonhosted.org/packages/5a/39/8138e4f35fb50e0b5a090b9d4c58580d3b8fd23eb60d1d7cf2f02e68b641/sleepydatapeek-0.1.7.tar.gz
+[2023-08-02 00:08:47] INFO root fetch - processPackages [jpy]: Downloading https://files.pythonhosted.org/packages/f6/05/9b8ff0fb8625b152934b0e0742fe50a5a37a6f33e8894d742564c0ff9ac3/jpy-0.7.4.zip
+[2023-08-02 00:08:47] INFO root fetch - processPackages [spl-widgets]: Downloading https://files.pythonhosted.org/packages/39/19/149714b02bffa62587fa401d1719e0bf2f6d88af79273dcb5b1fc7bff766/spl_widgets-1.7.5.tar.gz
+[2023-08-02 00:08:47] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-08-02 00:08:47] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/0e/f8/6abc4e6811387a0f9bcd70790e57a9ed2d019e847c391914880502a2febc/gearsllm-0.1.9.tar.gz
+[2023-08-02 00:08:47] INFO root fetch - processPackages [AndroidTools]: Downloading https://files.pythonhosted.org/packages/d3/bf/74f09135342dd6b5ea77cf6a814ee9ff3f477acb64bdcc86f311d6cd957b/AndroidTools-0.1.0.tar.gz
+[2023-08-02 00:08:47] INFO root fetch - processPackages [hoppr-nexus-bundler]: Downloading https://files.pythonhosted.org/packages/40/a7/ec6fce2e453b7be831c9d0925e020255a90a57ea214dc4c2fa4b64ce9345/hoppr_nexus_bundler-0.5.2.tar.gz
+[2023-08-02 00:08:47] INFO root fetch - processPackages [hoppr-jq-filter]: Downloading https://files.pythonhosted.org/packages/39/8b/9f9693f793e9709233216ecac5655a93ebe8026f75b974a4544461beb9c0/hoppr_jq_filter-0.2.1.tar.gz
+[2023-08-02 00:08:47] INFO root fetch - processPackages [gearsllm]: executing diffoscope
+[2023-08-02 00:08:47] INFO root fetch - processPackages [gearsllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gearsllm-0.1.8.tar.gz tmp/gearsllm-0.1.9.tar.gz --markdown 20230802/g/gearsllm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 00:08:47] INFO root fetch - processPackages [AndroidTools]: executing diffoscope
+[2023-08-02 00:08:47] INFO root fetch - processPackages [AndroidTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AndroidTools-0.0.9.tar.gz tmp/AndroidTools-0.1.0.tar.gz --markdown 20230802/A/AndroidTools/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-08-02 00:08:47] INFO root fetch - processPackages [sleepydatapeek]: Downloading https://files.pythonhosted.org/packages/fd/60/4b7df48b95aa4aaa1d12231797c09e075a3d07586b9ee0d8d14d95977379/sleepydatapeek-0.1.8.tar.gz
+[2023-08-02 00:08:47] INFO root fetch - processPackages [nonebot-plugin-savepic]: Downloading https://files.pythonhosted.org/packages/22/ea/de38ddeeb23d0a06de216e03beca55ec65cabbd2c0872fd524d585922b4d/nonebot_plugin_savepic-0.1.1.tar.gz
+[2023-08-02 00:08:47] INFO root fetch - processPackages [hoppr-nexus-bundler]: executing diffoscope
+[2023-08-02 00:08:47] INFO root fetch - processPackages [hoppr-nexus-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_nexus_bundler-0.5.1.tar.gz tmp/hoppr_nexus_bundler-0.5.2.tar.gz --markdown 20230802/h/hoppr-nexus-bundler/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-08-02 00:08:47] INFO root fetch - processPackages [hoppr-jq-filter]: executing diffoscope
+[2023-08-02 00:08:47] INFO root fetch - processPackages [hoppr-jq-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_jq_filter-0.2.0.tar.gz tmp/hoppr_jq_filter-0.2.1.tar.gz --markdown 20230802/h/hoppr-jq-filter/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 00:08:47] INFO root fetch - processPackages [jpy]: Downloading https://files.pythonhosted.org/packages/1d/d1/1be5d722c6cda6022adc2be01849bf62a5a32e9fdd0ed1edb1b163b83faf/jpy-0.7.5.zip
+[2023-08-02 00:08:47] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-08-02 00:08:47] INFO root fetch - processPackages [sleepydatapeek]: executing diffoscope
+[2023-08-02 00:08:47] INFO root fetch - processPackages [sleepydatapeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepydatapeek-0.1.7.tar.gz tmp/sleepydatapeek-0.1.8.tar.gz --markdown 20230802/s/sleepydatapeek/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-02 00:08:47] INFO root fetch - processPackages [nonebot-plugin-savepic]: executing diffoscope
+[2023-08-02 00:08:47] INFO root fetch - processPackages [nonebot-plugin-savepic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_savepic-0.1.0.tar.gz tmp/nonebot_plugin_savepic-0.1.1.tar.gz --markdown 20230802/n/nonebot-plugin-savepic/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-02 00:08:47] INFO root fetch - processPackages [jpy]: executing diffoscope
+[2023-08-02 00:08:47] INFO root fetch - processPackages [jpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jpy-0.7.4.zip tmp/jpy-0.7.5.zip --markdown 20230802/j/jpy/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-08-02 00:08:47] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-08-02 00:08:47] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230802/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-08-02 00:08:48] INFO root fetch - processPackages [spl-widgets]: Downloading https://files.pythonhosted.org/packages/0c/86/422686e90f8049095bb79a5252ffe3869da243354440f64776cdcbbc51b5/spl_widgets-1.7.6.tar.gz
+[2023-08-02 00:08:48] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.8.tar.gz]
+[2023-08-02 00:08:48] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.9.tar.gz]
+[2023-08-02 00:08:48] INFO root fetch - main [MainThread]: End processing [gearsllm]: success
+[2023-08-02 00:08:48] INFO root fetch - processPackages [AndroidTools]: Remove: archive file [/home/abi/fetcher/tmp/AndroidTools-0.0.9.tar.gz]
+[2023-08-02 00:08:48] INFO root fetch - processPackages [AndroidTools]: Remove: archive file [/home/abi/fetcher/tmp/AndroidTools-0.1.0.tar.gz]
+[2023-08-02 00:08:48] INFO root fetch - main [MainThread]: End processing [AndroidTools]: success
+[2023-08-02 00:08:48] INFO root fetch - processPackages [spl-widgets]: executing diffoscope
+[2023-08-02 00:08:48] INFO root fetch - processPackages [spl-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spl_widgets-1.7.5.tar.gz tmp/spl_widgets-1.7.6.tar.gz --markdown 20230802/s/spl-widgets/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2023-08-02 00:08:49] INFO root fetch - processPackages [sleepydatapeek]: Remove: archive file [/home/abi/fetcher/tmp/sleepydatapeek-0.1.7.tar.gz]
+[2023-08-02 00:08:49] INFO root fetch - processPackages [sleepydatapeek]: Remove: archive file [/home/abi/fetcher/tmp/sleepydatapeek-0.1.8.tar.gz]
+[2023-08-02 00:08:49] INFO root fetch - main [MainThread]: End processing [sleepydatapeek]: success
+[2023-08-02 00:08:49] INFO root fetch - processPackages [hoppr-jq-filter]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_jq_filter-0.2.0.tar.gz]
+[2023-08-02 00:08:49] INFO root fetch - processPackages [hoppr-jq-filter]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_jq_filter-0.2.1.tar.gz]
+[2023-08-02 00:08:49] INFO root fetch - main [MainThread]: End processing [hoppr-jq-filter]: success
+[2023-08-02 00:08:49] INFO root fetch - processPackages [nonebot-plugin-savepic]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_savepic-0.1.0.tar.gz]
+[2023-08-02 00:08:49] INFO root fetch - processPackages [nonebot-plugin-savepic]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_savepic-0.1.1.tar.gz]
+[2023-08-02 00:08:49] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-savepic]: success
+[2023-08-02 00:08:49] INFO root fetch - processPackages [hoppr-nexus-bundler]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_nexus_bundler-0.5.1.tar.gz]
+[2023-08-02 00:08:49] INFO root fetch - processPackages [hoppr-nexus-bundler]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_nexus_bundler-0.5.2.tar.gz]
+[2023-08-02 00:08:49] INFO root fetch - main [MainThread]: End processing [hoppr-nexus-bundler]: success
+[2023-08-02 00:08:49] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-08-02 00:08:49] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-08-02 00:08:49] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-08-02 00:08:49] INFO root fetch - processPackages [jpy]: Remove: archive file [/home/abi/fetcher/tmp/jpy-0.7.4.zip]
+[2023-08-02 00:08:49] INFO root fetch - processPackages [jpy]: Remove: archive file [/home/abi/fetcher/tmp/jpy-0.7.5.zip]
+[2023-08-02 00:08:49] INFO root fetch - main [MainThread]: End processing [jpy]: success
+[2023-08-02 00:08:50] INFO root fetch - processPackages [spl-widgets]: Remove: archive file [/home/abi/fetcher/tmp/spl_widgets-1.7.5.tar.gz]
+[2023-08-02 00:08:50] INFO root fetch - processPackages [spl-widgets]: Remove: archive file [/home/abi/fetcher/tmp/spl_widgets-1.7.6.tar.gz]
+[2023-08-02 00:08:50] INFO root fetch - main [MainThread]: End processing [spl-widgets]: success
+[2023-08-02 00:08:50] INFO root fetch - main [MainThread]: Store serial: [19131656]

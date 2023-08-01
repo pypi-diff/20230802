@@ -1364,3 +1364,82 @@
 [2023-08-02 01:06:57] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
 [2023-08-02 01:06:57] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
 [2023-08-02 01:06:57] INFO root fetch - main [MainThread]: Store serial: [19132231]
+[2023-08-02 01:12:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19132231]
+[2023-08-02 01:12:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-02 01:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pickled-carrots
+[2023-08-02 01:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-explorer
+[2023-08-02 01:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discovery-capability
+[2023-08-02 01:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scriptworker
+[2023-08-02 01:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: faststylometry
+[2023-08-02 01:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: timy-cli
+[2023-08-02 01:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aioTrends
+[2023-08-02 01:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PythonPackageUpdateChecker
+[2023-08-02 01:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: faststylometry
+[2023-08-02 01:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: subgrounds
+[2023-08-02 01:12:06] INFO root fetch - processPackages [aioTrends]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-08-02 01:12:06] INFO root fetch - processPackages [PythonPackageUpdateChecker]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-02 01:12:06] WARNING root fetch - processPackages [pytest-explorer]: Skipping, unable to determine old version
+[2023-08-02 01:12:06] INFO root fetch - main [MainThread]: End processing [pytest-explorer] error
+[2023-08-02 01:12:06] INFO root fetch - processPackages [faststylometry]: New version: [1.0.0] Old Version: [0.5]
+[2023-08-02 01:12:06] INFO root fetch - processPackages [faststylometry]: New version: [1.0.0] Old Version: [0.5]
+[2023-08-02 01:12:06] INFO root fetch - processPackages [pickled-carrots]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-02 01:12:06] WARNING root fetch - processPackages [timy-cli]: Skipping, unable to determine old version
+[2023-08-02 01:12:06] INFO root fetch - main [MainThread]: End processing [timy-cli] error
+[2023-08-02 01:12:06] INFO root fetch - processPackages [scriptworker]: New version: [9.0.0] Old Version: [8.1.1]
+[2023-08-02 01:12:06] INFO root fetch - processPackages [discovery-capability]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-08-02 01:12:06] INFO root fetch - processPackages [subgrounds]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-08-02 01:12:06] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/7d/f9/3632dad80476e5d8e225b3e2df57b59d34e3ae94884ab341d72ca575b9e0/discovery-capability-0.5.2.tar.gz
+[2023-08-02 01:12:06] INFO root fetch - processPackages [aioTrends]: Downloading https://files.pythonhosted.org/packages/1e/f9/0628ffe69d304efdf7b04117957d6286980cda8793babf607bd8a67fa753/aioTrends-0.0.0.tar.gz
+[2023-08-02 01:12:06] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Downloading https://files.pythonhosted.org/packages/97/94/f09e9ff718474618b99172087b7b5864b1bb595aeb7a29ff4721d26541c6/PythonPackageUpdateChecker-1.0.5.tar.gz
+[2023-08-02 01:12:06] INFO root fetch - processPackages [faststylometry]: Downloading https://files.pythonhosted.org/packages/19/62/7a8aeb72312ae6329329bfe4b735468fe2d1248afd202ee629fffc0123f4/faststylometry-0.5.tar.gz
+[2023-08-02 01:12:06] INFO root fetch - processPackages [faststylometry]: Downloading https://files.pythonhosted.org/packages/19/62/7a8aeb72312ae6329329bfe4b735468fe2d1248afd202ee629fffc0123f4/faststylometry-0.5.tar.gz
+[2023-08-02 01:12:06] INFO root fetch - processPackages [pickled-carrots]: Downloading https://files.pythonhosted.org/packages/c6/99/eb4818a5c3278c6c54739eebd14c45ff37aa97159f7047017298c43e5d52/pickled_carrots-1.0.8.tar.gz
+[2023-08-02 01:12:06] INFO root fetch - processPackages [scriptworker]: Downloading https://files.pythonhosted.org/packages/ea/d1/fdc110b0449a65fae3a72bfcfd8bfa198a3b3c8d6f2ea779fa67cc7df6f8/scriptworker-8.1.1.tar.gz
+[2023-08-02 01:12:06] INFO root fetch - processPackages [subgrounds]: Downloading https://files.pythonhosted.org/packages/3a/d1/d2e546cc84caf7bcfa64916fc95595f0a3c63eed5455f35ea96cb556c6df/subgrounds-1.6.0.tar.gz
+[2023-08-02 01:12:06] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Downloading https://files.pythonhosted.org/packages/bf/07/79b6b29e2e5725b1a3b018a87b336e0bb50f260f24ddc51838f60ccbdb64/PythonPackageUpdateChecker-1.0.6.tar.gz
+[2023-08-02 01:12:06] INFO root fetch - processPackages [faststylometry]: Downloading https://files.pythonhosted.org/packages/c1/00/9113793f3d40c8bda12b6f0dfc64ddba0e85ee3e378a26f789cf22f55009/faststylometry-1.0.0.tar.gz
+[2023-08-02 01:12:06] INFO root fetch - processPackages [faststylometry]: Downloading https://files.pythonhosted.org/packages/c1/00/9113793f3d40c8bda12b6f0dfc64ddba0e85ee3e378a26f789cf22f55009/faststylometry-1.0.0.tar.gz
+[2023-08-02 01:12:06] INFO root fetch - processPackages [aioTrends]: Downloading https://files.pythonhosted.org/packages/01/3f/07c0d86b5902239ab190d7916e01b941ebb65fa04e511f7dd6f6ea669ba0/aioTrends-0.0.2.tar.gz
+[2023-08-02 01:12:07] INFO root fetch - processPackages [pickled-carrots]: Downloading https://files.pythonhosted.org/packages/5c/b3/296f8a90c438d5e58c56172bd621b228c6bd889652590b01851732cfc034/pickled_carrots-1.0.9.tar.gz
+[2023-08-02 01:12:07] INFO root fetch - processPackages [subgrounds]: Downloading https://files.pythonhosted.org/packages/b7/1c/bc2ba98001d48f5b3ac04a843d94813db5855100995bc3425d443c4e1a11/subgrounds-1.6.1.tar.gz
+[2023-08-02 01:12:07] INFO root fetch - processPackages [faststylometry]: executing diffoscope
+[2023-08-02 01:12:07] INFO root fetch - processPackages [faststylometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faststylometry-0.5.tar.gz tmp/faststylometry-1.0.0.tar.gz --markdown 20230802/f/faststylometry/0.5-1.0.0/diff.md --exclude *.pyd
+[2023-08-02 01:12:07] INFO root fetch - processPackages [faststylometry]: executing diffoscope
+[2023-08-02 01:12:07] INFO root fetch - processPackages [faststylometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faststylometry-0.5.tar.gz tmp/faststylometry-1.0.0.tar.gz --markdown 20230802/f/faststylometry/0.5-1.0.0/diff.md --exclude *.pyd
+[2023-08-02 01:12:07] INFO root fetch - processPackages [aioTrends]: executing diffoscope
+[2023-08-02 01:12:07] INFO root fetch - processPackages [aioTrends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioTrends-0.0.0.tar.gz tmp/aioTrends-0.0.2.tar.gz --markdown 20230802/a/aioTrends/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 01:12:07] INFO root fetch - processPackages [PythonPackageUpdateChecker]: executing diffoscope
+[2023-08-02 01:12:07] INFO root fetch - processPackages [PythonPackageUpdateChecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonPackageUpdateChecker-1.0.5.tar.gz tmp/PythonPackageUpdateChecker-1.0.6.tar.gz --markdown 20230802/P/PythonPackageUpdateChecker/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-02 01:12:07] INFO root fetch - processPackages [pickled-carrots]: executing diffoscope
+[2023-08-02 01:12:07] INFO root fetch - processPackages [pickled-carrots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pickled_carrots-1.0.8.tar.gz tmp/pickled_carrots-1.0.9.tar.gz --markdown 20230802/p/pickled-carrots/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 01:12:07] INFO root fetch - processPackages [subgrounds]: executing diffoscope
+[2023-08-02 01:12:07] INFO root fetch - processPackages [subgrounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subgrounds-1.6.0.tar.gz tmp/subgrounds-1.6.1.tar.gz --markdown 20230802/s/subgrounds/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-08-02 01:12:07] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/a9/88/9b4f133d4bbbba67f05bb8fca36190be00703069ebc897b84c86f55f6d3b/discovery-capability-0.5.3.tar.gz
+[2023-08-02 01:12:07] INFO root fetch - processPackages [scriptworker]: Downloading https://files.pythonhosted.org/packages/a2/89/b354991a23a47adcd499805e932e2c7be941ac3d6ecd8c5e012415a35363/scriptworker-9.0.0.tar.gz
+[2023-08-02 01:12:07] INFO root fetch - processPackages [scriptworker]: executing diffoscope
+[2023-08-02 01:12:07] INFO root fetch - processPackages [scriptworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scriptworker-8.1.1.tar.gz tmp/scriptworker-9.0.0.tar.gz --markdown 20230802/s/scriptworker/8.1.1-9.0.0/diff.md --exclude *.pyd
+[2023-08-02 01:12:08] INFO root fetch - processPackages [discovery-capability]: executing diffoscope
+[2023-08-02 01:12:08] INFO root fetch - processPackages [discovery-capability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-capability-0.5.2.tar.gz tmp/discovery-capability-0.5.3.tar.gz --markdown 20230802/d/discovery-capability/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-08-02 01:12:08] INFO root fetch - processPackages [faststylometry]: Remove: archive file [/home/abi/fetcher/tmp/faststylometry-0.5.tar.gz]
+[2023-08-02 01:12:08] INFO root fetch - processPackages [faststylometry]: Remove: archive file [/home/abi/fetcher/tmp/faststylometry-1.0.0.tar.gz]
+[2023-08-02 01:12:08] INFO root fetch - main [MainThread]: End processing [faststylometry]: success
+[2023-08-02 01:12:08] INFO root fetch - main [MainThread]: End processing [faststylometry]: success
+[2023-08-02 01:12:08] INFO root fetch - processPackages [aioTrends]: Remove: archive file [/home/abi/fetcher/tmp/aioTrends-0.0.0.tar.gz]
+[2023-08-02 01:12:08] INFO root fetch - processPackages [aioTrends]: Remove: archive file [/home/abi/fetcher/tmp/aioTrends-0.0.2.tar.gz]
+[2023-08-02 01:12:08] INFO root fetch - main [MainThread]: End processing [aioTrends]: success
+[2023-08-02 01:12:08] INFO root fetch - processPackages [pickled-carrots]: Remove: archive file [/home/abi/fetcher/tmp/pickled_carrots-1.0.8.tar.gz]
+[2023-08-02 01:12:08] INFO root fetch - processPackages [pickled-carrots]: Remove: archive file [/home/abi/fetcher/tmp/pickled_carrots-1.0.9.tar.gz]
+[2023-08-02 01:12:08] INFO root fetch - main [MainThread]: End processing [pickled-carrots]: success
+[2023-08-02 01:12:08] INFO root fetch - processPackages [subgrounds]: Remove: archive file [/home/abi/fetcher/tmp/subgrounds-1.6.0.tar.gz]
+[2023-08-02 01:12:08] INFO root fetch - processPackages [subgrounds]: Remove: archive file [/home/abi/fetcher/tmp/subgrounds-1.6.1.tar.gz]
+[2023-08-02 01:12:08] INFO root fetch - main [MainThread]: End processing [subgrounds]: success
+[2023-08-02 01:12:08] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Remove: archive file [/home/abi/fetcher/tmp/PythonPackageUpdateChecker-1.0.5.tar.gz]
+[2023-08-02 01:12:08] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Remove: archive file [/home/abi/fetcher/tmp/PythonPackageUpdateChecker-1.0.6.tar.gz]
+[2023-08-02 01:12:08] INFO root fetch - main [MainThread]: End processing [PythonPackageUpdateChecker]: success
+[2023-08-02 01:12:09] INFO root fetch - processPackages [scriptworker]: Remove: archive file [/home/abi/fetcher/tmp/scriptworker-8.1.1.tar.gz]
+[2023-08-02 01:12:09] INFO root fetch - processPackages [scriptworker]: Remove: archive file [/home/abi/fetcher/tmp/scriptworker-9.0.0.tar.gz]
+[2023-08-02 01:12:09] INFO root fetch - main [MainThread]: End processing [scriptworker]: success
+[2023-08-02 01:12:11] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.2.tar.gz]
+[2023-08-02 01:12:11] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.3.tar.gz]
+[2023-08-02 01:12:11] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
+[2023-08-02 01:12:11] INFO root fetch - main [MainThread]: Store serial: [19132277]

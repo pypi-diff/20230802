@@ -1690,3 +1690,32 @@
 [2023-08-02 01:33:01] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.5.tar.gz]
 [2023-08-02 01:33:01] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
 [2023-08-02 01:33:01] INFO root fetch - main [MainThread]: Store serial: [19132428]
+[2023-08-02 01:38:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19132428]
+[2023-08-02 01:38:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-02 01:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: honeybee-schema
+[2023-08-02 01:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: carbonate-sdk
+[2023-08-02 01:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantconnect-stubs
+[2023-08-02 01:38:10] INFO root fetch - processPackages [carbonate-sdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-02 01:38:10] INFO root fetch - processPackages [honeybee-schema]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-08-02 01:38:10] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-08-02 01:38:10] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-08-02 01:38:10] INFO root fetch - processPackages [carbonate-sdk]: Downloading https://files.pythonhosted.org/packages/5c/f3/368c6806057082ae2ea4e762b3d72100da8b1009f5a40af54431ad1f1282/carbonate_sdk-0.0.4.tar.gz
+[2023-08-02 01:38:10] INFO root fetch - processPackages [honeybee-schema]: Downloading https://files.pythonhosted.org/packages/b6/d5/bf0be74dc6858ed71e31a0de0ea2ccd2088e3f14cb469f0983e6ed41ff8b/honeybee-schema-1.8.2.tar.gz
+[2023-08-02 01:38:11] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-08-02 01:38:11] INFO root fetch - processPackages [carbonate-sdk]: Downloading https://files.pythonhosted.org/packages/26/b7/825bdd58230e7f7f8c0a89e305cda819991761cd4aca5c06c7be869d586d/carbonate_sdk-0.0.5.tar.gz
+[2023-08-02 01:38:11] INFO root fetch - processPackages [honeybee-schema]: Downloading https://files.pythonhosted.org/packages/92/90/db8badad5360ad071d8b0ec05d97398810bfa812481842174c19e7edec4f/honeybee-schema-1.9.0.tar.gz
+[2023-08-02 01:38:11] INFO root fetch - processPackages [carbonate-sdk]: executing diffoscope
+[2023-08-02 01:38:11] INFO root fetch - processPackages [carbonate-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbonate_sdk-0.0.4.tar.gz tmp/carbonate_sdk-0.0.5.tar.gz --markdown 20230802/c/carbonate-sdk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-02 01:38:11] INFO root fetch - processPackages [honeybee-schema]: executing diffoscope
+[2023-08-02 01:38:11] INFO root fetch - processPackages [honeybee-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-schema-1.8.2.tar.gz tmp/honeybee-schema-1.9.0.tar.gz --markdown 20230802/h/honeybee-schema/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-08-02 01:38:11] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-08-02 01:38:11] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230802/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-08-02 01:38:12] INFO root fetch - processPackages [carbonate-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbonate_sdk-0.0.4.tar.gz]
+[2023-08-02 01:38:12] INFO root fetch - processPackages [carbonate-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbonate_sdk-0.0.5.tar.gz]
+[2023-08-02 01:38:12] INFO root fetch - main [MainThread]: End processing [carbonate-sdk]: success
+[2023-08-02 01:38:14] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2023-08-02 01:38:14] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2023-08-02 01:38:14] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-08-02 01:41:11] ERROR root fetch - processPackages [honeybee-schema]: Timeout during execution of pkgdiff
+[2023-08-02 01:41:11] INFO root fetch - main [MainThread]: End processing [honeybee-schema] error
+[2023-08-02 01:41:11] INFO root fetch - main [MainThread]: Store serial: [19132441]

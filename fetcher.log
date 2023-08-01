@@ -714,3 +714,111 @@
 [2023-08-02 00:35:31] INFO root fetch - processPackages [animo-trainer]: Remove: archive file [/home/abi/fetcher/tmp/animo_trainer-0.1.9.tar.gz]
 [2023-08-02 00:35:31] INFO root fetch - main [MainThread]: End processing [animo-trainer]: success
 [2023-08-02 00:35:31] INFO root fetch - main [MainThread]: Store serial: [19131904]
+[2023-08-02 00:40:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19131904]
+[2023-08-02 00:40:39] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-02 00:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: passwordlessdev
+[2023-08-02 00:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fixieai
+[2023-08-02 00:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opentty
+[2023-08-02 00:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gymnasium-trading
+[2023-08-02 00:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: efrem-utils
+[2023-08-02 00:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypus
+[2023-08-02 00:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstract-gui
+[2023-08-02 00:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edwh-migrate
+[2023-08-02 00:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ml-starter
+[2023-08-02 00:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dask-awkward
+[2023-08-02 00:40:40] WARNING root fetch - processPackages [passwordlessdev]: Skipping, unable to determine old version
+[2023-08-02 00:40:40] INFO root fetch - processPackages [passwordlessdev]: Start processing: micropython-servomt
+[2023-08-02 00:40:40] INFO root fetch - main [MainThread]: End processing [passwordlessdev] error
+[2023-08-02 00:40:40] INFO root fetch - processPackages [efrem-utils]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-02 00:40:40] INFO root fetch - processPackages [gymnasium-trading]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 00:40:40] INFO root fetch - processPackages [fixieai]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-02 00:40:40] INFO root fetch - processPackages [ml-starter]: New version: [0.1.43] Old Version: [0.1.42]
+[2023-08-02 00:40:40] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.54.5] Old Version: [0.0.54.4]
+[2023-08-02 00:40:40] INFO root fetch - processPackages [opentty]: New version: [1.0rc4] Old Version: [1.0]
+[2023-08-02 00:40:40] INFO root fetch - processPackages [pypus]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-08-02 00:40:40] INFO root fetch - processPackages [edwh-migrate]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-08-02 00:40:40] INFO root fetch - processPackages [dask-awkward]: New version: [2023.8.0] Old Version: [2023.7.1]
+[2023-08-02 00:40:40] WARNING root fetch - processPackages [micropython-servomt]: Skipping, unable to determine old version
+[2023-08-02 00:40:40] INFO root fetch - processPackages [micropython-servomt]: Start processing: dingman-openapi-server
+[2023-08-02 00:40:40] INFO root fetch - main [MainThread]: End processing [micropython-servomt] error
+[2023-08-02 00:40:40] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/d4/1a/daade539c6d1ba667d14cbb915a9bfb86e4a8c889682628159f35ce4d412/ml-starter-0.1.42.tar.gz
+[2023-08-02 00:40:40] INFO root fetch - processPackages [gymnasium-trading]: Downloading https://files.pythonhosted.org/packages/3d/a8/a665dbb5de7a95874f0059c934225f8005bf093bfb5851fb0a07161b41da/gymnasium_trading-0.0.2.tar.gz
+[2023-08-02 00:40:40] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/18/de/4febb489dcd263de972816c2a9fef31a5ec1a7c70394a9fc1eaacde698db/abstract_gui-0.0.54.4-py3-none-any.whl
+[2023-08-02 00:40:40] INFO root fetch - processPackages [edwh-migrate]: Downloading https://files.pythonhosted.org/packages/4e/25/90acf551db880f211ba5c6f425b38906cd3a5d6b5f8cbfb32a27f3c321a6/edwh_migrate-0.4.4.tar.gz
+[2023-08-02 00:40:40] INFO root fetch - processPackages [pypus]: Downloading https://files.pythonhosted.org/packages/99/bd/2c7ebab3606514af3897be0e43f7de206ca9f8654ae1e3cbc55052d1fb4f/pypus-1.4.3.tar.gz
+[2023-08-02 00:40:40] INFO root fetch - processPackages [efrem-utils]: Downloading https://files.pythonhosted.org/packages/b0/55/a6a106aa7fc9056da617d080820781fda8406ff7fda98ddbed3c4cfa1e58/efrem_utils-0.1.3.tar.gz
+[2023-08-02 00:40:40] INFO root fetch - processPackages [fixieai]: Downloading https://files.pythonhosted.org/packages/38/95/109f5e2ffff53025a7d75cb0df5d8e416161ef18118a92f3aa46763e318a/fixieai-1.0.1.tar.gz
+[2023-08-02 00:40:40] INFO root fetch - processPackages [opentty]: Downloading https://files.pythonhosted.org/packages/29/9d/8edfa2be53fedfbeb0f85e12dbf4f573c3d84c3f7e27d797b0bdc20601d7/opentty-1.0.tar.gz
+[2023-08-02 00:40:40] INFO root fetch - processPackages [dingman-openapi-server]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-02 00:40:40] INFO root fetch - processPackages [dask-awkward]: Downloading https://files.pythonhosted.org/packages/92/80/9b9ae441c4778c111d44251dba52b7e8fb91ce3e4645591f7e31f88245c3/dask_awkward-2023.7.1.tar.gz
+[2023-08-02 00:40:40] INFO root fetch - processPackages [edwh-migrate]: Downloading https://files.pythonhosted.org/packages/f4/c6/c57eb009297f8e83290e34da002acad216951ef754e014b4b78eca3e905f/edwh_migrate-0.5.0.tar.gz
+[2023-08-02 00:40:40] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/52/71/a761cd91592a1076073c334c9ff1ca824300a9f0cb6182439f88cd21fa08/ml-starter-0.1.43.tar.gz
+[2023-08-02 00:40:40] INFO root fetch - processPackages [dingman-openapi-server]: Downloading https://files.pythonhosted.org/packages/57/65/1077530ddbe2be65358ac199a9a218f2523693283ba63db5e2588b3933f1/dingman_openapi_server-1.0.3.tar.gz
+[2023-08-02 00:40:40] INFO root fetch - processPackages [gymnasium-trading]: Downloading https://files.pythonhosted.org/packages/37/c1/9d463387ff91eec1af82cf9ad6fc2b3bc8bef80803d1eea9468ccf6c4219/gymnasium_trading-0.0.3.tar.gz
+[2023-08-02 00:40:40] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/a0/8f/365dda7233c352998f6d5d8b941210b364215f33eb1708ab55ae32bcdb77/abstract_gui-0.0.54.5-py3-none-any.whl
+[2023-08-02 00:40:40] INFO root fetch - processPackages [efrem-utils]: Downloading https://files.pythonhosted.org/packages/7f/36/338bf305aa7be1477aba6c5772bd0fb2b94f788b8cfe69cf36b7f6f6bb76/efrem_utils-0.1.4.tar.gz
+[2023-08-02 00:40:40] INFO root fetch - processPackages [pypus]: Downloading https://files.pythonhosted.org/packages/47/0e/ec672f3b4984b9e6087ac59f7a630e6a6c4742c81c070579faaecbaa2d4d/pypus-1.4.4.tar.gz
+[2023-08-02 00:40:40] INFO root fetch - processPackages [fixieai]: Downloading https://files.pythonhosted.org/packages/fb/ee/f060971391bf85f10785d9c0586b3ca4db42645775475c8197a43636957b/fixieai-1.0.2.tar.gz
+[2023-08-02 00:40:40] INFO root fetch - processPackages [edwh-migrate]: executing diffoscope
+[2023-08-02 00:40:40] INFO root fetch - processPackages [edwh-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_migrate-0.4.4.tar.gz tmp/edwh_migrate-0.5.0.tar.gz --markdown 20230802/e/edwh-migrate/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-08-02 00:40:41] INFO root fetch - processPackages [opentty]: Downloading https://files.pythonhosted.org/packages/a6/8f/a2a3276bf3a37acd2f78e5d218c01dadf180390c5043cefba46d38cee607/opentty-1.0rc4.tar.gz
+[2023-08-02 00:40:41] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-08-02 00:40:41] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.42.tar.gz tmp/ml-starter-0.1.43.tar.gz --markdown 20230802/m/ml-starter/0.1.42-0.1.43/diff.md --exclude *.pyd
+[2023-08-02 00:40:41] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-08-02 00:40:41] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.54.4-py3-none-any.whl.zip tmp/abstract_gui-0.0.54.5-py3-none-any.whl.zip --markdown 20230802/a/abstract-gui/0.0.54.4-0.0.54.5/diff.md --exclude *.pyd
+[2023-08-02 00:40:41] INFO root fetch - processPackages [gymnasium-trading]: executing diffoscope
+[2023-08-02 00:40:41] INFO root fetch - processPackages [gymnasium-trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium_trading-0.0.2.tar.gz tmp/gymnasium_trading-0.0.3.tar.gz --markdown 20230802/g/gymnasium-trading/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 00:40:41] INFO root fetch - processPackages [dask-awkward]: Downloading https://files.pythonhosted.org/packages/62/43/7f3c63c2951258f715e6f2f70e922f45f512f886e06af98ff130a11ed05f/dask_awkward-2023.8.0.tar.gz
+[2023-08-02 00:40:41] INFO root fetch - processPackages [pypus]: executing diffoscope
+[2023-08-02 00:40:41] INFO root fetch - processPackages [pypus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypus-1.4.3.tar.gz tmp/pypus-1.4.4.tar.gz --markdown 20230802/p/pypus/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-08-02 00:40:41] INFO root fetch - processPackages [fixieai]: executing diffoscope
+[2023-08-02 00:40:41] INFO root fetch - processPackages [fixieai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixieai-1.0.1.tar.gz tmp/fixieai-1.0.2.tar.gz --markdown 20230802/f/fixieai/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-02 00:40:41] INFO root fetch - processPackages [efrem-utils]: executing diffoscope
+[2023-08-02 00:40:41] INFO root fetch - processPackages [efrem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efrem_utils-0.1.3.tar.gz tmp/efrem_utils-0.1.4.tar.gz --markdown 20230802/e/efrem-utils/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-02 00:40:41] INFO root fetch - processPackages [dask-awkward]: executing diffoscope
+[2023-08-02 00:40:41] INFO root fetch - processPackages [dask-awkward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask_awkward-2023.7.1.tar.gz tmp/dask_awkward-2023.8.0.tar.gz --markdown 20230802/d/dask-awkward/2023.7.1-2023.8.0/diff.md --exclude *.pyd
+[2023-08-02 00:40:41] INFO root fetch - processPackages [opentty]: executing diffoscope
+[2023-08-02 00:40:41] INFO root fetch - processPackages [opentty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentty-1.0.tar.gz tmp/opentty-1.0rc4.tar.gz --markdown 20230802/o/opentty/1.0-1.0rc4/diff.md --exclude *.pyd
+[2023-08-02 00:40:41] INFO root fetch - processPackages [dingman-openapi-server]: Downloading https://files.pythonhosted.org/packages/10/90/189b1f5486855c857eb9d800a25498a4589579d1659403dd60f63a708b7c/dingman_openapi_server-1.0.4.tar.gz
+[2023-08-02 00:40:41] INFO root fetch - processPackages [dingman-openapi-server]: executing diffoscope
+[2023-08-02 00:40:41] INFO root fetch - processPackages [dingman-openapi-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingman_openapi_server-1.0.3.tar.gz tmp/dingman_openapi_server-1.0.4.tar.gz --markdown 20230802/d/dingman-openapi-server/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-02 00:40:42] INFO root fetch - processPackages [gymnasium-trading]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_trading-0.0.2.tar.gz]
+[2023-08-02 00:40:42] INFO root fetch - processPackages [gymnasium-trading]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_trading-0.0.3.tar.gz]
+[2023-08-02 00:40:42] INFO root fetch - processPackages [gymnasium-trading]: Start processing: animethemes-beta-batch-encoder
+[2023-08-02 00:40:42] INFO root fetch - main [MainThread]: End processing [gymnasium-trading]: success
+[2023-08-02 00:40:42] INFO root fetch - processPackages [pypus]: Remove: archive file [/home/abi/fetcher/tmp/pypus-1.4.3.tar.gz]
+[2023-08-02 00:40:42] INFO root fetch - processPackages [pypus]: Remove: archive file [/home/abi/fetcher/tmp/pypus-1.4.4.tar.gz]
+[2023-08-02 00:40:42] INFO root fetch - main [MainThread]: End processing [pypus]: success
+[2023-08-02 00:40:42] INFO root fetch - processPackages [edwh-migrate]: Remove: archive file [/home/abi/fetcher/tmp/edwh_migrate-0.4.4.tar.gz]
+[2023-08-02 00:40:42] INFO root fetch - processPackages [edwh-migrate]: Remove: archive file [/home/abi/fetcher/tmp/edwh_migrate-0.5.0.tar.gz]
+[2023-08-02 00:40:42] INFO root fetch - main [MainThread]: End processing [edwh-migrate]: success
+[2023-08-02 00:40:42] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.54.4-py3-none-any.whl.zip]
+[2023-08-02 00:40:42] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.54.5-py3-none-any.whl.zip]
+[2023-08-02 00:40:42] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-08-02 00:40:42] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: New version: [1.4] Old Version: [1.3.1]
+[2023-08-02 00:40:42] INFO root fetch - processPackages [opentty]: Remove: archive file [/home/abi/fetcher/tmp/opentty-1.0.tar.gz]
+[2023-08-02 00:40:42] INFO root fetch - processPackages [opentty]: Remove: archive file [/home/abi/fetcher/tmp/opentty-1.0rc4.tar.gz]
+[2023-08-02 00:40:42] INFO root fetch - main [MainThread]: End processing [opentty]: success
+[2023-08-02 00:40:42] INFO root fetch - processPackages [dask-awkward]: Remove: archive file [/home/abi/fetcher/tmp/dask_awkward-2023.7.1.tar.gz]
+[2023-08-02 00:40:42] INFO root fetch - processPackages [dask-awkward]: Remove: archive file [/home/abi/fetcher/tmp/dask_awkward-2023.8.0.tar.gz]
+[2023-08-02 00:40:42] INFO root fetch - main [MainThread]: End processing [dask-awkward]: success
+[2023-08-02 00:40:42] INFO root fetch - processPackages [efrem-utils]: Remove: archive file [/home/abi/fetcher/tmp/efrem_utils-0.1.3.tar.gz]
+[2023-08-02 00:40:42] INFO root fetch - processPackages [efrem-utils]: Remove: archive file [/home/abi/fetcher/tmp/efrem_utils-0.1.4.tar.gz]
+[2023-08-02 00:40:42] INFO root fetch - main [MainThread]: End processing [efrem-utils]: success
+[2023-08-02 00:40:42] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: Downloading https://files.pythonhosted.org/packages/f0/24/d836e7c65b321c403471d69ba53813cba2c3496cb0cbbe12137eb2bb3696/animethemes-beta-batch-encoder-1.3.1.tar.gz
+[2023-08-02 00:40:43] INFO root fetch - processPackages [fixieai]: Remove: archive file [/home/abi/fetcher/tmp/fixieai-1.0.1.tar.gz]
+[2023-08-02 00:40:43] INFO root fetch - processPackages [fixieai]: Remove: archive file [/home/abi/fetcher/tmp/fixieai-1.0.2.tar.gz]
+[2023-08-02 00:40:43] INFO root fetch - main [MainThread]: End processing [fixieai]: success
+[2023-08-02 00:40:43] INFO root fetch - processPackages [dingman-openapi-server]: Remove: archive file [/home/abi/fetcher/tmp/dingman_openapi_server-1.0.3.tar.gz]
+[2023-08-02 00:40:43] INFO root fetch - processPackages [dingman-openapi-server]: Remove: archive file [/home/abi/fetcher/tmp/dingman_openapi_server-1.0.4.tar.gz]
+[2023-08-02 00:40:43] INFO root fetch - main [MainThread]: End processing [dingman-openapi-server]: success
+[2023-08-02 00:40:43] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.42.tar.gz]
+[2023-08-02 00:40:43] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.43.tar.gz]
+[2023-08-02 00:40:43] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-08-02 00:40:43] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: Downloading https://files.pythonhosted.org/packages/ad/9e/c2c9e5574571efc179a721e525ce1350c37db740be27cbd2e9e678aa5e59/animethemes-beta-batch-encoder-1.4.tar.gz
+[2023-08-02 00:40:43] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: executing diffoscope
+[2023-08-02 00:40:43] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animethemes-beta-batch-encoder-1.3.1.tar.gz tmp/animethemes-beta-batch-encoder-1.4.tar.gz --markdown 20230802/a/animethemes-beta-batch-encoder/1.3.1-1.4/diff.md --exclude *.pyd
+[2023-08-02 00:40:44] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: Remove: archive file [/home/abi/fetcher/tmp/animethemes-beta-batch-encoder-1.3.1.tar.gz]
+[2023-08-02 00:40:44] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: Remove: archive file [/home/abi/fetcher/tmp/animethemes-beta-batch-encoder-1.4.tar.gz]
+[2023-08-02 00:40:44] INFO root fetch - main [MainThread]: End processing [animethemes-beta-batch-encoder]: success
+[2023-08-02 00:40:44] INFO root fetch - main [MainThread]: Store serial: [19131944]

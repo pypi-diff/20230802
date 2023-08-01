@@ -932,3 +932,100 @@
 [2023-08-02 00:45:56] INFO root fetch - processPackages [FinderZ]: Remove: archive file [/home/abi/fetcher/tmp/finderz-2.0.4.tar.gz]
 [2023-08-02 00:45:56] INFO root fetch - main [MainThread]: End processing [FinderZ]: success
 [2023-08-02 00:45:56] INFO root fetch - main [MainThread]: Store serial: [19131991]
+[2023-08-02 00:51:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19131991]
+[2023-08-02 00:51:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-02 00:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NikGapps
+[2023-08-02 00:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: microjoy
+[2023-08-02 00:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phoebusgen
+[2023-08-02 00:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zouti-utils
+[2023-08-02 00:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: microjoy
+[2023-08-02 00:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certbot-dns-infoblox-2
+[2023-08-02 00:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chai-guanaco
+[2023-08-02 00:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: microjoy
+[2023-08-02 00:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metcalcpy
+[2023-08-02 00:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: azureml-rai-utils
+[2023-08-02 00:51:05] INFO root fetch - processPackages [zouti-utils]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-02 00:51:05] INFO root fetch - processPackages [microjoy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 00:51:05] INFO root fetch - processPackages [NikGapps]: New version: [1.72] Old Version: [1.71]
+[2023-08-02 00:51:05] INFO root fetch - processPackages [azureml-rai-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-02 00:51:05] INFO root fetch - processPackages [phoebusgen]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-08-02 00:51:05] INFO root fetch - processPackages [microjoy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 00:51:05] WARNING root fetch - processPackages [certbot-dns-infoblox-2]: Skipping, unable to determine old version
+[2023-08-02 00:51:05] INFO root fetch - processPackages [certbot-dns-infoblox-2]: Start processing: ethpwn-pyevmasm
+[2023-08-02 00:51:05] INFO root fetch - processPackages [metcalcpy]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-08-02 00:51:05] INFO root fetch - main [MainThread]: End processing [certbot-dns-infoblox-2] error
+[2023-08-02 00:51:05] INFO root fetch - processPackages [microjoy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 00:51:05] INFO root fetch - processPackages [chai-guanaco]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-08-02 00:51:05] INFO root fetch - processPackages [ethpwn-pyevmasm]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-02 00:51:05] INFO root fetch - processPackages [zouti-utils]: Downloading https://files.pythonhosted.org/packages/ec/1d/caef607cb149d2751f7a0cdf90aaad75740a13e847ab7ce483801763686b/zouti-utils-1.0.0.tar.gz
+[2023-08-02 00:51:05] INFO root fetch - processPackages [metcalcpy]: Downloading https://files.pythonhosted.org/packages/05/15/ddfd6372ca5738dee5c067155e3a69d620d06e9d0707aa388332372baf5d/metcalcpy-2.0.2.tar.gz
+[2023-08-02 00:51:05] INFO root fetch - processPackages [microjoy]: Downloading https://files.pythonhosted.org/packages/6e/27/55dd54b48b99626a38b862d11499c355bbefa92e0138939aeffb936937f8/microjoy-0.0.2.tar.gz
+[2023-08-02 00:51:05] INFO root fetch - processPackages [microjoy]: Downloading https://files.pythonhosted.org/packages/6e/27/55dd54b48b99626a38b862d11499c355bbefa92e0138939aeffb936937f8/microjoy-0.0.2.tar.gz
+[2023-08-02 00:51:05] INFO root fetch - processPackages [microjoy]: Downloading https://files.pythonhosted.org/packages/6e/27/55dd54b48b99626a38b862d11499c355bbefa92e0138939aeffb936937f8/microjoy-0.0.2.tar.gz
+[2023-08-02 00:51:05] INFO root fetch - processPackages [azureml-rai-utils]: Downloading https://files.pythonhosted.org/packages/5c/7c/d2fcc4f381440e3830f12cd123e180d47384f843e2023216cb16b6c42b5f/azureml_rai_utils-0.0.4-py3-none-any.whl
+[2023-08-02 00:51:05] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/9e/d7/ab581f155bfa542044ead021f325aa86f76d10a9178496738e1984267ea1/NikGapps-1.71.tar.gz
+[2023-08-02 00:51:05] INFO root fetch - processPackages [phoebusgen]: Downloading https://files.pythonhosted.org/packages/d4/3a/b29d113f7e757f6dce5160958d69ad237d1914968a6b2f46551d82b48c41/phoebusgen-2.6.1.tar.gz
+[2023-08-02 00:51:05] INFO root fetch - processPackages [ethpwn-pyevmasm]: Downloading https://files.pythonhosted.org/packages/ab/a2/55fa9e901f2c90d0c0fa19de033968022f1bd72cb599e8704afeb242471b/ethpwn-pyevmasm-0.2.4.tar.gz
+[2023-08-02 00:51:05] INFO root fetch - processPackages [chai-guanaco]: Downloading https://files.pythonhosted.org/packages/c8/ca/d4b7f07a8d24350cf2b3072ed1dba2ea4ca35531c6ac658f577f9837e24b/chai-guanaco-1.0.7.tar.gz
+[2023-08-02 00:51:05] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41566931>=10485760
+[2023-08-02 00:51:05] INFO root fetch - processPackages [NikGapps]: Start processing: PythonPackageUpdateChecker
+[2023-08-02 00:51:05] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-08-02 00:51:06] INFO root fetch - processPackages [PythonPackageUpdateChecker]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-02 00:51:06] INFO root fetch - processPackages [zouti-utils]: Downloading https://files.pythonhosted.org/packages/f7/ad/4c6a73b766dc125dfe4c7ccd60c942c9df3bcaf99c811c1219e007034b6d/zouti-utils-1.0.1.tar.gz
+[2023-08-02 00:51:06] INFO root fetch - processPackages [metcalcpy]: Downloading https://files.pythonhosted.org/packages/2f/2b/0206e7e63e66e54c5f2a0bc3c3a7665dd4e44430fd7887c3e0f9f1664892/metcalcpy-2.1.0.tar.gz
+[2023-08-02 00:51:06] INFO root fetch - processPackages [microjoy]: Downloading https://files.pythonhosted.org/packages/19/8a/2ae5bc8c2a86a091f237e0428b7e7db9abf1be843691ace951e1eea491b6/microjoy-0.0.3.tar.gz
+[2023-08-02 00:51:06] INFO root fetch - processPackages [microjoy]: Downloading https://files.pythonhosted.org/packages/19/8a/2ae5bc8c2a86a091f237e0428b7e7db9abf1be843691ace951e1eea491b6/microjoy-0.0.3.tar.gz
+[2023-08-02 00:51:06] INFO root fetch - processPackages [microjoy]: Downloading https://files.pythonhosted.org/packages/19/8a/2ae5bc8c2a86a091f237e0428b7e7db9abf1be843691ace951e1eea491b6/microjoy-0.0.3.tar.gz
+[2023-08-02 00:51:06] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Downloading https://files.pythonhosted.org/packages/b7/a8/c3dc344da8a6bfb776bc178705e12c9476680ef6fd85c77b63be4d81e676/PythonPackageUpdateChecker-1.0.4.tar.gz
+[2023-08-02 00:51:06] INFO root fetch - processPackages [azureml-rai-utils]: Downloading https://files.pythonhosted.org/packages/99/f4/0710866bc7d87854c4b65256d228e7682d7db27bb6f994671960fdc17161/azureml_rai_utils-0.0.5-py3-none-any.whl
+[2023-08-02 00:51:06] INFO root fetch - processPackages [ethpwn-pyevmasm]: Downloading https://files.pythonhosted.org/packages/64/56/f2f21e43a0d96be7223cb0f654070dc0800343d6e64baadfee4e0cd08c3b/ethpwn-pyevmasm-0.2.5.tar.gz
+[2023-08-02 00:51:06] INFO root fetch - processPackages [metcalcpy]: executing diffoscope
+[2023-08-02 00:51:06] INFO root fetch - processPackages [metcalcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metcalcpy-2.0.2.tar.gz tmp/metcalcpy-2.1.0.tar.gz --markdown 20230802/m/metcalcpy/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-08-02 00:51:06] INFO root fetch - processPackages [phoebusgen]: Downloading https://files.pythonhosted.org/packages/bb/0d/8afb1270cfe42d5826d74c4efa01ae7ba6339455878a4592f8672b3df371/phoebusgen-2.6.2.tar.gz
+[2023-08-02 00:51:06] INFO root fetch - processPackages [zouti-utils]: executing diffoscope
+[2023-08-02 00:51:06] INFO root fetch - processPackages [zouti-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zouti-utils-1.0.0.tar.gz tmp/zouti-utils-1.0.1.tar.gz --markdown 20230802/z/zouti-utils/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-02 00:51:06] INFO root fetch - processPackages [microjoy]: executing diffoscope
+[2023-08-02 00:51:06] INFO root fetch - processPackages [microjoy]: executing diffoscope
+[2023-08-02 00:51:06] INFO root fetch - processPackages [microjoy]: executing diffoscope
+[2023-08-02 00:51:06] INFO root fetch - processPackages [microjoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microjoy-0.0.2.tar.gz tmp/microjoy-0.0.3.tar.gz --markdown 20230802/m/microjoy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 00:51:06] INFO root fetch - processPackages [microjoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microjoy-0.0.2.tar.gz tmp/microjoy-0.0.3.tar.gz --markdown 20230802/m/microjoy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 00:51:06] INFO root fetch - processPackages [microjoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microjoy-0.0.2.tar.gz tmp/microjoy-0.0.3.tar.gz --markdown 20230802/m/microjoy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 00:51:06] INFO root fetch - processPackages [azureml-rai-utils]: executing diffoscope
+[2023-08-02 00:51:06] INFO root fetch - processPackages [azureml-rai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_rai_utils-0.0.4-py3-none-any.whl.zip tmp/azureml_rai_utils-0.0.5-py3-none-any.whl.zip --markdown 20230802/a/azureml-rai-utils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-02 00:51:06] INFO root fetch - processPackages [ethpwn-pyevmasm]: executing diffoscope
+[2023-08-02 00:51:06] INFO root fetch - processPackages [ethpwn-pyevmasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethpwn-pyevmasm-0.2.4.tar.gz tmp/ethpwn-pyevmasm-0.2.5.tar.gz --markdown 20230802/e/ethpwn-pyevmasm/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-02 00:51:06] INFO root fetch - processPackages [phoebusgen]: executing diffoscope
+[2023-08-02 00:51:06] INFO root fetch - processPackages [phoebusgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phoebusgen-2.6.1.tar.gz tmp/phoebusgen-2.6.2.tar.gz --markdown 20230802/p/phoebusgen/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-08-02 00:51:06] INFO root fetch - processPackages [chai-guanaco]: Downloading https://files.pythonhosted.org/packages/33/55/65d4067ada8ee0171bbea9ded7119d1b2856abea03926c542bbf6a169737/chai-guanaco-1.0.8.tar.gz
+[2023-08-02 00:51:06] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Downloading https://files.pythonhosted.org/packages/97/94/f09e9ff718474618b99172087b7b5864b1bb595aeb7a29ff4721d26541c6/PythonPackageUpdateChecker-1.0.5.tar.gz
+[2023-08-02 00:51:06] INFO root fetch - processPackages [chai-guanaco]: executing diffoscope
+[2023-08-02 00:51:06] INFO root fetch - processPackages [chai-guanaco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chai-guanaco-1.0.7.tar.gz tmp/chai-guanaco-1.0.8.tar.gz --markdown 20230802/c/chai-guanaco/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-08-02 00:51:07] INFO root fetch - processPackages [PythonPackageUpdateChecker]: executing diffoscope
+[2023-08-02 00:51:07] INFO root fetch - processPackages [PythonPackageUpdateChecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonPackageUpdateChecker-1.0.4.tar.gz tmp/PythonPackageUpdateChecker-1.0.5.tar.gz --markdown 20230802/P/PythonPackageUpdateChecker/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-02 00:51:07] INFO root fetch - processPackages [zouti-utils]: Remove: archive file [/home/abi/fetcher/tmp/zouti-utils-1.0.0.tar.gz]
+[2023-08-02 00:51:07] INFO root fetch - processPackages [zouti-utils]: Remove: archive file [/home/abi/fetcher/tmp/zouti-utils-1.0.1.tar.gz]
+[2023-08-02 00:51:07] INFO root fetch - main [MainThread]: End processing [zouti-utils]: success
+[2023-08-02 00:51:08] INFO root fetch - processPackages [microjoy]: Remove: archive file [/home/abi/fetcher/tmp/microjoy-0.0.2.tar.gz]
+[2023-08-02 00:51:08] INFO root fetch - processPackages [microjoy]: Remove: archive file [/home/abi/fetcher/tmp/microjoy-0.0.3.tar.gz]
+[2023-08-02 00:51:08] INFO root fetch - main [MainThread]: End processing [microjoy]: success
+[2023-08-02 00:51:08] INFO root fetch - processPackages [ethpwn-pyevmasm]: Remove: archive file [/home/abi/fetcher/tmp/ethpwn-pyevmasm-0.2.4.tar.gz]
+[2023-08-02 00:51:08] INFO root fetch - processPackages [ethpwn-pyevmasm]: Remove: archive file [/home/abi/fetcher/tmp/ethpwn-pyevmasm-0.2.5.tar.gz]
+[2023-08-02 00:51:08] INFO root fetch - main [MainThread]: End processing [ethpwn-pyevmasm]: success
+[2023-08-02 00:51:08] INFO root fetch - main [MainThread]: End processing [microjoy]: success
+[2023-08-02 00:51:08] INFO root fetch - main [MainThread]: End processing [microjoy]: success
+[2023-08-02 00:51:08] INFO root fetch - processPackages [phoebusgen]: Remove: archive file [/home/abi/fetcher/tmp/phoebusgen-2.6.1.tar.gz]
+[2023-08-02 00:51:08] INFO root fetch - processPackages [phoebusgen]: Remove: archive file [/home/abi/fetcher/tmp/phoebusgen-2.6.2.tar.gz]
+[2023-08-02 00:51:08] INFO root fetch - main [MainThread]: End processing [phoebusgen]: success
+[2023-08-02 00:51:08] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Remove: archive file [/home/abi/fetcher/tmp/PythonPackageUpdateChecker-1.0.4.tar.gz]
+[2023-08-02 00:51:08] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Remove: archive file [/home/abi/fetcher/tmp/PythonPackageUpdateChecker-1.0.5.tar.gz]
+[2023-08-02 00:51:08] INFO root fetch - main [MainThread]: End processing [PythonPackageUpdateChecker]: success
+[2023-08-02 00:51:08] INFO root fetch - processPackages [azureml-rai-utils]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rai_utils-0.0.4-py3-none-any.whl.zip]
+[2023-08-02 00:51:08] INFO root fetch - processPackages [azureml-rai-utils]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rai_utils-0.0.5-py3-none-any.whl.zip]
+[2023-08-02 00:51:08] INFO root fetch - main [MainThread]: End processing [azureml-rai-utils]: success
+[2023-08-02 00:51:08] INFO root fetch - processPackages [metcalcpy]: Remove: archive file [/home/abi/fetcher/tmp/metcalcpy-2.0.2.tar.gz]
+[2023-08-02 00:51:08] INFO root fetch - processPackages [metcalcpy]: Remove: archive file [/home/abi/fetcher/tmp/metcalcpy-2.1.0.tar.gz]
+[2023-08-02 00:51:08] INFO root fetch - main [MainThread]: End processing [metcalcpy]: success
+[2023-08-02 00:51:09] INFO root fetch - processPackages [chai-guanaco]: Remove: archive file [/home/abi/fetcher/tmp/chai-guanaco-1.0.7.tar.gz]
+[2023-08-02 00:51:09] INFO root fetch - processPackages [chai-guanaco]: Remove: archive file [/home/abi/fetcher/tmp/chai-guanaco-1.0.8.tar.gz]
+[2023-08-02 00:51:09] INFO root fetch - main [MainThread]: End processing [chai-guanaco]: success
+[2023-08-02 00:51:09] INFO root fetch - main [MainThread]: Store serial: [19132034]

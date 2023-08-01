@@ -1501,3 +1501,63 @@
 [2023-08-02 01:17:23] INFO root fetch - processPackages [wallycore]: Remove: archive file [/home/abi/fetcher/tmp/wallycore-0.9.1-cp39-cp39-macosx_10_9_universal2.whl.zip]
 [2023-08-02 01:17:23] INFO root fetch - main [MainThread]: End processing [wallycore]: success
 [2023-08-02 01:17:23] INFO root fetch - main [MainThread]: Store serial: [19132322]
+[2023-08-02 01:22:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19132322]
+[2023-08-02 01:22:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-02 01:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certbot-dns-infoblox-2
+[2023-08-02 01:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioTrends
+[2023-08-02 01:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PythonPackageUpdateChecker
+[2023-08-02 01:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alertmanagermeshtastic
+[2023-08-02 01:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discovery-capability
+[2023-08-02 01:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wordcel
+[2023-08-02 01:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: memray
+[2023-08-02 01:22:32] WARNING root fetch - processPackages [certbot-dns-infoblox-2]: Skipping, unable to determine old version
+[2023-08-02 01:22:32] INFO root fetch - main [MainThread]: End processing [certbot-dns-infoblox-2] error
+[2023-08-02 01:22:32] INFO root fetch - processPackages [discovery-capability]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-08-02 01:22:32] INFO root fetch - processPackages [PythonPackageUpdateChecker]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-02 01:22:32] INFO root fetch - processPackages [alertmanagermeshtastic]: New version: [2023.8.1.14] Old Version: [2023.8.1.13]
+[2023-08-02 01:22:32] INFO root fetch - processPackages [aioTrends]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 01:22:32] INFO root fetch - processPackages [wordcel]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-02 01:22:32] INFO root fetch - processPackages [memray]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-02 01:22:32] INFO root fetch - processPackages [alertmanagermeshtastic]: Downloading https://files.pythonhosted.org/packages/d1/6b/8f0c19d3947117baf240a699afb17fbd3d7a31025cb19bfa90c0b13e8c3f/alertmanagermeshtastic-2023.8.1.13.tar.gz
+[2023-08-02 01:22:32] INFO root fetch - processPackages [aioTrends]: Downloading https://files.pythonhosted.org/packages/01/3f/07c0d86b5902239ab190d7916e01b941ebb65fa04e511f7dd6f6ea669ba0/aioTrends-0.0.2.tar.gz
+[2023-08-02 01:22:32] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/a9/88/9b4f133d4bbbba67f05bb8fca36190be00703069ebc897b84c86f55f6d3b/discovery-capability-0.5.3.tar.gz
+[2023-08-02 01:22:32] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Downloading https://files.pythonhosted.org/packages/bf/07/79b6b29e2e5725b1a3b018a87b336e0bb50f260f24ddc51838f60ccbdb64/PythonPackageUpdateChecker-1.0.6.tar.gz
+[2023-08-02 01:22:32] INFO root fetch - processPackages [memray]: Downloading https://files.pythonhosted.org/packages/fc/d1/9e6e6f3c4f1947abebf88e32026ce176789867705137c3abb014b80964fd/memray-1.9.0.tar.gz
+[2023-08-02 01:22:32] INFO root fetch - processPackages [wordcel]: Downloading https://files.pythonhosted.org/packages/ec/a6/8d1eea5ae0e4fdd8db41dff7050b8e6740ffc818256c0fd52ecbb22ab9bd/wordcel-0.0.3.tar.gz
+[2023-08-02 01:22:32] INFO root fetch - processPackages [aioTrends]: Downloading https://files.pythonhosted.org/packages/68/12/57a9cffe972a4587fe399907eb2f764c218f99b0795f349c14e9627aa42c/aioTrends-0.0.3.tar.gz
+[2023-08-02 01:22:32] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Downloading https://files.pythonhosted.org/packages/a7/f1/23b29098c4378b07e469f37a73b408ac1a525d0f88a1863638694c870444/PythonPackageUpdateChecker-1.0.7.tar.gz
+[2023-08-02 01:22:32] INFO root fetch - processPackages [alertmanagermeshtastic]: Downloading https://files.pythonhosted.org/packages/9b/8b/d26899606d3fb2d461cdf6a81e10360ffb7071944370411c8bf8ac01af80/alertmanagermeshtastic-2023.8.1.14.tar.gz
+[2023-08-02 01:22:32] INFO root fetch - processPackages [alertmanagermeshtastic]: executing diffoscope
+[2023-08-02 01:22:32] INFO root fetch - processPackages [alertmanagermeshtastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alertmanagermeshtastic-2023.8.1.13.tar.gz tmp/alertmanagermeshtastic-2023.8.1.14.tar.gz --markdown 20230802/a/alertmanagermeshtastic/2023.8.1.13-2023.8.1.14/diff.md --exclude *.pyd
+[2023-08-02 01:22:32] INFO root fetch - processPackages [memray]: Downloading https://files.pythonhosted.org/packages/a0/84/31ff773d6c36baeb232093fdb812d1d75ca933b98398cd345a03a5255e97/memray-1.9.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-08-02 01:22:32] INFO root fetch - processPackages [PythonPackageUpdateChecker]: executing diffoscope
+[2023-08-02 01:22:32] INFO root fetch - processPackages [PythonPackageUpdateChecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonPackageUpdateChecker-1.0.6.tar.gz tmp/PythonPackageUpdateChecker-1.0.7.tar.gz --markdown 20230802/P/PythonPackageUpdateChecker/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-02 01:22:33] INFO root fetch - processPackages [wordcel]: Downloading https://files.pythonhosted.org/packages/a9/10/8929d3ae9183abe01a4656fca207828dbed46658c127f8733f67dbda9e81/wordcel-0.0.4.tar.gz
+[2023-08-02 01:22:33] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/3b/c6/b74f35aac273754f8970ec06e73ee3b385412e0a254330125b8a634b470f/discovery-capability-0.5.4.tar.gz
+[2023-08-02 01:22:33] INFO root fetch - processPackages [aioTrends]: executing diffoscope
+[2023-08-02 01:22:33] INFO root fetch - processPackages [aioTrends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioTrends-0.0.2.tar.gz tmp/aioTrends-0.0.3.tar.gz --markdown 20230802/a/aioTrends/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 01:22:33] INFO root fetch - processPackages [wordcel]: executing diffoscope
+[2023-08-02 01:22:33] INFO root fetch - processPackages [wordcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordcel-0.0.3.tar.gz tmp/wordcel-0.0.4.tar.gz --markdown 20230802/w/wordcel/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-02 01:22:33] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Remove: archive file [/home/abi/fetcher/tmp/PythonPackageUpdateChecker-1.0.6.tar.gz]
+[2023-08-02 01:22:33] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Remove: archive file [/home/abi/fetcher/tmp/PythonPackageUpdateChecker-1.0.7.tar.gz]
+[2023-08-02 01:22:33] INFO root fetch - main [MainThread]: End processing [PythonPackageUpdateChecker]: success
+[2023-08-02 01:22:33] INFO root fetch - processPackages [alertmanagermeshtastic]: Remove: archive file [/home/abi/fetcher/tmp/alertmanagermeshtastic-2023.8.1.13.tar.gz]
+[2023-08-02 01:22:33] INFO root fetch - processPackages [alertmanagermeshtastic]: Remove: archive file [/home/abi/fetcher/tmp/alertmanagermeshtastic-2023.8.1.14.tar.gz]
+[2023-08-02 01:22:33] INFO root fetch - main [MainThread]: End processing [alertmanagermeshtastic]: success
+[2023-08-02 01:22:33] INFO root fetch - processPackages [aioTrends]: Remove: archive file [/home/abi/fetcher/tmp/aioTrends-0.0.2.tar.gz]
+[2023-08-02 01:22:33] INFO root fetch - processPackages [aioTrends]: Remove: archive file [/home/abi/fetcher/tmp/aioTrends-0.0.3.tar.gz]
+[2023-08-02 01:22:33] INFO root fetch - main [MainThread]: End processing [aioTrends]: success
+[2023-08-02 01:22:34] INFO root fetch - processPackages [wordcel]: Remove: archive file [/home/abi/fetcher/tmp/wordcel-0.0.3.tar.gz]
+[2023-08-02 01:22:34] INFO root fetch - processPackages [wordcel]: Remove: archive file [/home/abi/fetcher/tmp/wordcel-0.0.4.tar.gz]
+[2023-08-02 01:22:34] INFO root fetch - main [MainThread]: End processing [wordcel]: success
+[2023-08-02 01:22:34] INFO root fetch - processPackages [discovery-capability]: executing diffoscope
+[2023-08-02 01:22:34] INFO root fetch - processPackages [discovery-capability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-capability-0.5.3.tar.gz tmp/discovery-capability-0.5.4.tar.gz --markdown 20230802/d/discovery-capability/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-08-02 01:22:35] INFO root fetch - processPackages [memray]: executing diffoscope
+[2023-08-02 01:22:35] INFO root fetch - processPackages [memray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memray-1.9.0.tar.gz tmp/memray-1.9.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230802/m/memray/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-02 01:22:37] INFO root fetch - processPackages [memray]: Remove: archive file [/home/abi/fetcher/tmp/memray-1.9.0.tar.gz]
+[2023-08-02 01:22:37] INFO root fetch - processPackages [memray]: Remove: archive file [/home/abi/fetcher/tmp/memray-1.9.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-08-02 01:22:37] INFO root fetch - main [MainThread]: End processing [memray]: success
+[2023-08-02 01:22:37] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.3.tar.gz]
+[2023-08-02 01:22:37] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.4.tar.gz]
+[2023-08-02 01:22:37] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
+[2023-08-02 01:22:37] INFO root fetch - main [MainThread]: Store serial: [19132355]

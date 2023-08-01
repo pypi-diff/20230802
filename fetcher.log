@@ -1443,3 +1443,61 @@
 [2023-08-02 01:12:11] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.3.tar.gz]
 [2023-08-02 01:12:11] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
 [2023-08-02 01:12:11] INFO root fetch - main [MainThread]: Store serial: [19132277]
+[2023-08-02 01:17:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19132277]
+[2023-08-02 01:17:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-02 01:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: envkeeper
+[2023-08-02 01:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syscolouringsaddV2
+[2023-08-02 01:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wallycore
+[2023-08-02 01:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fprime-native-images
+[2023-08-02 01:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: litellm
+[2023-08-02 01:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fast-dash
+[2023-08-02 01:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: syscolouringsaddV2
+[2023-08-02 01:17:20] WARNING root fetch - processPackages [fprime-native-images]: Skipping, unable to determine old version
+[2023-08-02 01:17:20] INFO root fetch - main [MainThread]: End processing [fprime-native-images] error
+[2023-08-02 01:17:20] INFO root fetch - processPackages [envkeeper]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 01:17:20] INFO root fetch - processPackages [litellm]: New version: [0.1.208] Old Version: [0.1.207]
+[2023-08-02 01:17:20] INFO root fetch - processPackages [wallycore]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-02 01:17:20] INFO root fetch - processPackages [syscolouringsaddV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-02 01:17:20] INFO root fetch - processPackages [syscolouringsaddV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-02 01:17:20] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/99/9c/5af32be4c7662cedc19ea1a5b81e22f67b2502c578ce33ef4f6f5c3ae891/litellm-0.1.207.tar.gz
+[2023-08-02 01:17:20] INFO root fetch - processPackages [fast-dash]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-02 01:17:20] INFO root fetch - processPackages [envkeeper]: Downloading https://files.pythonhosted.org/packages/82/e0/5af0c49d54b783f32a948a7c0a15903f43e81fde1e3508bbb0ac5d6d83c5/envkeeper-0.0.1.tar.gz
+[2023-08-02 01:17:20] INFO root fetch - processPackages [wallycore]: Downloading https://files.pythonhosted.org/packages/08/e2/cf7b2094d45052ea677eab153ce0dcc5077d5c1ac7284b4f3f76a6f37a88/wallycore-0.9.0-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-08-02 01:17:21] INFO root fetch - processPackages [syscolouringsaddV2]: Downloading https://files.pythonhosted.org/packages/2a/67/897eabeda50a8bb3e426cd8f853e17ead21e5f02c2bc83b629436efca168/syscolouringsaddV2-1.0.0.tar.gz
+[2023-08-02 01:17:21] INFO root fetch - processPackages [syscolouringsaddV2]: Downloading https://files.pythonhosted.org/packages/2a/67/897eabeda50a8bb3e426cd8f853e17ead21e5f02c2bc83b629436efca168/syscolouringsaddV2-1.0.0.tar.gz
+[2023-08-02 01:17:21] INFO root fetch - processPackages [fast-dash]: Downloading https://files.pythonhosted.org/packages/84/09/2d60a63d4a0c7fc24aaf89064d36f66d1b6f5d56723445fd0a0ae7b05bef/fast_dash-0.2.2.tar.gz
+[2023-08-02 01:17:21] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/6b/11/fc010e4dfd2a18503c2dec89812ee5d5a04e71439bd2f9a0868401849637/litellm-0.1.208.tar.gz
+[2023-08-02 01:17:21] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-02 01:17:21] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.207.tar.gz tmp/litellm-0.1.208.tar.gz --markdown 20230802/l/litellm/0.1.207-0.1.208/diff.md --exclude *.pyd
+[2023-08-02 01:17:21] INFO root fetch - processPackages [envkeeper]: Downloading https://files.pythonhosted.org/packages/83/90/bb88965288a28687c807e16f06fc6131c12bdf4773ea117ac41ed43d0139/envkeeper-0.0.2.tar.gz
+[2023-08-02 01:17:21] INFO root fetch - processPackages [syscolouringsaddV2]: Downloading https://files.pythonhosted.org/packages/e4/70/19996a71650c552ba3c68476e511b9fce18a367fd2829d06f9d4c7ebaa57/syscolouringsaddV2-1.1.0.tar.gz
+[2023-08-02 01:17:21] INFO root fetch - processPackages [syscolouringsaddV2]: Downloading https://files.pythonhosted.org/packages/e4/70/19996a71650c552ba3c68476e511b9fce18a367fd2829d06f9d4c7ebaa57/syscolouringsaddV2-1.1.0.tar.gz
+[2023-08-02 01:17:21] INFO root fetch - processPackages [fast-dash]: Downloading https://files.pythonhosted.org/packages/ac/a6/91b8d835e32a4391fe6eb4a9fd7c6cf6bc34cc5528c39641c720c653013e/fast_dash-0.2.3.tar.gz
+[2023-08-02 01:17:21] INFO root fetch - processPackages [envkeeper]: executing diffoscope
+[2023-08-02 01:17:21] INFO root fetch - processPackages [envkeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envkeeper-0.0.1.tar.gz tmp/envkeeper-0.0.2.tar.gz --markdown 20230802/e/envkeeper/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 01:17:21] INFO root fetch - processPackages [syscolouringsaddV2]: executing diffoscope
+[2023-08-02 01:17:21] INFO root fetch - processPackages [syscolouringsaddV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syscolouringsaddV2-1.0.0.tar.gz tmp/syscolouringsaddV2-1.1.0.tar.gz --markdown 20230802/s/syscolouringsaddV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-02 01:17:21] INFO root fetch - processPackages [syscolouringsaddV2]: executing diffoscope
+[2023-08-02 01:17:21] INFO root fetch - processPackages [syscolouringsaddV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syscolouringsaddV2-1.0.0.tar.gz tmp/syscolouringsaddV2-1.1.0.tar.gz --markdown 20230802/s/syscolouringsaddV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-02 01:17:21] INFO root fetch - processPackages [fast-dash]: executing diffoscope
+[2023-08-02 01:17:21] INFO root fetch - processPackages [fast-dash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_dash-0.2.2.tar.gz tmp/fast_dash-0.2.3.tar.gz --markdown 20230802/f/fast-dash/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-02 01:17:21] INFO root fetch - processPackages [wallycore]: Downloading https://files.pythonhosted.org/packages/84/16/9a19768b131eb65d85bbee95d6fa57c17a87668ac252819e3c6e54ef9a45/wallycore-0.9.1-cp39-cp39-macosx_10_9_universal2.whl
+[2023-08-02 01:17:22] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.207.tar.gz]
+[2023-08-02 01:17:22] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.208.tar.gz]
+[2023-08-02 01:17:22] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-02 01:17:22] INFO root fetch - processPackages [envkeeper]: Remove: archive file [/home/abi/fetcher/tmp/envkeeper-0.0.1.tar.gz]
+[2023-08-02 01:17:22] INFO root fetch - processPackages [envkeeper]: Remove: archive file [/home/abi/fetcher/tmp/envkeeper-0.0.2.tar.gz]
+[2023-08-02 01:17:22] INFO root fetch - main [MainThread]: End processing [envkeeper]: success
+[2023-08-02 01:17:22] INFO root fetch - processPackages [syscolouringsaddV2]: Remove: archive file [/home/abi/fetcher/tmp/syscolouringsaddV2-1.0.0.tar.gz]
+[2023-08-02 01:17:22] INFO root fetch - processPackages [syscolouringsaddV2]: Remove: archive file [/home/abi/fetcher/tmp/syscolouringsaddV2-1.1.0.tar.gz]
+[2023-08-02 01:17:22] INFO root fetch - main [MainThread]: End processing [syscolouringsaddV2]: success
+[2023-08-02 01:17:22] INFO root fetch - processPackages [fast-dash]: Remove: archive file [/home/abi/fetcher/tmp/fast_dash-0.2.2.tar.gz]
+[2023-08-02 01:17:22] INFO root fetch - processPackages [fast-dash]: Remove: archive file [/home/abi/fetcher/tmp/fast_dash-0.2.3.tar.gz]
+[2023-08-02 01:17:22] INFO root fetch - main [MainThread]: End processing [fast-dash]: success
+[2023-08-02 01:17:22] INFO root fetch - main [MainThread]: End processing [syscolouringsaddV2]: success
+[2023-08-02 01:17:22] INFO root fetch - processPackages [wallycore]: executing diffoscope
+[2023-08-02 01:17:22] INFO root fetch - processPackages [wallycore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wallycore-0.9.0-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/wallycore-0.9.1-cp39-cp39-macosx_10_9_universal2.whl.zip --markdown 20230802/w/wallycore/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-02 01:17:23] INFO root fetch - processPackages [wallycore]: Remove: archive file [/home/abi/fetcher/tmp/wallycore-0.9.0-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-08-02 01:17:23] INFO root fetch - processPackages [wallycore]: Remove: archive file [/home/abi/fetcher/tmp/wallycore-0.9.1-cp39-cp39-macosx_10_9_universal2.whl.zip]
+[2023-08-02 01:17:23] INFO root fetch - main [MainThread]: End processing [wallycore]: success
+[2023-08-02 01:17:23] INFO root fetch - main [MainThread]: Store serial: [19132322]

@@ -1561,3 +1561,54 @@
 [2023-08-02 01:22:37] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.4.tar.gz]
 [2023-08-02 01:22:37] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
 [2023-08-02 01:22:37] INFO root fetch - main [MainThread]: Store serial: [19132355]
+[2023-08-02 01:27:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19132355]
+[2023-08-02 01:27:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-02 01:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openid-whisperer
+[2023-08-02 01:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-spykes
+[2023-08-02 01:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cog
+[2023-08-02 01:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FedxD
+[2023-08-02 01:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: litellm
+[2023-08-02 01:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scale-llm-engine
+[2023-08-02 01:27:46] INFO root fetch - processPackages [openid-whisperer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 01:27:46] INFO root fetch - processPackages [litellm]: New version: [0.1.209] Old Version: [0.1.208]
+[2023-08-02 01:27:46] INFO root fetch - processPackages [simple-spykes]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 01:27:46] INFO root fetch - processPackages [cog]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-08-02 01:27:46] INFO root fetch - processPackages [scale-llm-engine]: New version: [0.0.0b8] Old Version: [0.0.0b7]
+[2023-08-02 01:27:46] WARNING root fetch - processPackages [FedxD]: Skipping, unable to determine old version
+[2023-08-02 01:27:46] INFO root fetch - main [MainThread]: End processing [FedxD] error
+[2023-08-02 01:27:46] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/6b/11/fc010e4dfd2a18503c2dec89812ee5d5a04e71439bd2f9a0868401849637/litellm-0.1.208.tar.gz
+[2023-08-02 01:27:46] INFO root fetch - processPackages [openid-whisperer]: Downloading https://files.pythonhosted.org/packages/ec/3d/a5014b38f99cf76e534a5affa63a810d5fc5d418b1b104eff322555e130a/openid_whisperer-0.1.8.tar.gz
+[2023-08-02 01:27:46] INFO root fetch - processPackages [simple-spykes]: Downloading https://files.pythonhosted.org/packages/87/fa/c7de9ac0fae3cecafcaf9594245387958a2d52d32c6ea61222d367c43494/simple_spykes-0.0.1.tar.gz
+[2023-08-02 01:27:46] INFO root fetch - processPackages [cog]: Downloading https://files.pythonhosted.org/packages/d0/21/f2267053a0906c0d19f4ee715158093388f9e212206979d06aa8421130ce/cog-0.8.4-py3-none-any.whl
+[2023-08-02 01:27:46] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/8a/74/a5c3aedaa74f5fa02831bf82051afedc906a3a124708efc269aed7c75f4d/scale_llm_engine-0.0.0b7.tar.gz
+[2023-08-02 01:27:46] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/7a/5b/69150d271ef3f98397c10beaf947e098accd100b6d0bccd73609b9c2c1b9/litellm-0.1.209.tar.gz
+[2023-08-02 01:27:47] INFO root fetch - processPackages [simple-spykes]: Downloading https://files.pythonhosted.org/packages/58/59/00ad89ec4e930b19b615b3488e0d134dcbb280eabc404fe5bd2d0279dfe6/simple_spykes-0.0.2.tar.gz
+[2023-08-02 01:27:47] INFO root fetch - processPackages [openid-whisperer]: Downloading https://files.pythonhosted.org/packages/54/8a/e5a9d563f50e3cd5bb671dc6d742c3fff7ed294e55b38184bb4ffa41ed18/openid_whisperer-0.1.9.tar.gz
+[2023-08-02 01:27:47] INFO root fetch - processPackages [cog]: Downloading https://files.pythonhosted.org/packages/79/4d/365aa6c5614a0c0823be2747eadee5f83bd3d26417c544a16f3133a9c4c3/cog-0.8.5-py3-none-any.whl
+[2023-08-02 01:27:47] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-02 01:27:47] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.208.tar.gz tmp/litellm-0.1.209.tar.gz --markdown 20230802/l/litellm/0.1.208-0.1.209/diff.md --exclude *.pyd
+[2023-08-02 01:27:47] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/fb/97/c85f5efd96d4cf46b74e7d9aeee78e3299ae83ab8ba90ed1f0dea226e8b2/scale_llm_engine-0.0.0b8.tar.gz
+[2023-08-02 01:27:47] INFO root fetch - processPackages [scale-llm-engine]: executing diffoscope
+[2023-08-02 01:27:47] INFO root fetch - processPackages [scale-llm-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale_llm_engine-0.0.0b7.tar.gz tmp/scale_llm_engine-0.0.0b8.tar.gz --markdown 20230802/s/scale-llm-engine/0.0.0b7-0.0.0b8/diff.md --exclude *.pyd
+[2023-08-02 01:27:47] INFO root fetch - processPackages [cog]: executing diffoscope
+[2023-08-02 01:27:47] INFO root fetch - processPackages [cog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cog-0.8.4-py3-none-any.whl.zip tmp/cog-0.8.5-py3-none-any.whl.zip --markdown 20230802/c/cog/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-08-02 01:27:47] INFO root fetch - processPackages [openid-whisperer]: executing diffoscope
+[2023-08-02 01:27:47] INFO root fetch - processPackages [openid-whisperer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openid_whisperer-0.1.8.tar.gz tmp/openid_whisperer-0.1.9.tar.gz --markdown 20230802/o/openid-whisperer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 01:27:47] INFO root fetch - processPackages [simple-spykes]: executing diffoscope
+[2023-08-02 01:27:47] INFO root fetch - processPackages [simple-spykes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_spykes-0.0.1.tar.gz tmp/simple_spykes-0.0.2.tar.gz --markdown 20230802/s/simple-spykes/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 01:27:48] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.208.tar.gz]
+[2023-08-02 01:27:48] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.209.tar.gz]
+[2023-08-02 01:27:48] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-02 01:27:48] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0b7.tar.gz]
+[2023-08-02 01:27:48] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0b8.tar.gz]
+[2023-08-02 01:27:48] INFO root fetch - main [MainThread]: End processing [scale-llm-engine]: success
+[2023-08-02 01:27:48] INFO root fetch - processPackages [simple-spykes]: Remove: archive file [/home/abi/fetcher/tmp/simple_spykes-0.0.1.tar.gz]
+[2023-08-02 01:27:48] INFO root fetch - processPackages [simple-spykes]: Remove: archive file [/home/abi/fetcher/tmp/simple_spykes-0.0.2.tar.gz]
+[2023-08-02 01:27:48] INFO root fetch - main [MainThread]: End processing [simple-spykes]: success
+[2023-08-02 01:27:48] INFO root fetch - processPackages [openid-whisperer]: Remove: archive file [/home/abi/fetcher/tmp/openid_whisperer-0.1.8.tar.gz]
+[2023-08-02 01:27:48] INFO root fetch - processPackages [openid-whisperer]: Remove: archive file [/home/abi/fetcher/tmp/openid_whisperer-0.1.9.tar.gz]
+[2023-08-02 01:27:48] INFO root fetch - main [MainThread]: End processing [openid-whisperer]: success
+[2023-08-02 01:27:48] INFO root fetch - processPackages [cog]: Remove: archive file [/home/abi/fetcher/tmp/cog-0.8.4-py3-none-any.whl.zip]
+[2023-08-02 01:27:48] INFO root fetch - processPackages [cog]: Remove: archive file [/home/abi/fetcher/tmp/cog-0.8.5-py3-none-any.whl.zip]
+[2023-08-02 01:27:48] INFO root fetch - main [MainThread]: End processing [cog]: success
+[2023-08-02 01:27:48] INFO root fetch - main [MainThread]: Store serial: [19132396]

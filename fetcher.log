@@ -495,3 +495,123 @@
 [2023-08-02 00:25:03] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc7.tar.gz]
 [2023-08-02 00:25:03] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-08-02 00:25:03] INFO root fetch - main [MainThread]: Store serial: [19131787]
+[2023-08-02 00:30:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19131787]
+[2023-08-02 00:30:12] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-02 00:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cellmaps-utils
+[2023-08-02 00:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-08-02 00:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: passwordless
+[2023-08-02 00:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shinylive
+[2023-08-02 00:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt-code-assistant
+[2023-08-02 00:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ecnet
+[2023-08-02 00:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-sops-secrets
+[2023-08-02 00:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cellmaps-pipeline
+[2023-08-02 00:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: passwordless-38
+[2023-08-02 00:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blacklight
+[2023-08-02 00:30:12] INFO root fetch - processPackages [cellmaps-utils]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-08-02 00:30:12] INFO root fetch - processPackages [shinylive]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 00:30:12] INFO root fetch - processPackages [cellmaps-pipeline]: New version: [0.1.0a6] Old Version: [0.1.0a5]
+[2023-08-02 00:30:12] WARNING root fetch - processPackages [passwordless]: Skipping, unable to determine old version
+[2023-08-02 00:30:12] INFO root fetch - processPackages [passwordless]: Start processing: d20-securityLayer
+[2023-08-02 00:30:12] INFO root fetch - main [MainThread]: End processing [passwordless] error
+[2023-08-02 00:30:12] WARNING root fetch - processPackages [passwordless-38]: Skipping, unable to determine old version
+[2023-08-02 00:30:12] INFO root fetch - processPackages [passwordless-38]: Start processing: cvxcli
+[2023-08-02 00:30:12] INFO root fetch - main [MainThread]: End processing [passwordless-38] error
+[2023-08-02 00:30:12] INFO root fetch - processPackages [blacklight]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 00:30:12] INFO root fetch - processPackages [coiled]: New version: [0.9.4.dev5] Old Version: [0.9.4.dev13]
+[2023-08-02 00:30:12] INFO root fetch - processPackages [ecnet]: New version: [4.1.2] Old Version: [4.1.1]
+[2023-08-02 00:30:12] WARNING root fetch - processPackages [gpt-code-assistant]: Skipping, unable to determine old version
+[2023-08-02 00:30:12] INFO root fetch - processPackages [gpt-code-assistant]: Start processing: passwordless-27
+[2023-08-02 00:30:12] INFO root fetch - main [MainThread]: End processing [gpt-code-assistant] error
+[2023-08-02 00:30:12] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-08-02 00:30:12] WARNING root fetch - processPackages [cvxcli]: Skipping, unable to determine old version
+[2023-08-02 00:30:12] INFO root fetch - processPackages [cvxcli]: Start processing: t8s
+[2023-08-02 00:30:12] INFO root fetch - main [MainThread]: End processing [cvxcli] error
+[2023-08-02 00:30:12] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-08-02 00:30:12] WARNING root fetch - processPackages [passwordless-27]: Skipping, unable to determine old version
+[2023-08-02 00:30:12] INFO root fetch - processPackages [passwordless-27]: Start processing: wipac-rest-tools
+[2023-08-02 00:30:12] INFO root fetch - main [MainThread]: End processing [passwordless-27] error
+[2023-08-02 00:30:12] INFO root fetch - processPackages [t8s]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 00:30:12] INFO root fetch - processPackages [cellmaps-utils]: Downloading https://files.pythonhosted.org/packages/0a/55/1f7b3a92bde846f8df40c4542e821c256b497b0492129e43c128921f97e6/cellmaps_utils-0.1.0a7.tar.gz
+[2023-08-02 00:30:12] INFO root fetch - processPackages [blacklight]: Downloading https://files.pythonhosted.org/packages/89/e6/d398f51f42fcc048c60f33a309dbc152215bbcac08d37d996d8544b69dd6/blacklight-0.1.8.tar.gz
+[2023-08-02 00:30:13] INFO root fetch - processPackages [wipac-rest-tools]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-08-02 00:30:13] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-08-02 00:30:13] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/38/33/ed7a03253b7362fdf60b7c5a3705cd7f4a36102db18ee4b651e2be66216c/coiled-0.9.4.dev13.tar.gz
+[2023-08-02 00:30:13] INFO root fetch - processPackages [shinylive]: Downloading https://files.pythonhosted.org/packages/dc/bd/1febe95c8382d6141a8247e700c20d0d3a680a66615654cb1434076451d6/shinylive-0.0.8.tar.gz
+[2023-08-02 00:30:13] INFO root fetch - processPackages [cellmaps-pipeline]: Downloading https://files.pythonhosted.org/packages/b8/39/60f1ab9cd4e2d2633e79051bb2f84856f24cc7cbb0353180c04134a61b97/cellmaps_pipeline-0.1.0a5.tar.gz
+[2023-08-02 00:30:13] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-08-02 00:30:13] INFO root fetch - processPackages [ecnet]: Downloading https://files.pythonhosted.org/packages/d4/ba/ad5d01bb2b7efb52640d43151b33520e475f7af824a061c9ef5f33aaa630/ecnet-4.1.1.tar.gz
+[2023-08-02 00:30:13] INFO root fetch - processPackages [t8s]: Downloading https://files.pythonhosted.org/packages/b7/70/10f05eb411362b5a243d802de719121e3a2497f99b782cb6e6931d36de5c/t8s-0.1.8.tar.gz
+[2023-08-02 00:30:13] INFO root fetch - processPackages [wipac-rest-tools]: Downloading https://files.pythonhosted.org/packages/c6/6e/280cc2997c08a01a71d71de16bff784107bc0ec6c33b6eb1c0d0d8df46f9/wipac-rest-tools-1.4.8.tar.gz
+[2023-08-02 00:30:13] INFO root fetch - processPackages [blacklight]: Downloading https://files.pythonhosted.org/packages/cc/a8/f6a40eb15c5a2eeedb27e515d18664a59f4f953ecf476ded23abf8f10eff/blacklight-0.1.9.tar.gz
+[2023-08-02 00:30:13] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/d7/6d/cb4aed45a3bea2bd4c115f0dc4f32d7ac1397bcd5298b7a15fae91485adb/coiled-0.9.4.dev5.tar.gz
+[2023-08-02 00:30:13] INFO root fetch - processPackages [cellmaps-utils]: Downloading https://files.pythonhosted.org/packages/cf/df/fdfd764b1cf2ab712128c009da5f5071771a6dc51f1b741975a834810063/cellmaps_utils-0.1.0a8.tar.gz
+[2023-08-02 00:30:13] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/56/46/f3ba1d8980a81e7e0579b812ea29d2c68be9c442ea0e7168a51afcd8c79e/d20-securityLayer-2.0.0a9.tar.gz
+[2023-08-02 00:30:13] INFO root fetch - processPackages [cellmaps-pipeline]: Downloading https://files.pythonhosted.org/packages/67/12/913e30cf9f4d66c44e6930dbc35129f3c2b06a5281ebda21cca07d894383/cellmaps_pipeline-0.1.0a6.tar.gz
+[2023-08-02 00:30:13] INFO root fetch - processPackages [blacklight]: executing diffoscope
+[2023-08-02 00:30:13] INFO root fetch - processPackages [blacklight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blacklight-0.1.8.tar.gz tmp/blacklight-0.1.9.tar.gz --markdown 20230802/b/blacklight/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 00:30:13] INFO root fetch - processPackages [ecnet]: Downloading https://files.pythonhosted.org/packages/7a/07/30128fc6a4b3803e15e6072f6e50b0cd7212cae61216298b49331bd78498/ecnet-4.1.2.tar.gz
+[2023-08-02 00:30:13] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-08-02 00:30:13] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.9.4.dev13.tar.gz tmp/coiled-0.9.4.dev5.tar.gz --markdown 20230802/c/coiled/0.9.4.dev13-0.9.4.dev5/diff.md --exclude *.pyd
+[2023-08-02 00:30:13] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-08-02 00:30:13] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a8.tar.gz tmp/d20-securityLayer-2.0.0a9.tar.gz --markdown 20230802/d/d20-securityLayer/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-08-02 00:30:13] INFO root fetch - processPackages [cellmaps-pipeline]: executing diffoscope
+[2023-08-02 00:30:13] INFO root fetch - processPackages [cellmaps-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_pipeline-0.1.0a5.tar.gz tmp/cellmaps_pipeline-0.1.0a6.tar.gz --markdown 20230802/c/cellmaps-pipeline/0.1.0a5-0.1.0a6/diff.md --exclude *.pyd
+[2023-08-02 00:30:13] INFO root fetch - processPackages [cellmaps-utils]: executing diffoscope
+[2023-08-02 00:30:13] INFO root fetch - processPackages [cellmaps-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_utils-0.1.0a7.tar.gz tmp/cellmaps_utils-0.1.0a8.tar.gz --markdown 20230802/c/cellmaps-utils/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-08-02 00:30:13] INFO root fetch - processPackages [t8s]: Downloading https://files.pythonhosted.org/packages/c7/0b/595844163fcc3d47af7b0e05c304678dd4f361e3eaba27110329a30a8287/t8s-0.1.9.tar.gz
+[2023-08-02 00:30:13] INFO root fetch - processPackages [ecnet]: executing diffoscope
+[2023-08-02 00:30:13] INFO root fetch - processPackages [ecnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecnet-4.1.1.tar.gz tmp/ecnet-4.1.2.tar.gz --markdown 20230802/e/ecnet/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2023-08-02 00:30:13] INFO root fetch - processPackages [shinylive]: Downloading https://files.pythonhosted.org/packages/8d/be/a35a5b65d34cdd1462e80feed76c05f541de3d1a8298df15c8811e655b37/shinylive-0.0.9.tar.gz
+[2023-08-02 00:30:13] INFO root fetch - processPackages [wipac-rest-tools]: Downloading https://files.pythonhosted.org/packages/3d/80/dbc3255f9ef6498c29adf02952ec2b33735ab208b0802780cf9c8843709a/wipac-rest-tools-1.4.9.tar.gz
+[2023-08-02 00:30:14] INFO root fetch - processPackages [shinylive]: executing diffoscope
+[2023-08-02 00:30:14] INFO root fetch - processPackages [shinylive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shinylive-0.0.8.tar.gz tmp/shinylive-0.0.9.tar.gz --markdown 20230802/s/shinylive/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 00:30:14] INFO root fetch - processPackages [t8s]: executing diffoscope
+[2023-08-02 00:30:14] INFO root fetch - processPackages [t8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t8s-0.1.8.tar.gz tmp/t8s-0.1.9.tar.gz --markdown 20230802/t/t8s/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 00:30:14] INFO root fetch - processPackages [wipac-rest-tools]: executing diffoscope
+[2023-08-02 00:30:14] INFO root fetch - processPackages [wipac-rest-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wipac-rest-tools-1.4.8.tar.gz tmp/wipac-rest-tools-1.4.9.tar.gz --markdown 20230802/w/wipac-rest-tools/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-08-02 00:30:15] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a9.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - processPackages [d20-securityLayer]: Start processing: pikaur
+[2023-08-02 00:30:15] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-08-02 00:30:15] INFO root fetch - processPackages [ecnet]: Remove: archive file [/home/abi/fetcher/tmp/ecnet-4.1.1.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - processPackages [ecnet]: Remove: archive file [/home/abi/fetcher/tmp/ecnet-4.1.2.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - processPackages [ecnet]: Start processing: passwordless-sdk
+[2023-08-02 00:30:15] INFO root fetch - main [MainThread]: End processing [ecnet]: success
+[2023-08-02 00:30:15] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-08-02 00:30:15] INFO root fetch - processPackages [pikaur]: New version: [1.9] Old Version: [1.8]
+[2023-08-02 00:30:15] INFO root fetch - processPackages [cellmaps-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_pipeline-0.1.0a5.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - processPackages [cellmaps-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_pipeline-0.1.0a6.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - main [MainThread]: End processing [cellmaps-pipeline]: success
+[2023-08-02 00:30:15] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.4.dev13.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.4.dev5.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-08-02 00:30:15] INFO root fetch - processPackages [cellmaps-utils]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_utils-0.1.0a7.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - processPackages [cellmaps-utils]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_utils-0.1.0a8.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - main [MainThread]: End processing [cellmaps-utils]: success
+[2023-08-02 00:30:15] INFO root fetch - processPackages [blacklight]: Remove: archive file [/home/abi/fetcher/tmp/blacklight-0.1.8.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - processPackages [blacklight]: Remove: archive file [/home/abi/fetcher/tmp/blacklight-0.1.9.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - main [MainThread]: End processing [blacklight]: success
+[2023-08-02 00:30:15] WARNING root fetch - processPackages [passwordless-sdk]: Skipping, unable to determine old version
+[2023-08-02 00:30:15] INFO root fetch - main [MainThread]: End processing [passwordless-sdk] error
+[2023-08-02 00:30:15] INFO root fetch - processPackages [t8s]: Remove: archive file [/home/abi/fetcher/tmp/t8s-0.1.8.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - processPackages [t8s]: Remove: archive file [/home/abi/fetcher/tmp/t8s-0.1.9.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - main [MainThread]: End processing [t8s]: success
+[2023-08-02 00:30:15] INFO root fetch - processPackages [shinylive]: Remove: archive file [/home/abi/fetcher/tmp/shinylive-0.0.8.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - processPackages [shinylive]: Remove: archive file [/home/abi/fetcher/tmp/shinylive-0.0.9.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - main [MainThread]: End processing [shinylive]: success
+[2023-08-02 00:30:15] INFO root fetch - processPackages [pikaur]: Downloading https://files.pythonhosted.org/packages/18/a4/88b2f0d40d1e90fb8762febb4b163d5d637f36e293b9261e39bbe174c7d4/pikaur-1.8.tar.gz
+[2023-08-02 00:30:15] INFO root fetch - processPackages [wipac-rest-tools]: Remove: archive file [/home/abi/fetcher/tmp/wipac-rest-tools-1.4.8.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - processPackages [wipac-rest-tools]: Remove: archive file [/home/abi/fetcher/tmp/wipac-rest-tools-1.4.9.tar.gz]
+[2023-08-02 00:30:15] INFO root fetch - main [MainThread]: End processing [wipac-rest-tools]: success
+[2023-08-02 00:30:16] INFO root fetch - processPackages [pikaur]: Downloading https://files.pythonhosted.org/packages/44/23/73dc076ab8b6b5f49dc34baca5c2cf564ccc21d12e63fafee3d7cc1f6bca/pikaur-1.9.tar.gz
+[2023-08-02 00:30:16] INFO root fetch - processPackages [pikaur]: executing diffoscope
+[2023-08-02 00:30:16] INFO root fetch - processPackages [pikaur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikaur-1.8.tar.gz tmp/pikaur-1.9.tar.gz --markdown 20230802/p/pikaur/1.8-1.9/diff.md --exclude *.pyd
+[2023-08-02 00:30:17] INFO root fetch - processPackages [pikaur]: Remove: archive file [/home/abi/fetcher/tmp/pikaur-1.8.tar.gz]
+[2023-08-02 00:30:17] INFO root fetch - processPackages [pikaur]: Remove: archive file [/home/abi/fetcher/tmp/pikaur-1.9.tar.gz]
+[2023-08-02 00:30:17] INFO root fetch - main [MainThread]: End processing [pikaur]: success
+[2023-08-02 00:30:17] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-08-02 00:30:17] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230802/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-08-02 00:30:18] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-08-02 00:30:18] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-08-02 00:30:18] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-08-02 00:30:18] INFO root fetch - main [MainThread]: Store serial: [19131861]

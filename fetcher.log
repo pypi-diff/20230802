@@ -1,0 +1,75 @@
+[2023-08-02 00:03:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19131566]
+[2023-08-02 00:03:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-02 00:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-gui
+[2023-08-02 00:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trimesh
+[2023-08-02 00:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blacklight
+[2023-08-02 00:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-sphinx-hosting
+[2023-08-02 00:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gymnasium-trading
+[2023-08-02 00:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wyoming-piper
+[2023-08-02 00:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pop-release
+[2023-08-02 00:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jpy
+[2023-08-02 00:03:34] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.54.4] Old Version: [0.0.54.3]
+[2023-08-02 00:03:34] INFO root fetch - processPackages [gymnasium-trading]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 00:03:34] INFO root fetch - processPackages [blacklight]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 00:03:34] INFO root fetch - processPackages [pop-release]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-08-02 00:03:34] INFO root fetch - processPackages [wyoming-piper]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-02 00:03:34] INFO root fetch - processPackages [django-sphinx-hosting]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-08-02 00:03:34] INFO root fetch - processPackages [trimesh]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-08-02 00:03:34] INFO root fetch - processPackages [django-sphinx-hosting]: Downloading https://files.pythonhosted.org/packages/d1/73/aafcab9e07402f5de46274b851b8b6a65ab4b14a4d8afd08ff19f21a1227/django-sphinx-hosting-1.2.1.tar.gz
+[2023-08-02 00:03:34] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/f7/79/d5e3f03a3ef7a117b974125845aaabfd83638639199c40b1ba18c6f47b29/abstract_gui-0.0.54.3-py3-none-any.whl
+[2023-08-02 00:03:34] INFO root fetch - processPackages [gymnasium-trading]: Downloading https://files.pythonhosted.org/packages/08/37/5340fa72bbdd7e72bba44cd50501725cdd9ac0d5ff588b340e8d6d842390/gymnasium-trading-0.0.1.tar.gz
+[2023-08-02 00:03:34] INFO root fetch - processPackages [jpy]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-08-02 00:03:34] INFO root fetch - processPackages [blacklight]: Downloading https://files.pythonhosted.org/packages/89/e6/d398f51f42fcc048c60f33a309dbc152215bbcac08d37d996d8544b69dd6/blacklight-0.1.8.tar.gz
+[2023-08-02 00:03:34] INFO root fetch - processPackages [trimesh]: Downloading https://files.pythonhosted.org/packages/af/7c/359927502be323a70534fd6efac37e71e0e225108e84b8dd391398443f3e/trimesh-3.9.8.tar.gz
+[2023-08-02 00:03:34] INFO root fetch - processPackages [wyoming-piper]: Downloading https://files.pythonhosted.org/packages/c5/49/997a75543fe5fb70cafc34235846da4a1e6bbaa65f93eed6a1dc2dd7143a/wyoming_piper-1.1.0.tar.gz
+[2023-08-02 00:03:34] INFO root fetch - processPackages [pop-release]: Downloading https://files.pythonhosted.org/packages/2b/ca/d126de5b1bb65925d9054c5e3f74368b9892d4a7ae5eb553beaa67c2063f/pop-release-2.0.3.tar.gz
+[2023-08-02 00:03:34] INFO root fetch - processPackages [jpy]: Downloading https://files.pythonhosted.org/packages/f6/05/9b8ff0fb8625b152934b0e0742fe50a5a37a6f33e8894d742564c0ff9ac3/jpy-0.7.4.zip
+[2023-08-02 00:03:34] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/18/de/4febb489dcd263de972816c2a9fef31a5ec1a7c70394a9fc1eaacde698db/abstract_gui-0.0.54.4-py3-none-any.whl
+[2023-08-02 00:03:34] INFO root fetch - processPackages [gymnasium-trading]: Downloading https://files.pythonhosted.org/packages/3d/a8/a665dbb5de7a95874f0059c934225f8005bf093bfb5851fb0a07161b41da/gymnasium_trading-0.0.2.tar.gz
+[2023-08-02 00:03:34] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-08-02 00:03:34] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.54.3-py3-none-any.whl.zip tmp/abstract_gui-0.0.54.4-py3-none-any.whl.zip --markdown 20230802/a/abstract-gui/0.0.54.3-0.0.54.4/diff.md --exclude *.pyd
+[2023-08-02 00:03:35] INFO root fetch - processPackages [django-sphinx-hosting]: Downloading https://files.pythonhosted.org/packages/ad/28/b173ebccaa506ed039ac701748871693009f9f238e8429a4ebe8c5b59acc/django-sphinx-hosting-1.2.2.tar.gz
+[2023-08-02 00:03:35] INFO root fetch - processPackages [blacklight]: Downloading https://files.pythonhosted.org/packages/cc/a8/f6a40eb15c5a2eeedb27e515d18664a59f4f953ecf476ded23abf8f10eff/blacklight-0.1.9.tar.gz
+[2023-08-02 00:03:35] INFO root fetch - processPackages [wyoming-piper]: Downloading https://files.pythonhosted.org/packages/94/c3/e75c0e6a38f629614b23df493b955b0447035fc3f4d21f82e2ff82886923/wyoming_piper-1.2.0.tar.gz
+[2023-08-02 00:03:35] INFO root fetch - processPackages [gymnasium-trading]: executing diffoscope
+[2023-08-02 00:03:35] INFO root fetch - processPackages [gymnasium-trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium-trading-0.0.1.tar.gz tmp/gymnasium_trading-0.0.2.tar.gz --markdown 20230802/g/gymnasium-trading/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 00:03:35] INFO root fetch - processPackages [jpy]: Downloading https://files.pythonhosted.org/packages/1d/d1/1be5d722c6cda6022adc2be01849bf62a5a32e9fdd0ed1edb1b163b83faf/jpy-0.7.5.zip
+[2023-08-02 00:03:35] INFO root fetch - processPackages [blacklight]: executing diffoscope
+[2023-08-02 00:03:35] INFO root fetch - processPackages [blacklight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blacklight-0.1.8.tar.gz tmp/blacklight-0.1.9.tar.gz --markdown 20230802/b/blacklight/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 00:03:35] INFO root fetch - processPackages [wyoming-piper]: executing diffoscope
+[2023-08-02 00:03:35] INFO root fetch - processPackages [wyoming-piper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wyoming_piper-1.1.0.tar.gz tmp/wyoming_piper-1.2.0.tar.gz --markdown 20230802/w/wyoming-piper/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-02 00:03:35] INFO root fetch - processPackages [trimesh]: Downloading https://files.pythonhosted.org/packages/c9/1f/0f19ce414f64547920eb1da1191ce8c832567ce93e80230aa3934afc6c0a/trimesh-3.9.9.tar.gz
+[2023-08-02 00:03:35] INFO root fetch - processPackages [django-sphinx-hosting]: executing diffoscope
+[2023-08-02 00:03:35] INFO root fetch - processPackages [pop-release]: Downloading https://files.pythonhosted.org/packages/c1/61/3c16c9ec7e0a0f136c2de406f6c1e80c15cd3f883014eb7bef589a65aebf/pop-release-2.0.4.tar.gz
+[2023-08-02 00:03:35] INFO root fetch - processPackages [django-sphinx-hosting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sphinx-hosting-1.2.1.tar.gz tmp/django-sphinx-hosting-1.2.2.tar.gz --markdown 20230802/d/django-sphinx-hosting/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-08-02 00:03:35] INFO root fetch - processPackages [jpy]: executing diffoscope
+[2023-08-02 00:03:35] INFO root fetch - processPackages [jpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jpy-0.7.4.zip tmp/jpy-0.7.5.zip --markdown 20230802/j/jpy/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-08-02 00:03:35] INFO root fetch - processPackages [pop-release]: executing diffoscope
+[2023-08-02 00:03:35] INFO root fetch - processPackages [pop-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop-release-2.0.3.tar.gz tmp/pop-release-2.0.4.tar.gz --markdown 20230802/p/pop-release/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-08-02 00:03:35] INFO root fetch - processPackages [trimesh]: executing diffoscope
+[2023-08-02 00:03:35] INFO root fetch - processPackages [trimesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trimesh-3.9.8.tar.gz tmp/trimesh-3.9.9.tar.gz --markdown 20230802/t/trimesh/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-08-02 00:03:36] INFO root fetch - processPackages [wyoming-piper]: Remove: archive file [/home/abi/fetcher/tmp/wyoming_piper-1.1.0.tar.gz]
+[2023-08-02 00:03:36] INFO root fetch - processPackages [wyoming-piper]: Remove: archive file [/home/abi/fetcher/tmp/wyoming_piper-1.2.0.tar.gz]
+[2023-08-02 00:03:36] INFO root fetch - main [MainThread]: End processing [wyoming-piper]: success
+[2023-08-02 00:03:36] INFO root fetch - processPackages [gymnasium-trading]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium-trading-0.0.1.tar.gz]
+[2023-08-02 00:03:36] INFO root fetch - processPackages [gymnasium-trading]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_trading-0.0.2.tar.gz]
+[2023-08-02 00:03:36] INFO root fetch - main [MainThread]: End processing [gymnasium-trading]: success
+[2023-08-02 00:03:36] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.54.3-py3-none-any.whl.zip]
+[2023-08-02 00:03:36] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.54.4-py3-none-any.whl.zip]
+[2023-08-02 00:03:36] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-08-02 00:03:36] INFO root fetch - processPackages [blacklight]: Remove: archive file [/home/abi/fetcher/tmp/blacklight-0.1.8.tar.gz]
+[2023-08-02 00:03:36] INFO root fetch - processPackages [blacklight]: Remove: archive file [/home/abi/fetcher/tmp/blacklight-0.1.9.tar.gz]
+[2023-08-02 00:03:36] INFO root fetch - main [MainThread]: End processing [blacklight]: success
+[2023-08-02 00:03:36] INFO root fetch - processPackages [pop-release]: Remove: archive file [/home/abi/fetcher/tmp/pop-release-2.0.3.tar.gz]
+[2023-08-02 00:03:36] INFO root fetch - processPackages [pop-release]: Remove: archive file [/home/abi/fetcher/tmp/pop-release-2.0.4.tar.gz]
+[2023-08-02 00:03:36] INFO root fetch - main [MainThread]: End processing [pop-release]: success
+[2023-08-02 00:03:37] INFO root fetch - processPackages [django-sphinx-hosting]: Remove: archive file [/home/abi/fetcher/tmp/django-sphinx-hosting-1.2.1.tar.gz]
+[2023-08-02 00:03:37] INFO root fetch - processPackages [django-sphinx-hosting]: Remove: archive file [/home/abi/fetcher/tmp/django-sphinx-hosting-1.2.2.tar.gz]
+[2023-08-02 00:03:37] INFO root fetch - main [MainThread]: End processing [django-sphinx-hosting]: success
+[2023-08-02 00:03:37] INFO root fetch - processPackages [jpy]: Remove: archive file [/home/abi/fetcher/tmp/jpy-0.7.4.zip]
+[2023-08-02 00:03:37] INFO root fetch - processPackages [jpy]: Remove: archive file [/home/abi/fetcher/tmp/jpy-0.7.5.zip]
+[2023-08-02 00:03:37] INFO root fetch - main [MainThread]: End processing [jpy]: success
+[2023-08-02 00:03:37] INFO root fetch - processPackages [trimesh]: Remove: archive file [/home/abi/fetcher/tmp/trimesh-3.9.8.tar.gz]
+[2023-08-02 00:03:37] INFO root fetch - processPackages [trimesh]: Remove: archive file [/home/abi/fetcher/tmp/trimesh-3.9.9.tar.gz]
+[2023-08-02 00:03:37] INFO root fetch - main [MainThread]: End processing [trimesh]: success
+[2023-08-02 00:03:37] INFO root fetch - main [MainThread]: Store serial: [19131592]

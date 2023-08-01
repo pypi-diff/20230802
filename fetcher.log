@@ -160,3 +160,102 @@
 [2023-08-02 00:08:50] INFO root fetch - processPackages [spl-widgets]: Remove: archive file [/home/abi/fetcher/tmp/spl_widgets-1.7.6.tar.gz]
 [2023-08-02 00:08:50] INFO root fetch - main [MainThread]: End processing [spl-widgets]: success
 [2023-08-02 00:08:50] INFO root fetch - main [MainThread]: Store serial: [19131656]
+[2023-08-02 00:13:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19131656]
+[2023-08-02 00:13:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-02 00:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-cdk
+[2023-08-02 00:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: session-repository
+[2023-08-02 00:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llm-atc
+[2023-08-02 00:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pickled-carrots
+[2023-08-02 00:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zutool
+[2023-08-02 00:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zulip-doc
+[2023-08-02 00:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edwh-migrate
+[2023-08-02 00:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: equation-sampler
+[2023-08-02 00:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: optionlab
+[2023-08-02 00:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: skeletonkey
+[2023-08-02 00:13:59] WARNING root fetch - processPackages [llm-atc]: Skipping, unable to determine old version
+[2023-08-02 00:13:59] INFO root fetch - processPackages [llm-atc]: Start processing: assemblyline-service-client
+[2023-08-02 00:13:59] INFO root fetch - main [MainThread]: End processing [llm-atc] error
+[2023-08-02 00:13:59] INFO root fetch - processPackages [edwh-migrate]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-02 00:13:59] INFO root fetch - processPackages [zutool]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-02 00:13:59] INFO root fetch - processPackages [pickled-carrots]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-02 00:13:59] INFO root fetch - processPackages [zulip-doc]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-02 00:13:59] WARNING root fetch - processPackages [equation-sampler]: Skipping, unable to determine old version
+[2023-08-02 00:13:59] INFO root fetch - processPackages [optionlab]: New version: [0.1.1] Old Version: [0.1]
+[2023-08-02 00:13:59] INFO root fetch - processPackages [equation-sampler]: Start processing: assemblyline-service-server
+[2023-08-02 00:13:59] INFO root fetch - main [MainThread]: End processing [equation-sampler] error
+[2023-08-02 00:13:59] INFO root fetch - processPackages [session-repository]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-08-02 00:13:59] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-08-02 00:13:59] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-02 00:13:59] INFO root fetch - processPackages [skeletonkey]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-02 00:13:59] INFO root fetch - processPackages [pickled-carrots]: Downloading https://files.pythonhosted.org/packages/c6/99/eb4818a5c3278c6c54739eebd14c45ff37aa97159f7047017298c43e5d52/pickled_carrots-1.0.8.tar.gz
+[2023-08-02 00:13:59] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-02 00:13:59] INFO root fetch - processPackages [zutool]: Downloading https://files.pythonhosted.org/packages/57/f4/0b8cdb39bca192112f75f5959cf7a2004cfc57ea8e1d278de28567c6d68a/zutool-0.0.4.tar.gz
+[2023-08-02 00:13:59] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2023-08-02 00:13:59] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-08-02 00:13:59] INFO root fetch - processPackages [zulip-doc]: Downloading https://files.pythonhosted.org/packages/7b/a6/a6ae94ceaf1e32a2df36c4ec3345c0e318d383059d3921db1868de8a6729/zulip_doc-0.2.0.tar.gz
+[2023-08-02 00:13:59] INFO root fetch - processPackages [edwh-migrate]: Downloading https://files.pythonhosted.org/packages/d4/ea/4a930d61e22608e38b48d916e328c0e58d45032fbeaf172fcb1f833f17a9/edwh_migrate-0.4.3.tar.gz
+[2023-08-02 00:13:59] INFO root fetch - processPackages [optionlab]: Downloading https://files.pythonhosted.org/packages/ed/e1/e76fb7cdc62a8c700251ff34af491e0b53e76cafcb480b4e6dd6ab94c925/optionlab-0.1-py3-none-any.whl
+[2023-08-02 00:13:59] INFO root fetch - processPackages [session-repository]: Downloading https://files.pythonhosted.org/packages/4a/52/eb413261cd4179d398c2215f3afb410481cb50ffa557bc47784c82fc5e60/session-repository-0.3.5.tar.gz
+[2023-08-02 00:13:59] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-08-02 00:13:59] INFO root fetch - processPackages [skeletonkey]: Downloading https://files.pythonhosted.org/packages/73/89/c60d91035af2bdb0ca3d86923e7556561db6d500737a52781a4eb645dba5/skeletonkey-0.1.2.tar.gz
+[2023-08-02 00:14:00] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2023-08-02 00:14:00] INFO root fetch - processPackages [pickled-carrots]: Downloading https://files.pythonhosted.org/packages/5c/b3/296f8a90c438d5e58c56172bd621b228c6bd889652590b01851732cfc034/pickled_carrots-1.0.9.tar.gz
+[2023-08-02 00:14:00] INFO root fetch - processPackages [zutool]: Downloading https://files.pythonhosted.org/packages/16/88/d3f2287aed6720b64d57bb518188914727d017073c763b55d806fecfb6ca/zutool-0.0.5.tar.gz
+[2023-08-02 00:14:00] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-08-02 00:14:00] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-08-02 00:14:00] INFO root fetch - processPackages [zulip-doc]: Downloading https://files.pythonhosted.org/packages/2d/80/22ff762a7268a1130e062596977cdf2f6e1387e3f36700c53a589b72f334/zulip_doc-0.3.0.tar.gz
+[2023-08-02 00:14:00] INFO root fetch - processPackages [edwh-migrate]: Downloading https://files.pythonhosted.org/packages/4e/25/90acf551db880f211ba5c6f425b38906cd3a5d6b5f8cbfb32a27f3c321a6/edwh_migrate-0.4.4.tar.gz
+[2023-08-02 00:14:00] INFO root fetch - processPackages [session-repository]: Downloading https://files.pythonhosted.org/packages/79/54/876ebed98c1c9f8234348dc8a1a8287e11d60bb3b6af624c878d20c466c8/session-repository-0.3.6.tar.gz
+[2023-08-02 00:14:00] INFO root fetch - processPackages [zutool]: executing diffoscope
+[2023-08-02 00:14:00] INFO root fetch - processPackages [zutool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zutool-0.0.4.tar.gz tmp/zutool-0.0.5.tar.gz --markdown 20230802/z/zutool/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-02 00:14:00] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2023-08-02 00:14:00] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20230802/a/airbyte-cdk/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-08-02 00:14:00] INFO root fetch - processPackages [pickled-carrots]: executing diffoscope
+[2023-08-02 00:14:00] INFO root fetch - processPackages [pickled-carrots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pickled_carrots-1.0.8.tar.gz tmp/pickled_carrots-1.0.9.tar.gz --markdown 20230802/p/pickled-carrots/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 00:14:00] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-08-02 00:14:00] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230802/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-02 00:14:00] INFO root fetch - processPackages [optionlab]: Downloading https://files.pythonhosted.org/packages/07/50/078ffbdab522262a4c05ebcea65b5fd68a088db7c31ab7a4fadc0e80dbbc/optionlab-0.1.1-py3-none-any.whl
+[2023-08-02 00:14:00] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-08-02 00:14:00] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230802/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-02 00:14:00] INFO root fetch - processPackages [zulip-doc]: executing diffoscope
+[2023-08-02 00:14:00] INFO root fetch - processPackages [zulip-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zulip_doc-0.2.0.tar.gz tmp/zulip_doc-0.3.0.tar.gz --markdown 20230802/z/zulip-doc/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-02 00:14:00] INFO root fetch - processPackages [edwh-migrate]: executing diffoscope
+[2023-08-02 00:14:00] INFO root fetch - processPackages [edwh-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_migrate-0.4.3.tar.gz tmp/edwh_migrate-0.4.4.tar.gz --markdown 20230802/e/edwh-migrate/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-02 00:14:00] INFO root fetch - processPackages [session-repository]: executing diffoscope
+[2023-08-02 00:14:00] INFO root fetch - processPackages [session-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/session-repository-0.3.5.tar.gz tmp/session-repository-0.3.6.tar.gz --markdown 20230802/s/session-repository/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-08-02 00:14:00] INFO root fetch - processPackages [skeletonkey]: Downloading https://files.pythonhosted.org/packages/ab/db/26f6d0a0f1e2d5bb0d93a58a1132c7de413f3613463a78434f1df26ebf8a/skeletonkey-0.1.3.tar.gz
+[2023-08-02 00:14:00] INFO root fetch - processPackages [optionlab]: executing diffoscope
+[2023-08-02 00:14:00] INFO root fetch - processPackages [optionlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optionlab-0.1-py3-none-any.whl.zip tmp/optionlab-0.1.1-py3-none-any.whl.zip --markdown 20230802/o/optionlab/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-08-02 00:14:00] INFO root fetch - processPackages [skeletonkey]: executing diffoscope
+[2023-08-02 00:14:00] INFO root fetch - processPackages [skeletonkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skeletonkey-0.1.2.tar.gz tmp/skeletonkey-0.1.3.tar.gz --markdown 20230802/s/skeletonkey/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-02 00:14:01] INFO root fetch - processPackages [zutool]: Remove: archive file [/home/abi/fetcher/tmp/zutool-0.0.4.tar.gz]
+[2023-08-02 00:14:01] INFO root fetch - processPackages [zutool]: Remove: archive file [/home/abi/fetcher/tmp/zutool-0.0.5.tar.gz]
+[2023-08-02 00:14:01] INFO root fetch - main [MainThread]: End processing [zutool]: success
+[2023-08-02 00:14:02] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-08-02 00:14:02] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-08-02 00:14:02] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-08-02 00:14:02] INFO root fetch - processPackages [optionlab]: Remove: archive file [/home/abi/fetcher/tmp/optionlab-0.1-py3-none-any.whl.zip]
+[2023-08-02 00:14:02] INFO root fetch - processPackages [optionlab]: Remove: archive file [/home/abi/fetcher/tmp/optionlab-0.1.1-py3-none-any.whl.zip]
+[2023-08-02 00:14:02] INFO root fetch - main [MainThread]: End processing [optionlab]: success
+[2023-08-02 00:14:02] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-08-02 00:14:02] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-08-02 00:14:02] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-08-02 00:14:02] INFO root fetch - processPackages [session-repository]: Remove: archive file [/home/abi/fetcher/tmp/session-repository-0.3.5.tar.gz]
+[2023-08-02 00:14:02] INFO root fetch - processPackages [session-repository]: Remove: archive file [/home/abi/fetcher/tmp/session-repository-0.3.6.tar.gz]
+[2023-08-02 00:14:02] INFO root fetch - main [MainThread]: End processing [session-repository]: success
+[2023-08-02 00:14:02] INFO root fetch - processPackages [skeletonkey]: Remove: archive file [/home/abi/fetcher/tmp/skeletonkey-0.1.2.tar.gz]
+[2023-08-02 00:14:02] INFO root fetch - processPackages [skeletonkey]: Remove: archive file [/home/abi/fetcher/tmp/skeletonkey-0.1.3.tar.gz]
+[2023-08-02 00:14:02] INFO root fetch - main [MainThread]: End processing [skeletonkey]: success
+[2023-08-02 00:14:02] INFO root fetch - processPackages [edwh-migrate]: Remove: archive file [/home/abi/fetcher/tmp/edwh_migrate-0.4.3.tar.gz]
+[2023-08-02 00:14:02] INFO root fetch - processPackages [edwh-migrate]: Remove: archive file [/home/abi/fetcher/tmp/edwh_migrate-0.4.4.tar.gz]
+[2023-08-02 00:14:02] INFO root fetch - main [MainThread]: End processing [edwh-migrate]: success
+[2023-08-02 00:14:02] INFO root fetch - processPackages [zulip-doc]: Remove: archive file [/home/abi/fetcher/tmp/zulip_doc-0.2.0.tar.gz]
+[2023-08-02 00:14:02] INFO root fetch - processPackages [zulip-doc]: Remove: archive file [/home/abi/fetcher/tmp/zulip_doc-0.3.0.tar.gz]
+[2023-08-02 00:14:02] INFO root fetch - main [MainThread]: End processing [zulip-doc]: success
+[2023-08-02 00:14:02] INFO root fetch - processPackages [pickled-carrots]: Remove: archive file [/home/abi/fetcher/tmp/pickled_carrots-1.0.8.tar.gz]
+[2023-08-02 00:14:02] INFO root fetch - processPackages [pickled-carrots]: Remove: archive file [/home/abi/fetcher/tmp/pickled_carrots-1.0.9.tar.gz]
+[2023-08-02 00:14:02] INFO root fetch - main [MainThread]: End processing [pickled-carrots]: success
+[2023-08-02 00:14:02] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.4.tar.gz]
+[2023-08-02 00:14:02] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2023-08-02 00:14:02] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2023-08-02 00:14:02] INFO root fetch - main [MainThread]: Store serial: [19131695]

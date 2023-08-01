@@ -1029,3 +1029,86 @@
 [2023-08-02 00:51:09] INFO root fetch - processPackages [chai-guanaco]: Remove: archive file [/home/abi/fetcher/tmp/chai-guanaco-1.0.8.tar.gz]
 [2023-08-02 00:51:09] INFO root fetch - main [MainThread]: End processing [chai-guanaco]: success
 [2023-08-02 00:51:09] INFO root fetch - main [MainThread]: Store serial: [19132034]
+[2023-08-02 00:56:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19132034]
+[2023-08-02 00:56:18] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-02 00:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discovery-core
+[2023-08-02 00:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phymmr-tools
+[2023-08-02 00:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nebari-plugin-label-studio-chart
+[2023-08-02 00:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forked-ecephys-spike-sorting
+[2023-08-02 00:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlproj-manager
+[2023-08-02 00:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: efrem-utils
+[2023-08-02 00:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sppam
+[2023-08-02 00:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hypersquirrel
+[2023-08-02 00:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bizlogic
+[2023-08-02 00:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: NikGapps
+[2023-08-02 00:56:18] INFO root fetch - processPackages [bizlogic]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-02 00:56:18] INFO root fetch - processPackages [phymmr-tools]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-02 00:56:18] INFO root fetch - processPackages [nebari-plugin-label-studio-chart]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 00:56:18] INFO root fetch - processPackages [mlproj-manager]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 00:56:18] INFO root fetch - processPackages [efrem-utils]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-02 00:56:18] INFO root fetch - processPackages [forked-ecephys-spike-sorting]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-02 00:56:18] INFO root fetch - processPackages [NikGapps]: New version: [1.73] Old Version: [1.72]
+[2023-08-02 00:56:18] WARNING root fetch - processPackages [sppam]: Skipping, unable to determine old version
+[2023-08-02 00:56:18] INFO root fetch - main [MainThread]: End processing [sppam] error
+[2023-08-02 00:56:18] INFO root fetch - processPackages [hypersquirrel]: New version: [1.0.35] Old Version: [1.0.34]
+[2023-08-02 00:56:18] INFO root fetch - processPackages [discovery-core]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-08-02 00:56:18] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/15/a4/7fc14200c0c31e9fd08391e1d8ffd70345d98aba2c1f4a19342fa0b51ed6/bizlogic-0.2.8.tar.gz
+[2023-08-02 00:56:18] INFO root fetch - processPackages [phymmr-tools]: Downloading https://files.pythonhosted.org/packages/55/90/735663656e186701f85c294a7c278eba96c98bc42c88d8ec6d95351b3442/phymmr_tools-0.4.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-02 00:56:18] INFO root fetch - processPackages [efrem-utils]: Downloading https://files.pythonhosted.org/packages/7f/36/338bf305aa7be1477aba6c5772bd0fb2b94f788b8cfe69cf36b7f6f6bb76/efrem_utils-0.1.4.tar.gz
+[2023-08-02 00:56:18] INFO root fetch - processPackages [hypersquirrel]: Downloading https://files.pythonhosted.org/packages/dd/fb/269e89d26c6fbd593f9d17287f8c6550e1677cfe1a34808f564fedf6c42b/hypersquirrel-1.0.34.tar.gz
+[2023-08-02 00:56:19] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/58/62/4893c90e0e8c09a4b127e264a3e9b46385c54c9dc4b19235f3731c2da9e0/NikGapps-1.72.tar.gz
+[2023-08-02 00:56:19] INFO root fetch - processPackages [nebari-plugin-label-studio-chart]: Downloading https://files.pythonhosted.org/packages/fd/5a/ac53f07da3b2c70696bb348d19579e8c043fbddb2ebce766e09c463e5c09/nebari_plugin_label_studio_chart-0.0.1.tar.gz
+[2023-08-02 00:56:19] INFO root fetch - processPackages [forked-ecephys-spike-sorting]: Downloading https://files.pythonhosted.org/packages/67/86/bab728363b831a2b9188025864a65e3d94c0a6bb297cd8607aab3d3a0a1a/forked_ecephys_spike_sorting-0.1.0.tar.gz
+[2023-08-02 00:56:19] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/45/88/f4d669c0a62d57bcc0678a9c41c8db1adfbb026cdc2047e64e45c7134fdf/discovery-core-0.2.9.tar.gz
+[2023-08-02 00:56:19] INFO root fetch - processPackages [mlproj-manager]: Downloading https://files.pythonhosted.org/packages/a8/b1/b7abb2d75e0d1b7d3c03074d05230366930bd6e756db702a2f3b22125a12/mlproj_manager-0.0.8.tar.gz
+[2023-08-02 00:56:19] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41566883>=10485760
+[2023-08-02 00:56:19] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-08-02 00:56:19] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/70/d6/eb4fce7d479b8752585ed0ce78e483587aa78514aa160d2ff745d9c0d42f/bizlogic-0.2.9.tar.gz
+[2023-08-02 00:56:19] INFO root fetch - processPackages [efrem-utils]: Downloading https://files.pythonhosted.org/packages/f4/c9/168a3626fcb566ef1f05647418ea7a15a3499ebcdcc2f6b228c3d1f10e49/efrem_utils-0.1.5.tar.gz
+[2023-08-02 00:56:19] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-08-02 00:56:19] INFO root fetch - processPackages [hypersquirrel]: Downloading https://files.pythonhosted.org/packages/27/39/6566992cc8c27b2dafefc78cbf7016ae2eb5a9ee939f04725726b537393b/hypersquirrel-1.0.35.tar.gz
+[2023-08-02 00:56:19] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.2.8.tar.gz tmp/bizlogic-0.2.9.tar.gz --markdown 20230802/b/bizlogic/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-02 00:56:19] INFO root fetch - processPackages [nebari-plugin-label-studio-chart]: Downloading https://files.pythonhosted.org/packages/6a/4e/3c2800b73a75c46ab99307311be1eda4ddc60d1f8e737fa9edf8bc1146c4/nebari_plugin_label_studio_chart-0.0.2.tar.gz
+[2023-08-02 00:56:19] INFO root fetch - processPackages [phymmr-tools]: Downloading https://files.pythonhosted.org/packages/d6/d0/a4be8cc855a9d60fae4b229f764d31fe38013e4715f3ae799ff6eadefb52/phymmr_tools-0.4.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-02 00:56:19] INFO root fetch - processPackages [forked-ecephys-spike-sorting]: Downloading https://files.pythonhosted.org/packages/2f/04/dca0eda2df5bbd6139e25cd253d796e39eda67f7d8ff475611a3bfc2ed2b/forked_ecephys_spike_sorting-0.1.1.tar.gz
+[2023-08-02 00:56:19] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/ff/80/86a2e90a53bc4975b602e7f0552dcd2e02d8351bfa53d6112880e2e7545d/discovery-core-0.3.0.tar.gz
+[2023-08-02 00:56:19] INFO root fetch - processPackages [efrem-utils]: executing diffoscope
+[2023-08-02 00:56:19] INFO root fetch - processPackages [efrem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efrem_utils-0.1.4.tar.gz tmp/efrem_utils-0.1.5.tar.gz --markdown 20230802/e/efrem-utils/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-02 00:56:19] INFO root fetch - processPackages [nebari-plugin-label-studio-chart]: executing diffoscope
+[2023-08-02 00:56:19] INFO root fetch - processPackages [nebari-plugin-label-studio-chart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nebari_plugin_label_studio_chart-0.0.1.tar.gz tmp/nebari_plugin_label_studio_chart-0.0.2.tar.gz --markdown 20230802/n/nebari-plugin-label-studio-chart/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 00:56:19] INFO root fetch - processPackages [mlproj-manager]: Downloading https://files.pythonhosted.org/packages/12/b1/252e6a584059a7d54fb0f0a78dc8e9d4e0ec3a93192cb3fa4ac4dfe9e9ff/mlproj_manager-0.0.9.tar.gz
+[2023-08-02 00:56:19] INFO root fetch - processPackages [hypersquirrel]: executing diffoscope
+[2023-08-02 00:56:19] INFO root fetch - processPackages [hypersquirrel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypersquirrel-1.0.34.tar.gz tmp/hypersquirrel-1.0.35.tar.gz --markdown 20230802/h/hypersquirrel/1.0.34-1.0.35/diff.md --exclude *.pyd
+[2023-08-02 00:56:19] INFO root fetch - processPackages [discovery-core]: executing diffoscope
+[2023-08-02 00:56:19] INFO root fetch - processPackages [discovery-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-core-0.2.9.tar.gz tmp/discovery-core-0.3.0.tar.gz --markdown 20230802/d/discovery-core/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-08-02 00:56:19] INFO root fetch - processPackages [forked-ecephys-spike-sorting]: executing diffoscope
+[2023-08-02 00:56:19] INFO root fetch - processPackages [forked-ecephys-spike-sorting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forked_ecephys_spike_sorting-0.1.0.tar.gz tmp/forked_ecephys_spike_sorting-0.1.1.tar.gz --markdown 20230802/f/forked-ecephys-spike-sorting/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-02 00:56:19] INFO root fetch - processPackages [mlproj-manager]: executing diffoscope
+[2023-08-02 00:56:19] INFO root fetch - processPackages [mlproj-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlproj_manager-0.0.8.tar.gz tmp/mlproj_manager-0.0.9.tar.gz --markdown 20230802/m/mlproj-manager/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 00:56:20] INFO root fetch - processPackages [phymmr-tools]: executing diffoscope
+[2023-08-02 00:56:20] INFO root fetch - processPackages [phymmr-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phymmr_tools-0.4.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/phymmr_tools-0.4.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230802/p/phymmr-tools/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-02 00:56:20] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.8.tar.gz]
+[2023-08-02 00:56:20] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.9.tar.gz]
+[2023-08-02 00:56:20] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-08-02 00:56:20] INFO root fetch - processPackages [efrem-utils]: Remove: archive file [/home/abi/fetcher/tmp/efrem_utils-0.1.4.tar.gz]
+[2023-08-02 00:56:20] INFO root fetch - processPackages [efrem-utils]: Remove: archive file [/home/abi/fetcher/tmp/efrem_utils-0.1.5.tar.gz]
+[2023-08-02 00:56:20] INFO root fetch - main [MainThread]: End processing [efrem-utils]: success
+[2023-08-02 00:56:20] INFO root fetch - processPackages [nebari-plugin-label-studio-chart]: Remove: archive file [/home/abi/fetcher/tmp/nebari_plugin_label_studio_chart-0.0.1.tar.gz]
+[2023-08-02 00:56:20] INFO root fetch - processPackages [nebari-plugin-label-studio-chart]: Remove: archive file [/home/abi/fetcher/tmp/nebari_plugin_label_studio_chart-0.0.2.tar.gz]
+[2023-08-02 00:56:20] INFO root fetch - main [MainThread]: End processing [nebari-plugin-label-studio-chart]: success
+[2023-08-02 00:56:21] INFO root fetch - processPackages [hypersquirrel]: Remove: archive file [/home/abi/fetcher/tmp/hypersquirrel-1.0.34.tar.gz]
+[2023-08-02 00:56:21] INFO root fetch - processPackages [hypersquirrel]: Remove: archive file [/home/abi/fetcher/tmp/hypersquirrel-1.0.35.tar.gz]
+[2023-08-02 00:56:21] INFO root fetch - main [MainThread]: End processing [hypersquirrel]: success
+[2023-08-02 00:56:21] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.2.9.tar.gz]
+[2023-08-02 00:56:21] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.3.0.tar.gz]
+[2023-08-02 00:56:21] INFO root fetch - main [MainThread]: End processing [discovery-core]: success
+[2023-08-02 00:56:21] INFO root fetch - processPackages [mlproj-manager]: Remove: archive file [/home/abi/fetcher/tmp/mlproj_manager-0.0.8.tar.gz]
+[2023-08-02 00:56:21] INFO root fetch - processPackages [mlproj-manager]: Remove: archive file [/home/abi/fetcher/tmp/mlproj_manager-0.0.9.tar.gz]
+[2023-08-02 00:56:21] INFO root fetch - main [MainThread]: End processing [mlproj-manager]: success
+[2023-08-02 00:56:21] INFO root fetch - processPackages [forked-ecephys-spike-sorting]: Remove: archive file [/home/abi/fetcher/tmp/forked_ecephys_spike_sorting-0.1.0.tar.gz]
+[2023-08-02 00:56:21] INFO root fetch - processPackages [forked-ecephys-spike-sorting]: Remove: archive file [/home/abi/fetcher/tmp/forked_ecephys_spike_sorting-0.1.1.tar.gz]
+[2023-08-02 00:56:21] INFO root fetch - main [MainThread]: End processing [forked-ecephys-spike-sorting]: success
+[2023-08-02 00:56:28] INFO root fetch - processPackages [phymmr-tools]: Remove: archive file [/home/abi/fetcher/tmp/phymmr_tools-0.4.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-02 00:56:28] INFO root fetch - processPackages [phymmr-tools]: Remove: archive file [/home/abi/fetcher/tmp/phymmr_tools-0.4.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-02 00:56:28] INFO root fetch - main [MainThread]: End processing [phymmr-tools]: success
+[2023-08-02 00:56:28] INFO root fetch - main [MainThread]: Store serial: [19132079]

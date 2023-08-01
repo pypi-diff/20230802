@@ -822,3 +822,113 @@
 [2023-08-02 00:40:44] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: Remove: archive file [/home/abi/fetcher/tmp/animethemes-beta-batch-encoder-1.4.tar.gz]
 [2023-08-02 00:40:44] INFO root fetch - main [MainThread]: End processing [animethemes-beta-batch-encoder]: success
 [2023-08-02 00:40:44] INFO root fetch - main [MainThread]: Store serial: [19131944]
+[2023-08-02 00:45:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19131944]
+[2023-08-02 00:45:52] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-02 00:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngsolve
+[2023-08-02 00:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bizlogic
+[2023-08-02 00:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mrfix
+[2023-08-02 00:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: d20-securityLayer
+[2023-08-02 00:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: open-interpreter
+[2023-08-02 00:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zouti-utils
+[2023-08-02 00:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simple-async-command-manager
+[2023-08-02 00:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FinderZ
+[2023-08-02 00:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abstra
+[2023-08-02 00:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: labxpipe
+[2023-08-02 00:45:53] WARNING root fetch - processPackages [zouti-utils]: Skipping, unable to determine old version
+[2023-08-02 00:45:53] INFO root fetch - processPackages [zouti-utils]: Start processing: orbax-export
+[2023-08-02 00:45:53] INFO root fetch - main [MainThread]: End processing [zouti-utils] error
+[2023-08-02 00:45:53] WARNING root fetch - processPackages [simple-async-command-manager]: Skipping, unable to determine old version
+[2023-08-02 00:45:53] INFO root fetch - processPackages [simple-async-command-manager]: Start processing: music-assistant
+[2023-08-02 00:45:53] INFO root fetch - main [MainThread]: End processing [simple-async-command-manager] error
+[2023-08-02 00:45:53] INFO root fetch - processPackages [bizlogic]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-02 00:45:53] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.244] Old Version: [0.0.243]
+[2023-08-02 00:45:53] INFO root fetch - processPackages [FinderZ]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-08-02 00:45:53] INFO root fetch - processPackages [labxpipe]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-02 00:45:53] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-08-02 00:45:53] INFO root fetch - processPackages [mrfix]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-02 00:45:53] INFO root fetch - processPackages [abstra]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-08-02 00:45:53] INFO root fetch - processPackages [ngsolve]: New version: [6.2.2304.post83.dev0] Old Version: [6.2.2304.post55.dev0]
+[2023-08-02 00:45:53] INFO root fetch - processPackages [orbax-export]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 00:45:53] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-08-02 00:45:53] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/6b/6e/8654ede8c2bad3bb658ff2dceb3ea073dd21a0ed4b01d5548ba881eb79b6/open_interpreter-0.0.243.tar.gz
+[2023-08-02 00:45:53] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-08-02 00:45:53] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/15/a4/7fc14200c0c31e9fd08391e1d8ffd70345d98aba2c1f4a19342fa0b51ed6/bizlogic-0.2.8.tar.gz
+[2023-08-02 00:45:53] INFO root fetch - processPackages [FinderZ]: Downloading https://files.pythonhosted.org/packages/9b/bc/0ab866d52fa74087c905c075658b97cd6c85ae2aef309320da46176d0d50/finderz-2.0.3.tar.gz
+[2023-08-02 00:45:53] INFO root fetch - processPackages [labxpipe]: Downloading https://files.pythonhosted.org/packages/2a/92/2173c2d3c55597a72389280a8ebdf0096284024c8fd400de1c18445fd88c/labxpipe-0.7.0.tar.gz
+[2023-08-02 00:45:53] INFO root fetch - processPackages [ngsolve]: Downloading https://files.pythonhosted.org/packages/1f/81/3628439bb5953a631e7464f5282582ef6c8f895a3e22ecb0b73c61edd8a6/ngsolve-6.2.2304.post55.dev0-cp39-cp39-win_amd64.whl
+[2023-08-02 00:45:53] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/6a/01/dc2bf256ab02a7cd4b02600fc04b49d58f942a708d4fab8f002440444502/mrfix-2.0.8.tar.gz
+[2023-08-02 00:45:53] INFO root fetch - processPackages [orbax-export]: Downloading https://files.pythonhosted.org/packages/86/89/3a6034ff3ee377fc67e58270b86afefb5a91d21595d3c99d10e668ac289a/orbax-export-0.0.2.tar.gz
+[2023-08-02 00:45:53] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-08-02 00:45:53] WARNING root fetch - processPackages [ngsolve]: Skipping package: exceeds size limit 13405538>=10485760
+[2023-08-02 00:45:53] INFO root fetch - processPackages [ngsolve]: Start processing: passwordless-SDK
+[2023-08-02 00:45:53] INFO root fetch - main [MainThread]: End processing [ngsolve] error
+[2023-08-02 00:45:53] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/89/97/a00b908f667f3faddad8d15c4d9bc2b76f9dfb8cbe4d1c975ab7c33faf20/abstra-1.8.2.tar.gz
+[2023-08-02 00:45:53] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/56/46/f3ba1d8980a81e7e0579b812ea29d2c68be9c442ea0e7168a51afcd8c79e/d20-securityLayer-2.0.0a9.tar.gz
+[2023-08-02 00:45:53] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/70/d6/eb4fce7d479b8752585ed0ce78e483587aa78514aa160d2ff745d9c0d42f/bizlogic-0.2.9.tar.gz
+[2023-08-02 00:45:53] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/3a/5e/62272eecbd14c8ffcb8a827d78bcabd2a4719cd0548ad35c5c57a2c4b8e4/open_interpreter-0.0.244.tar.gz
+[2023-08-02 00:45:53] INFO root fetch - processPackages [passwordless-SDK]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 00:45:53] WARNING root fetch - processPackages [abstra]: Skipping package: exceeds size limit 55253873>=10485760
+[2023-08-02 00:45:53] INFO root fetch - processPackages [abstra]: Start processing: panda-utils
+[2023-08-02 00:45:53] INFO root fetch - main [MainThread]: End processing [abstra] error
+[2023-08-02 00:45:53] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-08-02 00:45:53] INFO root fetch - processPackages [music-assistant]: Start processing: bizlogic
+[2023-08-02 00:45:53] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-08-02 00:45:54] INFO root fetch - processPackages [panda-utils]: New version: [1.5b1] Old Version: [1.4.4]
+[2023-08-02 00:45:54] INFO root fetch - processPackages [bizlogic]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-02 00:45:54] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-08-02 00:45:54] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a8.tar.gz tmp/d20-securityLayer-2.0.0a9.tar.gz --markdown 20230802/d/d20-securityLayer/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-08-02 00:45:54] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-08-02 00:45:54] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.2.8.tar.gz tmp/bizlogic-0.2.9.tar.gz --markdown 20230802/b/bizlogic/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-02 00:45:54] INFO root fetch - processPackages [passwordless-SDK]: Downloading https://files.pythonhosted.org/packages/e1/ee/0b8504c8385232368d1a5bfb6c85607ca270d1b66821fc73dcbe2e78f5dd/passwordless-sdk-0.0.1.tar.gz
+[2023-08-02 00:45:54] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-02 00:45:54] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.243.tar.gz tmp/open_interpreter-0.0.244.tar.gz --markdown 20230802/o/open-interpreter/0.0.243-0.0.244/diff.md --exclude *.pyd
+[2023-08-02 00:45:54] INFO root fetch - processPackages [labxpipe]: Downloading https://files.pythonhosted.org/packages/0c/66/b80e5f1650286cdc8b1f3fe15cf773742cd1df84756a9bb15d41a0045ca9/labxpipe-0.7.1.tar.gz
+[2023-08-02 00:45:54] INFO root fetch - processPackages [FinderZ]: Downloading https://files.pythonhosted.org/packages/a8/4e/99819aa6d6a832b2c77dc957c6f00396358535d9a116201c2b8e7a7e02f7/finderz-2.0.4.tar.gz
+[2023-08-02 00:45:54] INFO root fetch - processPackages [orbax-export]: Downloading https://files.pythonhosted.org/packages/12/71/c661d9fca562fff222cc2b216697c3bee6941b2e8da04f88e19e648a7f78/orbax_export-0.0.3.tar.gz
+[2023-08-02 00:45:54] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/2a/70/06f3ca5535ef3bdefca25df75a107407176d4ec4d24f61edff8e85574d48/mrfix-2.0.9.tar.gz
+[2023-08-02 00:45:54] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-08-02 00:45:54] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.2.8.tar.gz tmp/bizlogic-0.2.9.tar.gz --markdown 20230802/b/bizlogic/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-02 00:45:54] INFO root fetch - processPackages [panda-utils]: Downloading https://files.pythonhosted.org/packages/fb/87/3d96bf03a5ebb8bbb6446c70789cfbc678866162bfbe028938896a3c987f/panda_utils-1.4.4.tar.gz
+[2023-08-02 00:45:54] INFO root fetch - processPackages [labxpipe]: executing diffoscope
+[2023-08-02 00:45:54] INFO root fetch - processPackages [labxpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labxpipe-0.7.0.tar.gz tmp/labxpipe-0.7.1.tar.gz --markdown 20230802/l/labxpipe/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-02 00:45:54] INFO root fetch - processPackages [orbax-export]: executing diffoscope
+[2023-08-02 00:45:54] INFO root fetch - processPackages [orbax-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbax-export-0.0.2.tar.gz tmp/orbax_export-0.0.3.tar.gz --markdown 20230802/o/orbax-export/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 00:45:54] INFO root fetch - processPackages [mrfix]: executing diffoscope
+[2023-08-02 00:45:54] INFO root fetch - processPackages [mrfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfix-2.0.8.tar.gz tmp/mrfix-2.0.9.tar.gz --markdown 20230802/m/mrfix/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-02 00:45:54] INFO root fetch - processPackages [FinderZ]: executing diffoscope
+[2023-08-02 00:45:54] INFO root fetch - processPackages [FinderZ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finderz-2.0.3.tar.gz tmp/finderz-2.0.4.tar.gz --markdown 20230802/F/FinderZ/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-08-02 00:45:54] INFO root fetch - processPackages [passwordless-SDK]: Downloading https://files.pythonhosted.org/packages/d5/95/308421cb6bd6bb35097e569e67b604a8bd3c5b960c20168320ec73156c27/passwordless-SDK-0.0.2.tar.gz
+[2023-08-02 00:45:54] INFO root fetch - processPackages [panda-utils]: Downloading https://files.pythonhosted.org/packages/89/df/712237eaae4774f551d8cbdcc35c803c2471d92771d55c5c15cf006d464d/panda_utils-1.5b1.tar.gz
+[2023-08-02 00:45:54] INFO root fetch - processPackages [passwordless-SDK]: executing diffoscope
+[2023-08-02 00:45:54] INFO root fetch - processPackages [passwordless-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passwordless-sdk-0.0.1.tar.gz tmp/passwordless-SDK-0.0.2.tar.gz --markdown 20230802/p/passwordless-SDK/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 00:45:54] INFO root fetch - processPackages [panda-utils]: executing diffoscope
+[2023-08-02 00:45:54] INFO root fetch - processPackages [panda-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_utils-1.4.4.tar.gz tmp/panda_utils-1.5b1.tar.gz --markdown 20230802/p/panda-utils/1.4.4-1.5b1/diff.md --exclude *.pyd
+[2023-08-02 00:45:55] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-08-02 00:45:55] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a9.tar.gz]
+[2023-08-02 00:45:55] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-08-02 00:45:55] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.8.tar.gz]
+[2023-08-02 00:45:55] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.9.tar.gz]
+[2023-08-02 00:45:55] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-08-02 00:45:55] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.243.tar.gz]
+[2023-08-02 00:45:55] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.244.tar.gz]
+[2023-08-02 00:45:55] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-02 00:45:55] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-08-02 00:45:55] INFO root fetch - processPackages [passwordless-SDK]: Remove: archive file [/home/abi/fetcher/tmp/passwordless-sdk-0.0.1.tar.gz]
+[2023-08-02 00:45:55] INFO root fetch - processPackages [passwordless-SDK]: Remove: archive file [/home/abi/fetcher/tmp/passwordless-SDK-0.0.2.tar.gz]
+[2023-08-02 00:45:55] INFO root fetch - main [MainThread]: End processing [passwordless-SDK]: success
+[2023-08-02 00:45:55] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.8.tar.gz]
+[2023-08-02 00:45:55] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.9.tar.gz]
+[2023-08-02 00:45:55] INFO root fetch - main [MainThread]: End processing [mrfix]: success
+[2023-08-02 00:45:56] INFO root fetch - processPackages [orbax-export]: Remove: archive file [/home/abi/fetcher/tmp/orbax-export-0.0.2.tar.gz]
+[2023-08-02 00:45:56] INFO root fetch - processPackages [orbax-export]: Remove: archive file [/home/abi/fetcher/tmp/orbax_export-0.0.3.tar.gz]
+[2023-08-02 00:45:56] INFO root fetch - main [MainThread]: End processing [orbax-export]: success
+[2023-08-02 00:45:56] INFO root fetch - processPackages [labxpipe]: Remove: archive file [/home/abi/fetcher/tmp/labxpipe-0.7.0.tar.gz]
+[2023-08-02 00:45:56] INFO root fetch - processPackages [labxpipe]: Remove: archive file [/home/abi/fetcher/tmp/labxpipe-0.7.1.tar.gz]
+[2023-08-02 00:45:56] INFO root fetch - main [MainThread]: End processing [labxpipe]: success
+[2023-08-02 00:45:56] INFO root fetch - processPackages [panda-utils]: Remove: archive file [/home/abi/fetcher/tmp/panda_utils-1.4.4.tar.gz]
+[2023-08-02 00:45:56] INFO root fetch - processPackages [panda-utils]: Remove: archive file [/home/abi/fetcher/tmp/panda_utils-1.5b1.tar.gz]
+[2023-08-02 00:45:56] INFO root fetch - main [MainThread]: End processing [panda-utils]: success
+[2023-08-02 00:45:56] INFO root fetch - processPackages [FinderZ]: Remove: archive file [/home/abi/fetcher/tmp/finderz-2.0.3.tar.gz]
+[2023-08-02 00:45:56] INFO root fetch - processPackages [FinderZ]: Remove: archive file [/home/abi/fetcher/tmp/finderz-2.0.4.tar.gz]
+[2023-08-02 00:45:56] INFO root fetch - main [MainThread]: End processing [FinderZ]: success
+[2023-08-02 00:45:56] INFO root fetch - main [MainThread]: Store serial: [19131991]

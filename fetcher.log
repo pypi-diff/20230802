@@ -1112,3 +1112,90 @@
 [2023-08-02 00:56:28] INFO root fetch - processPackages [phymmr-tools]: Remove: archive file [/home/abi/fetcher/tmp/phymmr_tools-0.4.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-08-02 00:56:28] INFO root fetch - main [MainThread]: End processing [phymmr-tools]: success
 [2023-08-02 00:56:28] INFO root fetch - main [MainThread]: Store serial: [19132079]
+[2023-08-02 01:01:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19132079]
+[2023-08-02 01:01:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-02 01:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsii
+[2023-08-02 01:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transport-cba
+[2023-08-02 01:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-08-02 01:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: symbal
+[2023-08-02 01:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: d20-securityLayer
+[2023-08-02 01:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: litellm
+[2023-08-02 01:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: auto-click-auto
+[2023-08-02 01:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tecton
+[2023-08-02 01:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apibara
+[2023-08-02 01:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flwr-nightly
+[2023-08-02 01:01:38] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.414] Old Version: [0.3.413]
+[2023-08-02 01:01:38] INFO root fetch - processPackages [auto-click-auto]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2023-08-02 01:01:38] INFO root fetch - processPackages [symbal]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 01:01:38] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-08-02 01:01:38] WARNING root fetch - processPackages [transport-cba]: Skipping, unable to determine old version
+[2023-08-02 01:01:38] INFO root fetch - main [MainThread]: End processing [transport-cba] error
+[2023-08-02 01:01:38] INFO root fetch - processPackages [apibara]: New version: [0.7.3a1] Old Version: [0.7.3a0]
+[2023-08-02 01:01:38] INFO root fetch - processPackages [litellm]: New version: [0.1.208] Old Version: [0.1.207]
+[2023-08-02 01:01:38] INFO root fetch - processPackages [jsii]: New version: [1.9.0] Old Version: [1.86.0]
+[2023-08-02 01:01:38] INFO root fetch - processPackages [tecton]: New version: [0.8.0b1] Old Version: [0.8.0b0]
+[2023-08-02 01:01:38] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-08-02 01:01:38] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230801] Old Version: [1.5.0.dev20230731]
+[2023-08-02 01:01:38] INFO root fetch - processPackages [apibara]: Downloading https://files.pythonhosted.org/packages/a0/bd/7484901bd71acac74481c6a9ce011e9ed9b949b2f177c49f25dfc07fe15c/apibara-0.7.3a0.tar.gz
+[2023-08-02 01:01:38] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/99/9c/5af32be4c7662cedc19ea1a5b81e22f67b2502c578ce33ef4f6f5c3ae891/litellm-0.1.207.tar.gz
+[2023-08-02 01:01:38] INFO root fetch - processPackages [auto-click-auto]: Downloading https://files.pythonhosted.org/packages/76/97/f5e8535eebade1642876dd0437c348662e48d47772b179463062d43ea102/auto_click_auto-0.1.0a4.tar.gz
+[2023-08-02 01:01:38] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/2f/fa/6bb8556b082fb8c16ec7ad61ad9ccb5d55fb59a2da62a65ac4b2bb26c0dd/pepperize.cdk-ses-smtp-credentials-0.3.413.tar.gz
+[2023-08-02 01:01:38] INFO root fetch - processPackages [symbal]: Downloading https://files.pythonhosted.org/packages/a6/3a/d9a756525556d74522f8b5255c996bab789f4f478dd2a1a0e037d53c686b/symbal-0.0.8.tar.gz
+[2023-08-02 01:01:38] INFO root fetch - processPackages [jsii]: Downloading https://files.pythonhosted.org/packages/69/83/7e1e14e6797b9f34b53a25723a73e0c4d2aa3ed89cbcd601356bc905debc/jsii-1.86.0.tar.gz
+[2023-08-02 01:01:38] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/b9/e5/f90a352e7841f219f941773089ed2c346b6e91daf865803593e1e0a0ff3e/tecton-0.8.0b0.tar.gz
+[2023-08-02 01:01:38] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/56/46/f3ba1d8980a81e7e0579b812ea29d2c68be9c442ea0e7168a51afcd8c79e/d20-securityLayer-2.0.0a9.tar.gz
+[2023-08-02 01:01:39] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/44/c0/089fb85bfc81d8801c1c5839a299af3b45f88f1be2870adea4eacdeb9db8/flwr_nightly-1.5.0.dev20230731.tar.gz
+[2023-08-02 01:01:39] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-08-02 01:01:39] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a8.tar.gz tmp/d20-securityLayer-2.0.0a9.tar.gz --markdown 20230802/d/d20-securityLayer/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-08-02 01:01:39] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/6b/11/fc010e4dfd2a18503c2dec89812ee5d5a04e71439bd2f9a0868401849637/litellm-0.1.208.tar.gz
+[2023-08-02 01:01:39] INFO root fetch - processPackages [apibara]: Downloading https://files.pythonhosted.org/packages/fb/34/043428227b80dfbbbd6ae1257853626cfc8103eecce1858a4f96bedc5537/apibara-0.7.3a1.tar.gz
+[2023-08-02 01:01:39] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/e0/f3/3680e10ba79cd81583686fbcd44ff8f3c3eea51682407e5eba48b9414b0a/pepperize.cdk-ses-smtp-credentials-0.3.414.tar.gz
+[2023-08-02 01:01:39] INFO root fetch - processPackages [symbal]: Downloading https://files.pythonhosted.org/packages/f9/31/d66e16d6b9de678822f8c7cf0376daf2170383983f7a7483353da89b3145/symbal-0.0.9.tar.gz
+[2023-08-02 01:01:39] INFO root fetch - processPackages [auto-click-auto]: Downloading https://files.pythonhosted.org/packages/4b/ad/94b8f567568df53a244517b3090d4df4c46dac2918ff216b7c8fca7949aa/auto_click_auto-0.1.0a5.tar.gz
+[2023-08-02 01:01:39] INFO root fetch - processPackages [jsii]: Downloading https://files.pythonhosted.org/packages/78/20/6098655fcf481a83444339de8b2275a7c0eaf7b4b960911939b279a0b5e6/jsii-1.9.0.tar.gz
+[2023-08-02 01:01:39] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-02 01:01:39] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.207.tar.gz tmp/litellm-0.1.208.tar.gz --markdown 20230802/l/litellm/0.1.207-0.1.208/diff.md --exclude *.pyd
+[2023-08-02 01:01:39] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/9b/3b/8f45f00f0d920839315f68ac0854bc3d6e3804baf48c074ee27f439d67d8/tecton-0.8.0b1.tar.gz
+[2023-08-02 01:01:39] INFO root fetch - processPackages [symbal]: executing diffoscope
+[2023-08-02 01:01:39] INFO root fetch - processPackages [symbal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbal-0.0.8.tar.gz tmp/symbal-0.0.9.tar.gz --markdown 20230802/s/symbal/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 01:01:39] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-08-02 01:01:39] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.413.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.414.tar.gz --markdown 20230802/p/pepperize.cdk-ses-smtp-credentials/0.3.413-0.3.414/diff.md --exclude *.pyd
+[2023-08-02 01:01:39] INFO root fetch - processPackages [apibara]: executing diffoscope
+[2023-08-02 01:01:39] INFO root fetch - processPackages [apibara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apibara-0.7.3a0.tar.gz tmp/apibara-0.7.3a1.tar.gz --markdown 20230802/a/apibara/0.7.3a0-0.7.3a1/diff.md --exclude *.pyd
+[2023-08-02 01:01:39] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/5b/12/d34b5f3930ac750c48791f6d550296e5c96b2b8076c11626f6d03a7044b3/flwr_nightly-1.5.0.dev20230801.tar.gz
+[2023-08-02 01:01:39] INFO root fetch - processPackages [auto-click-auto]: executing diffoscope
+[2023-08-02 01:01:39] INFO root fetch - processPackages [auto-click-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_click_auto-0.1.0a4.tar.gz tmp/auto_click_auto-0.1.0a5.tar.gz --markdown 20230802/a/auto-click-auto/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2023-08-02 01:01:39] INFO root fetch - processPackages [jsii]: executing diffoscope
+[2023-08-02 01:01:39] INFO root fetch - processPackages [jsii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsii-1.86.0.tar.gz tmp/jsii-1.9.0.tar.gz --markdown 20230802/j/jsii/1.86.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-02 01:01:39] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-08-02 01:01:39] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230731.tar.gz tmp/flwr_nightly-1.5.0.dev20230801.tar.gz --markdown 20230802/f/flwr-nightly/1.5.0.dev20230731-1.5.0.dev20230801/diff.md --exclude *.pyd
+[2023-08-02 01:01:39] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2023-08-02 01:01:39] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.8.0b0.tar.gz tmp/tecton-0.8.0b1.tar.gz --markdown 20230802/t/tecton/0.8.0b0-0.8.0b1/diff.md --exclude *.pyd
+[2023-08-02 01:01:40] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-08-02 01:01:40] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a9.tar.gz]
+[2023-08-02 01:01:40] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-08-02 01:01:40] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.207.tar.gz]
+[2023-08-02 01:01:40] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.208.tar.gz]
+[2023-08-02 01:01:40] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-02 01:01:40] INFO root fetch - processPackages [symbal]: Remove: archive file [/home/abi/fetcher/tmp/symbal-0.0.8.tar.gz]
+[2023-08-02 01:01:40] INFO root fetch - processPackages [symbal]: Remove: archive file [/home/abi/fetcher/tmp/symbal-0.0.9.tar.gz]
+[2023-08-02 01:01:40] INFO root fetch - main [MainThread]: End processing [symbal]: success
+[2023-08-02 01:01:40] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.413.tar.gz]
+[2023-08-02 01:01:40] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.414.tar.gz]
+[2023-08-02 01:01:40] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-08-02 01:01:40] INFO root fetch - processPackages [apibara]: Remove: archive file [/home/abi/fetcher/tmp/apibara-0.7.3a0.tar.gz]
+[2023-08-02 01:01:40] INFO root fetch - processPackages [apibara]: Remove: archive file [/home/abi/fetcher/tmp/apibara-0.7.3a1.tar.gz]
+[2023-08-02 01:01:40] INFO root fetch - main [MainThread]: End processing [apibara]: success
+[2023-08-02 01:01:40] INFO root fetch - processPackages [auto-click-auto]: Remove: archive file [/home/abi/fetcher/tmp/auto_click_auto-0.1.0a4.tar.gz]
+[2023-08-02 01:01:40] INFO root fetch - processPackages [auto-click-auto]: Remove: archive file [/home/abi/fetcher/tmp/auto_click_auto-0.1.0a5.tar.gz]
+[2023-08-02 01:01:40] INFO root fetch - main [MainThread]: End processing [auto-click-auto]: success
+[2023-08-02 01:01:41] INFO root fetch - processPackages [jsii]: Remove: archive file [/home/abi/fetcher/tmp/jsii-1.86.0.tar.gz]
+[2023-08-02 01:01:41] INFO root fetch - processPackages [jsii]: Remove: archive file [/home/abi/fetcher/tmp/jsii-1.9.0.tar.gz]
+[2023-08-02 01:01:41] INFO root fetch - main [MainThread]: End processing [jsii]: success
+[2023-08-02 01:01:41] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230731.tar.gz]
+[2023-08-02 01:01:41] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230801.tar.gz]
+[2023-08-02 01:01:41] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-08-02 01:01:43] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.8.0b0.tar.gz]
+[2023-08-02 01:01:43] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.8.0b1.tar.gz]
+[2023-08-02 01:01:43] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2023-08-02 01:01:43] INFO root fetch - main [MainThread]: Store serial: [19132113]

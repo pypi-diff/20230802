@@ -615,3 +615,102 @@
 [2023-08-02 00:30:18] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-08-02 00:30:18] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-08-02 00:30:18] INFO root fetch - main [MainThread]: Store serial: [19131861]
+[2023-08-02 00:35:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19131861]
+[2023-08-02 00:35:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-02 00:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vars-gridview
+[2023-08-02 00:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: animo-trainer
+[2023-08-02 00:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-starter
+[2023-08-02 00:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ALQRRelu-new
+[2023-08-02 00:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edwh-migrate
+[2023-08-02 00:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simpleWebBrowsing
+[2023-08-02 00:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sleepydatapeek
+[2023-08-02 00:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: passwordlessapi
+[2023-08-02 00:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cjm-yolox-pytorch
+[2023-08-02 00:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: volstreet
+[2023-08-02 00:35:27] INFO root fetch - processPackages [sleepydatapeek]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-08-02 00:35:27] INFO root fetch - processPackages [vars-gridview]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-02 00:35:27] WARNING root fetch - processPackages [ALQRRelu-new]: Skipping, unable to determine old version
+[2023-08-02 00:35:27] INFO root fetch - processPackages [ALQRRelu-new]: Start processing: zulip-doc
+[2023-08-02 00:35:27] INFO root fetch - main [MainThread]: End processing [ALQRRelu-new] error
+[2023-08-02 00:35:27] INFO root fetch - processPackages [edwh-migrate]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-08-02 00:35:27] INFO root fetch - processPackages [volstreet]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-02 00:35:27] INFO root fetch - processPackages [ml-starter]: New version: [0.1.43] Old Version: [0.1.42]
+[2023-08-02 00:35:27] INFO root fetch - processPackages [animo-trainer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 00:35:27] INFO root fetch - processPackages [simpleWebBrowsing]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-02 00:35:27] WARNING root fetch - processPackages [passwordlessapi]: Skipping, unable to determine old version
+[2023-08-02 00:35:27] INFO root fetch - processPackages [passwordlessapi]: Start processing: open-interpreter
+[2023-08-02 00:35:27] INFO root fetch - main [MainThread]: End processing [passwordlessapi] error
+[2023-08-02 00:35:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 00:35:27] INFO root fetch - processPackages [zulip-doc]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-02 00:35:27] INFO root fetch - processPackages [sleepydatapeek]: Downloading https://files.pythonhosted.org/packages/90/39/f1d718160700263101692454d28e5ec06e523f6e97aebd9620ac123af024/sleepydatapeek-0.1.9.tar.gz
+[2023-08-02 00:35:27] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.243] Old Version: [0.0.242]
+[2023-08-02 00:35:27] INFO root fetch - processPackages [vars-gridview]: Downloading https://files.pythonhosted.org/packages/20/a0/cdeadae13a6854088c41e4c9560398d8549e67b4f35e3815a83f3d91c054/vars_gridview-0.3.1.tar.gz
+[2023-08-02 00:35:27] INFO root fetch - processPackages [edwh-migrate]: Downloading https://files.pythonhosted.org/packages/4e/25/90acf551db880f211ba5c6f425b38906cd3a5d6b5f8cbfb32a27f3c321a6/edwh_migrate-0.4.4.tar.gz
+[2023-08-02 00:35:27] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/d4/1a/daade539c6d1ba667d14cbb915a9bfb86e4a8c889682628159f35ce4d412/ml-starter-0.1.42.tar.gz
+[2023-08-02 00:35:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-08-02 00:35:28] INFO root fetch - processPackages [zulip-doc]: Downloading https://files.pythonhosted.org/packages/2d/80/22ff762a7268a1130e062596977cdf2f6e1387e3f36700c53a589b72f334/zulip_doc-0.3.0.tar.gz
+[2023-08-02 00:35:28] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/b7/9b/f8aad70a810c8d53842844da73fb0b42abace3921ff3345528684cd33083/volstreet-1.0.8.tar.gz
+[2023-08-02 00:35:28] INFO root fetch - processPackages [simpleWebBrowsing]: Downloading https://files.pythonhosted.org/packages/fd/7a/45a8fa69038901ee7a235cbbb7e526783ca62b26f35b37c66d17f23c8b1e/simpleWebBrowsing-0.2.0.tar.gz
+[2023-08-02 00:35:28] INFO root fetch - processPackages [animo-trainer]: Downloading https://files.pythonhosted.org/packages/b8/3e/a80559f3dd845852c1f2cc55ff258a77d0ca88bc8a457ea3b7690b518f2e/animo_trainer-0.1.8.tar.gz
+[2023-08-02 00:35:28] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/54/a3/fc5c382ff43c28ede224ade9c87c9ffba728d9927c0958d3f3c8510b8c20/open_interpreter-0.0.242.tar.gz
+[2023-08-02 00:35:28] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-08-02 00:35:28] INFO root fetch - processPackages [sleepydatapeek]: Downloading https://files.pythonhosted.org/packages/2e/3e/8b8aa11291cbb75574e57c90d44f5c1aa6e8d1d994d135aeb342d7b29a21/sleepydatapeek-0.2.0.tar.gz
+[2023-08-02 00:35:28] INFO root fetch - processPackages [edwh-migrate]: Downloading https://files.pythonhosted.org/packages/f4/c6/c57eb009297f8e83290e34da002acad216951ef754e014b4b78eca3e905f/edwh_migrate-0.5.0.tar.gz
+[2023-08-02 00:35:28] INFO root fetch - processPackages [vars-gridview]: Downloading https://files.pythonhosted.org/packages/f4/b8/2cea5d6ac3966252d8f4bdff07b55a2d1197703b32de9c34df0b5fbe4798/vars_gridview-0.3.2.tar.gz
+[2023-08-02 00:35:28] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/52/71/a761cd91592a1076073c334c9ff1ca824300a9f0cb6182439f88cd21fa08/ml-starter-0.1.43.tar.gz
+[2023-08-02 00:35:28] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-08-02 00:35:28] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230802/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 00:35:28] INFO root fetch - processPackages [zulip-doc]: Downloading https://files.pythonhosted.org/packages/03/4c/67018d6e8c9191416ecd2f052b54af440cfbf371d0d90d3bbdf3c985383f/zulip_doc-0.4.0.tar.gz
+[2023-08-02 00:35:28] INFO root fetch - processPackages [simpleWebBrowsing]: Downloading https://files.pythonhosted.org/packages/0d/4d/5a2861abf2c90c8618684d26415e4143ae35e513e55f69f198c7de9fa98d/simpleWebBrowsing-0.3.0.tar.gz
+[2023-08-02 00:35:28] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/6b/6e/8654ede8c2bad3bb658ff2dceb3ea073dd21a0ed4b01d5548ba881eb79b6/open_interpreter-0.0.243.tar.gz
+[2023-08-02 00:35:28] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-08-02 00:35:28] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.42.tar.gz tmp/ml-starter-0.1.43.tar.gz --markdown 20230802/m/ml-starter/0.1.42-0.1.43/diff.md --exclude *.pyd
+[2023-08-02 00:35:28] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/89/83/9c12b80a03a986e1eea8bac8aa7bfd419ebcdce5894ae1fd18d8cb363ad0/volstreet-1.0.9.tar.gz
+[2023-08-02 00:35:28] INFO root fetch - processPackages [edwh-migrate]: executing diffoscope
+[2023-08-02 00:35:28] INFO root fetch - processPackages [edwh-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_migrate-0.4.4.tar.gz tmp/edwh_migrate-0.5.0.tar.gz --markdown 20230802/e/edwh-migrate/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-08-02 00:35:28] INFO root fetch - processPackages [sleepydatapeek]: executing diffoscope
+[2023-08-02 00:35:28] INFO root fetch - processPackages [sleepydatapeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepydatapeek-0.1.9.tar.gz tmp/sleepydatapeek-0.2.0.tar.gz --markdown 20230802/s/sleepydatapeek/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-08-02 00:35:28] INFO root fetch - processPackages [simpleWebBrowsing]: executing diffoscope
+[2023-08-02 00:35:28] INFO root fetch - processPackages [simpleWebBrowsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleWebBrowsing-0.2.0.tar.gz tmp/simpleWebBrowsing-0.3.0.tar.gz --markdown 20230802/s/simpleWebBrowsing/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-02 00:35:28] INFO root fetch - processPackages [vars-gridview]: executing diffoscope
+[2023-08-02 00:35:28] INFO root fetch - processPackages [vars-gridview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vars_gridview-0.3.1.tar.gz tmp/vars_gridview-0.3.2.tar.gz --markdown 20230802/v/vars-gridview/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-02 00:35:28] INFO root fetch - processPackages [animo-trainer]: Downloading https://files.pythonhosted.org/packages/68/c6/91aa2599a7a5a0a4f2de8aa02299ae970d77f07adf24975d5df59dd425ca/animo_trainer-0.1.9.tar.gz
+[2023-08-02 00:35:28] INFO root fetch - processPackages [zulip-doc]: executing diffoscope
+[2023-08-02 00:35:28] INFO root fetch - processPackages [zulip-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zulip_doc-0.3.0.tar.gz tmp/zulip_doc-0.4.0.tar.gz --markdown 20230802/z/zulip-doc/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-02 00:35:28] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2023-08-02 00:35:28] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-1.0.8.tar.gz tmp/volstreet-1.0.9.tar.gz --markdown 20230802/v/volstreet/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 00:35:28] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-02 00:35:28] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.242.tar.gz tmp/open_interpreter-0.0.243.tar.gz --markdown 20230802/o/open-interpreter/0.0.242-0.0.243/diff.md --exclude *.pyd
+[2023-08-02 00:35:28] INFO root fetch - processPackages [animo-trainer]: executing diffoscope
+[2023-08-02 00:35:28] INFO root fetch - processPackages [animo-trainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animo_trainer-0.1.8.tar.gz tmp/animo_trainer-0.1.9.tar.gz --markdown 20230802/a/animo-trainer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 00:35:30] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-08-02 00:35:30] INFO root fetch - processPackages [sleepydatapeek]: Remove: archive file [/home/abi/fetcher/tmp/sleepydatapeek-0.1.9.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - processPackages [sleepydatapeek]: Remove: archive file [/home/abi/fetcher/tmp/sleepydatapeek-0.2.0.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - main [MainThread]: End processing [sleepydatapeek]: success
+[2023-08-02 00:35:30] INFO root fetch - processPackages [simpleWebBrowsing]: Remove: archive file [/home/abi/fetcher/tmp/simpleWebBrowsing-0.2.0.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - processPackages [simpleWebBrowsing]: Remove: archive file [/home/abi/fetcher/tmp/simpleWebBrowsing-0.3.0.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - main [MainThread]: End processing [simpleWebBrowsing]: success
+[2023-08-02 00:35:30] INFO root fetch - processPackages [edwh-migrate]: Remove: archive file [/home/abi/fetcher/tmp/edwh_migrate-0.4.4.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - processPackages [edwh-migrate]: Remove: archive file [/home/abi/fetcher/tmp/edwh_migrate-0.5.0.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - main [MainThread]: End processing [edwh-migrate]: success
+[2023-08-02 00:35:30] INFO root fetch - processPackages [zulip-doc]: Remove: archive file [/home/abi/fetcher/tmp/zulip_doc-0.3.0.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - processPackages [zulip-doc]: Remove: archive file [/home/abi/fetcher/tmp/zulip_doc-0.4.0.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - main [MainThread]: End processing [zulip-doc]: success
+[2023-08-02 00:35:30] INFO root fetch - processPackages [vars-gridview]: Remove: archive file [/home/abi/fetcher/tmp/vars_gridview-0.3.1.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - processPackages [vars-gridview]: Remove: archive file [/home/abi/fetcher/tmp/vars_gridview-0.3.2.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - main [MainThread]: End processing [vars-gridview]: success
+[2023-08-02 00:35:30] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.0.8.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.0.9.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2023-08-02 00:35:30] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.242.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.243.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-02 00:35:30] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.42.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.43.tar.gz]
+[2023-08-02 00:35:30] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-08-02 00:35:31] INFO root fetch - processPackages [animo-trainer]: Remove: archive file [/home/abi/fetcher/tmp/animo_trainer-0.1.8.tar.gz]
+[2023-08-02 00:35:31] INFO root fetch - processPackages [animo-trainer]: Remove: archive file [/home/abi/fetcher/tmp/animo_trainer-0.1.9.tar.gz]
+[2023-08-02 00:35:31] INFO root fetch - main [MainThread]: End processing [animo-trainer]: success
+[2023-08-02 00:35:31] INFO root fetch - main [MainThread]: Store serial: [19131904]

@@ -1770,3 +1770,86 @@
 [2023-08-02 01:46:23] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230731.tar.gz]
 [2023-08-02 01:46:23] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
 [2023-08-02 01:46:23] INFO root fetch - main [MainThread]: Store serial: [19132470]
+[2023-08-02 01:51:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19132470]
+[2023-08-02 01:51:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-02 01:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hcli-core
+[2023-08-02 01:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrclone-wrapper
+[2023-08-02 01:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sppam
+[2023-08-02 01:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sasanala-grandham
+[2023-08-02 01:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quant-alchemy
+[2023-08-02 01:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-schema
+[2023-08-02 01:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: honeybee-core
+[2023-08-02 01:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PySenseSDK
+[2023-08-02 01:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hab
+[2023-08-02 01:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyPartMC
+[2023-08-02 01:51:32] INFO root fetch - processPackages [honeybee-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-08-02 01:51:32] INFO root fetch - processPackages [hab]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-02 01:51:32] INFO root fetch - processPackages [sppam]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-08-02 01:51:32] INFO root fetch - processPackages [pyrclone-wrapper]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 01:51:32] INFO root fetch - processPackages [hcli-core]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-02 01:51:32] INFO root fetch - processPackages [quant-alchemy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-02 01:51:32] INFO root fetch - processPackages [PySenseSDK]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-02 01:51:32] INFO root fetch - processPackages [dragonfly-schema]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-08-02 01:51:32] INFO root fetch - processPackages [PyPartMC]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-02 01:51:32] WARNING root fetch - processPackages [sasanala-grandham]: Skipping, unable to determine old version
+[2023-08-02 01:51:32] INFO root fetch - main [MainThread]: End processing [sasanala-grandham] error
+[2023-08-02 01:51:32] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/25/88/7ed0aeb6b1cf0d4f003a3d3e96312cea0aff67017d50c5c9cd245c04f048/honeybee-core-1.8.1.tar.gz
+[2023-08-02 01:51:32] INFO root fetch - processPackages [hcli-core]: Downloading https://files.pythonhosted.org/packages/6b/c1/5e085a3c4ac830a12c44fcbc907efc2f7e0fa4ba2b9860331bce714220a6/hcli_core-0.8.0.tar.gz
+[2023-08-02 01:51:32] INFO root fetch - processPackages [quant-alchemy]: Downloading https://files.pythonhosted.org/packages/89/1d/d26e96a473cccefe219d9c1a19b5de80ed7688a605931d7b8614c4221504/quant-alchemy-0.1.5.tar.gz
+[2023-08-02 01:51:32] INFO root fetch - processPackages [sppam]: Downloading https://files.pythonhosted.org/packages/a8/74/4464e6c6662416fcc3ffb47de87acef5c22e7d7237df439c04a2a186fdb8/sppam-0.0.3.tar.gz
+[2023-08-02 01:51:32] INFO root fetch - processPackages [hab]: Downloading https://files.pythonhosted.org/packages/fb/f1/f0bd61c22ae66dec7d13a42689d5456fad877cd0c88d071c51e70c64f30f/hab-0.8.0-py3-none-any.whl
+[2023-08-02 01:51:32] INFO root fetch - processPackages [pyrclone-wrapper]: Downloading https://files.pythonhosted.org/packages/ba/ab/6e82c8159629119de79353516f11265b11a575651e9ece721357ae86fd82/pyrclone_wrapper-0.0.2-py3-none-win_amd64.whl
+[2023-08-02 01:51:32] INFO root fetch - processPackages [PySenseSDK]: Downloading https://files.pythonhosted.org/packages/fb/3a/0ab051ec2c7e1f85e444d40a27eee70d165154b73d59ba85f0cbdef1f1cd/PySenseSDK-1.0.5.tar.gz
+[2023-08-02 01:51:32] INFO root fetch - processPackages [PyPartMC]: Downloading https://files.pythonhosted.org/packages/6b/6a/b10dff24a03797ba55f2b5d7ceb6671308beb215c7357861973fd1276583/PyPartMC-0.3.0.tar.gz
+[2023-08-02 01:51:32] INFO root fetch - processPackages [dragonfly-schema]: Downloading https://files.pythonhosted.org/packages/82/18/b0f185f1087ebedd4f6c9a324b3802d55105676d75173eb97c0f8c656557/dragonfly-schema-1.9.3.tar.gz
+[2023-08-02 01:51:32] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/d8/9b/f2a81f9cdf6c2556a083efabd9c0d69bdf3eb0acefed3b55c9d5ed1bcb15/honeybee-core-1.9.0.tar.gz
+[2023-08-02 01:51:32] WARNING root fetch - processPackages [pyrclone-wrapper]: Skipping package: exceeds size limit 16306716>=10485760
+[2023-08-02 01:51:32] INFO root fetch - main [MainThread]: End processing [pyrclone-wrapper] error
+[2023-08-02 01:51:32] INFO root fetch - processPackages [quant-alchemy]: Downloading https://files.pythonhosted.org/packages/2b/d7/eef59885a7daeec28d3b7133617d826423b6f68bfd0344644355d8d71285/quant-alchemy-0.1.6.tar.gz
+[2023-08-02 01:51:32] INFO root fetch - processPackages [hcli-core]: Downloading https://files.pythonhosted.org/packages/6f/b4/19d468c66cf3eb10188374e2181a4f8d497514ff41a3655bc844c82c229e/hcli_core-0.9.0.tar.gz
+[2023-08-02 01:51:32] INFO root fetch - processPackages [honeybee-core]: executing diffoscope
+[2023-08-02 01:51:32] INFO root fetch - processPackages [honeybee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-core-1.8.1.tar.gz tmp/honeybee-core-1.9.0.tar.gz --markdown 20230802/h/honeybee-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-08-02 01:51:32] INFO root fetch - processPackages [sppam]: Downloading https://files.pythonhosted.org/packages/12/fb/05ca5c6de109070ef193a148fc2d1f9d63ed19b1535159ce309ef375cf7e/sppam-0.0.5.tar.gz
+[2023-08-02 01:51:32] INFO root fetch - processPackages [dragonfly-schema]: Downloading https://files.pythonhosted.org/packages/db/94/5894cc2c02010ef37268481ed20f2555f11065c946b01159421572270470/dragonfly-schema-1.9.4.tar.gz
+[2023-08-02 01:51:32] INFO root fetch - processPackages [PySenseSDK]: Downloading https://files.pythonhosted.org/packages/88/9e/db7099fd29572f7b407b010d7258720c1d7cfdd921b97e1ff3e3499e8525/PySenseSDK-1.0.6.tar.gz
+[2023-08-02 01:51:33] INFO root fetch - processPackages [hcli-core]: executing diffoscope
+[2023-08-02 01:51:33] INFO root fetch - processPackages [hcli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcli_core-0.8.0.tar.gz tmp/hcli_core-0.9.0.tar.gz --markdown 20230802/h/hcli-core/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 01:51:33] INFO root fetch - processPackages [hab]: Downloading https://files.pythonhosted.org/packages/69/84/4483d8e5c93a2dbee0af9078a1abd7ceed93dd5ee7be4fa4176cc5e3a783/hab-0.9.0-py3-none-any.whl
+[2023-08-02 01:51:33] INFO root fetch - processPackages [dragonfly-schema]: executing diffoscope
+[2023-08-02 01:51:33] INFO root fetch - processPackages [dragonfly-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-schema-1.9.3.tar.gz tmp/dragonfly-schema-1.9.4.tar.gz --markdown 20230802/d/dragonfly-schema/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-08-02 01:51:33] INFO root fetch - processPackages [sppam]: executing diffoscope
+[2023-08-02 01:51:33] INFO root fetch - processPackages [sppam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppam-0.0.3.tar.gz tmp/sppam-0.0.5.tar.gz --markdown 20230802/s/sppam/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-08-02 01:51:33] INFO root fetch - processPackages [quant-alchemy]: executing diffoscope
+[2023-08-02 01:51:33] INFO root fetch - processPackages [quant-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant-alchemy-0.1.5.tar.gz tmp/quant-alchemy-0.1.6.tar.gz --markdown 20230802/q/quant-alchemy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-02 01:51:33] INFO root fetch - processPackages [PySenseSDK]: executing diffoscope
+[2023-08-02 01:51:33] INFO root fetch - processPackages [PySenseSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySenseSDK-1.0.5.tar.gz tmp/PySenseSDK-1.0.6.tar.gz --markdown 20230802/P/PySenseSDK/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-02 01:51:33] INFO root fetch - processPackages [PyPartMC]: Downloading https://files.pythonhosted.org/packages/1d/a5/4a43351dc366eaa87e474ca530d55f277fa59dcb44c8abf2267b2bdbdf31/PyPartMC-0.4.0.tar.gz
+[2023-08-02 01:51:33] INFO root fetch - processPackages [hab]: executing diffoscope
+[2023-08-02 01:51:33] INFO root fetch - processPackages [hab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hab-0.8.0-py3-none-any.whl.zip tmp/hab-0.9.0-py3-none-any.whl.zip --markdown 20230802/h/hab/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 01:51:34] INFO root fetch - processPackages [PyPartMC]: executing diffoscope
+[2023-08-02 01:51:34] INFO root fetch - processPackages [PyPartMC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPartMC-0.3.0.tar.gz tmp/PyPartMC-0.4.0.tar.gz --markdown 20230802/P/PyPartMC/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-02 01:51:34] INFO root fetch - processPackages [quant-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/quant-alchemy-0.1.5.tar.gz]
+[2023-08-02 01:51:34] INFO root fetch - processPackages [quant-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/quant-alchemy-0.1.6.tar.gz]
+[2023-08-02 01:51:34] INFO root fetch - main [MainThread]: End processing [quant-alchemy]: success
+[2023-08-02 01:51:34] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.8.1.tar.gz]
+[2023-08-02 01:51:34] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.9.0.tar.gz]
+[2023-08-02 01:51:34] INFO root fetch - main [MainThread]: End processing [honeybee-core]: success
+[2023-08-02 01:51:34] INFO root fetch - processPackages [hcli-core]: Remove: archive file [/home/abi/fetcher/tmp/hcli_core-0.8.0.tar.gz]
+[2023-08-02 01:51:34] INFO root fetch - processPackages [hcli-core]: Remove: archive file [/home/abi/fetcher/tmp/hcli_core-0.9.0.tar.gz]
+[2023-08-02 01:51:34] INFO root fetch - main [MainThread]: End processing [hcli-core]: success
+[2023-08-02 01:51:34] INFO root fetch - processPackages [sppam]: Remove: archive file [/home/abi/fetcher/tmp/sppam-0.0.3.tar.gz]
+[2023-08-02 01:51:34] INFO root fetch - processPackages [sppam]: Remove: archive file [/home/abi/fetcher/tmp/sppam-0.0.5.tar.gz]
+[2023-08-02 01:51:34] INFO root fetch - main [MainThread]: End processing [sppam]: success
+[2023-08-02 01:51:34] INFO root fetch - processPackages [PySenseSDK]: Remove: archive file [/home/abi/fetcher/tmp/PySenseSDK-1.0.5.tar.gz]
+[2023-08-02 01:51:34] INFO root fetch - processPackages [PySenseSDK]: Remove: archive file [/home/abi/fetcher/tmp/PySenseSDK-1.0.6.tar.gz]
+[2023-08-02 01:51:34] INFO root fetch - main [MainThread]: End processing [PySenseSDK]: success
+[2023-08-02 01:51:34] INFO root fetch - processPackages [dragonfly-schema]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-schema-1.9.3.tar.gz]
+[2023-08-02 01:51:34] INFO root fetch - processPackages [dragonfly-schema]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-schema-1.9.4.tar.gz]
+[2023-08-02 01:51:34] INFO root fetch - main [MainThread]: End processing [dragonfly-schema]: success
+[2023-08-02 01:51:34] INFO root fetch - processPackages [hab]: Remove: archive file [/home/abi/fetcher/tmp/hab-0.8.0-py3-none-any.whl.zip]
+[2023-08-02 01:51:34] INFO root fetch - processPackages [hab]: Remove: archive file [/home/abi/fetcher/tmp/hab-0.9.0-py3-none-any.whl.zip]
+[2023-08-02 01:51:34] INFO root fetch - main [MainThread]: End processing [hab]: success
+[2023-08-02 01:51:44] INFO root fetch - processPackages [PyPartMC]: Remove: archive file [/home/abi/fetcher/tmp/PyPartMC-0.3.0.tar.gz]
+[2023-08-02 01:51:44] INFO root fetch - processPackages [PyPartMC]: Remove: archive file [/home/abi/fetcher/tmp/PyPartMC-0.4.0.tar.gz]
+[2023-08-02 01:51:44] INFO root fetch - main [MainThread]: End processing [PyPartMC]: success
+[2023-08-02 01:51:44] INFO root fetch - main [MainThread]: Store serial: [19132519]

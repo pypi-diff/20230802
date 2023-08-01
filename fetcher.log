@@ -259,3 +259,123 @@
 [2023-08-02 00:14:02] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
 [2023-08-02 00:14:02] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
 [2023-08-02 00:14:02] INFO root fetch - main [MainThread]: Store serial: [19131695]
+[2023-08-02 00:19:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19131695]
+[2023-08-02 00:19:11] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-02 00:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assemblyline-service-server
+[2023-08-02 00:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assemblyline-ui
+[2023-08-02 00:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assemblyline-v4-service
+[2023-08-02 00:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline
+[2023-08-02 00:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline-core
+[2023-08-02 00:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sleepydatapeek
+[2023-08-02 00:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pySVModel
+[2023-08-02 00:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dheeobs
+[2023-08-02 00:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: database-knotinfo
+[2023-08-02 00:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-httpx
+[2023-08-02 00:19:11] INFO root fetch - processPackages [dheeobs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-02 00:19:11] INFO root fetch - processPackages [database-knotinfo]: New version: [21.7.15] Old Version: [21.7]
+[2023-08-02 00:19:11] INFO root fetch - processPackages [pySVModel]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-08-02 00:19:11] INFO root fetch - processPackages [sleepydatapeek]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 00:19:11] INFO root fetch - processPackages [pytest-httpx]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-02 00:19:11] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-02 00:19:11] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-02 00:19:11] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-02 00:19:11] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-02 00:19:11] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-02 00:19:11] INFO root fetch - processPackages [sleepydatapeek]: Downloading https://files.pythonhosted.org/packages/fd/60/4b7df48b95aa4aaa1d12231797c09e075a3d07586b9ee0d8d14d95977379/sleepydatapeek-0.1.8.tar.gz
+[2023-08-02 00:19:11] INFO root fetch - processPackages [dheeobs]: Downloading https://files.pythonhosted.org/packages/33/c4/237f518c40750e4a4f2c158af8974c47ba0276a4f904c98e52719f82c1b4/dheeobs-0.1.1.tar.gz
+[2023-08-02 00:19:11] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-08-02 00:19:11] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-08-02 00:19:11] INFO root fetch - processPackages [database-knotinfo]: Downloading https://files.pythonhosted.org/packages/ed/10/02c95e09f90ea3ca6a6622ba42077bf5e1bb8004d969c78a73d79bc763fc/database_knotinfo-21.7.tar.gz
+[2023-08-02 00:19:11] INFO root fetch - processPackages [pytest-httpx]: Downloading https://files.pythonhosted.org/packages/bb/16/cf59ab9b9c7ba8a94f214103e97fc2a3ef726231ff02993cb00d55381786/pytest_httpx-0.8.0.tar.gz
+[2023-08-02 00:19:11] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-08-02 00:19:11] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-08-02 00:19:11] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-08-02 00:19:11] INFO root fetch - processPackages [pySVModel]: Downloading https://files.pythonhosted.org/packages/36/c7/dc30d22f543b6d3a83f5213b4da2bb73773d6ce192b145bb251d872d27ad/pySVModel-0.3.5.tar.gz
+[2023-08-02 00:19:12] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-08-02 00:19:12] INFO root fetch - processPackages [sleepydatapeek]: Downloading https://files.pythonhosted.org/packages/90/39/f1d718160700263101692454d28e5ec06e523f6e97aebd9620ac123af024/sleepydatapeek-0.1.9.tar.gz
+[2023-08-02 00:19:12] INFO root fetch - processPackages [dheeobs]: Downloading https://files.pythonhosted.org/packages/ab/0b/638f5504c00edf70ea60638268c2c86e16b5c674deb09b787a3ffe323c67/dheeobs-0.1.2.tar.gz
+[2023-08-02 00:19:12] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-08-02 00:19:12] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-08-02 00:19:12] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230802/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-02 00:19:12] INFO root fetch - processPackages [pySVModel]: Downloading https://files.pythonhosted.org/packages/dd/87/d62ee38427d393b33d55f1de9ec67b7583be09ac4c04f6a4b62da5531555/pySVModel-0.4.0.tar.gz
+[2023-08-02 00:19:12] INFO root fetch - processPackages [pytest-httpx]: Downloading https://files.pythonhosted.org/packages/67/55/9e0c7edf35ff5b19e5d51c3867dfd140ce9e1706862e34e9d78d3b4aeece/pytest_httpx-0.9.0.tar.gz
+[2023-08-02 00:19:12] INFO root fetch - processPackages [dheeobs]: executing diffoscope
+[2023-08-02 00:19:12] INFO root fetch - processPackages [dheeobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dheeobs-0.1.1.tar.gz tmp/dheeobs-0.1.2.tar.gz --markdown 20230802/d/dheeobs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-02 00:19:12] INFO root fetch - processPackages [sleepydatapeek]: executing diffoscope
+[2023-08-02 00:19:12] INFO root fetch - processPackages [sleepydatapeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepydatapeek-0.1.8.tar.gz tmp/sleepydatapeek-0.1.9.tar.gz --markdown 20230802/s/sleepydatapeek/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 00:19:12] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-08-02 00:19:12] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-08-02 00:19:12] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230802/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-02 00:19:12] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-08-02 00:19:12] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-08-02 00:19:12] INFO root fetch - processPackages [database-knotinfo]: Downloading https://files.pythonhosted.org/packages/41/30/c317860b531bb854820f45d9dd7f7a377cb7f44dc35a5e3f5d73f0521eda/database_knotinfo-21.7.15.tar.gz
+[2023-08-02 00:19:12] INFO root fetch - processPackages [pySVModel]: executing diffoscope
+[2023-08-02 00:19:12] INFO root fetch - processPackages [pySVModel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pySVModel-0.3.5.tar.gz tmp/pySVModel-0.4.0.tar.gz --markdown 20230802/p/pySVModel/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-08-02 00:19:12] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-08-02 00:19:12] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230802/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-02 00:19:12] INFO root fetch - processPackages [pytest-httpx]: executing diffoscope
+[2023-08-02 00:19:12] INFO root fetch - processPackages [pytest-httpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_httpx-0.8.0.tar.gz tmp/pytest_httpx-0.9.0.tar.gz --markdown 20230802/p/pytest-httpx/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 00:19:12] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-08-02 00:19:12] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230802/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-02 00:19:12] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-08-02 00:19:12] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230802/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-02 00:19:13] INFO root fetch - processPackages [database-knotinfo]: executing diffoscope
+[2023-08-02 00:19:13] INFO root fetch - processPackages [database-knotinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_knotinfo-21.7.tar.gz tmp/database_knotinfo-21.7.15.tar.gz --markdown 20230802/d/database-knotinfo/21.7-21.7.15/diff.md --exclude *.pyd
+[2023-08-02 00:19:13] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-08-02 00:19:13] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-08-02 00:19:13] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: vars-gridview
+[2023-08-02 00:19:13] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-08-02 00:19:13] INFO root fetch - processPackages [dheeobs]: Remove: archive file [/home/abi/fetcher/tmp/dheeobs-0.1.1.tar.gz]
+[2023-08-02 00:19:13] INFO root fetch - processPackages [dheeobs]: Remove: archive file [/home/abi/fetcher/tmp/dheeobs-0.1.2.tar.gz]
+[2023-08-02 00:19:13] INFO root fetch - processPackages [dheeobs]: Start processing: benchling-api-client
+[2023-08-02 00:19:13] INFO root fetch - main [MainThread]: End processing [dheeobs]: success
+[2023-08-02 00:19:13] INFO root fetch - processPackages [vars-gridview]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-02 00:19:13] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-02 00:19:14] INFO root fetch - processPackages [sleepydatapeek]: Remove: archive file [/home/abi/fetcher/tmp/sleepydatapeek-0.1.8.tar.gz]
+[2023-08-02 00:19:14] INFO root fetch - processPackages [sleepydatapeek]: Remove: archive file [/home/abi/fetcher/tmp/sleepydatapeek-0.1.9.tar.gz]
+[2023-08-02 00:19:14] INFO root fetch - processPackages [sleepydatapeek]: Start processing: artifacts-keyring
+[2023-08-02 00:19:14] INFO root fetch - main [MainThread]: End processing [sleepydatapeek]: success
+[2023-08-02 00:19:14] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/ce/1d/9c3669396c4c52924ccf39a48a438a2c8167c4fb512eca865bd64066d33e/benchling_api_client-2.0.98.tar.gz
+[2023-08-02 00:19:14] INFO root fetch - processPackages [artifacts-keyring]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-02 00:19:14] INFO root fetch - processPackages [pySVModel]: Remove: archive file [/home/abi/fetcher/tmp/pySVModel-0.3.5.tar.gz]
+[2023-08-02 00:19:14] INFO root fetch - processPackages [pySVModel]: Remove: archive file [/home/abi/fetcher/tmp/pySVModel-0.4.0.tar.gz]
+[2023-08-02 00:19:14] INFO root fetch - main [MainThread]: End processing [pySVModel]: success
+[2023-08-02 00:19:14] INFO root fetch - processPackages [vars-gridview]: Downloading https://files.pythonhosted.org/packages/27/d2/02a5d21ee96c8bb008212f40848e76bee123c7b2e59cd4a64ebc9ef27850/vars_gridview-0.3.0.tar.gz
+[2023-08-02 00:19:14] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-08-02 00:19:14] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-08-02 00:19:14] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-08-02 00:19:14] INFO root fetch - processPackages [pytest-httpx]: Remove: archive file [/home/abi/fetcher/tmp/pytest_httpx-0.8.0.tar.gz]
+[2023-08-02 00:19:14] INFO root fetch - processPackages [pytest-httpx]: Remove: archive file [/home/abi/fetcher/tmp/pytest_httpx-0.9.0.tar.gz]
+[2023-08-02 00:19:14] INFO root fetch - main [MainThread]: End processing [pytest-httpx]: success
+[2023-08-02 00:19:14] INFO root fetch - processPackages [artifacts-keyring]: Downloading https://files.pythonhosted.org/packages/a1/d4/4333d126825e65df3eb67b1175d4b7e7cc7f958a16a44c3c65c6c7be0612/artifacts-keyring-0.3.2.tar.gz
+[2023-08-02 00:19:14] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-08-02 00:19:14] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-08-02 00:19:14] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-08-02 00:19:14] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/f9/23/649c2147d11c171b4b3d27c6a52dab32d22dc24ec1c248cf5d1dd8a4451d/benchling_api_client-2.0.99.tar.gz
+[2023-08-02 00:19:14] INFO root fetch - processPackages [vars-gridview]: Downloading https://files.pythonhosted.org/packages/20/a0/cdeadae13a6854088c41e4c9560398d8549e67b4f35e3815a83f3d91c054/vars_gridview-0.3.1.tar.gz
+[2023-08-02 00:19:14] INFO root fetch - processPackages [vars-gridview]: executing diffoscope
+[2023-08-02 00:19:14] INFO root fetch - processPackages [vars-gridview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vars_gridview-0.3.0.tar.gz tmp/vars_gridview-0.3.1.tar.gz --markdown 20230802/v/vars-gridview/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-02 00:19:14] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-08-02 00:19:14] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230802/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-02 00:19:15] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-08-02 00:19:15] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-08-02 00:19:15] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-08-02 00:19:15] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-08-02 00:19:15] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-08-02 00:19:15] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-08-02 00:19:15] INFO root fetch - processPackages [vars-gridview]: Remove: archive file [/home/abi/fetcher/tmp/vars_gridview-0.3.0.tar.gz]
+[2023-08-02 00:19:15] INFO root fetch - processPackages [vars-gridview]: Remove: archive file [/home/abi/fetcher/tmp/vars_gridview-0.3.1.tar.gz]
+[2023-08-02 00:19:15] INFO root fetch - main [MainThread]: End processing [vars-gridview]: success
+[2023-08-02 00:19:15] INFO root fetch - processPackages [artifacts-keyring]: Downloading https://files.pythonhosted.org/packages/6e/cd/dac083353d75ae6e60c3a6d671ce8707c4d8b6c7e4bd63feb2ca58d526c0/artifacts-keyring-0.3.3.tar.gz
+[2023-08-02 00:19:16] INFO root fetch - processPackages [database-knotinfo]: Remove: archive file [/home/abi/fetcher/tmp/database_knotinfo-21.7.tar.gz]
+[2023-08-02 00:19:16] INFO root fetch - processPackages [database-knotinfo]: Remove: archive file [/home/abi/fetcher/tmp/database_knotinfo-21.7.15.tar.gz]
+[2023-08-02 00:19:16] INFO root fetch - main [MainThread]: End processing [database-knotinfo]: success
+[2023-08-02 00:19:16] INFO root fetch - processPackages [artifacts-keyring]: executing diffoscope
+[2023-08-02 00:19:16] INFO root fetch - processPackages [artifacts-keyring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artifacts-keyring-0.3.2.tar.gz tmp/artifacts-keyring-0.3.3.tar.gz --markdown 20230802/a/artifacts-keyring/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-02 00:19:18] INFO root fetch - processPackages [artifacts-keyring]: Remove: archive file [/home/abi/fetcher/tmp/artifacts-keyring-0.3.2.tar.gz]
+[2023-08-02 00:19:18] INFO root fetch - processPackages [artifacts-keyring]: Remove: archive file [/home/abi/fetcher/tmp/artifacts-keyring-0.3.3.tar.gz]
+[2023-08-02 00:19:18] INFO root fetch - main [MainThread]: End processing [artifacts-keyring]: success
+[2023-08-02 00:19:49] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.98.tar.gz]
+[2023-08-02 00:19:49] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
+[2023-08-02 00:19:49] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-08-02 00:19:49] INFO root fetch - main [MainThread]: Store serial: [19131729]

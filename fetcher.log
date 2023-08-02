@@ -5684,3 +5684,50 @@
 [2023-08-02 03:07:36] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
 [2023-08-02 03:07:36] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
 [2023-08-02 03:07:36] INFO root fetch - main [MainThread]: Store serial: [19133869]
+[2023-08-02 03:12:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19133869]
+[2023-08-02 03:12:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-02 03:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moderne-visualizations-misc
+[2023-08-02 03:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MY-ISAT
+[2023-08-02 03:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sungrow-http-config
+[2023-08-02 03:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-organizations
+[2023-08-02 03:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigml
+[2023-08-02 03:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thirdai
+[2023-08-02 03:12:45] WARNING root fetch - processPackages [MY-ISAT]: Skipping, unable to determine old version
+[2023-08-02 03:12:45] INFO root fetch - main [MainThread]: End processing [MY-ISAT] error
+[2023-08-02 03:12:45] INFO root fetch - processPackages [sungrow-http-config]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 03:12:45] INFO root fetch - processPackages [moderne-visualizations-misc]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-02 03:12:45] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-08-02 03:12:45] INFO root fetch - processPackages [bigml]: New version: [9.6.1] Old Version: [9.6.0]
+[2023-08-02 03:12:45] INFO root fetch - processPackages [thirdai]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-08-02 03:12:45] INFO root fetch - processPackages [sungrow-http-config]: Downloading https://files.pythonhosted.org/packages/92/1d/463127f59776642d132b395a068e5f0a3f9db33ce9062a0dd30d33dbfebf/sungrow_http_config-0.0.2.tar.gz
+[2023-08-02 03:12:45] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-08-02 03:12:45] INFO root fetch - processPackages [moderne-visualizations-misc]: Downloading https://files.pythonhosted.org/packages/99/fd/cdfdd9ca99eecc8a7a94219bc3bb7bd3e453f7ed4fd456402af0d424dc75/moderne_visualizations_misc-0.1.6.tar.gz
+[2023-08-02 03:12:45] INFO root fetch - processPackages [bigml]: Downloading https://files.pythonhosted.org/packages/9e/a8/0fbb1e8d3bf2dd00a6bb6d13bc2f90c0c45aa3acfa1185fffff4b0bdd852/bigml-9.6.0.tar.gz
+[2023-08-02 03:12:45] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/b1/12/b896a0b4f98dbe96f4ba4bdb06dc51f9422b0d113ed60f040dabf1d8fa3a/thirdai-0.7.8-cp39-cp39-win_amd64.whl
+[2023-08-02 03:12:45] INFO root fetch - processPackages [sungrow-http-config]: Downloading https://files.pythonhosted.org/packages/1b/44/a65254a427b4868c9ed142929fe086f6345db4273f98fc2915a58aacf8fe/sungrow_http_config-0.0.3.tar.gz
+[2023-08-02 03:12:45] INFO root fetch - processPackages [sungrow-http-config]: executing diffoscope
+[2023-08-02 03:12:45] INFO root fetch - processPackages [sungrow-http-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sungrow_http_config-0.0.2.tar.gz tmp/sungrow_http_config-0.0.3.tar.gz --markdown 20230802/s/sungrow-http-config/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 03:12:45] INFO root fetch - processPackages [moderne-visualizations-misc]: Downloading https://files.pythonhosted.org/packages/a8/cc/9a47f5261d0209c3a086b989df89137037c5b2cb1add7e6a0f712a5d58cc/moderne_visualizations_misc-0.1.7.tar.gz
+[2023-08-02 03:12:45] INFO root fetch - processPackages [moderne-visualizations-misc]: executing diffoscope
+[2023-08-02 03:12:45] INFO root fetch - processPackages [moderne-visualizations-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moderne_visualizations_misc-0.1.6.tar.gz tmp/moderne_visualizations_misc-0.1.7.tar.gz --markdown 20230802/m/moderne-visualizations-misc/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-02 03:12:46] WARNING root fetch - processPackages [bigml]: Skipping package: exceeds size limit 25138956>=10485760
+[2023-08-02 03:12:46] INFO root fetch - main [MainThread]: End processing [bigml] error
+[2023-08-02 03:12:46] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-08-02 03:12:46] INFO root fetch - processPackages [sungrow-http-config]: Remove: archive file [/home/abi/fetcher/tmp/sungrow_http_config-0.0.2.tar.gz]
+[2023-08-02 03:12:46] INFO root fetch - processPackages [sungrow-http-config]: Remove: archive file [/home/abi/fetcher/tmp/sungrow_http_config-0.0.3.tar.gz]
+[2023-08-02 03:12:46] INFO root fetch - main [MainThread]: End processing [sungrow-http-config]: success
+[2023-08-02 03:12:46] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-08-02 03:12:46] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230802/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-08-02 03:12:46] INFO root fetch - processPackages [moderne-visualizations-misc]: Remove: archive file [/home/abi/fetcher/tmp/moderne_visualizations_misc-0.1.6.tar.gz]
+[2023-08-02 03:12:46] INFO root fetch - processPackages [moderne-visualizations-misc]: Remove: archive file [/home/abi/fetcher/tmp/moderne_visualizations_misc-0.1.7.tar.gz]
+[2023-08-02 03:12:46] INFO root fetch - main [MainThread]: End processing [moderne-visualizations-misc]: success
+[2023-08-02 03:12:47] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-08-02 03:12:47] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-08-02 03:12:47] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-08-02 03:12:47] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/8b/6d/f4bf727538b7c529fb99b293a68c5d32b9abf781998bb6f3c117f307ab47/thirdai-0.7.9-cp39-cp39-win_amd64.whl
+[2023-08-02 03:12:48] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2023-08-02 03:12:48] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230802/t/thirdai/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-08-02 03:12:49] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-08-02 03:12:49] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-08-02 03:12:49] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2023-08-02 03:12:49] INFO root fetch - main [MainThread]: Store serial: [19133905]

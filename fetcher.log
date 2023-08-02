@@ -21701,3 +21701,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-02 13:26:29] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.8.1.tar.gz]
 [2023-08-02 13:26:29] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
 [2023-08-02 13:26:29] INFO root fetch - main [MainThread]: Store serial: [19140565]
+[2023-08-02 13:31:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19140565]
+[2023-08-02 13:31:38] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-02 13:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-data-services
+[2023-08-02 13:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-organization-python
+[2023-08-02 13:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrid-api-bank-python
+[2023-08-02 13:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-id-python
+[2023-08-02 13:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchx-nightly
+[2023-08-02 13:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: castor-orsay
+[2023-08-02 13:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: discord-serverless
+[2023-08-02 13:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: StarClusterPlot
+[2023-08-02 13:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: YetAnotherPromptOptimiser
+[2023-08-02 13:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchrec-nightly
+[2023-08-02 13:31:38] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-02 13:31:38] INFO root fetch - processPackages [castor-orsay]: New version: [2023.8.2] Old Version: [2021.9.13]
+[2023-08-02 13:31:38] WARNING root fetch - processPackages [discord-serverless]: Skipping, unable to determine old version
+[2023-08-02 13:31:38] INFO root fetch - processPackages [discord-serverless]: Start processing: phanos
+[2023-08-02 13:31:38] INFO root fetch - main [MainThread]: End processing [discord-serverless] error
+[2023-08-02 13:31:38] WARNING root fetch - processPackages [YetAnotherPromptOptimiser]: Skipping, unable to determine old version
+[2023-08-02 13:31:38] INFO root fetch - main [MainThread]: End processing [YetAnotherPromptOptimiser] error
+[2023-08-02 13:31:38] WARNING root fetch - processPackages [StarClusterPlot]: Skipping, unable to determine old version
+[2023-08-02 13:31:38] INFO root fetch - main [MainThread]: End processing [StarClusterPlot] error
+[2023-08-02 13:31:39] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-02 13:31:39] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.8.1] Old Version: [2023.7.31]
+[2023-08-02 13:31:39] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev5738217622] Old Version: [2.0.0.dev5585651073]
+[2023-08-02 13:31:39] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-02 13:31:39] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.8.1] Old Version: [2023.7.30]
+[2023-08-02 13:31:39] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-08-02 13:31:39] INFO root fetch - processPackages [phanos]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-08-02 13:31:39] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-08-02 13:31:39] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-08-02 13:31:39] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/48/dd/865a5852edde7834c6476ef304dffb6b179324a56ad46c0988f1d9952f71/torchx_nightly-2023.7.31-py3-none-any.whl
+[2023-08-02 13:31:39] INFO root fetch - processPackages [castor-orsay]: Downloading https://files.pythonhosted.org/packages/ff/fb/b3feeb5cee86f86885373bae9d1a6c340ad97d69e6b43a340af109262df0/castor-orsay-2021.9.13.tar.gz
+[2023-08-02 13:31:39] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/a5/4f/e3f8c6b9c56546710e82cdf10f8a80bedd8251bdc472691793565d225cf6/torchrec_nightly-2023.7.30-py39-none-any.whl
+[2023-08-02 13:31:39] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/09/cc/58a22c1f62191bb225270b2f6684fd43bfa5cedc1ec44c1e6aa209eaf0b7/th2_data_services-2.0.0.dev5585651073.tar.gz
+[2023-08-02 13:31:39] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/5c/53/a34777d46b68fa387b55d320360c6dc3f375b38ab05ee1584940b713fc9e/phanos-0.0.9.tar.gz
+[2023-08-02 13:31:39] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-08-02 13:31:39] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-08-02 13:31:39] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-08-02 13:31:39] INFO root fetch - processPackages [castor-orsay]: Downloading https://files.pythonhosted.org/packages/2f/de/9d33b9c9474e053f3b2361819360f9dbfb0ac61376c852b13f4785b07bea/castor-orsay-2023.8.2.tar.gz
+[2023-08-02 13:31:39] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-08-02 13:31:39] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230802/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-02 13:31:39] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/a2/57/8507152a534fce7cdec78b7d5a74ec3419428e3ccacb6f625ce46c6f0abc/torchrec_nightly-2023.8.1-py39-none-any.whl
+[2023-08-02 13:31:39] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/e4/fa/c58f54bb6f7c088a1a0af9e811006fd475d4d26db86dc46cbab8b926a850/torchx_nightly-2023.8.1-py3-none-any.whl
+[2023-08-02 13:31:39] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-08-02 13:31:39] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230802/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-02 13:31:39] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-08-02 13:31:39] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230802/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-02 13:31:39] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/64/61/20a02a8b46cd41a82d36974289287091ca124f1690fd5351568f21c39227/th2_data_services-2.0.0.dev5738217622.tar.gz
+[2023-08-02 13:31:39] INFO root fetch - processPackages [castor-orsay]: executing diffoscope
+[2023-08-02 13:31:39] INFO root fetch - processPackages [castor-orsay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/castor-orsay-2021.9.13.tar.gz tmp/castor-orsay-2023.8.2.tar.gz --markdown 20230802/c/castor-orsay/2021.9.13-2023.8.2/diff.md --exclude *.pyd
+[2023-08-02 13:31:39] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-08-02 13:31:39] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.7.31-py3-none-any.whl.zip tmp/torchx_nightly-2023.8.1-py3-none-any.whl.zip --markdown 20230802/t/torchx-nightly/2023.7.31-2023.8.1/diff.md --exclude *.pyd
+[2023-08-02 13:31:39] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-08-02 13:31:39] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.7.30-py39-none-any.whl.zip tmp/torchrec_nightly-2023.8.1-py39-none-any.whl.zip --markdown 20230802/t/torchrec-nightly/2023.7.30-2023.8.1/diff.md --exclude *.pyd
+[2023-08-02 13:31:39] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/2b/bb/da9aff3ba5f2b8bf83f57c739c7fd7c58d5f3581c7e76487a805da1c0abc/phanos-0.1.0.tar.gz
+[2023-08-02 13:31:39] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-08-02 13:31:39] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev5585651073.tar.gz tmp/th2_data_services-2.0.0.dev5738217622.tar.gz --markdown 20230802/t/th2-data-services/2.0.0.dev5585651073-2.0.0.dev5738217622/diff.md --exclude *.pyd
+[2023-08-02 13:31:40] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-08-02 13:31:40] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.0.9.tar.gz tmp/phanos-0.1.0.tar.gz --markdown 20230802/p/phanos/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-08-02 13:31:41] INFO root fetch - processPackages [castor-orsay]: Remove: archive file [/home/abi/fetcher/tmp/castor-orsay-2021.9.13.tar.gz]
+[2023-08-02 13:31:41] INFO root fetch - processPackages [castor-orsay]: Remove: archive file [/home/abi/fetcher/tmp/castor-orsay-2023.8.2.tar.gz]
+[2023-08-02 13:31:41] INFO root fetch - main [MainThread]: End processing [castor-orsay]: success
+[2023-08-02 13:31:41] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-08-02 13:31:41] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-08-02 13:31:41] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-08-02 13:31:41] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-08-02 13:31:41] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-08-02 13:31:41] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-08-02 13:31:41] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.9.tar.gz]
+[2023-08-02 13:31:41] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.1.0.tar.gz]
+[2023-08-02 13:31:41] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-08-02 13:31:41] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5585651073.tar.gz]
+[2023-08-02 13:31:41] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5738217622.tar.gz]
+[2023-08-02 13:31:41] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-08-02 13:31:42] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2023.7.31-py3-none-any.whl.zip]
+[2023-08-02 13:31:42] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2023.8.1-py3-none-any.whl.zip]
+[2023-08-02 13:31:42] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-08-02 13:31:42] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.30-py39-none-any.whl.zip]
+[2023-08-02 13:31:42] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.8.1-py39-none-any.whl.zip]
+[2023-08-02 13:31:42] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-08-02 13:31:42] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-08-02 13:31:42] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-08-02 13:31:42] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-08-02 13:31:42] INFO root fetch - main [MainThread]: Store serial: [19140602]

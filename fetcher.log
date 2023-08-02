@@ -22824,3 +22824,141 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-02 14:19:41] INFO root fetch - processPackages [ethereum-etl]: Remove: archive file [/home/abi/fetcher/tmp/ethereum-etl-2.3.0.tar.gz]
 [2023-08-02 14:19:41] INFO root fetch - main [MainThread]: End processing [ethereum-etl]: success
 [2023-08-02 14:19:41] INFO root fetch - main [MainThread]: Store serial: [19141000]
+[2023-08-02 14:24:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19141000]
+[2023-08-02 14:24:50] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-02 14:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorneko-util
+[2023-08-02 14:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySide6-Fluent-Widgets
+[2023-08-02 14:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorneko
+[2023-08-02 14:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-intel
+[2023-08-02 14:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qiskit-classroom-converter
+[2023-08-02 14:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kqcircuits
+[2023-08-02 14:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SQLAlchemyExample
+[2023-08-02 14:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: v2rayp
+[2023-08-02 14:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imap-structure
+[2023-08-02 14:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: myoconverter
+[2023-08-02 14:24:50] INFO root fetch - processPackages [imap-structure]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-08-02 14:24:50] INFO root fetch - processPackages [SQLAlchemyExample]: New version: [0.0.2] Old Version: [0.0.12]
+[2023-08-02 14:24:51] INFO root fetch - processPackages [tensorneko-util]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-02 14:24:51] INFO root fetch - processPackages [qiskit-classroom-converter]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-02 14:24:51] WARNING root fetch - processPackages [myoconverter]: Skipping, unable to determine old version
+[2023-08-02 14:24:51] INFO root fetch - processPackages [myoconverter]: Start processing: tuxmake
+[2023-08-02 14:24:51] INFO root fetch - main [MainThread]: End processing [myoconverter] error
+[2023-08-02 14:24:51] INFO root fetch - processPackages [kqcircuits]: New version: [4.6.9rc1] Old Version: [4.6.23]
+[2023-08-02 14:24:51] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-02 14:24:51] INFO root fetch - processPackages [v2rayp]: New version: [0.7b9] Old Version: [0.7b8]
+[2023-08-02 14:24:51] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230801] Old Version: [2.14.0.dev20230731]
+[2023-08-02 14:24:51] INFO root fetch - processPackages [tensorneko]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-02 14:24:51] INFO root fetch - processPackages [tuxmake]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-02 14:24:51] INFO root fetch - processPackages [SQLAlchemyExample]: Downloading https://files.pythonhosted.org/packages/19/2e/c670737e0ca00af5285d9bb59ecc8f20b18fddce0c2eaf54bba0646998f5/SQLAlchemyExample-0.0.12.tar.gz
+[2023-08-02 14:24:51] INFO root fetch - processPackages [v2rayp]: Downloading https://files.pythonhosted.org/packages/92/d1/4eaccafdc2f7e05c6059cc786c4e3318910647bece9407b579e9346fd2fd/v2rayp-0.7b8.tar.gz
+[2023-08-02 14:24:51] INFO root fetch - processPackages [imap-structure]: Downloading https://files.pythonhosted.org/packages/12/6d/ead9493b2eecd65f5e4c79a039c9c23b5f3c73594a9893319c8b758a21c7/imap_structure-0.1.5.tar.gz
+[2023-08-02 14:24:51] INFO root fetch - processPackages [tensorneko-util]: Downloading https://files.pythonhosted.org/packages/50/8c/04716934df3048073bb7ae5050476c5822d79e57a6d3ed235f6aa49956d8/tensorneko_util-0.3.1.tar.gz
+[2023-08-02 14:24:51] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/36/05/b5f07039d0a108092dbf16b37fd2e2a201e7133ba46e8bead17bd65c47b0/tf_nightly_intel-2.14.0.dev20230731-cp39-cp39-win_amd64.whl
+[2023-08-02 14:24:51] INFO root fetch - processPackages [tensorneko]: Downloading https://files.pythonhosted.org/packages/c5/a6/8480bf5ee643433f192b22295934f18437849ffc47ca3297e85ef8c89c63/tensorneko-0.3.1.tar.gz
+[2023-08-02 14:24:51] INFO root fetch - processPackages [qiskit-classroom-converter]: Downloading https://files.pythonhosted.org/packages/12/a2/f5efbf881f1e9458d00ef211991489d2f3ed6e2ba45c6e53a565e40f99a2/qiskit-classroom-converter-0.0.3.tar.gz
+[2023-08-02 14:24:51] WARNING root fetch - processPackages [v2rayp]: Skipping package: exceeds size limit 65584125>=10485760
+[2023-08-02 14:24:51] INFO root fetch - processPackages [v2rayp]: Start processing: cellfinder-core
+[2023-08-02 14:24:51] INFO root fetch - main [MainThread]: End processing [v2rayp] error
+[2023-08-02 14:24:51] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 184979662>=10485760
+[2023-08-02 14:24:51] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: omnata-cli
+[2023-08-02 14:24:51] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-08-02 14:24:51] INFO root fetch - processPackages [tuxmake]: Downloading https://files.pythonhosted.org/packages/46/c5/0aaceffcdd95bee2b75b09418edaa4a8ebfcb471f6add06545661a9a1085/tuxmake-1.8.0.tar.gz
+[2023-08-02 14:24:51] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/98/23/7ee98c62cfe39272d4b6ce412ca1d185118d8f0ebbfde43436b302fe9dcc/PySide6-Fluent-Widgets-1.0.2.tar.gz
+[2023-08-02 14:24:51] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/c3/e2/cce0b8b478ccc6f2ae99ee982896d981c61673d549e63313906d604d59ea/kqcircuits-4.6.23.tar.gz
+[2023-08-02 14:24:51] INFO root fetch - processPackages [omnata-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 14:24:51] INFO root fetch - processPackages [cellfinder-core]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-08-02 14:24:51] INFO root fetch - processPackages [SQLAlchemyExample]: Downloading https://files.pythonhosted.org/packages/1e/7a/c84c43c1f1027e73857cfb954e67e9478684226306212f14223fcfac9ff7/SQLAlchemyExample-0.0.2.tar.gz
+[2023-08-02 14:24:51] INFO root fetch - processPackages [imap-structure]: Downloading https://files.pythonhosted.org/packages/63/c4/07c899440843a0fdbf4bfb7093bd66a9c64dfaef5da8a809a08ff62eea1d/imap_structure-0.2.0.tar.gz
+[2023-08-02 14:24:51] INFO root fetch - processPackages [tensorneko-util]: Downloading https://files.pythonhosted.org/packages/8f/f3/2dc3a2119e9663fd95b1c34cada9a99467fc03eaaeb1cd89fa19e8899266/tensorneko_util-0.3.2.tar.gz
+[2023-08-02 14:24:51] INFO root fetch - processPackages [SQLAlchemyExample]: executing diffoscope
+[2023-08-02 14:24:51] INFO root fetch - processPackages [SQLAlchemyExample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLAlchemyExample-0.0.12.tar.gz tmp/SQLAlchemyExample-0.0.2.tar.gz --markdown 20230802/S/SQLAlchemyExample/0.0.12-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 14:24:51] INFO root fetch - processPackages [omnata-cli]: Downloading https://files.pythonhosted.org/packages/9e/8b/90259f893cad23f97c68b88983da1dea45ae42c4e516ece525422f6c56ed/omnata_cli-0.1.8.tar.gz
+[2023-08-02 14:24:51] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/28/fc/4a19bae7b5af757678d9dcca920c9357f97f9cee24781e5c76e70acacf4c/kqcircuits-4.6.9rc1.tar.gz
+[2023-08-02 14:24:51] INFO root fetch - processPackages [cellfinder-core]: Downloading https://files.pythonhosted.org/packages/6e/c5/6896accd48e9543e394ade8f88b8a2532fe352914219ba95cf7663f9dd0e/cellfinder-core-0.5.0.tar.gz
+[2023-08-02 14:24:51] INFO root fetch - processPackages [tensorneko]: Downloading https://files.pythonhosted.org/packages/66/e1/b14d39a2f54eed0c1faa3e4f1c00363e5d00e568a9de059a72f2b3f43e3f/tensorneko-0.3.2.tar.gz
+[2023-08-02 14:24:51] INFO root fetch - processPackages [qiskit-classroom-converter]: Downloading https://files.pythonhosted.org/packages/cd/73/1e59fcdc32ec9b23214fd71590fae85143efbaf4080d4d45ed1ca59361ee/qiskit-classroom-converter-0.0.4.tar.gz
+[2023-08-02 14:24:51] INFO root fetch - processPackages [tuxmake]: Downloading https://files.pythonhosted.org/packages/63/d6/1a0d16774332729db06319fca66d2207f8696e0d3c2e8b3197b625cccb7b/tuxmake-1.9.0.tar.gz
+[2023-08-02 14:24:52] INFO root fetch - processPackages [imap-structure]: executing diffoscope
+[2023-08-02 14:24:52] INFO root fetch - processPackages [imap-structure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imap_structure-0.1.5.tar.gz tmp/imap_structure-0.2.0.tar.gz --markdown 20230802/i/imap-structure/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-08-02 14:24:52] INFO root fetch - processPackages [tensorneko-util]: executing diffoscope
+[2023-08-02 14:24:52] INFO root fetch - processPackages [tensorneko-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorneko_util-0.3.1.tar.gz tmp/tensorneko_util-0.3.2.tar.gz --markdown 20230802/t/tensorneko-util/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-02 14:24:52] INFO root fetch - processPackages [tensorneko]: executing diffoscope
+[2023-08-02 14:24:52] INFO root fetch - processPackages [tensorneko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorneko-0.3.1.tar.gz tmp/tensorneko-0.3.2.tar.gz --markdown 20230802/t/tensorneko/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-02 14:24:52] INFO root fetch - processPackages [kqcircuits]: executing diffoscope
+[2023-08-02 14:24:52] INFO root fetch - processPackages [kqcircuits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kqcircuits-4.6.23.tar.gz tmp/kqcircuits-4.6.9rc1.tar.gz --markdown 20230802/k/kqcircuits/4.6.23-4.6.9rc1/diff.md --exclude *.pyd
+[2023-08-02 14:24:52] INFO root fetch - processPackages [qiskit-classroom-converter]: executing diffoscope
+[2023-08-02 14:24:52] INFO root fetch - processPackages [qiskit-classroom-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-classroom-converter-0.0.3.tar.gz tmp/qiskit-classroom-converter-0.0.4.tar.gz --markdown 20230802/q/qiskit-classroom-converter/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-02 14:24:52] INFO root fetch - processPackages [tuxmake]: executing diffoscope
+[2023-08-02 14:24:52] INFO root fetch - processPackages [tuxmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxmake-1.8.0.tar.gz tmp/tuxmake-1.9.0.tar.gz --markdown 20230802/t/tuxmake/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-02 14:24:52] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/78/08/a0af07cb958e811dbfe70ca9adfc327ff53c777f70a80754d2266ce071a3/PySide6-Fluent-Widgets-1.0.3.tar.gz
+[2023-08-02 14:24:52] INFO root fetch - processPackages [omnata-cli]: Downloading https://files.pythonhosted.org/packages/e7/66/06c4155a43b900348765d5790a566f2105b62af3b45d0c94b9aec4e7cb81/omnata_cli-0.1.9.tar.gz
+[2023-08-02 14:24:52] INFO root fetch - processPackages [cellfinder-core]: Downloading https://files.pythonhosted.org/packages/63/ce/a58a53f6a2189643296dc40ea5781d60fcddc72167f2de58beedec0bc0d1/cellfinder-core-0.5.1.tar.gz
+[2023-08-02 14:24:52] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: executing diffoscope
+[2023-08-02 14:24:52] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-Fluent-Widgets-1.0.2.tar.gz tmp/PySide6-Fluent-Widgets-1.0.3.tar.gz --markdown 20230802/P/PySide6-Fluent-Widgets/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-02 14:24:52] INFO root fetch - processPackages [cellfinder-core]: executing diffoscope
+[2023-08-02 14:24:52] INFO root fetch - processPackages [cellfinder-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellfinder-core-0.5.0.tar.gz tmp/cellfinder-core-0.5.1.tar.gz --markdown 20230802/c/cellfinder-core/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-08-02 14:24:52] INFO root fetch - processPackages [omnata-cli]: executing diffoscope
+[2023-08-02 14:24:52] INFO root fetch - processPackages [omnata-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_cli-0.1.8.tar.gz tmp/omnata_cli-0.1.9.tar.gz --markdown 20230802/o/omnata-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 14:24:53] INFO root fetch - processPackages [SQLAlchemyExample]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemyExample-0.0.12.tar.gz]
+[2023-08-02 14:24:53] INFO root fetch - processPackages [SQLAlchemyExample]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemyExample-0.0.2.tar.gz]
+[2023-08-02 14:24:53] INFO root fetch - processPackages [SQLAlchemyExample]: Start processing: web3cli
+[2023-08-02 14:24:53] INFO root fetch - main [MainThread]: End processing [SQLAlchemyExample]: success
+[2023-08-02 14:24:53] INFO root fetch - processPackages [web3cli]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-02 14:24:53] INFO root fetch - processPackages [imap-structure]: Remove: archive file [/home/abi/fetcher/tmp/imap_structure-0.1.5.tar.gz]
+[2023-08-02 14:24:53] INFO root fetch - processPackages [imap-structure]: Remove: archive file [/home/abi/fetcher/tmp/imap_structure-0.2.0.tar.gz]
+[2023-08-02 14:24:53] INFO root fetch - processPackages [imap-structure]: Start processing: edcpy
+[2023-08-02 14:24:53] INFO root fetch - main [MainThread]: End processing [imap-structure]: success
+[2023-08-02 14:24:53] INFO root fetch - processPackages [edcpy]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-08-02 14:24:53] INFO root fetch - processPackages [web3cli]: Downloading https://files.pythonhosted.org/packages/22/22/158d994d93d0ca46fd386b88a1153a7d10b612067253ceffe4d8d29bce76/web3cli-1.1.8.tar.gz
+[2023-08-02 14:24:53] INFO root fetch - processPackages [qiskit-classroom-converter]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-classroom-converter-0.0.3.tar.gz]
+[2023-08-02 14:24:53] INFO root fetch - processPackages [qiskit-classroom-converter]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-classroom-converter-0.0.4.tar.gz]
+[2023-08-02 14:24:53] INFO root fetch - processPackages [qiskit-classroom-converter]: Start processing: v2rayp
+[2023-08-02 14:24:53] INFO root fetch - main [MainThread]: End processing [qiskit-classroom-converter]: success
+[2023-08-02 14:24:53] INFO root fetch - processPackages [v2rayp]: New version: [0.7b9] Old Version: [0.7b8]
+[2023-08-02 14:24:53] INFO root fetch - processPackages [edcpy]: Downloading https://files.pythonhosted.org/packages/b1/35/097bffc55fa133b7604d7abf826143355ab323cac1276fd5a4b0d0343a52/edcpy-0.1.1a1.tar.gz
+[2023-08-02 14:24:54] INFO root fetch - processPackages [v2rayp]: Downloading https://files.pythonhosted.org/packages/92/d1/4eaccafdc2f7e05c6059cc786c4e3318910647bece9407b579e9346fd2fd/v2rayp-0.7b8.tar.gz
+[2023-08-02 14:24:54] WARNING root fetch - processPackages [v2rayp]: Skipping package: exceeds size limit 65584125>=10485760
+[2023-08-02 14:24:54] INFO root fetch - processPackages [v2rayp]: Start processing: hyfi-absa
+[2023-08-02 14:24:54] INFO root fetch - main [MainThread]: End processing [v2rayp] error
+[2023-08-02 14:24:54] INFO root fetch - processPackages [web3cli]: Downloading https://files.pythonhosted.org/packages/63/9e/9331a7187ab2128675a2936a7774fde7e74c3b2b5e991aaa5879f8f282d8/web3cli-1.1.9.tar.gz
+[2023-08-02 14:24:54] INFO root fetch - processPackages [hyfi-absa]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-02 14:24:54] INFO root fetch - processPackages [edcpy]: Downloading https://files.pythonhosted.org/packages/ad/14/7a6b0c935136cc6282cfc840f4552999f595665dc90c4bc94baae070d1e3/edcpy-0.1.1a2.tar.gz
+[2023-08-02 14:24:54] INFO root fetch - processPackages [tensorneko]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko-0.3.1.tar.gz]
+[2023-08-02 14:24:54] INFO root fetch - processPackages [tensorneko]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko-0.3.2.tar.gz]
+[2023-08-02 14:24:54] INFO root fetch - main [MainThread]: End processing [tensorneko]: success
+[2023-08-02 14:24:54] INFO root fetch - processPackages [edcpy]: executing diffoscope
+[2023-08-02 14:24:54] INFO root fetch - processPackages [edcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edcpy-0.1.1a1.tar.gz tmp/edcpy-0.1.1a2.tar.gz --markdown 20230802/e/edcpy/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-08-02 14:24:54] INFO root fetch - processPackages [omnata-cli]: Remove: archive file [/home/abi/fetcher/tmp/omnata_cli-0.1.8.tar.gz]
+[2023-08-02 14:24:54] INFO root fetch - processPackages [omnata-cli]: Remove: archive file [/home/abi/fetcher/tmp/omnata_cli-0.1.9.tar.gz]
+[2023-08-02 14:24:54] INFO root fetch - main [MainThread]: End processing [omnata-cli]: success
+[2023-08-02 14:24:54] INFO root fetch - processPackages [web3cli]: executing diffoscope
+[2023-08-02 14:24:54] INFO root fetch - processPackages [web3cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3cli-1.1.8.tar.gz tmp/web3cli-1.1.9.tar.gz --markdown 20230802/w/web3cli/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-02 14:24:54] INFO root fetch - processPackages [hyfi-absa]: Downloading https://files.pythonhosted.org/packages/81/a0/95f6820b441db3f3025d75f7101a41914fadb2fee23bd778314810f7575d/hyfi_absa-0.1.0.tar.gz
+[2023-08-02 14:24:54] INFO root fetch - processPackages [tensorneko-util]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_util-0.3.1.tar.gz]
+[2023-08-02 14:24:54] INFO root fetch - processPackages [tensorneko-util]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_util-0.3.2.tar.gz]
+[2023-08-02 14:24:54] INFO root fetch - main [MainThread]: End processing [tensorneko-util]: success
+[2023-08-02 14:24:54] INFO root fetch - processPackages [cellfinder-core]: Remove: archive file [/home/abi/fetcher/tmp/cellfinder-core-0.5.0.tar.gz]
+[2023-08-02 14:24:54] INFO root fetch - processPackages [cellfinder-core]: Remove: archive file [/home/abi/fetcher/tmp/cellfinder-core-0.5.1.tar.gz]
+[2023-08-02 14:24:54] INFO root fetch - main [MainThread]: End processing [cellfinder-core]: success
+[2023-08-02 14:24:54] INFO root fetch - processPackages [hyfi-absa]: Downloading https://files.pythonhosted.org/packages/de/92/c6a6d0c94460602f438d7b2706494d761876aa606a893a940f29677c69ed/hyfi_absa-0.2.0.tar.gz
+[2023-08-02 14:24:54] INFO root fetch - processPackages [tuxmake]: Remove: archive file [/home/abi/fetcher/tmp/tuxmake-1.8.0.tar.gz]
+[2023-08-02 14:24:54] INFO root fetch - processPackages [tuxmake]: Remove: archive file [/home/abi/fetcher/tmp/tuxmake-1.9.0.tar.gz]
+[2023-08-02 14:24:54] INFO root fetch - main [MainThread]: End processing [tuxmake]: success
+[2023-08-02 14:24:55] INFO root fetch - processPackages [hyfi-absa]: executing diffoscope
+[2023-08-02 14:24:55] INFO root fetch - processPackages [hyfi-absa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_absa-0.1.0.tar.gz tmp/hyfi_absa-0.2.0.tar.gz --markdown 20230802/h/hyfi-absa/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-02 14:24:55] INFO root fetch - processPackages [kqcircuits]: Remove: archive file [/home/abi/fetcher/tmp/kqcircuits-4.6.23.tar.gz]
+[2023-08-02 14:24:55] INFO root fetch - processPackages [kqcircuits]: Remove: archive file [/home/abi/fetcher/tmp/kqcircuits-4.6.9rc1.tar.gz]
+[2023-08-02 14:24:55] INFO root fetch - main [MainThread]: End processing [kqcircuits]: success
+[2023-08-02 14:24:55] INFO root fetch - processPackages [edcpy]: Remove: archive file [/home/abi/fetcher/tmp/edcpy-0.1.1a1.tar.gz]
+[2023-08-02 14:24:55] INFO root fetch - processPackages [edcpy]: Remove: archive file [/home/abi/fetcher/tmp/edcpy-0.1.1a2.tar.gz]
+[2023-08-02 14:24:55] INFO root fetch - main [MainThread]: End processing [edcpy]: success
+[2023-08-02 14:24:56] INFO root fetch - processPackages [hyfi-absa]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_absa-0.1.0.tar.gz]
+[2023-08-02 14:24:56] INFO root fetch - processPackages [hyfi-absa]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_absa-0.2.0.tar.gz]
+[2023-08-02 14:24:56] INFO root fetch - main [MainThread]: End processing [hyfi-absa]: success
+[2023-08-02 14:24:56] INFO root fetch - processPackages [web3cli]: Remove: archive file [/home/abi/fetcher/tmp/web3cli-1.1.8.tar.gz]
+[2023-08-02 14:24:56] INFO root fetch - processPackages [web3cli]: Remove: archive file [/home/abi/fetcher/tmp/web3cli-1.1.9.tar.gz]
+[2023-08-02 14:24:56] INFO root fetch - main [MainThread]: End processing [web3cli]: success
+[2023-08-02 14:24:56] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-1.0.2.tar.gz]
+[2023-08-02 14:24:56] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-1.0.3.tar.gz]
+[2023-08-02 14:24:56] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
+[2023-08-02 14:24:56] INFO root fetch - main [MainThread]: Store serial: [19141052]

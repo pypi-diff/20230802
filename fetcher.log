@@ -13453,3 +13453,92 @@
 [2023-08-02 07:37:12] INFO root fetch - processPackages [datarobot-drum]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_drum-1.9.9.dev2-py3-none-any.whl.zip]
 [2023-08-02 07:37:12] INFO root fetch - main [MainThread]: End processing [datarobot-drum]: success
 [2023-08-02 07:37:12] INFO root fetch - main [MainThread]: Store serial: [19136943]
+[2023-08-02 07:42:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136943]
+[2023-08-02 07:42:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-02 07:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lumibot
+[2023-08-02 07:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addons-oca-stock-logistics-workflow
+[2023-08-02 07:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: create-pipenv-project
+[2023-08-02 07:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypymedia
+[2023-08-02 07:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hppmodule
+[2023-08-02 07:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antchain-twc
+[2023-08-02 07:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tainstcalorimetry
+[2023-08-02 07:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yyszh
+[2023-08-02 07:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: documentdataextraction
+[2023-08-02 07:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: marlowe
+[2023-08-02 07:42:21] INFO root fetch - processPackages [hppmodule]: New version: [0.15] Old Version: [0.1.9]
+[2023-08-02 07:42:21] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: New version: [13.0.20230801.0] Old Version: [13.0.20230705.0]
+[2023-08-02 07:42:21] INFO root fetch - processPackages [yyszh]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-02 07:42:21] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 07:42:21] INFO root fetch - processPackages [antchain-twc]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-02 07:42:21] INFO root fetch - processPackages [tainstcalorimetry]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 07:42:21] INFO root fetch - processPackages [hypymedia]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-02 07:42:21] INFO root fetch - processPackages [create-pipenv-project]: New version: [0.5] Old Version: [0.4]
+[2023-08-02 07:42:21] INFO root fetch - processPackages [lumibot]: New version: [2.7.7] Old Version: [2.7.6]
+[2023-08-02 07:42:22] INFO root fetch - processPackages [marlowe]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-02 07:42:22] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/56/33/b1aa7534b929beffe492e502d372843739f31d56d9b48988a8f75acfdc7c/odoo13_addons_oca_stock_logistics_workflow-13.0.20230705.0-py3-none-any.whl
+[2023-08-02 07:42:22] INFO root fetch - processPackages [hypymedia]: Downloading https://files.pythonhosted.org/packages/a9/87/aa26fe470019e045fb63a9bd40139a067f62a4846f6bbfdeaca858525ce8/hypymedia-0.1.2.tar.gz
+[2023-08-02 07:42:22] INFO root fetch - processPackages [create-pipenv-project]: Downloading https://files.pythonhosted.org/packages/fa/3c/b3aae82759dbbb2e16086ec193cc928293d8b5d85962b964b2d9776c5b6c/create_pipenv_project-0.4.tar.gz
+[2023-08-02 07:42:22] INFO root fetch - processPackages [yyszh]: Downloading https://files.pythonhosted.org/packages/91/5e/a5e9a29d59f48c737d9bd6ab0499cf9f517818163fb89ef4a156c08d3eed/yyszh-0.1.2.tar.gz
+[2023-08-02 07:42:22] INFO root fetch - processPackages [tainstcalorimetry]: Downloading https://files.pythonhosted.org/packages/a8/3d/dab20ac8ff65733c0c436a7bf2ef61de68680cb36336da210561d49b3e77/tainstcalorimetry-0.1.8.tar.gz
+[2023-08-02 07:42:22] INFO root fetch - processPackages [hppmodule]: Downloading https://files.pythonhosted.org/packages/6e/43/df0602534816c2968b3cb905aad97c1047ce1fd046ceb8f45d56751f69b7/hppmodule-0.1.9.tar.gz
+[2023-08-02 07:42:22] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-08-02 07:42:22] INFO root fetch - processPackages [lumibot]: Downloading https://files.pythonhosted.org/packages/cf/06/964e332bc29fbbca1a214e05c66c8ecbf5c978035a5e7151396919edd523/lumibot-2.7.6.tar.gz
+[2023-08-02 07:42:22] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/c8/36/ff01772c79f6304da84d484196bc1707748a6660a1040ac06c256cf6ac4a/antchain_twc-1.9.0.tar.gz
+[2023-08-02 07:42:22] WARNING root fetch - processPackages [lumibot]: Skipping package: exceeds size limit 23899712>=10485760
+[2023-08-02 07:42:22] INFO root fetch - main [MainThread]: End processing [lumibot] error
+[2023-08-02 07:42:22] INFO root fetch - processPackages [marlowe]: Downloading https://files.pythonhosted.org/packages/81/20/3f1d7e665894aa364da09372de7e12fd0a13990c01ccd090f733c4362418/marlowe-0.1.2-cp311-none-win_amd64.whl
+[2023-08-02 07:42:22] INFO root fetch - processPackages [hypymedia]: Downloading https://files.pythonhosted.org/packages/f2/9e/cd65d1ca5fc94dba95066ec5c1016284ac19d2c919b6adf14aebcbb24afe/hypymedia-0.1.3.tar.gz
+[2023-08-02 07:42:22] INFO root fetch - processPackages [yyszh]: Downloading https://files.pythonhosted.org/packages/e2/26/445931299f221721007f858ff52657b343cf3bc67d25bc4db8a670d3636c/yyszh-0.1.3.tar.gz
+[2023-08-02 07:42:22] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/4d/f1/8356c2e73f0efeca5382c97eb81f2d1a70e45677d27cfd4d1ca4d5d655d8/odoo13_addons_oca_stock_logistics_workflow-13.0.20230801.0-py3-none-any.whl
+[2023-08-02 07:42:22] INFO root fetch - processPackages [create-pipenv-project]: Downloading https://files.pythonhosted.org/packages/7a/49/99122fb495add33e72e375e598520af3bdc7070546bebb7b8d71e3b3b8c1/create_pipenv_project-0.5.tar.gz
+[2023-08-02 07:42:22] INFO root fetch - processPackages [hppmodule]: Downloading https://files.pythonhosted.org/packages/99/8a/ff85a5ed448742944a2ee7d323794e80e89f37c84aacc664b3682df39207/hppmodule-0.15.tar.gz
+[2023-08-02 07:42:22] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-08-02 07:42:22] INFO root fetch - processPackages [hypymedia]: executing diffoscope
+[2023-08-02 07:42:22] INFO root fetch - processPackages [hypymedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypymedia-0.1.2.tar.gz tmp/hypymedia-0.1.3.tar.gz --markdown 20230802/h/hypymedia/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-02 07:42:22] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: executing diffoscope
+[2023-08-02 07:42:22] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_stock_logistics_workflow-13.0.20230705.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_stock_logistics_workflow-13.0.20230801.0-py3-none-any.whl.zip --markdown 20230802/o/odoo13-addons-oca-stock-logistics-workflow/13.0.20230705.0-13.0.20230801.0/diff.md --exclude *.pyd
+[2023-08-02 07:42:22] INFO root fetch - processPackages [hppmodule]: executing diffoscope
+[2023-08-02 07:42:22] INFO root fetch - processPackages [hppmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hppmodule-0.1.9.tar.gz tmp/hppmodule-0.15.tar.gz --markdown 20230802/h/hppmodule/0.1.9-0.15/diff.md --exclude *.pyd
+[2023-08-02 07:42:22] INFO root fetch - processPackages [yyszh]: executing diffoscope
+[2023-08-02 07:42:22] INFO root fetch - processPackages [yyszh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyszh-0.1.2.tar.gz tmp/yyszh-0.1.3.tar.gz --markdown 20230802/y/yyszh/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-02 07:42:22] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-08-02 07:42:22] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230802/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 07:42:22] INFO root fetch - processPackages [create-pipenv-project]: executing diffoscope
+[2023-08-02 07:42:22] INFO root fetch - processPackages [create-pipenv-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_pipenv_project-0.4.tar.gz tmp/create_pipenv_project-0.5.tar.gz --markdown 20230802/c/create-pipenv-project/0.4-0.5/diff.md --exclude *.pyd
+[2023-08-02 07:42:23] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/80/5d/e8c3a8e4914e62821cb8c2f92eb9444de15abfbc652758282cff30ac712a/antchain_twc-1.9.1.tar.gz
+[2023-08-02 07:42:23] INFO root fetch - processPackages [marlowe]: Downloading https://files.pythonhosted.org/packages/49/9a/a4c0f46ea1f673a8596b8195b0bacda67ab8eadd7356daa035cdc0ddf473/marlowe-0.1.3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-02 07:42:23] INFO root fetch - processPackages [antchain-twc]: executing diffoscope
+[2023-08-02 07:42:23] INFO root fetch - processPackages [antchain-twc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_twc-1.9.0.tar.gz tmp/antchain_twc-1.9.1.tar.gz --markdown 20230802/a/antchain-twc/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-02 07:42:23] INFO root fetch - processPackages [tainstcalorimetry]: Downloading https://files.pythonhosted.org/packages/19/26/7c8c2a5ecf988f4cbf9f1019f018b947021949a15fa2e22c5b258c35ae8d/tainstcalorimetry-0.1.9.tar.gz
+[2023-08-02 07:42:23] INFO root fetch - processPackages [marlowe]: executing diffoscope
+[2023-08-02 07:42:23] INFO root fetch - processPackages [marlowe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marlowe-0.1.2-cp311-none-win_amd64.whl.zip tmp/marlowe-0.1.3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230802/m/marlowe/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-02 07:42:23] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_stock_logistics_workflow-13.0.20230705.0-py3-none-any.whl.zip]
+[2023-08-02 07:42:24] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_stock_logistics_workflow-13.0.20230801.0-py3-none-any.whl.zip]
+[2023-08-02 07:42:24] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-stock-logistics-workflow]: success
+[2023-08-02 07:42:24] INFO root fetch - processPackages [hypymedia]: Remove: archive file [/home/abi/fetcher/tmp/hypymedia-0.1.2.tar.gz]
+[2023-08-02 07:42:24] INFO root fetch - processPackages [hypymedia]: Remove: archive file [/home/abi/fetcher/tmp/hypymedia-0.1.3.tar.gz]
+[2023-08-02 07:42:24] INFO root fetch - main [MainThread]: End processing [hypymedia]: success
+[2023-08-02 07:42:24] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-08-02 07:42:24] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-08-02 07:42:24] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-08-02 07:42:24] INFO root fetch - processPackages [hppmodule]: Remove: archive file [/home/abi/fetcher/tmp/hppmodule-0.1.9.tar.gz]
+[2023-08-02 07:42:24] INFO root fetch - processPackages [hppmodule]: Remove: archive file [/home/abi/fetcher/tmp/hppmodule-0.15.tar.gz]
+[2023-08-02 07:42:24] INFO root fetch - main [MainThread]: End processing [hppmodule]: success
+[2023-08-02 07:42:24] INFO root fetch - processPackages [yyszh]: Remove: archive file [/home/abi/fetcher/tmp/yyszh-0.1.2.tar.gz]
+[2023-08-02 07:42:24] INFO root fetch - processPackages [yyszh]: Remove: archive file [/home/abi/fetcher/tmp/yyszh-0.1.3.tar.gz]
+[2023-08-02 07:42:24] INFO root fetch - main [MainThread]: End processing [yyszh]: success
+[2023-08-02 07:42:24] INFO root fetch - processPackages [create-pipenv-project]: Remove: archive file [/home/abi/fetcher/tmp/create_pipenv_project-0.4.tar.gz]
+[2023-08-02 07:42:24] INFO root fetch - processPackages [create-pipenv-project]: Remove: archive file [/home/abi/fetcher/tmp/create_pipenv_project-0.5.tar.gz]
+[2023-08-02 07:42:24] INFO root fetch - main [MainThread]: End processing [create-pipenv-project]: success
+[2023-08-02 07:42:24] INFO root fetch - processPackages [marlowe]: Remove: archive file [/home/abi/fetcher/tmp/marlowe-0.1.2-cp311-none-win_amd64.whl.zip]
+[2023-08-02 07:42:24] INFO root fetch - processPackages [marlowe]: Remove: archive file [/home/abi/fetcher/tmp/marlowe-0.1.3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-02 07:42:24] INFO root fetch - main [MainThread]: End processing [marlowe]: success
+[2023-08-02 07:42:24] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.0.tar.gz]
+[2023-08-02 07:42:24] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.1.tar.gz]
+[2023-08-02 07:42:24] INFO root fetch - main [MainThread]: End processing [antchain-twc]: success
+[2023-08-02 07:42:25] INFO root fetch - processPackages [tainstcalorimetry]: executing diffoscope
+[2023-08-02 07:42:25] INFO root fetch - processPackages [tainstcalorimetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tainstcalorimetry-0.1.8.tar.gz tmp/tainstcalorimetry-0.1.9.tar.gz --markdown 20230802/t/tainstcalorimetry/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 07:42:26] INFO root fetch - processPackages [tainstcalorimetry]: Remove: archive file [/home/abi/fetcher/tmp/tainstcalorimetry-0.1.8.tar.gz]
+[2023-08-02 07:42:26] INFO root fetch - processPackages [tainstcalorimetry]: Remove: archive file [/home/abi/fetcher/tmp/tainstcalorimetry-0.1.9.tar.gz]
+[2023-08-02 07:42:26] INFO root fetch - main [MainThread]: End processing [tainstcalorimetry]: success
+[2023-08-02 07:42:26] INFO root fetch - main [MainThread]: Store serial: [19136970]

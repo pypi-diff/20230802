@@ -13137,3 +13137,38 @@
 [2023-08-02 07:15:02] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.36.tar.gz]
 [2023-08-02 07:15:02] INFO root fetch - main [MainThread]: End processing [byquant]: success
 [2023-08-02 07:15:02] INFO root fetch - main [MainThread]: Store serial: [19136796]
+[2023-08-02 07:20:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136796]
+[2023-08-02 07:20:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-02 07:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2023-08-02 07:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PrSpiders
+[2023-08-02 07:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yambs
+[2023-08-02 07:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapidpe-rift-pipe
+[2023-08-02 07:20:12] INFO root fetch - processPackages [PrSpiders]: New version: [0.5.2.8] Old Version: [0.5.2.7]
+[2023-08-02 07:20:12] INFO root fetch - processPackages [yambs]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-08-02 07:20:12] INFO root fetch - processPackages [chatllm]: New version: [2023.8.2.13.17.10] Old Version: [2023.8.1.12.7.16]
+[2023-08-02 07:20:12] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230802] Old Version: [0.5.4.dev20230801]
+[2023-08-02 07:20:12] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/29/6a/8244ae0d7214874d7280ee95adeb1448762ee33fb1f8c92794f235cd768e/rapidpe_rift_pipe-0.5.4.dev20230801.tar.gz
+[2023-08-02 07:20:12] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/83/a4/f7064decc966e6c21ccc4bca2a0842a5cc8051cb0b9a209249f246cfc927/PrSpiders-0.5.2.7.tar.gz
+[2023-08-02 07:20:12] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/a5/31/6e354832f8042a7bb494d617121ba20bc61d293e68675833dbc36c5b7686/chatllm-2023.8.1.12.7.16.tar.gz
+[2023-08-02 07:20:12] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/53/a6/9f640dc60559f04b5229321d8f204408063ee16ebabacb17ae009c2435a9/yambs-2.3.0.tar.gz
+[2023-08-02 07:20:12] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 19820829>=10485760
+[2023-08-02 07:20:12] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-08-02 07:20:12] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/7a/e6/6d36dca2cfd6e2f79033bc32037707acb7d8a63174cf1ce6a76fff62fa94/rapidpe_rift_pipe-0.5.4.dev20230802.tar.gz
+[2023-08-02 07:20:12] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/bb/13/d8193d6a821d9d18ebeec98308c702731343722076ec3c7c5f92bbec97b6/yambs-2.3.1.tar.gz
+[2023-08-02 07:20:12] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/9a/19/821e3450752309f66b3590b776a263058f1e3f06284423d2ddd6540ceecd/PrSpiders-0.5.2.8-py3-none-any.whl
+[2023-08-02 07:20:12] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-08-02 07:20:12] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230801.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230802.tar.gz --markdown 20230802/r/rapidpe-rift-pipe/0.5.4.dev20230801-0.5.4.dev20230802/diff.md --exclude *.pyd
+[2023-08-02 07:20:12] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-08-02 07:20:12] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-2.3.0.tar.gz tmp/yambs-2.3.1.tar.gz --markdown 20230802/y/yambs/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-08-02 07:20:12] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-08-02 07:20:12] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.5.2.7.tar.gz tmp/PrSpiders-0.5.2.8-py3-none-any.whl.zip --markdown 20230802/P/PrSpiders/0.5.2.7-0.5.2.8/diff.md --exclude *.pyd
+[2023-08-02 07:20:13] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230801.tar.gz]
+[2023-08-02 07:20:13] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230802.tar.gz]
+[2023-08-02 07:20:13] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-08-02 07:20:13] INFO root fetch - processPackages [PrSpiders]: Remove: archive file [/home/abi/fetcher/tmp/PrSpiders-0.5.2.7.tar.gz]
+[2023-08-02 07:20:13] INFO root fetch - processPackages [PrSpiders]: Remove: archive file [/home/abi/fetcher/tmp/PrSpiders-0.5.2.8-py3-none-any.whl.zip]
+[2023-08-02 07:20:13] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-08-02 07:20:13] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.3.0.tar.gz]
+[2023-08-02 07:20:13] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.3.1.tar.gz]
+[2023-08-02 07:20:13] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-08-02 07:20:13] INFO root fetch - main [MainThread]: Store serial: [19136807]

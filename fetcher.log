@@ -11896,3 +11896,139 @@
 [2023-08-02 05:51:16] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-08-02 05:51:16] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-08-02 05:51:16] INFO root fetch - main [MainThread]: Store serial: [19136211]
+[2023-08-02 05:56:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136211]
+[2023-08-02 05:56:25] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-02 05:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-arms20190808
+[2023-08-02 05:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-utilities
+[2023-08-02 05:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo9-addon-l10n-it-ddt
+[2023-08-02 05:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo8-addon-l10n-it-ddt
+[2023-08-02 05:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-utilities
+[2023-08-02 05:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo10-addon-l10n-it-ddt
+[2023-08-02 05:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CyRK
+[2023-08-02 05:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo11-addon-l10n-it-ddt
+[2023-08-02 05:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: JSONSki
+[2023-08-02 05:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composabl-ray-dev
+[2023-08-02 05:56:25] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: New version: [10.0.1.9.0.99.dev9] Old Version: [10.0.1.9.0.99.dev8]
+[2023-08-02 05:56:25] INFO root fetch - processPackages [alibabacloud-arms20190808]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-08-02 05:56:25] INFO root fetch - processPackages [JSONSki]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 05:56:25] INFO root fetch - processPackages [abstract-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 05:56:25] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: New version: [9.0.1.0.0.99.dev49] Old Version: [9.0.1.0.0.99.dev48]
+[2023-08-02 05:56:25] INFO root fetch - processPackages [abstract-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 05:56:25] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: New version: [11.0.1.0.2.99.dev6] Old Version: [11.0.1.0.2.99.dev5]
+[2023-08-02 05:56:25] INFO root fetch - processPackages [odoo8-addon-l10n-it-ddt]: New version: [8.0.1.0.2.99.dev5] Old Version: [8.0.1.0.2.99.dev4]
+[2023-08-02 05:56:25] INFO root fetch - processPackages [CyRK]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-08-02 05:56:25] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.3.9.dev3] Old Version: [0.3.9.dev2]
+[2023-08-02 05:56:26] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/e0/2b/ce1d43af4b5abc2c6dfe690a4633f989b5361c6f265e87f51e18c24fbd80/abstract_utilities-0.0.8.tar.gz
+[2023-08-02 05:56:26] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/e0/2b/ce1d43af4b5abc2c6dfe690a4633f989b5361c6f265e87f51e18c24fbd80/abstract_utilities-0.0.8.tar.gz
+[2023-08-02 05:56:26] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/97/53/31ae0eb278420e98146e3a246233e6253eefcfb910101ae8bcfba1bd4a8e/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev8-py2-none-any.whl
+[2023-08-02 05:56:26] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/2a/7e/5ad137d7b8e212b0685e4a4aeb221716a5c6ba81284f62a803dbe10c2a72/composabl_ray_dev-0.3.9.dev2-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-02 05:56:26] INFO root fetch - processPackages [JSONSki]: Downloading https://files.pythonhosted.org/packages/be/df/3258de20af6aa9e4d32d7e8e5f66f6484604eca9dd82f4065a97313b81e1/JSONSki-0.1.8.tar.gz
+[2023-08-02 05:56:26] INFO root fetch - processPackages [alibabacloud-arms20190808]: Downloading https://files.pythonhosted.org/packages/9f/7c/98207be9b06eebbdcace1690c3b0c7f9c0b9d9db733d695c948906cdb769/alibabacloud_arms20190808-2.0.2.tar.gz
+[2023-08-02 05:56:26] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/24/13/4e1e47b0c342b5b88c4537b3063161509a4a6f249f7a8f0c5bd4d1707943/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev48-py2-none-any.whl
+[2023-08-02 05:56:26] INFO root fetch - processPackages [odoo8-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/a0/13/607cbe6cc37dc565dfd9ba59f72914e4dc5a0b8c4907fbdfbe57a2e6acfb/odoo8_addon_l10n_it_ddt-8.0.1.0.2.99.dev4-py2-none-any.whl
+[2023-08-02 05:56:26] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/da/31/c49ee2e807f6012f0daad85b53634f6a2a2acd2295389677ae8403a48146/odoo11_addon_l10n_it_ddt-11.0.1.0.2.99.dev5-py2.py3-none-any.whl
+[2023-08-02 05:56:26] INFO root fetch - processPackages [CyRK]: Downloading https://files.pythonhosted.org/packages/7d/38/1f5f0979bd96056136a81866fa732e3da3a2028c71099a1d9eb436901576/CyRK-0.6.0.tar.gz
+[2023-08-02 05:56:26] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/2d/bf/c73c46dd3455e0261203d2b9781bf2af9d495c25f437ec1f38833613373e/abstract_utilities-0.0.9.tar.gz
+[2023-08-02 05:56:26] INFO root fetch - processPackages [JSONSki]: Downloading https://files.pythonhosted.org/packages/18/10/c28f46260c2e0e042ba3442444dc80baecdc051e1dcb00889575c6157ca4/JSONSki-0.1.9.tar.gz
+[2023-08-02 05:56:26] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/2d/bf/c73c46dd3455e0261203d2b9781bf2af9d495c25f437ec1f38833613373e/abstract_utilities-0.0.9.tar.gz
+[2023-08-02 05:56:26] INFO root fetch - processPackages [abstract-utilities]: executing diffoscope
+[2023-08-02 05:56:26] INFO root fetch - processPackages [abstract-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities-0.0.8.tar.gz tmp/abstract_utilities-0.0.9.tar.gz --markdown 20230802/a/abstract-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 05:56:26] INFO root fetch - processPackages [JSONSki]: executing diffoscope
+[2023-08-02 05:56:26] INFO root fetch - processPackages [JSONSki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JSONSki-0.1.8.tar.gz tmp/JSONSki-0.1.9.tar.gz --markdown 20230802/J/JSONSki/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 05:56:26] INFO root fetch - processPackages [alibabacloud-arms20190808]: Downloading https://files.pythonhosted.org/packages/78/bb/b18b89996b7e3364bc7f0d99ff61fb0d4c41d4315b631ffdd506893940ba/alibabacloud_arms20190808-2.0.3.tar.gz
+[2023-08-02 05:56:26] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/c4/88/7dfd96c382831df54480e3f63d99b9d68a988f3256def327070dd0c61d8c/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev49-py2-none-any.whl
+[2023-08-02 05:56:26] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/ad/14/21b9bc4a6019fe7019038c87e97da19df39b92cdfd6c7c7917251522e55e/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev9-py2-none-any.whl
+[2023-08-02 05:56:26] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/d7/a2/07ef99a66ac40185cf66acf7ce35a4e8e7712df5b7b20bc85f4ad7ea96b6/odoo11_addon_l10n_it_ddt-11.0.1.0.2.99.dev6-py2.py3-none-any.whl
+[2023-08-02 05:56:26] INFO root fetch - processPackages [abstract-utilities]: executing diffoscope
+[2023-08-02 05:56:26] INFO root fetch - processPackages [abstract-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities-0.0.8.tar.gz tmp/abstract_utilities-0.0.9.tar.gz --markdown 20230802/a/abstract-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 05:56:26] INFO root fetch - processPackages [odoo8-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/33/c4/d740d45934cec2d4ce8fa7e4dc37dd4d4a21ad9efecd4bae149cd0b2f7f0/odoo8_addon_l10n_it_ddt-8.0.1.0.2.99.dev5-py2-none-any.whl
+[2023-08-02 05:56:26] INFO root fetch - processPackages [CyRK]: Downloading https://files.pythonhosted.org/packages/49/c1/4273d29fafdafa9707d3b392a16d41fd25fabd9adb090b2637b12b00e5eb/CyRK-0.6.1.tar.gz
+[2023-08-02 05:56:26] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/35/1f/eda31849210698fd393a35ca1aa6b171346247f5c1203aa687d3d47fe0f1/composabl_ray_dev-0.3.9.dev3-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-02 05:56:26] INFO root fetch - processPackages [alibabacloud-arms20190808]: executing diffoscope
+[2023-08-02 05:56:26] INFO root fetch - processPackages [alibabacloud-arms20190808]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_arms20190808-2.0.2.tar.gz tmp/alibabacloud_arms20190808-2.0.3.tar.gz --markdown 20230802/a/alibabacloud-arms20190808/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-08-02 05:56:26] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: executing diffoscope
+[2023-08-02 05:56:26] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev48-py2-none-any.whl.zip tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev49-py2-none-any.whl.zip --markdown 20230802/o/odoo9-addon-l10n-it-ddt/9.0.1.0.0.99.dev48-9.0.1.0.0.99.dev49/diff.md --exclude *.pyd
+[2023-08-02 05:56:26] INFO root fetch - processPackages [odoo8-addon-l10n-it-ddt]: executing diffoscope
+[2023-08-02 05:56:26] INFO root fetch - processPackages [odoo8-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_it_ddt-8.0.1.0.2.99.dev4-py2-none-any.whl.zip tmp/odoo8_addon_l10n_it_ddt-8.0.1.0.2.99.dev5-py2-none-any.whl.zip --markdown 20230802/o/odoo8-addon-l10n-it-ddt/8.0.1.0.2.99.dev4-8.0.1.0.2.99.dev5/diff.md --exclude *.pyd
+[2023-08-02 05:56:27] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: executing diffoscope
+[2023-08-02 05:56:27] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_l10n_it_ddt-11.0.1.0.2.99.dev5-py2.py3-none-any.whl.zip tmp/odoo11_addon_l10n_it_ddt-11.0.1.0.2.99.dev6-py2.py3-none-any.whl.zip --markdown 20230802/o/odoo11-addon-l10n-it-ddt/11.0.1.0.2.99.dev5-11.0.1.0.2.99.dev6/diff.md --exclude *.pyd
+[2023-08-02 05:56:27] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: executing diffoscope
+[2023-08-02 05:56:27] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev9-py2-none-any.whl.zip --markdown 20230802/o/odoo10-addon-l10n-it-ddt/10.0.1.9.0.99.dev8-10.0.1.9.0.99.dev9/diff.md --exclude *.pyd
+[2023-08-02 05:56:27] INFO root fetch - processPackages [CyRK]: executing diffoscope
+[2023-08-02 05:56:27] INFO root fetch - processPackages [CyRK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CyRK-0.6.0.tar.gz tmp/CyRK-0.6.1.tar.gz --markdown 20230802/C/CyRK/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-08-02 05:56:27] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-08-02 05:56:27] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.3.9.dev2-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.3.9.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230802/c/composabl-ray-dev/0.3.9.dev2-0.3.9.dev3/diff.md --exclude *.pyd
+[2023-08-02 05:56:27] INFO root fetch - processPackages [JSONSki]: Remove: archive file [/home/abi/fetcher/tmp/JSONSki-0.1.8.tar.gz]
+[2023-08-02 05:56:27] INFO root fetch - processPackages [JSONSki]: Remove: archive file [/home/abi/fetcher/tmp/JSONSki-0.1.9.tar.gz]
+[2023-08-02 05:56:27] INFO root fetch - processPackages [JSONSki]: Start processing: odoo12-addon-l10n-it-ddt
+[2023-08-02 05:56:27] INFO root fetch - main [MainThread]: End processing [JSONSki]: success
+[2023-08-02 05:56:27] INFO root fetch - processPackages [abstract-utilities]: Remove: archive file [/home/abi/fetcher/tmp/abstract_utilities-0.0.8.tar.gz]
+[2023-08-02 05:56:27] INFO root fetch - processPackages [abstract-utilities]: Remove: archive file [/home/abi/fetcher/tmp/abstract_utilities-0.0.9.tar.gz]
+[2023-08-02 05:56:27] INFO root fetch - processPackages [abstract-utilities]: Start processing: alvadescpy
+[2023-08-02 05:56:27] INFO root fetch - main [MainThread]: End processing [abstract-utilities]: success
+[2023-08-02 05:56:28] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: New version: [12.0.1.9.5.99.dev4] Old Version: [12.0.1.9.5.99.dev3]
+[2023-08-02 05:56:28] INFO root fetch - processPackages [alvadescpy]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-02 05:56:28] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/e1/74/62ff70294dcbe0998b06239c0884543328d63d8d0de2c73b62489b6bfb97/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev3-py3-none-any.whl
+[2023-08-02 05:56:28] INFO root fetch - processPackages [abstract-utilities]: Start processing: phap
+[2023-08-02 05:56:28] INFO root fetch - main [MainThread]: End processing [abstract-utilities]: success
+[2023-08-02 05:56:28] INFO root fetch - processPackages [phap]: New version: [3.1.0rc3] Old Version: [3.1.0rc2]
+[2023-08-02 05:56:28] INFO root fetch - processPackages [alvadescpy]: Downloading https://files.pythonhosted.org/packages/b5/44/e867f030d20d235982a6421ddc60e8a1aeb01d71f175969c05b2e919da41/alvadescpy-0.1.2.tar.gz
+[2023-08-02 05:56:28] INFO root fetch - processPackages [phap]: Downloading https://files.pythonhosted.org/packages/51/7d/a2ac5b485fc91fa92b3b1264891af989b227748eab6d8b153a724cdce4a6/phap-3.1.0rc2.tar.gz
+[2023-08-02 05:56:28] INFO root fetch - processPackages [alibabacloud-arms20190808]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_arms20190808-2.0.2.tar.gz]
+[2023-08-02 05:56:28] INFO root fetch - processPackages [alibabacloud-arms20190808]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_arms20190808-2.0.3.tar.gz]
+[2023-08-02 05:56:28] INFO root fetch - processPackages [alibabacloud-arms20190808]: Start processing: d20-securityLayer
+[2023-08-02 05:56:28] INFO root fetch - main [MainThread]: End processing [alibabacloud-arms20190808]: success
+[2023-08-02 05:56:28] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-08-02 05:56:28] INFO root fetch - processPackages [odoo8-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_it_ddt-8.0.1.0.2.99.dev4-py2-none-any.whl.zip]
+[2023-08-02 05:56:28] INFO root fetch - processPackages [odoo8-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_it_ddt-8.0.1.0.2.99.dev5-py2-none-any.whl.zip]
+[2023-08-02 05:56:28] INFO root fetch - processPackages [odoo8-addon-l10n-it-ddt]: Start processing: fastmega
+[2023-08-02 05:56:28] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-it-ddt]: success
+[2023-08-02 05:56:28] INFO root fetch - processPackages [fastmega]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 05:56:28] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-08-02 05:56:28] INFO root fetch - processPackages [alvadescpy]: Downloading https://files.pythonhosted.org/packages/e4/e4/cff68d0add3cfd3dc1f4152e991458bcca7b059f7a6c63724218546e23c0/alvadescpy-0.1.3.tar.gz
+[2023-08-02 05:56:28] INFO root fetch - processPackages [phap]: Downloading https://files.pythonhosted.org/packages/06/5b/66a679d6dd222a70a468680420ca96ea5fcc89f29533850359e52f5935ce/phap-3.1.0rc3.tar.gz
+[2023-08-02 05:56:28] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/60/8d/da9e85b98a74f275b8ee2d55576ca84abcbfd1f4076a6442b78097f3bf31/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev4-py3-none-any.whl
+[2023-08-02 05:56:28] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev48-py2-none-any.whl.zip]
+[2023-08-02 05:56:28] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev49-py2-none-any.whl.zip]
+[2023-08-02 05:56:28] INFO root fetch - main [MainThread]: End processing [odoo9-addon-l10n-it-ddt]: success
+[2023-08-02 05:56:28] INFO root fetch - processPackages [fastmega]: Downloading https://files.pythonhosted.org/packages/4e/bb/d093474db89e8d2bda0df282fed390d87af711d91edd64df39b791887a2e/fastmega-0.0.1.tar.gz
+[2023-08-02 05:56:28] INFO root fetch - processPackages [phap]: executing diffoscope
+[2023-08-02 05:56:28] INFO root fetch - processPackages [phap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phap-3.1.0rc2.tar.gz tmp/phap-3.1.0rc3.tar.gz --markdown 20230802/p/phap/3.1.0rc2-3.1.0rc3/diff.md --exclude *.pyd
+[2023-08-02 05:56:29] INFO root fetch - processPackages [alvadescpy]: executing diffoscope
+[2023-08-02 05:56:29] INFO root fetch - processPackages [alvadescpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alvadescpy-0.1.2.tar.gz tmp/alvadescpy-0.1.3.tar.gz --markdown 20230802/a/alvadescpy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-02 05:56:29] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/56/46/f3ba1d8980a81e7e0579b812ea29d2c68be9c442ea0e7168a51afcd8c79e/d20-securityLayer-2.0.0a9.tar.gz
+[2023-08-02 05:56:29] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: executing diffoscope
+[2023-08-02 05:56:29] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev4-py3-none-any.whl.zip --markdown 20230802/o/odoo12-addon-l10n-it-ddt/12.0.1.9.5.99.dev3-12.0.1.9.5.99.dev4/diff.md --exclude *.pyd
+[2023-08-02 05:56:29] INFO root fetch - processPackages [fastmega]: Downloading https://files.pythonhosted.org/packages/0e/e9/97a35177b1ceda2507e40f8cc0a6fca436c1c25a8c9057fd4440bf4d61ec/fastmega-0.0.2.tar.gz
+[2023-08-02 05:56:29] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_it_ddt-11.0.1.0.2.99.dev5-py2.py3-none-any.whl.zip]
+[2023-08-02 05:56:29] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_it_ddt-11.0.1.0.2.99.dev6-py2.py3-none-any.whl.zip]
+[2023-08-02 05:56:29] INFO root fetch - main [MainThread]: End processing [odoo11-addon-l10n-it-ddt]: success
+[2023-08-02 05:56:29] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-08-02 05:56:29] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a8.tar.gz tmp/d20-securityLayer-2.0.0a9.tar.gz --markdown 20230802/d/d20-securityLayer/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-08-02 05:56:29] INFO root fetch - processPackages [fastmega]: executing diffoscope
+[2023-08-02 05:56:29] INFO root fetch - processPackages [fastmega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastmega-0.0.1.tar.gz tmp/fastmega-0.0.2.tar.gz --markdown 20230802/f/fastmega/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 05:56:29] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev8-py2-none-any.whl.zip]
+[2023-08-02 05:56:29] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev9-py2-none-any.whl.zip]
+[2023-08-02 05:56:29] INFO root fetch - main [MainThread]: End processing [odoo10-addon-l10n-it-ddt]: success
+[2023-08-02 05:56:30] INFO root fetch - processPackages [alvadescpy]: Remove: archive file [/home/abi/fetcher/tmp/alvadescpy-0.1.2.tar.gz]
+[2023-08-02 05:56:30] INFO root fetch - processPackages [alvadescpy]: Remove: archive file [/home/abi/fetcher/tmp/alvadescpy-0.1.3.tar.gz]
+[2023-08-02 05:56:30] INFO root fetch - main [MainThread]: End processing [alvadescpy]: success
+[2023-08-02 05:56:30] INFO root fetch - processPackages [phap]: Remove: archive file [/home/abi/fetcher/tmp/phap-3.1.0rc2.tar.gz]
+[2023-08-02 05:56:30] INFO root fetch - processPackages [phap]: Remove: archive file [/home/abi/fetcher/tmp/phap-3.1.0rc3.tar.gz]
+[2023-08-02 05:56:30] INFO root fetch - main [MainThread]: End processing [phap]: success
+[2023-08-02 05:56:30] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-08-02 05:56:30] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a9.tar.gz]
+[2023-08-02 05:56:30] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-08-02 05:56:30] INFO root fetch - processPackages [fastmega]: Remove: archive file [/home/abi/fetcher/tmp/fastmega-0.0.1.tar.gz]
+[2023-08-02 05:56:30] INFO root fetch - processPackages [fastmega]: Remove: archive file [/home/abi/fetcher/tmp/fastmega-0.0.2.tar.gz]
+[2023-08-02 05:56:30] INFO root fetch - main [MainThread]: End processing [fastmega]: success
+[2023-08-02 05:56:30] INFO root fetch - processPackages [CyRK]: Remove: archive file [/home/abi/fetcher/tmp/CyRK-0.6.0.tar.gz]
+[2023-08-02 05:56:30] INFO root fetch - processPackages [CyRK]: Remove: archive file [/home/abi/fetcher/tmp/CyRK-0.6.1.tar.gz]
+[2023-08-02 05:56:30] INFO root fetch - main [MainThread]: End processing [CyRK]: success
+[2023-08-02 05:56:30] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev3-py3-none-any.whl.zip]
+[2023-08-02 05:56:30] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev4-py3-none-any.whl.zip]
+[2023-08-02 05:56:30] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-ddt]: success
+[2023-08-02 05:56:32] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev2-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-02 05:56:32] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-02 05:56:32] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-08-02 05:56:32] INFO root fetch - main [MainThread]: Store serial: [19136292]

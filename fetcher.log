@@ -12670,3 +12670,81 @@
 [2023-08-02 06:33:24] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.3.9.dev2-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-08-02 06:33:24] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
 [2023-08-02 06:33:24] INFO root fetch - main [MainThread]: Store serial: [19136607]
+[2023-08-02 06:38:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136607]
+[2023-08-02 06:38:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-02 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kube-ops
+[2023-08-02 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drfsimple2
+[2023-08-02 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnata-plugin-devkit
+[2023-08-02 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Saker
+[2023-08-02 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-pos-margin
+[2023-08-02 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-grasshopper
+[2023-08-02 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstract-modules
+[2023-08-02 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-pos-margin
+[2023-08-02 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metaphor-python
+[2023-08-02 06:38:38] INFO root fetch - processPackages [Saker]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-02 06:38:38] INFO root fetch - processPackages [odoo14-addon-pos-margin]: New version: [14.0.1.0.4.dev1] Old Version: [14.0.1.0.3.dev2]
+[2023-08-02 06:38:38] INFO root fetch - processPackages [drfsimple2]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 06:38:38] INFO root fetch - processPackages [kube-ops]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-02 06:38:38] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 06:38:38] INFO root fetch - processPackages [dragonfly-grasshopper]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-08-02 06:38:38] INFO root fetch - processPackages [Saker]: Downloading https://files.pythonhosted.org/packages/e7/5e/1b94eea4e51627e87f75d6250d5fc41913c7212c6f614721e51694e3447a/Saker-1.0.8.tar.gz
+[2023-08-02 06:38:38] ERROR root fetch - processPackages [abstract-modules]: Unable to get metadata: No such project 'abstract-modules'
+[2023-08-02 06:38:38] INFO root fetch - main [MainThread]: End processing [abstract-modules] error
+[2023-08-02 06:38:38] INFO root fetch - processPackages [odoo-addon-pos-margin]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1]
+[2023-08-02 06:38:38] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-08-02 06:38:38] INFO root fetch - processPackages [metaphor-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 06:38:38] INFO root fetch - processPackages [drfsimple2]: Downloading https://files.pythonhosted.org/packages/eb/f3/219a89210979eda29b802ba00f3ed7124ebf167ecfdbf13d531a203c4927/drfsimple2-0.0.1.tar.gz
+[2023-08-02 06:38:38] INFO root fetch - processPackages [odoo14-addon-pos-margin]: Downloading https://files.pythonhosted.org/packages/90/41/6a3d7cff50e075efc579d18999d5731ae2ca0c209f182c73e00561df6445/odoo14_addon_pos_margin-14.0.1.0.3.dev2-py3-none-any.whl
+[2023-08-02 06:38:38] INFO root fetch - processPackages [kube-ops]: Downloading https://files.pythonhosted.org/packages/af/9a/08886585b170dcaf96b6f26b7047f9a356e716e968e66eb8eaa5a033a866/kube_ops-1.0.6-py3-none-any.whl
+[2023-08-02 06:38:38] INFO root fetch - processPackages [dragonfly-grasshopper]: Downloading https://files.pythonhosted.org/packages/61/7c/926c180ac51778655057fbd9c2b7a694a7cfbc634c510e4bab5af0beb8d9/dragonfly-grasshopper-1.8.4.tar.gz
+[2023-08-02 06:38:38] INFO root fetch - processPackages [odoo-addon-pos-margin]: Downloading https://files.pythonhosted.org/packages/f3/7f/dff7f807060eedb42e2685c0a23c7b71f6ec1d0cc2f8b4fe1b270ab8208d/odoo_addon_pos_margin-16.0.1.0.1-py3-none-any.whl
+[2023-08-02 06:38:38] INFO root fetch - processPackages [metaphor-python]: Downloading https://files.pythonhosted.org/packages/67/38/b3a097d80c55f3ee01b13907fae37ed9ebe2465ecfa1ef5ca91d3d3ef5f8/metaphor-python-0.1.8.tar.gz
+[2023-08-02 06:38:38] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-08-02 06:38:38] INFO root fetch - processPackages [Saker]: Downloading https://files.pythonhosted.org/packages/34/41/4fef042e57e4a51a13453101cdc9d07d32186f2b3518a7e0d364bfacec4c/Saker-1.0.9.tar.gz
+[2023-08-02 06:38:38] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-08-02 06:38:38] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230802/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 06:38:38] INFO root fetch - processPackages [Saker]: executing diffoscope
+[2023-08-02 06:38:38] INFO root fetch - processPackages [Saker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Saker-1.0.8.tar.gz tmp/Saker-1.0.9.tar.gz --markdown 20230802/S/Saker/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 06:38:38] INFO root fetch - processPackages [drfsimple2]: Downloading https://files.pythonhosted.org/packages/26/2e/91a7052c0ac4d2e4c45ee72d206b287b54e6723cd331c8b5dd6d24cf48d3/drfsimple2-0.0.2.tar.gz
+[2023-08-02 06:38:38] INFO root fetch - processPackages [kube-ops]: Downloading https://files.pythonhosted.org/packages/3b/fb/25cead7208681a1bcb42d3c533b5263758ae949c576c52d34295e20c4ea2/kube_ops-1.0.7-py3-none-any.whl
+[2023-08-02 06:38:38] INFO root fetch - processPackages [odoo14-addon-pos-margin]: Downloading https://files.pythonhosted.org/packages/84/ad/a580c694e2bb7b23d9984e40212001fd21c8d49bd14ef52c1f966b590cea/odoo14_addon_pos_margin-14.0.1.0.4.dev1-py3-none-any.whl
+[2023-08-02 06:38:39] INFO root fetch - processPackages [metaphor-python]: Downloading https://files.pythonhosted.org/packages/6f/2f/58ec27e2f4bfe93489e1b8b98589c0f98c9d3d97609182564373f8d573e5/metaphor-python-0.1.9.tar.gz
+[2023-08-02 06:38:39] INFO root fetch - processPackages [kube-ops]: executing diffoscope
+[2023-08-02 06:38:39] INFO root fetch - processPackages [kube-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_ops-1.0.6-py3-none-any.whl.zip tmp/kube_ops-1.0.7-py3-none-any.whl.zip --markdown 20230802/k/kube-ops/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-02 06:38:39] INFO root fetch - processPackages [odoo-addon-pos-margin]: Downloading https://files.pythonhosted.org/packages/78/97/a29ea4ddfe4c9cea3e0eb128ad9a5308677968dcaf6f245a0fa659e1aa1c/odoo_addon_pos_margin-16.0.1.0.1.2-py3-none-any.whl
+[2023-08-02 06:38:39] INFO root fetch - processPackages [drfsimple2]: executing diffoscope
+[2023-08-02 06:38:39] INFO root fetch - processPackages [drfsimple2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drfsimple2-0.0.1.tar.gz tmp/drfsimple2-0.0.2.tar.gz --markdown 20230802/d/drfsimple2/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 06:38:39] INFO root fetch - processPackages [odoo14-addon-pos-margin]: executing diffoscope
+[2023-08-02 06:38:39] INFO root fetch - processPackages [odoo14-addon-pos-margin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pos_margin-14.0.1.0.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_pos_margin-14.0.1.0.4.dev1-py3-none-any.whl.zip --markdown 20230802/o/odoo14-addon-pos-margin/14.0.1.0.3.dev2-14.0.1.0.4.dev1/diff.md --exclude *.pyd
+[2023-08-02 06:38:39] INFO root fetch - processPackages [metaphor-python]: executing diffoscope
+[2023-08-02 06:38:39] INFO root fetch - processPackages [metaphor-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-python-0.1.8.tar.gz tmp/metaphor-python-0.1.9.tar.gz --markdown 20230802/m/metaphor-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 06:38:39] INFO root fetch - processPackages [odoo-addon-pos-margin]: executing diffoscope
+[2023-08-02 06:38:39] INFO root fetch - processPackages [odoo-addon-pos-margin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_margin-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_pos_margin-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230802/o/odoo-addon-pos-margin/16.0.1.0.1-16.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-08-02 06:38:39] INFO root fetch - processPackages [dragonfly-grasshopper]: Downloading https://files.pythonhosted.org/packages/ed/a1/8b42a38306e46248ca16ca8ad5c9b02b4f86db7634aa329ec5ef99e2a623/dragonfly-grasshopper-1.9.0.tar.gz
+[2023-08-02 06:38:39] INFO root fetch - processPackages [dragonfly-grasshopper]: executing diffoscope
+[2023-08-02 06:38:39] INFO root fetch - processPackages [dragonfly-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-grasshopper-1.8.4.tar.gz tmp/dragonfly-grasshopper-1.9.0.tar.gz --markdown 20230802/d/dragonfly-grasshopper/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-08-02 06:38:40] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-08-02 06:38:40] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-08-02 06:38:40] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-08-02 06:38:40] INFO root fetch - processPackages [kube-ops]: Remove: archive file [/home/abi/fetcher/tmp/kube_ops-1.0.6-py3-none-any.whl.zip]
+[2023-08-02 06:38:40] INFO root fetch - processPackages [kube-ops]: Remove: archive file [/home/abi/fetcher/tmp/kube_ops-1.0.7-py3-none-any.whl.zip]
+[2023-08-02 06:38:40] INFO root fetch - main [MainThread]: End processing [kube-ops]: success
+[2023-08-02 06:38:40] INFO root fetch - processPackages [metaphor-python]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-python-0.1.8.tar.gz]
+[2023-08-02 06:38:40] INFO root fetch - processPackages [metaphor-python]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-python-0.1.9.tar.gz]
+[2023-08-02 06:38:40] INFO root fetch - main [MainThread]: End processing [metaphor-python]: success
+[2023-08-02 06:38:40] INFO root fetch - processPackages [drfsimple2]: Remove: archive file [/home/abi/fetcher/tmp/drfsimple2-0.0.1.tar.gz]
+[2023-08-02 06:38:40] INFO root fetch - processPackages [drfsimple2]: Remove: archive file [/home/abi/fetcher/tmp/drfsimple2-0.0.2.tar.gz]
+[2023-08-02 06:38:40] INFO root fetch - main [MainThread]: End processing [drfsimple2]: success
+[2023-08-02 06:38:40] INFO root fetch - processPackages [odoo14-addon-pos-margin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_margin-14.0.1.0.3.dev2-py3-none-any.whl.zip]
+[2023-08-02 06:38:40] INFO root fetch - processPackages [odoo14-addon-pos-margin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_margin-14.0.1.0.4.dev1-py3-none-any.whl.zip]
+[2023-08-02 06:38:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-margin]: success
+[2023-08-02 06:38:40] INFO root fetch - processPackages [odoo-addon-pos-margin]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_margin-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-02 06:38:40] INFO root fetch - processPackages [odoo-addon-pos-margin]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_margin-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-08-02 06:38:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-margin]: success
+[2023-08-02 06:38:40] INFO root fetch - processPackages [Saker]: Remove: archive file [/home/abi/fetcher/tmp/Saker-1.0.8.tar.gz]
+[2023-08-02 06:38:40] INFO root fetch - processPackages [Saker]: Remove: archive file [/home/abi/fetcher/tmp/Saker-1.0.9.tar.gz]
+[2023-08-02 06:38:40] INFO root fetch - main [MainThread]: End processing [Saker]: success
+[2023-08-02 06:38:41] INFO root fetch - processPackages [dragonfly-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-grasshopper-1.8.4.tar.gz]
+[2023-08-02 06:38:41] INFO root fetch - processPackages [dragonfly-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-grasshopper-1.9.0.tar.gz]
+[2023-08-02 06:38:41] INFO root fetch - main [MainThread]: End processing [dragonfly-grasshopper]: success
+[2023-08-02 06:38:41] INFO root fetch - main [MainThread]: Store serial: [19136633]

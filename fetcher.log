@@ -10038,3 +10038,60 @@
 [2023-08-02 04:14:46] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip]
 [2023-08-02 04:14:46] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
 [2023-08-02 04:14:46] INFO root fetch - main [MainThread]: Store serial: [19135444]
+[2023-08-02 04:19:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19135444]
+[2023-08-02 04:19:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-02 04:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odhpy
+[2023-08-02 04:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlx-exec
+[2023-08-02 04:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gerritaction
+[2023-08-02 04:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-talk-with-poe-ai
+[2023-08-02 04:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlx-batis
+[2023-08-02 04:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pgsqlx
+[2023-08-02 04:19:55] INFO root fetch - processPackages [nonebot-plugin-talk-with-poe-ai]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-02 04:19:55] INFO root fetch - processPackages [odhpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 04:19:55] INFO root fetch - processPackages [gerritaction]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-08-02 04:19:55] INFO root fetch - processPackages [sqlx-batis]: New version: [1.0.0] Old Version: [0.2.1]
+[2023-08-02 04:19:55] INFO root fetch - processPackages [sqlx-exec]: New version: [1.4.5] Old Version: [1.4.3]
+[2023-08-02 04:19:55] INFO root fetch - processPackages [pgsqlx]: New version: [1.7.5] Old Version: [1.7.3]
+[2023-08-02 04:19:55] INFO root fetch - processPackages [odhpy]: Downloading https://files.pythonhosted.org/packages/eb/15/27b82a6bdc88bd363bad389d093cc391cc39de7bdba8e1baf5968329faf2/odhpy-0.0.8.tar.gz
+[2023-08-02 04:19:55] INFO root fetch - processPackages [nonebot-plugin-talk-with-poe-ai]: Downloading https://files.pythonhosted.org/packages/a7/34/107469de91191ef142f15a4ee90454ae67996338ee754e83acc4d4370ab7/nonebot_plugin_talk_with_poe_ai-0.1.3.tar.gz
+[2023-08-02 04:19:55] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/1b/aa/910824c9a01e3c47af162185b2e4587836c5a4494101ebec1a9ba33b0d8b/sqlx-batis-0.2.1.tar.gz
+[2023-08-02 04:19:55] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/d0/74/f0ad5edaddecad82a047896016c887f5441447181bda1f640c9be6f2984a/sqlx-exec-1.4.3.tar.gz
+[2023-08-02 04:19:55] INFO root fetch - processPackages [gerritaction]: Downloading https://files.pythonhosted.org/packages/d4/d2/6c130e76f3c1f476fb95f10662459ef18998f89304da039bbe56f30cf504/gerritaction-1.2.0.tar.gz
+[2023-08-02 04:19:55] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/58/94/a4606f5ede161b9049f549580832e8e984eb88521eb29f04ecfbd50a872f/pgsqlx-1.7.3.tar.gz
+[2023-08-02 04:19:55] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/97/fc/a25b1afc07199fbe6b41722ccb00addb8fac7dbc27b3f37ef59b1aca54f2/sqlx-batis-1.0.0.tar.gz
+[2023-08-02 04:19:55] INFO root fetch - processPackages [odhpy]: Downloading https://files.pythonhosted.org/packages/1f/b6/86e1abc2e31b1dce791d9bdbbf5bb9b15ca8380e201ac02f6ef9a2f49b92/odhpy-0.0.9.tar.gz
+[2023-08-02 04:19:55] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/01/e0/eab0a4361ea40e4b2f7fbd28b8c107553860b527d69a42c036d122307f56/sqlx-exec-1.4.5.tar.gz
+[2023-08-02 04:19:55] INFO root fetch - processPackages [gerritaction]: Downloading https://files.pythonhosted.org/packages/2f/4f/96c91879a61a3472acd6f11dbfc9f68c2780038c59b0883e4bd5bb2e1240/gerritaction-1.3.0.tar.gz
+[2023-08-02 04:19:55] INFO root fetch - processPackages [sqlx-batis]: executing diffoscope
+[2023-08-02 04:19:55] INFO root fetch - processPackages [sqlx-batis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-batis-0.2.1.tar.gz tmp/sqlx-batis-1.0.0.tar.gz --markdown 20230802/s/sqlx-batis/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2023-08-02 04:19:55] INFO root fetch - processPackages [odhpy]: executing diffoscope
+[2023-08-02 04:19:55] INFO root fetch - processPackages [odhpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odhpy-0.0.8.tar.gz tmp/odhpy-0.0.9.tar.gz --markdown 20230802/o/odhpy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 04:19:55] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/91/98/e1117117c6284f96b67528d35852cbd6502dedc2ac738416d1d70891b19e/pgsqlx-1.7.5.tar.gz
+[2023-08-02 04:19:55] INFO root fetch - processPackages [nonebot-plugin-talk-with-poe-ai]: Downloading https://files.pythonhosted.org/packages/fe/55/692697feb4839062df7a5b704453f859997f882d2721355119dfa418a4dd/nonebot_plugin_talk_with_poe_ai-0.1.4.tar.gz
+[2023-08-02 04:19:55] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-08-02 04:19:55] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.4.3.tar.gz tmp/sqlx-exec-1.4.5.tar.gz --markdown 20230802/s/sqlx-exec/1.4.3-1.4.5/diff.md --exclude *.pyd
+[2023-08-02 04:19:55] INFO root fetch - processPackages [gerritaction]: executing diffoscope
+[2023-08-02 04:19:55] INFO root fetch - processPackages [gerritaction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gerritaction-1.2.0.tar.gz tmp/gerritaction-1.3.0.tar.gz --markdown 20230802/g/gerritaction/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-08-02 04:19:55] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-08-02 04:19:55] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.7.3.tar.gz tmp/pgsqlx-1.7.5.tar.gz --markdown 20230802/p/pgsqlx/1.7.3-1.7.5/diff.md --exclude *.pyd
+[2023-08-02 04:19:56] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.4.3.tar.gz]
+[2023-08-02 04:19:56] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.4.5.tar.gz]
+[2023-08-02 04:19:56] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-08-02 04:19:56] INFO root fetch - processPackages [gerritaction]: Remove: archive file [/home/abi/fetcher/tmp/gerritaction-1.2.0.tar.gz]
+[2023-08-02 04:19:56] INFO root fetch - processPackages [gerritaction]: Remove: archive file [/home/abi/fetcher/tmp/gerritaction-1.3.0.tar.gz]
+[2023-08-02 04:19:56] INFO root fetch - main [MainThread]: End processing [gerritaction]: success
+[2023-08-02 04:19:56] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-0.2.1.tar.gz]
+[2023-08-02 04:19:56] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-1.0.0.tar.gz]
+[2023-08-02 04:19:56] INFO root fetch - main [MainThread]: End processing [sqlx-batis]: success
+[2023-08-02 04:19:57] INFO root fetch - processPackages [odhpy]: Remove: archive file [/home/abi/fetcher/tmp/odhpy-0.0.8.tar.gz]
+[2023-08-02 04:19:57] INFO root fetch - processPackages [odhpy]: Remove: archive file [/home/abi/fetcher/tmp/odhpy-0.0.9.tar.gz]
+[2023-08-02 04:19:57] INFO root fetch - main [MainThread]: End processing [odhpy]: success
+[2023-08-02 04:19:57] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.7.3.tar.gz]
+[2023-08-02 04:19:57] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.7.5.tar.gz]
+[2023-08-02 04:19:57] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-08-02 04:19:57] INFO root fetch - processPackages [nonebot-plugin-talk-with-poe-ai]: executing diffoscope
+[2023-08-02 04:19:57] INFO root fetch - processPackages [nonebot-plugin-talk-with-poe-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_talk_with_poe_ai-0.1.3.tar.gz tmp/nonebot_plugin_talk_with_poe_ai-0.1.4.tar.gz --markdown 20230802/n/nonebot-plugin-talk-with-poe-ai/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-02 04:19:58] INFO root fetch - processPackages [nonebot-plugin-talk-with-poe-ai]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_talk_with_poe_ai-0.1.3.tar.gz]
+[2023-08-02 04:19:58] INFO root fetch - processPackages [nonebot-plugin-talk-with-poe-ai]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_talk_with_poe_ai-0.1.4.tar.gz]
+[2023-08-02 04:19:58] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-talk-with-poe-ai]: success
+[2023-08-02 04:19:58] INFO root fetch - main [MainThread]: Store serial: [19135460]

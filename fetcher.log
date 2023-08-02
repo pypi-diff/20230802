@@ -12179,3 +12179,71 @@
 [2023-08-02 06:07:01] INFO root fetch - processPackages [ifileoperation]: Remove: archive file [/home/abi/fetcher/tmp/ifileoperation-1.2.6.tar.gz]
 [2023-08-02 06:07:01] INFO root fetch - main [MainThread]: End processing [ifileoperation]: success
 [2023-08-02 06:07:01] INFO root fetch - main [MainThread]: Store serial: [19136351]
+[2023-08-02 06:12:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136351]
+[2023-08-02 06:12:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-02 06:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotchain-sdk
+[2023-08-02 06:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qsm-forward
+[2023-08-02 06:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: harpia
+[2023-08-02 06:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-custom-admin-pages
+[2023-08-02 06:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: threemystic-cloud-data-client
+[2023-08-02 06:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: magic-decorator
+[2023-08-02 06:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rollnw
+[2023-08-02 06:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fixreprod
+[2023-08-02 06:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: daas
+[2023-08-02 06:12:10] INFO root fetch - processPackages [qsm-forward]: New version: [0.9] Old Version: [0.8]
+[2023-08-02 06:12:10] INFO root fetch - processPackages [django-custom-admin-pages]: New version: [1.0.0] Old Version: [0.2.2]
+[2023-08-02 06:12:10] INFO root fetch - processPackages [harpia]: New version: [1.18] Old Version: [1.17]
+[2023-08-02 06:12:10] INFO root fetch - processPackages [robotchain-sdk]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-02 06:12:10] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.67] Old Version: [0.1.66]
+[2023-08-02 06:12:10] WARNING root fetch - processPackages [fixreprod]: Skipping, unable to determine old version
+[2023-08-02 06:12:10] INFO root fetch - main [MainThread]: End processing [fixreprod] error
+[2023-08-02 06:12:10] INFO root fetch - processPackages [magic-decorator]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-02 06:12:10] INFO root fetch - processPackages [rollnw]: New version: [0.9.dev0] Old Version: [0.8.dev0]
+[2023-08-02 06:12:10] WARNING root fetch - processPackages [daas]: Skipping, unable to determine old version
+[2023-08-02 06:12:10] INFO root fetch - main [MainThread]: End processing [daas] error
+[2023-08-02 06:12:10] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/bd/fc/3b57e2eec3953dbe7c73150fb7945d2a7f58a8784990604662b695b24fe8/harpia-1.17.tar.gz
+[2023-08-02 06:12:10] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/31/38/24435bdd23b3c23ca74c298598582db30f3cdd06284b6fce2184ca657299/threemystic_cloud_data_client-0.1.66.tar.gz
+[2023-08-02 06:12:10] INFO root fetch - processPackages [django-custom-admin-pages]: Downloading https://files.pythonhosted.org/packages/b0/18/1b7c41784a381e1c2bfb09c6f8d2c956c26263359e3b0c257fb717fdc351/django_custom_admin_pages-0.2.2.tar.gz
+[2023-08-02 06:12:10] INFO root fetch - processPackages [robotchain-sdk]: Downloading https://files.pythonhosted.org/packages/b9/b8/c2a5c0f185ca0e2ada3381cf4eb42371f4c2e2335de8fccbae5508d83339/robotchain_sdk-1.0.4.tar.gz
+[2023-08-02 06:12:10] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/65/46/45de4bd58406ad4eba67dd561e259f33a0fcc6af97702924894b9e75b9fb/qsm-forward-0.8.tar.gz
+[2023-08-02 06:12:10] INFO root fetch - processPackages [magic-decorator]: Downloading https://files.pythonhosted.org/packages/38/09/f1f3afd4156265a99567567200a5f11b21dfe326379a9e4b1cc3e0afd869/magic_decorator-0.0.6.tar.gz
+[2023-08-02 06:12:10] INFO root fetch - processPackages [rollnw]: Downloading https://files.pythonhosted.org/packages/9a/a8/893f5e80c099abd8d03a09da95325e7159a521131b00b712e04d19d521e4/rollnw-0.8.dev0.tar.gz
+[2023-08-02 06:12:11] INFO root fetch - processPackages [django-custom-admin-pages]: Downloading https://files.pythonhosted.org/packages/cb/c6/3707f7b58cbd4f72560f8c68426938cf35a103ab1660f39a04ae23f9bd61/django_custom_admin_pages-1.0.0.tar.gz
+[2023-08-02 06:12:11] INFO root fetch - processPackages [robotchain-sdk]: Downloading https://files.pythonhosted.org/packages/81/3a/3475502e28f841f95b1279a41cb500ee70012ea13a02af61ab86690f73f4/robotchain_sdk-1.0.5.tar.gz
+[2023-08-02 06:12:11] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/e2/50/3b29cc679b8d6f640bcdbf98cd26477051e3cfd872d5af173574504fa60d/threemystic_cloud_data_client-0.1.67.tar.gz
+[2023-08-02 06:12:11] INFO root fetch - processPackages [magic-decorator]: Downloading https://files.pythonhosted.org/packages/26/0f/a12adf6dc41ba8cf070cb69a0d1c9d6eecbb7d0268a847f33c72961c0b67/magic_decorator-0.0.7.tar.gz
+[2023-08-02 06:12:11] INFO root fetch - processPackages [django-custom-admin-pages]: executing diffoscope
+[2023-08-02 06:12:11] INFO root fetch - processPackages [django-custom-admin-pages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_custom_admin_pages-0.2.2.tar.gz tmp/django_custom_admin_pages-1.0.0.tar.gz --markdown 20230802/d/django-custom-admin-pages/0.2.2-1.0.0/diff.md --exclude *.pyd
+[2023-08-02 06:12:11] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/96/7b/310a7a2cedda42fe3d293c41def115dce8f20fe7d50a71936aa9052822cd/qsm-forward-0.9.tar.gz
+[2023-08-02 06:12:11] INFO root fetch - processPackages [robotchain-sdk]: executing diffoscope
+[2023-08-02 06:12:11] INFO root fetch - processPackages [robotchain-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotchain_sdk-1.0.4.tar.gz tmp/robotchain_sdk-1.0.5.tar.gz --markdown 20230802/r/robotchain-sdk/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-02 06:12:11] INFO root fetch - processPackages [magic-decorator]: executing diffoscope
+[2023-08-02 06:12:11] INFO root fetch - processPackages [magic-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic_decorator-0.0.6.tar.gz tmp/magic_decorator-0.0.7.tar.gz --markdown 20230802/m/magic-decorator/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-02 06:12:11] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/42/4f/ac46c022cd211c2e371033bbc990f8bc44ae2d8e0be5d073cf29b92da947/harpia-1.18.tar.gz
+[2023-08-02 06:12:11] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-08-02 06:12:11] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.66.tar.gz tmp/threemystic_cloud_data_client-0.1.67.tar.gz --markdown 20230802/t/threemystic-cloud-data-client/0.1.66-0.1.67/diff.md --exclude *.pyd
+[2023-08-02 06:12:11] INFO root fetch - processPackages [qsm-forward]: executing diffoscope
+[2023-08-02 06:12:11] INFO root fetch - processPackages [qsm-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsm-forward-0.8.tar.gz tmp/qsm-forward-0.9.tar.gz --markdown 20230802/q/qsm-forward/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-02 06:12:11] WARNING root fetch - processPackages [rollnw]: Skipping package: exceeds size limit 26393268>=10485760
+[2023-08-02 06:12:11] INFO root fetch - main [MainThread]: End processing [rollnw] error
+[2023-08-02 06:12:12] INFO root fetch - processPackages [django-custom-admin-pages]: Remove: archive file [/home/abi/fetcher/tmp/django_custom_admin_pages-0.2.2.tar.gz]
+[2023-08-02 06:12:12] INFO root fetch - processPackages [django-custom-admin-pages]: Remove: archive file [/home/abi/fetcher/tmp/django_custom_admin_pages-1.0.0.tar.gz]
+[2023-08-02 06:12:12] INFO root fetch - main [MainThread]: End processing [django-custom-admin-pages]: success
+[2023-08-02 06:12:12] INFO root fetch - processPackages [robotchain-sdk]: Remove: archive file [/home/abi/fetcher/tmp/robotchain_sdk-1.0.4.tar.gz]
+[2023-08-02 06:12:12] INFO root fetch - processPackages [robotchain-sdk]: Remove: archive file [/home/abi/fetcher/tmp/robotchain_sdk-1.0.5.tar.gz]
+[2023-08-02 06:12:12] INFO root fetch - main [MainThread]: End processing [robotchain-sdk]: success
+[2023-08-02 06:12:12] INFO root fetch - processPackages [magic-decorator]: Remove: archive file [/home/abi/fetcher/tmp/magic_decorator-0.0.6.tar.gz]
+[2023-08-02 06:12:12] INFO root fetch - processPackages [magic-decorator]: Remove: archive file [/home/abi/fetcher/tmp/magic_decorator-0.0.7.tar.gz]
+[2023-08-02 06:12:12] INFO root fetch - main [MainThread]: End processing [magic-decorator]: success
+[2023-08-02 06:12:12] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.8.tar.gz]
+[2023-08-02 06:12:12] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.9.tar.gz]
+[2023-08-02 06:12:12] INFO root fetch - main [MainThread]: End processing [qsm-forward]: success
+[2023-08-02 06:12:12] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.66.tar.gz]
+[2023-08-02 06:12:12] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.67.tar.gz]
+[2023-08-02 06:12:12] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-08-02 06:12:13] INFO root fetch - processPackages [harpia]: executing diffoscope
+[2023-08-02 06:12:13] INFO root fetch - processPackages [harpia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harpia-1.17.tar.gz tmp/harpia-1.18.tar.gz --markdown 20230802/h/harpia/1.17-1.18/diff.md --exclude *.pyd
+[2023-08-02 06:12:16] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.17.tar.gz]
+[2023-08-02 06:12:16] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.18.tar.gz]
+[2023-08-02 06:12:16] INFO root fetch - main [MainThread]: End processing [harpia]: success
+[2023-08-02 06:12:16] INFO root fetch - main [MainThread]: Store serial: [19136392]

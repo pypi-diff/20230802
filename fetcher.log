@@ -12950,3 +12950,50 @@
 [2023-08-02 06:59:26] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.72.0.tar.gz]
 [2023-08-02 06:59:26] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
 [2023-08-02 06:59:26] INFO root fetch - main [MainThread]: Store serial: [19136718]
+[2023-08-02 07:04:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136718]
+[2023-08-02 07:04:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-02 07:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shipper-shippy
+[2023-08-02 07:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmdcomp
+[2023-08-02 07:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hbshare
+[2023-08-02 07:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hivedca
+[2023-08-02 07:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FunID
+[2023-08-02 07:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flappy-bird-gymnasium
+[2023-08-02 07:04:35] INFO root fetch - processPackages [FunID]: New version: [0.3.9] Old Version: [0.3.8.2]
+[2023-08-02 07:04:35] WARNING root fetch - processPackages [hivedca]: Skipping, unable to determine old version
+[2023-08-02 07:04:35] INFO root fetch - main [MainThread]: End processing [hivedca] error
+[2023-08-02 07:04:35] INFO root fetch - processPackages [cmdcomp]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-08-02 07:04:35] INFO root fetch - processPackages [shipper-shippy]: New version: [2.19.0] Old Version: [2.18.3]
+[2023-08-02 07:04:35] INFO root fetch - processPackages [hbshare]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-08-02 07:04:35] INFO root fetch - processPackages [FunID]: Downloading https://files.pythonhosted.org/packages/4a/4a/3bf498c2707726c16177fb6d5e4c1fb6b942aa0f857378f22345cee709b9/FunID-0.3.8.2.tar.gz
+[2023-08-02 07:04:35] INFO root fetch - processPackages [hbshare]: Downloading https://files.pythonhosted.org/packages/a5/a4/499d23d74887ffd4ef67553315658f683be836712d76c2899658261b95c7/hbshare-3.7.8.tar.gz
+[2023-08-02 07:04:35] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/23/5d/afa366ad9c54742faa3399120b4f6868df6414d2faaf51751eca23a35511/cmdcomp-2.0.3.tar.gz
+[2023-08-02 07:04:35] INFO root fetch - processPackages [flappy-bird-gymnasium]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-02 07:04:35] WARNING root fetch - processPackages [FunID]: Skipping package: exceeds size limit 51450650>=10485760
+[2023-08-02 07:04:35] INFO root fetch - main [MainThread]: End processing [FunID] error
+[2023-08-02 07:04:35] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/01/ec/4bb50880f21b3abe3240eea792d8e969f2ae6e2745c1d3509da3d93a62db/shipper-shippy-2.18.3.tar.gz
+[2023-08-02 07:04:35] INFO root fetch - processPackages [flappy-bird-gymnasium]: Downloading https://files.pythonhosted.org/packages/14/a4/65a97c8635a3e9c2a6129af8e53084699cbfcd7b4097e1dfb18e50644689/flappy-bird-gymnasium-0.2.1.tar.gz
+[2023-08-02 07:04:35] INFO root fetch - processPackages [hbshare]: Downloading https://files.pythonhosted.org/packages/3b/cf/d495e4794562827ff7bdac1372ab526c4beca5fa1b11cbb802d837fd27de/hbshare-3.7.9.tar.gz
+[2023-08-02 07:04:35] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/9d/48/366d1b671163475b460e02d5bd5d517ee0d800f5e0a7172b8a703ac116e3/cmdcomp-2.0.4.tar.gz
+[2023-08-02 07:04:35] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/f6/5a/ab9a632674b5fbd7c3f0656076ab98fcd5f02d1c4d8253c40deb616f3319/shipper-shippy-2.19.0.tar.gz
+[2023-08-02 07:04:36] INFO root fetch - processPackages [shipper-shippy]: executing diffoscope
+[2023-08-02 07:04:36] INFO root fetch - processPackages [shipper-shippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipper-shippy-2.18.3.tar.gz tmp/shipper-shippy-2.19.0.tar.gz --markdown 20230802/s/shipper-shippy/2.18.3-2.19.0/diff.md --exclude *.pyd
+[2023-08-02 07:04:36] INFO root fetch - processPackages [hbshare]: executing diffoscope
+[2023-08-02 07:04:36] INFO root fetch - processPackages [hbshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbshare-3.7.8.tar.gz tmp/hbshare-3.7.9.tar.gz --markdown 20230802/h/hbshare/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-08-02 07:04:36] INFO root fetch - processPackages [cmdcomp]: executing diffoscope
+[2023-08-02 07:04:36] INFO root fetch - processPackages [cmdcomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdcomp-2.0.3.tar.gz tmp/cmdcomp-2.0.4.tar.gz --markdown 20230802/c/cmdcomp/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-08-02 07:04:36] INFO root fetch - processPackages [flappy-bird-gymnasium]: Downloading https://files.pythonhosted.org/packages/18/ea/2e12ffab88a360fa4f99831872536e657f71bba053e6154aa84514220818/flappy-bird-gymnasium-0.2.2.tar.gz
+[2023-08-02 07:04:36] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper-shippy-2.18.3.tar.gz]
+[2023-08-02 07:04:36] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper-shippy-2.19.0.tar.gz]
+[2023-08-02 07:04:36] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
+[2023-08-02 07:04:37] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-2.0.3.tar.gz]
+[2023-08-02 07:04:37] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-2.0.4.tar.gz]
+[2023-08-02 07:04:37] INFO root fetch - main [MainThread]: End processing [cmdcomp]: success
+[2023-08-02 07:04:37] INFO root fetch - processPackages [flappy-bird-gymnasium]: executing diffoscope
+[2023-08-02 07:04:37] INFO root fetch - processPackages [flappy-bird-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flappy-bird-gymnasium-0.2.1.tar.gz tmp/flappy-bird-gymnasium-0.2.2.tar.gz --markdown 20230802/f/flappy-bird-gymnasium/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-02 07:04:38] INFO root fetch - processPackages [hbshare]: Remove: archive file [/home/abi/fetcher/tmp/hbshare-3.7.8.tar.gz]
+[2023-08-02 07:04:38] INFO root fetch - processPackages [hbshare]: Remove: archive file [/home/abi/fetcher/tmp/hbshare-3.7.9.tar.gz]
+[2023-08-02 07:04:38] INFO root fetch - main [MainThread]: End processing [hbshare]: success
+[2023-08-02 07:04:38] INFO root fetch - processPackages [flappy-bird-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/flappy-bird-gymnasium-0.2.1.tar.gz]
+[2023-08-02 07:04:38] INFO root fetch - processPackages [flappy-bird-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/flappy-bird-gymnasium-0.2.2.tar.gz]
+[2023-08-02 07:04:38] INFO root fetch - main [MainThread]: End processing [flappy-bird-gymnasium]: success
+[2023-08-02 07:04:38] INFO root fetch - main [MainThread]: Store serial: [19136747]

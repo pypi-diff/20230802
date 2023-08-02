@@ -13542,3 +13542,75 @@
 [2023-08-02 07:42:26] INFO root fetch - processPackages [tainstcalorimetry]: Remove: archive file [/home/abi/fetcher/tmp/tainstcalorimetry-0.1.9.tar.gz]
 [2023-08-02 07:42:26] INFO root fetch - main [MainThread]: End processing [tainstcalorimetry]: success
 [2023-08-02 07:42:26] INFO root fetch - main [MainThread]: Store serial: [19136970]
+[2023-08-02 07:47:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136970]
+[2023-08-02 07:47:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-02 07:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marlowe
+[2023-08-02 07:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wow-ai-sdk
+[2023-08-02 07:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hypymedia
+[2023-08-02 07:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfdbg
+[2023-08-02 07:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fossbill
+[2023-08-02 07:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yyszh
+[2023-08-02 07:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysimplebase
+[2023-08-02 07:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jnj-lib
+[2023-08-02 07:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloudforet-console-api-v2
+[2023-08-02 07:47:35] INFO root fetch - processPackages [marlowe]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-02 07:47:36] INFO root fetch - processPackages [fossbill]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-02 07:47:36] INFO root fetch - processPackages [hypymedia]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-02 07:47:36] INFO root fetch - processPackages [yyszh]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-02 07:47:36] WARNING root fetch - processPackages [pysimplebase]: Skipping, unable to determine old version
+[2023-08-02 07:47:36] INFO root fetch - main [MainThread]: End processing [pysimplebase] error
+[2023-08-02 07:47:36] INFO root fetch - processPackages [wow-ai-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 07:47:36] INFO root fetch - processPackages [jnj-lib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 07:47:36] WARNING root fetch - processPackages [pyfdbg]: Skipping, unable to determine old version
+[2023-08-02 07:47:36] INFO root fetch - main [MainThread]: End processing [pyfdbg] error
+[2023-08-02 07:47:36] INFO root fetch - processPackages [cloudforet-console-api-v2]: New version: [1.12.dev9] Old Version: [1.12.dev8]
+[2023-08-02 07:47:36] INFO root fetch - processPackages [hypymedia]: Downloading https://files.pythonhosted.org/packages/f2/9e/cd65d1ca5fc94dba95066ec5c1016284ac19d2c919b6adf14aebcbb24afe/hypymedia-0.1.3.tar.gz
+[2023-08-02 07:47:36] INFO root fetch - processPackages [wow-ai-sdk]: Downloading https://files.pythonhosted.org/packages/eb/32/6c44687326c4f19cf838b1f0a1096ee2dfc79ffbddcf8db6671ed60f1c2d/wow_ai_sdk-0.1.8.tar.gz
+[2023-08-02 07:47:36] INFO root fetch - processPackages [yyszh]: Downloading https://files.pythonhosted.org/packages/e2/26/445931299f221721007f858ff52657b343cf3bc67d25bc4db8a670d3636c/yyszh-0.1.3.tar.gz
+[2023-08-02 07:47:36] INFO root fetch - processPackages [jnj-lib]: Downloading https://files.pythonhosted.org/packages/76/a1/ca840c27d053d1e334b4f5b49e0b3cf8ecf07cea1e26918bda80ef963419/jnj_lib-0.0.1.tar.gz
+[2023-08-02 07:47:36] INFO root fetch - processPackages [marlowe]: Downloading https://files.pythonhosted.org/packages/81/20/3f1d7e665894aa364da09372de7e12fd0a13990c01ccd090f733c4362418/marlowe-0.1.2-cp311-none-win_amd64.whl
+[2023-08-02 07:47:36] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/1c/e0/3246aaba192149ab8d292bfb44cde4aa77219b8dfe2274a2ae77a756958d/fossbill-1.1.0-py3-none-any.whl
+[2023-08-02 07:47:36] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/bf/a1/a37b697c444592a6bc36bc51392425438032d01b62b00968254c8bbdd809/cloudforet-console-api-v2-1.12.dev8.tar.gz
+[2023-08-02 07:47:36] INFO root fetch - processPackages [hypymedia]: Downloading https://files.pythonhosted.org/packages/7e/44/a62947cf20be21ef55e965b0c3d706eba6fb26a979b92e079f1ee536b546/hypymedia-0.1.4.tar.gz
+[2023-08-02 07:47:36] INFO root fetch - processPackages [yyszh]: Downloading https://files.pythonhosted.org/packages/cb/81/5cff53f1737625573af60038ccd2c339f717e253cd17f036e1271210a78a/yyszh-0.1.4.tar.gz
+[2023-08-02 07:47:36] INFO root fetch - processPackages [wow-ai-sdk]: Downloading https://files.pythonhosted.org/packages/10/bb/a8c4cda8df179e6b15e7cd61e18f13b4f04456401d0510c5fede038bb9ba/wow_ai_sdk-0.1.9.tar.gz
+[2023-08-02 07:47:36] INFO root fetch - processPackages [jnj-lib]: Downloading https://files.pythonhosted.org/packages/b6/8e/e8efd31f5e3360ab8f45afa25b75051239c85e986618859bad310b76517a/jnj_lib-0.0.2.tar.gz
+[2023-08-02 07:47:36] INFO root fetch - processPackages [yyszh]: executing diffoscope
+[2023-08-02 07:47:36] INFO root fetch - processPackages [yyszh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyszh-0.1.3.tar.gz tmp/yyszh-0.1.4.tar.gz --markdown 20230802/y/yyszh/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-02 07:47:36] INFO root fetch - processPackages [wow-ai-sdk]: executing diffoscope
+[2023-08-02 07:47:36] INFO root fetch - processPackages [wow-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_sdk-0.1.8.tar.gz tmp/wow_ai_sdk-0.1.9.tar.gz --markdown 20230802/w/wow-ai-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 07:47:36] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/ae/be/ce0f235820de119ff817c2167074f776da84d3eecf7cdd394c2a6275678a/cloudforet-console-api-v2-1.12.dev9.tar.gz
+[2023-08-02 07:47:36] INFO root fetch - processPackages [marlowe]: Downloading https://files.pythonhosted.org/packages/49/9a/a4c0f46ea1f673a8596b8195b0bacda67ab8eadd7356daa035cdc0ddf473/marlowe-0.1.3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-02 07:47:36] INFO root fetch - processPackages [hypymedia]: executing diffoscope
+[2023-08-02 07:47:36] INFO root fetch - processPackages [hypymedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypymedia-0.1.3.tar.gz tmp/hypymedia-0.1.4.tar.gz --markdown 20230802/h/hypymedia/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-02 07:47:36] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/98/38/3f192e5ca3e5ac2059e59eea8ad665134f94c023b1e2fb71ae126228337b/fossbill-1.2.0-py3-none-any.whl
+[2023-08-02 07:47:36] INFO root fetch - processPackages [jnj-lib]: executing diffoscope
+[2023-08-02 07:47:36] INFO root fetch - processPackages [jnj-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jnj_lib-0.0.1.tar.gz tmp/jnj_lib-0.0.2.tar.gz --markdown 20230802/j/jnj-lib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 07:47:36] INFO root fetch - processPackages [fossbill]: executing diffoscope
+[2023-08-02 07:47:36] INFO root fetch - processPackages [fossbill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fossbill-1.1.0-py3-none-any.whl.zip tmp/fossbill-1.2.0-py3-none-any.whl.zip --markdown 20230802/f/fossbill/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-02 07:47:36] INFO root fetch - processPackages [cloudforet-console-api-v2]: executing diffoscope
+[2023-08-02 07:47:36] INFO root fetch - processPackages [cloudforet-console-api-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudforet-console-api-v2-1.12.dev8.tar.gz tmp/cloudforet-console-api-v2-1.12.dev9.tar.gz --markdown 20230802/c/cloudforet-console-api-v2/1.12.dev8-1.12.dev9/diff.md --exclude *.pyd
+[2023-08-02 07:47:37] INFO root fetch - processPackages [marlowe]: executing diffoscope
+[2023-08-02 07:47:37] INFO root fetch - processPackages [marlowe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marlowe-0.1.2-cp311-none-win_amd64.whl.zip tmp/marlowe-0.1.3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230802/m/marlowe/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-02 07:47:37] INFO root fetch - processPackages [hypymedia]: Remove: archive file [/home/abi/fetcher/tmp/hypymedia-0.1.3.tar.gz]
+[2023-08-02 07:47:37] INFO root fetch - processPackages [hypymedia]: Remove: archive file [/home/abi/fetcher/tmp/hypymedia-0.1.4.tar.gz]
+[2023-08-02 07:47:37] INFO root fetch - main [MainThread]: End processing [hypymedia]: success
+[2023-08-02 07:47:37] INFO root fetch - processPackages [wow-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_sdk-0.1.8.tar.gz]
+[2023-08-02 07:47:37] INFO root fetch - processPackages [wow-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_sdk-0.1.9.tar.gz]
+[2023-08-02 07:47:37] INFO root fetch - main [MainThread]: End processing [wow-ai-sdk]: success
+[2023-08-02 07:47:38] INFO root fetch - processPackages [jnj-lib]: Remove: archive file [/home/abi/fetcher/tmp/jnj_lib-0.0.1.tar.gz]
+[2023-08-02 07:47:38] INFO root fetch - processPackages [jnj-lib]: Remove: archive file [/home/abi/fetcher/tmp/jnj_lib-0.0.2.tar.gz]
+[2023-08-02 07:47:38] INFO root fetch - main [MainThread]: End processing [jnj-lib]: success
+[2023-08-02 07:47:38] INFO root fetch - processPackages [yyszh]: Remove: archive file [/home/abi/fetcher/tmp/yyszh-0.1.3.tar.gz]
+[2023-08-02 07:47:38] INFO root fetch - processPackages [yyszh]: Remove: archive file [/home/abi/fetcher/tmp/yyszh-0.1.4.tar.gz]
+[2023-08-02 07:47:38] INFO root fetch - main [MainThread]: End processing [yyszh]: success
+[2023-08-02 07:47:38] INFO root fetch - processPackages [marlowe]: Remove: archive file [/home/abi/fetcher/tmp/marlowe-0.1.2-cp311-none-win_amd64.whl.zip]
+[2023-08-02 07:47:38] INFO root fetch - processPackages [marlowe]: Remove: archive file [/home/abi/fetcher/tmp/marlowe-0.1.3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-02 07:47:38] INFO root fetch - main [MainThread]: End processing [marlowe]: success
+[2023-08-02 07:47:38] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-1.1.0-py3-none-any.whl.zip]
+[2023-08-02 07:47:38] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-1.2.0-py3-none-any.whl.zip]
+[2023-08-02 07:47:38] INFO root fetch - main [MainThread]: End processing [fossbill]: success
+[2023-08-02 07:47:38] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-1.12.dev8.tar.gz]
+[2023-08-02 07:47:38] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-1.12.dev9.tar.gz]
+[2023-08-02 07:47:38] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
+[2023-08-02 07:47:38] INFO root fetch - main [MainThread]: Store serial: [19137001]

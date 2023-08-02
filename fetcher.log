@@ -19049,3 +19049,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-02 11:45:13] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.4.7.tar.gz]
 [2023-08-02 11:45:13] INFO root fetch - main [MainThread]: End processing [thinks-dash-components]: success
 [2023-08-02 11:45:13] INFO root fetch - main [MainThread]: Store serial: [19139467]
+[2023-08-02 11:50:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19139467]
+[2023-08-02 11:50:22] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-02 11:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xiaomitv
+[2023-08-02 11:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omni-infer-api
+[2023-08-02 11:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thinks-dash-components
+[2023-08-02 11:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: orderly
+[2023-08-02 11:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: microservicebus-py
+[2023-08-02 11:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqladmin
+[2023-08-02 11:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: StarClusterPlot
+[2023-08-02 11:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tlv
+[2023-08-02 11:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi-queue-megatron-global
+[2023-08-02 11:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shapelets-platform
+[2023-08-02 11:50:22] INFO root fetch - processPackages [omni-infer-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-02 11:50:22] INFO root fetch - processPackages [orderly]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-08-02 11:50:22] WARNING root fetch - processPackages [StarClusterPlot]: Skipping, unable to determine old version
+[2023-08-02 11:50:22] INFO root fetch - processPackages [StarClusterPlot]: Start processing: smartchart
+[2023-08-02 11:50:22] INFO root fetch - main [MainThread]: End processing [StarClusterPlot] error
+[2023-08-02 11:50:22] INFO root fetch - processPackages [sqladmin]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-02 11:50:22] INFO root fetch - processPackages [thinks-dash-components]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-08-02 11:50:22] WARNING root fetch - processPackages [xiaomitv]: Skipping, unable to determine old version
+[2023-08-02 11:50:22] INFO root fetch - processPackages [xiaomitv]: Start processing: decentralizedroutines
+[2023-08-02 11:50:22] INFO root fetch - main [MainThread]: End processing [xiaomitv] error
+[2023-08-02 11:50:22] ERROR root fetch - processPackages [fastapi-queue-megatron-global]: Unable to get metadata: No such project 'fastapi-queue-megatron-global'
+[2023-08-02 11:50:22] INFO root fetch - processPackages [fastapi-queue-megatron-global]: Start processing: thinks-dash-components
+[2023-08-02 11:50:22] INFO root fetch - main [MainThread]: End processing [fastapi-queue-megatron-global] error
+[2023-08-02 11:50:22] INFO root fetch - processPackages [shapelets-platform]: New version: [2.0.95] Old Version: [2.0.94]
+[2023-08-02 11:50:22] INFO root fetch - processPackages [smartchart]: New version: [6.6.9.1] Old Version: [6.6.9]
+[2023-08-02 11:50:22] INFO root fetch - processPackages [tlv]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-08-02 11:50:22] INFO root fetch - processPackages [microservicebus-py]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-08-02 11:50:23] INFO root fetch - processPackages [thinks-dash-components]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-08-02 11:50:23] INFO root fetch - processPackages [omni-infer-api]: Downloading https://files.pythonhosted.org/packages/27/7e/431b45d112cabf0ef238ca1bde32adced061931a79300f8d829ee55357b4/omni_infer_api-0.0.6-py3-none-any.whl
+[2023-08-02 11:50:23] INFO root fetch - processPackages [sqladmin]: Downloading https://files.pythonhosted.org/packages/e2/c2/00caa80a451af253bf6bb3f74679b92dd24ec416dd0ce047e586256e86bb/sqladmin-0.8.0.tar.gz
+[2023-08-02 11:50:23] INFO root fetch - processPackages [shapelets-platform]: Downloading https://files.pythonhosted.org/packages/5a/dd/36377ca02261e53e94c066cf601b00a32fa118241dc244b31a0c3a3b980b/shapelets-platform-2.0.94.tar.gz
+[2023-08-02 11:50:23] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/f7/8c/7e9a2b51dd67bef5db17fee16a45693a27af66f3d7ef868d3ecb01ebff49/thinks_dash_components-0.4.7.tar.gz
+[2023-08-02 11:50:23] INFO root fetch - processPackages [orderly]: Downloading https://files.pythonhosted.org/packages/a1/8e/f586c666f866f943b129c753ff0aafdbd26b670a72a470473a4f8eae5970/orderly-0.1.2.tar.gz
+[2023-08-02 11:50:23] INFO root fetch - processPackages [decentralizedroutines]: New version: [2.3.2] Old Version: [2.2.6]
+[2023-08-02 11:50:23] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/f7/8c/7e9a2b51dd67bef5db17fee16a45693a27af66f3d7ef868d3ecb01ebff49/thinks_dash_components-0.4.7.tar.gz
+[2023-08-02 11:50:23] INFO root fetch - processPackages [tlv]: Downloading https://files.pythonhosted.org/packages/da/40/358d6a9dc9863cb3150c54b4d6e5ce40c895424c5c36d8e8022268b22ca5/tlv-1.4.1.tar.gz
+[2023-08-02 11:50:23] INFO root fetch - processPackages [microservicebus-py]: Downloading https://files.pythonhosted.org/packages/20/91/df2209a6b353b844c5086efab7bdec2267a9fae02d45bc18c698a97131e3/microservicebus-py-0.9.7.tar.gz
+[2023-08-02 11:50:23] WARNING root fetch - processPackages [orderly]: Skipping package: exceeds size limit 18455423>=10485760
+[2023-08-02 11:50:23] INFO root fetch - main [MainThread]: End processing [orderly] error
+[2023-08-02 11:50:23] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/88/65/38bbb252dfa761e24d6d5be464b477b4ab821e24a789c401b6fe154bdb33/smartchart-6.6.9.tar.gz
+[2023-08-02 11:50:23] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/0c/72/24518807f89ed850cd0887e5cba4488ea6dcddd6f01f791e1b6059e5fbaa/decentralizedroutines-2.2.6.tar.gz
+[2023-08-02 11:50:23] INFO root fetch - processPackages [omni-infer-api]: Downloading https://files.pythonhosted.org/packages/ad/3d/48faa2a9a25127f39fdd9341be6c6972f0894baccc4594693e910a65c643/omni_infer_api-0.0.7-py3-none-any.whl
+[2023-08-02 11:50:23] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/00/50/25debd7cb37023192f29c667c449490d400e8c3dac12da6d0fe3c0cb4d59/thinks_dash_components-0.4.8.tar.gz
+[2023-08-02 11:50:23] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/00/50/25debd7cb37023192f29c667c449490d400e8c3dac12da6d0fe3c0cb4d59/thinks_dash_components-0.4.8.tar.gz
+[2023-08-02 11:50:23] INFO root fetch - processPackages [tlv]: Downloading https://files.pythonhosted.org/packages/12/86/9781bc2d73491e015957966813f0bef3a200f0c019b868ee4028f97d99df/tlv-1.4.2.tar.gz
+[2023-08-02 11:50:23] INFO root fetch - processPackages [omni-infer-api]: executing diffoscope
+[2023-08-02 11:50:23] INFO root fetch - processPackages [omni-infer-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni_infer_api-0.0.6-py3-none-any.whl.zip tmp/omni_infer_api-0.0.7-py3-none-any.whl.zip --markdown 20230802/o/omni-infer-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-02 11:50:23] INFO root fetch - processPackages [microservicebus-py]: Downloading https://files.pythonhosted.org/packages/6f/6b/7ca48686b79259a4cac05974b7cc85ed82621c5135378620efc28f60a01f/microservicebus-py-0.9.8.tar.gz
+[2023-08-02 11:50:23] INFO root fetch - processPackages [shapelets-platform]: Downloading https://files.pythonhosted.org/packages/c9/a4/164f4bafd5db9e34e5242188a4f0e84a0ba05b729e8ddeb34c477e748d35/shapelets-platform-2.0.95.tar.gz
+[2023-08-02 11:50:23] INFO root fetch - processPackages [sqladmin]: Downloading https://files.pythonhosted.org/packages/a3/b2/0b1777b71ed99e68b69056422de29864ce6be6992d094d56075ab2cbce9d/sqladmin-0.9.0.tar.gz
+[2023-08-02 11:50:23] INFO root fetch - processPackages [thinks-dash-components]: executing diffoscope
+[2023-08-02 11:50:23] INFO root fetch - processPackages [thinks-dash-components]: executing diffoscope
+[2023-08-02 11:50:23] INFO root fetch - processPackages [thinks-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinks_dash_components-0.4.7.tar.gz tmp/thinks_dash_components-0.4.8.tar.gz --markdown 20230802/t/thinks-dash-components/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-08-02 11:50:23] INFO root fetch - processPackages [thinks-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinks_dash_components-0.4.7.tar.gz tmp/thinks_dash_components-0.4.8.tar.gz --markdown 20230802/t/thinks-dash-components/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-08-02 11:50:23] INFO root fetch - processPackages [microservicebus-py]: executing diffoscope
+[2023-08-02 11:50:23] INFO root fetch - processPackages [microservicebus-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microservicebus-py-0.9.7.tar.gz tmp/microservicebus-py-0.9.8.tar.gz --markdown 20230802/m/microservicebus-py/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-08-02 11:50:23] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/de/7f/f9e71f8894bed2fe07ddb762338224ea2eef79a40aa637f7d1edf28deac4/decentralizedroutines-2.3.2.tar.gz
+[2023-08-02 11:50:23] INFO root fetch - processPackages [tlv]: executing diffoscope
+[2023-08-02 11:50:23] INFO root fetch - processPackages [tlv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlv-1.4.1.tar.gz tmp/tlv-1.4.2.tar.gz --markdown 20230802/t/tlv/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-08-02 11:50:24] INFO root fetch - processPackages [sqladmin]: executing diffoscope
+[2023-08-02 11:50:24] INFO root fetch - processPackages [sqladmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqladmin-0.8.0.tar.gz tmp/sqladmin-0.9.0.tar.gz --markdown 20230802/s/sqladmin/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 11:50:24] INFO root fetch - processPackages [shapelets-platform]: executing diffoscope
+[2023-08-02 11:50:24] INFO root fetch - processPackages [shapelets-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapelets-platform-2.0.94.tar.gz tmp/shapelets-platform-2.0.95.tar.gz --markdown 20230802/s/shapelets-platform/2.0.94-2.0.95/diff.md --exclude *.pyd
+[2023-08-02 11:50:24] INFO root fetch - processPackages [decentralizedroutines]: executing diffoscope
+[2023-08-02 11:50:24] INFO root fetch - processPackages [decentralizedroutines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentralizedroutines-2.2.6.tar.gz tmp/decentralizedroutines-2.3.2.tar.gz --markdown 20230802/d/decentralizedroutines/2.2.6-2.3.2/diff.md --exclude *.pyd
+[2023-08-02 11:50:24] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/9d/95/b2a22b6808d2e8846c31d4d8d957082e6d6cb435f3480fca9de3a6692f1b/smartchart-6.6.9.1.tar.gz
+[2023-08-02 11:50:25] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-08-02 11:50:25] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-6.6.9.tar.gz tmp/smartchart-6.6.9.1.tar.gz --markdown 20230802/s/smartchart/6.6.9-6.6.9.1/diff.md --exclude *.pyd
+[2023-08-02 11:50:25] INFO root fetch - processPackages [omni-infer-api]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api-0.0.6-py3-none-any.whl.zip]
+[2023-08-02 11:50:25] INFO root fetch - processPackages [omni-infer-api]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api-0.0.7-py3-none-any.whl.zip]
+[2023-08-02 11:50:25] INFO root fetch - main [MainThread]: End processing [omni-infer-api]: success
+[2023-08-02 11:50:25] INFO root fetch - processPackages [tlv]: Remove: archive file [/home/abi/fetcher/tmp/tlv-1.4.1.tar.gz]
+[2023-08-02 11:50:25] INFO root fetch - processPackages [tlv]: Remove: archive file [/home/abi/fetcher/tmp/tlv-1.4.2.tar.gz]
+[2023-08-02 11:50:25] INFO root fetch - main [MainThread]: End processing [tlv]: success
+[2023-08-02 11:50:25] INFO root fetch - processPackages [microservicebus-py]: Remove: archive file [/home/abi/fetcher/tmp/microservicebus-py-0.9.7.tar.gz]
+[2023-08-02 11:50:25] INFO root fetch - processPackages [microservicebus-py]: Remove: archive file [/home/abi/fetcher/tmp/microservicebus-py-0.9.8.tar.gz]
+[2023-08-02 11:50:25] INFO root fetch - main [MainThread]: End processing [microservicebus-py]: success
+[2023-08-02 11:50:25] INFO root fetch - processPackages [decentralizedroutines]: Remove: archive file [/home/abi/fetcher/tmp/decentralizedroutines-2.2.6.tar.gz]
+[2023-08-02 11:50:25] INFO root fetch - processPackages [decentralizedroutines]: Remove: archive file [/home/abi/fetcher/tmp/decentralizedroutines-2.3.2.tar.gz]
+[2023-08-02 11:50:25] INFO root fetch - main [MainThread]: End processing [decentralizedroutines]: success
+[2023-08-02 11:50:25] INFO root fetch - processPackages [sqladmin]: Remove: archive file [/home/abi/fetcher/tmp/sqladmin-0.8.0.tar.gz]
+[2023-08-02 11:50:25] INFO root fetch - processPackages [sqladmin]: Remove: archive file [/home/abi/fetcher/tmp/sqladmin-0.9.0.tar.gz]
+[2023-08-02 11:50:25] INFO root fetch - main [MainThread]: End processing [sqladmin]: success
+[2023-08-02 11:50:26] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.4.7.tar.gz]
+[2023-08-02 11:50:26] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.4.8.tar.gz]
+[2023-08-02 11:50:26] INFO root fetch - main [MainThread]: End processing [thinks-dash-components]: success
+[2023-08-02 11:50:26] INFO root fetch - main [MainThread]: End processing [thinks-dash-components]: success
+[2023-08-02 11:50:27] INFO root fetch - processPackages [shapelets-platform]: Remove: archive file [/home/abi/fetcher/tmp/shapelets-platform-2.0.94.tar.gz]
+[2023-08-02 11:50:27] INFO root fetch - processPackages [shapelets-platform]: Remove: archive file [/home/abi/fetcher/tmp/shapelets-platform-2.0.95.tar.gz]
+[2023-08-02 11:50:27] INFO root fetch - main [MainThread]: End processing [shapelets-platform]: success
+[2023-08-02 11:50:28] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.9.tar.gz]
+[2023-08-02 11:50:28] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.9.1.tar.gz]
+[2023-08-02 11:50:28] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-08-02 11:50:28] INFO root fetch - main [MainThread]: Store serial: [19139512]

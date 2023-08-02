@@ -14097,3 +14097,87 @@
 [2023-08-02 08:19:55] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.5.dev20230802.tar.gz]
 [2023-08-02 08:19:55] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-08-02 08:19:55] INFO root fetch - main [MainThread]: Store serial: [19137287]
+[2023-08-02 08:24:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19137287]
+[2023-08-02 08:25:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-02 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: byquant
+[2023-08-02 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-csrf-protect
+[2023-08-02 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: circt
+[2023-08-02 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fossbill
+[2023-08-02 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hypymedia
+[2023-08-02 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py3seed
+[2023-08-02 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Alpha-Rabbit
+[2023-08-02 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: click-fuzzy
+[2023-08-02 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-08-02 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apimeter
+[2023-08-02 08:25:04] INFO root fetch - processPackages [hypymedia]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-02 08:25:04] INFO root fetch - processPackages [fossbill]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-08-02 08:25:04] WARNING root fetch - processPackages [click-fuzzy]: Skipping, unable to determine old version
+[2023-08-02 08:25:04] INFO root fetch - main [MainThread]: End processing [click-fuzzy] error
+[2023-08-02 08:25:04] INFO root fetch - processPackages [byquant]: New version: [1.7.38] Old Version: [1.7.37]
+[2023-08-02 08:25:04] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-08-02 08:25:04] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-08-02 08:25:04] INFO root fetch - processPackages [circt]: New version: [1.48.1.dev91] Old Version: [1.48.1.dev80]
+[2023-08-02 08:25:04] INFO root fetch - processPackages [fastapi-csrf-protect]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-02 08:25:04] INFO root fetch - processPackages [py3seed]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-02 08:25:04] INFO root fetch - processPackages [apimeter]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-08-02 08:25:04] INFO root fetch - processPackages [hypymedia]: Downloading https://files.pythonhosted.org/packages/37/6d/5b71f409212c8fee65b3815119546c607290a532831cee3503d61ea5983b/hypymedia-0.1.6.tar.gz
+[2023-08-02 08:25:04] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/7e/cd/65999bd1a4b9fb4d09d6a9aa77165e2e9213a456d6ee0fc51b57c5efd394/byquant-1.7.37.tar.gz
+[2023-08-02 08:25:04] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/98/38/3f192e5ca3e5ac2059e59eea8ad665134f94c023b1e2fb71ae126228337b/fossbill-1.2.0-py3-none-any.whl
+[2023-08-02 08:25:04] INFO root fetch - processPackages [apimeter]: Downloading https://files.pythonhosted.org/packages/a5/11/e82cdaa1f32be36fb6d6a13159ba8dfff9e65e15c24961018a6c2cf4f5f6/apimeter-2.6.0.tar.gz
+[2023-08-02 08:25:04] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-08-02 08:25:04] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/52/e1/ed14d51d55be58e522da9544d79519a9ed286f5516038b39b9cfac6d7b58/py3seed-0.3.2.tar.gz
+[2023-08-02 08:25:04] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/0b/6e/e2fc0214c9d6a7c53afde40502cdbafda192a0978fc61e4aa29c752eaf6a/Alpha_Rabbit-1.4.8.tar.gz
+[2023-08-02 08:25:04] INFO root fetch - processPackages [fastapi-csrf-protect]: Downloading https://files.pythonhosted.org/packages/34/10/4d5891f8b1c7d46509196773d71411c439e91ced80b12e42585e2eece28e/fastapi-csrf-protect-0.3.1.tar.gz
+[2023-08-02 08:25:04] INFO root fetch - processPackages [circt]: executing diffoscope
+[2023-08-02 08:25:04] INFO root fetch - processPackages [circt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circt-1.48.1.dev80-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/circt-1.48.1.dev91-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230802/c/circt/1.48.1.dev80-1.48.1.dev91/diff.md --exclude *.pyd
+[2023-08-02 08:25:05] INFO root fetch - processPackages [hypymedia]: Downloading https://files.pythonhosted.org/packages/a3/05/f4050bdfd14ae29f479cfdaa0f44470c51ee42dedc68b4f72e75b6f3ab72/hypymedia-0.1.7.tar.gz
+[2023-08-02 08:25:05] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/00/11/4d9ce310315018b101e68b7ce7cf9118e3c1498469d9f9c234c8c92b807b/fossbill-1.3.0-py3-none-any.whl
+[2023-08-02 08:25:05] INFO root fetch - processPackages [hypymedia]: executing diffoscope
+[2023-08-02 08:25:05] INFO root fetch - processPackages [hypymedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypymedia-0.1.6.tar.gz tmp/hypymedia-0.1.7.tar.gz --markdown 20230802/h/hypymedia/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-02 08:25:05] INFO root fetch - processPackages [apimeter]: Downloading https://files.pythonhosted.org/packages/51/1b/fe7eb49c6c24a4419dd9da363a57d9e88f45c6e7b2bbcc46db009ac9dc29/apimeter-2.6.1.tar.gz
+[2023-08-02 08:25:05] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/dc/2d/23b1e4bbdf7e8d95047a80c300439d990d95dab98ed5747d83f3e7cca869/byquant-1.7.38.tar.gz
+[2023-08-02 08:25:05] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/55/e1/4b21e576dd1512f23bd918ae98e9aeba385565c489e1d09a04bc4bdf2f7d/py3seed-0.3.3.tar.gz
+[2023-08-02 08:25:05] INFO root fetch - processPackages [fossbill]: executing diffoscope
+[2023-08-02 08:25:05] INFO root fetch - processPackages [fossbill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fossbill-1.2.0-py3-none-any.whl.zip tmp/fossbill-1.3.0-py3-none-any.whl.zip --markdown 20230802/f/fossbill/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-08-02 08:25:05] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-08-02 08:25:05] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.3.2.tar.gz tmp/py3seed-0.3.3.tar.gz --markdown 20230802/p/py3seed/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-02 08:25:05] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/1a/57/1d7aa8328400899ccdbc2e3725b24789b28ff0b7e740fdc2a2a625af56d0/Alpha_Rabbit-1.4.9.tar.gz
+[2023-08-02 08:25:05] INFO root fetch - processPackages [fastapi-csrf-protect]: Downloading https://files.pythonhosted.org/packages/94/49/ca744835e54b1475c89e1a0450e6fd186f1bb46c77c054d0eeb81f6ddd63/fastapi_csrf_protect-0.3.2.tar.gz
+[2023-08-02 08:25:05] INFO root fetch - processPackages [byquant]: executing diffoscope
+[2023-08-02 08:25:05] INFO root fetch - processPackages [byquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byquant-1.7.37.tar.gz tmp/byquant-1.7.38.tar.gz --markdown 20230802/b/byquant/1.7.37-1.7.38/diff.md --exclude *.pyd
+[2023-08-02 08:25:05] INFO root fetch - processPackages [apimeter]: executing diffoscope
+[2023-08-02 08:25:05] INFO root fetch - processPackages [apimeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimeter-2.6.0.tar.gz tmp/apimeter-2.6.1.tar.gz --markdown 20230802/a/apimeter/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-08-02 08:25:05] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-08-02 08:25:05] INFO root fetch - processPackages [fastapi-csrf-protect]: executing diffoscope
+[2023-08-02 08:25:05] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.4.8.tar.gz tmp/Alpha_Rabbit-1.4.9.tar.gz --markdown 20230802/A/Alpha-Rabbit/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-08-02 08:25:05] INFO root fetch - processPackages [fastapi-csrf-protect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-csrf-protect-0.3.1.tar.gz tmp/fastapi_csrf_protect-0.3.2.tar.gz --markdown 20230802/f/fastapi-csrf-protect/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-02 08:25:06] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-08-02 08:25:07] INFO root fetch - processPackages [hypymedia]: Remove: archive file [/home/abi/fetcher/tmp/hypymedia-0.1.6.tar.gz]
+[2023-08-02 08:25:07] INFO root fetch - processPackages [hypymedia]: Remove: archive file [/home/abi/fetcher/tmp/hypymedia-0.1.7.tar.gz]
+[2023-08-02 08:25:07] INFO root fetch - main [MainThread]: End processing [hypymedia]: success
+[2023-08-02 08:25:07] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-08-02 08:25:07] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230802/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 08:25:07] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.3.2.tar.gz]
+[2023-08-02 08:25:07] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.3.3.tar.gz]
+[2023-08-02 08:25:07] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-08-02 08:25:07] INFO root fetch - processPackages [apimeter]: Remove: archive file [/home/abi/fetcher/tmp/apimeter-2.6.0.tar.gz]
+[2023-08-02 08:25:07] INFO root fetch - processPackages [apimeter]: Remove: archive file [/home/abi/fetcher/tmp/apimeter-2.6.1.tar.gz]
+[2023-08-02 08:25:07] INFO root fetch - main [MainThread]: End processing [apimeter]: success
+[2023-08-02 08:25:08] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.4.8.tar.gz]
+[2023-08-02 08:25:08] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.4.9.tar.gz]
+[2023-08-02 08:25:08] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-08-02 08:25:08] INFO root fetch - processPackages [fastapi-csrf-protect]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-csrf-protect-0.3.1.tar.gz]
+[2023-08-02 08:25:08] INFO root fetch - processPackages [fastapi-csrf-protect]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_csrf_protect-0.3.2.tar.gz]
+[2023-08-02 08:25:08] INFO root fetch - main [MainThread]: End processing [fastapi-csrf-protect]: success
+[2023-08-02 08:25:08] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-1.2.0-py3-none-any.whl.zip]
+[2023-08-02 08:25:08] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-1.3.0-py3-none-any.whl.zip]
+[2023-08-02 08:25:08] INFO root fetch - main [MainThread]: End processing [fossbill]: success
+[2023-08-02 08:25:09] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-08-02 08:25:09] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-08-02 08:25:09] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-08-02 08:25:09] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.37.tar.gz]
+[2023-08-02 08:25:09] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.38.tar.gz]
+[2023-08-02 08:25:09] INFO root fetch - main [MainThread]: End processing [byquant]: success
+[2023-08-02 08:28:05] ERROR root fetch - processPackages [circt]: Timeout during execution of pkgdiff
+[2023-08-02 08:28:05] INFO root fetch - main [MainThread]: End processing [circt] error
+[2023-08-02 08:28:05] INFO root fetch - main [MainThread]: Store serial: [19137322]

@@ -20045,3 +20045,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-02 12:12:15] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.3.3.tar.gz]
 [2023-08-02 12:12:15] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
 [2023-08-02 12:12:15] INFO root fetch - main [MainThread]: Store serial: [19139806]
+[2023-08-02 12:17:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19139806]
+[2023-08-02 12:17:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-02 12:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eventhub-analyzer
+[2023-08-02 12:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drift-protocol
+[2023-08-02 12:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: argo-workflow-tools
+[2023-08-02 12:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: v2rayp
+[2023-08-02 12:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: glean-parser
+[2023-08-02 12:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zsl
+[2023-08-02 12:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opsanalyze
+[2023-08-02 12:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycomfort
+[2023-08-02 12:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydantic-client
+[2023-08-02 12:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ncbi-datasets-pylib
+[2023-08-02 12:17:24] INFO root fetch - processPackages [eventhub-analyzer]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-08-02 12:17:24] INFO root fetch - processPackages [zsl]: New version: [0.9] Old Version: [0.28.0]
+[2023-08-02 12:17:24] INFO root fetch - processPackages [argo-workflow-tools]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-08-02 12:17:24] INFO root fetch - processPackages [drift-protocol]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-08-02 12:17:24] WARNING root fetch - processPackages [opsanalyze]: Skipping, unable to determine old version
+[2023-08-02 12:17:24] INFO root fetch - main [MainThread]: End processing [opsanalyze] error
+[2023-08-02 12:17:25] INFO root fetch - processPackages [pydantic-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-02 12:17:25] INFO root fetch - processPackages [pycomfort]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 12:17:25] INFO root fetch - processPackages [v2rayp]: New version: [0.7b9] Old Version: [0.7b8]
+[2023-08-02 12:17:25] INFO root fetch - processPackages [glean-parser]: New version: [8.1.1] Old Version: [8.1.0]
+[2023-08-02 12:17:25] INFO root fetch - processPackages [eventhub-analyzer]: Downloading https://files.pythonhosted.org/packages/37/b7/ae9ec73441cb6d736d83d529ca7785b86394699450a7264ac40f4c70dcd1/eventhub_analyzer-0.6.0.tar.gz
+[2023-08-02 12:17:25] INFO root fetch - processPackages [ncbi-datasets-pylib]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-08-02 12:17:25] INFO root fetch - processPackages [pydantic-client]: Downloading https://files.pythonhosted.org/packages/b7/8e/dd24bca0e673e8e1c5366c1110e7b64e3b59af44289d947f9973866a6d1d/pydantic_client-0.1.0.tar.gz
+[2023-08-02 12:17:25] INFO root fetch - processPackages [zsl]: Downloading https://files.pythonhosted.org/packages/ac/a5/7c03a0adf5af4851f1c01dae8210ed6b8f4522eb0b6a1426ff6115224271/zsl-0.28.0.tar.gz
+[2023-08-02 12:17:25] INFO root fetch - processPackages [v2rayp]: Downloading https://files.pythonhosted.org/packages/92/d1/4eaccafdc2f7e05c6059cc786c4e3318910647bece9407b579e9346fd2fd/v2rayp-0.7b8.tar.gz
+[2023-08-02 12:17:25] INFO root fetch - processPackages [drift-protocol]: Downloading https://files.pythonhosted.org/packages/a7/a2/0fcc2ed9ed1d2ad2b8863a8306405624f8bd83a7bf1d0d6930afd8cf521a/drift_protocol-0.5.0-py3-none-any.whl
+[2023-08-02 12:17:25] INFO root fetch - processPackages [argo-workflow-tools]: Downloading https://files.pythonhosted.org/packages/e7/77/91abfc4d418c47eb3462c66e8a042e901d96a80a393b0994f21a881c6947/argo-workflow-tools-0.9.7.tar.gz
+[2023-08-02 12:17:25] WARNING root fetch - processPackages [v2rayp]: Skipping package: exceeds size limit 65584125>=10485760
+[2023-08-02 12:17:25] INFO root fetch - main [MainThread]: End processing [v2rayp] error
+[2023-08-02 12:17:25] INFO root fetch - processPackages [pycomfort]: Downloading https://files.pythonhosted.org/packages/9c/e1/ae824f1d944eb6c1c165bb0b943f190160be0f27f7eb0d50ccd86f206325/pycomfort-0.0.8.tar.gz
+[2023-08-02 12:17:25] INFO root fetch - processPackages [glean-parser]: Downloading https://files.pythonhosted.org/packages/a8/90/c5206f5f2f772e3f22ce94e89889ed68ceb431f4bcae651d1f711219dbc6/glean_parser-8.1.0.tar.gz
+[2023-08-02 12:17:25] INFO root fetch - processPackages [ncbi-datasets-pylib]: Downloading https://files.pythonhosted.org/packages/ff/d0/5c7c45e275e2c71c22acb9f315a1cbcd706e71659505e30a22bec4a2632b/ncbi-datasets-pylib-9.0.0.tar.gz
+[2023-08-02 12:17:25] INFO root fetch - processPackages [eventhub-analyzer]: Downloading https://files.pythonhosted.org/packages/d0/34/e58bc7c86ef3d2b3a50a9f99af56cfb0dad21c4b0eb27aad449cf121cfa5/eventhub_analyzer-0.6.1.tar.gz
+[2023-08-02 12:17:25] INFO root fetch - processPackages [eventhub-analyzer]: executing diffoscope
+[2023-08-02 12:17:25] INFO root fetch - processPackages [eventhub-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventhub_analyzer-0.6.0.tar.gz tmp/eventhub_analyzer-0.6.1.tar.gz --markdown 20230802/e/eventhub-analyzer/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-08-02 12:17:25] INFO root fetch - processPackages [pydantic-client]: Downloading https://files.pythonhosted.org/packages/12/36/9e58f580a7b6c5b1726b6f175765a774422b6980ca46f2d2c443c400ef2c/pydantic_client-0.1.1.tar.gz
+[2023-08-02 12:17:25] INFO root fetch - processPackages [zsl]: Downloading https://files.pythonhosted.org/packages/4d/f0/6fd278cf2e6ba1d5ab494380b3b5ef98dccf1f2e35b281731c49694a6d4b/zsl-0.9-py2-none-any.whl
+[2023-08-02 12:17:25] INFO root fetch - processPackages [pycomfort]: Downloading https://files.pythonhosted.org/packages/5e/85/90c7c47d7e1321c4c9bfd4e57f823d5743167d956bf71173d94299c86f9e/pycomfort-0.0.9.tar.gz
+[2023-08-02 12:17:25] INFO root fetch - processPackages [drift-protocol]: Downloading https://files.pythonhosted.org/packages/1b/4e/789abeff409e9e84c5934a6eb1a71f66da4d45e0a12f6a6727303a6145bd/drift_protocol-0.6.0-py3-none-any.whl
+[2023-08-02 12:17:25] INFO root fetch - processPackages [glean-parser]: Downloading https://files.pythonhosted.org/packages/12/73/a66d7396f529d8ea49b0d17a92608eec6469401227a7b64df6dbd1cedb9d/glean_parser-8.1.1.tar.gz
+[2023-08-02 12:17:25] INFO root fetch - processPackages [pydantic-client]: executing diffoscope
+[2023-08-02 12:17:25] INFO root fetch - processPackages [pydantic-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_client-0.1.0.tar.gz tmp/pydantic_client-0.1.1.tar.gz --markdown 20230802/p/pydantic-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-02 12:17:25] INFO root fetch - processPackages [argo-workflow-tools]: Downloading https://files.pythonhosted.org/packages/f8/c1/27f67092252b85d8c0fcad88a7b20bd4eba7b208cfc43ff772e6c775c9ce/argo-workflow-tools-0.9.9.tar.gz
+[2023-08-02 12:17:25] INFO root fetch - processPackages [ncbi-datasets-pylib]: Downloading https://files.pythonhosted.org/packages/77/91/854e74c2b35a5a11892b0eae72690c8d49d04f38f57cbc2a7868200881dd/ncbi-datasets-pylib-9.1.0.tar.gz
+[2023-08-02 12:17:25] INFO root fetch - processPackages [drift-protocol]: executing diffoscope
+[2023-08-02 12:17:25] INFO root fetch - processPackages [drift-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drift_protocol-0.5.0-py3-none-any.whl.zip tmp/drift_protocol-0.6.0-py3-none-any.whl.zip --markdown 20230802/d/drift-protocol/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-08-02 12:17:25] INFO root fetch - processPackages [pycomfort]: executing diffoscope
+[2023-08-02 12:17:25] INFO root fetch - processPackages [pycomfort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycomfort-0.0.8.tar.gz tmp/pycomfort-0.0.9.tar.gz --markdown 20230802/p/pycomfort/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 12:17:25] INFO root fetch - processPackages [zsl]: executing diffoscope
+[2023-08-02 12:17:25] INFO root fetch - processPackages [zsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zsl-0.28.0.tar.gz tmp/zsl-0.9-py2-none-any.whl.zip --markdown 20230802/z/zsl/0.28.0-0.9/diff.md --exclude *.pyd
+[2023-08-02 12:17:26] INFO root fetch - processPackages [glean-parser]: executing diffoscope
+[2023-08-02 12:17:26] INFO root fetch - processPackages [glean-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glean_parser-8.1.0.tar.gz tmp/glean_parser-8.1.1.tar.gz --markdown 20230802/g/glean-parser/8.1.0-8.1.1/diff.md --exclude *.pyd
+[2023-08-02 12:17:26] INFO root fetch - processPackages [argo-workflow-tools]: executing diffoscope
+[2023-08-02 12:17:26] INFO root fetch - processPackages [argo-workflow-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argo-workflow-tools-0.9.7.tar.gz tmp/argo-workflow-tools-0.9.9.tar.gz --markdown 20230802/a/argo-workflow-tools/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-08-02 12:17:26] INFO root fetch - processPackages [ncbi-datasets-pylib]: executing diffoscope
+[2023-08-02 12:17:26] INFO root fetch - processPackages [ncbi-datasets-pylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncbi-datasets-pylib-9.0.0.tar.gz tmp/ncbi-datasets-pylib-9.1.0.tar.gz --markdown 20230802/n/ncbi-datasets-pylib/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-08-02 12:17:26] INFO root fetch - processPackages [eventhub-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/eventhub_analyzer-0.6.0.tar.gz]
+[2023-08-02 12:17:26] INFO root fetch - processPackages [eventhub-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/eventhub_analyzer-0.6.1.tar.gz]
+[2023-08-02 12:17:26] INFO root fetch - main [MainThread]: End processing [eventhub-analyzer]: success
+[2023-08-02 12:17:27] INFO root fetch - processPackages [pydantic-client]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_client-0.1.0.tar.gz]
+[2023-08-02 12:17:27] INFO root fetch - processPackages [pydantic-client]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_client-0.1.1.tar.gz]
+[2023-08-02 12:17:27] INFO root fetch - main [MainThread]: End processing [pydantic-client]: success
+[2023-08-02 12:17:27] INFO root fetch - processPackages [drift-protocol]: Remove: archive file [/home/abi/fetcher/tmp/drift_protocol-0.5.0-py3-none-any.whl.zip]
+[2023-08-02 12:17:27] INFO root fetch - processPackages [drift-protocol]: Remove: archive file [/home/abi/fetcher/tmp/drift_protocol-0.6.0-py3-none-any.whl.zip]
+[2023-08-02 12:17:27] INFO root fetch - main [MainThread]: End processing [drift-protocol]: success
+[2023-08-02 12:17:27] INFO root fetch - processPackages [pycomfort]: Remove: archive file [/home/abi/fetcher/tmp/pycomfort-0.0.8.tar.gz]
+[2023-08-02 12:17:27] INFO root fetch - processPackages [pycomfort]: Remove: archive file [/home/abi/fetcher/tmp/pycomfort-0.0.9.tar.gz]
+[2023-08-02 12:17:27] INFO root fetch - main [MainThread]: End processing [pycomfort]: success
+[2023-08-02 12:17:27] INFO root fetch - processPackages [argo-workflow-tools]: Remove: archive file [/home/abi/fetcher/tmp/argo-workflow-tools-0.9.7.tar.gz]
+[2023-08-02 12:17:27] INFO root fetch - processPackages [argo-workflow-tools]: Remove: archive file [/home/abi/fetcher/tmp/argo-workflow-tools-0.9.9.tar.gz]
+[2023-08-02 12:17:27] INFO root fetch - main [MainThread]: End processing [argo-workflow-tools]: success
+[2023-08-02 12:17:27] INFO root fetch - processPackages [zsl]: Remove: archive file [/home/abi/fetcher/tmp/zsl-0.28.0.tar.gz]
+[2023-08-02 12:17:27] INFO root fetch - processPackages [zsl]: Remove: archive file [/home/abi/fetcher/tmp/zsl-0.9-py2-none-any.whl.zip]
+[2023-08-02 12:17:27] INFO root fetch - main [MainThread]: End processing [zsl]: success
+[2023-08-02 12:17:27] INFO root fetch - processPackages [glean-parser]: Remove: archive file [/home/abi/fetcher/tmp/glean_parser-8.1.0.tar.gz]
+[2023-08-02 12:17:27] INFO root fetch - processPackages [glean-parser]: Remove: archive file [/home/abi/fetcher/tmp/glean_parser-8.1.1.tar.gz]
+[2023-08-02 12:17:27] INFO root fetch - main [MainThread]: End processing [glean-parser]: success
+[2023-08-02 12:17:27] INFO root fetch - processPackages [ncbi-datasets-pylib]: Remove: archive file [/home/abi/fetcher/tmp/ncbi-datasets-pylib-9.0.0.tar.gz]
+[2023-08-02 12:17:27] INFO root fetch - processPackages [ncbi-datasets-pylib]: Remove: archive file [/home/abi/fetcher/tmp/ncbi-datasets-pylib-9.1.0.tar.gz]
+[2023-08-02 12:17:27] INFO root fetch - main [MainThread]: End processing [ncbi-datasets-pylib]: success
+[2023-08-02 12:17:27] INFO root fetch - main [MainThread]: Store serial: [19139834]

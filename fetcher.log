@@ -20128,3 +20128,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-02 12:17:27] INFO root fetch - processPackages [ncbi-datasets-pylib]: Remove: archive file [/home/abi/fetcher/tmp/ncbi-datasets-pylib-9.1.0.tar.gz]
 [2023-08-02 12:17:27] INFO root fetch - main [MainThread]: End processing [ncbi-datasets-pylib]: success
 [2023-08-02 12:17:27] INFO root fetch - main [MainThread]: Store serial: [19139834]
+[2023-08-02 12:22:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19139834]
+[2023-08-02 12:22:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-02 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msaDocModels
+[2023-08-02 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrex
+[2023-08-02 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kornia
+[2023-08-02 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RDG
+[2023-08-02 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: readyocr
+[2023-08-02 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: locker-secrets
+[2023-08-02 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foundationdb
+[2023-08-02 12:22:37] INFO root fetch - processPackages [msaDocModels]: New version: [0.0.9] Old Version: [0.0.87]
+[2023-08-02 12:22:37] INFO root fetch - processPackages [RDG]: New version: [0.1.4.3] Old Version: [0.1.4.2]
+[2023-08-02 12:22:37] INFO root fetch - processPackages [kornia]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-08-02 12:22:37] INFO root fetch - processPackages [cybrex]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-02 12:22:37] INFO root fetch - processPackages [readyocr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 12:22:37] INFO root fetch - processPackages [locker-secrets]: New version: [0.0.4b1] Old Version: [0.0.3b1]
+[2023-08-02 12:22:37] INFO root fetch - processPackages [foundationdb]: New version: [7.3.9] Old Version: [7.3.8]
+[2023-08-02 12:22:37] INFO root fetch - processPackages [RDG]: Downloading https://files.pythonhosted.org/packages/0e/aa/2c342c51f37ffdfc070997d7191a6fb199b771ca5048b87b79823c23ed09/RDG-0.1.4.2.tar.gz
+[2023-08-02 12:22:37] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/f8/41/822687472d6e0b76254be836e3518cc11802fbe78bd71f6837e8e57ac7f4/cybrex-1.1.8.tar.gz
+[2023-08-02 12:22:37] INFO root fetch - processPackages [locker-secrets]: Downloading https://files.pythonhosted.org/packages/a0/0f/f71c4200afd7db0d473f23049e05e847f8838a83140403e249672cf6e84e/locker-secrets-0.0.3b1.tar.gz
+[2023-08-02 12:22:37] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-08-02 12:22:37] INFO root fetch - processPackages [msaDocModels]: Downloading https://files.pythonhosted.org/packages/93/cd/1e36c9a14bbd81cf2f4c81967a34199a1846d7688016d23ea0605046b397/msaDocModels-0.0.87.tar.gz
+[2023-08-02 12:22:37] WARNING root fetch - processPackages [locker-secrets]: Skipping package: exceeds size limit 15777404>=10485760
+[2023-08-02 12:22:37] INFO root fetch - main [MainThread]: End processing [locker-secrets] error
+[2023-08-02 12:22:37] INFO root fetch - processPackages [kornia]: Downloading https://files.pythonhosted.org/packages/67/8c/249717a24cf91e0091d2d593108550d40c89602ad0b6b86e2cc5f640c71b/kornia-0.6.9.tar.gz
+[2023-08-02 12:22:37] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/36/96/36db8b7aba7d9fb4662c1a3a88b362801e73bb1c0d469e8c291a11b74c97/foundationdb-7.3.8.tar.gz
+[2023-08-02 12:22:37] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/3a/e4/2cf0806887a91ce4e7e15652eb199bbbdae1925a861aed0a9a1bcd6d747d/cybrex-1.1.9.tar.gz
+[2023-08-02 12:22:37] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/67/b0/34662554637d50f73b74973afb6ddfb4d9895b1fafbfa36c16d5764321fa/readyocr-0.0.9.tar.gz
+[2023-08-02 12:22:37] INFO root fetch - processPackages [RDG]: Downloading https://files.pythonhosted.org/packages/79/f5/9dddeaea25cf756b7dc532c636f5ea0df21325526095df2a08621a00232b/RDG-0.1.4.3.tar.gz
+[2023-08-02 12:22:37] INFO root fetch - processPackages [cybrex]: executing diffoscope
+[2023-08-02 12:22:37] INFO root fetch - processPackages [cybrex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrex-1.1.8.tar.gz tmp/cybrex-1.1.9.tar.gz --markdown 20230802/c/cybrex/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-02 12:22:37] INFO root fetch - processPackages [msaDocModels]: Downloading https://files.pythonhosted.org/packages/2f/da/7c36532a600ac292c1fec4f775200d779a44eb48ddc5249e3c2fc70dbf4d/msaDocModels-0.0.9.tar.gz
+[2023-08-02 12:22:37] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-08-02 12:22:37] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.8.tar.gz tmp/readyocr-0.0.9.tar.gz --markdown 20230802/r/readyocr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 12:22:37] INFO root fetch - processPackages [kornia]: Downloading https://files.pythonhosted.org/packages/34/7b/1b1bfcca8acadde6429b7a780265a1cca0d6aa2db9303e11415db9fb95ec/kornia-0.7.0.tar.gz
+[2023-08-02 12:22:37] INFO root fetch - processPackages [msaDocModels]: executing diffoscope
+[2023-08-02 12:22:37] INFO root fetch - processPackages [msaDocModels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaDocModels-0.0.87.tar.gz tmp/msaDocModels-0.0.9.tar.gz --markdown 20230802/m/msaDocModels/0.0.87-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 12:22:37] INFO root fetch - processPackages [RDG]: executing diffoscope
+[2023-08-02 12:22:37] INFO root fetch - processPackages [RDG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RDG-0.1.4.2.tar.gz tmp/RDG-0.1.4.3.tar.gz --markdown 20230802/R/RDG/0.1.4.2-0.1.4.3/diff.md --exclude *.pyd
+[2023-08-02 12:22:37] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/5b/02/44abfcfdcc2abd0e108e45890ed5a02185aceeb90e378a8531fc45597dd9/foundationdb-7.3.9.tar.gz
+[2023-08-02 12:22:37] INFO root fetch - processPackages [kornia]: executing diffoscope
+[2023-08-02 12:22:37] INFO root fetch - processPackages [kornia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kornia-0.6.9.tar.gz tmp/kornia-0.7.0.tar.gz --markdown 20230802/k/kornia/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-08-02 12:22:38] INFO root fetch - processPackages [foundationdb]: executing diffoscope
+[2023-08-02 12:22:38] INFO root fetch - processPackages [foundationdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundationdb-7.3.8.tar.gz tmp/foundationdb-7.3.9.tar.gz --markdown 20230802/f/foundationdb/7.3.8-7.3.9/diff.md --exclude *.pyd
+[2023-08-02 12:22:39] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.1.8.tar.gz]
+[2023-08-02 12:22:39] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.1.9.tar.gz]
+[2023-08-02 12:22:39] INFO root fetch - main [MainThread]: End processing [cybrex]: success
+[2023-08-02 12:22:39] INFO root fetch - processPackages [msaDocModels]: Remove: archive file [/home/abi/fetcher/tmp/msaDocModels-0.0.87.tar.gz]
+[2023-08-02 12:22:39] INFO root fetch - processPackages [msaDocModels]: Remove: archive file [/home/abi/fetcher/tmp/msaDocModels-0.0.9.tar.gz]
+[2023-08-02 12:22:39] INFO root fetch - main [MainThread]: End processing [msaDocModels]: success
+[2023-08-02 12:22:39] INFO root fetch - processPackages [RDG]: Remove: archive file [/home/abi/fetcher/tmp/RDG-0.1.4.2.tar.gz]
+[2023-08-02 12:22:39] INFO root fetch - processPackages [RDG]: Remove: archive file [/home/abi/fetcher/tmp/RDG-0.1.4.3.tar.gz]
+[2023-08-02 12:22:39] INFO root fetch - main [MainThread]: End processing [RDG]: success
+[2023-08-02 12:22:39] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-08-02 12:22:39] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.9.tar.gz]
+[2023-08-02 12:22:39] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-08-02 12:22:39] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.8.tar.gz]
+[2023-08-02 12:22:39] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.9.tar.gz]
+[2023-08-02 12:22:39] INFO root fetch - main [MainThread]: End processing [foundationdb]: success
+[2023-08-02 12:22:41] INFO root fetch - processPackages [kornia]: Remove: archive file [/home/abi/fetcher/tmp/kornia-0.6.9.tar.gz]
+[2023-08-02 12:22:41] INFO root fetch - processPackages [kornia]: Remove: archive file [/home/abi/fetcher/tmp/kornia-0.7.0.tar.gz]
+[2023-08-02 12:22:41] INFO root fetch - main [MainThread]: End processing [kornia]: success
+[2023-08-02 12:22:41] INFO root fetch - main [MainThread]: Store serial: [19139857]

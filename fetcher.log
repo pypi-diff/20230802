@@ -9903,3 +9903,39 @@
 [2023-08-02 03:59:04] INFO root fetch - processPackages [autocorrect-py]: Remove: archive file [/home/abi/fetcher/tmp/autocorrect_py-2.8.4.tar.gz]
 [2023-08-02 03:59:04] INFO root fetch - main [MainThread]: End processing [autocorrect-py]: success
 [2023-08-02 03:59:04] INFO root fetch - main [MainThread]: Store serial: [19135386]
+[2023-08-02 04:04:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19135386]
+[2023-08-02 04:04:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-02 04:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-gpdb
+[2023-08-02 04:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: email-extractor-unicode
+[2023-08-02 04:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domainize
+[2023-08-02 04:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: configure-dms-viz
+[2023-08-02 04:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: runningz
+[2023-08-02 04:04:12] WARNING root fetch - processPackages [configure-dms-viz]: Skipping, unable to determine old version
+[2023-08-02 04:04:12] INFO root fetch - main [MainThread]: End processing [configure-dms-viz] error
+[2023-08-02 04:04:12] INFO root fetch - processPackages [email-extractor-unicode]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-08-02 04:04:12] INFO root fetch - processPackages [aliyun-python-sdk-gpdb]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-08-02 04:04:12] WARNING root fetch - processPackages [domainize]: Skipping, unable to determine old version
+[2023-08-02 04:04:12] INFO root fetch - main [MainThread]: End processing [domainize] error
+[2023-08-02 04:04:12] INFO root fetch - processPackages [runningz]: New version: [0.11.7.7] Old Version: [0.11.7.6]
+[2023-08-02 04:04:12] INFO root fetch - processPackages [email-extractor-unicode]: Downloading https://files.pythonhosted.org/packages/c2/51/4bff5a693e1431742abe5a8c13a8b8c4e33d4a643ef83a38fe23c447e8f5/email_extractor_unicode-1.1.0-py3-none-any.whl
+[2023-08-02 04:04:12] INFO root fetch - processPackages [aliyun-python-sdk-gpdb]: Downloading https://files.pythonhosted.org/packages/2a/e0/20e628872630f51269869b456993e56ef3c5fba95368821692c95119f862/aliyun-python-sdk-gpdb-1.1.6.tar.gz
+[2023-08-02 04:04:13] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/0e/46/37c6646b48368729877be2c2c199efc751d1bba324e99333a7a8943859cc/runningz-0.11.7.6-py39-none-any.whl
+[2023-08-02 04:04:13] INFO root fetch - processPackages [aliyun-python-sdk-gpdb]: Downloading https://files.pythonhosted.org/packages/a2/b4/a4a8b2a3d22085151fc30a3ded280eadeba541c12faee73e8f5a498b858e/aliyun-python-sdk-gpdb-1.1.7.tar.gz
+[2023-08-02 04:04:13] INFO root fetch - processPackages [email-extractor-unicode]: Downloading https://files.pythonhosted.org/packages/ad/42/6bfdc50f2cded2f3f89153095d44bbc12ff462d0cd7794f394882245c20b/email_extractor_unicode-1.1.2.tar.gz
+[2023-08-02 04:04:13] INFO root fetch - processPackages [aliyun-python-sdk-gpdb]: executing diffoscope
+[2023-08-02 04:04:13] INFO root fetch - processPackages [aliyun-python-sdk-gpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-gpdb-1.1.6.tar.gz tmp/aliyun-python-sdk-gpdb-1.1.7.tar.gz --markdown 20230802/a/aliyun-python-sdk-gpdb/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-08-02 04:04:13] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/ec/19/48a8293538743a686706d2b34b6e6c3dea2732959efb4dd609207f2bcd3e/runningz-0.11.7.7-py39-none-any.whl
+[2023-08-02 04:04:13] INFO root fetch - processPackages [email-extractor-unicode]: executing diffoscope
+[2023-08-02 04:04:13] INFO root fetch - processPackages [email-extractor-unicode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email_extractor_unicode-1.1.0-py3-none-any.whl.zip tmp/email_extractor_unicode-1.1.2.tar.gz --markdown 20230802/e/email-extractor-unicode/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2023-08-02 04:04:13] INFO root fetch - processPackages [runningz]: executing diffoscope
+[2023-08-02 04:04:13] INFO root fetch - processPackages [runningz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runningz-0.11.7.6-py39-none-any.whl.zip tmp/runningz-0.11.7.7-py39-none-any.whl.zip --markdown 20230802/r/runningz/0.11.7.6-0.11.7.7/diff.md --exclude *.pyd
+[2023-08-02 04:04:14] INFO root fetch - processPackages [email-extractor-unicode]: Remove: archive file [/home/abi/fetcher/tmp/email_extractor_unicode-1.1.0-py3-none-any.whl.zip]
+[2023-08-02 04:04:14] INFO root fetch - processPackages [email-extractor-unicode]: Remove: archive file [/home/abi/fetcher/tmp/email_extractor_unicode-1.1.2.tar.gz]
+[2023-08-02 04:04:14] INFO root fetch - main [MainThread]: End processing [email-extractor-unicode]: success
+[2023-08-02 04:04:14] INFO root fetch - processPackages [aliyun-python-sdk-gpdb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-gpdb-1.1.6.tar.gz]
+[2023-08-02 04:04:14] INFO root fetch - processPackages [aliyun-python-sdk-gpdb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-gpdb-1.1.7.tar.gz]
+[2023-08-02 04:04:14] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-gpdb]: success
+[2023-08-02 04:04:14] INFO root fetch - processPackages [runningz]: Remove: archive file [/home/abi/fetcher/tmp/runningz-0.11.7.6-py39-none-any.whl.zip]
+[2023-08-02 04:04:14] INFO root fetch - processPackages [runningz]: Remove: archive file [/home/abi/fetcher/tmp/runningz-0.11.7.7-py39-none-any.whl.zip]
+[2023-08-02 04:04:14] INFO root fetch - main [MainThread]: End processing [runningz]: success
+[2023-08-02 04:04:14] INFO root fetch - main [MainThread]: Store serial: [19135405]

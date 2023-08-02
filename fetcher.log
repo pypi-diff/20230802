@@ -5333,3 +5333,56 @@
 [2023-08-02 02:45:55] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.6.0a1690932539.tar.gz]
 [2023-08-02 02:45:55] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2023-08-02 02:45:55] INFO root fetch - main [MainThread]: Store serial: [19133713]
+[2023-08-02 02:51:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19133713]
+[2023-08-02 02:51:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-02 02:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-comprehend-s3olap
+[2023-08-02 02:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-rds-dump
+[2023-08-02 02:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: decryptogame
+[2023-08-02 02:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: async-rmq-v
+[2023-08-02 02:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: csirtg-re
+[2023-08-02 02:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-databrew-cicd
+[2023-08-02 02:51:05] INFO root fetch - processPackages [async-rmq-v]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-02 02:51:05] INFO root fetch - processPackages [decryptogame]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-02 02:51:05] INFO root fetch - processPackages [csirtg-re]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-02 02:51:05] INFO root fetch - processPackages [cdk-rds-dump]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-02 02:51:05] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-02 02:51:05] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-02 02:51:05] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-08-02 02:51:05] INFO root fetch - processPackages [async-rmq-v]: Downloading https://files.pythonhosted.org/packages/0e/3e/4a1ee9741615523c88a47949cf9df63aa7923feb4ebe0bea1bf8b62a5a42/async_rmq_v-0.3.1.tar.gz
+[2023-08-02 02:51:05] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-08-02 02:51:05] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-08-02 02:51:05] INFO root fetch - processPackages [decryptogame]: Downloading https://files.pythonhosted.org/packages/90/b1/8ce3d9d8e3f9f59c9e3b411b3b2b8bbd4d94f79a16cff4258a4d4141a1f8/decryptogame-1.0.2.tar.gz
+[2023-08-02 02:51:05] INFO root fetch - processPackages [csirtg-re]: Downloading https://files.pythonhosted.org/packages/54/e8/98f03b078c3b6056d33eb9d14842c88b681b3ece8644ce8a6a7cb0f1b656/csirtg-re-0.3.0.tar.gz
+[2023-08-02 02:51:05] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/da/04/7987c6cf55388d28f10ecb571fc3b4bd16ffa3b6958e1ea0fef09eac7076/cdk-rds-dump-1.2.8.tar.gz
+[2023-08-02 02:51:05] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-08-02 02:51:06] INFO root fetch - processPackages [async-rmq-v]: Downloading https://files.pythonhosted.org/packages/3c/c3/e9fb02efcab0991ff2280c5e07b76282e8e23a7b972bd216cd6067590053/async_rmq_v-0.3.2.tar.gz
+[2023-08-02 02:51:06] INFO root fetch - processPackages [csirtg-re]: Downloading https://files.pythonhosted.org/packages/aa/29/8d8b7034966e91b6037c37f16637d60ef408b99831594318f8327d50b9ac/csirtg-re-0.3.1.tar.gz
+[2023-08-02 02:51:06] INFO root fetch - processPackages [decryptogame]: Downloading https://files.pythonhosted.org/packages/80/7d/e140e3ea35020ebd0a319f9d245e40e0906ab53e9f3678c4ef8f82476143/decryptogame-1.0.3.tar.gz
+[2023-08-02 02:51:06] INFO root fetch - processPackages [async-rmq-v]: executing diffoscope
+[2023-08-02 02:51:06] INFO root fetch - processPackages [async-rmq-v]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_rmq_v-0.3.1.tar.gz tmp/async_rmq_v-0.3.2.tar.gz --markdown 20230802/a/async-rmq-v/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-02 02:51:06] INFO root fetch - processPackages [decryptogame]: executing diffoscope
+[2023-08-02 02:51:06] INFO root fetch - processPackages [decryptogame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decryptogame-1.0.2.tar.gz tmp/decryptogame-1.0.3.tar.gz --markdown 20230802/d/decryptogame/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-02 02:51:06] INFO root fetch - processPackages [csirtg-re]: executing diffoscope
+[2023-08-02 02:51:06] INFO root fetch - processPackages [csirtg-re]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csirtg-re-0.3.0.tar.gz tmp/csirtg-re-0.3.1.tar.gz --markdown 20230802/c/csirtg-re/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-02 02:51:06] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-08-02 02:51:06] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/f4/0b/9ab10174144eed83c415831738537c9f62b5e67cd207b5f85aae8c3bb5a8/cdk-rds-dump-1.2.9.tar.gz
+[2023-08-02 02:51:06] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-08-02 02:51:06] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230802/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-02 02:51:07] INFO root fetch - processPackages [cdk-rds-dump]: executing diffoscope
+[2023-08-02 02:51:07] INFO root fetch - processPackages [cdk-rds-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-rds-dump-1.2.8.tar.gz tmp/cdk-rds-dump-1.2.9.tar.gz --markdown 20230802/c/cdk-rds-dump/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-02 02:51:07] INFO root fetch - processPackages [async-rmq-v]: Remove: archive file [/home/abi/fetcher/tmp/async_rmq_v-0.3.1.tar.gz]
+[2023-08-02 02:51:07] INFO root fetch - processPackages [async-rmq-v]: Remove: archive file [/home/abi/fetcher/tmp/async_rmq_v-0.3.2.tar.gz]
+[2023-08-02 02:51:07] INFO root fetch - main [MainThread]: End processing [async-rmq-v]: success
+[2023-08-02 02:51:07] INFO root fetch - processPackages [decryptogame]: Remove: archive file [/home/abi/fetcher/tmp/decryptogame-1.0.2.tar.gz]
+[2023-08-02 02:51:07] INFO root fetch - processPackages [decryptogame]: Remove: archive file [/home/abi/fetcher/tmp/decryptogame-1.0.3.tar.gz]
+[2023-08-02 02:51:07] INFO root fetch - main [MainThread]: End processing [decryptogame]: success
+[2023-08-02 02:51:07] INFO root fetch - processPackages [csirtg-re]: Remove: archive file [/home/abi/fetcher/tmp/csirtg-re-0.3.0.tar.gz]
+[2023-08-02 02:51:07] INFO root fetch - processPackages [csirtg-re]: Remove: archive file [/home/abi/fetcher/tmp/csirtg-re-0.3.1.tar.gz]
+[2023-08-02 02:51:07] INFO root fetch - main [MainThread]: End processing [csirtg-re]: success
+[2023-08-02 02:51:07] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-08-02 02:51:07] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-08-02 02:51:07] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-08-02 02:51:08] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-1.2.8.tar.gz]
+[2023-08-02 02:51:08] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-1.2.9.tar.gz]
+[2023-08-02 02:51:08] INFO root fetch - main [MainThread]: End processing [cdk-rds-dump]: success
+[2023-08-02 02:51:08] INFO root fetch - main [MainThread]: Store serial: [19133730]

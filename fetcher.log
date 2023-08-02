@@ -14040,3 +14040,60 @@
 [2023-08-02 08:14:41] INFO root fetch - processPackages [zengin-code]: Remove: archive file [/home/abi/fetcher/tmp/zengin_code-1.1.0.20230802.tar.gz]
 [2023-08-02 08:14:41] INFO root fetch - main [MainThread]: End processing [zengin-code]: success
 [2023-08-02 08:14:41] INFO root fetch - main [MainThread]: Store serial: [19137193]
+[2023-08-02 08:19:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19137193]
+[2023-08-02 08:19:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-02 08:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyg-nightly
+[2023-08-02 08:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretext
+[2023-08-02 08:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deep-training
+[2023-08-02 08:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NodeGraphQt
+[2023-08-02 08:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stdflow
+[2023-08-02 08:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gentoo-update
+[2023-08-02 08:19:50] INFO root fetch - processPackages [deep-training]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 08:19:50] INFO root fetch - processPackages [stdflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 08:19:50] INFO root fetch - processPackages [pretext]: New version: [1.7.5.dev20230802] Old Version: [1.7.5.dev20230731]
+[2023-08-02 08:19:50] INFO root fetch - processPackages [gentoo-update]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 08:19:50] INFO root fetch - processPackages [NodeGraphQt]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-08-02 08:19:50] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/37/2b/dc718c9a789aae941c5744468c42fa99c1ca83c6fc824add3debc6df543d/stdflow-0.0.8.tar.gz
+[2023-08-02 08:19:50] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230802] Old Version: [2.4.0.dev20230801]
+[2023-08-02 08:19:50] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/87/b3/3c8fcf7b1e70c43e235098b71636333ed9cdfaf9b6c6fbc85f67531280e1/deep_training-0.1.8-py3-none-any.whl
+[2023-08-02 08:19:50] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/b6/49/0e9bfb8c9dfd3723a8a69c90db6f3ccd2d2290a8476ee2eaf9351b95477a/pretext-1.7.5.dev20230731.tar.gz
+[2023-08-02 08:19:50] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/d3/ec/fb950534937f6aaf4efb573d8340c8ffbe55117125821bf6e5348a6ea157/NodeGraphQt-0.6.8.tar.gz
+[2023-08-02 08:19:50] INFO root fetch - processPackages [gentoo-update]: Downloading https://files.pythonhosted.org/packages/92/b3/de7368043f9f881addd6dfec40aee331184716a5a965730bb635d76a7e53/gentoo-update-0.1.8.tar.gz
+[2023-08-02 08:19:50] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/93/a7/7a92845fb1a7092159c2fbc2b23c0b733e7c93e5cd012f6538ca900ea3b6/stdflow-0.0.9-py3-none-any.whl
+[2023-08-02 08:19:50] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/d0/6f/b6bab47e1ba215a87609452db170beb41e25133139196ea0d9b7f544b864/pyg_nightly-2.4.0.dev20230801.tar.gz
+[2023-08-02 08:19:50] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-08-02 08:19:50] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.8.tar.gz tmp/stdflow-0.0.9-py3-none-any.whl.zip --markdown 20230802/s/stdflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 08:19:51] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/cc/e6/2fe4e750f7edd2b712d6aad6ba3a5efc3523d61ed24a21725040b66fde99/pyg_nightly-2.4.0.dev20230802.tar.gz
+[2023-08-02 08:19:51] INFO root fetch - processPackages [gentoo-update]: Downloading https://files.pythonhosted.org/packages/c2/12/440365af4083d87eae69353d373467d87a169776efd68227542d59237dc4/gentoo-update-0.1.9.tar.gz
+[2023-08-02 08:19:51] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/a3/f2/b8c7d17e13327bb0d735dbec6846a6b32ccbd207306ff420c7c93c99d52e/NodeGraphQt-0.6.9.tar.gz
+[2023-08-02 08:19:51] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/97/8f/30bf3a3b2b45dc48f23a82065cc1cff429cfa9ec38e2c8dfd40bc15ada07/deep_training-0.1.9-py3-none-any.whl
+[2023-08-02 08:19:51] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/cb/d1/964ae60792ae048f8a82cbc9e33e6c7dada1f23038f2d175a441c3ff1550/pretext-1.7.5.dev20230802.tar.gz
+[2023-08-02 08:19:51] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-08-02 08:19:51] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.8-py3-none-any.whl.zip tmp/deep_training-0.1.9-py3-none-any.whl.zip --markdown 20230802/d/deep-training/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 08:19:51] INFO root fetch - processPackages [gentoo-update]: executing diffoscope
+[2023-08-02 08:19:51] INFO root fetch - processPackages [gentoo-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentoo-update-0.1.8.tar.gz tmp/gentoo-update-0.1.9.tar.gz --markdown 20230802/g/gentoo-update/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 08:19:51] INFO root fetch - processPackages [NodeGraphQt]: executing diffoscope
+[2023-08-02 08:19:51] INFO root fetch - processPackages [NodeGraphQt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NodeGraphQt-0.6.8.tar.gz tmp/NodeGraphQt-0.6.9.tar.gz --markdown 20230802/N/NodeGraphQt/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-08-02 08:19:51] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-08-02 08:19:51] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230801.tar.gz tmp/pyg_nightly-2.4.0.dev20230802.tar.gz --markdown 20230802/p/pyg-nightly/2.4.0.dev20230801-2.4.0.dev20230802/diff.md --exclude *.pyd
+[2023-08-02 08:19:51] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.8.tar.gz]
+[2023-08-02 08:19:51] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.9-py3-none-any.whl.zip]
+[2023-08-02 08:19:51] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-08-02 08:19:51] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-08-02 08:19:51] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.7.5.dev20230731.tar.gz tmp/pretext-1.7.5.dev20230802.tar.gz --markdown 20230802/p/pretext/1.7.5.dev20230731-1.7.5.dev20230802/diff.md --exclude *.pyd
+[2023-08-02 08:19:52] INFO root fetch - processPackages [gentoo-update]: Remove: archive file [/home/abi/fetcher/tmp/gentoo-update-0.1.8.tar.gz]
+[2023-08-02 08:19:52] INFO root fetch - processPackages [gentoo-update]: Remove: archive file [/home/abi/fetcher/tmp/gentoo-update-0.1.9.tar.gz]
+[2023-08-02 08:19:52] INFO root fetch - main [MainThread]: End processing [gentoo-update]: success
+[2023-08-02 08:19:52] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.8.tar.gz]
+[2023-08-02 08:19:52] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.9.tar.gz]
+[2023-08-02 08:19:52] INFO root fetch - main [MainThread]: End processing [NodeGraphQt]: success
+[2023-08-02 08:19:53] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.8-py3-none-any.whl.zip]
+[2023-08-02 08:19:53] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.9-py3-none-any.whl.zip]
+[2023-08-02 08:19:53] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-08-02 08:19:54] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230801.tar.gz]
+[2023-08-02 08:19:54] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230802.tar.gz]
+[2023-08-02 08:19:54] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-08-02 08:19:55] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.5.dev20230731.tar.gz]
+[2023-08-02 08:19:55] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.5.dev20230802.tar.gz]
+[2023-08-02 08:19:55] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-08-02 08:19:55] INFO root fetch - main [MainThread]: Store serial: [19137287]

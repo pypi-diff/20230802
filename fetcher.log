@@ -15404,3 +15404,124 @@
 [2023-08-02 09:20:56] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-08-02 09:20:56] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2023-08-02 09:20:56] INFO root fetch - main [MainThread]: Store serial: [19137901]
+[2023-08-02 09:26:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19137901]
+[2023-08-02 09:26:06] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-02 09:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2023-08-02 09:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellacdc
+[2023-08-02 09:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: preppipe
+[2023-08-02 09:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mknodes
+[2023-08-02 09:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chinese-characters-words
+[2023-08-02 09:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: muffin-redis
+[2023-08-02 09:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyprotogen
+[2023-08-02 09:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kgcnn
+[2023-08-02 09:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rclip
+[2023-08-02 09:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cm2py
+[2023-08-02 09:26:06] INFO root fetch - processPackages [khoj-assistant]: New version: [0.9.1.dev8] Old Version: [0.9.1.dev7]
+[2023-08-02 09:26:06] INFO root fetch - processPackages [cm2py]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-02 09:26:06] INFO root fetch - processPackages [muffin-redis]: New version: [3.6.2] Old Version: [3.6.1]
+[2023-08-02 09:26:06] INFO root fetch - processPackages [rclip]: New version: [1.4.7a2] Old Version: [1.4.7a1]
+[2023-08-02 09:26:06] INFO root fetch - processPackages [preppipe]: New version: [0.0.1.post3] Old Version: [0.0.1.post119]
+[2023-08-02 09:26:06] INFO root fetch - processPackages [cellacdc]: New version: [1.4.0rc1] Old Version: [1.3.0]
+[2023-08-02 09:26:06] INFO root fetch - processPackages [pyprotogen]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 09:26:06] INFO root fetch - processPackages [mknodes]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-08-02 09:26:06] INFO root fetch - processPackages [kgcnn]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-08-02 09:26:06] INFO root fetch - processPackages [chinese-characters-words]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 09:26:07] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/7d/fa/454f789dbe9b5121b91328c13595749d22ae03084339260065d7df0eef6d/cm2py-0.3.0.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/15/b6/6e1fe35a9755474c51413adedec402753e2d386d6ed5be5d3a2e47192893/rclip-1.4.7a1.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/80/c2/afc116f8f70318334052f67223fb93a5ce1d898f2d901991e87dad33b030/khoj_assistant-0.9.1.dev7.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [pyprotogen]: Downloading https://files.pythonhosted.org/packages/e7/c3/0577f4655b605ee3f710ef9c14ac9b005c3cde12da2860ff2dd467adbda8/pyprotogen-0.0.8.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [muffin-redis]: Downloading https://files.pythonhosted.org/packages/e0/55/ef26288a1339472d55a01db46b6a8138caa572318040cb436aaa80f0ff47/muffin_redis-3.6.1.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [preppipe]: Downloading https://files.pythonhosted.org/packages/4e/66/d825371a6d2149828705b02ee7caebf875d75a2ab8925bf99dc839273582/preppipe-0.0.1.post119.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [chinese-characters-words]: Downloading https://files.pythonhosted.org/packages/83/2b/f006a547eadc754ea0e12a43ad03109a64c350aff96e1eaddf531bfaa8f3/chinese_characters_words-0.0.8.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [cellacdc]: Downloading https://files.pythonhosted.org/packages/bb/f4/31f0fac3ef7707b2506227ddcf93f765f86d0001cacb5e4d644e2003f279/cellacdc-1.3.0.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [kgcnn]: Downloading https://files.pythonhosted.org/packages/2a/ed/29cb518d8ee66bd89063a9c35bf716de13ffe01029ce7ba0f4dcd3c79123/kgcnn-3.0.1.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/7f/f1/533fbe0917ee95b4471dbbba2b0708b664d9aa3be25f84b08d6ccebde7ab/mknodes-0.8.3.tar.gz
+[2023-08-02 09:26:07] WARNING root fetch - processPackages [cellacdc]: Skipping package: exceeds size limit 53103585>=10485760
+[2023-08-02 09:26:07] INFO root fetch - processPackages [cellacdc]: Start processing: glm-met
+[2023-08-02 09:26:07] INFO root fetch - main [MainThread]: End processing [cellacdc] error
+[2023-08-02 09:26:07] INFO root fetch - processPackages [glm-met]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 09:26:07] WARNING root fetch - processPackages [chinese-characters-words]: Skipping package: exceeds size limit 14431153>=10485760
+[2023-08-02 09:26:07] INFO root fetch - processPackages [chinese-characters-words]: Start processing: pyPhasesML
+[2023-08-02 09:26:07] INFO root fetch - main [MainThread]: End processing [chinese-characters-words] error
+[2023-08-02 09:26:07] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/8c/ff/261449a3774115566086fe38a043fec6f35d622dcdd5e3137678e2240f77/rclip-1.4.7a2.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/3a/75/52b2993e25ae4bf8db3f148ce242d5521120cb21408582e6637534b9a1fb/cm2py-0.3.1.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [pyPhasesML]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-08-02 09:26:07] INFO root fetch - processPackages [muffin-redis]: Downloading https://files.pythonhosted.org/packages/62/91/71ebfaac174a23214e8bcb5bf35bf73ef9753362233c385948b724870c38/muffin_redis-3.6.2.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/87/c3/a6da041c3dee772521fabc9586096b6809ee0e9289735b249898c5a282a2/khoj_assistant-0.9.1.dev8.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [pyprotogen]: Downloading https://files.pythonhosted.org/packages/5f/17/5caf0304a826ac3eda89c7ba320cd790d5ff83d37869f9082c3203cb7097/pyprotogen-0.0.9.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [glm-met]: Downloading https://files.pythonhosted.org/packages/b7/84/0e95b476f3f4933e3ec2f79b458d69e75ad05e961bd175d86fd062a0b200/glm-met-0.0.1.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-02 09:26:07] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.7a1.tar.gz tmp/rclip-1.4.7a2.tar.gz --markdown 20230802/r/rclip/1.4.7a1-1.4.7a2/diff.md --exclude *.pyd
+[2023-08-02 09:26:07] INFO root fetch - processPackages [preppipe]: Downloading https://files.pythonhosted.org/packages/dd/29/e9d6aaacc5479a0dec4145312e0bd036d644f17b728426e25d34de16c51f/preppipe-0.0.1.post3.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [kgcnn]: Downloading https://files.pythonhosted.org/packages/94/10/b079a5b5d3af5667c4ea2598fe99ef079250ff7088c6cbecd04a3177eaed/kgcnn-3.0.2.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [cm2py]: executing diffoscope
+[2023-08-02 09:26:07] INFO root fetch - processPackages [cm2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm2py-0.3.0.tar.gz tmp/cm2py-0.3.1.tar.gz --markdown 20230802/c/cm2py/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-02 09:26:07] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/a9/23/d4351caa4d81e1d5dfee2da642c21895fe33271ddb4650d42f56940e3a64/mknodes-0.9.0.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [pyprotogen]: executing diffoscope
+[2023-08-02 09:26:07] INFO root fetch - processPackages [pyprotogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprotogen-0.0.8.tar.gz tmp/pyprotogen-0.0.9.tar.gz --markdown 20230802/p/pyprotogen/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 09:26:07] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/bf/32/11a6965197af8ca29cdd7cc7bb74b338a41a3382ac981e069ea6b716929f/pyPhasesML-0.7.7.tar.gz
+[2023-08-02 09:26:07] INFO root fetch - processPackages [muffin-redis]: executing diffoscope
+[2023-08-02 09:26:07] INFO root fetch - processPackages [muffin-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_redis-3.6.1.tar.gz tmp/muffin_redis-3.6.2.tar.gz --markdown 20230802/m/muffin-redis/3.6.1-3.6.2/diff.md --exclude *.pyd
+[2023-08-02 09:26:07] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-08-02 09:26:07] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.9.1.dev7.tar.gz tmp/khoj_assistant-0.9.1.dev8.tar.gz --markdown 20230802/k/khoj-assistant/0.9.1.dev7-0.9.1.dev8/diff.md --exclude *.pyd
+[2023-08-02 09:26:07] INFO root fetch - processPackages [preppipe]: executing diffoscope
+[2023-08-02 09:26:07] INFO root fetch - processPackages [preppipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preppipe-0.0.1.post119.tar.gz tmp/preppipe-0.0.1.post3.tar.gz --markdown 20230802/p/preppipe/0.0.1.post119-0.0.1.post3/diff.md --exclude *.pyd
+[2023-08-02 09:26:08] INFO root fetch - processPackages [kgcnn]: executing diffoscope
+[2023-08-02 09:26:08] INFO root fetch - processPackages [kgcnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kgcnn-3.0.1.tar.gz tmp/kgcnn-3.0.2.tar.gz --markdown 20230802/k/kgcnn/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-08-02 09:26:08] INFO root fetch - processPackages [mknodes]: executing diffoscope
+[2023-08-02 09:26:08] INFO root fetch - processPackages [mknodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknodes-0.8.3.tar.gz tmp/mknodes-0.9.0.tar.gz --markdown 20230802/m/mknodes/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 09:26:08] INFO root fetch - processPackages [glm-met]: Downloading https://files.pythonhosted.org/packages/af/1f/7be7303057b0fa9049afd7c0154535f5b318cd2d9c4a60801e1556653b11/glm-met-0.0.2.tar.gz
+[2023-08-02 09:26:08] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/39/36/a676e4ec583e13d6f54f06adf221f52893f1eeddc0b2f91fb3e76814a457/pyPhasesML-0.7.8.tar.gz
+[2023-08-02 09:26:08] INFO root fetch - processPackages [glm-met]: executing diffoscope
+[2023-08-02 09:26:08] INFO root fetch - processPackages [glm-met]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glm-met-0.0.1.tar.gz tmp/glm-met-0.0.2.tar.gz --markdown 20230802/g/glm-met/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 09:26:08] INFO root fetch - processPackages [pyPhasesML]: executing diffoscope
+[2023-08-02 09:26:08] INFO root fetch - processPackages [pyPhasesML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhasesML-0.7.7.tar.gz tmp/pyPhasesML-0.7.8.tar.gz --markdown 20230802/p/pyPhasesML/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-08-02 09:26:09] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a1.tar.gz]
+[2023-08-02 09:26:09] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a2.tar.gz]
+[2023-08-02 09:26:09] INFO root fetch - processPackages [rclip]: Start processing: TMDBTraktSyncer
+[2023-08-02 09:26:09] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-02 09:26:09] INFO root fetch - processPackages [TMDBTraktSyncer]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-08-02 09:26:09] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.3.0.tar.gz]
+[2023-08-02 09:26:09] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.3.1.tar.gz]
+[2023-08-02 09:26:09] INFO root fetch - processPackages [cm2py]: Start processing: abstract-modules
+[2023-08-02 09:26:09] INFO root fetch - main [MainThread]: End processing [cm2py]: success
+[2023-08-02 09:26:09] INFO root fetch - processPackages [abstract-modules]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-08-02 09:26:09] INFO root fetch - processPackages [pyprotogen]: Remove: archive file [/home/abi/fetcher/tmp/pyprotogen-0.0.8.tar.gz]
+[2023-08-02 09:26:09] INFO root fetch - processPackages [pyprotogen]: Remove: archive file [/home/abi/fetcher/tmp/pyprotogen-0.0.9.tar.gz]
+[2023-08-02 09:26:09] INFO root fetch - main [MainThread]: End processing [pyprotogen]: success
+[2023-08-02 09:26:09] INFO root fetch - processPackages [muffin-redis]: Remove: archive file [/home/abi/fetcher/tmp/muffin_redis-3.6.1.tar.gz]
+[2023-08-02 09:26:09] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/3e/4a/e874abd8ca6fb30728ade0fa5bffc3b98e8c4ddc50158957f6c1f9f335fa/abstract_modules-0.0.0.8-py3-none-any.whl
+[2023-08-02 09:26:09] INFO root fetch - processPackages [muffin-redis]: Remove: archive file [/home/abi/fetcher/tmp/muffin_redis-3.6.2.tar.gz]
+[2023-08-02 09:26:09] INFO root fetch - main [MainThread]: End processing [muffin-redis]: success
+[2023-08-02 09:26:09] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/a0/27/dc62241cddf8ad373c97b127d5df968244aa0e5deeb7dbc8b58ecb942159/TMDBTraktSyncer-1.5.1.tar.gz
+[2023-08-02 09:26:09] INFO root fetch - processPackages [preppipe]: Remove: archive file [/home/abi/fetcher/tmp/preppipe-0.0.1.post119.tar.gz]
+[2023-08-02 09:26:09] INFO root fetch - processPackages [preppipe]: Remove: archive file [/home/abi/fetcher/tmp/preppipe-0.0.1.post3.tar.gz]
+[2023-08-02 09:26:09] INFO root fetch - main [MainThread]: End processing [preppipe]: success
+[2023-08-02 09:26:09] INFO root fetch - processPackages [glm-met]: Remove: archive file [/home/abi/fetcher/tmp/glm-met-0.0.1.tar.gz]
+[2023-08-02 09:26:09] INFO root fetch - processPackages [glm-met]: Remove: archive file [/home/abi/fetcher/tmp/glm-met-0.0.2.tar.gz]
+[2023-08-02 09:26:09] INFO root fetch - main [MainThread]: End processing [glm-met]: success
+[2023-08-02 09:26:09] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/49/ee/cc25a025fb922b7085c76e7c55ae7def009ee230bc91fb65621042c27237/abstract_modules-0.0.0.9-py3-none-any.whl
+[2023-08-02 09:26:09] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/c2/ff/8041d452ee48e316d977f153eb0d8312fd6a350d6864cdbfdf372378531d/TMDBTraktSyncer-1.5.2.tar.gz
+[2023-08-02 09:26:09] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.7.tar.gz]
+[2023-08-02 09:26:09] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.8.tar.gz]
+[2023-08-02 09:26:09] INFO root fetch - main [MainThread]: End processing [pyPhasesML]: success
+[2023-08-02 09:26:10] INFO root fetch - processPackages [TMDBTraktSyncer]: executing diffoscope
+[2023-08-02 09:26:10] INFO root fetch - processPackages [TMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TMDBTraktSyncer-1.5.1.tar.gz tmp/TMDBTraktSyncer-1.5.2.tar.gz --markdown 20230802/T/TMDBTraktSyncer/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-08-02 09:26:10] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.8.3.tar.gz]
+[2023-08-02 09:26:10] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.9.0.tar.gz]
+[2023-08-02 09:26:10] INFO root fetch - main [MainThread]: End processing [mknodes]: success
+[2023-08-02 09:26:10] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev7.tar.gz]
+[2023-08-02 09:26:10] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev8.tar.gz]
+[2023-08-02 09:26:10] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-08-02 09:26:10] INFO root fetch - processPackages [abstract-modules]: executing diffoscope
+[2023-08-02 09:26:10] INFO root fetch - processPackages [abstract-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_modules-0.0.0.8-py3-none-any.whl.zip tmp/abstract_modules-0.0.0.9-py3-none-any.whl.zip --markdown 20230802/a/abstract-modules/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-08-02 09:26:10] INFO root fetch - processPackages [TMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/TMDBTraktSyncer-1.5.1.tar.gz]
+[2023-08-02 09:26:10] INFO root fetch - processPackages [TMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/TMDBTraktSyncer-1.5.2.tar.gz]
+[2023-08-02 09:26:10] INFO root fetch - main [MainThread]: End processing [TMDBTraktSyncer]: success
+[2023-08-02 09:26:10] INFO root fetch - processPackages [kgcnn]: Remove: archive file [/home/abi/fetcher/tmp/kgcnn-3.0.1.tar.gz]
+[2023-08-02 09:26:10] INFO root fetch - processPackages [kgcnn]: Remove: archive file [/home/abi/fetcher/tmp/kgcnn-3.0.2.tar.gz]
+[2023-08-02 09:26:10] INFO root fetch - main [MainThread]: End processing [kgcnn]: success
+[2023-08-02 09:26:11] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.0.8-py3-none-any.whl.zip]
+[2023-08-02 09:26:11] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.0.9-py3-none-any.whl.zip]
+[2023-08-02 09:26:11] INFO root fetch - main [MainThread]: End processing [abstract-modules]: success
+[2023-08-02 09:26:11] INFO root fetch - main [MainThread]: Store serial: [19137943]

@@ -15891,3 +15891,158 @@
 [2023-08-02 09:45:34] ERROR root fetch - processPackages [vioneta]: Timeout during execution of pkgdiff
 [2023-08-02 09:45:34] INFO root fetch - main [MainThread]: End processing [vioneta] error
 [2023-08-02 09:45:34] INFO root fetch - main [MainThread]: Store serial: [19138161]
+[2023-08-02 09:50:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19138161]
+[2023-08-02 09:50:44] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-02 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantplay
+[2023-08-02 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rclip
+[2023-08-02 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: treepoem
+[2023-08-02 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-mio
+[2023-08-02 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pheno-utils
+[2023-08-02 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xj-flow
+[2023-08-02 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-osubot
+[2023-08-02 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pih
+[2023-08-02 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metricsrepo
+[2023-08-02 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-mail-template-multi-company
+[2023-08-02 09:50:44] INFO root fetch - processPackages [pih]: New version: [1.48029] Old Version: [1.48028]
+[2023-08-02 09:50:44] INFO root fetch - processPackages [pih-mio]: New version: [1.48022] Old Version: [1.48021]
+[2023-08-02 09:50:44] INFO root fetch - processPackages [treepoem]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-08-02 09:50:44] INFO root fetch - processPackages [pheno-utils]: New version: [0.3.8.7] Old Version: [0.3.8.6]
+[2023-08-02 09:50:44] WARNING root fetch - processPackages [metricsrepo]: Skipping, unable to determine old version
+[2023-08-02 09:50:44] INFO root fetch - processPackages [metricsrepo]: Start processing: keras-nightly
+[2023-08-02 09:50:44] INFO root fetch - main [MainThread]: End processing [metricsrepo] error
+[2023-08-02 09:50:44] INFO root fetch - processPackages [odoo-addon-mail-template-multi-company]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.5]
+[2023-08-02 09:50:44] INFO root fetch - processPackages [xj-flow]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-02 09:50:44] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-08-02 09:50:44] INFO root fetch - processPackages [rclip]: New version: [1.4.7a7] Old Version: [1.4.7a6]
+[2023-08-02 09:50:44] INFO root fetch - processPackages [quantplay]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-02 09:50:44] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-08-02 09:50:44] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/30/c0/af43241a20543ff324cbae45aa825ad84006f4fc494924315ab8f795cfc8/pih-mio-1.48021.tar.gz
+[2023-08-02 09:50:44] INFO root fetch - processPackages [odoo-addon-mail-template-multi-company]: Downloading https://files.pythonhosted.org/packages/7f/15/37fd92d4e2f5bd72e026f8f0fd0eca495a72749d5e5ec4a4ac44c546da56/odoo_addon_mail_template_multi_company-15.0.1.0.0.5-py3-none-any.whl
+[2023-08-02 09:50:44] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/82/26/1d43517355aac55442e895ecf2331021f0ffa5df09779cd3902ed43fc158/pih-1.48028.tar.gz
+[2023-08-02 09:50:44] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/de/3b/821a013cf0540fa09c915062c849a580d4a6beb6e270723fd1b80b8c1bfd/pheno-utils-0.3.8.6.tar.gz
+[2023-08-02 09:50:44] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-08-02 09:50:44] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/ef/5e/8353ecab825698cc0fd2559d92a62ef26972f686b96cc98e0070897d95f3/nonebot-plugin-osubot-3.1.1.tar.gz
+[2023-08-02 09:50:44] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-08-02 09:50:44] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/18/44/377a0e720d78173c0ff9868e35064253779cdcc18c88abae5b5de89a08f6/rclip-1.4.7a6.tar.gz
+[2023-08-02 09:50:44] INFO root fetch - processPackages [treepoem]: Downloading https://files.pythonhosted.org/packages/2f/74/9d4480075187ac923ac1000fb5cf1531619cbbc88e151a7f2c0e4641a4b6/treepoem-3.8.0.tar.gz
+[2023-08-02 09:50:44] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29658625>=10485760
+[2023-08-02 09:50:44] INFO root fetch - processPackages [nonebot-plugin-osubot]: Start processing: peutils
+[2023-08-02 09:50:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2023-08-02 09:50:44] INFO root fetch - processPackages [xj-flow]: Downloading https://files.pythonhosted.org/packages/4b/98/1a3f618c2c4858fcf9b224f239f42c312217e8a3deb7f2ac59a023163a9f/xj_flow-1.0.8.tar.gz
+[2023-08-02 09:50:45] INFO root fetch - processPackages [peutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 09:50:45] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/3b/d7/1a367d3ecfcb610ef13747bce624fbe2820020c7a52f29220fe9d3868449/pih-mio-1.48022.tar.gz
+[2023-08-02 09:50:45] INFO root fetch - processPackages [odoo-addon-mail-template-multi-company]: Downloading https://files.pythonhosted.org/packages/21/d3/8c34003f22aafd85012cf424bc61b3f2b244ea4a639cdf2b81b1230fdbc8/odoo_addon_mail_template_multi_company-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-02 09:50:45] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/36/4c/a96a7eb923a379c0f6f9feb7d33579b3aa141b4ffd623a478f0aa1a47df0/pheno-utils-0.3.8.7.tar.gz
+[2023-08-02 09:50:45] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/59/06/1c8f2582ca1e885ab47b437ffaffe1263ae3120893aa3e2cee27fb2bc894/peutils-0.0.8.tar.gz
+[2023-08-02 09:50:45] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/c7/7c/0cdd2119fb40e096f63768341fa977b1254a7e3d8d1a3447e28218202031/rclip-1.4.7a7.tar.gz
+[2023-08-02 09:50:45] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/da/b7/556d3529becbfb7c959833e53ef6ef10ccab031ef6fac6b6ca1abb370a17/pih-1.48029.tar.gz
+[2023-08-02 09:50:45] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/ee/a5/18caaa36bc077cbd964b78406eed5d1840456172da7cdd1b6c18be824d06/quantplay-1.3.9.tar.gz
+[2023-08-02 09:50:45] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2023-08-02 09:50:45] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mio-1.48021.tar.gz tmp/pih-mio-1.48022.tar.gz --markdown 20230802/p/pih-mio/1.48021-1.48022/diff.md --exclude *.pyd
+[2023-08-02 09:50:45] INFO root fetch - processPackages [odoo-addon-mail-template-multi-company]: executing diffoscope
+[2023-08-02 09:50:45] INFO root fetch - processPackages [odoo-addon-mail-template-multi-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_template_multi_company-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_mail_template_multi_company-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230802/o/odoo-addon-mail-template-multi-company/15.0.1.0.0.5-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-08-02 09:50:45] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-02 09:50:45] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.48028.tar.gz tmp/pih-1.48029.tar.gz --markdown 20230802/p/pih/1.48028-1.48029/diff.md --exclude *.pyd
+[2023-08-02 09:50:45] INFO root fetch - processPackages [pheno-utils]: executing diffoscope
+[2023-08-02 09:50:45] INFO root fetch - processPackages [pheno-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheno-utils-0.3.8.6.tar.gz tmp/pheno-utils-0.3.8.7.tar.gz --markdown 20230802/p/pheno-utils/0.3.8.6-0.3.8.7/diff.md --exclude *.pyd
+[2023-08-02 09:50:45] INFO root fetch - processPackages [xj-flow]: Downloading https://files.pythonhosted.org/packages/93/02/013abb0effbefa548538af1945ba2798a7c0ccbda7de2e19a099047da628/xj_flow-1.0.9.tar.gz
+[2023-08-02 09:50:45] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-02 09:50:45] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.7a6.tar.gz tmp/rclip-1.4.7a7.tar.gz --markdown 20230802/r/rclip/1.4.7a6-1.4.7a7/diff.md --exclude *.pyd
+[2023-08-02 09:50:45] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-08-02 09:50:45] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.8.tar.gz tmp/quantplay-1.3.9.tar.gz --markdown 20230802/q/quantplay/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-02 09:50:45] INFO root fetch - processPackages [xj-flow]: executing diffoscope
+[2023-08-02 09:50:45] INFO root fetch - processPackages [xj-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_flow-1.0.8.tar.gz tmp/xj_flow-1.0.9.tar.gz --markdown 20230802/x/xj-flow/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 09:50:45] INFO root fetch - processPackages [treepoem]: Downloading https://files.pythonhosted.org/packages/e1/3b/0ff4460d5e5203e1e001fdc3a7606c7da10a9a50a5e7253e6ee2de98ec87/treepoem-3.9.0.tar.gz
+[2023-08-02 09:50:46] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-08-02 09:50:46] INFO root fetch - processPackages [treepoem]: executing diffoscope
+[2023-08-02 09:50:46] INFO root fetch - processPackages [treepoem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treepoem-3.8.0.tar.gz tmp/treepoem-3.9.0.tar.gz --markdown 20230802/t/treepoem/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-08-02 09:50:46] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-08-02 09:50:46] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230802/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-08-02 09:50:46] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/7e/4c/b04cc08226f309f929014d3fa07e929ce9344068762872a701c5c2fa2555/peutils-0.0.9.tar.gz
+[2023-08-02 09:50:47] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48021.tar.gz]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48022.tar.gz]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [pih-mio]: Start processing: acryl-datahub
+[2023-08-02 09:50:47] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2023-08-02 09:50:47] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a6.tar.gz]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a7.tar.gz]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [rclip]: Start processing: rclip
+[2023-08-02 09:50:47] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-02 09:50:47] INFO root fetch - processPackages [odoo-addon-mail-template-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_template_multi_company-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [odoo-addon-mail-template-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_template_multi_company-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [odoo-addon-mail-template-multi-company]: Start processing: connect-eaas-core
+[2023-08-02 09:50:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-template-multi-company]: success
+[2023-08-02 09:50:47] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [connect-eaas-core]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48028.tar.gz]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48029.tar.gz]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [pih]: Start processing: syntaxlight
+[2023-08-02 09:50:47] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-02 09:50:47] INFO root fetch - processPackages [rclip]: New version: [1.4.7a7] Old Version: [1.4.7a6]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/18/44/377a0e720d78173c0ff9868e35064253779cdcc18c88abae5b5de89a08f6/rclip-1.4.7a6.tar.gz
+[2023-08-02 09:50:47] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/9c/e7/388b586d2c4a9e07285a125e941be8a4a35248f78d3978b1fc6fb3131f7a/syntaxlight-0.0.8.tar.gz
+[2023-08-02 09:50:47] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.8.6.tar.gz]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.8.7.tar.gz]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [pheno-utils]: Start processing: acryl-datahub-airflow-plugin
+[2023-08-02 09:50:47] INFO root fetch - main [MainThread]: End processing [pheno-utils]: success
+[2023-08-02 09:50:47] INFO root fetch - processPackages [peutils]: executing diffoscope
+[2023-08-02 09:50:47] INFO root fetch - processPackages [peutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peutils-0.0.8.tar.gz tmp/peutils-0.0.9.tar.gz --markdown 20230802/p/peutils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 09:50:47] INFO root fetch - processPackages [connect-eaas-core]: Downloading https://files.pythonhosted.org/packages/cc/2b/dea815280942b1c045ca9eecfafffe56712d2b8c5e293241f99caf0d825c/connect-eaas-core-4.0.0.tar.gz
+[2023-08-02 09:50:47] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [xj-flow]: Remove: archive file [/home/abi/fetcher/tmp/xj_flow-1.0.8.tar.gz]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [xj-flow]: Remove: archive file [/home/abi/fetcher/tmp/xj_flow-1.0.9.tar.gz]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [xj-flow]: Start processing: tf-nightly-cpu
+[2023-08-02 09:50:47] INFO root fetch - main [MainThread]: End processing [xj-flow]: success
+[2023-08-02 09:50:47] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
+[2023-08-02 09:50:47] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-08-02 09:50:47] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/c7/7c/0cdd2119fb40e096f63768341fa977b1254a7e3d8d1a3447e28218202031/rclip-1.4.7a7.tar.gz
+[2023-08-02 09:50:47] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c9/91/13558ab5b93b1a78bf9a8107609b86f60a4f327572b56938b00d7aea5b31/syntaxlight-0.0.9.tar.gz
+[2023-08-02 09:50:47] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230802] Old Version: [2.14.0.dev20230801]
+[2023-08-02 09:50:47] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-08-02 09:50:47] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-02 09:50:47] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.7a6.tar.gz tmp/rclip-1.4.7a7.tar.gz --markdown 20230802/r/rclip/1.4.7a6-1.4.7a7/diff.md --exclude *.pyd
+[2023-08-02 09:50:47] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-08-02 09:50:47] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.8.tar.gz tmp/syntaxlight-0.0.9.tar.gz --markdown 20230802/s/syntaxlight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 09:50:47] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-08-02 09:50:47] INFO root fetch - processPackages [connect-eaas-core]: Downloading https://files.pythonhosted.org/packages/b8/0e/223cf7857305fa1f3a5dd5f98ef3ffefc0eabf78b1d8512dc021aac41705/connect-eaas-core-4.1.0.tar.gz
+[2023-08-02 09:50:47] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/c9/a8/ab2116fa595bc59a88e3691303c4556d8630a9f132a75ecef15eddacf82c/tf_nightly_cpu-2.14.0.dev20230801-cp39-cp39-win_amd64.whl
+[2023-08-02 09:50:48] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-08-02 09:50:48] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/59/74/146041b5d0b6de9262f05f07557e7e334d9a97725b63298f69dc4453a769/tf_nightly_cpu-2.14.0.dev20230802-cp39-cp39-win_amd64.whl
+[2023-08-02 09:50:48] INFO root fetch - processPackages [connect-eaas-core]: executing diffoscope
+[2023-08-02 09:50:48] INFO root fetch - processPackages [connect-eaas-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect-eaas-core-4.0.0.tar.gz tmp/connect-eaas-core-4.1.0.tar.gz --markdown 20230802/c/connect-eaas-core/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-08-02 09:50:48] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-08-02 09:50:48] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230802/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-08-02 09:50:48] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-08-02 09:50:48] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230801-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230802-cp39-cp39-win_amd64.whl.zip --markdown 20230802/t/tf-nightly-cpu/2.14.0.dev20230801-2.14.0.dev20230802/diff.md --exclude *.pyd
+[2023-08-02 09:50:48] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.8.tar.gz]
+[2023-08-02 09:50:48] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.9.tar.gz]
+[2023-08-02 09:50:48] INFO root fetch - main [MainThread]: End processing [peutils]: success
+[2023-08-02 09:50:48] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-08-02 09:50:48] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a6.tar.gz]
+[2023-08-02 09:50:48] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a7.tar.gz]
+[2023-08-02 09:50:49] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-02 09:50:49] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-08-02 09:50:49] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230802/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-08-02 09:50:49] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.8.tar.gz]
+[2023-08-02 09:50:49] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.9.tar.gz]
+[2023-08-02 09:50:49] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-08-02 09:50:49] INFO root fetch - processPackages [treepoem]: Remove: archive file [/home/abi/fetcher/tmp/treepoem-3.8.0.tar.gz]
+[2023-08-02 09:50:49] INFO root fetch - processPackages [treepoem]: Remove: archive file [/home/abi/fetcher/tmp/treepoem-3.9.0.tar.gz]
+[2023-08-02 09:50:49] INFO root fetch - main [MainThread]: End processing [treepoem]: success
+[2023-08-02 09:50:49] INFO root fetch - processPackages [connect-eaas-core]: Remove: archive file [/home/abi/fetcher/tmp/connect-eaas-core-4.0.0.tar.gz]
+[2023-08-02 09:50:49] INFO root fetch - processPackages [connect-eaas-core]: Remove: archive file [/home/abi/fetcher/tmp/connect-eaas-core-4.1.0.tar.gz]
+[2023-08-02 09:50:49] INFO root fetch - main [MainThread]: End processing [connect-eaas-core]: success
+[2023-08-02 09:50:49] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230801-cp39-cp39-win_amd64.whl.zip]
+[2023-08-02 09:50:49] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230802-cp39-cp39-win_amd64.whl.zip]
+[2023-08-02 09:50:49] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-08-02 09:50:49] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-08-02 09:50:49] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-08-02 09:50:49] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-08-02 09:50:51] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-08-02 09:50:51] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-08-02 09:50:51] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-08-02 09:50:52] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-08-02 09:50:52] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-08-02 09:50:52] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-08-02 09:50:52] INFO root fetch - main [MainThread]: Store serial: [19138220]

@@ -16268,3 +16268,125 @@
 [2023-08-02 10:01:37] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.9.tar.gz]
 [2023-08-02 10:01:37] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-08-02 10:01:37] INFO root fetch - main [MainThread]: Store serial: [19138327]
+[2023-08-02 10:06:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19138327]
+[2023-08-02 10:06:46] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-02 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deep-training
+[2023-08-02 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ton-client-py
+[2023-08-02 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minireload
+[2023-08-02 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openmodelz
+[2023-08-02 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shell-whiz
+[2023-08-02 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yellowdog-python-examples
+[2023-08-02 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RWAPIMicroservicePython
+[2023-08-02 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi_amis_admin_nav
+[2023-08-02 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pollenflug
+[2023-08-02 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: liveramp-automation
+[2023-08-02 10:06:46] INFO root fetch - processPackages [openmodelz]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-08-02 10:06:46] INFO root fetch - processPackages [ton-client-py]: New version: [1.8.0.0] Old Version: [1.5.2.0]
+[2023-08-02 10:06:46] INFO root fetch - processPackages [deep-training]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 10:06:46] INFO root fetch - processPackages [fastapi_amis_admin_nav]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-08-02 10:06:46] INFO root fetch - processPackages [RWAPIMicroservicePython]: New version: [3.0.0b2] Old Version: [2.0.0]
+[2023-08-02 10:06:46] INFO root fetch - processPackages [liveramp-automation]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-02 10:06:46] INFO root fetch - processPackages [shell-whiz]: New version: [0.2.5rc4] Old Version: [0.2.5rc3]
+[2023-08-02 10:06:46] INFO root fetch - processPackages [pollenflug]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-02 10:06:46] INFO root fetch - processPackages [minireload]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 10:06:46] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-08-02 10:06:47] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/15/8c/93686d7a32a2c03e139571c1a81bd465e47b2e32f0afa6a2ab4ef41f8cec/liveramp_automation-0.1.6.tar.gz
+[2023-08-02 10:06:47] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/a2/48/cdf0ef4fc387a3a6c47a9aaba1885cff4396c3237e445564179d92552e23/yellowdog-python-examples-6.0.8.tar.gz
+[2023-08-02 10:06:47] INFO root fetch - processPackages [fastapi_amis_admin_nav]: Downloading https://files.pythonhosted.org/packages/2a/cb/4e3c7858c803bb261aae907bdbdc25d6d65296d0176ed841ff8738b52a99/fastapi_amis_admin_nav-0.1.0a1.tar.gz
+[2023-08-02 10:06:47] INFO root fetch - processPackages [openmodelz]: Downloading https://files.pythonhosted.org/packages/c9/9a/b33f658cacc2c1f789e51d57ee828c8be225f72038d8d0662a5a0d7a1376/openmodelz-0.0.19.tar.gz
+[2023-08-02 10:06:47] INFO root fetch - processPackages [shell-whiz]: Downloading https://files.pythonhosted.org/packages/36/85/99fb485cee7b141ec920a79a14c0fa5963a19e3e90020930745cfd1d6ae0/shell_whiz-0.2.5rc3.tar.gz
+[2023-08-02 10:06:47] INFO root fetch - processPackages [pollenflug]: Downloading https://files.pythonhosted.org/packages/2a/a2/b1530518f4651fd81abcc140b19fa63b39740db5f57587354716cd06dd04/pollenflug-0.2.2.tar.gz
+[2023-08-02 10:06:47] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/87/b3/3c8fcf7b1e70c43e235098b71636333ed9cdfaf9b6c6fbc85f67531280e1/deep_training-0.1.8-py3-none-any.whl
+[2023-08-02 10:06:47] INFO root fetch - processPackages [ton-client-py]: Downloading https://files.pythonhosted.org/packages/2b/34/a3a952cd9e96405f82ece7463af16056181ee7f7c75f402d72c3cb05887e/ton-client-py-1.5.2.0.tar.gz
+[2023-08-02 10:06:47] INFO root fetch - processPackages [RWAPIMicroservicePython]: Downloading https://files.pythonhosted.org/packages/4d/dc/78c72723fb1ade38e3c2f73007c5ae1af220ce1e5345b283195b6040dfda/RWAPIMicroservicePython-2.0.0.tar.gz
+[2023-08-02 10:06:47] INFO root fetch - processPackages [minireload]: Downloading https://files.pythonhosted.org/packages/09/c9/7b21074023cf1b9daa38188403cc39ae5037807b490d0e1db2b4582c922a/minireload-0.0.1.tar.gz
+[2023-08-02 10:06:47] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/ae/46/084ce0552097af030aea7a1ce0ada555a97a695f850b3b501b42c47fc0ff/yellowdog-python-examples-6.0.9.tar.gz
+[2023-08-02 10:06:47] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/1b/b4/70390ac177b174bdca12dfd155865084a66341bd1b9cec11be5cd08e9d98/liveramp_automation-0.1.7.tar.gz
+[2023-08-02 10:06:47] INFO root fetch - processPackages [fastapi_amis_admin_nav]: Downloading https://files.pythonhosted.org/packages/f9/f0/dfc47462c3c902c347fbd6cf7076bc0bb6d5d7b819b1e48c412244b022e9/fastapi_amis_admin_nav-0.1.0a2.tar.gz
+[2023-08-02 10:06:47] INFO root fetch - processPackages [shell-whiz]: Downloading https://files.pythonhosted.org/packages/06/4f/78fcbb271dd456944d7e2447c12425487a7d14ff84be3b08ab7e3e20cc41/shell_whiz-0.2.5rc4.tar.gz
+[2023-08-02 10:06:47] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2023-08-02 10:06:47] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-6.0.8.tar.gz tmp/yellowdog-python-examples-6.0.9.tar.gz --markdown 20230802/y/yellowdog-python-examples/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-08-02 10:06:47] INFO root fetch - processPackages [minireload]: Downloading https://files.pythonhosted.org/packages/c4/d0/07f34ac33ac3f1366ff204de63e6c5c846799748692ce181398fe0cb7603/minireload-0.0.2.tar.gz
+[2023-08-02 10:06:47] INFO root fetch - processPackages [RWAPIMicroservicePython]: Downloading https://files.pythonhosted.org/packages/b4/e1/f4475763909aa85b0a46262063394fa927e5e8357518c31d0466aeb9e4d5/RWAPIMicroservicePython-3.0.0b2.tar.gz
+[2023-08-02 10:06:47] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2023-08-02 10:06:47] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-0.1.6.tar.gz tmp/liveramp_automation-0.1.7.tar.gz --markdown 20230802/l/liveramp-automation/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-02 10:06:47] INFO root fetch - processPackages [openmodelz]: Downloading https://files.pythonhosted.org/packages/de/1a/cb947b3f335590b30f595c343c52e5ab71d8f3587722aee6c29af21bf639/openmodelz-0.0.20.tar.gz
+[2023-08-02 10:06:47] INFO root fetch - processPackages [pollenflug]: Downloading https://files.pythonhosted.org/packages/54/7d/0f1a64aad3f20b91e118310650912c38cc9703fb19d37ed370e8ff0ccca1/pollenflug-0.2.3.tar.gz
+[2023-08-02 10:06:47] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/97/8f/30bf3a3b2b45dc48f23a82065cc1cff429cfa9ec38e2c8dfd40bc15ada07/deep_training-0.1.9-py3-none-any.whl
+[2023-08-02 10:06:47] INFO root fetch - processPackages [minireload]: executing diffoscope
+[2023-08-02 10:06:47] INFO root fetch - processPackages [minireload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minireload-0.0.1.tar.gz tmp/minireload-0.0.2.tar.gz --markdown 20230802/m/minireload/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 10:06:47] INFO root fetch - processPackages [fastapi_amis_admin_nav]: executing diffoscope
+[2023-08-02 10:06:47] INFO root fetch - processPackages [fastapi_amis_admin_nav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_amis_admin_nav-0.1.0a1.tar.gz tmp/fastapi_amis_admin_nav-0.1.0a2.tar.gz --markdown 20230802/f/fastapi_amis_admin_nav/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-08-02 10:06:47] INFO root fetch - processPackages [shell-whiz]: executing diffoscope
+[2023-08-02 10:06:47] WARNING root fetch - processPackages [ton-client-py]: Skipping package: exceeds size limit 16318759>=10485760
+[2023-08-02 10:06:47] INFO root fetch - processPackages [shell-whiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell_whiz-0.2.5rc3.tar.gz tmp/shell_whiz-0.2.5rc4.tar.gz --markdown 20230802/s/shell-whiz/0.2.5rc3-0.2.5rc4/diff.md --exclude *.pyd
+[2023-08-02 10:06:47] INFO root fetch - processPackages [ton-client-py]: Start processing: fibsem
+[2023-08-02 10:06:47] INFO root fetch - main [MainThread]: End processing [ton-client-py] error
+[2023-08-02 10:06:48] INFO root fetch - processPackages [pollenflug]: executing diffoscope
+[2023-08-02 10:06:48] INFO root fetch - processPackages [pollenflug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollenflug-0.2.2.tar.gz tmp/pollenflug-0.2.3.tar.gz --markdown 20230802/p/pollenflug/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-02 10:06:48] INFO root fetch - processPackages [openmodelz]: executing diffoscope
+[2023-08-02 10:06:48] INFO root fetch - processPackages [openmodelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodelz-0.0.19.tar.gz tmp/openmodelz-0.0.20.tar.gz --markdown 20230802/o/openmodelz/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-08-02 10:06:48] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-08-02 10:06:48] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.8-py3-none-any.whl.zip tmp/deep_training-0.1.9-py3-none-any.whl.zip --markdown 20230802/d/deep-training/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 10:06:48] INFO root fetch - processPackages [RWAPIMicroservicePython]: executing diffoscope
+[2023-08-02 10:06:48] INFO root fetch - processPackages [RWAPIMicroservicePython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RWAPIMicroservicePython-2.0.0.tar.gz tmp/RWAPIMicroservicePython-3.0.0b2.tar.gz --markdown 20230802/R/RWAPIMicroservicePython/2.0.0-3.0.0b2/diff.md --exclude *.pyd
+[2023-08-02 10:06:48] INFO root fetch - processPackages [fibsem]: New version: [0.2.2a0] Old Version: [0.2.1a1]
+[2023-08-02 10:06:48] INFO root fetch - processPackages [fibsem]: Downloading https://files.pythonhosted.org/packages/ad/73/b8cf8db0dba6e191be400b025e534b4f6d7d18c39d86428101720ee58e4e/fibsem-0.2.1a1-py3-none-any.whl
+[2023-08-02 10:06:49] INFO root fetch - processPackages [fastapi_amis_admin_nav]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin_nav-0.1.0a1.tar.gz]
+[2023-08-02 10:06:49] INFO root fetch - processPackages [fastapi_amis_admin_nav]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin_nav-0.1.0a2.tar.gz]
+[2023-08-02 10:06:49] INFO root fetch - processPackages [fastapi_amis_admin_nav]: Start processing: syntaxlight
+[2023-08-02 10:06:49] INFO root fetch - main [MainThread]: End processing [fastapi_amis_admin_nav]: success
+[2023-08-02 10:06:49] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 10:06:49] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/9c/e7/388b586d2c4a9e07285a125e941be8a4a35248f78d3978b1fc6fb3131f7a/syntaxlight-0.0.8.tar.gz
+[2023-08-02 10:06:49] INFO root fetch - processPackages [pollenflug]: Remove: archive file [/home/abi/fetcher/tmp/pollenflug-0.2.2.tar.gz]
+[2023-08-02 10:06:49] INFO root fetch - processPackages [pollenflug]: Remove: archive file [/home/abi/fetcher/tmp/pollenflug-0.2.3.tar.gz]
+[2023-08-02 10:06:49] INFO root fetch - processPackages [pollenflug]: Start processing: pyblish-config
+[2023-08-02 10:06:49] INFO root fetch - main [MainThread]: End processing [pollenflug]: success
+[2023-08-02 10:06:49] INFO root fetch - processPackages [minireload]: Remove: archive file [/home/abi/fetcher/tmp/minireload-0.0.1.tar.gz]
+[2023-08-02 10:06:49] INFO root fetch - processPackages [minireload]: Remove: archive file [/home/abi/fetcher/tmp/minireload-0.0.2.tar.gz]
+[2023-08-02 10:06:49] INFO root fetch - processPackages [minireload]: Start processing: tf-nightly
+[2023-08-02 10:06:49] INFO root fetch - main [MainThread]: End processing [minireload]: success
+[2023-08-02 10:06:49] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.1.6.tar.gz]
+[2023-08-02 10:06:49] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.1.7.tar.gz]
+[2023-08-02 10:06:49] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2023-08-02 10:06:49] INFO root fetch - processPackages [shell-whiz]: Remove: archive file [/home/abi/fetcher/tmp/shell_whiz-0.2.5rc3.tar.gz]
+[2023-08-02 10:06:49] INFO root fetch - processPackages [shell-whiz]: Remove: archive file [/home/abi/fetcher/tmp/shell_whiz-0.2.5rc4.tar.gz]
+[2023-08-02 10:06:49] INFO root fetch - main [MainThread]: End processing [shell-whiz]: success
+[2023-08-02 10:06:49] INFO root fetch - processPackages [RWAPIMicroservicePython]: Remove: archive file [/home/abi/fetcher/tmp/RWAPIMicroservicePython-2.0.0.tar.gz]
+[2023-08-02 10:06:49] INFO root fetch - processPackages [RWAPIMicroservicePython]: Remove: archive file [/home/abi/fetcher/tmp/RWAPIMicroservicePython-3.0.0b2.tar.gz]
+[2023-08-02 10:06:49] INFO root fetch - main [MainThread]: End processing [RWAPIMicroservicePython]: success
+[2023-08-02 10:06:49] INFO root fetch - processPackages [pyblish-config]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 10:06:49] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.8.tar.gz]
+[2023-08-02 10:06:49] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.9.tar.gz]
+[2023-08-02 10:06:49] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2023-08-02 10:06:49] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c9/91/13558ab5b93b1a78bf9a8107609b86f60a4f327572b56938b00d7aea5b31/syntaxlight-0.0.9.tar.gz
+[2023-08-02 10:06:49] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230802] Old Version: [2.14.0.dev20230801]
+[2023-08-02 10:06:49] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-08-02 10:06:49] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.8.tar.gz tmp/syntaxlight-0.0.9.tar.gz --markdown 20230802/s/syntaxlight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 10:06:49] INFO root fetch - processPackages [pyblish-config]: Downloading https://files.pythonhosted.org/packages/d0/93/55d731f44d0617fa022b97fa1fdb11e65cee2478a6590a260386ec6ee261/pyblish-config-0.0.1.tar.gz
+[2023-08-02 10:06:49] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/69/f6/7f256871ae9cee1b6ee8feab3db918f3741135ac8bbce49a1b47240a162e/tf_nightly-2.14.0.dev20230801-cp39-cp39-win_amd64.whl
+[2023-08-02 10:06:50] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/17/2e/6969353dc0d2e32f1eadf695953577246ab473735da2ca1acfff0053b76e/tf_nightly-2.14.0.dev20230802-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-02 10:06:50] INFO root fetch - processPackages [pyblish-config]: Downloading https://files.pythonhosted.org/packages/26/5e/a57c0c3f670327025fb2e64ec1e7a0524bf395bf0c92a224f5d6a6234cac/pyblish-config-0.0.2.tar.gz
+[2023-08-02 10:06:50] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.8-py3-none-any.whl.zip]
+[2023-08-02 10:06:50] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.9-py3-none-any.whl.zip]
+[2023-08-02 10:06:50] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-08-02 10:06:50] INFO root fetch - processPackages [pyblish-config]: executing diffoscope
+[2023-08-02 10:06:50] INFO root fetch - processPackages [pyblish-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblish-config-0.0.1.tar.gz tmp/pyblish-config-0.0.2.tar.gz --markdown 20230802/p/pyblish-config/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 10:06:50] INFO root fetch - processPackages [fibsem]: Downloading https://files.pythonhosted.org/packages/d7/30/b93e42954d23659272a1b8ac6f3dd60da6eff0df55fc4d31bb515f6934eb/fibsem-0.2.2a0-py3-none-any.whl
+[2023-08-02 10:06:50] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 489746886>=10485760
+[2023-08-02 10:06:50] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-08-02 10:06:50] INFO root fetch - processPackages [openmodelz]: Remove: archive file [/home/abi/fetcher/tmp/openmodelz-0.0.19.tar.gz]
+[2023-08-02 10:06:50] INFO root fetch - processPackages [openmodelz]: Remove: archive file [/home/abi/fetcher/tmp/openmodelz-0.0.20.tar.gz]
+[2023-08-02 10:06:50] INFO root fetch - main [MainThread]: End processing [openmodelz]: success
+[2023-08-02 10:06:50] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.8.tar.gz]
+[2023-08-02 10:06:50] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.9.tar.gz]
+[2023-08-02 10:06:50] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-08-02 10:06:51] INFO root fetch - processPackages [pyblish-config]: Remove: archive file [/home/abi/fetcher/tmp/pyblish-config-0.0.1.tar.gz]
+[2023-08-02 10:06:51] INFO root fetch - processPackages [pyblish-config]: Remove: archive file [/home/abi/fetcher/tmp/pyblish-config-0.0.2.tar.gz]
+[2023-08-02 10:06:51] INFO root fetch - main [MainThread]: End processing [pyblish-config]: success
+[2023-08-02 10:06:51] INFO root fetch - processPackages [fibsem]: executing diffoscope
+[2023-08-02 10:06:51] INFO root fetch - processPackages [fibsem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fibsem-0.2.1a1-py3-none-any.whl.zip tmp/fibsem-0.2.2a0-py3-none-any.whl.zip --markdown 20230802/f/fibsem/0.2.1a1-0.2.2a0/diff.md --exclude *.pyd
+[2023-08-02 10:06:52] INFO root fetch - processPackages [fibsem]: Remove: archive file [/home/abi/fetcher/tmp/fibsem-0.2.1a1-py3-none-any.whl.zip]
+[2023-08-02 10:06:52] INFO root fetch - processPackages [fibsem]: Remove: archive file [/home/abi/fetcher/tmp/fibsem-0.2.2a0-py3-none-any.whl.zip]
+[2023-08-02 10:06:52] INFO root fetch - main [MainThread]: End processing [fibsem]: success
+[2023-08-02 10:06:52] INFO root fetch - main [MainThread]: Store serial: [19138398]

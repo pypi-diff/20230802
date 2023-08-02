@@ -9855,3 +9855,51 @@
 [2023-08-02 03:53:53] INFO root fetch - processPackages [prism-ds]: Remove: archive file [/home/abi/fetcher/tmp/prism-ds-0.2.1.tar.gz]
 [2023-08-02 03:53:53] INFO root fetch - main [MainThread]: End processing [prism-ds]: success
 [2023-08-02 03:53:53] INFO root fetch - main [MainThread]: Store serial: [19135355]
+[2023-08-02 03:58:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19135355]
+[2023-08-02 03:59:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-02 03:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seunggabi-core-python
+[2023-08-02 03:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shakenfist-agent
+[2023-08-02 03:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autocorrect-py
+[2023-08-02 03:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: email-extractor-unicode
+[2023-08-02 03:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyun-python-sdk-avatar
+[2023-08-02 03:59:02] INFO root fetch - processPackages [seunggabi-core-python]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-02 03:59:02] INFO root fetch - processPackages [shakenfist-agent]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-02 03:59:02] INFO root fetch - processPackages [autocorrect-py]: New version: [2.8.4] Old Version: [2.8.3]
+[2023-08-02 03:59:02] INFO root fetch - processPackages [email-extractor-unicode]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-08-02 03:59:02] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/1b/9d/8e86760dedc977eaad2d9a2b5c4b27400c70f0c4ec38ab513b7cf312f996/shakenfist-agent-0.3.8.tar.gz
+[2023-08-02 03:59:02] INFO root fetch - processPackages [autocorrect-py]: Downloading https://files.pythonhosted.org/packages/94/ab/e026284225052289d964a9cf970ea68b639486493b3af349134576f04e1e/autocorrect_py-2.8.3.tar.gz
+[2023-08-02 03:59:02] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: New version: [1.0.9] Old Version: [1.0.25]
+[2023-08-02 03:59:02] INFO root fetch - processPackages [email-extractor-unicode]: Downloading https://files.pythonhosted.org/packages/02/16/e08f0e2e2b309259da8aaa3edcc9e815a7b782a5e085f19144819f167ef5/email_extractor_unicode-1.0.7.tar.gz
+[2023-08-02 03:59:02] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/63/29/afebe64cd0882d776f1432763ac8a3bc55ba7db1adc9dd67145a5901cd8b/seunggabi_core_python-0.8.0.tar.gz
+[2023-08-02 03:59:02] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/8d/79/f656d2ef8da79e62fd60458bb773a4d9d04d1881176e7901f83dd4119e6c/shakenfist-agent-0.3.9.tar.gz
+[2023-08-02 03:59:02] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Downloading https://files.pythonhosted.org/packages/2a/f2/20f6b557115d7041c3f555b0d3a5b5ec5fdd8e0f9981840d2a14d7b1f7e1/aliyun-python-sdk-avatar-1.0.25.tar.gz
+[2023-08-02 03:59:02] INFO root fetch - processPackages [shakenfist-agent]: executing diffoscope
+[2023-08-02 03:59:02] INFO root fetch - processPackages [shakenfist-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shakenfist-agent-0.3.8.tar.gz tmp/shakenfist-agent-0.3.9.tar.gz --markdown 20230802/s/shakenfist-agent/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-02 03:59:02] INFO root fetch - processPackages [autocorrect-py]: Downloading https://files.pythonhosted.org/packages/71/23/81ef596651ac1929d974a910612849cb4f504653b06836d2b08b8619d5f1/autocorrect_py-2.8.4.tar.gz
+[2023-08-02 03:59:02] INFO root fetch - processPackages [email-extractor-unicode]: Downloading https://files.pythonhosted.org/packages/64/b4/525ab7c65229c2fa4d0ce11abcd3c72791ad0493d7adb22f9a590c233ab8/email_extractor_unicode-1.0.8.tar.gz
+[2023-08-02 03:59:02] INFO root fetch - processPackages [email-extractor-unicode]: executing diffoscope
+[2023-08-02 03:59:02] INFO root fetch - processPackages [email-extractor-unicode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email_extractor_unicode-1.0.7.tar.gz tmp/email_extractor_unicode-1.0.8.tar.gz --markdown 20230802/e/email-extractor-unicode/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-08-02 03:59:02] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/88/df/6de121f176000c375aa2ca25c6b2d525af420c09a38131ffe98aeab2fc63/seunggabi_core_python-0.9.0.tar.gz
+[2023-08-02 03:59:02] INFO root fetch - processPackages [autocorrect-py]: executing diffoscope
+[2023-08-02 03:59:02] INFO root fetch - processPackages [autocorrect-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocorrect_py-2.8.3.tar.gz tmp/autocorrect_py-2.8.4.tar.gz --markdown 20230802/a/autocorrect-py/2.8.3-2.8.4/diff.md --exclude *.pyd
+[2023-08-02 03:59:02] INFO root fetch - processPackages [seunggabi-core-python]: executing diffoscope
+[2023-08-02 03:59:02] INFO root fetch - processPackages [seunggabi-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seunggabi_core_python-0.8.0.tar.gz tmp/seunggabi_core_python-0.9.0.tar.gz --markdown 20230802/s/seunggabi-core-python/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 03:59:02] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Downloading https://files.pythonhosted.org/packages/ff/e8/ba9744da258b0e71cdc1b7fe1a4f25a7bd3d9806ce5911f0b24f0f754815/aliyun-python-sdk-avatar-1.0.9.tar.gz
+[2023-08-02 03:59:03] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: executing diffoscope
+[2023-08-02 03:59:03] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-avatar-1.0.25.tar.gz tmp/aliyun-python-sdk-avatar-1.0.9.tar.gz --markdown 20230802/a/aliyun-python-sdk-avatar/1.0.25-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 03:59:03] INFO root fetch - processPackages [shakenfist-agent]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-agent-0.3.8.tar.gz]
+[2023-08-02 03:59:03] INFO root fetch - processPackages [shakenfist-agent]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-agent-0.3.9.tar.gz]
+[2023-08-02 03:59:03] INFO root fetch - main [MainThread]: End processing [shakenfist-agent]: success
+[2023-08-02 03:59:03] INFO root fetch - processPackages [email-extractor-unicode]: Remove: archive file [/home/abi/fetcher/tmp/email_extractor_unicode-1.0.7.tar.gz]
+[2023-08-02 03:59:03] INFO root fetch - processPackages [email-extractor-unicode]: Remove: archive file [/home/abi/fetcher/tmp/email_extractor_unicode-1.0.8.tar.gz]
+[2023-08-02 03:59:03] INFO root fetch - main [MainThread]: End processing [email-extractor-unicode]: success
+[2023-08-02 03:59:03] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.8.0.tar.gz]
+[2023-08-02 03:59:03] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.9.0.tar.gz]
+[2023-08-02 03:59:03] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
+[2023-08-02 03:59:04] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-avatar-1.0.25.tar.gz]
+[2023-08-02 03:59:04] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-avatar-1.0.9.tar.gz]
+[2023-08-02 03:59:04] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-avatar]: success
+[2023-08-02 03:59:04] INFO root fetch - processPackages [autocorrect-py]: Remove: archive file [/home/abi/fetcher/tmp/autocorrect_py-2.8.3.tar.gz]
+[2023-08-02 03:59:04] INFO root fetch - processPackages [autocorrect-py]: Remove: archive file [/home/abi/fetcher/tmp/autocorrect_py-2.8.4.tar.gz]
+[2023-08-02 03:59:04] INFO root fetch - main [MainThread]: End processing [autocorrect-py]: success
+[2023-08-02 03:59:04] INFO root fetch - main [MainThread]: Store serial: [19135386]

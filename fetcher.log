@@ -10304,3 +10304,153 @@
 [2023-08-02 04:31:52] INFO root fetch - processPackages [tensorflow-io-gcs-filesystem]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_io_gcs_filesystem-0.33.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2023-08-02 04:31:52] INFO root fetch - main [MainThread]: End processing [tensorflow-io-gcs-filesystem]: success
 [2023-08-02 04:31:52] INFO root fetch - main [MainThread]: Store serial: [19135601]
+[2023-08-02 04:37:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19135601]
+[2023-08-02 04:37:11] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-02 04:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-08-02 04:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blender-stubs
+[2023-08-02 04:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sllim
+[2023-08-02 04:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bump-anything
+[2023-08-02 04:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RobertCommonDriver
+[2023-08-02 04:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py3seed
+[2023-08-02 04:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dsps
+[2023-08-02 04:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Sakib-Malik
+[2023-08-02 04:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dask-awkward
+[2023-08-02 04:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sppam
+[2023-08-02 04:37:11] INFO root fetch - processPackages [dask-awkward]: New version: [2023.8.1] Old Version: [2023.8.0]
+[2023-08-02 04:37:11] INFO root fetch - processPackages [bump-anything]: New version: [2.0.0b3] Old Version: [2.0.0b2]
+[2023-08-02 04:37:11] INFO root fetch - processPackages [sllim]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 04:37:11] INFO root fetch - processPackages [RobertCommonDriver]: New version: [0.1.47] Old Version: [0.1.46]
+[2023-08-02 04:37:11] INFO root fetch - processPackages [sppam]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-08-02 04:37:11] WARNING root fetch - processPackages [Sakib-Malik]: Skipping, unable to determine old version
+[2023-08-02 04:37:11] INFO root fetch - processPackages [Sakib-Malik]: Start processing: numpy-io
+[2023-08-02 04:37:11] INFO root fetch - main [MainThread]: End processing [Sakib-Malik] error
+[2023-08-02 04:37:11] INFO root fetch - processPackages [coiled]: New version: [0.9.4.dev5] Old Version: [0.9.4.dev16]
+[2023-08-02 04:37:11] INFO root fetch - processPackages [py3seed]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-08-02 04:37:11] INFO root fetch - processPackages [dsps]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-02 04:37:11] INFO root fetch - processPackages [bump-anything]: Downloading https://files.pythonhosted.org/packages/e7/10/1c9565f53f51707d650bceec33cdae76c9b14cfd139e7fe3d5887d2dda0c/bump-anything-2.0.0b2.tar.gz
+[2023-08-02 04:37:11] INFO root fetch - processPackages [numpy-io]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-02 04:37:11] INFO root fetch - processPackages [blender-stubs]: New version: [3.2.0.27.dev5733491624] Old Version: [3.2.0.27.dev5710410943]
+[2023-08-02 04:37:11] INFO root fetch - processPackages [dask-awkward]: Downloading https://files.pythonhosted.org/packages/62/43/7f3c63c2951258f715e6f2f70e922f45f512f886e06af98ff130a11ed05f/dask_awkward-2023.8.0.tar.gz
+[2023-08-02 04:37:11] INFO root fetch - processPackages [sppam]: Downloading https://files.pythonhosted.org/packages/12/fb/05ca5c6de109070ef193a148fc2d1f9d63ed19b1535159ce309ef375cf7e/sppam-0.0.5.tar.gz
+[2023-08-02 04:37:11] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/b8/3d/bf28f6a3f10f0c0b280aecbfb191dceec6e58d817ac9cd2ce1bd2b46ef12/py3seed-0.2.9.tar.gz
+[2023-08-02 04:37:11] INFO root fetch - processPackages [sllim]: Downloading https://files.pythonhosted.org/packages/88/d3/0fab633f8dc630897a9d523920a1606da4077509167eb45ffd00b73ff63c/sllim-0.1.8.tar.gz
+[2023-08-02 04:37:11] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/d3/85/1c9a6d775dc40fd14e8ef9df74b69be7f42594a24ea64c9e3151043e175a/coiled-0.9.4.dev16.tar.gz
+[2023-08-02 04:37:11] INFO root fetch - processPackages [RobertCommonDriver]: Downloading https://files.pythonhosted.org/packages/6e/7c/fb81abfaf85f53579a6e087318cbbad2a5b0a99fd29b9af4a265d0e80805/RobertCommonDriver-0.1.46.tar.gz
+[2023-08-02 04:37:11] INFO root fetch - processPackages [numpy-io]: Downloading https://files.pythonhosted.org/packages/34/bd/f54e232b318bfda8e690f10cca3504be4e5e59149c29cff18dd47af1121a/numpy_io-0.0.7-py3-none-any.whl
+[2023-08-02 04:37:11] INFO root fetch - processPackages [dsps]: Downloading https://files.pythonhosted.org/packages/33/c6/f29636db88d6d9fc1cb2bcc871c18392cbc3dde75fd220a26544ddb34c88/dsps-0.3.1.tar.gz
+[2023-08-02 04:37:11] INFO root fetch - processPackages [blender-stubs]: Downloading https://files.pythonhosted.org/packages/2f/a5/d115aa4c5dcf3b71fd16a8ada7b68a038e8198e3479876d5c2d4aec3ab84/blender-stubs-3.2.0.27.dev5710410943.tar.gz
+[2023-08-02 04:37:11] INFO root fetch - processPackages [bump-anything]: Downloading https://files.pythonhosted.org/packages/ad/1b/9e6019146892d63b8ce65071bb96501364f0ba46609043ff1d563d3ba94b/bump-anything-2.0.0b3.tar.gz
+[2023-08-02 04:37:11] INFO root fetch - processPackages [sppam]: Downloading https://files.pythonhosted.org/packages/38/d4/1638ad402d47b196499c7c23e0031c3cc88bfb842b46ad05811f37b538bc/sppam-0.0.7.tar.gz
+[2023-08-02 04:37:12] INFO root fetch - processPackages [dask-awkward]: Downloading https://files.pythonhosted.org/packages/11/a0/c2369334e22bcafa7e246d54708f0af599d0cf3a077eb25603601553a883/dask_awkward-2023.8.1.tar.gz
+[2023-08-02 04:37:12] INFO root fetch - processPackages [sppam]: executing diffoscope
+[2023-08-02 04:37:12] INFO root fetch - processPackages [sppam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppam-0.0.5.tar.gz tmp/sppam-0.0.7.tar.gz --markdown 20230802/s/sppam/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-08-02 04:37:12] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/8a/e2/1466b621d73d96bb4a48d75b47acfe81498f0dcb49ff0dbc8f32f432d686/py3seed-0.3.0.tar.gz
+[2023-08-02 04:37:12] INFO root fetch - processPackages [bump-anything]: executing diffoscope
+[2023-08-02 04:37:12] INFO root fetch - processPackages [bump-anything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bump-anything-2.0.0b2.tar.gz tmp/bump-anything-2.0.0b3.tar.gz --markdown 20230802/b/bump-anything/2.0.0b2-2.0.0b3/diff.md --exclude *.pyd
+[2023-08-02 04:37:12] INFO root fetch - processPackages [RobertCommonDriver]: Downloading https://files.pythonhosted.org/packages/32/a6/1089602dd3757c7ef1ab60ce70efec24c0de66fa7edcdd20a84b47cfc884/RobertCommonDriver-0.1.47.tar.gz
+[2023-08-02 04:37:12] INFO root fetch - processPackages [sllim]: Downloading https://files.pythonhosted.org/packages/a0/b2/5a7377aded736cf0d32f1263d78f904d576ed329ccaaeff8209bebf7873d/sllim-0.1.9.tar.gz
+[2023-08-02 04:37:12] INFO root fetch - processPackages [dask-awkward]: executing diffoscope
+[2023-08-02 04:37:12] INFO root fetch - processPackages [dask-awkward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask_awkward-2023.8.0.tar.gz tmp/dask_awkward-2023.8.1.tar.gz --markdown 20230802/d/dask-awkward/2023.8.0-2023.8.1/diff.md --exclude *.pyd
+[2023-08-02 04:37:12] INFO root fetch - processPackages [numpy-io]: Downloading https://files.pythonhosted.org/packages/40/1b/291773dc388d5cd7d6a165fe002e837c1f10282e4d09f12b24a94324842b/numpy_io-0.0.8-py3-none-any.whl
+[2023-08-02 04:37:12] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-08-02 04:37:12] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.2.9.tar.gz tmp/py3seed-0.3.0.tar.gz --markdown 20230802/p/py3seed/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-08-02 04:37:12] INFO root fetch - processPackages [dsps]: Downloading https://files.pythonhosted.org/packages/b9/c1/9c446cc88abfc23639823b9729685041bbe195a7b801b68eec8977d9879e/dsps-0.3.2.tar.gz
+[2023-08-02 04:37:12] INFO root fetch - processPackages [RobertCommonDriver]: executing diffoscope
+[2023-08-02 04:37:12] INFO root fetch - processPackages [RobertCommonDriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonDriver-0.1.46.tar.gz tmp/RobertCommonDriver-0.1.47.tar.gz --markdown 20230802/R/RobertCommonDriver/0.1.46-0.1.47/diff.md --exclude *.pyd
+[2023-08-02 04:37:12] INFO root fetch - processPackages [blender-stubs]: Downloading https://files.pythonhosted.org/packages/da/3f/091276736b4215b070ba3307c98c7984ed69a4e926de57d718f0e11e3fac/blender-stubs-3.2.0.27.dev5733491624.tar.gz
+[2023-08-02 04:37:12] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/d7/6d/cb4aed45a3bea2bd4c115f0dc4f32d7ac1397bcd5298b7a15fae91485adb/coiled-0.9.4.dev5.tar.gz
+[2023-08-02 04:37:12] INFO root fetch - processPackages [sllim]: executing diffoscope
+[2023-08-02 04:37:12] INFO root fetch - processPackages [sllim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sllim-0.1.8.tar.gz tmp/sllim-0.1.9.tar.gz --markdown 20230802/s/sllim/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 04:37:12] INFO root fetch - processPackages [dsps]: executing diffoscope
+[2023-08-02 04:37:12] INFO root fetch - processPackages [dsps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsps-0.3.1.tar.gz tmp/dsps-0.3.2.tar.gz --markdown 20230802/d/dsps/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-02 04:37:12] INFO root fetch - processPackages [numpy-io]: executing diffoscope
+[2023-08-02 04:37:12] INFO root fetch - processPackages [numpy-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpy_io-0.0.7-py3-none-any.whl.zip tmp/numpy_io-0.0.8-py3-none-any.whl.zip --markdown 20230802/n/numpy-io/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-02 04:37:12] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-08-02 04:37:12] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.9.4.dev16.tar.gz tmp/coiled-0.9.4.dev5.tar.gz --markdown 20230802/c/coiled/0.9.4.dev16-0.9.4.dev5/diff.md --exclude *.pyd
+[2023-08-02 04:37:12] INFO root fetch - processPackages [blender-stubs]: executing diffoscope
+[2023-08-02 04:37:12] INFO root fetch - processPackages [blender-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blender-stubs-3.2.0.27.dev5710410943.tar.gz tmp/blender-stubs-3.2.0.27.dev5733491624.tar.gz --markdown 20230802/b/blender-stubs/3.2.0.27.dev5710410943-3.2.0.27.dev5733491624/diff.md --exclude *.pyd
+[2023-08-02 04:37:13] INFO root fetch - processPackages [bump-anything]: Remove: archive file [/home/abi/fetcher/tmp/bump-anything-2.0.0b2.tar.gz]
+[2023-08-02 04:37:13] INFO root fetch - processPackages [bump-anything]: Remove: archive file [/home/abi/fetcher/tmp/bump-anything-2.0.0b3.tar.gz]
+[2023-08-02 04:37:13] INFO root fetch - processPackages [bump-anything]: Start processing: pc-mouseparty
+[2023-08-02 04:37:13] INFO root fetch - main [MainThread]: End processing [bump-anything]: success
+[2023-08-02 04:37:13] INFO root fetch - processPackages [pc-mouseparty]: New version: [0.1.1] Old Version: [0.0.0]
+[2023-08-02 04:37:13] INFO root fetch - processPackages [sppam]: Remove: archive file [/home/abi/fetcher/tmp/sppam-0.0.5.tar.gz]
+[2023-08-02 04:37:13] INFO root fetch - processPackages [sppam]: Remove: archive file [/home/abi/fetcher/tmp/sppam-0.0.7.tar.gz]
+[2023-08-02 04:37:13] INFO root fetch - processPackages [sppam]: Start processing: fiftyone-pipeline-cloudrequestengine
+[2023-08-02 04:37:13] INFO root fetch - main [MainThread]: End processing [sppam]: success
+[2023-08-02 04:37:13] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2023-08-02 04:37:13] INFO root fetch - processPackages [pc-mouseparty]: Downloading https://files.pythonhosted.org/packages/d5/69/9c8464d98f9456f6c33aa5addd77f3a29fb7b2123870613a202eaa2bf156/pc_mouseparty-0.0.0.tar.gz
+[2023-08-02 04:37:13] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.2.9.tar.gz]
+[2023-08-02 04:37:13] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.3.0.tar.gz]
+[2023-08-02 04:37:13] INFO root fetch - processPackages [py3seed]: Start processing: fiftyone-pipeline-core
+[2023-08-02 04:37:13] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-08-02 04:37:14] INFO root fetch - processPackages [fiftyone-pipeline-core]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2023-08-02 04:37:14] INFO root fetch - processPackages [sllim]: Remove: archive file [/home/abi/fetcher/tmp/sllim-0.1.8.tar.gz]
+[2023-08-02 04:37:14] INFO root fetch - processPackages [sllim]: Remove: archive file [/home/abi/fetcher/tmp/sllim-0.1.9.tar.gz]
+[2023-08-02 04:37:14] INFO root fetch - processPackages [sllim]: Start processing: fiftyone-pipeline-engines-fiftyone
+[2023-08-02 04:37:14] INFO root fetch - main [MainThread]: End processing [sllim]: success
+[2023-08-02 04:37:14] INFO root fetch - processPackages [dask-awkward]: Remove: archive file [/home/abi/fetcher/tmp/dask_awkward-2023.8.0.tar.gz]
+[2023-08-02 04:37:14] INFO root fetch - processPackages [dask-awkward]: Remove: archive file [/home/abi/fetcher/tmp/dask_awkward-2023.8.1.tar.gz]
+[2023-08-02 04:37:14] INFO root fetch - processPackages [dask-awkward]: Start processing: kaparoo-python
+[2023-08-02 04:37:14] INFO root fetch - main [MainThread]: End processing [dask-awkward]: success
+[2023-08-02 04:37:14] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Downloading https://files.pythonhosted.org/packages/57/0b/5043a75732cdb4f3894eee095bccca4eca3f291f2e64ebee5fcb716b24f2/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz
+[2023-08-02 04:37:14] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2023-08-02 04:37:14] INFO root fetch - processPackages [kaparoo-python]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-02 04:37:14] INFO root fetch - processPackages [numpy-io]: Remove: archive file [/home/abi/fetcher/tmp/numpy_io-0.0.7-py3-none-any.whl.zip]
+[2023-08-02 04:37:14] INFO root fetch - processPackages [numpy-io]: Remove: archive file [/home/abi/fetcher/tmp/numpy_io-0.0.8-py3-none-any.whl.zip]
+[2023-08-02 04:37:14] INFO root fetch - processPackages [numpy-io]: Start processing: fiftyone-pipeline-engines
+[2023-08-02 04:37:14] INFO root fetch - main [MainThread]: End processing [numpy-io]: success
+[2023-08-02 04:37:14] INFO root fetch - processPackages [fiftyone-pipeline-engines]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2023-08-02 04:37:14] INFO root fetch - processPackages [kaparoo-python]: Downloading https://files.pythonhosted.org/packages/73/8b/86e2cd457404f0d8b66ee55eba7962b3ffea376d379ce1e1c60634400a83/kaparoo_python-0.1.2.tar.gz
+[2023-08-02 04:37:14] INFO root fetch - processPackages [fiftyone-pipeline-core]: Downloading https://files.pythonhosted.org/packages/76/d6/b34fc7d1d074a71df816c77ccb53905048f4ae560a2a70978ca29e3134f7/fiftyone_pipeline_core-4.4.8.0.tar.gz
+[2023-08-02 04:37:14] INFO root fetch - processPackages [pc-mouseparty]: Downloading https://files.pythonhosted.org/packages/7e/dd/ef54cf2e69bbf30de9ec7d8606d151bfec4230e4237c3c78c566868b0ff7/pc_mouseparty-0.1.1.tar.gz
+[2023-08-02 04:37:14] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.4.dev16.tar.gz]
+[2023-08-02 04:37:14] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.4.dev5.tar.gz]
+[2023-08-02 04:37:14] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-08-02 04:37:14] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Downloading https://files.pythonhosted.org/packages/6b/95/db65322b6bc7c0e4e2cb94c839191565def3d46ed1ee559f0ca6d588e227/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz
+[2023-08-02 04:37:14] INFO root fetch - processPackages [pc-mouseparty]: executing diffoscope
+[2023-08-02 04:37:14] INFO root fetch - processPackages [pc-mouseparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pc_mouseparty-0.0.0.tar.gz tmp/pc_mouseparty-0.1.1.tar.gz --markdown 20230802/p/pc-mouseparty/0.0.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-02 04:37:14] INFO root fetch - processPackages [RobertCommonDriver]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonDriver-0.1.46.tar.gz]
+[2023-08-02 04:37:14] INFO root fetch - processPackages [RobertCommonDriver]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonDriver-0.1.47.tar.gz]
+[2023-08-02 04:37:14] INFO root fetch - main [MainThread]: End processing [RobertCommonDriver]: success
+[2023-08-02 04:37:14] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Downloading https://files.pythonhosted.org/packages/23/7a/370305d5cf4106a6fed8cfa73f299a087c38edf5aea1e577829f23d4a332/fiftyone_pipeline_cloudrequestengine-4.4.9.0.tar.gz
+[2023-08-02 04:37:14] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Downloading https://files.pythonhosted.org/packages/4e/a3/500d24c2165afbd2f3f48b2636467d8441bc9649a45121c4b1313d6721f2/fiftyone_pipeline_engines-4.4.8.0.tar.gz
+[2023-08-02 04:37:14] INFO root fetch - processPackages [kaparoo-python]: Downloading https://files.pythonhosted.org/packages/9c/e8/ed6adf3c395c23659f1ef920cd78b43294f96fcb7fcdf246e22e392a1a7d/kaparoo_python-0.1.3.tar.gz
+[2023-08-02 04:37:14] INFO root fetch - processPackages [dsps]: Remove: archive file [/home/abi/fetcher/tmp/dsps-0.3.1.tar.gz]
+[2023-08-02 04:37:14] INFO root fetch - processPackages [dsps]: Remove: archive file [/home/abi/fetcher/tmp/dsps-0.3.2.tar.gz]
+[2023-08-02 04:37:14] INFO root fetch - main [MainThread]: End processing [dsps]: success
+[2023-08-02 04:37:14] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: executing diffoscope
+[2023-08-02 04:37:14] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz tmp/fiftyone_pipeline_cloudrequestengine-4.4.9.0.tar.gz --markdown 20230802/f/fiftyone-pipeline-cloudrequestengine/4.4.8.0-4.4.9.0/diff.md --exclude *.pyd
+[2023-08-02 04:37:14] INFO root fetch - processPackages [fiftyone-pipeline-core]: Downloading https://files.pythonhosted.org/packages/01/0e/99e6212222e48ed13b12487df5c23221264e2d9ccf67adcb8902624547fc/fiftyone_pipeline_core-4.4.9.0.tar.gz
+[2023-08-02 04:37:14] INFO root fetch - processPackages [kaparoo-python]: executing diffoscope
+[2023-08-02 04:37:14] INFO root fetch - processPackages [kaparoo-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaparoo_python-0.1.2.tar.gz tmp/kaparoo_python-0.1.3.tar.gz --markdown 20230802/k/kaparoo-python/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-02 04:37:14] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Downloading https://files.pythonhosted.org/packages/8f/08/ccc77f7100f8f3db59fa2f751fe41a249e04249113f00c5e1ff61774197e/fiftyone_pipeline_engines-4.4.9.0.tar.gz
+[2023-08-02 04:37:14] INFO root fetch - processPackages [fiftyone-pipeline-core]: executing diffoscope
+[2023-08-02 04:37:14] INFO root fetch - processPackages [fiftyone-pipeline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_core-4.4.8.0.tar.gz tmp/fiftyone_pipeline_core-4.4.9.0.tar.gz --markdown 20230802/f/fiftyone-pipeline-core/4.4.8.0-4.4.9.0/diff.md --exclude *.pyd
+[2023-08-02 04:37:15] INFO root fetch - processPackages [fiftyone-pipeline-engines]: executing diffoscope
+[2023-08-02 04:37:15] INFO root fetch - processPackages [fiftyone-pipeline-engines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_engines-4.4.8.0.tar.gz tmp/fiftyone_pipeline_engines-4.4.9.0.tar.gz --markdown 20230802/f/fiftyone-pipeline-engines/4.4.8.0-4.4.9.0/diff.md --exclude *.pyd
+[2023-08-02 04:37:15] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Downloading https://files.pythonhosted.org/packages/5c/0e/bb656280fc3dfa6b4b69e17ab2e2d2e256d4300cdb60e8cb5e81a4fcf331/fiftyone_pipeline_engines_fiftyone-4.4.9.0.tar.gz
+[2023-08-02 04:37:15] INFO root fetch - processPackages [pc-mouseparty]: Remove: archive file [/home/abi/fetcher/tmp/pc_mouseparty-0.0.0.tar.gz]
+[2023-08-02 04:37:15] INFO root fetch - processPackages [pc-mouseparty]: Remove: archive file [/home/abi/fetcher/tmp/pc_mouseparty-0.1.1.tar.gz]
+[2023-08-02 04:37:15] INFO root fetch - main [MainThread]: End processing [pc-mouseparty]: success
+[2023-08-02 04:37:15] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: executing diffoscope
+[2023-08-02 04:37:15] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz tmp/fiftyone_pipeline_engines_fiftyone-4.4.9.0.tar.gz --markdown 20230802/f/fiftyone-pipeline-engines-fiftyone/4.4.8.0-4.4.9.0/diff.md --exclude *.pyd
+[2023-08-02 04:37:15] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz]
+[2023-08-02 04:37:15] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_cloudrequestengine-4.4.9.0.tar.gz]
+[2023-08-02 04:37:15] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-cloudrequestengine]: success
+[2023-08-02 04:37:15] INFO root fetch - processPackages [kaparoo-python]: Remove: archive file [/home/abi/fetcher/tmp/kaparoo_python-0.1.2.tar.gz]
+[2023-08-02 04:37:15] INFO root fetch - processPackages [kaparoo-python]: Remove: archive file [/home/abi/fetcher/tmp/kaparoo_python-0.1.3.tar.gz]
+[2023-08-02 04:37:15] INFO root fetch - main [MainThread]: End processing [kaparoo-python]: success
+[2023-08-02 04:37:16] INFO root fetch - processPackages [fiftyone-pipeline-core]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_core-4.4.8.0.tar.gz]
+[2023-08-02 04:37:16] INFO root fetch - processPackages [fiftyone-pipeline-core]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_core-4.4.9.0.tar.gz]
+[2023-08-02 04:37:16] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-core]: success
+[2023-08-02 04:37:16] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz]
+[2023-08-02 04:37:16] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines_fiftyone-4.4.9.0.tar.gz]
+[2023-08-02 04:37:16] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-engines-fiftyone]: success
+[2023-08-02 04:37:16] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines-4.4.8.0.tar.gz]
+[2023-08-02 04:37:16] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines-4.4.9.0.tar.gz]
+[2023-08-02 04:37:16] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-engines]: success
+[2023-08-02 04:37:16] INFO root fetch - processPackages [blender-stubs]: Remove: archive file [/home/abi/fetcher/tmp/blender-stubs-3.2.0.27.dev5710410943.tar.gz]
+[2023-08-02 04:37:16] INFO root fetch - processPackages [blender-stubs]: Remove: archive file [/home/abi/fetcher/tmp/blender-stubs-3.2.0.27.dev5733491624.tar.gz]
+[2023-08-02 04:37:16] INFO root fetch - main [MainThread]: End processing [blender-stubs]: success
+[2023-08-02 04:37:16] INFO root fetch - main [MainThread]: Store serial: [19135658]

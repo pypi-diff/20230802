@@ -16934,3 +16934,155 @@
 [2023-08-02 10:28:45] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9237309696369.tar.gz]
 [2023-08-02 10:28:45] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2023-08-02 10:28:45] INFO root fetch - main [MainThread]: Store serial: [19138611]
+[2023-08-02 10:33:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19138611]
+[2023-08-02 10:33:54] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-02 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hcam-finder
+[2023-08-02 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bforce
+[2023-08-02 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: actnova-yolo
+[2023-08-02 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-talk-with-poe-ai
+[2023-08-02 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi_user_auth
+[2023-08-02 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-nats-client
+[2023-08-02 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-nightly
+[2023-08-02 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FedxD
+[2023-08-02 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trl
+[2023-08-02 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: enbios2
+[2023-08-02 10:33:54] INFO root fetch - processPackages [trl]: New version: [0.5.0] Old Version: [0.4.7]
+[2023-08-02 10:33:54] INFO root fetch - processPackages [bforce]: New version: [0.3] Old Version: [0.2]
+[2023-08-02 10:33:54] INFO root fetch - processPackages [nonebot-plugin-talk-with-poe-ai]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-02 10:33:54] INFO root fetch - processPackages [hcam-finder]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-08-02 10:33:54] INFO root fetch - processPackages [FedxD]: New version: [0.3] Old Version: [0.2]
+[2023-08-02 10:33:54] INFO root fetch - processPackages [fastapi_user_auth]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-08-02 10:33:54] INFO root fetch - processPackages [django-nats-client]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-02 10:33:54] INFO root fetch - processPackages [actnova-yolo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-02 10:33:54] INFO root fetch - processPackages [enbios2]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-02 10:33:54] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-08-02 10:33:54] INFO root fetch - processPackages [FedxD]: Downloading https://files.pythonhosted.org/packages/66/e2/08fb8c7831535c13ccdc93a38c9737515866c0a2e06faa6eabb665d3591a/FedxD-0.2.tar.gz
+[2023-08-02 10:33:54] INFO root fetch - processPackages [bforce]: Downloading https://files.pythonhosted.org/packages/78/1a/c9a68f432e0a70bd8037a2742a18534c5bfb22bb78c2acceaa435fdbdf7f/bforce-0.2.tar.gz
+[2023-08-02 10:33:54] INFO root fetch - processPackages [nonebot-plugin-talk-with-poe-ai]: Downloading https://files.pythonhosted.org/packages/fe/55/692697feb4839062df7a5b704453f859997f882d2721355119dfa418a4dd/nonebot_plugin_talk_with_poe_ai-0.1.4.tar.gz
+[2023-08-02 10:33:54] INFO root fetch - processPackages [trl]: Downloading https://files.pythonhosted.org/packages/66/2a/e645061cf21733b1a3c9c3e8bbddedeca40f48f442f32bb62c4149269848/trl-0.4.7.tar.gz
+[2023-08-02 10:33:54] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-08-02 10:33:54] INFO root fetch - processPackages [django-nats-client]: Downloading https://files.pythonhosted.org/packages/65/96/911cdf685a52ac863fdeb8bf6c4e6bdf278fc8a4b876898dbff3bc4a4147/django_nats_client-0.4.1.tar.gz
+[2023-08-02 10:33:54] INFO root fetch - processPackages [enbios2]: Downloading https://files.pythonhosted.org/packages/38/dc/45643678a8e171e190bbd50eaf6b5332695d5bac200a6d51c6fb0cba2c3a/enbios2-0.1.0.tar.gz
+[2023-08-02 10:33:55] INFO root fetch - processPackages [hcam-finder]: Downloading https://files.pythonhosted.org/packages/5a/e9/f79e3d568c584f7f68c00753e4f52adefc28b14ff14fb38517acfd284d2b/hcam_finder-1.3.3.tar.gz
+[2023-08-02 10:33:55] INFO root fetch - processPackages [fastapi_user_auth]: Downloading https://files.pythonhosted.org/packages/c1/74/438e2b7a64dabf057ee6d277e5f6d7ef8813cf03efd15e0eb6c7ca1a1948/fastapi_user_auth-0.4.3.tar.gz
+[2023-08-02 10:33:55] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/ba/6c/31a9bb28c03219e559a3a37b81cafbf4440eec33815b3e3f54ea4d6b7b09/actnova-yolo-1.0.8.tar.gz
+[2023-08-02 10:33:55] INFO root fetch - processPackages [FedxD]: Downloading https://files.pythonhosted.org/packages/30/4f/faa5abde43c7fc69813bfa23a949ca712e20a594052d26da28f0a2e68593/FedxD-0.3.tar.gz
+[2023-08-02 10:33:55] INFO root fetch - processPackages [bforce]: Downloading https://files.pythonhosted.org/packages/e2/43/5058b1999f47c76c781308ea609b292a07ed6a13e8aba1f5cf17937bca09/bforce-0.3.tar.gz
+[2023-08-02 10:33:55] INFO root fetch - processPackages [django-nats-client]: Downloading https://files.pythonhosted.org/packages/5f/c0/deabfe106d07f2dd06505a6a46fe903b39ac8cff0a2d9c4c6f5be700d60b/django_nats_client-0.4.2.tar.gz
+[2023-08-02 10:33:55] INFO root fetch - processPackages [trl]: Downloading https://files.pythonhosted.org/packages/01/ea/1ea3f691cf465680fb5be8e635693f5c6c9d67baf2de15f49d7395f783bc/trl-0.5.0.tar.gz
+[2023-08-02 10:33:55] INFO root fetch - processPackages [bforce]: executing diffoscope
+[2023-08-02 10:33:55] INFO root fetch - processPackages [bforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bforce-0.2.tar.gz tmp/bforce-0.3.tar.gz --markdown 20230802/b/bforce/0.2-0.3/diff.md --exclude *.pyd
+[2023-08-02 10:33:55] INFO root fetch - processPackages [enbios2]: Downloading https://files.pythonhosted.org/packages/e2/ad/20226249b3aaa6070295543f27aefae9deb170e9b640b5ddba797c443134/enbios2-0.1.1.tar.gz
+[2023-08-02 10:33:55] INFO root fetch - processPackages [fastapi_user_auth]: Downloading https://files.pythonhosted.org/packages/3f/66/392657f5099ad325b2020d93c43e78a07b9391557290ba24b9bf8cd97fd5/fastapi_user_auth-0.5.0.tar.gz
+[2023-08-02 10:33:55] INFO root fetch - processPackages [hcam-finder]: Downloading https://files.pythonhosted.org/packages/4e/92/b893b0acdd0d812b32ff73529db9445311b408e0b416706e026a9cf0c9a2/hcam_finder-1.3.4.tar.gz
+[2023-08-02 10:33:55] INFO root fetch - processPackages [FedxD]: executing diffoscope
+[2023-08-02 10:33:55] INFO root fetch - processPackages [FedxD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FedxD-0.2.tar.gz tmp/FedxD-0.3.tar.gz --markdown 20230802/F/FedxD/0.2-0.3/diff.md --exclude *.pyd
+[2023-08-02 10:33:55] INFO root fetch - processPackages [django-nats-client]: executing diffoscope
+[2023-08-02 10:33:55] INFO root fetch - processPackages [django-nats-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_nats_client-0.4.1.tar.gz tmp/django_nats_client-0.4.2.tar.gz --markdown 20230802/d/django-nats-client/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-02 10:33:55] INFO root fetch - processPackages [trl]: executing diffoscope
+[2023-08-02 10:33:55] INFO root fetch - processPackages [trl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trl-0.4.7.tar.gz tmp/trl-0.5.0.tar.gz --markdown 20230802/t/trl/0.4.7-0.5.0/diff.md --exclude *.pyd
+[2023-08-02 10:33:55] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/55/46/2ea0567b8122b8054b20183fc8ee2200ad05930e1c3d7fe52916c631eae5/actnova-yolo-1.0.9.tar.gz
+[2023-08-02 10:33:55] INFO root fetch - processPackages [fastapi_user_auth]: executing diffoscope
+[2023-08-02 10:33:55] INFO root fetch - processPackages [fastapi_user_auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_user_auth-0.4.3.tar.gz tmp/fastapi_user_auth-0.5.0.tar.gz --markdown 20230802/f/fastapi_user_auth/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-08-02 10:33:55] INFO root fetch - processPackages [nonebot-plugin-talk-with-poe-ai]: Downloading https://files.pythonhosted.org/packages/34/9d/6c3cbc1f8ff5ca37fbd066e314fb12bc3781575bc7d2c7155c62b7281c10/nonebot_plugin_talk_with_poe_ai-0.1.5.tar.gz
+[2023-08-02 10:33:55] INFO root fetch - processPackages [enbios2]: executing diffoscope
+[2023-08-02 10:33:55] INFO root fetch - processPackages [enbios2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enbios2-0.1.0.tar.gz tmp/enbios2-0.1.1.tar.gz --markdown 20230802/e/enbios2/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-02 10:33:55] INFO root fetch - processPackages [hcam-finder]: executing diffoscope
+[2023-08-02 10:33:55] INFO root fetch - processPackages [hcam-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcam_finder-1.3.3.tar.gz tmp/hcam_finder-1.3.4.tar.gz --markdown 20230802/h/hcam-finder/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-08-02 10:33:55] INFO root fetch - processPackages [actnova-yolo]: executing diffoscope
+[2023-08-02 10:33:55] INFO root fetch - processPackages [actnova-yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actnova-yolo-1.0.8.tar.gz tmp/actnova-yolo-1.0.9.tar.gz --markdown 20230802/a/actnova-yolo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 10:33:56] INFO root fetch - processPackages [nonebot-plugin-talk-with-poe-ai]: executing diffoscope
+[2023-08-02 10:33:56] INFO root fetch - processPackages [nonebot-plugin-talk-with-poe-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_talk_with_poe_ai-0.1.4.tar.gz tmp/nonebot_plugin_talk_with_poe_ai-0.1.5.tar.gz --markdown 20230802/n/nonebot-plugin-talk-with-poe-ai/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-02 10:33:56] INFO root fetch - processPackages [bforce]: Remove: archive file [/home/abi/fetcher/tmp/bforce-0.2.tar.gz]
+[2023-08-02 10:33:56] INFO root fetch - processPackages [bforce]: Remove: archive file [/home/abi/fetcher/tmp/bforce-0.3.tar.gz]
+[2023-08-02 10:33:56] INFO root fetch - processPackages [bforce]: Start processing: i-saas-utils
+[2023-08-02 10:33:56] INFO root fetch - main [MainThread]: End processing [bforce]: success
+[2023-08-02 10:33:56] INFO root fetch - processPackages [i-saas-utils]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-02 10:33:56] INFO root fetch - processPackages [i-saas-utils]: Downloading https://files.pythonhosted.org/packages/0e/36/3a043c94bfa3eee6cd3ca3d90f2d30617e093c740c93f5c7ac6ff38df57c/i_saas_utils-0.1.2.tar.gz
+[2023-08-02 10:33:56] INFO root fetch - processPackages [django-nats-client]: Remove: archive file [/home/abi/fetcher/tmp/django_nats_client-0.4.1.tar.gz]
+[2023-08-02 10:33:56] INFO root fetch - processPackages [django-nats-client]: Remove: archive file [/home/abi/fetcher/tmp/django_nats_client-0.4.2.tar.gz]
+[2023-08-02 10:33:56] INFO root fetch - processPackages [django-nats-client]: Start processing: pyapep
+[2023-08-02 10:33:56] INFO root fetch - main [MainThread]: End processing [django-nats-client]: success
+[2023-08-02 10:33:56] INFO root fetch - processPackages [FedxD]: Remove: archive file [/home/abi/fetcher/tmp/FedxD-0.2.tar.gz]
+[2023-08-02 10:33:56] INFO root fetch - processPackages [FedxD]: Remove: archive file [/home/abi/fetcher/tmp/FedxD-0.3.tar.gz]
+[2023-08-02 10:33:56] INFO root fetch - processPackages [FedxD]: Start processing: nonebot-plugin-poke
+[2023-08-02 10:33:56] INFO root fetch - main [MainThread]: End processing [FedxD]: success
+[2023-08-02 10:33:56] INFO root fetch - processPackages [pyapep]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-02 10:33:57] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-08-02 10:33:57] INFO root fetch - processPackages [nonebot-plugin-poke]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-02 10:33:57] INFO root fetch - processPackages [pyapep]: Downloading https://files.pythonhosted.org/packages/d3/75/84454292f26dc2a47a004fb8af69ab963613c50c0ec3b0ffb05a7f3b745a/pyapep-0.1.4.tar.gz
+[2023-08-02 10:33:57] INFO root fetch - processPackages [fastapi_user_auth]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_user_auth-0.4.3.tar.gz]
+[2023-08-02 10:33:57] INFO root fetch - processPackages [fastapi_user_auth]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_user_auth-0.5.0.tar.gz]
+[2023-08-02 10:33:57] INFO root fetch - processPackages [fastapi_user_auth]: Start processing: cdk-eks-karpenter
+[2023-08-02 10:33:57] INFO root fetch - main [MainThread]: End processing [fastapi_user_auth]: success
+[2023-08-02 10:33:57] INFO root fetch - processPackages [i-saas-utils]: Downloading https://files.pythonhosted.org/packages/27/0e/afa9778e248dd448c3b656a8c3f5f10995c7acd16bfcba24d5615f0d5fa0/i_saas_utils-0.1.3.tar.gz
+[2023-08-02 10:33:57] INFO root fetch - processPackages [nonebot-plugin-poke]: Downloading https://files.pythonhosted.org/packages/a4/50/f890bbc7ce4a0b95c82848142a96fbc3c8387d19d4122413e82251ac00a5/nonebot_plugin_poke-0.1.1.tar.gz
+[2023-08-02 10:33:57] INFO root fetch - processPackages [cdk-eks-karpenter]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-02 10:33:57] INFO root fetch - processPackages [trl]: Remove: archive file [/home/abi/fetcher/tmp/trl-0.4.7.tar.gz]
+[2023-08-02 10:33:57] INFO root fetch - processPackages [trl]: Remove: archive file [/home/abi/fetcher/tmp/trl-0.5.0.tar.gz]
+[2023-08-02 10:33:57] INFO root fetch - processPackages [trl]: Start processing: certora-cli-alpha-nast-mutation-test
+[2023-08-02 10:33:57] INFO root fetch - main [MainThread]: End processing [trl]: success
+[2023-08-02 10:33:57] INFO root fetch - processPackages [pyapep]: Downloading https://files.pythonhosted.org/packages/98/91/d4f15a5708a304a50f83e0692be9c27b9a747687a776e1217c51483102fa/pyapep-0.1.5.tar.gz
+[2023-08-02 10:33:57] INFO root fetch - processPackages [i-saas-utils]: executing diffoscope
+[2023-08-02 10:33:57] INFO root fetch - processPackages [i-saas-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i_saas_utils-0.1.2.tar.gz tmp/i_saas_utils-0.1.3.tar.gz --markdown 20230802/i/i-saas-utils/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-02 10:33:57] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: New version: [20230802.8.32.199860] Old Version: [20230730.11.58.939301]
+[2023-08-02 10:33:57] INFO root fetch - processPackages [enbios2]: Remove: archive file [/home/abi/fetcher/tmp/enbios2-0.1.0.tar.gz]
+[2023-08-02 10:33:57] INFO root fetch - processPackages [enbios2]: Remove: archive file [/home/abi/fetcher/tmp/enbios2-0.1.1.tar.gz]
+[2023-08-02 10:33:57] INFO root fetch - processPackages [cdk-eks-karpenter]: Downloading https://files.pythonhosted.org/packages/25/22/3cd0001147dde7e28df6625053eead4e2cd59fcc37d39100dd51a87604a6/cdk-eks-karpenter-0.0.7.tar.gz
+[2023-08-02 10:33:57] INFO root fetch - processPackages [enbios2]: Start processing: enbios2
+[2023-08-02 10:33:57] INFO root fetch - main [MainThread]: End processing [enbios2]: success
+[2023-08-02 10:33:57] INFO root fetch - processPackages [pyapep]: executing diffoscope
+[2023-08-02 10:33:57] INFO root fetch - processPackages [pyapep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyapep-0.1.4.tar.gz tmp/pyapep-0.1.5.tar.gz --markdown 20230802/p/pyapep/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-02 10:33:57] INFO root fetch - processPackages [enbios2]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-02 10:33:57] INFO root fetch - processPackages [hcam-finder]: Remove: archive file [/home/abi/fetcher/tmp/hcam_finder-1.3.3.tar.gz]
+[2023-08-02 10:33:57] INFO root fetch - processPackages [hcam-finder]: Remove: archive file [/home/abi/fetcher/tmp/hcam_finder-1.3.4.tar.gz]
+[2023-08-02 10:33:57] INFO root fetch - processPackages [hcam-finder]: Start processing: pysailfish
+[2023-08-02 10:33:57] INFO root fetch - main [MainThread]: End processing [hcam-finder]: success
+[2023-08-02 10:33:57] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Downloading https://files.pythonhosted.org/packages/ae/c2/81affbe398284415aae3a826dba7a550b8ee0df802f2404823300d4d1b80/certora-cli-alpha-nast-mutation-test-20230730.11.58.939301.tar.gz
+[2023-08-02 10:33:57] INFO root fetch - processPackages [nonebot-plugin-poke]: Downloading https://files.pythonhosted.org/packages/b8/6f/3316e8b12cccfc45c2028f62ebe887627302a6263cc158e984d5ff9ded07/nonebot_plugin_poke-0.1.2.tar.gz
+[2023-08-02 10:33:57] INFO root fetch - processPackages [enbios2]: Downloading https://files.pythonhosted.org/packages/38/dc/45643678a8e171e190bbd50eaf6b5332695d5bac200a6d51c6fb0cba2c3a/enbios2-0.1.0.tar.gz
+[2023-08-02 10:33:57] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-08-02 10:33:57] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230802/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-08-02 10:33:57] INFO root fetch - processPackages [pysailfish]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-02 10:33:57] WARNING root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Skipping package: exceeds size limit 37697398>=10485760
+[2023-08-02 10:33:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-nast-mutation-test] error
+[2023-08-02 10:33:57] INFO root fetch - processPackages [nonebot-plugin-poke]: executing diffoscope
+[2023-08-02 10:33:57] INFO root fetch - processPackages [nonebot-plugin-poke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_poke-0.1.1.tar.gz tmp/nonebot_plugin_poke-0.1.2.tar.gz --markdown 20230802/n/nonebot-plugin-poke/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-02 10:33:58] INFO root fetch - processPackages [cdk-eks-karpenter]: Downloading https://files.pythonhosted.org/packages/f0/f5/e0e7d6df216e8c13dd208a660f9c67d945ce533f249211e96610b87c1c67/cdk-eks-karpenter-0.0.8.tar.gz
+[2023-08-02 10:33:58] INFO root fetch - processPackages [enbios2]: Downloading https://files.pythonhosted.org/packages/e2/ad/20226249b3aaa6070295543f27aefae9deb170e9b640b5ddba797c443134/enbios2-0.1.1.tar.gz
+[2023-08-02 10:33:58] INFO root fetch - processPackages [pysailfish]: Downloading https://files.pythonhosted.org/packages/61/d3/5b3ced79ac1ec17c0e6f054e07f045919aac95374343e245c8ffe8328b8c/pysailfish-1.8.0.tar.gz
+[2023-08-02 10:33:58] INFO root fetch - processPackages [cdk-eks-karpenter]: executing diffoscope
+[2023-08-02 10:33:58] INFO root fetch - processPackages [cdk-eks-karpenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-eks-karpenter-0.0.7.tar.gz tmp/cdk-eks-karpenter-0.0.8.tar.gz --markdown 20230802/c/cdk-eks-karpenter/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-02 10:33:58] INFO root fetch - processPackages [enbios2]: executing diffoscope
+[2023-08-02 10:33:58] INFO root fetch - processPackages [enbios2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enbios2-0.1.0.tar.gz tmp/enbios2-0.1.1.tar.gz --markdown 20230802/e/enbios2/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-02 10:33:58] INFO root fetch - processPackages [pysailfish]: Downloading https://files.pythonhosted.org/packages/4a/a0/9910c925d61381f1ae02cd5d0f58e5d329f65edf3a4a25ebfaf952deec04/pysailfish-1.9.0.tar.gz
+[2023-08-02 10:33:58] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.8.tar.gz]
+[2023-08-02 10:33:58] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.9.tar.gz]
+[2023-08-02 10:33:58] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
+[2023-08-02 10:33:58] INFO root fetch - processPackages [pysailfish]: executing diffoscope
+[2023-08-02 10:33:58] INFO root fetch - processPackages [pysailfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysailfish-1.8.0.tar.gz tmp/pysailfish-1.9.0.tar.gz --markdown 20230802/p/pysailfish/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-02 10:33:58] INFO root fetch - processPackages [i-saas-utils]: Remove: archive file [/home/abi/fetcher/tmp/i_saas_utils-0.1.2.tar.gz]
+[2023-08-02 10:33:58] INFO root fetch - processPackages [i-saas-utils]: Remove: archive file [/home/abi/fetcher/tmp/i_saas_utils-0.1.3.tar.gz]
+[2023-08-02 10:33:58] INFO root fetch - main [MainThread]: End processing [i-saas-utils]: success
+[2023-08-02 10:33:58] INFO root fetch - processPackages [nonebot-plugin-talk-with-poe-ai]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_talk_with_poe_ai-0.1.4.tar.gz]
+[2023-08-02 10:33:58] INFO root fetch - processPackages [nonebot-plugin-talk-with-poe-ai]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_talk_with_poe_ai-0.1.5.tar.gz]
+[2023-08-02 10:33:58] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-talk-with-poe-ai]: success
+[2023-08-02 10:33:58] INFO root fetch - processPackages [pyapep]: Remove: archive file [/home/abi/fetcher/tmp/pyapep-0.1.4.tar.gz]
+[2023-08-02 10:33:58] INFO root fetch - processPackages [pyapep]: Remove: archive file [/home/abi/fetcher/tmp/pyapep-0.1.5.tar.gz]
+[2023-08-02 10:33:58] INFO root fetch - main [MainThread]: End processing [pyapep]: success
+[2023-08-02 10:33:59] INFO root fetch - processPackages [nonebot-plugin-poke]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_poke-0.1.1.tar.gz]
+[2023-08-02 10:33:59] INFO root fetch - processPackages [nonebot-plugin-poke]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_poke-0.1.2.tar.gz]
+[2023-08-02 10:33:59] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-poke]: success
+[2023-08-02 10:33:59] INFO root fetch - processPackages [cdk-eks-karpenter]: Remove: archive file [/home/abi/fetcher/tmp/cdk-eks-karpenter-0.0.7.tar.gz]
+[2023-08-02 10:33:59] INFO root fetch - processPackages [cdk-eks-karpenter]: Remove: archive file [/home/abi/fetcher/tmp/cdk-eks-karpenter-0.0.8.tar.gz]
+[2023-08-02 10:33:59] INFO root fetch - main [MainThread]: End processing [cdk-eks-karpenter]: success
+[2023-08-02 10:33:59] INFO root fetch - processPackages [enbios2]: Remove: archive file [/home/abi/fetcher/tmp/enbios2-0.1.0.tar.gz]
+[2023-08-02 10:33:59] INFO root fetch - processPackages [enbios2]: Remove: archive file [/home/abi/fetcher/tmp/enbios2-0.1.1.tar.gz]
+[2023-08-02 10:33:59] INFO root fetch - main [MainThread]: End processing [enbios2]: success
+[2023-08-02 10:33:59] INFO root fetch - processPackages [pysailfish]: Remove: archive file [/home/abi/fetcher/tmp/pysailfish-1.8.0.tar.gz]
+[2023-08-02 10:33:59] INFO root fetch - processPackages [pysailfish]: Remove: archive file [/home/abi/fetcher/tmp/pysailfish-1.9.0.tar.gz]
+[2023-08-02 10:33:59] INFO root fetch - main [MainThread]: End processing [pysailfish]: success
+[2023-08-02 10:34:06] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-08-02 10:34:06] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-08-02 10:34:06] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-08-02 10:34:06] INFO root fetch - main [MainThread]: Store serial: [19138670]

@@ -12421,3 +12421,141 @@
 [2023-08-02 06:22:40] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
 [2023-08-02 06:22:40] INFO root fetch - main [MainThread]: End processing [ccdt]: success
 [2023-08-02 06:22:40] INFO root fetch - main [MainThread]: Store serial: [19136469]
+[2023-08-02 06:27:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136469]
+[2023-08-02 06:27:49] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-02 06:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-mis-builder-contrib
+[2023-08-02 06:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xw-utils
+[2023-08-02 06:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xiaomitv
+[2023-08-02 06:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickstart-vdk
+[2023-08-02 06:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-doc
+[2023-08-02 06:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openlane
+[2023-08-02 06:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: distcrab
+[2023-08-02 06:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PythonPackageUpdateChecker
+[2023-08-02 06:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: astroemperor
+[2023-08-02 06:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: harpia
+[2023-08-02 06:27:49] INFO root fetch - processPackages [harpia]: New version: [1.19] Old Version: [1.18]
+[2023-08-02 06:27:49] INFO root fetch - processPackages [odoo-addons-oca-mis-builder-contrib]: New version: [16.0.20230801.0] Old Version: [16.0.20230515.0]
+[2023-08-02 06:27:49] INFO root fetch - processPackages [py-doc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 06:27:49] INFO root fetch - processPackages [PythonPackageUpdateChecker]: New version: [1.0.11] Old Version: [1.0.10]
+[2023-08-02 06:27:49] INFO root fetch - processPackages [xiaomitv]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-02 06:27:49] INFO root fetch - processPackages [openlane]: New version: [2.0.0b1] Old Version: [2.0.0a9]
+[2023-08-02 06:27:49] INFO root fetch - processPackages [astroemperor]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-02 06:27:49] INFO root fetch - processPackages [distcrab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 06:27:49] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.952803197.dev12608] Old Version: [0.2.951386407.dev12582]
+[2023-08-02 06:27:49] INFO root fetch - processPackages [xw-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-02 06:27:49] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/42/4f/ac46c022cd211c2e371033bbc990f8bc44ae2d8e0be5d073cf29b92da947/harpia-1.18.tar.gz
+[2023-08-02 06:27:49] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/13/8b/7f81f496c68c0b88c5a3b1a2f6573408ca1d16d30e208f811f2e73a7b070/quickstart-vdk-0.2.951386407.dev12582.tar.gz
+[2023-08-02 06:27:49] INFO root fetch - processPackages [astroemperor]: Downloading https://files.pythonhosted.org/packages/a6/b2/bb9794bc59249ae4942e4b5f4e8d6bc68b9d4831722238da154a20d83bb3/astroemperor-0.8.2.tar.gz
+[2023-08-02 06:27:49] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Downloading https://files.pythonhosted.org/packages/1b/ed/12d8160214c77d5afef5964b3dd86c36f920a6f6d32412be1f0b3c6de569/PythonPackageUpdateChecker-1.0.10.tar.gz
+[2023-08-02 06:27:49] INFO root fetch - processPackages [py-doc]: Downloading https://files.pythonhosted.org/packages/6d/0c/756b76f9f6ad1623201564a554ac4761f5592e383022666bb3f5d89d17bd/py-doc-0.0.8.tar.gz
+[2023-08-02 06:27:49] INFO root fetch - processPackages [odoo-addons-oca-mis-builder-contrib]: Downloading https://files.pythonhosted.org/packages/16/bf/e4b1b90366331caf660ea0bd5aa48a3d7e64bc8480181659be8e264e41f4/odoo_addons_oca_mis_builder_contrib-16.0.20230515.0-py3-none-any.whl
+[2023-08-02 06:27:49] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/3b/36/ef13f9e1e09e4ec49090d033dcc88d1ce603bd51886f214690e50b2e5357/openlane-2.0.0a9.tar.gz
+[2023-08-02 06:27:50] INFO root fetch - processPackages [xiaomitv]: Downloading https://files.pythonhosted.org/packages/91/f5/c27496f1235b1e724d3a2de1ebfade03c544bd9caf554bbb00afad930835/xiaomitv-0.1.0.tar.gz
+[2023-08-02 06:27:50] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/dc/ac/54f66fb4b83a926c3839c5502dcbe0f0a0a00e21f943dd692399b994b5b0/distcrab-0.0.8.tar.gz
+[2023-08-02 06:27:50] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/dc/1a/2d247adaa50a2a75132b1cd25cb5a1ad15d734a7f0c3861ea12f42bd85d2/xw_utils-1.0.8-cp39-cp39-win_amd64.whl
+[2023-08-02 06:27:50] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/6b/37/3fdbe8d1932b0f7881a7e12b18a2d555a8153f72bae8291cfb900034a618/quickstart-vdk-0.2.952803197.dev12608.tar.gz
+[2023-08-02 06:27:50] INFO root fetch - processPackages [py-doc]: Downloading https://files.pythonhosted.org/packages/ee/52/a1a02effd769884bd4cd97ab861f453ae5664085ab6ed8100da6f64cfcbe/py-doc-0.0.9.tar.gz
+[2023-08-02 06:27:50] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Downloading https://files.pythonhosted.org/packages/93/18/227ac70b2a879e63c01b42b5e627d60ec3282d997d4b674836755d3d036f/PythonPackageUpdateChecker-1.0.11.tar.gz
+[2023-08-02 06:27:50] INFO root fetch - processPackages [astroemperor]: Downloading https://files.pythonhosted.org/packages/fb/7f/36ade080e61f3b990c26c529cc9110b36cea056d2a3ba660b918cd401ff2/astroemperor-0.8.3.tar.gz
+[2023-08-02 06:27:50] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/60/53/4018a2e8df79284ce9b32fd606c1f1487935588dac491bb35cf0f430b269/openlane-2.0.0b1.tar.gz
+[2023-08-02 06:27:50] INFO root fetch - processPackages [py-doc]: executing diffoscope
+[2023-08-02 06:27:50] INFO root fetch - processPackages [py-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-doc-0.0.8.tar.gz tmp/py-doc-0.0.9.tar.gz --markdown 20230802/p/py-doc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 06:27:50] INFO root fetch - processPackages [xiaomitv]: Downloading https://files.pythonhosted.org/packages/b7/3c/8bebad649be9654dc44ce4e1a00d1a772e5770ea443886d567967175a775/xiaomitv-0.2.0.tar.gz
+[2023-08-02 06:27:50] INFO root fetch - processPackages [odoo-addons-oca-mis-builder-contrib]: Downloading https://files.pythonhosted.org/packages/8c/cb/dfa6700b11825e69253b7e599b88fe7b4b6bb1b726e21c8712d0683fe16e/odoo_addons_oca_mis_builder_contrib-16.0.20230801.0-py3-none-any.whl
+[2023-08-02 06:27:50] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-08-02 06:27:50] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.951386407.dev12582.tar.gz tmp/quickstart-vdk-0.2.952803197.dev12608.tar.gz --markdown 20230802/q/quickstart-vdk/0.2.951386407.dev12582-0.2.952803197.dev12608/diff.md --exclude *.pyd
+[2023-08-02 06:27:50] INFO root fetch - processPackages [PythonPackageUpdateChecker]: executing diffoscope
+[2023-08-02 06:27:50] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/83/1f/866660569301b9d9d645f2b7de1eb5dfbeb24c1e5a749d7e4b2cd36dcdc6/xw_utils-1.0.9-cp39-cp39-win_amd64.whl
+[2023-08-02 06:27:50] INFO root fetch - processPackages [PythonPackageUpdateChecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonPackageUpdateChecker-1.0.10.tar.gz tmp/PythonPackageUpdateChecker-1.0.11.tar.gz --markdown 20230802/P/PythonPackageUpdateChecker/1.0.10-1.0.11/diff.md --exclude *.pyd
+[2023-08-02 06:27:50] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2023-08-02 06:27:50] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0a9.tar.gz tmp/openlane-2.0.0b1.tar.gz --markdown 20230802/o/openlane/2.0.0a9-2.0.0b1/diff.md --exclude *.pyd
+[2023-08-02 06:27:50] INFO root fetch - processPackages [astroemperor]: executing diffoscope
+[2023-08-02 06:27:50] INFO root fetch - processPackages [astroemperor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astroemperor-0.8.2.tar.gz tmp/astroemperor-0.8.3.tar.gz --markdown 20230802/a/astroemperor/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-08-02 06:27:50] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/bb/77/3651b4f9952f0091761a1bce6614d428b71ebcfce2aaeae915a5c1b7e324/distcrab-0.0.9.tar.gz
+[2023-08-02 06:27:50] INFO root fetch - processPackages [odoo-addons-oca-mis-builder-contrib]: executing diffoscope
+[2023-08-02 06:27:50] INFO root fetch - processPackages [odoo-addons-oca-mis-builder-contrib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_mis_builder_contrib-16.0.20230515.0-py3-none-any.whl.zip tmp/odoo_addons_oca_mis_builder_contrib-16.0.20230801.0-py3-none-any.whl.zip --markdown 20230802/o/odoo-addons-oca-mis-builder-contrib/16.0.20230515.0-16.0.20230801.0/diff.md --exclude *.pyd
+[2023-08-02 06:27:50] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/af/bb/433ff9ab30ad77ccb3ec08248b02abfa24e29c0e07c9af164e642d46c0a1/harpia-1.19.tar.gz
+[2023-08-02 06:27:50] INFO root fetch - processPackages [xiaomitv]: executing diffoscope
+[2023-08-02 06:27:50] INFO root fetch - processPackages [xiaomitv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaomitv-0.1.0.tar.gz tmp/xiaomitv-0.2.0.tar.gz --markdown 20230802/x/xiaomitv/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-02 06:27:50] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-08-02 06:27:50] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230802/x/xw-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 06:27:50] INFO root fetch - processPackages [distcrab]: executing diffoscope
+[2023-08-02 06:27:50] INFO root fetch - processPackages [distcrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distcrab-0.0.8.tar.gz tmp/distcrab-0.0.9.tar.gz --markdown 20230802/d/distcrab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 06:27:51] INFO root fetch - processPackages [harpia]: executing diffoscope
+[2023-08-02 06:27:51] INFO root fetch - processPackages [harpia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harpia-1.18.tar.gz tmp/harpia-1.19.tar.gz --markdown 20230802/h/harpia/1.18-1.19/diff.md --exclude *.pyd
+[2023-08-02 06:27:51] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.951386407.dev12582.tar.gz]
+[2023-08-02 06:27:51] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.952803197.dev12608.tar.gz]
+[2023-08-02 06:27:51] INFO root fetch - processPackages [quickstart-vdk]: Start processing: airscript
+[2023-08-02 06:27:51] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-08-02 06:27:51] INFO root fetch - processPackages [py-doc]: Remove: archive file [/home/abi/fetcher/tmp/py-doc-0.0.8.tar.gz]
+[2023-08-02 06:27:51] INFO root fetch - processPackages [py-doc]: Remove: archive file [/home/abi/fetcher/tmp/py-doc-0.0.9.tar.gz]
+[2023-08-02 06:27:51] INFO root fetch - processPackages [py-doc]: Start processing: xiaomitv
+[2023-08-02 06:27:51] INFO root fetch - main [MainThread]: End processing [py-doc]: success
+[2023-08-02 06:27:52] INFO root fetch - processPackages [airscript]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-02 06:27:52] INFO root fetch - processPackages [xiaomitv]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-02 06:27:52] INFO root fetch - processPackages [odoo-addons-oca-mis-builder-contrib]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_mis_builder_contrib-16.0.20230515.0-py3-none-any.whl.zip]
+[2023-08-02 06:27:52] INFO root fetch - processPackages [odoo-addons-oca-mis-builder-contrib]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_mis_builder_contrib-16.0.20230801.0-py3-none-any.whl.zip]
+[2023-08-02 06:27:52] INFO root fetch - processPackages [odoo-addons-oca-mis-builder-contrib]: Start processing: odoo14-addon-openupgrade-scripts
+[2023-08-02 06:27:52] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-mis-builder-contrib]: success
+[2023-08-02 06:27:52] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: New version: [14.0.1.0.2.dev99] Old Version: [14.0.1.0.2.dev95]
+[2023-08-02 06:27:52] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Remove: archive file [/home/abi/fetcher/tmp/PythonPackageUpdateChecker-1.0.10.tar.gz]
+[2023-08-02 06:27:52] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Remove: archive file [/home/abi/fetcher/tmp/PythonPackageUpdateChecker-1.0.11.tar.gz]
+[2023-08-02 06:27:52] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Start processing: Mesa
+[2023-08-02 06:27:52] INFO root fetch - main [MainThread]: End processing [PythonPackageUpdateChecker]: success
+[2023-08-02 06:27:52] INFO root fetch - processPackages [xiaomitv]: executing diffoscope
+[2023-08-02 06:27:52] INFO root fetch - processPackages [xiaomitv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaomitv-0.1.0.tar.gz tmp/xiaomitv-0.2.0.tar.gz --markdown 20230802/x/xiaomitv/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-02 06:27:52] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-08-02 06:27:52] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-08-02 06:27:52] INFO root fetch - processPackages [xw-utils]: Start processing: pyIFPNI
+[2023-08-02 06:27:52] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-08-02 06:27:52] INFO root fetch - processPackages [airscript]: Downloading https://files.pythonhosted.org/packages/89/66/f45c734344c3f72c7701b50e5989c6bc36d85babb4a67f0f93d81ea8eb09/airscript-0.0.5.tar.gz
+[2023-08-02 06:27:52] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/ec/50/ce82e83016d56e83f3ba41393c3470ef868ae1581c3f47640932504291c8/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl
+[2023-08-02 06:27:52] INFO root fetch - processPackages [pyIFPNI]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-02 06:27:52] INFO root fetch - processPackages [xiaomitv]: Remove: archive file [/home/abi/fetcher/tmp/xiaomitv-0.1.0.tar.gz]
+[2023-08-02 06:27:52] INFO root fetch - processPackages [xiaomitv]: Remove: archive file [/home/abi/fetcher/tmp/xiaomitv-0.2.0.tar.gz]
+[2023-08-02 06:27:52] INFO root fetch - main [MainThread]: End processing [xiaomitv]: success
+[2023-08-02 06:27:52] INFO root fetch - processPackages [Mesa]: New version: [2.1.1] Old Version: [2.1]
+[2023-08-02 06:27:52] INFO root fetch - processPackages [pyIFPNI]: Downloading https://files.pythonhosted.org/packages/b9/1a/66769fa27d9b156ccc3ff929878d77326661f19bff469822823cb0ed87d7/pyIFPNI-0.0.3.tar.gz
+[2023-08-02 06:27:52] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.8.tar.gz]
+[2023-08-02 06:27:52] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.9.tar.gz]
+[2023-08-02 06:27:52] INFO root fetch - main [MainThread]: End processing [distcrab]: success
+[2023-08-02 06:27:52] INFO root fetch - processPackages [astroemperor]: Remove: archive file [/home/abi/fetcher/tmp/astroemperor-0.8.2.tar.gz]
+[2023-08-02 06:27:52] INFO root fetch - processPackages [astroemperor]: Remove: archive file [/home/abi/fetcher/tmp/astroemperor-0.8.3.tar.gz]
+[2023-08-02 06:27:52] INFO root fetch - main [MainThread]: End processing [astroemperor]: success
+[2023-08-02 06:27:52] INFO root fetch - processPackages [pyIFPNI]: Downloading https://files.pythonhosted.org/packages/a0/42/5a88b588526867192d8fb8a76ccc88fcae39aafdc0ab0fecb5b9d802dd90/pyIFPNI-0.0.4.tar.gz
+[2023-08-02 06:27:52] INFO root fetch - processPackages [Mesa]: Downloading https://files.pythonhosted.org/packages/e6/71/2439dc869c8096f3281891d057be4f06e4295df3b26fdf466047b06c560c/Mesa-2.1.tar.gz
+[2023-08-02 06:27:52] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d0/8c/a24d16c65bf9fe5ae4605a1657606542a2bb75c0ac9281be45aa9cb0464d/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl
+[2023-08-02 06:27:52] INFO root fetch - processPackages [airscript]: Downloading https://files.pythonhosted.org/packages/9a/be/1d8e3552789fd81c902dbd23835d2b413cc14628d94dfed1611fb714ed57/airscript-0.0.6.tar.gz
+[2023-08-02 06:27:52] INFO root fetch - processPackages [pyIFPNI]: executing diffoscope
+[2023-08-02 06:27:52] INFO root fetch - processPackages [pyIFPNI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyIFPNI-0.0.3.tar.gz tmp/pyIFPNI-0.0.4.tar.gz --markdown 20230802/p/pyIFPNI/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-02 06:27:52] INFO root fetch - processPackages [airscript]: executing diffoscope
+[2023-08-02 06:27:52] INFO root fetch - processPackages [airscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airscript-0.0.5.tar.gz tmp/airscript-0.0.6.tar.gz --markdown 20230802/a/airscript/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-02 06:27:52] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: executing diffoscope
+[2023-08-02 06:27:52] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip --markdown 20230802/o/odoo14-addon-openupgrade-scripts/14.0.1.0.2.dev95-14.0.1.0.2.dev99/diff.md --exclude *.pyd
+[2023-08-02 06:27:53] ERROR root fetch - processPackages [xiaomitv]: Diffoscope failed: time="2023-08-02T06:27:52+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/xiaomitv-0.1.0.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/xiaomitv-0.2.0.tar.gz: No such file or directory
+
+[2023-08-02 06:27:53] INFO root fetch - main [MainThread]: End processing [xiaomitv] error
+[2023-08-02 06:27:53] INFO root fetch - processPackages [Mesa]: Downloading https://files.pythonhosted.org/packages/3d/94/f0cc5c20b03e72336eda65dd6ab8a6fd368c9fa3f741930995015a867845/Mesa-2.1.1.tar.gz
+[2023-08-02 06:27:53] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a9.tar.gz]
+[2023-08-02 06:27:53] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0b1.tar.gz]
+[2023-08-02 06:27:53] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2023-08-02 06:27:53] INFO root fetch - processPackages [Mesa]: executing diffoscope
+[2023-08-02 06:27:53] INFO root fetch - processPackages [Mesa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mesa-2.1.tar.gz tmp/Mesa-2.1.1.tar.gz --markdown 20230802/M/Mesa/2.1-2.1.1/diff.md --exclude *.pyd
+[2023-08-02 06:27:53] INFO root fetch - processPackages [pyIFPNI]: Remove: archive file [/home/abi/fetcher/tmp/pyIFPNI-0.0.3.tar.gz]
+[2023-08-02 06:27:53] INFO root fetch - processPackages [pyIFPNI]: Remove: archive file [/home/abi/fetcher/tmp/pyIFPNI-0.0.4.tar.gz]
+[2023-08-02 06:27:53] INFO root fetch - main [MainThread]: End processing [pyIFPNI]: success
+[2023-08-02 06:27:53] INFO root fetch - processPackages [airscript]: Remove: archive file [/home/abi/fetcher/tmp/airscript-0.0.5.tar.gz]
+[2023-08-02 06:27:53] INFO root fetch - processPackages [airscript]: Remove: archive file [/home/abi/fetcher/tmp/airscript-0.0.6.tar.gz]
+[2023-08-02 06:27:53] INFO root fetch - main [MainThread]: End processing [airscript]: success
+[2023-08-02 06:27:55] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.18.tar.gz]
+[2023-08-02 06:27:55] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.19.tar.gz]
+[2023-08-02 06:27:55] INFO root fetch - main [MainThread]: End processing [harpia]: success
+[2023-08-02 06:27:55] INFO root fetch - processPackages [Mesa]: Remove: archive file [/home/abi/fetcher/tmp/Mesa-2.1.tar.gz]
+[2023-08-02 06:27:55] INFO root fetch - processPackages [Mesa]: Remove: archive file [/home/abi/fetcher/tmp/Mesa-2.1.1.tar.gz]
+[2023-08-02 06:27:55] INFO root fetch - main [MainThread]: End processing [Mesa]: success
+[2023-08-02 06:27:56] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip]
+[2023-08-02 06:27:56] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
+[2023-08-02 06:27:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
+[2023-08-02 06:27:56] INFO root fetch - main [MainThread]: Store serial: [19136543]

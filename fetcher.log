@@ -12806,3 +12806,66 @@
 [2023-08-02 06:43:52] INFO root fetch - main [MainThread]: End processing [astroemperor]: success
 [2023-08-02 06:43:52] INFO root fetch - main [MainThread]: End processing [astroemperor]: success
 [2023-08-02 06:43:52] INFO root fetch - main [MainThread]: Store serial: [19136663]
+[2023-08-02 06:48:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136663]
+[2023-08-02 06:49:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-02 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awspstore
+[2023-08-02 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ufmt
+[2023-08-02 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graia-broadcast
+[2023-08-02 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dc-anomaly
+[2023-08-02 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-project-timesheet-time-control
+[2023-08-02 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hiveviewer
+[2023-08-02 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-project
+[2023-08-02 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plugin-sdk-python
+[2023-08-02 06:49:02] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-08-02 06:49:02] INFO root fetch - processPackages [hiveviewer]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-02 06:49:02] WARNING root fetch - processPackages [dc-anomaly]: Skipping, unable to determine old version
+[2023-08-02 06:49:02] INFO root fetch - main [MainThread]: End processing [dc-anomaly] error
+[2023-08-02 06:49:02] INFO root fetch - processPackages [awspstore]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-08-02 06:49:02] INFO root fetch - processPackages [graia-broadcast]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-08-02 06:49:02] INFO root fetch - processPackages [odoo-addons-oca-project]: New version: [16.0.20230801.0] Old Version: [16.0.20230727.0]
+[2023-08-02 06:49:02] INFO root fetch - processPackages [ufmt]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-08-02 06:49:02] INFO root fetch - processPackages [hiveviewer]: Downloading https://files.pythonhosted.org/packages/f1/a9/8d42954569916d65987dabaffd007ee5c877aa4336a169cf9bc7f6d096f2/hiveviewer-0.2.1.tar.gz
+[2023-08-02 06:49:02] WARNING root fetch - processPackages [plugin-sdk-python]: Skipping, unable to determine old version
+[2023-08-02 06:49:02] INFO root fetch - main [MainThread]: End processing [plugin-sdk-python] error
+[2023-08-02 06:49:02] INFO root fetch - processPackages [awspstore]: Downloading https://files.pythonhosted.org/packages/f0/a3/190bff94888fcd5b1eeeaf58c3f8972f2cd15bf72ec5aef8823541055a3b/awspstore-1.4.1.tar.gz
+[2023-08-02 06:49:02] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: Downloading https://files.pythonhosted.org/packages/99/4b/9d2b00fb2dbeb108a1e2f821193e69d4f33ef75752ab73ddda9a47cdb4d6/odoo_addon_project_timesheet_time_control-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-02 06:49:02] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/ca/23/71190ddbeda6f2f7f9886875552645410b93bbd14c05c720f574ed3b07ed/odoo_addons_oca_project-16.0.20230727.0-py3-none-any.whl
+[2023-08-02 06:49:02] INFO root fetch - processPackages [ufmt]: Downloading https://files.pythonhosted.org/packages/5b/c7/5be64474878467f49b1f39630a4c7920396e9d2bbd88726a76ab288adedf/ufmt-2.1.0.tar.gz
+[2023-08-02 06:49:02] INFO root fetch - processPackages [graia-broadcast]: Downloading https://files.pythonhosted.org/packages/0e/73/12db803a0653fdb1df3662b25ed789d44aa87dfe7ca86424e2a23b073b79/graia-broadcast-0.8.9.tar.gz
+[2023-08-02 06:49:02] INFO root fetch - processPackages [awspstore]: Downloading https://files.pythonhosted.org/packages/65/49/18efaac2ee07621d887ff6f2b77924b1737a0617689bc715f3efee52f328/awspstore-1.4.2.tar.gz
+[2023-08-02 06:49:02] INFO root fetch - processPackages [hiveviewer]: Downloading https://files.pythonhosted.org/packages/30/79/20a2a4445ce96f1a21d1890fa2a19fe5dda2b45f2ca204816a7373dbf8e0/hiveviewer-0.2.2.tar.gz
+[2023-08-02 06:49:02] INFO root fetch - processPackages [awspstore]: executing diffoscope
+[2023-08-02 06:49:02] INFO root fetch - processPackages [awspstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awspstore-1.4.1.tar.gz tmp/awspstore-1.4.2.tar.gz --markdown 20230802/a/awspstore/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-08-02 06:49:02] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/b2/5d/521f16b59c0f3232e11245f67175de133b6f26ff268a6578321ffa4f4cee/odoo_addons_oca_project-16.0.20230801.0-py3-none-any.whl
+[2023-08-02 06:49:02] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: Downloading https://files.pythonhosted.org/packages/3e/c0/887d681933d2c29dc0bd2df543136acedabce445673fff028ee3e7e279b0/odoo_addon_project_timesheet_time_control-16.0.1.0.0.3-py3-none-any.whl
+[2023-08-02 06:49:02] INFO root fetch - processPackages [ufmt]: Downloading https://files.pythonhosted.org/packages/56/10/2b5a99885fb884dee5c3646d8055e7990408a557d89e92f1986e539da9ee/ufmt-2.2.0.tar.gz
+[2023-08-02 06:49:02] INFO root fetch - processPackages [graia-broadcast]: Downloading https://files.pythonhosted.org/packages/bb/b6/1e12c5c4c947738dd16cc772420e87e8482984dcf5e94bc92fe2ae57c0cf/graia-broadcast-0.9.0.tar.gz
+[2023-08-02 06:49:02] INFO root fetch - processPackages [odoo-addons-oca-project]: executing diffoscope
+[2023-08-02 06:49:02] INFO root fetch - processPackages [odoo-addons-oca-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_project-16.0.20230727.0-py3-none-any.whl.zip tmp/odoo_addons_oca_project-16.0.20230801.0-py3-none-any.whl.zip --markdown 20230802/o/odoo-addons-oca-project/16.0.20230727.0-16.0.20230801.0/diff.md --exclude *.pyd
+[2023-08-02 06:49:02] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: executing diffoscope
+[2023-08-02 06:49:02] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_timesheet_time_control-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_project_timesheet_time_control-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230802/o/odoo-addon-project-timesheet-time-control/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-08-02 06:49:02] INFO root fetch - processPackages [hiveviewer]: executing diffoscope
+[2023-08-02 06:49:02] INFO root fetch - processPackages [hiveviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiveviewer-0.2.1.tar.gz tmp/hiveviewer-0.2.2.tar.gz --markdown 20230802/h/hiveviewer/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-02 06:49:02] INFO root fetch - processPackages [graia-broadcast]: executing diffoscope
+[2023-08-02 06:49:02] INFO root fetch - processPackages [graia-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graia-broadcast-0.8.9.tar.gz tmp/graia-broadcast-0.9.0.tar.gz --markdown 20230802/g/graia-broadcast/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 06:49:02] INFO root fetch - processPackages [ufmt]: executing diffoscope
+[2023-08-02 06:49:02] INFO root fetch - processPackages [ufmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufmt-2.1.0.tar.gz tmp/ufmt-2.2.0.tar.gz --markdown 20230802/u/ufmt/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-08-02 06:49:03] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230727.0-py3-none-any.whl.zip]
+[2023-08-02 06:49:03] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230801.0-py3-none-any.whl.zip]
+[2023-08-02 06:49:03] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-project]: success
+[2023-08-02 06:49:03] INFO root fetch - processPackages [awspstore]: Remove: archive file [/home/abi/fetcher/tmp/awspstore-1.4.1.tar.gz]
+[2023-08-02 06:49:03] INFO root fetch - processPackages [awspstore]: Remove: archive file [/home/abi/fetcher/tmp/awspstore-1.4.2.tar.gz]
+[2023-08-02 06:49:03] INFO root fetch - main [MainThread]: End processing [awspstore]: success
+[2023-08-02 06:49:03] INFO root fetch - processPackages [hiveviewer]: Remove: archive file [/home/abi/fetcher/tmp/hiveviewer-0.2.1.tar.gz]
+[2023-08-02 06:49:03] INFO root fetch - processPackages [hiveviewer]: Remove: archive file [/home/abi/fetcher/tmp/hiveviewer-0.2.2.tar.gz]
+[2023-08-02 06:49:03] INFO root fetch - main [MainThread]: End processing [hiveviewer]: success
+[2023-08-02 06:49:04] INFO root fetch - processPackages [graia-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/graia-broadcast-0.8.9.tar.gz]
+[2023-08-02 06:49:04] INFO root fetch - processPackages [graia-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/graia-broadcast-0.9.0.tar.gz]
+[2023-08-02 06:49:04] INFO root fetch - main [MainThread]: End processing [graia-broadcast]: success
+[2023-08-02 06:49:04] INFO root fetch - processPackages [ufmt]: Remove: archive file [/home/abi/fetcher/tmp/ufmt-2.1.0.tar.gz]
+[2023-08-02 06:49:04] INFO root fetch - processPackages [ufmt]: Remove: archive file [/home/abi/fetcher/tmp/ufmt-2.2.0.tar.gz]
+[2023-08-02 06:49:04] INFO root fetch - main [MainThread]: End processing [ufmt]: success
+[2023-08-02 06:49:04] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_timesheet_time_control-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-02 06:49:04] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_timesheet_time_control-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-02 06:49:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-timesheet-time-control]: success
+[2023-08-02 06:49:04] INFO root fetch - main [MainThread]: Store serial: [19136688]

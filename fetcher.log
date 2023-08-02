@@ -11758,3 +11758,141 @@
 [2023-08-02 05:45:51] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.403.1.tar.gz]
 [2023-08-02 05:45:51] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-08-02 05:45:51] INFO root fetch - main [MainThread]: Store serial: [19136143]
+[2023-08-02 05:50:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136143]
+[2023-08-02 05:51:00] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-02 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: physicX
+[2023-08-02 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hiveviewer
+[2023-08-02 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: indieweb-rocks
+[2023-08-02 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-utilities
+[2023-08-02 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micropub
+[2023-08-02 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alqrrelu-package
+[2023-08-02 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moto
+[2023-08-02 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tengu-py
+[2023-08-02 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stim
+[2023-08-02 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prompttools
+[2023-08-02 05:51:00] INFO root fetch - processPackages [abstract-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 05:51:00] INFO root fetch - processPackages [hiveviewer]: New version: [0.2.1] Old Version: [0.1.12]
+[2023-08-02 05:51:00] INFO root fetch - processPackages [alqrrelu-package]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-02 05:51:00] INFO root fetch - processPackages [physicX]: New version: [0.0.1181] Old Version: [0.0.118]
+[2023-08-02 05:51:00] INFO root fetch - processPackages [micropub]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-02 05:51:00] INFO root fetch - processPackages [indieweb-rocks]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 05:51:00] INFO root fetch - processPackages [prompttools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 05:51:00] INFO root fetch - processPackages [tengu-py]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-08-02 05:51:00] INFO root fetch - processPackages [stim]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-02 05:51:00] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-08-02 05:51:00] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/e0/2b/ce1d43af4b5abc2c6dfe690a4633f989b5361c6f265e87f51e18c24fbd80/abstract_utilities-0.0.8.tar.gz
+[2023-08-02 05:51:00] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/a7/d7/36196ad48b77efebe7d5d4e198ad0a9cac4f5acb5e0a8a7035133184a641/stim-1.8.0.tar.gz
+[2023-08-02 05:51:00] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [indieweb-rocks]: Downloading https://files.pythonhosted.org/packages/14/69/e446ee65d95ba06d32482fd185930512300d65a8d54adc98ec0f40727623/indieweb_rocks-0.0.2.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [alqrrelu-package]: Downloading https://files.pythonhosted.org/packages/fa/7d/587b6168fa291929a956283c2a833f3c663f2829aaa605ce6370de545fbb/alqrrelu_package-0.1.0.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [hiveviewer]: Downloading https://files.pythonhosted.org/packages/ae/48/f9b5be050f7f01a3129ed8970408920de0eef9fe66f8dab190e1f88a407d/hiveviewer-0.1.12.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [micropub]: Downloading https://files.pythonhosted.org/packages/43/42/9c787b4f295fbaae973b9792d2cfc3e4690b2ac175216cc587200c6b4bd2/micropub-0.1.1.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/26/c3/a2d7c4e949b8684bc25b5d37c302593da2b28e0b3079d38826cc813f781e/prompttools-0.0.8.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [tengu-py]: Downloading https://files.pythonhosted.org/packages/d4/92/276101d8c59c2708a3976004d86f664886dcbee5b2bdaee8a66a8bed8aaa/tengu_py-0.7.0.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [physicX]: Downloading https://files.pythonhosted.org/packages/51/69/efe031f61139421bbae99fbe8e343e021fc00f1079c65ac104017e0321a0/physicX-0.0.118.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/2d/bf/c73c46dd3455e0261203d2b9781bf2af9d495c25f437ec1f38833613373e/abstract_utilities-0.0.9.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/d4/c3/eba3f24b52d2c1ed2e7fd5490f31c7cafa4a0a82b9282b1ffee94eee8a4c/stim-1.9.0.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [alqrrelu-package]: Downloading https://files.pythonhosted.org/packages/05/f3/cb5eb3f2f770010c3a8a3db554d7fa2a79fc5f218dce0aca0102da584c91/alqrrelu_package-0.2.0.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [abstract-utilities]: executing diffoscope
+[2023-08-02 05:51:01] INFO root fetch - processPackages [abstract-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities-0.0.8.tar.gz tmp/abstract_utilities-0.0.9.tar.gz --markdown 20230802/a/abstract-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 05:51:01] INFO root fetch - processPackages [indieweb-rocks]: Downloading https://files.pythonhosted.org/packages/b0/4b/d2186d4f5a0bcddfb7f53a8355e221f57611209ac3ce752ccb0068f8233e/indieweb_rocks-0.0.3.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [hiveviewer]: Downloading https://files.pythonhosted.org/packages/f1/a9/8d42954569916d65987dabaffd007ee5c877aa4336a169cf9bc7f6d096f2/hiveviewer-0.2.1.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [micropub]: Downloading https://files.pythonhosted.org/packages/a0/b3/9878181a06c1f0b2274f80eddad72d5ee4e98b15f22a874d6b6e27dd8356/micropub-0.1.2.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [tengu-py]: Downloading https://files.pythonhosted.org/packages/ed/39/2be0f9945fc1bb6596b9dcb5afd6ad71a5c96730a30f907534e65578e2f1/tengu_py-0.8.0.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [physicX]: Downloading https://files.pythonhosted.org/packages/41/98/6ee2074d0ced612f3ec0c9899abc35507f00e7d0409a69b4960f2930666e/physicX-0.0.1181.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/58/ef/26a50efed9a40388c91cfa74d13b4df8e479fcff0a1c73af8e542f1ddf85/prompttools-0.0.9.tar.gz
+[2023-08-02 05:51:01] INFO root fetch - processPackages [stim]: executing diffoscope
+[2023-08-02 05:51:01] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.8.0.tar.gz tmp/stim-1.9.0.tar.gz --markdown 20230802/s/stim/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-02 05:51:01] INFO root fetch - processPackages [alqrrelu-package]: executing diffoscope
+[2023-08-02 05:51:01] INFO root fetch - processPackages [alqrrelu-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alqrrelu_package-0.1.0.tar.gz tmp/alqrrelu_package-0.2.0.tar.gz --markdown 20230802/a/alqrrelu-package/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-02 05:51:01] INFO root fetch - processPackages [hiveviewer]: executing diffoscope
+[2023-08-02 05:51:01] INFO root fetch - processPackages [hiveviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiveviewer-0.1.12.tar.gz tmp/hiveviewer-0.2.1.tar.gz --markdown 20230802/h/hiveviewer/0.1.12-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 05:51:01] INFO root fetch - processPackages [micropub]: executing diffoscope
+[2023-08-02 05:51:01] INFO root fetch - processPackages [micropub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropub-0.1.1.tar.gz tmp/micropub-0.1.2.tar.gz --markdown 20230802/m/micropub/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-02 05:51:01] INFO root fetch - processPackages [tengu-py]: executing diffoscope
+[2023-08-02 05:51:01] INFO root fetch - processPackages [tengu-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tengu_py-0.7.0.tar.gz tmp/tengu_py-0.8.0.tar.gz --markdown 20230802/t/tengu-py/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-08-02 05:51:01] INFO root fetch - processPackages [indieweb-rocks]: executing diffoscope
+[2023-08-02 05:51:01] INFO root fetch - processPackages [indieweb-rocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indieweb_rocks-0.0.2.tar.gz tmp/indieweb_rocks-0.0.3.tar.gz --markdown 20230802/i/indieweb-rocks/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 05:51:01] INFO root fetch - processPackages [prompttools]: executing diffoscope
+[2023-08-02 05:51:01] INFO root fetch - processPackages [prompttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompttools-0.0.8.tar.gz tmp/prompttools-0.0.9.tar.gz --markdown 20230802/p/prompttools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 05:51:01] INFO root fetch - processPackages [physicX]: executing diffoscope
+[2023-08-02 05:51:01] INFO root fetch - processPackages [physicX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physicX-0.0.118.tar.gz tmp/physicX-0.0.1181.tar.gz --markdown 20230802/p/physicX/0.0.118-0.0.1181/diff.md --exclude *.pyd
+[2023-08-02 05:51:02] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-08-02 05:51:02] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230802/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-08-02 05:51:02] INFO root fetch - processPackages [abstract-utilities]: Remove: archive file [/home/abi/fetcher/tmp/abstract_utilities-0.0.8.tar.gz]
+[2023-08-02 05:51:02] INFO root fetch - processPackages [abstract-utilities]: Remove: archive file [/home/abi/fetcher/tmp/abstract_utilities-0.0.9.tar.gz]
+[2023-08-02 05:51:02] INFO root fetch - processPackages [abstract-utilities]: Start processing: fyers-sdk
+[2023-08-02 05:51:02] INFO root fetch - main [MainThread]: End processing [abstract-utilities]: success
+[2023-08-02 05:51:03] INFO root fetch - processPackages [fyers-sdk]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-08-02 05:51:03] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/52/45/5e7ff03d80945747c66f624172d23a64d6d76b29430299ebafccfe6b8d06/fyers_sdk-2.1.2.tar.gz
+[2023-08-02 05:51:03] INFO root fetch - processPackages [alqrrelu-package]: Remove: archive file [/home/abi/fetcher/tmp/alqrrelu_package-0.1.0.tar.gz]
+[2023-08-02 05:51:03] INFO root fetch - processPackages [alqrrelu-package]: Remove: archive file [/home/abi/fetcher/tmp/alqrrelu_package-0.2.0.tar.gz]
+[2023-08-02 05:51:03] INFO root fetch - processPackages [alqrrelu-package]: Start processing: alibabacloud-arms20190808-py2
+[2023-08-02 05:51:03] INFO root fetch - main [MainThread]: End processing [alqrrelu-package]: success
+[2023-08-02 05:51:03] INFO root fetch - processPackages [alibabacloud-arms20190808-py2]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-08-02 05:51:03] INFO root fetch - processPackages [micropub]: Remove: archive file [/home/abi/fetcher/tmp/micropub-0.1.1.tar.gz]
+[2023-08-02 05:51:03] INFO root fetch - processPackages [micropub]: Remove: archive file [/home/abi/fetcher/tmp/micropub-0.1.2.tar.gz]
+[2023-08-02 05:51:03] INFO root fetch - processPackages [micropub]: Start processing: py-doc
+[2023-08-02 05:51:03] INFO root fetch - main [MainThread]: End processing [micropub]: success
+[2023-08-02 05:51:03] INFO root fetch - processPackages [py-doc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 05:51:03] INFO root fetch - processPackages [physicX]: Remove: archive file [/home/abi/fetcher/tmp/physicX-0.0.118.tar.gz]
+[2023-08-02 05:51:03] INFO root fetch - processPackages [physicX]: Remove: archive file [/home/abi/fetcher/tmp/physicX-0.0.1181.tar.gz]
+[2023-08-02 05:51:03] INFO root fetch - processPackages [physicX]: Start processing: stimcirq
+[2023-08-02 05:51:03] INFO root fetch - main [MainThread]: End processing [physicX]: success
+[2023-08-02 05:51:03] INFO root fetch - processPackages [py-doc]: Downloading https://files.pythonhosted.org/packages/6d/0c/756b76f9f6ad1623201564a554ac4761f5592e383022666bb3f5d89d17bd/py-doc-0.0.8.tar.gz
+[2023-08-02 05:51:03] INFO root fetch - processPackages [alibabacloud-arms20190808-py2]: Downloading https://files.pythonhosted.org/packages/0f/e1/afb569e8e21c4cfba0ab183d5f499fc479c026ddf52fa7abc11552c630e3/alibabacloud_arms20190808_py2-2.0.2.tar.gz
+[2023-08-02 05:51:03] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-08-02 05:51:03] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/93/fa/23f121f85e2d846f285f36c0a1960e54843e9925022b12f33e3ebf934cac/fyers_sdk-2.1.3.tar.gz
+[2023-08-02 05:51:03] INFO root fetch - processPackages [tengu-py]: Remove: archive file [/home/abi/fetcher/tmp/tengu_py-0.7.0.tar.gz]
+[2023-08-02 05:51:03] INFO root fetch - processPackages [tengu-py]: Remove: archive file [/home/abi/fetcher/tmp/tengu_py-0.8.0.tar.gz]
+[2023-08-02 05:51:03] INFO root fetch - processPackages [tengu-py]: Start processing: sinter
+[2023-08-02 05:51:03] INFO root fetch - main [MainThread]: End processing [tengu-py]: success
+[2023-08-02 05:51:03] INFO root fetch - processPackages [indieweb-rocks]: Remove: archive file [/home/abi/fetcher/tmp/indieweb_rocks-0.0.2.tar.gz]
+[2023-08-02 05:51:03] INFO root fetch - processPackages [indieweb-rocks]: Remove: archive file [/home/abi/fetcher/tmp/indieweb_rocks-0.0.3.tar.gz]
+[2023-08-02 05:51:03] INFO root fetch - main [MainThread]: End processing [indieweb-rocks]: success
+[2023-08-02 05:51:03] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2023-08-02 05:51:03] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-08-02 05:51:03] INFO root fetch - processPackages [py-doc]: Downloading https://files.pythonhosted.org/packages/ee/52/a1a02effd769884bd4cd97ab861f453ae5664085ab6ed8100da6f64cfcbe/py-doc-0.0.9.tar.gz
+[2023-08-02 05:51:03] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.8.tar.gz]
+[2023-08-02 05:51:03] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.9.tar.gz]
+[2023-08-02 05:51:03] INFO root fetch - main [MainThread]: End processing [prompttools]: success
+[2023-08-02 05:51:03] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-08-02 05:51:03] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-2.1.2.tar.gz tmp/fyers_sdk-2.1.3.tar.gz --markdown 20230802/f/fyers-sdk/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-08-02 05:51:03] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2023-08-02 05:51:03] INFO root fetch - processPackages [alibabacloud-arms20190808-py2]: Downloading https://files.pythonhosted.org/packages/aa/18/948134668e4a830bd44e06c094566aaf6354768abac9146953709c041692/alibabacloud_arms20190808_py2-2.0.3.tar.gz
+[2023-08-02 05:51:03] INFO root fetch - processPackages [hiveviewer]: Remove: archive file [/home/abi/fetcher/tmp/hiveviewer-0.1.12.tar.gz]
+[2023-08-02 05:51:03] INFO root fetch - processPackages [hiveviewer]: Remove: archive file [/home/abi/fetcher/tmp/hiveviewer-0.2.1.tar.gz]
+[2023-08-02 05:51:03] INFO root fetch - main [MainThread]: End processing [hiveviewer]: success
+[2023-08-02 05:51:03] INFO root fetch - processPackages [py-doc]: executing diffoscope
+[2023-08-02 05:51:03] INFO root fetch - processPackages [py-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-doc-0.0.8.tar.gz tmp/py-doc-0.0.9.tar.gz --markdown 20230802/p/py-doc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 05:51:03] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2023-08-02 05:51:04] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2023-08-02 05:51:04] INFO root fetch - processPackages [alibabacloud-arms20190808-py2]: executing diffoscope
+[2023-08-02 05:51:04] INFO root fetch - processPackages [alibabacloud-arms20190808-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_arms20190808_py2-2.0.2.tar.gz tmp/alibabacloud_arms20190808_py2-2.0.3.tar.gz --markdown 20230802/a/alibabacloud-arms20190808-py2/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-08-02 05:51:04] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2023-08-02 05:51:04] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20230802/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-08-02 05:51:04] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2023-08-02 05:51:04] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20230802/s/sinter/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-08-02 05:51:04] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.8.0.tar.gz]
+[2023-08-02 05:51:04] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.0.tar.gz]
+[2023-08-02 05:51:04] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2023-08-02 05:51:04] INFO root fetch - processPackages [py-doc]: Remove: archive file [/home/abi/fetcher/tmp/py-doc-0.0.8.tar.gz]
+[2023-08-02 05:51:04] INFO root fetch - processPackages [py-doc]: Remove: archive file [/home/abi/fetcher/tmp/py-doc-0.0.9.tar.gz]
+[2023-08-02 05:51:04] INFO root fetch - main [MainThread]: End processing [py-doc]: success
+[2023-08-02 05:51:04] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-2.1.2.tar.gz]
+[2023-08-02 05:51:04] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-2.1.3.tar.gz]
+[2023-08-02 05:51:04] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-08-02 05:51:05] INFO root fetch - processPackages [alibabacloud-arms20190808-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_arms20190808_py2-2.0.2.tar.gz]
+[2023-08-02 05:51:05] INFO root fetch - processPackages [alibabacloud-arms20190808-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_arms20190808_py2-2.0.3.tar.gz]
+[2023-08-02 05:51:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-arms20190808-py2]: success
+[2023-08-02 05:51:05] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2023-08-02 05:51:05] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2023-08-02 05:51:05] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2023-08-02 05:51:05] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2023-08-02 05:51:05] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2023-08-02 05:51:05] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2023-08-02 05:51:16] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-08-02 05:51:16] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-08-02 05:51:16] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-08-02 05:51:16] INFO root fetch - main [MainThread]: Store serial: [19136211]

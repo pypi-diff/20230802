@@ -12559,3 +12559,114 @@
 [2023-08-02 06:27:56] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
 [2023-08-02 06:27:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
 [2023-08-02 06:27:56] INFO root fetch - main [MainThread]: Store serial: [19136543]
+[2023-08-02 06:33:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136543]
+[2023-08-02 06:33:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-02 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyIFPNI
+[2023-08-02 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Saker
+[2023-08-02 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: attune-project-api
+[2023-08-02 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyapep
+[2023-08-02 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codex-engine-pyqt
+[2023-08-02 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clientele
+[2023-08-02 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hypixel.py
+[2023-08-02 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydantic-ome-ngff
+[2023-08-02 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chima
+[2023-08-02 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: actions-security-analyzer
+[2023-08-02 06:33:05] INFO root fetch - processPackages [actions-security-analyzer]: New version: [1.3.5] Old Version: [1.2.5]
+[2023-08-02 06:33:05] INFO root fetch - processPackages [chima]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 06:33:05] INFO root fetch - processPackages [pyIFPNI]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-02 06:33:05] INFO root fetch - processPackages [codex-engine-pyqt]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-08-02 06:33:05] INFO root fetch - processPackages [clientele]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-08-02 06:33:05] INFO root fetch - processPackages [pyapep]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-02 06:33:05] INFO root fetch - processPackages [pydantic-ome-ngff]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-08-02 06:33:05] INFO root fetch - processPackages [Saker]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-02 06:33:05] INFO root fetch - processPackages [attune-project-api]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-02 06:33:05] INFO root fetch - processPackages [hypixel.py]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-02 06:33:05] INFO root fetch - processPackages [pyIFPNI]: Downloading https://files.pythonhosted.org/packages/a0/42/5a88b588526867192d8fb8a76ccc88fcae39aafdc0ab0fecb5b9d802dd90/pyIFPNI-0.0.4.tar.gz
+[2023-08-02 06:33:05] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/d7/f8/ced67fc9acf12de675f2d634457c7373e34106fd88baa6288503685dd4d6/attune-project-api-0.9.8.tar.gz
+[2023-08-02 06:33:05] INFO root fetch - processPackages [codex-engine-pyqt]: Downloading https://files.pythonhosted.org/packages/72/b9/ca7157726cca1614cb8b03ce71fa04a168daf2140945c3b5560a015087be/codex-engine-pyqt-0.0.9.tar.gz
+[2023-08-02 06:33:05] INFO root fetch - processPackages [actions-security-analyzer]: Downloading https://files.pythonhosted.org/packages/e3/73/59648068c1e5102671370f904f5290f73c60aa2a620b3465c7ee44920148/actions_security_analyzer-1.2.5.tar.gz
+[2023-08-02 06:33:05] INFO root fetch - processPackages [chima]: Downloading https://files.pythonhosted.org/packages/9a/3d/11b770dc58d2b75c58442deb2971499f66c8a510b4b49baaddd1752beb81/chima-0.0.8.tar.gz
+[2023-08-02 06:33:06] INFO root fetch - processPackages [pyapep]: Downloading https://files.pythonhosted.org/packages/8d/dc/977d438b4059892eb649b60719dd7d8eb66dccfae92558bdcd1c37002cb0/pyapep-0.1.3.tar.gz
+[2023-08-02 06:33:06] INFO root fetch - processPackages [Saker]: Downloading https://files.pythonhosted.org/packages/e7/5e/1b94eea4e51627e87f75d6250d5fc41913c7212c6f614721e51694e3447a/Saker-1.0.8.tar.gz
+[2023-08-02 06:33:06] INFO root fetch - processPackages [pydantic-ome-ngff]: Downloading https://files.pythonhosted.org/packages/45/65/c432d9e9880d34b8f37d761a222ef3d8c581063529585c5b6e4487f945ca/pydantic_ome_ngff-0.2.3.tar.gz
+[2023-08-02 06:33:06] INFO root fetch - processPackages [clientele]: Downloading https://files.pythonhosted.org/packages/c0/37/f5507b47b825a5aec990eb8766b7022347fde3a2c65e5adef038a1fce48a/clientele-0.3.2.tar.gz
+[2023-08-02 06:33:06] INFO root fetch - processPackages [hypixel.py]: Downloading https://files.pythonhosted.org/packages/bf/b1/504eb30361d0d801aacb19c4e52b0dd91dc73fcb3a4ef14e9db77cd687d8/hypixel.py-0.4.1.tar.gz
+[2023-08-02 06:33:06] INFO root fetch - processPackages [pyIFPNI]: Downloading https://files.pythonhosted.org/packages/c6/aa/4d09b4c6dfda7ff814f7e791b4c92bf17f022f873a5753d7f1e2eb3dd100/pyIFPNI-0.0.5.tar.gz
+[2023-08-02 06:33:06] INFO root fetch - processPackages [codex-engine-pyqt]: Downloading https://files.pythonhosted.org/packages/ce/c6/c68ce5a1fdd67a309a23b4010861e546f810a1cbd3bf23438e7758ec790b/codex-engine-pyqt-0.1.0.tar.gz
+[2023-08-02 06:33:06] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/c7/16/d44eb9ceaa1f24e93d7e0ef5a7cc8f16ca2354efe09e1f3d05025fa94147/attune-project-api-0.9.9.tar.gz
+[2023-08-02 06:33:06] INFO root fetch - processPackages [chima]: Downloading https://files.pythonhosted.org/packages/76/50/145f581fdbaac6a541c615987d5bdf818f3aa19de5578423cd52b460e3dd/chima-0.0.9.tar.gz
+[2023-08-02 06:33:06] INFO root fetch - processPackages [Saker]: Downloading https://files.pythonhosted.org/packages/34/41/4fef042e57e4a51a13453101cdc9d07d32186f2b3518a7e0d364bfacec4c/Saker-1.0.9.tar.gz
+[2023-08-02 06:33:06] INFO root fetch - processPackages [pyIFPNI]: executing diffoscope
+[2023-08-02 06:33:06] INFO root fetch - processPackages [pyIFPNI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyIFPNI-0.0.4.tar.gz tmp/pyIFPNI-0.0.5.tar.gz --markdown 20230802/p/pyIFPNI/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-02 06:33:06] INFO root fetch - processPackages [codex-engine-pyqt]: executing diffoscope
+[2023-08-02 06:33:06] INFO root fetch - processPackages [codex-engine-pyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codex-engine-pyqt-0.0.9.tar.gz tmp/codex-engine-pyqt-0.1.0.tar.gz --markdown 20230802/c/codex-engine-pyqt/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-08-02 06:33:06] INFO root fetch - processPackages [hypixel.py]: Downloading https://files.pythonhosted.org/packages/3e/b2/560b1ccc5c8324e78d610aeb54685f1501a4c14f473f741c3db194dc0a02/hypixel.py-0.4.2.tar.gz
+[2023-08-02 06:33:06] INFO root fetch - processPackages [attune-project-api]: executing diffoscope
+[2023-08-02 06:33:06] INFO root fetch - processPackages [attune-project-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attune-project-api-0.9.8.tar.gz tmp/attune-project-api-0.9.9.tar.gz --markdown 20230802/a/attune-project-api/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-02 06:33:06] INFO root fetch - processPackages [pyapep]: Downloading https://files.pythonhosted.org/packages/d3/75/84454292f26dc2a47a004fb8af69ab963613c50c0ec3b0ffb05a7f3b745a/pyapep-0.1.4.tar.gz
+[2023-08-02 06:33:06] INFO root fetch - processPackages [clientele]: Downloading https://files.pythonhosted.org/packages/26/94/83a13cd3b2d712d846099befcd60fa641a115f176ae120250c56f280e979/clientele-0.4.0.tar.gz
+[2023-08-02 06:33:06] INFO root fetch - processPackages [pydantic-ome-ngff]: Downloading https://files.pythonhosted.org/packages/05/18/64a07e42b33587d3bf5b4427800258adf924ed97f9658aff5b3106db1cd7/pydantic_ome_ngff-0.3.0.tar.gz
+[2023-08-02 06:33:06] INFO root fetch - processPackages [actions-security-analyzer]: Downloading https://files.pythonhosted.org/packages/a2/d4/c8081e77303e4ff6e645a0f74db283a34d52a1ab1b85c32b8e477aecbd3a/actions_security_analyzer-1.3.5.tar.gz
+[2023-08-02 06:33:06] INFO root fetch - processPackages [chima]: executing diffoscope
+[2023-08-02 06:33:06] INFO root fetch - processPackages [chima]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chima-0.0.8.tar.gz tmp/chima-0.0.9.tar.gz --markdown 20230802/c/chima/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 06:33:06] INFO root fetch - processPackages [Saker]: executing diffoscope
+[2023-08-02 06:33:06] INFO root fetch - processPackages [Saker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Saker-1.0.8.tar.gz tmp/Saker-1.0.9.tar.gz --markdown 20230802/S/Saker/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 06:33:06] INFO root fetch - processPackages [hypixel.py]: executing diffoscope
+[2023-08-02 06:33:06] INFO root fetch - processPackages [hypixel.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypixel.py-0.4.1.tar.gz tmp/hypixel.py-0.4.2.tar.gz --markdown 20230802/h/hypixel.py/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-02 06:33:06] INFO root fetch - processPackages [clientele]: executing diffoscope
+[2023-08-02 06:33:06] INFO root fetch - processPackages [clientele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clientele-0.3.2.tar.gz tmp/clientele-0.4.0.tar.gz --markdown 20230802/c/clientele/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-08-02 06:33:06] INFO root fetch - processPackages [pyapep]: executing diffoscope
+[2023-08-02 06:33:06] INFO root fetch - processPackages [pyapep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyapep-0.1.3.tar.gz tmp/pyapep-0.1.4.tar.gz --markdown 20230802/p/pyapep/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-02 06:33:06] INFO root fetch - processPackages [pydantic-ome-ngff]: executing diffoscope
+[2023-08-02 06:33:06] INFO root fetch - processPackages [pydantic-ome-ngff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_ome_ngff-0.2.3.tar.gz tmp/pydantic_ome_ngff-0.3.0.tar.gz --markdown 20230802/p/pydantic-ome-ngff/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-08-02 06:33:07] INFO root fetch - processPackages [actions-security-analyzer]: executing diffoscope
+[2023-08-02 06:33:07] INFO root fetch - processPackages [actions-security-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actions_security_analyzer-1.2.5.tar.gz tmp/actions_security_analyzer-1.3.5.tar.gz --markdown 20230802/a/actions-security-analyzer/1.2.5-1.3.5/diff.md --exclude *.pyd
+[2023-08-02 06:33:08] INFO root fetch - processPackages [pyIFPNI]: Remove: archive file [/home/abi/fetcher/tmp/pyIFPNI-0.0.4.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - processPackages [pyIFPNI]: Remove: archive file [/home/abi/fetcher/tmp/pyIFPNI-0.0.5.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - processPackages [pyIFPNI]: Start processing: composabl-dev
+[2023-08-02 06:33:08] INFO root fetch - main [MainThread]: End processing [pyIFPNI]: success
+[2023-08-02 06:33:08] INFO root fetch - processPackages [composabl-dev]: New version: [0.3.9.dev2] Old Version: [0.3.9.dev1]
+[2023-08-02 06:33:08] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/34/da/0c4a87ee1ac1db41094afe0099d01878e30ce1e338da054e72dc6a8cb2c1/composabl_dev-0.3.9.dev1-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-02 06:33:08] INFO root fetch - processPackages [codex-engine-pyqt]: Remove: archive file [/home/abi/fetcher/tmp/codex-engine-pyqt-0.0.9.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - processPackages [codex-engine-pyqt]: Remove: archive file [/home/abi/fetcher/tmp/codex-engine-pyqt-0.1.0.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - processPackages [codex-engine-pyqt]: Start processing: SPCEj9bbotw
+[2023-08-02 06:33:08] INFO root fetch - main [MainThread]: End processing [codex-engine-pyqt]: success
+[2023-08-02 06:33:08] INFO root fetch - processPackages [SPCEj9bbotw]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-02 06:33:08] INFO root fetch - processPackages [pyapep]: Remove: archive file [/home/abi/fetcher/tmp/pyapep-0.1.3.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - processPackages [pyapep]: Remove: archive file [/home/abi/fetcher/tmp/pyapep-0.1.4.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - main [MainThread]: End processing [pyapep]: success
+[2023-08-02 06:33:08] INFO root fetch - processPackages [SPCEj9bbotw]: Downloading https://files.pythonhosted.org/packages/42/80/f59b52ed056aaa1080de3e760d3dbcb4166292b3fd98631349393187ac76/SPCEj9bbotw-0.0.4.tar.gz
+[2023-08-02 06:33:08] INFO root fetch - processPackages [chima]: Remove: archive file [/home/abi/fetcher/tmp/chima-0.0.8.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - processPackages [chima]: Remove: archive file [/home/abi/fetcher/tmp/chima-0.0.9.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - main [MainThread]: End processing [chima]: success
+[2023-08-02 06:33:08] INFO root fetch - processPackages [clientele]: Remove: archive file [/home/abi/fetcher/tmp/clientele-0.3.2.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - processPackages [clientele]: Remove: archive file [/home/abi/fetcher/tmp/clientele-0.4.0.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - main [MainThread]: End processing [clientele]: success
+[2023-08-02 06:33:08] INFO root fetch - processPackages [pydantic-ome-ngff]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_ome_ngff-0.2.3.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - processPackages [pydantic-ome-ngff]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_ome_ngff-0.3.0.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - main [MainThread]: End processing [pydantic-ome-ngff]: success
+[2023-08-02 06:33:08] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/72/fe/00f52e1caee3d4d89796d6e0043e69a0b002169bb09cb4686665693ed25f/composabl_dev-0.3.9.dev2-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-02 06:33:08] INFO root fetch - processPackages [SPCEj9bbotw]: Downloading https://files.pythonhosted.org/packages/b6/e1/8ca0fbfffa35dcf909d192c70a4d81d6a34e18a53fa5af35d125de4127cf/SPCEj9bbotw-0.0.5.tar.gz
+[2023-08-02 06:33:08] INFO root fetch - processPackages [hypixel.py]: Remove: archive file [/home/abi/fetcher/tmp/hypixel.py-0.4.1.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - processPackages [hypixel.py]: Remove: archive file [/home/abi/fetcher/tmp/hypixel.py-0.4.2.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - main [MainThread]: End processing [hypixel.py]: success
+[2023-08-02 06:33:08] INFO root fetch - processPackages [actions-security-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/actions_security_analyzer-1.2.5.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - processPackages [actions-security-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/actions_security_analyzer-1.3.5.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - main [MainThread]: End processing [actions-security-analyzer]: success
+[2023-08-02 06:33:08] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.8.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.9.tar.gz]
+[2023-08-02 06:33:08] INFO root fetch - main [MainThread]: End processing [attune-project-api]: success
+[2023-08-02 06:33:08] INFO root fetch - processPackages [SPCEj9bbotw]: executing diffoscope
+[2023-08-02 06:33:08] INFO root fetch - processPackages [SPCEj9bbotw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPCEj9bbotw-0.0.4.tar.gz tmp/SPCEj9bbotw-0.0.5.tar.gz --markdown 20230802/S/SPCEj9bbotw/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-02 06:33:09] INFO root fetch - processPackages [Saker]: Remove: archive file [/home/abi/fetcher/tmp/Saker-1.0.8.tar.gz]
+[2023-08-02 06:33:09] INFO root fetch - processPackages [Saker]: Remove: archive file [/home/abi/fetcher/tmp/Saker-1.0.9.tar.gz]
+[2023-08-02 06:33:09] INFO root fetch - main [MainThread]: End processing [Saker]: success
+[2023-08-02 06:33:09] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-08-02 06:33:09] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.3.9.dev1-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_dev-0.3.9.dev2-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230802/c/composabl-dev/0.3.9.dev1-0.3.9.dev2/diff.md --exclude *.pyd
+[2023-08-02 06:33:09] INFO root fetch - processPackages [SPCEj9bbotw]: Remove: archive file [/home/abi/fetcher/tmp/SPCEj9bbotw-0.0.4.tar.gz]
+[2023-08-02 06:33:09] INFO root fetch - processPackages [SPCEj9bbotw]: Remove: archive file [/home/abi/fetcher/tmp/SPCEj9bbotw-0.0.5.tar.gz]
+[2023-08-02 06:33:09] INFO root fetch - main [MainThread]: End processing [SPCEj9bbotw]: success
+[2023-08-02 06:33:24] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.3.9.dev1-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-02 06:33:24] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.3.9.dev2-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-02 06:33:24] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-08-02 06:33:24] INFO root fetch - main [MainThread]: Store serial: [19136607]

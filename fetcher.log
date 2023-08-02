@@ -10454,3 +10454,78 @@
 [2023-08-02 04:37:16] INFO root fetch - processPackages [blender-stubs]: Remove: archive file [/home/abi/fetcher/tmp/blender-stubs-3.2.0.27.dev5733491624.tar.gz]
 [2023-08-02 04:37:16] INFO root fetch - main [MainThread]: End processing [blender-stubs]: success
 [2023-08-02 04:37:16] INFO root fetch - main [MainThread]: Store serial: [19135658]
+[2023-08-02 04:42:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19135658]
+[2023-08-02 04:42:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-02 04:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RobertCommonDriver
+[2023-08-02 04:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo11-addon-account-loan
+[2023-08-02 04:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-avatar
+[2023-08-02 04:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrfuniverse
+[2023-08-02 04:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: formulite
+[2023-08-02 04:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: news-2-pdf
+[2023-08-02 04:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-account-financial-tools
+[2023-08-02 04:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-avatar20220130-py2
+[2023-08-02 04:42:25] INFO root fetch - processPackages [RobertCommonDriver]: New version: [0.1.47] Old Version: [0.1.46]
+[2023-08-02 04:42:25] INFO root fetch - processPackages [odoo11-addon-account-loan]: New version: [11.0.1.2.0.99.dev7] Old Version: [11.0.1.2.0.99.dev6]
+[2023-08-02 04:42:25] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: New version: [2.0.0] Old Version: [1.0.3]
+[2023-08-02 04:42:25] INFO root fetch - processPackages [pyrfuniverse]: New version: [0.9.12] Old Version: [0.9.11]
+[2023-08-02 04:42:25] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: New version: [16.0.20230627.0] Old Version: [16.0.20230606.1]
+[2023-08-02 04:42:25] INFO root fetch - processPackages [news-2-pdf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 04:42:25] INFO root fetch - processPackages [formulite]: New version: [0.0.1.dev0] Old Version: [0.0.1]
+[2023-08-02 04:42:25] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: New version: [1.0.9] Old Version: [1.0.25]
+[2023-08-02 04:42:25] INFO root fetch - processPackages [RobertCommonDriver]: Downloading https://files.pythonhosted.org/packages/6e/7c/fb81abfaf85f53579a6e087318cbbad2a5b0a99fd29b9af4a265d0e80805/RobertCommonDriver-0.1.46.tar.gz
+[2023-08-02 04:42:25] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Downloading https://files.pythonhosted.org/packages/2a/f2/20f6b557115d7041c3f555b0d3a5b5ec5fdd8e0f9981840d2a14d7b1f7e1/aliyun-python-sdk-avatar-1.0.25.tar.gz
+[2023-08-02 04:42:25] INFO root fetch - processPackages [pyrfuniverse]: Downloading https://files.pythonhosted.org/packages/e5/f6/4266b5157a8fff35cc867106dba813b9b3a0e8790ad4e24f3df36efc809f/pyrfuniverse-0.9.11.tar.gz
+[2023-08-02 04:42:25] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: Downloading https://files.pythonhosted.org/packages/b2/a4/2f2fd6237440b7073eaf2050cbfa178c490d3237da96f1dbbb0f65b0a20f/odoo_addons_oca_account_financial_tools-16.0.20230606.1-py3-none-any.whl
+[2023-08-02 04:42:25] INFO root fetch - processPackages [odoo11-addon-account-loan]: Downloading https://files.pythonhosted.org/packages/8b/29/341f3d0121e34969bcad6598692c551071c3754f10a248f136579c6afa34/odoo11_addon_account_loan-11.0.1.2.0.99.dev6-py2.py3-none-any.whl
+[2023-08-02 04:42:25] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Downloading https://files.pythonhosted.org/packages/24/54/b74d23547b44c5f4f5fc8e9a3db510f9e11eabcd357c464590fdd9af7ee1/alibabacloud_avatar20220130_py2-1.0.3.tar.gz
+[2023-08-02 04:42:25] INFO root fetch - processPackages [news-2-pdf]: Downloading https://files.pythonhosted.org/packages/dd/a3/4f02e1bc97f0ecc350b5ecec0d5b5eb9eed9947c6b905887454d568d7d55/news_2_pdf-0.0.8.tar.gz
+[2023-08-02 04:42:25] INFO root fetch - processPackages [formulite]: Downloading https://files.pythonhosted.org/packages/10/95/c66bdf58265a7ae0d71aed85a97ee92c76038588166afb83098c5b36432a/formulite-0.0.1.tar.gz
+[2023-08-02 04:42:25] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Downloading https://files.pythonhosted.org/packages/ff/e8/ba9744da258b0e71cdc1b7fe1a4f25a7bd3d9806ce5911f0b24f0f754815/aliyun-python-sdk-avatar-1.0.9.tar.gz
+[2023-08-02 04:42:25] INFO root fetch - processPackages [RobertCommonDriver]: Downloading https://files.pythonhosted.org/packages/32/a6/1089602dd3757c7ef1ab60ce70efec24c0de66fa7edcdd20a84b47cfc884/RobertCommonDriver-0.1.47.tar.gz
+[2023-08-02 04:42:26] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: executing diffoscope
+[2023-08-02 04:42:26] INFO root fetch - processPackages [pyrfuniverse]: Downloading https://files.pythonhosted.org/packages/08/4a/4fd7cb2d7f1512be4fdf6fdfd1ea56ec93b85ce1a3f0f0b24fd6723e488b/pyrfuniverse-0.9.12.tar.gz
+[2023-08-02 04:42:26] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-avatar-1.0.25.tar.gz tmp/aliyun-python-sdk-avatar-1.0.9.tar.gz --markdown 20230802/a/aliyun-python-sdk-avatar/1.0.25-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 04:42:26] INFO root fetch - processPackages [RobertCommonDriver]: executing diffoscope
+[2023-08-02 04:42:26] INFO root fetch - processPackages [RobertCommonDriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonDriver-0.1.46.tar.gz tmp/RobertCommonDriver-0.1.47.tar.gz --markdown 20230802/R/RobertCommonDriver/0.1.46-0.1.47/diff.md --exclude *.pyd
+[2023-08-02 04:42:26] INFO root fetch - processPackages [formulite]: Downloading https://files.pythonhosted.org/packages/4b/6d/a59ff4d114da1a3edbe75a23f9dc1804022fa25e1bf62d13acba0577f91f/formulite-0.0.1.dev0.tar.gz
+[2023-08-02 04:42:26] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: Downloading https://files.pythonhosted.org/packages/82/d0/a991ea3d26c025386116d6c5098146ba191accc841fb7d9c7b300fd60df8/odoo_addons_oca_account_financial_tools-16.0.20230627.0-py3-none-any.whl
+[2023-08-02 04:42:26] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Downloading https://files.pythonhosted.org/packages/3f/51/c7b5f2b9675a7d0ac04faf0baf37407c9bd0f31c5293136665d9ba88e863/alibabacloud_avatar20220130_py2-2.0.0.tar.gz
+[2023-08-02 04:42:26] INFO root fetch - processPackages [odoo11-addon-account-loan]: Downloading https://files.pythonhosted.org/packages/ab/a8/2d953ab342d5b071e51d463ef744e2dc9e49168ef5fdcf17f99cc9195423/odoo11_addon_account_loan-11.0.1.2.0.99.dev7-py2.py3-none-any.whl
+[2023-08-02 04:42:26] INFO root fetch - processPackages [pyrfuniverse]: executing diffoscope
+[2023-08-02 04:42:26] INFO root fetch - processPackages [pyrfuniverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrfuniverse-0.9.11.tar.gz tmp/pyrfuniverse-0.9.12.tar.gz --markdown 20230802/p/pyrfuniverse/0.9.11-0.9.12/diff.md --exclude *.pyd
+[2023-08-02 04:42:26] INFO root fetch - processPackages [news-2-pdf]: Downloading https://files.pythonhosted.org/packages/17/7f/866d64652e12fe00f62b27f330c10d60e267b35f8d44c0f8be8c03ed30c4/news_2_pdf-0.0.9.tar.gz
+[2023-08-02 04:42:26] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: executing diffoscope
+[2023-08-02 04:42:26] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_financial_tools-16.0.20230606.1-py3-none-any.whl.zip tmp/odoo_addons_oca_account_financial_tools-16.0.20230627.0-py3-none-any.whl.zip --markdown 20230802/o/odoo-addons-oca-account-financial-tools/16.0.20230606.1-16.0.20230627.0/diff.md --exclude *.pyd
+[2023-08-02 04:42:26] INFO root fetch - processPackages [formulite]: executing diffoscope
+[2023-08-02 04:42:26] INFO root fetch - processPackages [formulite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formulite-0.0.1.tar.gz tmp/formulite-0.0.1.dev0.tar.gz --markdown 20230802/f/formulite/0.0.1-0.0.1.dev0/diff.md --exclude *.pyd
+[2023-08-02 04:42:26] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: executing diffoscope
+[2023-08-02 04:42:26] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_avatar20220130_py2-1.0.3.tar.gz tmp/alibabacloud_avatar20220130_py2-2.0.0.tar.gz --markdown 20230802/a/alibabacloud-avatar20220130-py2/1.0.3-2.0.0/diff.md --exclude *.pyd
+[2023-08-02 04:42:26] INFO root fetch - processPackages [odoo11-addon-account-loan]: executing diffoscope
+[2023-08-02 04:42:26] INFO root fetch - processPackages [odoo11-addon-account-loan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_account_loan-11.0.1.2.0.99.dev6-py2.py3-none-any.whl.zip tmp/odoo11_addon_account_loan-11.0.1.2.0.99.dev7-py2.py3-none-any.whl.zip --markdown 20230802/o/odoo11-addon-account-loan/11.0.1.2.0.99.dev6-11.0.1.2.0.99.dev7/diff.md --exclude *.pyd
+[2023-08-02 04:42:26] INFO root fetch - processPackages [news-2-pdf]: executing diffoscope
+[2023-08-02 04:42:26] INFO root fetch - processPackages [news-2-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news_2_pdf-0.0.8.tar.gz tmp/news_2_pdf-0.0.9.tar.gz --markdown 20230802/n/news-2-pdf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 04:42:27] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-avatar-1.0.25.tar.gz]
+[2023-08-02 04:42:27] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-avatar-1.0.9.tar.gz]
+[2023-08-02 04:42:27] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-avatar]: success
+[2023-08-02 04:42:27] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_financial_tools-16.0.20230606.1-py3-none-any.whl.zip]
+[2023-08-02 04:42:27] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_financial_tools-16.0.20230627.0-py3-none-any.whl.zip]
+[2023-08-02 04:42:27] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-financial-tools]: success
+[2023-08-02 04:42:27] INFO root fetch - processPackages [formulite]: Remove: archive file [/home/abi/fetcher/tmp/formulite-0.0.1.tar.gz]
+[2023-08-02 04:42:27] INFO root fetch - processPackages [formulite]: Remove: archive file [/home/abi/fetcher/tmp/formulite-0.0.1.dev0.tar.gz]
+[2023-08-02 04:42:27] INFO root fetch - main [MainThread]: End processing [formulite]: success
+[2023-08-02 04:42:27] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130_py2-1.0.3.tar.gz]
+[2023-08-02 04:42:27] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130_py2-2.0.0.tar.gz]
+[2023-08-02 04:42:27] INFO root fetch - main [MainThread]: End processing [alibabacloud-avatar20220130-py2]: success
+[2023-08-02 04:42:27] INFO root fetch - processPackages [RobertCommonDriver]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonDriver-0.1.46.tar.gz]
+[2023-08-02 04:42:27] INFO root fetch - processPackages [RobertCommonDriver]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonDriver-0.1.47.tar.gz]
+[2023-08-02 04:42:27] INFO root fetch - main [MainThread]: End processing [RobertCommonDriver]: success
+[2023-08-02 04:42:27] INFO root fetch - processPackages [news-2-pdf]: Remove: archive file [/home/abi/fetcher/tmp/news_2_pdf-0.0.8.tar.gz]
+[2023-08-02 04:42:27] INFO root fetch - processPackages [news-2-pdf]: Remove: archive file [/home/abi/fetcher/tmp/news_2_pdf-0.0.9.tar.gz]
+[2023-08-02 04:42:27] INFO root fetch - main [MainThread]: End processing [news-2-pdf]: success
+[2023-08-02 04:42:27] INFO root fetch - processPackages [pyrfuniverse]: Remove: archive file [/home/abi/fetcher/tmp/pyrfuniverse-0.9.11.tar.gz]
+[2023-08-02 04:42:27] INFO root fetch - processPackages [pyrfuniverse]: Remove: archive file [/home/abi/fetcher/tmp/pyrfuniverse-0.9.12.tar.gz]
+[2023-08-02 04:42:27] INFO root fetch - main [MainThread]: End processing [pyrfuniverse]: success
+[2023-08-02 04:42:28] INFO root fetch - processPackages [odoo11-addon-account-loan]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_account_loan-11.0.1.2.0.99.dev6-py2.py3-none-any.whl.zip]
+[2023-08-02 04:42:28] INFO root fetch - processPackages [odoo11-addon-account-loan]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_account_loan-11.0.1.2.0.99.dev7-py2.py3-none-any.whl.zip]
+[2023-08-02 04:42:28] INFO root fetch - main [MainThread]: End processing [odoo11-addon-account-loan]: success
+[2023-08-02 04:42:28] INFO root fetch - main [MainThread]: Store serial: [19135681]

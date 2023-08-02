@@ -15525,3 +15525,159 @@
 [2023-08-02 09:26:11] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.0.9-py3-none-any.whl.zip]
 [2023-08-02 09:26:11] INFO root fetch - main [MainThread]: End processing [abstract-modules]: success
 [2023-08-02 09:26:11] INFO root fetch - main [MainThread]: Store serial: [19137943]
+[2023-08-02 09:31:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19137943]
+[2023-08-02 09:31:19] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-08-02 09:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-modules
+[2023-08-02 09:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frontengine-dev
+[2023-08-02 09:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LaLaaddition-package
+[2023-08-02 09:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hecdbetz
+[2023-08-02 09:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omni-infer-api
+[2023-08-02 09:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rclip
+[2023-08-02 09:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: slitherin
+[2023-08-02 09:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: timeturner
+[2023-08-02 09:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: misery
+[2023-08-02 09:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: liveramp-automation
+[2023-08-02 09:31:20] INFO root fetch - processPackages [misery]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-08-02 09:31:20] INFO root fetch - processPackages [timeturner]: New version: [0.3.1] Old Version: [0.3.0a0]
+[2023-08-02 09:31:20] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 09:31:20] WARNING root fetch - processPackages [hecdbetz]: Skipping, unable to determine old version
+[2023-08-02 09:31:20] INFO root fetch - processPackages [hecdbetz]: Start processing: fossbill
+[2023-08-02 09:31:20] INFO root fetch - main [MainThread]: End processing [hecdbetz] error
+[2023-08-02 09:31:20] INFO root fetch - processPackages [abstract-modules]: New version: [0.0.1.0] Old Version: [0.0.0.9]
+[2023-08-02 09:31:20] INFO root fetch - processPackages [rclip]: New version: [1.4.7a3] Old Version: [1.4.7a2]
+[2023-08-02 09:31:20] INFO root fetch - processPackages [slitherin]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-02 09:31:20] WARNING root fetch - processPackages [LaLaaddition-package]: Skipping, unable to determine old version
+[2023-08-02 09:31:20] INFO root fetch - processPackages [LaLaaddition-package]: Start processing: shakenfist-utilities
+[2023-08-02 09:31:20] INFO root fetch - main [MainThread]: End processing [LaLaaddition-package] error
+[2023-08-02 09:31:20] INFO root fetch - processPackages [liveramp-automation]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-02 09:31:20] INFO root fetch - processPackages [omni-infer-api]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-02 09:31:20] INFO root fetch - processPackages [fossbill]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-08-02 09:31:20] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2023-08-02 09:31:20] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/8c/ff/261449a3774115566086fe38a043fec6f35d622dcdd5e3137678e2240f77/rclip-1.4.7a2.tar.gz
+[2023-08-02 09:31:20] INFO root fetch - processPackages [slitherin]: Downloading https://files.pythonhosted.org/packages/da/61/ce09417f54d870673fed5913e2c4d6868b576b5be822b9d6cf005b452aa2/slitherin-0.2.0-py3-none-any.whl
+[2023-08-02 09:31:20] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/2a/70/10a495953e8d6b39c104f63de00fff7b7ea49053e8f33a34e6b1e00ddd80/liveramp_automation-0.1.3.tar.gz
+[2023-08-02 09:31:20] INFO root fetch - processPackages [shakenfist-utilities]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-08-02 09:31:20] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/00/11/4d9ce310315018b101e68b7ce7cf9118e3c1498469d9f9c234c8c92b807b/fossbill-1.3.0-py3-none-any.whl
+[2023-08-02 09:31:20] INFO root fetch - processPackages [misery]: Downloading https://files.pythonhosted.org/packages/b7/63/2078b13199ee6db7a0196ceab3521bc459918cbce5c9446b43ae7df908e3/misery-0.6.0.tar.gz
+[2023-08-02 09:31:20] INFO root fetch - processPackages [timeturner]: Downloading https://files.pythonhosted.org/packages/00/7f/fb630ea89493739fcf8d5f6bd07be6bacc532bde2d3805b9f8cde2f67a31/timeturner-0.3.0a0.tar.gz
+[2023-08-02 09:31:20] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/49/ee/cc25a025fb922b7085c76e7c55ae7def009ee230bc91fb65621042c27237/abstract_modules-0.0.0.9-py3-none-any.whl
+[2023-08-02 09:31:20] INFO root fetch - processPackages [omni-infer-api]: Downloading https://files.pythonhosted.org/packages/ba/7f/eff31ff749ad48303836cedb89e45f4526f3ac6868421966342f9662ac3e/omni_infer_api-0.0.4-py3-none-any.whl
+[2023-08-02 09:31:20] INFO root fetch - processPackages [shakenfist-utilities]: Downloading https://files.pythonhosted.org/packages/0e/74/47035b9f9bd05aa4385242935a7318f14249a62ae735128719525afdaf71/shakenfist-utilities-0.5.0.tar.gz
+[2023-08-02 09:31:20] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2023-08-02 09:31:20] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/5b/b9/a99c1d44a1196306212d78292d8d97e705ffe603cee33cfcd6fa672728ff/rclip-1.4.7a3.tar.gz
+[2023-08-02 09:31:20] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/f2/f6/449da30fe709cc73648917c8e3b51228600b7285fd38101a428332f288c7/liveramp_automation-0.1.4.tar.gz
+[2023-08-02 09:31:21] INFO root fetch - processPackages [misery]: Downloading https://files.pythonhosted.org/packages/e9/7b/2081c8eed373ca363d63f331fcb8ad49d79360c5af322d53f0038d58f884/misery-0.6.1.tar.gz
+[2023-08-02 09:31:21] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/53/7e/e92a1c4cc531c84155683a26d17dbedf5efeaf96086d15f330b59e795de4/abstract_modules-0.0.1.0-py3-none-any.whl
+[2023-08-02 09:31:21] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/f7/26/d0c51ba908d789910af4f9a92c1b5d87ff94ff4a3f3e2f38adce5707f0de/fossbill-1.4.0-py3-none-any.whl
+[2023-08-02 09:31:21] INFO root fetch - processPackages [omni-infer-api]: Downloading https://files.pythonhosted.org/packages/5a/8a/0ceb3250a4d49fd0f5f4c5e0a4ee73d30da6556e7d1172847f370b93369a/omni_infer_api-0.0.5-py3-none-any.whl
+[2023-08-02 09:31:21] INFO root fetch - processPackages [timeturner]: Downloading https://files.pythonhosted.org/packages/30/22/57aa859bcb49f090b73e6d66a26964bec1531084c977fdde46a2e181d1d7/timeturner-0.3.1.tar.gz
+[2023-08-02 09:31:21] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-08-02 09:31:21] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230802/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 09:31:21] INFO root fetch - processPackages [slitherin]: Downloading https://files.pythonhosted.org/packages/2a/a6/dba94c079fb183d6abc065d047c23c5377911065ab381f915c6bdf34693d/slitherin-0.2.0.tar.gz
+[2023-08-02 09:31:21] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2023-08-02 09:31:21] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-0.1.3.tar.gz tmp/liveramp_automation-0.1.4.tar.gz --markdown 20230802/l/liveramp-automation/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-02 09:31:21] INFO root fetch - processPackages [misery]: executing diffoscope
+[2023-08-02 09:31:21] INFO root fetch - processPackages [misery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misery-0.6.0.tar.gz tmp/misery-0.6.1.tar.gz --markdown 20230802/m/misery/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-08-02 09:31:21] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-02 09:31:21] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.7a2.tar.gz tmp/rclip-1.4.7a3.tar.gz --markdown 20230802/r/rclip/1.4.7a2-1.4.7a3/diff.md --exclude *.pyd
+[2023-08-02 09:31:21] INFO root fetch - processPackages [abstract-modules]: executing diffoscope
+[2023-08-02 09:31:21] INFO root fetch - processPackages [abstract-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_modules-0.0.0.9-py3-none-any.whl.zip tmp/abstract_modules-0.0.1.0-py3-none-any.whl.zip --markdown 20230802/a/abstract-modules/0.0.0.9-0.0.1.0/diff.md --exclude *.pyd
+[2023-08-02 09:31:21] INFO root fetch - processPackages [omni-infer-api]: executing diffoscope
+[2023-08-02 09:31:21] INFO root fetch - processPackages [omni-infer-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni_infer_api-0.0.4-py3-none-any.whl.zip tmp/omni_infer_api-0.0.5-py3-none-any.whl.zip --markdown 20230802/o/omni-infer-api/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-02 09:31:21] INFO root fetch - processPackages [fossbill]: executing diffoscope
+[2023-08-02 09:31:21] INFO root fetch - processPackages [fossbill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fossbill-1.3.0-py3-none-any.whl.zip tmp/fossbill-1.4.0-py3-none-any.whl.zip --markdown 20230802/f/fossbill/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-08-02 09:31:21] INFO root fetch - processPackages [shakenfist-utilities]: Downloading https://files.pythonhosted.org/packages/e2/e3/92add2a2116bd156c11c4574b6d1338ebdbcc2d08ab8f72bdf17ffeb0a5f/shakenfist-utilities-0.5.1.tar.gz
+[2023-08-02 09:31:21] INFO root fetch - processPackages [timeturner]: executing diffoscope
+[2023-08-02 09:31:21] INFO root fetch - processPackages [timeturner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeturner-0.3.0a0.tar.gz tmp/timeturner-0.3.1.tar.gz --markdown 20230802/t/timeturner/0.3.0a0-0.3.1/diff.md --exclude *.pyd
+[2023-08-02 09:31:21] INFO root fetch - processPackages [slitherin]: executing diffoscope
+[2023-08-02 09:31:21] INFO root fetch - processPackages [slitherin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slitherin-0.2.0-py3-none-any.whl.zip tmp/slitherin-0.2.0.tar.gz --markdown 20230802/s/slitherin/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-02 09:31:21] INFO root fetch - processPackages [shakenfist-utilities]: executing diffoscope
+[2023-08-02 09:31:21] INFO root fetch - processPackages [shakenfist-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shakenfist-utilities-0.5.0.tar.gz tmp/shakenfist-utilities-0.5.1.tar.gz --markdown 20230802/s/shakenfist-utilities/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-08-02 09:31:22] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a2.tar.gz]
+[2023-08-02 09:31:22] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a3.tar.gz]
+[2023-08-02 09:31:22] INFO root fetch - processPackages [rclip]: Start processing: nonebot-plugin-lostark-wandering-trader
+[2023-08-02 09:31:22] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-02 09:31:22] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 09:31:22] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.0.9-py3-none-any.whl.zip]
+[2023-08-02 09:31:22] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.1.0-py3-none-any.whl.zip]
+[2023-08-02 09:31:22] INFO root fetch - processPackages [abstract-modules]: Start processing: opendatalab
+[2023-08-02 09:31:22] INFO root fetch - main [MainThread]: End processing [abstract-modules]: success
+[2023-08-02 09:31:22] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: Downloading https://files.pythonhosted.org/packages/84/0d/6f8354c02378ad0dc4671360c8d25fe2093da4277b6011cda5652ee335d4/nonebot_plugin_lostark_wandering_trader-0.0.1.tar.gz
+[2023-08-02 09:31:22] INFO root fetch - processPackages [misery]: Remove: archive file [/home/abi/fetcher/tmp/misery-0.6.0.tar.gz]
+[2023-08-02 09:31:22] INFO root fetch - processPackages [misery]: Remove: archive file [/home/abi/fetcher/tmp/misery-0.6.1.tar.gz]
+[2023-08-02 09:31:22] INFO root fetch - processPackages [misery]: Start processing: DynamicForms
+[2023-08-02 09:31:22] INFO root fetch - main [MainThread]: End processing [misery]: success
+[2023-08-02 09:31:22] INFO root fetch - processPackages [DynamicForms]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-02 09:31:23] INFO root fetch - processPackages [opendatalab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 09:31:23] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/c1/a3/a9391b0a0ba21940c726b8e676f919e072e53da35bfe6fdc30f6cd4976ed/DynamicForms-0.9.8.tar.gz
+[2023-08-02 09:31:23] INFO root fetch - processPackages [slitherin]: Remove: archive file [/home/abi/fetcher/tmp/slitherin-0.2.0-py3-none-any.whl.zip]
+[2023-08-02 09:31:23] INFO root fetch - processPackages [slitherin]: Remove: archive file [/home/abi/fetcher/tmp/slitherin-0.2.0.tar.gz]
+[2023-08-02 09:31:23] INFO root fetch - processPackages [slitherin]: Start processing: test-gh-action-test
+[2023-08-02 09:31:23] INFO root fetch - main [MainThread]: End processing [slitherin]: success
+[2023-08-02 09:31:23] INFO root fetch - processPackages [timeturner]: Remove: archive file [/home/abi/fetcher/tmp/timeturner-0.3.0a0.tar.gz]
+[2023-08-02 09:31:23] INFO root fetch - processPackages [timeturner]: Remove: archive file [/home/abi/fetcher/tmp/timeturner-0.3.1.tar.gz]
+[2023-08-02 09:31:23] INFO root fetch - processPackages [timeturner]: Start processing: rclip
+[2023-08-02 09:31:23] INFO root fetch - main [MainThread]: End processing [timeturner]: success
+[2023-08-02 09:31:23] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: Downloading https://files.pythonhosted.org/packages/54/7b/2fb4c75c7fc09a3649144af1d1b4c50a059de85dfcc4d9a1451d10663689/nonebot_plugin_lostark_wandering_trader-0.0.2.tar.gz
+[2023-08-02 09:31:23] INFO root fetch - processPackages [omni-infer-api]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api-0.0.4-py3-none-any.whl.zip]
+[2023-08-02 09:31:23] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.1.3.tar.gz]
+[2023-08-02 09:31:23] INFO root fetch - processPackages [omni-infer-api]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api-0.0.5-py3-none-any.whl.zip]
+[2023-08-02 09:31:23] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.1.4.tar.gz]
+[2023-08-02 09:31:23] INFO root fetch - processPackages [omni-infer-api]: Start processing: django-cms-qe
+[2023-08-02 09:31:23] INFO root fetch - processPackages [liveramp-automation]: Start processing: LaLaaddition-package
+[2023-08-02 09:31:23] INFO root fetch - main [MainThread]: End processing [omni-infer-api]: success
+[2023-08-02 09:31:23] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2023-08-02 09:31:23] INFO root fetch - processPackages [rclip]: New version: [1.4.7a4] Old Version: [1.4.7a3]
+[2023-08-02 09:31:23] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2023-08-02 09:31:23] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2023-08-02 09:31:23] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-08-02 09:31:23] INFO root fetch - processPackages [django-cms-qe]: New version: [2.2] Old Version: [2.1]
+[2023-08-02 09:31:23] INFO root fetch - processPackages [shakenfist-utilities]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-utilities-0.5.0.tar.gz]
+[2023-08-02 09:31:23] INFO root fetch - processPackages [shakenfist-utilities]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-utilities-0.5.1.tar.gz]
+[2023-08-02 09:31:23] INFO root fetch - main [MainThread]: End processing [shakenfist-utilities]: success
+[2023-08-02 09:31:23] INFO root fetch - processPackages [LaLaaddition-package]: New version: [1.9.0] Old Version: [0.1.0]
+[2023-08-02 09:31:23] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-1.3.0-py3-none-any.whl.zip]
+[2023-08-02 09:31:23] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-1.4.0-py3-none-any.whl.zip]
+[2023-08-02 09:31:23] INFO root fetch - main [MainThread]: End processing [fossbill]: success
+[2023-08-02 09:31:23] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: executing diffoscope
+[2023-08-02 09:31:23] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_lostark_wandering_trader-0.0.1.tar.gz tmp/nonebot_plugin_lostark_wandering_trader-0.0.2.tar.gz --markdown 20230802/n/nonebot-plugin-lostark-wandering-trader/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 09:31:23] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/5b/b9/a99c1d44a1196306212d78292d8d97e705ffe603cee33cfcd6fa672728ff/rclip-1.4.7a3.tar.gz
+[2023-08-02 09:31:23] INFO root fetch - processPackages [opendatalab]: Downloading https://files.pythonhosted.org/packages/f7/4e/717f8146cd94d977baf385c38f7ab6bc0b66029a2b15a152bf4752a64f1d/opendatalab-0.0.8.tar.gz
+[2023-08-02 09:31:23] WARNING root fetch - processPackages [test-gh-action-test]: Skipping, unable to determine old version
+[2023-08-02 09:31:23] INFO root fetch - main [MainThread]: End processing [test-gh-action-test] error
+[2023-08-02 09:31:23] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/17/92/2562c5f02d4953bc96c46e2b195343702ea6763233eceaed5091889f2ab8/DynamicForms-0.9.9.tar.gz
+[2023-08-02 09:31:23] INFO root fetch - processPackages [LaLaaddition-package]: Downloading https://files.pythonhosted.org/packages/5a/1f/2ebfd8a97d33ffbd6b8429a06bbe9ce8a5ce9ba75a88956a9039a5459e59/LaLaaddition_package-0.1.0-py3-none-any.whl
+[2023-08-02 09:31:23] INFO root fetch - processPackages [django-cms-qe]: Downloading https://files.pythonhosted.org/packages/15/d5/efc5e5c404592a1de263794bf6c1a24471beae76bb94a244b5e78fba3a46/django-cms-qe-2.1.tar.gz
+[2023-08-02 09:31:23] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/af/67/09f78e50c57aa27097778ca715f352f5cf1a053c359acf5fa21365681d1a/rclip-1.4.7a4.tar.gz
+[2023-08-02 09:31:23] INFO root fetch - processPackages [DynamicForms]: executing diffoscope
+[2023-08-02 09:31:23] INFO root fetch - processPackages [DynamicForms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicForms-0.9.8.tar.gz tmp/DynamicForms-0.9.9.tar.gz --markdown 20230802/D/DynamicForms/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-02 09:31:23] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-02 09:31:23] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.7a3.tar.gz tmp/rclip-1.4.7a4.tar.gz --markdown 20230802/r/rclip/1.4.7a3-1.4.7a4/diff.md --exclude *.pyd
+[2023-08-02 09:31:23] INFO root fetch - processPackages [LaLaaddition-package]: Downloading https://files.pythonhosted.org/packages/ac/f4/525b5a8b94f46264e6963870f02fc6acc0da711234b0640885b8daeedb0b/LaLaaddition_package-1.9.0.tar.gz
+[2023-08-02 09:31:23] INFO root fetch - processPackages [opendatalab]: Downloading https://files.pythonhosted.org/packages/d2/8c/ca91b3d1708b4d449c34024d98e6314dcb33420ecebffe51c8a92ea29619/opendatalab-0.0.9.tar.gz
+[2023-08-02 09:31:24] INFO root fetch - processPackages [opendatalab]: executing diffoscope
+[2023-08-02 09:31:24] INFO root fetch - processPackages [LaLaaddition-package]: executing diffoscope
+[2023-08-02 09:31:24] INFO root fetch - processPackages [opendatalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendatalab-0.0.8.tar.gz tmp/opendatalab-0.0.9.tar.gz --markdown 20230802/o/opendatalab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 09:31:24] INFO root fetch - processPackages [LaLaaddition-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LaLaaddition_package-0.1.0-py3-none-any.whl.zip tmp/LaLaaddition_package-1.9.0.tar.gz --markdown 20230802/L/LaLaaddition-package/0.1.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-02 09:31:24] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_lostark_wandering_trader-0.0.1.tar.gz]
+[2023-08-02 09:31:24] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_lostark_wandering_trader-0.0.2.tar.gz]
+[2023-08-02 09:31:24] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-lostark-wandering-trader]: success
+[2023-08-02 09:31:24] INFO root fetch - processPackages [django-cms-qe]: Downloading https://files.pythonhosted.org/packages/51/b4/615f445d3e6c37b321fd038fd2857f7ef08800f8469de420b41b92b15a60/django-cms-qe-2.2.tar.gz
+[2023-08-02 09:31:24] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a3.tar.gz]
+[2023-08-02 09:31:24] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a4.tar.gz]
+[2023-08-02 09:31:24] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-02 09:31:24] INFO root fetch - processPackages [django-cms-qe]: executing diffoscope
+[2023-08-02 09:31:24] INFO root fetch - processPackages [django-cms-qe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cms-qe-2.1.tar.gz tmp/django-cms-qe-2.2.tar.gz --markdown 20230802/d/django-cms-qe/2.1-2.2/diff.md --exclude *.pyd
+[2023-08-02 09:31:24] INFO root fetch - processPackages [LaLaaddition-package]: Remove: archive file [/home/abi/fetcher/tmp/LaLaaddition_package-0.1.0-py3-none-any.whl.zip]
+[2023-08-02 09:31:24] INFO root fetch - processPackages [LaLaaddition-package]: Remove: archive file [/home/abi/fetcher/tmp/LaLaaddition_package-1.9.0.tar.gz]
+[2023-08-02 09:31:24] INFO root fetch - main [MainThread]: End processing [LaLaaddition-package]: success
+[2023-08-02 09:31:25] INFO root fetch - processPackages [opendatalab]: Remove: archive file [/home/abi/fetcher/tmp/opendatalab-0.0.8.tar.gz]
+[2023-08-02 09:31:25] INFO root fetch - processPackages [opendatalab]: Remove: archive file [/home/abi/fetcher/tmp/opendatalab-0.0.9.tar.gz]
+[2023-08-02 09:31:25] INFO root fetch - main [MainThread]: End processing [opendatalab]: success
+[2023-08-02 09:31:25] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.8.tar.gz]
+[2023-08-02 09:31:25] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.9.tar.gz]
+[2023-08-02 09:31:25] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
+[2023-08-02 09:32:03] INFO root fetch - processPackages [django-cms-qe]: Remove: archive file [/home/abi/fetcher/tmp/django-cms-qe-2.1.tar.gz]
+[2023-08-02 09:32:03] INFO root fetch - processPackages [django-cms-qe]: Remove: archive file [/home/abi/fetcher/tmp/django-cms-qe-2.2.tar.gz]
+[2023-08-02 09:32:03] INFO root fetch - main [MainThread]: End processing [django-cms-qe]: success
+[2023-08-02 09:32:03] INFO root fetch - main [MainThread]: Store serial: [19138007]

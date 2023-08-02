@@ -12247,3 +12247,99 @@
 [2023-08-02 06:12:16] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.18.tar.gz]
 [2023-08-02 06:12:16] INFO root fetch - main [MainThread]: End processing [harpia]: success
 [2023-08-02 06:12:16] INFO root fetch - main [MainThread]: Store serial: [19136392]
+[2023-08-02 06:17:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136392]
+[2023-08-02 06:17:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-02 06:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-core
+[2023-08-02 06:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PythonPackageUpdateChecker
+[2023-08-02 06:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastmega
+[2023-08-02 06:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-maintenance-security
+[2023-08-02 06:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: protloc-mex-x
+[2023-08-02 06:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ai-chat-chain
+[2023-08-02 06:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GTC
+[2023-08-02 06:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: snowcross
+[2023-08-02 06:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-doc
+[2023-08-02 06:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: piazza-api
+[2023-08-02 06:17:25] INFO root fetch - processPackages [protloc-mex-x]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-02 06:17:25] INFO root fetch - processPackages [piazza-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-02 06:17:25] WARNING root fetch - processPackages [PythonPackageUpdateChecker]: Skipping, unable to determine old version
+[2023-08-02 06:17:25] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Start processing: dearpyapp
+[2023-08-02 06:17:25] INFO root fetch - main [MainThread]: End processing [PythonPackageUpdateChecker] error
+[2023-08-02 06:17:25] INFO root fetch - processPackages [fastmega]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-02 06:17:25] INFO root fetch - processPackages [odoo-addon-maintenance-security]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.2]
+[2023-08-02 06:17:25] INFO root fetch - processPackages [ai-chat-chain]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-02 06:17:25] INFO root fetch - processPackages [snowcross]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-02 06:17:25] INFO root fetch - processPackages [GTC]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-08-02 06:17:25] INFO root fetch - processPackages [py-doc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 06:17:25] INFO root fetch - processPackages [spaceone-core]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-08-02 06:17:26] INFO root fetch - processPackages [dearpyapp]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-02 06:17:26] INFO root fetch - processPackages [py-doc]: Downloading https://files.pythonhosted.org/packages/6d/0c/756b76f9f6ad1623201564a554ac4761f5592e383022666bb3f5d89d17bd/py-doc-0.0.8.tar.gz
+[2023-08-02 06:17:26] INFO root fetch - processPackages [fastmega]: Downloading https://files.pythonhosted.org/packages/01/a7/464445a7de3ecf8a4b873f7278275e44f3c567f02dc58deca6e1b1f17221/fastmega-0.0.3.tar.gz
+[2023-08-02 06:17:26] INFO root fetch - processPackages [snowcross]: Downloading https://files.pythonhosted.org/packages/06/da/5185638512551df005ccf45a39ad55ae6fc3ab74e320fe774edead7d2703/snowcross-0.1.2.tar.gz
+[2023-08-02 06:17:26] INFO root fetch - processPackages [dearpyapp]: Downloading https://files.pythonhosted.org/packages/9c/d2/a769452a70be796730b49e57589a629696be25cee87ce87eb4cd8159e9bf/dearpyapp-0.1.4-py3-none-win_amd64.whl
+[2023-08-02 06:17:26] INFO root fetch - processPackages [piazza-api]: Downloading https://files.pythonhosted.org/packages/cb/5d/7a1dc6c3dacc8cfd745813a6a71dee1e981771e1d2871e3cad5444bfe25c/piazza-api-0.8.0.tar.gz
+[2023-08-02 06:17:26] INFO root fetch - processPackages [ai-chat-chain]: Downloading https://files.pythonhosted.org/packages/65/2a/9bf15abfbce1741f8e546f3e82fd709ee5b1eac4be6eb85f3d0d8daecfe8/ai_chat_chain-0.2.1.tar.gz
+[2023-08-02 06:17:26] INFO root fetch - processPackages [odoo-addon-maintenance-security]: Downloading https://files.pythonhosted.org/packages/5d/c4/2e015b5331db0939f278da6d5b23d67232ad073713017dfbc03da618b67f/odoo_addon_maintenance_security-15.0.1.0.0.2-py3-none-any.whl
+[2023-08-02 06:17:26] INFO root fetch - processPackages [protloc-mex-x]: Downloading https://files.pythonhosted.org/packages/b4/20/2576696734ccc0ccfd016b757bb230e443b3b8467023d039618a3cab12c3/protloc_mex_x-0.0.4.tar.gz
+[2023-08-02 06:17:26] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/1f/6d/5cbc0264b2c1dd5f3ae609e7b61b5c5c8d54710e85e098c13db4552af976/spaceone_core-1.9.7.1-py3-none-any.whl
+[2023-08-02 06:17:26] INFO root fetch - processPackages [GTC]: Downloading https://files.pythonhosted.org/packages/6f/19/841e4fad03e81ff04ae1c63d23e4ab0c59920328f4443520847a7aaf0b3e/GTC-1.4.0.tar.gz
+[2023-08-02 06:17:26] INFO root fetch - processPackages [py-doc]: Downloading https://files.pythonhosted.org/packages/ee/52/a1a02effd769884bd4cd97ab861f453ae5664085ab6ed8100da6f64cfcbe/py-doc-0.0.9.tar.gz
+[2023-08-02 06:17:26] INFO root fetch - processPackages [py-doc]: executing diffoscope
+[2023-08-02 06:17:26] INFO root fetch - processPackages [py-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-doc-0.0.8.tar.gz tmp/py-doc-0.0.9.tar.gz --markdown 20230802/p/py-doc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 06:17:26] INFO root fetch - processPackages [dearpyapp]: Downloading https://files.pythonhosted.org/packages/40/81/1d2e14466d54974015746df0598205984decc4315254db9e3be30ce8b201/dearpyapp-0.1.5-py3-none-win_amd64.whl
+[2023-08-02 06:17:26] INFO root fetch - processPackages [snowcross]: Downloading https://files.pythonhosted.org/packages/f2/f1/152529b6b10e1bbf73ff35477ba939580dd9b913793ce3d08ba60eac618a/snowcross-0.1.3.tar.gz
+[2023-08-02 06:17:26] INFO root fetch - processPackages [fastmega]: Downloading https://files.pythonhosted.org/packages/fb/6e/961981c88bc175ab511ca25a3aee8b7b30da2304df5247f5232066faee2e/fastmega-0.0.4.tar.gz
+[2023-08-02 06:17:26] INFO root fetch - processPackages [odoo-addon-maintenance-security]: Downloading https://files.pythonhosted.org/packages/0f/a3/e973fc06d3e758b66e26531d0e3bb4101a6fa716b876eb66cd0399d058b2/odoo_addon_maintenance_security-15.0.1.0.0.4-py3-none-any.whl
+[2023-08-02 06:17:26] INFO root fetch - processPackages [ai-chat-chain]: Downloading https://files.pythonhosted.org/packages/1d/0b/bb450ff5f3a5874fc91167c2d986ddb673e7670c60a241ec9b14ce777500/ai_chat_chain-0.2.2.tar.gz
+[2023-08-02 06:17:26] INFO root fetch - processPackages [protloc-mex-x]: Downloading https://files.pythonhosted.org/packages/94/b4/b86cc290e45091da754b6ae54507e899f5e2bb95a951be6a028c13d54cd5/protloc_mex_x-0.0.5.tar.gz
+[2023-08-02 06:17:26] INFO root fetch - processPackages [dearpyapp]: executing diffoscope
+[2023-08-02 06:17:26] INFO root fetch - processPackages [dearpyapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dearpyapp-0.1.4-py3-none-win_amd64.whl.zip tmp/dearpyapp-0.1.5-py3-none-win_amd64.whl.zip --markdown 20230802/d/dearpyapp/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-02 06:17:26] INFO root fetch - processPackages [snowcross]: executing diffoscope
+[2023-08-02 06:17:26] INFO root fetch - processPackages [snowcross]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowcross-0.1.2.tar.gz tmp/snowcross-0.1.3.tar.gz --markdown 20230802/s/snowcross/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-02 06:17:26] INFO root fetch - processPackages [fastmega]: executing diffoscope
+[2023-08-02 06:17:26] INFO root fetch - processPackages [fastmega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastmega-0.0.3.tar.gz tmp/fastmega-0.0.4.tar.gz --markdown 20230802/f/fastmega/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-02 06:17:26] INFO root fetch - processPackages [ai-chat-chain]: executing diffoscope
+[2023-08-02 06:17:26] INFO root fetch - processPackages [ai-chat-chain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_chat_chain-0.2.1.tar.gz tmp/ai_chat_chain-0.2.2.tar.gz --markdown 20230802/a/ai-chat-chain/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-02 06:17:26] INFO root fetch - processPackages [odoo-addon-maintenance-security]: executing diffoscope
+[2023-08-02 06:17:26] INFO root fetch - processPackages [odoo-addon-maintenance-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_security-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_maintenance_security-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230802/o/odoo-addon-maintenance-security/15.0.1.0.0.2-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-08-02 06:17:26] INFO root fetch - processPackages [protloc-mex-x]: executing diffoscope
+[2023-08-02 06:17:26] INFO root fetch - processPackages [protloc-mex-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protloc_mex_x-0.0.4.tar.gz tmp/protloc_mex_x-0.0.5.tar.gz --markdown 20230802/p/protloc-mex-x/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-02 06:17:27] INFO root fetch - processPackages [piazza-api]: Downloading https://files.pythonhosted.org/packages/65/0d/4983e8b82194ba15ff288f28d3c87fe95548979453bab61226ac2e01194f/piazza-api-0.9.0.tar.gz
+[2023-08-02 06:17:27] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/2f/7f/98bd3e0e1e14ec1a59e8d305c033978db48833658a8f1754c0458e77a3c4/spaceone_core-1.9.7rc1-py3-none-any.whl
+[2023-08-02 06:17:27] INFO root fetch - processPackages [GTC]: Downloading https://files.pythonhosted.org/packages/4b/a7/dfbf153874886acd00baa14f9da2aeb605a20c46c88840059844b06bf63e/GTC-1.4.1.tar.gz
+[2023-08-02 06:17:27] INFO root fetch - processPackages [GTC]: executing diffoscope
+[2023-08-02 06:17:27] INFO root fetch - processPackages [GTC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GTC-1.4.0.tar.gz tmp/GTC-1.4.1.tar.gz --markdown 20230802/G/GTC/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-08-02 06:17:27] INFO root fetch - processPackages [piazza-api]: executing diffoscope
+[2023-08-02 06:17:27] INFO root fetch - processPackages [piazza-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piazza-api-0.8.0.tar.gz tmp/piazza-api-0.9.0.tar.gz --markdown 20230802/p/piazza-api/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 06:17:27] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2023-08-02 06:17:27] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip --markdown 20230802/s/spaceone-core/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-08-02 06:17:27] INFO root fetch - processPackages [py-doc]: Remove: archive file [/home/abi/fetcher/tmp/py-doc-0.0.8.tar.gz]
+[2023-08-02 06:17:27] INFO root fetch - processPackages [py-doc]: Remove: archive file [/home/abi/fetcher/tmp/py-doc-0.0.9.tar.gz]
+[2023-08-02 06:17:27] INFO root fetch - main [MainThread]: End processing [py-doc]: success
+[2023-08-02 06:17:28] INFO root fetch - processPackages [fastmega]: Remove: archive file [/home/abi/fetcher/tmp/fastmega-0.0.3.tar.gz]
+[2023-08-02 06:17:28] INFO root fetch - processPackages [fastmega]: Remove: archive file [/home/abi/fetcher/tmp/fastmega-0.0.4.tar.gz]
+[2023-08-02 06:17:28] INFO root fetch - main [MainThread]: End processing [fastmega]: success
+[2023-08-02 06:17:28] INFO root fetch - processPackages [dearpyapp]: Remove: archive file [/home/abi/fetcher/tmp/dearpyapp-0.1.4-py3-none-win_amd64.whl.zip]
+[2023-08-02 06:17:28] INFO root fetch - processPackages [dearpyapp]: Remove: archive file [/home/abi/fetcher/tmp/dearpyapp-0.1.5-py3-none-win_amd64.whl.zip]
+[2023-08-02 06:17:28] INFO root fetch - main [MainThread]: End processing [dearpyapp]: success
+[2023-08-02 06:17:28] INFO root fetch - processPackages [ai-chat-chain]: Remove: archive file [/home/abi/fetcher/tmp/ai_chat_chain-0.2.1.tar.gz]
+[2023-08-02 06:17:28] INFO root fetch - processPackages [ai-chat-chain]: Remove: archive file [/home/abi/fetcher/tmp/ai_chat_chain-0.2.2.tar.gz]
+[2023-08-02 06:17:28] INFO root fetch - main [MainThread]: End processing [ai-chat-chain]: success
+[2023-08-02 06:17:28] INFO root fetch - processPackages [protloc-mex-x]: Remove: archive file [/home/abi/fetcher/tmp/protloc_mex_x-0.0.4.tar.gz]
+[2023-08-02 06:17:28] INFO root fetch - processPackages [protloc-mex-x]: Remove: archive file [/home/abi/fetcher/tmp/protloc_mex_x-0.0.5.tar.gz]
+[2023-08-02 06:17:28] INFO root fetch - main [MainThread]: End processing [protloc-mex-x]: success
+[2023-08-02 06:17:28] INFO root fetch - processPackages [snowcross]: Remove: archive file [/home/abi/fetcher/tmp/snowcross-0.1.2.tar.gz]
+[2023-08-02 06:17:28] INFO root fetch - processPackages [snowcross]: Remove: archive file [/home/abi/fetcher/tmp/snowcross-0.1.3.tar.gz]
+[2023-08-02 06:17:28] INFO root fetch - main [MainThread]: End processing [snowcross]: success
+[2023-08-02 06:17:28] INFO root fetch - processPackages [odoo-addon-maintenance-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_security-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-02 06:17:28] INFO root fetch - processPackages [odoo-addon-maintenance-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_security-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-02 06:17:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-security]: success
+[2023-08-02 06:17:28] INFO root fetch - processPackages [piazza-api]: Remove: archive file [/home/abi/fetcher/tmp/piazza-api-0.8.0.tar.gz]
+[2023-08-02 06:17:28] INFO root fetch - processPackages [piazza-api]: Remove: archive file [/home/abi/fetcher/tmp/piazza-api-0.9.0.tar.gz]
+[2023-08-02 06:17:28] INFO root fetch - main [MainThread]: End processing [piazza-api]: success
+[2023-08-02 06:17:28] INFO root fetch - processPackages [GTC]: Remove: archive file [/home/abi/fetcher/tmp/GTC-1.4.0.tar.gz]
+[2023-08-02 06:17:28] INFO root fetch - processPackages [GTC]: Remove: archive file [/home/abi/fetcher/tmp/GTC-1.4.1.tar.gz]
+[2023-08-02 06:17:28] INFO root fetch - main [MainThread]: End processing [GTC]: success
+[2023-08-02 06:17:29] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip]
+[2023-08-02 06:17:29] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip]
+[2023-08-02 06:17:29] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2023-08-02 06:17:29] INFO root fetch - main [MainThread]: Store serial: [19136436]

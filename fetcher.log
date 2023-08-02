@@ -20971,3 +20971,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-02 12:54:33] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
 [2023-08-02 12:54:33] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2023-08-02 12:54:33] INFO root fetch - main [MainThread]: Store serial: [19140285]
+[2023-08-02 12:59:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19140285]
+[2023-08-02 12:59:43] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-02 12:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syncany
+[2023-08-02 12:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-08-02 12:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syncanysql
+[2023-08-02 12:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rudderclient
+[2023-08-02 12:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robotframework-doctestlibrary
+[2023-08-02 12:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: duffy
+[2023-08-02 12:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-private-bucket
+[2023-08-02 12:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eofetch
+[2023-08-02 12:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: berrydb
+[2023-08-02 12:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ctrlb-heimdall
+[2023-08-02 12:59:43] INFO root fetch - processPackages [syncany]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-02 12:59:43] INFO root fetch - processPackages [syncanysql]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-02 12:59:43] INFO root fetch - processPackages [robotframework-doctestlibrary]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-02 12:59:43] INFO root fetch - processPackages [rudderclient]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-02 12:59:43] INFO root fetch - processPackages [berrydb]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-02 12:59:43] INFO root fetch - processPackages [ctrlb-heimdall]: New version: [1.0.3] Old Version: [1.0.0]
+[2023-08-02 12:59:43] INFO root fetch - processPackages [eofetch]: New version: [0.2] Old Version: [0.1]
+[2023-08-02 12:59:43] INFO root fetch - processPackages [duffy]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-08-02 12:59:43] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 12:59:43] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 12:59:44] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/a5/4c/3a9afb62d90ff56381ecc175a96cf8cb4a4fb7732b6d3995b4784488a8ee/rudderclient-1.9.0.tar.gz
+[2023-08-02 12:59:44] INFO root fetch - processPackages [duffy]: Downloading https://files.pythonhosted.org/packages/cf/65/f072ca95c4d83e2b96e04c18c7f806892c6b80dcb1cd896030df16c4fed7/duffy-3.3.8.tar.gz
+[2023-08-02 12:59:44] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-08-02 12:59:44] INFO root fetch - processPackages [robotframework-doctestlibrary]: Downloading https://files.pythonhosted.org/packages/2e/54/a470f127f072ab492ddf90515598177d377d01d7f6527fbd157fa0af805c/robotframework_doctestlibrary-0.9.0.tar.gz
+[2023-08-02 12:59:44] INFO root fetch - processPackages [ctrlb-heimdall]: Downloading https://files.pythonhosted.org/packages/fa/8c/b9447f0db69702c8d9541d849555100482b9313554e4b216fe0ea3a12051/ctrlb_heimdall-1.0.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-08-02 12:59:44] INFO root fetch - processPackages [syncany]: Downloading https://files.pythonhosted.org/packages/85/1d/e34ca990cfd2aa917c8e8cb81c7b87f2e9271ed379fbf4fa3e525b4fc3bf/syncany-0.2.8.tar.gz
+[2023-08-02 12:59:44] INFO root fetch - processPackages [syncanysql]: Downloading https://files.pythonhosted.org/packages/81/fa/ee10e78566efb9e817412cc17587d64e6e8fdce9d776fd0a834efb38118a/syncanysql-0.1.7.tar.gz
+[2023-08-02 12:59:44] INFO root fetch - processPackages [eofetch]: Downloading https://files.pythonhosted.org/packages/46/09/837577e7813195e5988b0e7f8853cf129ee58e608364dd428c1798373e86/eofetch-0.1.tar.gz
+[2023-08-02 12:59:44] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-08-02 12:59:44] INFO root fetch - processPackages [berrydb]: Downloading https://files.pythonhosted.org/packages/9b/af/83b121e595eb6e9dfb28b1a1f544885f6cb4386af5d900b899d898ca7e8a/berrydb-1.0.3.tar.gz
+[2023-08-02 12:59:44] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/a4/fe/2dab352156f0d6f5a40c80c9f3fbeb8f321f6e0c19ccd730f26a114a5da2/rudderclient-1.9.1.tar.gz
+[2023-08-02 12:59:44] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-08-02 12:59:44] INFO root fetch - processPackages [duffy]: Downloading https://files.pythonhosted.org/packages/8c/ae/8bf94bd2599a5f0c2f5e2366a3d480418a8c47707acfcf27103c2fb8e5a2/duffy-3.3.9.tar.gz
+[2023-08-02 12:59:44] INFO root fetch - processPackages [rudderclient]: executing diffoscope
+[2023-08-02 12:59:44] INFO root fetch - processPackages [rudderclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudderclient-1.9.0.tar.gz tmp/rudderclient-1.9.1.tar.gz --markdown 20230802/r/rudderclient/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-02 12:59:44] INFO root fetch - processPackages [eofetch]: Downloading https://files.pythonhosted.org/packages/13/a9/972482466751189023f7e66961cee504a764bf4af61d8c140c1de98ff835/eofetch-0.2.tar.gz
+[2023-08-02 12:59:44] INFO root fetch - processPackages [syncanysql]: Downloading https://files.pythonhosted.org/packages/7a/44/0b23be9d4558d16d0d7bd8afaebd1da4ecb962abe8eff54f6c07931ebeb1/syncanysql-0.1.8.tar.gz
+[2023-08-02 12:59:44] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-08-02 12:59:44] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230802/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 12:59:44] INFO root fetch - processPackages [duffy]: executing diffoscope
+[2023-08-02 12:59:44] INFO root fetch - processPackages [duffy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duffy-3.3.8.tar.gz tmp/duffy-3.3.9.tar.gz --markdown 20230802/d/duffy/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-08-02 12:59:44] INFO root fetch - processPackages [ctrlb-heimdall]: Downloading https://files.pythonhosted.org/packages/f1/ed/6905b5317aef8e31b56a59a52449ced544e3a5405ce577a195f3582f6a94/ctrlb_heimdall-1.0.3-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-08-02 12:59:44] INFO root fetch - processPackages [eofetch]: executing diffoscope
+[2023-08-02 12:59:44] INFO root fetch - processPackages [eofetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eofetch-0.1.tar.gz tmp/eofetch-0.2.tar.gz --markdown 20230802/e/eofetch/0.1-0.2/diff.md --exclude *.pyd
+[2023-08-02 12:59:44] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-08-02 12:59:44] INFO root fetch - processPackages [syncanysql]: executing diffoscope
+[2023-08-02 12:59:44] INFO root fetch - processPackages [syncanysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncanysql-0.1.7.tar.gz tmp/syncanysql-0.1.8.tar.gz --markdown 20230802/s/syncanysql/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-02 12:59:44] INFO root fetch - processPackages [berrydb]: Downloading https://files.pythonhosted.org/packages/fb/d5/f46a6360b80c62608435398dc4587969251900c46d24bca83a0fb1f8087a/berrydb-1.0.4.tar.gz
+[2023-08-02 12:59:44] INFO root fetch - processPackages [ctrlb-heimdall]: executing diffoscope
+[2023-08-02 12:59:44] INFO root fetch - processPackages [ctrlb-heimdall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrlb_heimdall-1.0.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/ctrlb_heimdall-1.0.3-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230802/c/ctrlb-heimdall/1.0.0-1.0.3/diff.md --exclude *.pyd
+[2023-08-02 12:59:44] INFO root fetch - processPackages [berrydb]: executing diffoscope
+[2023-08-02 12:59:44] INFO root fetch - processPackages [berrydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berrydb-1.0.3.tar.gz tmp/berrydb-1.0.4.tar.gz --markdown 20230802/b/berrydb/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-02 12:59:45] INFO root fetch - processPackages [robotframework-doctestlibrary]: Downloading https://files.pythonhosted.org/packages/b7/0d/91dc6867f7ed4440045e0507d17d30031ff5dd7cfaf7af6d74b583f25614/robotframework_doctestlibrary-0.9.1.tar.gz
+[2023-08-02 12:59:45] INFO root fetch - processPackages [syncany]: Downloading https://files.pythonhosted.org/packages/31/32/4f5212802d20baa5cd1c5d2fa432e7816bb9c2634e457d142c6a45cc455c/syncany-0.2.9.tar.gz
+[2023-08-02 12:59:45] INFO root fetch - processPackages [robotframework-doctestlibrary]: executing diffoscope
+[2023-08-02 12:59:45] INFO root fetch - processPackages [robotframework-doctestlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_doctestlibrary-0.9.0.tar.gz tmp/robotframework_doctestlibrary-0.9.1.tar.gz --markdown 20230802/r/robotframework-doctestlibrary/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-02 12:59:45] INFO root fetch - processPackages [syncany]: executing diffoscope
+[2023-08-02 12:59:45] INFO root fetch - processPackages [syncany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncany-0.2.8.tar.gz tmp/syncany-0.2.9.tar.gz --markdown 20230802/s/syncany/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-02 12:59:45] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-08-02 12:59:45] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230802/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 12:59:46] INFO root fetch - processPackages [rudderclient]: Remove: archive file [/home/abi/fetcher/tmp/rudderclient-1.9.0.tar.gz]
+[2023-08-02 12:59:46] INFO root fetch - processPackages [rudderclient]: Remove: archive file [/home/abi/fetcher/tmp/rudderclient-1.9.1.tar.gz]
+[2023-08-02 12:59:46] INFO root fetch - processPackages [rudderclient]: Start processing: ag-llama2-hub-s
+[2023-08-02 12:59:46] INFO root fetch - main [MainThread]: End processing [rudderclient]: success
+[2023-08-02 12:59:46] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-08-02 12:59:46] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-08-02 12:59:46] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Start processing: google-ads-report
+[2023-08-02 12:59:46] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-08-02 12:59:46] INFO root fetch - processPackages [ag-llama2-hub-s]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-08-02 12:59:46] WARNING root fetch - processPackages [google-ads-report]: Skipping, unable to determine old version
+[2023-08-02 12:59:46] INFO root fetch - processPackages [google-ads-report]: Start processing: zylo
+[2023-08-02 12:59:46] INFO root fetch - main [MainThread]: End processing [google-ads-report] error
+[2023-08-02 12:59:46] INFO root fetch - processPackages [zylo]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-08-02 12:59:46] INFO root fetch - processPackages [eofetch]: Remove: archive file [/home/abi/fetcher/tmp/eofetch-0.1.tar.gz]
+[2023-08-02 12:59:46] INFO root fetch - processPackages [eofetch]: Remove: archive file [/home/abi/fetcher/tmp/eofetch-0.2.tar.gz]
+[2023-08-02 12:59:46] INFO root fetch - processPackages [eofetch]: Start processing: image2layout-computer-vision
+[2023-08-02 12:59:46] INFO root fetch - main [MainThread]: End processing [eofetch]: success
+[2023-08-02 12:59:46] INFO root fetch - processPackages [ag-llama2-hub-s]: Downloading https://files.pythonhosted.org/packages/b1/ba/39890fc08d8553b294eff6ffd6f431d21be01103203491f4bf9dfb20369c/ag_llama2_hub_s-0.0.17.tar.gz
+[2023-08-02 12:59:46] INFO root fetch - processPackages [image2layout-computer-vision]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 12:59:46] INFO root fetch - processPackages [duffy]: Remove: archive file [/home/abi/fetcher/tmp/duffy-3.3.8.tar.gz]
+[2023-08-02 12:59:46] INFO root fetch - processPackages [duffy]: Remove: archive file [/home/abi/fetcher/tmp/duffy-3.3.9.tar.gz]
+[2023-08-02 12:59:46] INFO root fetch - main [MainThread]: End processing [duffy]: success
+[2023-08-02 12:59:46] INFO root fetch - processPackages [berrydb]: Remove: archive file [/home/abi/fetcher/tmp/berrydb-1.0.3.tar.gz]
+[2023-08-02 12:59:46] INFO root fetch - processPackages [berrydb]: Remove: archive file [/home/abi/fetcher/tmp/berrydb-1.0.4.tar.gz]
+[2023-08-02 12:59:46] INFO root fetch - main [MainThread]: End processing [berrydb]: success
+[2023-08-02 12:59:46] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/8c/6d/07b91c760794c80dae38e1847bf1a5054266c31209149f648d6da3d60376/zylo-2.0.5-py3-none-any.whl
+[2023-08-02 12:59:46] INFO root fetch - processPackages [ag-llama2-hub-s]: Downloading https://files.pythonhosted.org/packages/8e/94/e089ab0635bfea3fec61bb10c25026f110600bdb3a5f0fa58cb7939adfd4/ag_llama2_hub_s-0.0.18.tar.gz
+[2023-08-02 12:59:46] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/7e/cc/ed540655913ca2ef30701d3f3325abb71db0b407d707f9af21c88a5c9b89/image2layout_computer_vision-0.0.8.tar.gz
+[2023-08-02 12:59:46] INFO root fetch - processPackages [syncanysql]: Remove: archive file [/home/abi/fetcher/tmp/syncanysql-0.1.7.tar.gz]
+[2023-08-02 12:59:46] INFO root fetch - processPackages [syncanysql]: Remove: archive file [/home/abi/fetcher/tmp/syncanysql-0.1.8.tar.gz]
+[2023-08-02 12:59:46] INFO root fetch - main [MainThread]: End processing [syncanysql]: success
+[2023-08-02 12:59:46] INFO root fetch - processPackages [ag-llama2-hub-s]: executing diffoscope
+[2023-08-02 12:59:46] INFO root fetch - processPackages [ag-llama2-hub-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama2_hub_s-0.0.17.tar.gz tmp/ag_llama2_hub_s-0.0.18.tar.gz --markdown 20230802/a/ag-llama2-hub-s/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-08-02 12:59:46] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/eb/f3/be35f134955389a6e0f4b4cc22084d9c573398a74fefa300c259ed7436c7/zylo-2.0.6.tar.gz
+[2023-08-02 12:59:46] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-08-02 12:59:46] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-08-02 12:59:46] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-08-02 12:59:46] INFO root fetch - processPackages [zylo]: executing diffoscope
+[2023-08-02 12:59:46] INFO root fetch - processPackages [zylo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zylo-2.0.5-py3-none-any.whl.zip tmp/zylo-2.0.6.tar.gz --markdown 20230802/z/zylo/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-08-02 12:59:46] INFO root fetch - processPackages [robotframework-doctestlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_doctestlibrary-0.9.0.tar.gz]
+[2023-08-02 12:59:46] INFO root fetch - processPackages [robotframework-doctestlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_doctestlibrary-0.9.1.tar.gz]
+[2023-08-02 12:59:46] INFO root fetch - main [MainThread]: End processing [robotframework-doctestlibrary]: success
+[2023-08-02 12:59:47] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/b9/4f/fc1b1db4bb6a9f511d91debf7491a2e7804f52693e716c1de4937a9221e7/image2layout_computer_vision-0.0.9.tar.gz
+[2023-08-02 12:59:47] INFO root fetch - processPackages [image2layout-computer-vision]: executing diffoscope
+[2023-08-02 12:59:47] INFO root fetch - processPackages [image2layout-computer-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image2layout_computer_vision-0.0.8.tar.gz tmp/image2layout_computer_vision-0.0.9.tar.gz --markdown 20230802/i/image2layout-computer-vision/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 12:59:47] INFO root fetch - processPackages [syncany]: Remove: archive file [/home/abi/fetcher/tmp/syncany-0.2.8.tar.gz]
+[2023-08-02 12:59:47] INFO root fetch - processPackages [syncany]: Remove: archive file [/home/abi/fetcher/tmp/syncany-0.2.9.tar.gz]
+[2023-08-02 12:59:47] INFO root fetch - main [MainThread]: End processing [syncany]: success
+[2023-08-02 12:59:47] INFO root fetch - processPackages [ctrlb-heimdall]: Remove: archive file [/home/abi/fetcher/tmp/ctrlb_heimdall-1.0.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-08-02 12:59:47] INFO root fetch - processPackages [ctrlb-heimdall]: Remove: archive file [/home/abi/fetcher/tmp/ctrlb_heimdall-1.0.3-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-08-02 12:59:47] INFO root fetch - main [MainThread]: End processing [ctrlb-heimdall]: success
+[2023-08-02 12:59:47] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-2.0.5-py3-none-any.whl.zip]
+[2023-08-02 12:59:47] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-2.0.6.tar.gz]
+[2023-08-02 12:59:47] INFO root fetch - main [MainThread]: End processing [zylo]: success
+[2023-08-02 12:59:47] INFO root fetch - processPackages [ag-llama2-hub-s]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama2_hub_s-0.0.17.tar.gz]
+[2023-08-02 12:59:47] INFO root fetch - processPackages [ag-llama2-hub-s]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama2_hub_s-0.0.18.tar.gz]
+[2023-08-02 12:59:47] INFO root fetch - main [MainThread]: End processing [ag-llama2-hub-s]: success
+[2023-08-02 12:59:48] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.0.8.tar.gz]
+[2023-08-02 12:59:48] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.0.9.tar.gz]
+[2023-08-02 12:59:48] INFO root fetch - main [MainThread]: End processing [image2layout-computer-vision]: success
+[2023-08-02 12:59:48] INFO root fetch - main [MainThread]: Store serial: [19140332]

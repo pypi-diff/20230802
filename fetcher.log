@@ -15127,3 +15127,132 @@
 [2023-08-02 09:10:24] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.9.tar.gz]
 [2023-08-02 09:10:24] INFO root fetch - main [MainThread]: End processing [cdxbasics]: success
 [2023-08-02 09:10:24] INFO root fetch - main [MainThread]: Store serial: [19137784]
+[2023-08-02 09:15:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19137784]
+[2023-08-02 09:15:33] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-02 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-modules
+[2023-08-02 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tm-config-server-client-python
+[2023-08-02 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantile-forest
+[2023-08-02 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opti-solve
+[2023-08-02 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rclip
+[2023-08-02 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: muffin-redis
+[2023-08-02 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pythclient
+[2023-08-02 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: abstract-modules
+[2023-08-02 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tfq-nightly
+[2023-08-02 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zzzmmmwwcargoss
+[2023-08-02 09:15:33] INFO root fetch - processPackages [abstract-modules]: New version: [0.0.0.6] Old Version: [0.0.0.5]
+[2023-08-02 09:15:33] INFO root fetch - processPackages [tm-config-server-client-python]: New version: [1.0] Old Version: [0.6]
+[2023-08-02 09:15:33] INFO root fetch - processPackages [abstract-modules]: New version: [0.0.0.6] Old Version: [0.0.0.5]
+[2023-08-02 09:15:33] INFO root fetch - processPackages [muffin-redis]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-08-02 09:15:33] WARNING root fetch - processPackages [zzzmmmwwcargoss]: Skipping, unable to determine old version
+[2023-08-02 09:15:33] INFO root fetch - processPackages [zzzmmmwwcargoss]: Start processing: thipster
+[2023-08-02 09:15:33] INFO root fetch - main [MainThread]: End processing [zzzmmmwwcargoss] error
+[2023-08-02 09:15:33] WARNING root fetch - processPackages [opti-solve]: Skipping, unable to determine old version
+[2023-08-02 09:15:33] INFO root fetch - processPackages [quantile-forest]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-08-02 09:15:33] INFO root fetch - processPackages [opti-solve]: Start processing: tf-hub-nightly
+[2023-08-02 09:15:33] INFO root fetch - main [MainThread]: End processing [opti-solve] error
+[2023-08-02 09:15:33] INFO root fetch - processPackages [pythclient]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 09:15:33] INFO root fetch - processPackages [rclip]: New version: [1.4.7a0] Old Version: [1.4.6]
+[2023-08-02 09:15:33] INFO root fetch - processPackages [thipster]: New version: [0.23.5] Old Version: [0.23.3]
+[2023-08-02 09:15:33] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230802] Old Version: [0.7.3.dev20230801]
+[2023-08-02 09:15:33] INFO root fetch - processPackages [tm-config-server-client-python]: Downloading https://files.pythonhosted.org/packages/d4/69/bc7068122849ba08bf457193b45f3107474998e3b69a93307e09da29ecd9/tm_config_server_client_python-0.6.tar.gz
+[2023-08-02 09:15:33] INFO root fetch - processPackages [muffin-redis]: Downloading https://files.pythonhosted.org/packages/1a/aa/7cd3b4db780a0e32f030379314d384872ef7214515a4f781ca5c560b96fa/muffin_redis-3.6.0.tar.gz
+[2023-08-02 09:15:34] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/ea/36/6c16735a4c1d0712f009b358a5894d06b9aeb2462bcadd76cb3f37fe4fc8/rclip-1.4.6.tar.gz
+[2023-08-02 09:15:34] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/ca/c3/74ebc4123daf25c667f667394b2e4332e09c718497dcf07eb40beffc41db/abstract_modules-0.0.0.5-py3-none-any.whl
+[2023-08-02 09:15:34] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/ca/c3/74ebc4123daf25c667f667394b2e4332e09c718497dcf07eb40beffc41db/abstract_modules-0.0.0.5-py3-none-any.whl
+[2023-08-02 09:15:34] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-08-02 09:15:34] INFO root fetch - processPackages [pythclient]: Downloading https://files.pythonhosted.org/packages/f7/4a/b6a89d47c4cc8291a50df06eaf4d1400650db1f8a5223fa43b4005da89ef/pythclient-0.1.8.tar.gz
+[2023-08-02 09:15:34] INFO root fetch - processPackages [quantile-forest]: Downloading https://files.pythonhosted.org/packages/f2/eb/23904811d108c454bc7f183b4ec65b1d261b6160c64d723a81e5236312cf/quantile-forest-1.1.3.tar.gz
+[2023-08-02 09:15:34] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/31/8b/04ebf233858ace2236a41f8d645083b7588d2f248aa974c5670af537c3be/thipster-0.23.3.tar.gz
+[2023-08-02 09:15:34] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/91/02/d69b2aee5b1c9448add7ce482d1ac3a95d9ddc1cb0e7d53b40e2e9e3d759/tfq_nightly-0.7.3.dev20230801-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-02 09:15:34] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-08-02 09:15:34] INFO root fetch - processPackages [tm-config-server-client-python]: Downloading https://files.pythonhosted.org/packages/bd/4a/0745e78e88ca8c0c477d8b788d0e7bba1bc1223a7598dbc7822fba51396a/tm_config_server_client_python-1.0.tar.gz
+[2023-08-02 09:15:34] INFO root fetch - processPackages [muffin-redis]: Downloading https://files.pythonhosted.org/packages/e0/55/ef26288a1339472d55a01db46b6a8138caa572318040cb436aaa80f0ff47/muffin_redis-3.6.1.tar.gz
+[2023-08-02 09:15:34] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/5a/18/fa653314cab95d6ba28a9feada29490ff6aa895b60d561a91bef4b1561ce/rclip-1.4.7a0.tar.gz
+[2023-08-02 09:15:34] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807265>=10485760
+[2023-08-02 09:15:34] INFO root fetch - processPackages [tfq-nightly]: Start processing: py-droplets
+[2023-08-02 09:15:34] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-08-02 09:15:34] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/5f/a5/32c3bcdd9d0695e8ad087611a4d55ec4c3fc59e11c4c8f38f43e325d0ed3/abstract_modules-0.0.0.6-py3-none-any.whl
+[2023-08-02 09:15:34] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/5f/a5/32c3bcdd9d0695e8ad087611a4d55ec4c3fc59e11c4c8f38f43e325d0ed3/abstract_modules-0.0.0.6-py3-none-any.whl
+[2023-08-02 09:15:34] INFO root fetch - processPackages [py-droplets]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-02 09:15:34] INFO root fetch - processPackages [pythclient]: Downloading https://files.pythonhosted.org/packages/d0/c2/a1e61d63a3c055bc977b7e04f2e2fba392dd2901aee64b683a517e9dc68d/pythclient-0.1.9.tar.gz
+[2023-08-02 09:15:34] INFO root fetch - processPackages [tm-config-server-client-python]: executing diffoscope
+[2023-08-02 09:15:34] INFO root fetch - processPackages [tm-config-server-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tm_config_server_client_python-0.6.tar.gz tmp/tm_config_server_client_python-1.0.tar.gz --markdown 20230802/t/tm-config-server-client-python/0.6-1.0/diff.md --exclude *.pyd
+[2023-08-02 09:15:34] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/f6/7a/2382cccf6de6565d905665ffa011c8c275caa982df202019740e867e27a5/thipster-0.23.5.tar.gz
+[2023-08-02 09:15:34] INFO root fetch - processPackages [muffin-redis]: executing diffoscope
+[2023-08-02 09:15:34] INFO root fetch - processPackages [muffin-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_redis-3.6.0.tar.gz tmp/muffin_redis-3.6.1.tar.gz --markdown 20230802/m/muffin-redis/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-08-02 09:15:34] INFO root fetch - processPackages [abstract-modules]: executing diffoscope
+[2023-08-02 09:15:34] INFO root fetch - processPackages [abstract-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_modules-0.0.0.5-py3-none-any.whl.zip tmp/abstract_modules-0.0.0.6-py3-none-any.whl.zip --markdown 20230802/a/abstract-modules/0.0.0.5-0.0.0.6/diff.md --exclude *.pyd
+[2023-08-02 09:15:34] INFO root fetch - processPackages [abstract-modules]: executing diffoscope
+[2023-08-02 09:15:34] INFO root fetch - processPackages [abstract-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_modules-0.0.0.5-py3-none-any.whl.zip tmp/abstract_modules-0.0.0.6-py3-none-any.whl.zip --markdown 20230802/a/abstract-modules/0.0.0.5-0.0.0.6/diff.md --exclude *.pyd
+[2023-08-02 09:15:34] INFO root fetch - processPackages [quantile-forest]: Downloading https://files.pythonhosted.org/packages/a7/b3/4f5b108fd15dad801917319f9c928ecefe7595cd52f4387258aa2e452937/quantile-forest-1.2.0.tar.gz
+[2023-08-02 09:15:34] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-02 09:15:34] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.6.tar.gz tmp/rclip-1.4.7a0.tar.gz --markdown 20230802/r/rclip/1.4.6-1.4.7a0/diff.md --exclude *.pyd
+[2023-08-02 09:15:34] INFO root fetch - processPackages [pythclient]: executing diffoscope
+[2023-08-02 09:15:34] INFO root fetch - processPackages [pythclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythclient-0.1.8.tar.gz tmp/pythclient-0.1.9.tar.gz --markdown 20230802/p/pythclient/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 09:15:34] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-08-02 09:15:34] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.23.3.tar.gz tmp/thipster-0.23.5.tar.gz --markdown 20230802/t/thipster/0.23.3-0.23.5/diff.md --exclude *.pyd
+[2023-08-02 09:15:34] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-08-02 09:15:34] INFO root fetch - processPackages [py-droplets]: Downloading https://files.pythonhosted.org/packages/ca/c4/922635050ebd0945ec0682aa8ade67cdfd63681e0504d0e15924d862976e/py-droplets-0.8.1.tar.gz
+[2023-08-02 09:15:34] INFO root fetch - processPackages [quantile-forest]: executing diffoscope
+[2023-08-02 09:15:34] INFO root fetch - processPackages [quantile-forest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantile-forest-1.1.3.tar.gz tmp/quantile-forest-1.2.0.tar.gz --markdown 20230802/q/quantile-forest/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-08-02 09:15:35] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-08-02 09:15:35] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230802/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-08-02 09:15:35] INFO root fetch - processPackages [py-droplets]: Downloading https://files.pythonhosted.org/packages/2d/50/26fd41c3e77f47e08c8afacd316f8acace92cc3674e6447778628cbce519/py-droplets-0.9.0.tar.gz
+[2023-08-02 09:15:36] INFO root fetch - processPackages [tm-config-server-client-python]: Remove: archive file [/home/abi/fetcher/tmp/tm_config_server_client_python-0.6.tar.gz]
+[2023-08-02 09:15:36] INFO root fetch - processPackages [tm-config-server-client-python]: Remove: archive file [/home/abi/fetcher/tmp/tm_config_server_client_python-1.0.tar.gz]
+[2023-08-02 09:15:36] INFO root fetch - processPackages [tm-config-server-client-python]: Start processing: abstract-modules
+[2023-08-02 09:15:36] INFO root fetch - main [MainThread]: End processing [tm-config-server-client-python]: success
+[2023-08-02 09:15:36] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.6.tar.gz]
+[2023-08-02 09:15:36] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a0.tar.gz]
+[2023-08-02 09:15:36] INFO root fetch - processPackages [rclip]: Start processing: grpc-prometheus-metrics
+[2023-08-02 09:15:36] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-02 09:15:36] INFO root fetch - processPackages [abstract-modules]: New version: [0.0.0.6] Old Version: [0.0.0.5]
+[2023-08-02 09:15:36] INFO root fetch - processPackages [grpc-prometheus-metrics]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 09:15:36] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.0.5-py3-none-any.whl.zip]
+[2023-08-02 09:15:36] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.0.6-py3-none-any.whl.zip]
+[2023-08-02 09:15:36] INFO root fetch - processPackages [abstract-modules]: Start processing: ocrmypdf-papermerge
+[2023-08-02 09:15:36] INFO root fetch - main [MainThread]: End processing [abstract-modules]: success
+[2023-08-02 09:15:36] INFO root fetch - processPackages [py-droplets]: executing diffoscope
+[2023-08-02 09:15:36] INFO root fetch - processPackages [py-droplets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-droplets-0.8.1.tar.gz tmp/py-droplets-0.9.0.tar.gz --markdown 20230802/p/py-droplets/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 09:15:36] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/5f/a5/32c3bcdd9d0695e8ad087611a4d55ec4c3fc59e11c4c8f38f43e325d0ed3/abstract_modules-0.0.0.6-py3-none-any.whl
+[2023-08-02 09:15:36] INFO root fetch - processPackages [pythclient]: Remove: archive file [/home/abi/fetcher/tmp/pythclient-0.1.8.tar.gz]
+[2023-08-02 09:15:36] INFO root fetch - processPackages [pythclient]: Remove: archive file [/home/abi/fetcher/tmp/pythclient-0.1.9.tar.gz]
+[2023-08-02 09:15:36] INFO root fetch - main [MainThread]: End processing [pythclient]: success
+[2023-08-02 09:15:36] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.23.3.tar.gz]
+[2023-08-02 09:15:36] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.23.5.tar.gz]
+[2023-08-02 09:15:36] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-08-02 09:15:36] INFO root fetch - processPackages [muffin-redis]: Remove: archive file [/home/abi/fetcher/tmp/muffin_redis-3.6.0.tar.gz]
+[2023-08-02 09:15:36] INFO root fetch - processPackages [muffin-redis]: Remove: archive file [/home/abi/fetcher/tmp/muffin_redis-3.6.1.tar.gz]
+[2023-08-02 09:15:36] INFO root fetch - main [MainThread]: End processing [muffin-redis]: success
+[2023-08-02 09:15:36] INFO root fetch - main [MainThread]: End processing [abstract-modules]: success
+[2023-08-02 09:15:36] INFO root fetch - processPackages [grpc-prometheus-metrics]: Downloading https://files.pythonhosted.org/packages/16/d2/179bd5ebc33ee417102b97e14189353186248f8a612fe6d36860c17dc77c/grpc_prometheus_metrics-0.0.1.tar.gz
+[2023-08-02 09:15:36] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-08-02 09:15:36] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-08-02 09:15:36] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-08-02 09:15:36] INFO root fetch - processPackages [quantile-forest]: Remove: archive file [/home/abi/fetcher/tmp/quantile-forest-1.1.3.tar.gz]
+[2023-08-02 09:15:36] INFO root fetch - processPackages [quantile-forest]: Remove: archive file [/home/abi/fetcher/tmp/quantile-forest-1.2.0.tar.gz]
+[2023-08-02 09:15:36] INFO root fetch - main [MainThread]: End processing [quantile-forest]: success
+[2023-08-02 09:15:36] INFO root fetch - processPackages [ocrmypdf-papermerge]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-02 09:15:36] INFO root fetch - processPackages [abstract-modules]: executing diffoscope
+[2023-08-02 09:15:36] INFO root fetch - processPackages [abstract-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_modules-0.0.0.5-py3-none-any.whl.zip tmp/abstract_modules-0.0.0.6-py3-none-any.whl.zip --markdown 20230802/a/abstract-modules/0.0.0.5-0.0.0.6/diff.md --exclude *.pyd
+[2023-08-02 09:15:36] INFO root fetch - processPackages [ocrmypdf-papermerge]: Downloading https://files.pythonhosted.org/packages/25/0f/25fa00a945e39cd2e2e07af0ae9b527816320d3f285df3f981732941edd2/ocrmypdf_papermerge-0.4.8.tar.gz
+[2023-08-02 09:15:37] INFO root fetch - processPackages [grpc-prometheus-metrics]: Downloading https://files.pythonhosted.org/packages/30/85/5352121251ac07440c2b06799ef79c3cc649658e3fa04cd4a72310dbe1f9/grpc_prometheus_metrics-0.0.2.tar.gz
+[2023-08-02 09:15:37] INFO root fetch - processPackages [grpc-prometheus-metrics]: executing diffoscope
+[2023-08-02 09:15:37] INFO root fetch - processPackages [grpc-prometheus-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpc_prometheus_metrics-0.0.1.tar.gz tmp/grpc_prometheus_metrics-0.0.2.tar.gz --markdown 20230802/g/grpc-prometheus-metrics/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 09:15:37] ERROR root fetch - processPackages [abstract-modules]: Diffoscope failed: time="2023-08-02T09:15:36+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/abstract_modules-0.0.0.5-py3-none-any.whl.zip: No such file or directory
+
+[2023-08-02 09:15:37] INFO root fetch - main [MainThread]: End processing [abstract-modules] error
+[2023-08-02 09:15:37] INFO root fetch - processPackages [ocrmypdf-papermerge]: Downloading https://files.pythonhosted.org/packages/2d/3f/b49fb3831635eb47573f0f53c713c51edc5cb91e8236c94180b7564f904a/ocrmypdf_papermerge-0.4.9.tar.gz
+[2023-08-02 09:15:37] INFO root fetch - processPackages [ocrmypdf-papermerge]: executing diffoscope
+[2023-08-02 09:15:37] INFO root fetch - processPackages [ocrmypdf-papermerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrmypdf_papermerge-0.4.8.tar.gz tmp/ocrmypdf_papermerge-0.4.9.tar.gz --markdown 20230802/o/ocrmypdf-papermerge/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-02 09:15:37] INFO root fetch - processPackages [py-droplets]: Remove: archive file [/home/abi/fetcher/tmp/py-droplets-0.8.1.tar.gz]
+[2023-08-02 09:15:37] INFO root fetch - processPackages [py-droplets]: Remove: archive file [/home/abi/fetcher/tmp/py-droplets-0.9.0.tar.gz]
+[2023-08-02 09:15:37] INFO root fetch - main [MainThread]: End processing [py-droplets]: success
+[2023-08-02 09:15:37] INFO root fetch - processPackages [grpc-prometheus-metrics]: Remove: archive file [/home/abi/fetcher/tmp/grpc_prometheus_metrics-0.0.1.tar.gz]
+[2023-08-02 09:15:37] INFO root fetch - processPackages [grpc-prometheus-metrics]: Remove: archive file [/home/abi/fetcher/tmp/grpc_prometheus_metrics-0.0.2.tar.gz]
+[2023-08-02 09:15:37] INFO root fetch - main [MainThread]: End processing [grpc-prometheus-metrics]: success
+[2023-08-02 09:15:38] INFO root fetch - processPackages [ocrmypdf-papermerge]: Remove: archive file [/home/abi/fetcher/tmp/ocrmypdf_papermerge-0.4.8.tar.gz]
+[2023-08-02 09:15:38] INFO root fetch - processPackages [ocrmypdf-papermerge]: Remove: archive file [/home/abi/fetcher/tmp/ocrmypdf_papermerge-0.4.9.tar.gz]
+[2023-08-02 09:15:38] INFO root fetch - main [MainThread]: End processing [ocrmypdf-papermerge]: success
+[2023-08-02 09:15:38] INFO root fetch - main [MainThread]: Store serial: [19137846]

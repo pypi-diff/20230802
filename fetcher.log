@@ -16484,3 +16484,132 @@
 [2023-08-02 10:12:06] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.1.tar.gz]
 [2023-08-02 10:12:06] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
 [2023-08-02 10:12:06] INFO root fetch - main [MainThread]: Store serial: [19138442]
+[2023-08-02 10:17:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19138442]
+[2023-08-02 10:17:15] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-02 10:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whisper-live
+[2023-08-02 10:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rclip
+[2023-08-02 10:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vmklib
+[2023-08-02 10:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codebot
+[2023-08-02 10:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-audio
+[2023-08-02 10:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysimplebase
+[2023-08-02 10:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: home-assistant-streamdeck-yaml
+[2023-08-02 10:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dcicutils
+[2023-08-02 10:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: m3-registry
+[2023-08-02 10:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chartart
+[2023-08-02 10:17:15] INFO root fetch - processPackages [rclip]: New version: [1.4.7a9] Old Version: [1.4.7a8]
+[2023-08-02 10:17:15] INFO root fetch - processPackages [pysimplebase]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-02 10:17:15] INFO root fetch - processPackages [whisper-live]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-02 10:17:15] INFO root fetch - processPackages [codebot]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-08-02 10:17:15] INFO root fetch - processPackages [chartart]: New version: [0.0.3.dev22] Old Version: [0.0.3.dev21]
+[2023-08-02 10:17:15] INFO root fetch - processPackages [abstract-audio]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-08-02 10:17:15] INFO root fetch - processPackages [vmklib]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-08-02 10:17:15] INFO root fetch - processPackages [m3-registry]: New version: [2.2.0.3] Old Version: [2.0.4]
+[2023-08-02 10:17:15] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: New version: [2023.8.0] Old Version: [2023.7.4]
+[2023-08-02 10:17:15] INFO root fetch - processPackages [dcicutils]: New version: [7.6.0.2b9] Old Version: [7.6.0.2b8]
+[2023-08-02 10:17:15] INFO root fetch - processPackages [whisper-live]: Downloading https://files.pythonhosted.org/packages/de/4c/0caac69d3c045a63a679d731662eacf4698a248be4392f6443d0186bfce2/whisper-live-0.0.3.tar.gz
+[2023-08-02 10:17:15] INFO root fetch - processPackages [codebot]: Downloading https://files.pythonhosted.org/packages/d9/52/12055073e5f74dd1d20bccb2ec634fe67f1fe883f704a679015426e7f992/codebot-0.0.8.tar.gz
+[2023-08-02 10:17:15] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/b6/33/9368279ac437576613cd3b1c5360d684c7b9ab8730455128e271023e71bd/rclip-1.4.7a8.tar.gz
+[2023-08-02 10:17:15] INFO root fetch - processPackages [chartart]: Downloading https://files.pythonhosted.org/packages/67/53/c71dbd50e9d31dc20648f1b5a89c46ad7c3a56bf6fa72e5bfe1d982b6040/chartart-0.0.3.dev21.tar.gz
+[2023-08-02 10:17:15] INFO root fetch - processPackages [abstract-audio]: Downloading https://files.pythonhosted.org/packages/e5/3d/0f3ebcf77e2bec59a71264237af8c8b7fb35a56a5055cfa7817f8a3fa69e/abstract_audio-0.0.0.2-py3-none-any.whl
+[2023-08-02 10:17:15] INFO root fetch - processPackages [m3-registry]: Downloading https://files.pythonhosted.org/packages/98/16/f9d346703ed1f134e86deb7b69a3d9e90545ad22a15fe30c866cc5454f6d/m3-registry-2.0.4.tar.gz
+[2023-08-02 10:17:15] INFO root fetch - processPackages [pysimplebase]: Downloading https://files.pythonhosted.org/packages/84/4a/64671dc1841888260e625dac14484ec4fe8ad58987c5a78213ba7d28d2ba/pysimplebase-0.0.5.tar.gz
+[2023-08-02 10:17:15] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/d4/b6/8e0fd78213744ba9b19c6351b7bb85f26873439673e1bdc57616ad1fb21a/dcicutils-7.6.0.2b8.tar.gz
+[2023-08-02 10:17:16] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: Downloading https://files.pythonhosted.org/packages/fa/74/3eb2f2ddaf3f1632cab86c5f6de981523d133aba96df01f7a1e6ed35f7dd/home_assistant_streamdeck_yaml-2023.7.4.tar.gz
+[2023-08-02 10:17:16] INFO root fetch - processPackages [vmklib]: Downloading https://files.pythonhosted.org/packages/8b/2b/054d405a9582c09c7ec330574176ca84c230c0a1d3218c0c8b5e6146a2c3/vmklib-1.8.3.tar.gz
+[2023-08-02 10:17:16] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/31/e5/7bb0bec8ec5f762444a62bbc17fd8e01f29a10f98d54311ab9c756bd2fea/rclip-1.4.7a9.tar.gz
+[2023-08-02 10:17:16] INFO root fetch - processPackages [whisper-live]: Downloading https://files.pythonhosted.org/packages/0a/e4/0a85ce79fae2c0d9da02a9038dfb70eed346079761a10f4feb7fb9d5839b/whisper-live-0.0.4.tar.gz
+[2023-08-02 10:17:16] INFO root fetch - processPackages [m3-registry]: Downloading https://files.pythonhosted.org/packages/fd/9d/3caf88a3f6228564b601d9c89f0f425ba580928473e57bb4f6ea0dddd82e/m3_registry-2.2.0.3-py3-none-any.whl
+[2023-08-02 10:17:16] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/6d/55/6a16e9f113f125de9261bbf2550dbf3ae766c100481a31de6eb6364d54e4/dcicutils-7.6.0.2b9.tar.gz
+[2023-08-02 10:17:16] INFO root fetch - processPackages [chartart]: Downloading https://files.pythonhosted.org/packages/e4/2f/cf234bd11eecdc762a7978597f04c39077e182dc82eac296e11e926c3c02/chartart-0.0.3.dev22.tar.gz
+[2023-08-02 10:17:16] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-02 10:17:16] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.7a8.tar.gz tmp/rclip-1.4.7a9.tar.gz --markdown 20230802/r/rclip/1.4.7a8-1.4.7a9/diff.md --exclude *.pyd
+[2023-08-02 10:17:16] INFO root fetch - processPackages [pysimplebase]: Downloading https://files.pythonhosted.org/packages/4c/aa/4d1eb8c1dbd00a0a1a82b25a1b172c6936faa6d35fd976fab8c9c5c0e982/pysimplebase-0.0.6.tar.gz
+[2023-08-02 10:17:16] INFO root fetch - processPackages [abstract-audio]: Downloading https://files.pythonhosted.org/packages/de/d1/20b17f183cb8689e7505b3e4be2f6ba18ebf87b63cc46e9b0d91146c24f3/abstract_audio-0.0.0.3-py3-none-any.whl
+[2023-08-02 10:17:16] INFO root fetch - processPackages [codebot]: Downloading https://files.pythonhosted.org/packages/90/d2/647228e1a24ff892b71ce5b6f346b2734ab3514b7ba916ea439015c84b13/codebot-0.1.0.tar.gz
+[2023-08-02 10:17:16] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: Downloading https://files.pythonhosted.org/packages/bd/2c/4d81953028f96ba36bf684876deb8f24cd53a6346b8723f0375dd000b061/home_assistant_streamdeck_yaml-2023.8.0.tar.gz
+[2023-08-02 10:17:16] INFO root fetch - processPackages [whisper-live]: executing diffoscope
+[2023-08-02 10:17:16] INFO root fetch - processPackages [whisper-live]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper-live-0.0.3.tar.gz tmp/whisper-live-0.0.4.tar.gz --markdown 20230802/w/whisper-live/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-02 10:17:16] INFO root fetch - processPackages [m3-registry]: executing diffoscope
+[2023-08-02 10:17:16] INFO root fetch - processPackages [m3-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3-registry-2.0.4.tar.gz tmp/m3_registry-2.2.0.3-py3-none-any.whl.zip --markdown 20230802/m/m3-registry/2.0.4-2.2.0.3/diff.md --exclude *.pyd
+[2023-08-02 10:17:16] INFO root fetch - processPackages [chartart]: executing diffoscope
+[2023-08-02 10:17:16] INFO root fetch - processPackages [chartart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartart-0.0.3.dev21.tar.gz tmp/chartart-0.0.3.dev22.tar.gz --markdown 20230802/c/chartart/0.0.3.dev21-0.0.3.dev22/diff.md --exclude *.pyd
+[2023-08-02 10:17:16] INFO root fetch - processPackages [vmklib]: Downloading https://files.pythonhosted.org/packages/f4/b0/58bb77fef5d8a0347e565208f96e8fa7f66804ac2f039ea33ac938a59f3c/vmklib-1.9.0.tar.gz
+[2023-08-02 10:17:16] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-08-02 10:17:16] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.6.0.2b8.tar.gz tmp/dcicutils-7.6.0.2b9.tar.gz --markdown 20230802/d/dcicutils/7.6.0.2b8-7.6.0.2b9/diff.md --exclude *.pyd
+[2023-08-02 10:17:16] INFO root fetch - processPackages [pysimplebase]: executing diffoscope
+[2023-08-02 10:17:16] INFO root fetch - processPackages [pysimplebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysimplebase-0.0.5.tar.gz tmp/pysimplebase-0.0.6.tar.gz --markdown 20230802/p/pysimplebase/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-02 10:17:16] INFO root fetch - processPackages [abstract-audio]: executing diffoscope
+[2023-08-02 10:17:16] INFO root fetch - processPackages [abstract-audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_audio-0.0.0.2-py3-none-any.whl.zip tmp/abstract_audio-0.0.0.3-py3-none-any.whl.zip --markdown 20230802/a/abstract-audio/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-08-02 10:17:16] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: executing diffoscope
+[2023-08-02 10:17:16] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home_assistant_streamdeck_yaml-2023.7.4.tar.gz tmp/home_assistant_streamdeck_yaml-2023.8.0.tar.gz --markdown 20230802/h/home-assistant-streamdeck-yaml/2023.7.4-2023.8.0/diff.md --exclude *.pyd
+[2023-08-02 10:17:16] INFO root fetch - processPackages [codebot]: executing diffoscope
+[2023-08-02 10:17:16] INFO root fetch - processPackages [codebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codebot-0.0.8.tar.gz tmp/codebot-0.1.0.tar.gz --markdown 20230802/c/codebot/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-08-02 10:17:16] INFO root fetch - processPackages [vmklib]: executing diffoscope
+[2023-08-02 10:17:16] INFO root fetch - processPackages [vmklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmklib-1.8.3.tar.gz tmp/vmklib-1.9.0.tar.gz --markdown 20230802/v/vmklib/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-08-02 10:17:18] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a8.tar.gz]
+[2023-08-02 10:17:18] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a9.tar.gz]
+[2023-08-02 10:17:18] INFO root fetch - processPackages [rclip]: Start processing: Nuitka
+[2023-08-02 10:17:18] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-02 10:17:18] INFO root fetch - processPackages [Nuitka]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-08-02 10:17:18] INFO root fetch - processPackages [m3-registry]: Remove: archive file [/home/abi/fetcher/tmp/m3-registry-2.0.4.tar.gz]
+[2023-08-02 10:17:18] INFO root fetch - processPackages [m3-registry]: Remove: archive file [/home/abi/fetcher/tmp/m3_registry-2.2.0.3-py3-none-any.whl.zip]
+[2023-08-02 10:17:18] INFO root fetch - processPackages [m3-registry]: Start processing: shareddata
+[2023-08-02 10:17:18] INFO root fetch - main [MainThread]: End processing [m3-registry]: success
+[2023-08-02 10:17:18] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/2c/b7/6ce0f9840111163654b0c11297c082ad093d9a966a37408fd16093c4d8ab/Nuitka-1.7.7.tar.gz
+[2023-08-02 10:17:18] INFO root fetch - processPackages [shareddata]: New version: [2.3.0] Old Version: [2.2.7]
+[2023-08-02 10:17:18] INFO root fetch - processPackages [whisper-live]: Remove: archive file [/home/abi/fetcher/tmp/whisper-live-0.0.3.tar.gz]
+[2023-08-02 10:17:18] INFO root fetch - processPackages [whisper-live]: Remove: archive file [/home/abi/fetcher/tmp/whisper-live-0.0.4.tar.gz]
+[2023-08-02 10:17:18] INFO root fetch - processPackages [whisper-live]: Start processing: llmtuner
+[2023-08-02 10:17:18] INFO root fetch - main [MainThread]: End processing [whisper-live]: success
+[2023-08-02 10:17:18] INFO root fetch - processPackages [llmtuner]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-02 10:17:18] INFO root fetch - processPackages [chartart]: Remove: archive file [/home/abi/fetcher/tmp/chartart-0.0.3.dev21.tar.gz]
+[2023-08-02 10:17:18] INFO root fetch - processPackages [chartart]: Remove: archive file [/home/abi/fetcher/tmp/chartart-0.0.3.dev22.tar.gz]
+[2023-08-02 10:17:18] INFO root fetch - processPackages [chartart]: Start processing: plastik
+[2023-08-02 10:17:18] INFO root fetch - main [MainThread]: End processing [chartart]: success
+[2023-08-02 10:17:18] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/29/dc/640ed334c040670b0b6e31084b76e06a601ad84490cc0f3f0763087db039/shareddata-2.2.7.tar.gz
+[2023-08-02 10:17:18] INFO root fetch - processPackages [pysimplebase]: Remove: archive file [/home/abi/fetcher/tmp/pysimplebase-0.0.5.tar.gz]
+[2023-08-02 10:17:18] INFO root fetch - processPackages [pysimplebase]: Remove: archive file [/home/abi/fetcher/tmp/pysimplebase-0.0.6.tar.gz]
+[2023-08-02 10:17:18] INFO root fetch - main [MainThread]: End processing [pysimplebase]: success
+[2023-08-02 10:17:18] INFO root fetch - processPackages [abstract-audio]: Remove: archive file [/home/abi/fetcher/tmp/abstract_audio-0.0.0.2-py3-none-any.whl.zip]
+[2023-08-02 10:17:18] INFO root fetch - processPackages [abstract-audio]: Remove: archive file [/home/abi/fetcher/tmp/abstract_audio-0.0.0.3-py3-none-any.whl.zip]
+[2023-08-02 10:17:18] INFO root fetch - main [MainThread]: End processing [abstract-audio]: success
+[2023-08-02 10:17:18] INFO root fetch - processPackages [plastik]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-08-02 10:17:19] INFO root fetch - processPackages [llmtuner]: Downloading https://files.pythonhosted.org/packages/84/d4/12f1286e014a9177942f1e1636de81bd76b4dc061aa1ee1d8f5594ebe5cd/llmtuner-0.1.4.tar.gz
+[2023-08-02 10:17:19] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: Remove: archive file [/home/abi/fetcher/tmp/home_assistant_streamdeck_yaml-2023.7.4.tar.gz]
+[2023-08-02 10:17:19] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: Remove: archive file [/home/abi/fetcher/tmp/home_assistant_streamdeck_yaml-2023.8.0.tar.gz]
+[2023-08-02 10:17:19] INFO root fetch - main [MainThread]: End processing [home-assistant-streamdeck-yaml]: success
+[2023-08-02 10:17:19] INFO root fetch - processPackages [plastik]: Downloading https://files.pythonhosted.org/packages/66/b8/6984d94b3f4bdc2d106ec67437f5da2053609ca6811b231375f98fc411d0/plastik-0.4.3.tar.gz
+[2023-08-02 10:17:19] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/ec/0c/711a39d50f55a67ffc7a8d5c1c31727c18fee59a823ece98232f089204ca/shareddata-2.3.0.tar.gz
+[2023-08-02 10:17:19] INFO root fetch - processPackages [vmklib]: Remove: archive file [/home/abi/fetcher/tmp/vmklib-1.8.3.tar.gz]
+[2023-08-02 10:17:19] INFO root fetch - processPackages [vmklib]: Remove: archive file [/home/abi/fetcher/tmp/vmklib-1.9.0.tar.gz]
+[2023-08-02 10:17:19] INFO root fetch - main [MainThread]: End processing [vmklib]: success
+[2023-08-02 10:17:19] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-7.6.0.2b8.tar.gz]
+[2023-08-02 10:17:19] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-7.6.0.2b9.tar.gz]
+[2023-08-02 10:17:19] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-08-02 10:17:19] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/9b/b1/9a5d7872489959fe154637027442297c26d6d6ede73a4c8afda52ee9132d/Nuitka-1.7.8.tar.gz
+[2023-08-02 10:17:19] INFO root fetch - processPackages [codebot]: Remove: archive file [/home/abi/fetcher/tmp/codebot-0.0.8.tar.gz]
+[2023-08-02 10:17:19] INFO root fetch - processPackages [codebot]: Remove: archive file [/home/abi/fetcher/tmp/codebot-0.1.0.tar.gz]
+[2023-08-02 10:17:19] INFO root fetch - main [MainThread]: End processing [codebot]: success
+[2023-08-02 10:17:19] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-08-02 10:17:19] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.2.7.tar.gz tmp/shareddata-2.3.0.tar.gz --markdown 20230802/s/shareddata/2.2.7-2.3.0/diff.md --exclude *.pyd
+[2023-08-02 10:17:19] INFO root fetch - processPackages [llmtuner]: Downloading https://files.pythonhosted.org/packages/d4/12/5ac94d4fd8f4f5945fb12933d26ce70b8de9e489cd37207bf3ae95e9cf07/llmtuner-0.1.5.tar.gz
+[2023-08-02 10:17:19] INFO root fetch - processPackages [plastik]: Downloading https://files.pythonhosted.org/packages/fb/10/d2e10c511d8f6c787d2ecb14a6c290f29f68d3281e2e1a98805b628f3911/plastik-0.5.0.tar.gz
+[2023-08-02 10:17:19] INFO root fetch - processPackages [llmtuner]: executing diffoscope
+[2023-08-02 10:17:19] INFO root fetch - processPackages [llmtuner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmtuner-0.1.4.tar.gz tmp/llmtuner-0.1.5.tar.gz --markdown 20230802/l/llmtuner/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-02 10:17:19] INFO root fetch - processPackages [Nuitka]: executing diffoscope
+[2023-08-02 10:17:19] INFO root fetch - processPackages [Nuitka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-1.7.7.tar.gz tmp/Nuitka-1.7.8.tar.gz --markdown 20230802/N/Nuitka/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-08-02 10:17:19] INFO root fetch - processPackages [plastik]: executing diffoscope
+[2023-08-02 10:17:19] INFO root fetch - processPackages [plastik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plastik-0.4.3.tar.gz tmp/plastik-0.5.0.tar.gz --markdown 20230802/p/plastik/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-08-02 10:17:20] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.2.7.tar.gz]
+[2023-08-02 10:17:20] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.3.0.tar.gz]
+[2023-08-02 10:17:20] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-08-02 10:17:20] INFO root fetch - processPackages [plastik]: Remove: archive file [/home/abi/fetcher/tmp/plastik-0.4.3.tar.gz]
+[2023-08-02 10:17:20] INFO root fetch - processPackages [plastik]: Remove: archive file [/home/abi/fetcher/tmp/plastik-0.5.0.tar.gz]
+[2023-08-02 10:17:20] INFO root fetch - main [MainThread]: End processing [plastik]: success
+[2023-08-02 10:17:20] INFO root fetch - processPackages [llmtuner]: Remove: archive file [/home/abi/fetcher/tmp/llmtuner-0.1.4.tar.gz]
+[2023-08-02 10:17:20] INFO root fetch - processPackages [llmtuner]: Remove: archive file [/home/abi/fetcher/tmp/llmtuner-0.1.5.tar.gz]
+[2023-08-02 10:17:20] INFO root fetch - main [MainThread]: End processing [llmtuner]: success
+[2023-08-02 10:17:37] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.7.7.tar.gz]
+[2023-08-02 10:17:37] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.7.8.tar.gz]
+[2023-08-02 10:17:37] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
+[2023-08-02 10:17:37] INFO root fetch - main [MainThread]: Store serial: [19138481]

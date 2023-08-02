@@ -12911,3 +12911,42 @@
 [2023-08-02 06:54:16] INFO root fetch - processPackages [trading-strategy]: Remove: archive file [/home/abi/fetcher/tmp/trading_strategy-0.9.1.tar.gz]
 [2023-08-02 06:54:16] INFO root fetch - main [MainThread]: End processing [trading-strategy]: success
 [2023-08-02 06:54:16] INFO root fetch - main [MainThread]: Store serial: [19136707]
+[2023-08-02 06:59:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136707]
+[2023-08-02 06:59:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-02 06:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fprime-native-images
+[2023-08-02 06:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zeroconf
+[2023-08-02 06:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-rest-framework
+[2023-08-02 06:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: papermage
+[2023-08-02 06:59:24] INFO root fetch - processPackages [fprime-native-images]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-02 06:59:24] INFO root fetch - processPackages [zeroconf]: New version: [0.72.0] Old Version: [0.71.5]
+[2023-08-02 06:59:24] INFO root fetch - processPackages [fprime-native-images]: Downloading https://files.pythonhosted.org/packages/df/ad/abf3ac97c583b87ad4d016de9552cc3df4ab04678c74ef24938b1116fc85/fprime-native-images-0.1.1.tar.gz
+[2023-08-02 06:59:24] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: New version: [16.0.20230801.0] Old Version: [16.0.20230725.0]
+[2023-08-02 06:59:24] INFO root fetch - processPackages [papermage]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-08-02 06:59:24] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/2e/dd/11de54ee3caf2e581859d86bd401eb50f4087bb209918e8700c346793e8d/zeroconf-0.71.5.tar.gz
+[2023-08-02 06:59:25] INFO root fetch - processPackages [papermage]: Downloading https://files.pythonhosted.org/packages/61/ba/c9a7eebf96a38ecf4c542c34da2119060abdd1a6c6de97a05afcc37b0464/papermage-0.0.2.tar.gz
+[2023-08-02 06:59:25] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: Downloading https://files.pythonhosted.org/packages/8c/4f/c7345be64394ff20497dfc9b642b6ab7ed38839ca83de977e2fc21f21e74/odoo_addons_oca_rest_framework-16.0.20230725.0-py3-none-any.whl
+[2023-08-02 06:59:25] INFO root fetch - processPackages [fprime-native-images]: Downloading https://files.pythonhosted.org/packages/44/3d/e8e2761848ca0097499ebf7dd37562fb362a8f30579976142838c642ea06/fprime-native-images-0.1.2.tar.gz
+[2023-08-02 06:59:25] INFO root fetch - processPackages [fprime-native-images]: executing diffoscope
+[2023-08-02 06:59:25] INFO root fetch - processPackages [fprime-native-images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime-native-images-0.1.1.tar.gz tmp/fprime-native-images-0.1.2.tar.gz --markdown 20230802/f/fprime-native-images/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-02 06:59:25] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/93/1f/b46b1d626807b525be9c7e4fdc38224634929d5cb62b399516119eedb71c/zeroconf-0.72.0.tar.gz
+[2023-08-02 06:59:25] INFO root fetch - processPackages [papermage]: Downloading https://files.pythonhosted.org/packages/b9/28/381b26163831a6ea175a1049dfd1ab73ed3ece7744268b3f7eb0a5040241/papermage-0.1.0.tar.gz
+[2023-08-02 06:59:25] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: Downloading https://files.pythonhosted.org/packages/f9/3b/6d315e897291952d117bd6fb6284142410355e4d99802343d8125a189d3e/odoo_addons_oca_rest_framework-16.0.20230801.0-py3-none-any.whl
+[2023-08-02 06:59:25] INFO root fetch - processPackages [zeroconf]: executing diffoscope
+[2023-08-02 06:59:25] INFO root fetch - processPackages [zeroconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroconf-0.71.5.tar.gz tmp/zeroconf-0.72.0.tar.gz --markdown 20230802/z/zeroconf/0.71.5-0.72.0/diff.md --exclude *.pyd
+[2023-08-02 06:59:25] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: executing diffoscope
+[2023-08-02 06:59:25] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_rest_framework-16.0.20230725.0-py3-none-any.whl.zip tmp/odoo_addons_oca_rest_framework-16.0.20230801.0-py3-none-any.whl.zip --markdown 20230802/o/odoo-addons-oca-rest-framework/16.0.20230725.0-16.0.20230801.0/diff.md --exclude *.pyd
+[2023-08-02 06:59:25] INFO root fetch - processPackages [papermage]: executing diffoscope
+[2023-08-02 06:59:25] INFO root fetch - processPackages [papermage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papermage-0.0.2.tar.gz tmp/papermage-0.1.0.tar.gz --markdown 20230802/p/papermage/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-08-02 06:59:26] INFO root fetch - processPackages [fprime-native-images]: Remove: archive file [/home/abi/fetcher/tmp/fprime-native-images-0.1.1.tar.gz]
+[2023-08-02 06:59:26] INFO root fetch - processPackages [fprime-native-images]: Remove: archive file [/home/abi/fetcher/tmp/fprime-native-images-0.1.2.tar.gz]
+[2023-08-02 06:59:26] INFO root fetch - main [MainThread]: End processing [fprime-native-images]: success
+[2023-08-02 06:59:26] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_rest_framework-16.0.20230725.0-py3-none-any.whl.zip]
+[2023-08-02 06:59:26] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_rest_framework-16.0.20230801.0-py3-none-any.whl.zip]
+[2023-08-02 06:59:26] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-rest-framework]: success
+[2023-08-02 06:59:26] INFO root fetch - processPackages [papermage]: Remove: archive file [/home/abi/fetcher/tmp/papermage-0.0.2.tar.gz]
+[2023-08-02 06:59:26] INFO root fetch - processPackages [papermage]: Remove: archive file [/home/abi/fetcher/tmp/papermage-0.1.0.tar.gz]
+[2023-08-02 06:59:26] INFO root fetch - main [MainThread]: End processing [papermage]: success
+[2023-08-02 06:59:26] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.71.5.tar.gz]
+[2023-08-02 06:59:26] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.72.0.tar.gz]
+[2023-08-02 06:59:26] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
+[2023-08-02 06:59:26] INFO root fetch - main [MainThread]: Store serial: [19136718]

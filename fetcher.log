@@ -13172,3 +13172,78 @@
 [2023-08-02 07:20:13] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.3.1.tar.gz]
 [2023-08-02 07:20:13] INFO root fetch - main [MainThread]: End processing [yambs]: success
 [2023-08-02 07:20:13] INFO root fetch - main [MainThread]: Store serial: [19136807]
+[2023-08-02 07:25:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136807]
+[2023-08-02 07:25:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-02 07:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MeUtils
+[2023-08-02 07:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py3seed
+[2023-08-02 07:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wow-ai-sdk
+[2023-08-02 07:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansible-risk-insight
+[2023-08-02 07:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssd1306-plus
+[2023-08-02 07:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addon-mail-restrict-follower-selection
+[2023-08-02 07:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jsocket
+[2023-08-02 07:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graia-broadcast
+[2023-08-02 07:25:22] INFO root fetch - processPackages [py3seed]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-02 07:25:22] INFO root fetch - processPackages [wow-ai-sdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-02 07:25:22] INFO root fetch - processPackages [ansible-risk-insight]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 07:25:22] INFO root fetch - processPackages [ssd1306-plus]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-08-02 07:25:22] INFO root fetch - processPackages [graia-broadcast]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-08-02 07:25:22] INFO root fetch - processPackages [MeUtils]: New version: [2023.8.2.13.20.11] Old Version: [2023.7.7.15.3.6]
+[2023-08-02 07:25:22] INFO root fetch - processPackages [jsocket]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-02 07:25:22] INFO root fetch - processPackages [odoo13-addon-mail-restrict-follower-selection]: New version: [13.0.1.1.1.dev2] Old Version: [13.0.1.1.1.dev1]
+[2023-08-02 07:25:22] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/7a/c2/915d2ec0cc26fd10d72ba748d8900fb5578386fa56ab8b9b58c06bd4a8de/py3seed-0.3.1.tar.gz
+[2023-08-02 07:25:23] INFO root fetch - processPackages [graia-broadcast]: Downloading https://files.pythonhosted.org/packages/0e/73/12db803a0653fdb1df3662b25ed789d44aa87dfe7ca86424e2a23b073b79/graia-broadcast-0.8.9.tar.gz
+[2023-08-02 07:25:23] INFO root fetch - processPackages [ssd1306-plus]: Downloading https://files.pythonhosted.org/packages/a5/cc/7fddfec277ba363bdaab5db40f165309a0a7f3b71bcb1be584cbd62db2d5/ssd1306_plus-0.0.3.tar.gz
+[2023-08-02 07:25:23] INFO root fetch - processPackages [ansible-risk-insight]: Downloading https://files.pythonhosted.org/packages/3b/02/db1065ca979e47828fe7bfa0ff1d668dfd1556aa950c1bb01ada930728ef/ansible-risk-insight-0.1.8.tar.gz
+[2023-08-02 07:25:23] INFO root fetch - processPackages [odoo13-addon-mail-restrict-follower-selection]: Downloading https://files.pythonhosted.org/packages/1b/cb/4a6596063c29098b9999e4cb8ab516b9c94ab37c29744feb8f90a098d291/odoo13_addon_mail_restrict_follower_selection-13.0.1.1.1.dev1-py3-none-any.whl
+[2023-08-02 07:25:23] INFO root fetch - processPackages [wow-ai-sdk]: Downloading https://files.pythonhosted.org/packages/97/ea/a4757d0b70771b369b77e420f13edd8895b6f7b24e61fc9d06c567211f8b/wow_ai_sdk-0.1.7.tar.gz
+[2023-08-02 07:25:23] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/1e/99/2f228a790c6fc15f93482f3f0fa7bbad95d15d6e0aa883c7919fe4a66c95/MeUtils-2023.7.7.15.3.6.tar.gz
+[2023-08-02 07:25:23] INFO root fetch - processPackages [jsocket]: Downloading https://files.pythonhosted.org/packages/ee/d3/2fc22a989f061a7cd054159da997f70d170bd93e2aada52e329076fcaeca/jsocket-1.9.0.tar.gz
+[2023-08-02 07:25:23] INFO root fetch - processPackages [graia-broadcast]: Downloading https://files.pythonhosted.org/packages/bb/b6/1e12c5c4c947738dd16cc772420e87e8482984dcf5e94bc92fe2ae57c0cf/graia-broadcast-0.9.0.tar.gz
+[2023-08-02 07:25:23] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/52/e1/ed14d51d55be58e522da9544d79519a9ed286f5516038b39b9cfac6d7b58/py3seed-0.3.2.tar.gz
+[2023-08-02 07:25:23] INFO root fetch - processPackages [graia-broadcast]: executing diffoscope
+[2023-08-02 07:25:23] INFO root fetch - processPackages [graia-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graia-broadcast-0.8.9.tar.gz tmp/graia-broadcast-0.9.0.tar.gz --markdown 20230802/g/graia-broadcast/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 07:25:23] INFO root fetch - processPackages [ssd1306-plus]: Downloading https://files.pythonhosted.org/packages/29/5e/b2f08e01dcb7b7ee747fea76765e186f9b3b137b0e1d4a973f603fe882a7/ssd1306_plus-0.0.5.tar.gz
+[2023-08-02 07:25:23] INFO root fetch - processPackages [wow-ai-sdk]: Downloading https://files.pythonhosted.org/packages/eb/32/6c44687326c4f19cf838b1f0a1096ee2dfc79ffbddcf8db6671ed60f1c2d/wow_ai_sdk-0.1.8.tar.gz
+[2023-08-02 07:25:23] INFO root fetch - processPackages [jsocket]: Downloading https://files.pythonhosted.org/packages/f8/6e/3e432690013ed2ca977c3ac4a457225d9af26b5a0a4554edbc21d0249179/jsocket-1.9.1-py3-none-any.whl
+[2023-08-02 07:25:23] INFO root fetch - processPackages [odoo13-addon-mail-restrict-follower-selection]: Downloading https://files.pythonhosted.org/packages/6d/47/cce54471d489c1d456ab6c45f8c2f97990aa62fc58bc1bb52bea172fb972/odoo13_addon_mail_restrict_follower_selection-13.0.1.1.1.dev2-py3-none-any.whl
+[2023-08-02 07:25:23] INFO root fetch - processPackages [ansible-risk-insight]: Downloading https://files.pythonhosted.org/packages/28/48/3827f2e1d0b52e0c0900a748335902cadbe5ff699f670283a22e680a1ddb/ansible-risk-insight-0.1.9.tar.gz
+[2023-08-02 07:25:23] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-08-02 07:25:23] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.3.1.tar.gz tmp/py3seed-0.3.2.tar.gz --markdown 20230802/p/py3seed/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-02 07:25:23] INFO root fetch - processPackages [wow-ai-sdk]: executing diffoscope
+[2023-08-02 07:25:23] INFO root fetch - processPackages [wow-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_sdk-0.1.7.tar.gz tmp/wow_ai_sdk-0.1.8.tar.gz --markdown 20230802/w/wow-ai-sdk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-02 07:25:23] INFO root fetch - processPackages [ssd1306-plus]: executing diffoscope
+[2023-08-02 07:25:23] INFO root fetch - processPackages [ssd1306-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssd1306_plus-0.0.3.tar.gz tmp/ssd1306_plus-0.0.5.tar.gz --markdown 20230802/s/ssd1306-plus/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-08-02 07:25:23] INFO root fetch - processPackages [jsocket]: executing diffoscope
+[2023-08-02 07:25:23] INFO root fetch - processPackages [jsocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsocket-1.9.0.tar.gz tmp/jsocket-1.9.1-py3-none-any.whl.zip --markdown 20230802/j/jsocket/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-02 07:25:23] INFO root fetch - processPackages [odoo13-addon-mail-restrict-follower-selection]: executing diffoscope
+[2023-08-02 07:25:23] INFO root fetch - processPackages [odoo13-addon-mail-restrict-follower-selection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_mail_restrict_follower_selection-13.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo13_addon_mail_restrict_follower_selection-13.0.1.1.1.dev2-py3-none-any.whl.zip --markdown 20230802/o/odoo13-addon-mail-restrict-follower-selection/13.0.1.1.1.dev1-13.0.1.1.1.dev2/diff.md --exclude *.pyd
+[2023-08-02 07:25:23] INFO root fetch - processPackages [ansible-risk-insight]: executing diffoscope
+[2023-08-02 07:25:23] INFO root fetch - processPackages [ansible-risk-insight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-risk-insight-0.1.8.tar.gz tmp/ansible-risk-insight-0.1.9.tar.gz --markdown 20230802/a/ansible-risk-insight/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 07:25:24] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/ea/0d/340150351a4c69bea52effcd5cb99f0a6520848f8a67543dba07b5ad6dfa/MeUtils-2023.8.2.13.20.11.tar.gz
+[2023-08-02 07:25:24] INFO root fetch - processPackages [graia-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/graia-broadcast-0.8.9.tar.gz]
+[2023-08-02 07:25:24] INFO root fetch - processPackages [graia-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/graia-broadcast-0.9.0.tar.gz]
+[2023-08-02 07:25:24] INFO root fetch - main [MainThread]: End processing [graia-broadcast]: success
+[2023-08-02 07:25:24] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-08-02 07:25:24] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.7.15.3.6.tar.gz tmp/MeUtils-2023.8.2.13.20.11.tar.gz --markdown 20230802/M/MeUtils/2023.7.7.15.3.6-2023.8.2.13.20.11/diff.md --exclude *.pyd
+[2023-08-02 07:25:25] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.3.1.tar.gz]
+[2023-08-02 07:25:25] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.3.2.tar.gz]
+[2023-08-02 07:25:25] INFO root fetch - processPackages [ssd1306-plus]: Remove: archive file [/home/abi/fetcher/tmp/ssd1306_plus-0.0.3.tar.gz]
+[2023-08-02 07:25:25] INFO root fetch - processPackages [ssd1306-plus]: Remove: archive file [/home/abi/fetcher/tmp/ssd1306_plus-0.0.5.tar.gz]
+[2023-08-02 07:25:25] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-08-02 07:25:25] INFO root fetch - main [MainThread]: End processing [ssd1306-plus]: success
+[2023-08-02 07:25:25] INFO root fetch - processPackages [wow-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_sdk-0.1.7.tar.gz]
+[2023-08-02 07:25:25] INFO root fetch - processPackages [wow-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_sdk-0.1.8.tar.gz]
+[2023-08-02 07:25:25] INFO root fetch - main [MainThread]: End processing [wow-ai-sdk]: success
+[2023-08-02 07:25:25] INFO root fetch - processPackages [odoo13-addon-mail-restrict-follower-selection]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mail_restrict_follower_selection-13.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-08-02 07:25:25] INFO root fetch - processPackages [odoo13-addon-mail-restrict-follower-selection]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mail_restrict_follower_selection-13.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-08-02 07:25:25] INFO root fetch - main [MainThread]: End processing [odoo13-addon-mail-restrict-follower-selection]: success
+[2023-08-02 07:25:25] INFO root fetch - processPackages [jsocket]: Remove: archive file [/home/abi/fetcher/tmp/jsocket-1.9.0.tar.gz]
+[2023-08-02 07:25:25] INFO root fetch - processPackages [jsocket]: Remove: archive file [/home/abi/fetcher/tmp/jsocket-1.9.1-py3-none-any.whl.zip]
+[2023-08-02 07:25:25] INFO root fetch - main [MainThread]: End processing [jsocket]: success
+[2023-08-02 07:25:25] INFO root fetch - processPackages [ansible-risk-insight]: Remove: archive file [/home/abi/fetcher/tmp/ansible-risk-insight-0.1.8.tar.gz]
+[2023-08-02 07:25:25] INFO root fetch - processPackages [ansible-risk-insight]: Remove: archive file [/home/abi/fetcher/tmp/ansible-risk-insight-0.1.9.tar.gz]
+[2023-08-02 07:25:25] INFO root fetch - main [MainThread]: End processing [ansible-risk-insight]: success
+[2023-08-02 07:25:28] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
+[2023-08-02 07:25:28] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.8.2.13.20.11.tar.gz]
+[2023-08-02 07:25:28] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-08-02 07:25:28] INFO root fetch - main [MainThread]: Store serial: [19136830]

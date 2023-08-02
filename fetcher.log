@@ -16106,3 +16106,165 @@
 [2023-08-02 09:56:17] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-08-02 09:56:17] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-08-02 09:56:17] INFO root fetch - main [MainThread]: Store serial: [19138249]
+[2023-08-02 10:01:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19138249]
+[2023-08-02 10:01:27] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-08-02 10:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testrepo4
+[2023-08-02 10:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-adb
+[2023-08-02 10:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rclip
+[2023-08-02 10:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: terra-ai-datasets-framework
+[2023-08-02 10:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: saagieapi
+[2023-08-02 10:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: whisper-live
+[2023-08-02 10:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: UniDockTools
+[2023-08-02 10:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: platform-library
+[2023-08-02 10:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ansys-api-modelcenter
+[2023-08-02 10:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: swibots
+[2023-08-02 10:01:27] INFO root fetch - processPackages [swibots]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-02 10:01:27] INFO root fetch - processPackages [rclip]: New version: [1.4.7a8] Old Version: [1.4.7a7]
+[2023-08-02 10:01:27] INFO root fetch - processPackages [aliyun-python-sdk-adb]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-08-02 10:01:27] INFO root fetch - processPackages [terra-ai-datasets-framework]: New version: [1.2.0] Old Version: [1.1.7]
+[2023-08-02 10:01:27] INFO root fetch - processPackages [UniDockTools]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-02 10:01:27] INFO root fetch - processPackages [platform-library]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-02 10:01:27] INFO root fetch - processPackages [whisper-live]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 10:01:27] INFO root fetch - processPackages [saagieapi]: New version: [2.7.0] Old Version: [2.6.3]
+[2023-08-02 10:01:27] WARNING root fetch - processPackages [testrepo4]: Skipping, unable to determine old version
+[2023-08-02 10:01:27] INFO root fetch - processPackages [testrepo4]: Start processing: sdk-test-sdk
+[2023-08-02 10:01:27] INFO root fetch - main [MainThread]: End processing [testrepo4] error
+[2023-08-02 10:01:27] WARNING root fetch - processPackages [ansys-api-modelcenter]: Skipping, unable to determine old version
+[2023-08-02 10:01:27] INFO root fetch - processPackages [ansys-api-modelcenter]: Start processing: titan-iris
+[2023-08-02 10:01:27] INFO root fetch - main [MainThread]: End processing [ansys-api-modelcenter] error
+[2023-08-02 10:01:27] WARNING root fetch - processPackages [sdk-test-sdk]: Skipping, unable to determine old version
+[2023-08-02 10:01:27] INFO root fetch - processPackages [sdk-test-sdk]: Start processing: domain-admin
+[2023-08-02 10:01:27] INFO root fetch - main [MainThread]: End processing [sdk-test-sdk] error
+[2023-08-02 10:01:27] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-08-02 10:01:27] INFO root fetch - processPackages [UniDockTools]: Downloading https://files.pythonhosted.org/packages/16/1f/6f26c5929866ce6ef39658195f924902e6601f7f416dc7b27b72dba3298c/UniDockTools-1.0.2.tar.gz
+[2023-08-02 10:01:27] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/82/69/7c0e6ea9131a9e468c1d9c71b81edc9f90b91af4a877dd59319adaf8fd8d/swibots-1.3.8.tar.gz
+[2023-08-02 10:01:27] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/c7/7c/0cdd2119fb40e096f63768341fa977b1254a7e3d8d1a3447e28218202031/rclip-1.4.7a7.tar.gz
+[2023-08-02 10:01:27] INFO root fetch - processPackages [domain-admin]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-08-02 10:01:28] INFO root fetch - processPackages [aliyun-python-sdk-adb]: Downloading https://files.pythonhosted.org/packages/ec/54/b69f89992fd71fc8ff9c335529059daaad27d029cd3f77a4e4880ceca3aa/aliyun-python-sdk-adb-1.1.3.tar.gz
+[2023-08-02 10:01:28] INFO root fetch - processPackages [saagieapi]: Downloading https://files.pythonhosted.org/packages/7c/97/7c40e15b7776b68e4abbe339220dd0ac03ba8406c0bc591b6c979831ecc6/saagieapi-2.6.3.tar.gz
+[2023-08-02 10:01:28] INFO root fetch - processPackages [platform-library]: Downloading https://files.pythonhosted.org/packages/4a/52/1d5ecc5fdc7115d674acf4ff5c1bfe05f142e6b57e1eb03389814dc3c024/platform-library-0.3.0.tar.gz
+[2023-08-02 10:01:28] INFO root fetch - processPackages [terra-ai-datasets-framework]: Downloading https://files.pythonhosted.org/packages/86/9b/ca05190d1f5d1ba3efaf7749c8ffc3231838a80224528161231462dbc0d2/terra_ai_datasets_framework-1.1.7.tar.gz
+[2023-08-02 10:01:28] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-08-02 10:01:28] INFO root fetch - processPackages [whisper-live]: Downloading https://files.pythonhosted.org/packages/ed/3f/69fc9b32c67ec14eb568d70b82df188bb26116d13c1faded3f2fc743691c/whisper-live-0.0.1.tar.gz
+[2023-08-02 10:01:28] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/46/7b/e59642c890a515c84decdbdc942bb85c0303c75495c7edf7ad62943bdb9b/domain-admin-1.5.8.tar.gz
+[2023-08-02 10:01:28] INFO root fetch - processPackages [UniDockTools]: Downloading https://files.pythonhosted.org/packages/86/32/5f354fa88d2c2b149c8fd582bb75a6e89227dbbd2122b0b7eb0c65cd7531/UniDockTools-1.0.3.tar.gz
+[2023-08-02 10:01:28] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/ea/7b/639e8e0d26f49b658d1704d4d37bd38d8c55e1e5eed2f3f38ca390b8aabf/swibots-1.3.9.tar.gz
+[2023-08-02 10:01:28] INFO root fetch - processPackages [aliyun-python-sdk-adb]: Downloading https://files.pythonhosted.org/packages/d4/b2/f3859718509ec23447d64bd0f49211e7c47aa9ec36bf521014376315fe07/aliyun-python-sdk-adb-1.1.4.tar.gz
+[2023-08-02 10:01:28] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/b6/33/9368279ac437576613cd3b1c5360d684c7b9ab8730455128e271023e71bd/rclip-1.4.7a8.tar.gz
+[2023-08-02 10:01:28] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-08-02 10:01:28] INFO root fetch - processPackages [whisper-live]: Downloading https://files.pythonhosted.org/packages/db/ad/a8a655bf7508a0347bed7e7a00338ddbd12e687142b5b5bc927f4c8779ef/whisper-live-0.0.2.tar.gz
+[2023-08-02 10:01:28] INFO root fetch - processPackages [UniDockTools]: executing diffoscope
+[2023-08-02 10:01:28] INFO root fetch - processPackages [UniDockTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UniDockTools-1.0.2.tar.gz tmp/UniDockTools-1.0.3.tar.gz --markdown 20230802/U/UniDockTools/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-02 10:01:28] INFO root fetch - processPackages [aliyun-python-sdk-adb]: executing diffoscope
+[2023-08-02 10:01:28] INFO root fetch - processPackages [aliyun-python-sdk-adb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-adb-1.1.3.tar.gz tmp/aliyun-python-sdk-adb-1.1.4.tar.gz --markdown 20230802/a/aliyun-python-sdk-adb/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-08-02 10:01:28] INFO root fetch - processPackages [saagieapi]: Downloading https://files.pythonhosted.org/packages/7c/f6/87143d49a5070416c4cc4aa972e3dd4d28258973f821fe9e5e1c33ce3e29/saagieapi-2.7.0.tar.gz
+[2023-08-02 10:01:28] INFO root fetch - processPackages [platform-library]: Downloading https://files.pythonhosted.org/packages/c5/0e/fc6d76fb4b3d3bf05a038ab9725cc9968f5ac6c79a6d88da384e07bfb457/platform-library-0.4.0.tar.gz
+[2023-08-02 10:01:28] INFO root fetch - processPackages [terra-ai-datasets-framework]: Downloading https://files.pythonhosted.org/packages/40/05/09919a3f08385abd3d10b38c7a9686d77d1c351126a690012afd7a405629/terra_ai_datasets_framework-1.2.0.tar.gz
+[2023-08-02 10:01:28] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-08-02 10:01:28] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230802/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-08-02 10:01:28] INFO root fetch - processPackages [whisper-live]: executing diffoscope
+[2023-08-02 10:01:28] INFO root fetch - processPackages [whisper-live]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper-live-0.0.1.tar.gz tmp/whisper-live-0.0.2.tar.gz --markdown 20230802/w/whisper-live/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 10:01:28] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-02 10:01:28] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.7a7.tar.gz tmp/rclip-1.4.7a8.tar.gz --markdown 20230802/r/rclip/1.4.7a7-1.4.7a8/diff.md --exclude *.pyd
+[2023-08-02 10:01:28] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2023-08-02 10:01:28] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.3.8.tar.gz tmp/swibots-1.3.9.tar.gz --markdown 20230802/s/swibots/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-02 10:01:28] INFO root fetch - processPackages [saagieapi]: executing diffoscope
+[2023-08-02 10:01:28] INFO root fetch - processPackages [saagieapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saagieapi-2.6.3.tar.gz tmp/saagieapi-2.7.0.tar.gz --markdown 20230802/s/saagieapi/2.6.3-2.7.0/diff.md --exclude *.pyd
+[2023-08-02 10:01:28] INFO root fetch - processPackages [platform-library]: executing diffoscope
+[2023-08-02 10:01:28] INFO root fetch - processPackages [platform-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platform-library-0.3.0.tar.gz tmp/platform-library-0.4.0.tar.gz --markdown 20230802/p/platform-library/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-02 10:01:28] INFO root fetch - processPackages [terra-ai-datasets-framework]: executing diffoscope
+[2023-08-02 10:01:28] INFO root fetch - processPackages [terra-ai-datasets-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terra_ai_datasets_framework-1.1.7.tar.gz tmp/terra_ai_datasets_framework-1.2.0.tar.gz --markdown 20230802/t/terra-ai-datasets-framework/1.1.7-1.2.0/diff.md --exclude *.pyd
+[2023-08-02 10:01:29] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/d1/f5/0a0805e50c6f90a19ce30965443913d08e8ed6da9a129cc51a34b646f744/domain-admin-1.5.9.tar.gz
+[2023-08-02 10:01:29] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-08-02 10:01:29] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.5.8.tar.gz tmp/domain-admin-1.5.9.tar.gz --markdown 20230802/d/domain-admin/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-08-02 10:01:30] INFO root fetch - processPackages [UniDockTools]: Remove: archive file [/home/abi/fetcher/tmp/UniDockTools-1.0.2.tar.gz]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [UniDockTools]: Remove: archive file [/home/abi/fetcher/tmp/UniDockTools-1.0.3.tar.gz]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [UniDockTools]: Start processing: uframe
+[2023-08-02 10:01:30] INFO root fetch - main [MainThread]: End processing [UniDockTools]: success
+[2023-08-02 10:01:30] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a7.tar.gz]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a8.tar.gz]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [rclip]: Start processing: specable
+[2023-08-02 10:01:30] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-02 10:01:30] INFO root fetch - processPackages [uframe]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [specable]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [uframe]: Downloading https://files.pythonhosted.org/packages/5d/48/0edd0818ca268c1c2f7b5a0ef44159aac73e59e3b0bf408d9c8b2ecb3310/uframe-0.0.8.tar.gz
+[2023-08-02 10:01:30] INFO root fetch - processPackages [specable]: Downloading https://files.pythonhosted.org/packages/45/2a/7ca99a1a82dcc0194c761edbc292c6f94d745c2bde47845c9b460e629b73/specable-0.1.0.tar.gz
+[2023-08-02 10:01:30] INFO root fetch - processPackages [terra-ai-datasets-framework]: Remove: archive file [/home/abi/fetcher/tmp/terra_ai_datasets_framework-1.1.7.tar.gz]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [terra-ai-datasets-framework]: Remove: archive file [/home/abi/fetcher/tmp/terra_ai_datasets_framework-1.2.0.tar.gz]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [terra-ai-datasets-framework]: Start processing: PyMart
+[2023-08-02 10:01:30] INFO root fetch - main [MainThread]: End processing [terra-ai-datasets-framework]: success
+[2023-08-02 10:01:30] INFO root fetch - processPackages [platform-library]: Remove: archive file [/home/abi/fetcher/tmp/platform-library-0.3.0.tar.gz]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [platform-library]: Remove: archive file [/home/abi/fetcher/tmp/platform-library-0.4.0.tar.gz]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [platform-library]: Start processing: kpops
+[2023-08-02 10:01:30] INFO root fetch - main [MainThread]: End processing [platform-library]: success
+[2023-08-02 10:01:30] WARNING root fetch - processPackages [PyMart]: Skipping, unable to determine old version
+[2023-08-02 10:01:30] INFO root fetch - processPackages [PyMart]: Start processing: bridgecrew
+[2023-08-02 10:01:30] INFO root fetch - main [MainThread]: End processing [PyMart] error
+[2023-08-02 10:01:30] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [titan-iris]: Start processing: hysteresis
+[2023-08-02 10:01:30] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-08-02 10:01:30] INFO root fetch - processPackages [kpops]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [whisper-live]: Remove: archive file [/home/abi/fetcher/tmp/whisper-live-0.0.1.tar.gz]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [whisper-live]: Remove: archive file [/home/abi/fetcher/tmp/whisper-live-0.0.2.tar.gz]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [whisper-live]: Start processing: xw-cbase
+[2023-08-02 10:01:30] INFO root fetch - main [MainThread]: End processing [whisper-live]: success
+[2023-08-02 10:01:30] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [saagieapi]: Remove: archive file [/home/abi/fetcher/tmp/saagieapi-2.6.3.tar.gz]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [saagieapi]: Remove: archive file [/home/abi/fetcher/tmp/saagieapi-2.7.0.tar.gz]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [saagieapi]: Start processing: whisper-live
+[2023-08-02 10:01:30] INFO root fetch - main [MainThread]: End processing [saagieapi]: success
+[2023-08-02 10:01:30] INFO root fetch - processPackages [hysteresis]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-08-02 10:01:30] INFO root fetch - processPackages [uframe]: Downloading https://files.pythonhosted.org/packages/62/a9/d33f57f0042e42229d2fb8d601fb1bbc647c338ae71c9be3e51997d53ef3/uframe-0.0.9.tar.gz
+[2023-08-02 10:01:30] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-08-02 10:01:30] WARNING root fetch - processPackages [xw-cbase]: Skipping, unable to determine old version
+[2023-08-02 10:01:30] INFO root fetch - main [MainThread]: End processing [xw-cbase] error
+[2023-08-02 10:01:31] INFO root fetch - processPackages [aliyun-python-sdk-adb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-adb-1.1.3.tar.gz]
+[2023-08-02 10:01:31] INFO root fetch - processPackages [aliyun-python-sdk-adb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-adb-1.1.4.tar.gz]
+[2023-08-02 10:01:31] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-adb]: success
+[2023-08-02 10:01:31] INFO root fetch - processPackages [whisper-live]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 10:01:31] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/b2/8d/3b4e20547f4aa2ea16abbc089e420f6b458f723d88743b12389269257e1c/kpops-1.3.2.tar.gz
+[2023-08-02 10:01:31] INFO root fetch - processPackages [uframe]: executing diffoscope
+[2023-08-02 10:01:31] INFO root fetch - processPackages [uframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uframe-0.0.8.tar.gz tmp/uframe-0.0.9.tar.gz --markdown 20230802/u/uframe/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 10:01:31] INFO root fetch - processPackages [specable]: Downloading https://files.pythonhosted.org/packages/bd/49/a100f6079f762bf2ed3d7a6d13a5a3f73737e26c1372659253ff6c2e96cc/specable-0.1.1.tar.gz
+[2023-08-02 10:01:31] INFO root fetch - processPackages [whisper-live]: Downloading https://files.pythonhosted.org/packages/db/ad/a8a655bf7508a0347bed7e7a00338ddbd12e687142b5b5bc927f4c8779ef/whisper-live-0.0.2.tar.gz
+[2023-08-02 10:01:31] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-08-02 10:01:31] INFO root fetch - processPackages [hysteresis]: Downloading https://files.pythonhosted.org/packages/ac/25/92bf7a791dea7fac562345f6a822b8d8d8458d687c71a4096877e4ba6d37/hysteresis-2.0.0.tar.gz
+[2023-08-02 10:01:31] INFO root fetch - processPackages [specable]: executing diffoscope
+[2023-08-02 10:01:31] INFO root fetch - processPackages [specable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specable-0.1.0.tar.gz tmp/specable-0.1.1.tar.gz --markdown 20230802/s/specable/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-02 10:01:31] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-08-02 10:01:31] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230802/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-08-02 10:01:31] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/fc/de/cf21f7ce3ecc7e0ff37b741bd237c4f7660d7fde32f9917839d07d99128a/kpops-1.4.0.tar.gz
+[2023-08-02 10:01:31] INFO root fetch - processPackages [whisper-live]: Downloading https://files.pythonhosted.org/packages/de/4c/0caac69d3c045a63a679d731662eacf4698a248be4392f6443d0186bfce2/whisper-live-0.0.3.tar.gz
+[2023-08-02 10:01:31] INFO root fetch - processPackages [kpops]: executing diffoscope
+[2023-08-02 10:01:31] INFO root fetch - processPackages [kpops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kpops-1.3.2.tar.gz tmp/kpops-1.4.0.tar.gz --markdown 20230802/k/kpops/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-08-02 10:01:31] INFO root fetch - processPackages [hysteresis]: Downloading https://files.pythonhosted.org/packages/0f/79/a8a78cd115fca7cea14b82dfe765b98457c5861c50e67643e3b4edac4b91/hysteresis-2.0.1.tar.gz
+[2023-08-02 10:01:31] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.8.tar.gz]
+[2023-08-02 10:01:31] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.9.tar.gz]
+[2023-08-02 10:01:31] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2023-08-02 10:01:31] INFO root fetch - processPackages [hysteresis]: executing diffoscope
+[2023-08-02 10:01:31] INFO root fetch - processPackages [hysteresis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hysteresis-2.0.0.tar.gz tmp/hysteresis-2.0.1.tar.gz --markdown 20230802/h/hysteresis/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-08-02 10:01:31] INFO root fetch - processPackages [whisper-live]: executing diffoscope
+[2023-08-02 10:01:31] INFO root fetch - processPackages [whisper-live]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper-live-0.0.2.tar.gz tmp/whisper-live-0.0.3.tar.gz --markdown 20230802/w/whisper-live/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 10:01:32] INFO root fetch - processPackages [uframe]: Remove: archive file [/home/abi/fetcher/tmp/uframe-0.0.8.tar.gz]
+[2023-08-02 10:01:32] INFO root fetch - processPackages [uframe]: Remove: archive file [/home/abi/fetcher/tmp/uframe-0.0.9.tar.gz]
+[2023-08-02 10:01:32] INFO root fetch - main [MainThread]: End processing [uframe]: success
+[2023-08-02 10:01:32] INFO root fetch - processPackages [specable]: Remove: archive file [/home/abi/fetcher/tmp/specable-0.1.0.tar.gz]
+[2023-08-02 10:01:32] INFO root fetch - processPackages [specable]: Remove: archive file [/home/abi/fetcher/tmp/specable-0.1.1.tar.gz]
+[2023-08-02 10:01:32] INFO root fetch - main [MainThread]: End processing [specable]: success
+[2023-08-02 10:01:32] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-08-02 10:01:32] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-08-02 10:01:32] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-08-02 10:01:32] INFO root fetch - processPackages [hysteresis]: Remove: archive file [/home/abi/fetcher/tmp/hysteresis-2.0.0.tar.gz]
+[2023-08-02 10:01:32] INFO root fetch - processPackages [hysteresis]: Remove: archive file [/home/abi/fetcher/tmp/hysteresis-2.0.1.tar.gz]
+[2023-08-02 10:01:32] INFO root fetch - main [MainThread]: End processing [hysteresis]: success
+[2023-08-02 10:01:32] INFO root fetch - processPackages [whisper-live]: Remove: archive file [/home/abi/fetcher/tmp/whisper-live-0.0.2.tar.gz]
+[2023-08-02 10:01:32] INFO root fetch - processPackages [whisper-live]: Remove: archive file [/home/abi/fetcher/tmp/whisper-live-0.0.3.tar.gz]
+[2023-08-02 10:01:32] INFO root fetch - main [MainThread]: End processing [whisper-live]: success
+[2023-08-02 10:01:32] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-1.3.2.tar.gz]
+[2023-08-02 10:01:32] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-1.4.0.tar.gz]
+[2023-08-02 10:01:32] INFO root fetch - main [MainThread]: End processing [kpops]: success
+[2023-08-02 10:01:37] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.8.tar.gz]
+[2023-08-02 10:01:37] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.9.tar.gz]
+[2023-08-02 10:01:37] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-08-02 10:01:37] INFO root fetch - main [MainThread]: Store serial: [19138327]

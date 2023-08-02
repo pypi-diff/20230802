@@ -18498,3 +18498,197 @@ AssertionError: tmp/thinks_dash_components-0.4.5.tar.gz does not exist
 [2023-08-02 11:24:15] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-08-02 11:24:15] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-08-02 11:24:15] INFO root fetch - main [MainThread]: Store serial: [19139281]
+[2023-08-02 11:29:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19139281]
+[2023-08-02 11:29:24] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-02 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-purchase-origin-link-sale
+[2023-08-02 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorage
+[2023-08-02 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blob-mounting-helper-utility
+[2023-08-02 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyesmda
+[2023-08-02 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dj-monaco
+[2023-08-02 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hecdbetz
+[2023-08-02 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: indexpaper
+[2023-08-02 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybarb
+[2023-08-02 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: speechmatics-python
+[2023-08-02 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydflow
+[2023-08-02 11:29:24] INFO root fetch - processPackages [speechmatics-python]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-08-02 11:29:24] INFO root fetch - processPackages [hecdbetz]: New version: [4.0] Old Version: [3.0]
+[2023-08-02 11:29:24] INFO root fetch - processPackages [tensorage]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-02 11:29:24] WARNING root fetch - processPackages [indexpaper]: Skipping, unable to determine old version
+[2023-08-02 11:29:24] INFO root fetch - processPackages [indexpaper]: Start processing: termgpt
+[2023-08-02 11:29:24] INFO root fetch - main [MainThread]: End processing [indexpaper] error
+[2023-08-02 11:29:24] INFO root fetch - processPackages [blob-mounting-helper-utility]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-02 11:29:24] INFO root fetch - processPackages [dj-monaco]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-02 11:29:24] INFO root fetch - processPackages [pyesmda]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-02 11:29:24] INFO root fetch - processPackages [odoo13-addon-purchase-origin-link-sale]: New version: [13.0.1.0.1.dev3] Old Version: [13.0.1.0.1]
+[2023-08-02 11:29:24] INFO root fetch - processPackages [pybarb]: New version: [0.4] Old Version: [0.3.9]
+[2023-08-02 11:29:24] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-08-02 11:29:24] INFO root fetch - processPackages [termgpt]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-02 11:29:24] INFO root fetch - processPackages [speechmatics-python]: Downloading https://files.pythonhosted.org/packages/28/8f/df3c4123fec7fa30ede361865129b08b962003f6ce42bc4e68bab6942e97/speechmatics-python-1.8.4.tar.gz
+[2023-08-02 11:29:24] INFO root fetch - processPackages [blob-mounting-helper-utility]: Downloading https://files.pythonhosted.org/packages/1f/d6/f727f7cb9dd4e6422594d4536ae23c25836f2b0eb0ed09670c3cb75d387a/blob_mounting_helper_utility-1.0.8.tar.gz
+[2023-08-02 11:29:24] INFO root fetch - processPackages [pybarb]: Downloading https://files.pythonhosted.org/packages/7c/43/012a35e511a2e6d8c9c30937d753faf6aa2ab82fe7d70c6330d517e9d010/pybarb-0.3.9.tar.gz
+[2023-08-02 11:29:24] INFO root fetch - processPackages [hecdbetz]: Downloading https://files.pythonhosted.org/packages/02/e1/470734ec3f7844f309a5aa1d09cabe073123d31de50372ffb423b2d7e3e3/hecdbetz-3.0.tar.gz
+[2023-08-02 11:29:24] INFO root fetch - processPackages [odoo13-addon-purchase-origin-link-sale]: Downloading https://files.pythonhosted.org/packages/67/e0/4802e4696611a3c47763712bd34f329daca803db1512a6d5bdfb22391f11/odoo13_addon_purchase_origin_link_sale-13.0.1.0.1-py3-none-any.whl
+[2023-08-02 11:29:24] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/b6/d6/9bd0bc44601e948ff960c383b65184ade564904ba4d94a92e9eaa6dec37f/tensorage-0.0.7.tar.gz
+[2023-08-02 11:29:24] INFO root fetch - processPackages [pyesmda]: Downloading https://files.pythonhosted.org/packages/cf/33/674e51d471cfb887b335b4b34a183b91f07c607c646c8413d63fa6fa0fc7/pyesmda-0.4.1.tar.gz
+[2023-08-02 11:29:24] INFO root fetch - processPackages [dj-monaco]: Downloading https://files.pythonhosted.org/packages/bb/fa/cd914e52d7295c0acda038c36dd37b3608c1fe410e199e6390d9915771f1/dj-monaco-1.0.1.tar.gz
+[2023-08-02 11:29:24] INFO root fetch - processPackages [termgpt]: Downloading https://files.pythonhosted.org/packages/d6/52/81abe52bb46616dc4524f1440a151fb711c1c0b7de681ab93421d3328273/termgpt-0.8.1.tar.gz
+[2023-08-02 11:29:24] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-08-02 11:29:25] INFO root fetch - processPackages [blob-mounting-helper-utility]: Downloading https://files.pythonhosted.org/packages/f3/2f/7243bb1c2c55e12447dc6572629abc0fdd93b948bd6ef9dd65d6ca454a5d/blob_mounting_helper_utility-1.0.9.tar.gz
+[2023-08-02 11:29:25] INFO root fetch - processPackages [pybarb]: Downloading https://files.pythonhosted.org/packages/e4/91/20c1cdeefd4487bd597c0943e271952d2cc0edb679c792ecc70003dd366c/pybarb-0.4.tar.gz
+[2023-08-02 11:29:25] INFO root fetch - processPackages [hecdbetz]: Downloading https://files.pythonhosted.org/packages/5d/94/4522fa26b05d3b925af42fc04a5bccec2554748a0678580f534562a7553f/hecdbetz-4.0.tar.gz
+[2023-08-02 11:29:25] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/de/df/0b1cd70d41bccabec21ce79c9c21dc32c8d20ae5ae9eedcc1884e6002b96/tensorage-0.0.8.tar.gz
+[2023-08-02 11:29:25] INFO root fetch - processPackages [dj-monaco]: Downloading https://files.pythonhosted.org/packages/93/e2/a7d4584156ce48ac2743aa8214b1808c44437e3ccbbcb5642afd543a178a/dj-monaco-1.0.2.tar.gz
+[2023-08-02 11:29:25] INFO root fetch - processPackages [odoo13-addon-purchase-origin-link-sale]: Downloading https://files.pythonhosted.org/packages/d6/a1/4c3ae13e0c33c25f6b6e608c4e162541803492fd56676cf9ddf2f4a6c59b/odoo13_addon_purchase_origin_link_sale-13.0.1.0.1.dev3-py3-none-any.whl
+[2023-08-02 11:29:25] INFO root fetch - processPackages [termgpt]: Downloading https://files.pythonhosted.org/packages/53/f9/68a9b8aae95db2b13616d8fc6c699029acd1461d39d76806940fdb3a519c/termgpt-0.9.0.tar.gz
+[2023-08-02 11:29:25] INFO root fetch - processPackages [blob-mounting-helper-utility]: executing diffoscope
+[2023-08-02 11:29:25] INFO root fetch - processPackages [blob-mounting-helper-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blob_mounting_helper_utility-1.0.8.tar.gz tmp/blob_mounting_helper_utility-1.0.9.tar.gz --markdown 20230802/b/blob-mounting-helper-utility/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 11:29:25] INFO root fetch - processPackages [pyesmda]: Downloading https://files.pythonhosted.org/packages/f3/8c/028f5d453727ab18916efc78c7b1d014985fcc081e6cef8b394a913fed33/pyesmda-0.4.2.tar.gz
+[2023-08-02 11:29:25] INFO root fetch - processPackages [hecdbetz]: executing diffoscope
+[2023-08-02 11:29:25] INFO root fetch - processPackages [hecdbetz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hecdbetz-3.0.tar.gz tmp/hecdbetz-4.0.tar.gz --markdown 20230802/h/hecdbetz/3.0-4.0/diff.md --exclude *.pyd
+[2023-08-02 11:29:25] INFO root fetch - processPackages [speechmatics-python]: Downloading https://files.pythonhosted.org/packages/58/ec/0f0029e84effaacc957be5a79127177f722133664014ee39d376be9c768d/speechmatics-python-1.9.0.tar.gz
+[2023-08-02 11:29:25] INFO root fetch - processPackages [pybarb]: executing diffoscope
+[2023-08-02 11:29:25] INFO root fetch - processPackages [pybarb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybarb-0.3.9.tar.gz tmp/pybarb-0.4.tar.gz --markdown 20230802/p/pybarb/0.3.9-0.4/diff.md --exclude *.pyd
+[2023-08-02 11:29:25] INFO root fetch - processPackages [dj-monaco]: executing diffoscope
+[2023-08-02 11:29:25] INFO root fetch - processPackages [dj-monaco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-monaco-1.0.1.tar.gz tmp/dj-monaco-1.0.2.tar.gz --markdown 20230802/d/dj-monaco/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-02 11:29:25] INFO root fetch - processPackages [tensorage]: executing diffoscope
+[2023-08-02 11:29:25] INFO root fetch - processPackages [tensorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorage-0.0.7.tar.gz tmp/tensorage-0.0.8.tar.gz --markdown 20230802/t/tensorage/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-02 11:29:25] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-08-02 11:29:25] INFO root fetch - processPackages [odoo13-addon-purchase-origin-link-sale]: executing diffoscope
+[2023-08-02 11:29:25] INFO root fetch - processPackages [termgpt]: executing diffoscope
+[2023-08-02 11:29:25] INFO root fetch - processPackages [odoo13-addon-purchase-origin-link-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_origin_link_sale-13.0.1.0.1-py3-none-any.whl.zip tmp/odoo13_addon_purchase_origin_link_sale-13.0.1.0.1.dev3-py3-none-any.whl.zip --markdown 20230802/o/odoo13-addon-purchase-origin-link-sale/13.0.1.0.1-13.0.1.0.1.dev3/diff.md --exclude *.pyd
+[2023-08-02 11:29:25] INFO root fetch - processPackages [termgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termgpt-0.8.1.tar.gz tmp/termgpt-0.9.0.tar.gz --markdown 20230802/t/termgpt/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 11:29:25] INFO root fetch - processPackages [speechmatics-python]: executing diffoscope
+[2023-08-02 11:29:25] INFO root fetch - processPackages [speechmatics-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speechmatics-python-1.8.4.tar.gz tmp/speechmatics-python-1.9.0.tar.gz --markdown 20230802/s/speechmatics-python/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-08-02 11:29:25] INFO root fetch - processPackages [pyesmda]: executing diffoscope
+[2023-08-02 11:29:25] INFO root fetch - processPackages [pyesmda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyesmda-0.4.1.tar.gz tmp/pyesmda-0.4.2.tar.gz --markdown 20230802/p/pyesmda/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-02 11:29:25] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-08-02 11:29:25] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230802/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-08-02 11:29:27] INFO root fetch - processPackages [hecdbetz]: Remove: archive file [/home/abi/fetcher/tmp/hecdbetz-3.0.tar.gz]
+[2023-08-02 11:29:27] INFO root fetch - processPackages [hecdbetz]: Remove: archive file [/home/abi/fetcher/tmp/hecdbetz-4.0.tar.gz]
+[2023-08-02 11:29:27] INFO root fetch - processPackages [hecdbetz]: Start processing: pulumi-keycloak
+[2023-08-02 11:29:27] INFO root fetch - main [MainThread]: End processing [hecdbetz]: success
+[2023-08-02 11:29:27] INFO root fetch - processPackages [blob-mounting-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/blob_mounting_helper_utility-1.0.8.tar.gz]
+[2023-08-02 11:29:27] INFO root fetch - processPackages [blob-mounting-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/blob_mounting_helper_utility-1.0.9.tar.gz]
+[2023-08-02 11:29:27] INFO root fetch - processPackages [blob-mounting-helper-utility]: Start processing: deeplc
+[2023-08-02 11:29:27] INFO root fetch - main [MainThread]: End processing [blob-mounting-helper-utility]: success
+[2023-08-02 11:29:27] INFO root fetch - processPackages [dj-monaco]: Remove: archive file [/home/abi/fetcher/tmp/dj-monaco-1.0.1.tar.gz]
+[2023-08-02 11:29:27] INFO root fetch - processPackages [dj-monaco]: Remove: archive file [/home/abi/fetcher/tmp/dj-monaco-1.0.2.tar.gz]
+[2023-08-02 11:29:27] INFO root fetch - processPackages [dj-monaco]: Start processing: icetcore
+[2023-08-02 11:29:27] INFO root fetch - main [MainThread]: End processing [dj-monaco]: success
+[2023-08-02 11:29:27] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.3.0a1690967340] Old Version: [5.3.0a1690263396]
+[2023-08-02 11:29:27] INFO root fetch - processPackages [pybarb]: Remove: archive file [/home/abi/fetcher/tmp/pybarb-0.3.9.tar.gz]
+[2023-08-02 11:29:27] INFO root fetch - processPackages [pybarb]: Remove: archive file [/home/abi/fetcher/tmp/pybarb-0.4.tar.gz]
+[2023-08-02 11:29:27] INFO root fetch - main [MainThread]: End processing [pybarb]: success
+[2023-08-02 11:29:27] INFO root fetch - processPackages [deeplc]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-08-02 11:29:27] INFO root fetch - processPackages [termgpt]: Remove: archive file [/home/abi/fetcher/tmp/termgpt-0.8.1.tar.gz]
+[2023-08-02 11:29:27] INFO root fetch - processPackages [termgpt]: Remove: archive file [/home/abi/fetcher/tmp/termgpt-0.9.0.tar.gz]
+[2023-08-02 11:29:27] INFO root fetch - main [MainThread]: End processing [termgpt]: success
+[2023-08-02 11:29:27] INFO root fetch - processPackages [icetcore]: New version: [6.2.9] Old Version: [6.2.8]
+[2023-08-02 11:29:27] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.7.tar.gz]
+[2023-08-02 11:29:27] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.8.tar.gz]
+[2023-08-02 11:29:27] INFO root fetch - main [MainThread]: End processing [tensorage]: success
+[2023-08-02 11:29:27] INFO root fetch - processPackages [odoo13-addon-purchase-origin-link-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_origin_link_sale-13.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-02 11:29:27] INFO root fetch - processPackages [odoo13-addon-purchase-origin-link-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_origin_link_sale-13.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-08-02 11:29:27] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-origin-link-sale]: success
+[2023-08-02 11:29:27] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/0c/9b/433f33855af8be726da4287e72e00a071b2200cd3a2dbeb7528fb79f6528/pulumi_keycloak-5.3.0a1690263396.tar.gz
+[2023-08-02 11:29:27] INFO root fetch - processPackages [deeplc]: Downloading https://files.pythonhosted.org/packages/01/84/d1407a1303f6c3d9ff125dd97da25aeaeb1d9a363ecf6f9b55e0bfd99b04/deeplc-2.2.4.tar.gz
+[2023-08-02 11:29:27] INFO root fetch - processPackages [speechmatics-python]: Remove: archive file [/home/abi/fetcher/tmp/speechmatics-python-1.8.4.tar.gz]
+[2023-08-02 11:29:27] INFO root fetch - processPackages [speechmatics-python]: Remove: archive file [/home/abi/fetcher/tmp/speechmatics-python-1.9.0.tar.gz]
+[2023-08-02 11:29:27] INFO root fetch - main [MainThread]: End processing [speechmatics-python]: success
+[2023-08-02 11:29:27] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-08-02 11:29:27] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-08-02 11:29:27] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-08-02 11:29:27] WARNING root fetch - processPackages [deeplc]: Skipping package: exceeds size limit 32146633>=10485760
+[2023-08-02 11:29:27] INFO root fetch - main [MainThread]: End processing [deeplc] error
+[2023-08-02 11:29:27] INFO root fetch - processPackages [icetcore]: Downloading https://files.pythonhosted.org/packages/f8/ec/f0b36a16e347cf6c52f5bd9080e2ceceb1ccbff1f5375cc02793f8a11f4c/icetcore-6.2.8-py3-none-any.whl
+[2023-08-02 11:29:28] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/e0/1b/7ae73201a9f5d2e92717881d84d04020bd395a39d68be1b983a304210e51/pulumi_keycloak-5.3.0a1690967340.tar.gz
+[2023-08-02 11:29:28] INFO root fetch - processPackages [icetcore]: Downloading https://files.pythonhosted.org/packages/d5/c1/b1e46c16d3b48d44f3a47abbcbfb5f271ccf897fec2a9a769d9698ea6533/icetcore-6.2.9.tar.gz
+[2023-08-02 11:29:28] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2023-08-02 11:29:28] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.3.0a1690263396.tar.gz tmp/pulumi_keycloak-5.3.0a1690967340.tar.gz --markdown 20230802/p/pulumi-keycloak/5.3.0a1690263396-5.3.0a1690967340/diff.md --exclude *.pyd
+[2023-08-02 11:29:28] INFO root fetch - processPackages [icetcore]: executing diffoscope
+[2023-08-02 11:29:28] INFO root fetch - processPackages [icetcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icetcore-6.2.8-py3-none-any.whl.zip tmp/icetcore-6.2.9.tar.gz --markdown 20230802/i/icetcore/6.2.8-6.2.9/diff.md --exclude *.pyd
+[2023-08-02 11:29:28] ERROR root fetch - processPackages [icetcore]: Diffoscope failed: time="2023-08-02T11:29:28+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['zipinfo {}']' returned non-zero exit status 9.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid start byte
+
+[2023-08-02 11:29:28] INFO root fetch - main [MainThread]: End processing [icetcore] error
+[2023-08-02 11:29:29] INFO root fetch - processPackages [pyesmda]: Remove: archive file [/home/abi/fetcher/tmp/pyesmda-0.4.1.tar.gz]
+[2023-08-02 11:29:29] INFO root fetch - processPackages [pyesmda]: Remove: archive file [/home/abi/fetcher/tmp/pyesmda-0.4.2.tar.gz]
+[2023-08-02 11:29:29] INFO root fetch - main [MainThread]: End processing [pyesmda]: success
+[2023-08-02 11:29:29] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.3.0a1690263396.tar.gz]
+[2023-08-02 11:29:29] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.3.0a1690967340.tar.gz]
+[2023-08-02 11:29:29] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2023-08-02 11:29:29] INFO root fetch - main [MainThread]: Store serial: [19139320]

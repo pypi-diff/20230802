@@ -12032,3 +12032,87 @@
 [2023-08-02 05:56:32] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-08-02 05:56:32] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
 [2023-08-02 05:56:32] INFO root fetch - main [MainThread]: Store serial: [19136292]
+[2023-08-02 06:01:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136292]
+[2023-08-02 06:01:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-02 06:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-l10n-it-ddt-mrp-kit
+[2023-08-02 06:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-l10n-it-account-stamp-ddt
+[2023-08-02 06:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: k1lib
+[2023-08-02 06:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alfred-workflow-packager
+[2023-08-02 06:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: evals-nightly
+[2023-08-02 06:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yeastvision
+[2023-08-02 06:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: skitai
+[2023-08-02 06:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coiled
+[2023-08-02 06:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atila
+[2023-08-02 06:01:43] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt-mrp-kit]: New version: [12.0.1.0.0.99.dev4] Old Version: [12.0.1.0.0.99.dev2]
+[2023-08-02 06:01:43] INFO root fetch - processPackages [odoo12-addon-l10n-it-account-stamp-ddt]: New version: [12.0.1.0.1.99.dev5] Old Version: [12.0.1.0.1.99.dev4]
+[2023-08-02 06:01:43] INFO root fetch - processPackages [yeastvision]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-08-02 06:01:43] INFO root fetch - processPackages [alfred-workflow-packager]: New version: [3.0.0b9] Old Version: [3.0.0b8]
+[2023-08-02 06:01:43] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230731] Old Version: [1.0.3.dev20230730]
+[2023-08-02 06:01:43] INFO root fetch - processPackages [k1lib]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-08-02 06:01:43] INFO root fetch - processPackages [atila]: New version: [0.9.7.1] Old Version: [0.9.7]
+[2023-08-02 06:01:43] INFO root fetch - processPackages [skitai]: New version: [0.9.4.21] Old Version: [0.56.9]
+[2023-08-02 06:01:43] INFO root fetch - processPackages [coiled]: New version: [0.9.4.dev5] Old Version: [0.9.4.dev18]
+[2023-08-02 06:01:43] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/9a/c0/01bf535862c3530a2728ac8657d3314308b45c0be3ca39d585903aa6c564/evals-nightly-1.0.3.dev20230730.tar.gz
+[2023-08-02 06:01:43] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt-mrp-kit]: Downloading https://files.pythonhosted.org/packages/c2/62/ec4f47315c043564ec5ac175e357c2a02265cea5cc4fe9a57f079b2f16a0/odoo12_addon_l10n_it_ddt_mrp_kit-12.0.1.0.0.99.dev2-py3-none-any.whl
+[2023-08-02 06:01:43] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/52/8a/6531f80a08b14d6f06e25d592fd264c001248d313d3203785215a19240ea/coiled-0.9.4.dev18.tar.gz
+[2023-08-02 06:01:43] INFO root fetch - processPackages [alfred-workflow-packager]: Downloading https://files.pythonhosted.org/packages/e6/c2/fd3d21993f10d1cbf7453c8a65e7e75f2ecd1bc8ffe59f7e7ec829b930c8/alfred-workflow-packager-3.0.0b8.tar.gz
+[2023-08-02 06:01:43] INFO root fetch - processPackages [atila]: Downloading https://files.pythonhosted.org/packages/73/72/88ca7bf3e93e277b35f9ffbcb0d0ab076500429a5f5dbc889c41925a505f/atila-0.9.7-py3-none-any.whl
+[2023-08-02 06:01:43] INFO root fetch - processPackages [yeastvision]: Downloading https://files.pythonhosted.org/packages/02/54/03ef7feb5a069c9ec29c9cc8bd7d30900248c1f02a425ca240a5698b718e/yeastvision-0.1.7.tar.gz
+[2023-08-02 06:01:43] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/5b/1b/d406df68edf022809a95ed3170dbcb3a3d72c9f1ab50f3bef3bad90cfa0b/k1lib-1.4.2.tar.gz
+[2023-08-02 06:01:43] INFO root fetch - processPackages [odoo12-addon-l10n-it-account-stamp-ddt]: Downloading https://files.pythonhosted.org/packages/b5/0a/0db481b070f597cd81828c4dab5b43bbcb1a7601edb0582b4aeef833206b/odoo12_addon_l10n_it_account_stamp_ddt-12.0.1.0.1.99.dev4-py3-none-any.whl
+[2023-08-02 06:01:43] INFO root fetch - processPackages [skitai]: Downloading https://files.pythonhosted.org/packages/66/dd/c0c6d2707c3b230622a562b449eb2d59317660369903b630f28c4d5d92ab/skitai-0.56.9-py3-none-any.whl
+[2023-08-02 06:01:43] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt-mrp-kit]: Downloading https://files.pythonhosted.org/packages/28/3c/41965aab1af7d28d86fb1ea419cd89bb0620604ead3af6b4caadfe187967/odoo12_addon_l10n_it_ddt_mrp_kit-12.0.1.0.0.99.dev4-py3-none-any.whl
+[2023-08-02 06:01:43] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/d7/6d/cb4aed45a3bea2bd4c115f0dc4f32d7ac1397bcd5298b7a15fae91485adb/coiled-0.9.4.dev5.tar.gz
+[2023-08-02 06:01:43] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt-mrp-kit]: executing diffoscope
+[2023-08-02 06:01:43] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt-mrp-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_ddt_mrp_kit-12.0.1.0.0.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_ddt_mrp_kit-12.0.1.0.0.99.dev4-py3-none-any.whl.zip --markdown 20230802/o/odoo12-addon-l10n-it-ddt-mrp-kit/12.0.1.0.0.99.dev2-12.0.1.0.0.99.dev4/diff.md --exclude *.pyd
+[2023-08-02 06:01:43] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/23/de/2e8e2cd70ebc68c458bfcd67443d7f67ba9c95e66260faa13d259323dc2c/evals-nightly-1.0.3.dev20230731.tar.gz
+[2023-08-02 06:01:43] INFO root fetch - processPackages [alfred-workflow-packager]: Downloading https://files.pythonhosted.org/packages/c3/6f/fbfbfaf845df01121cc39cc173a6ff08a7b2c5c44cc53278896f55298798/alfred-workflow-packager-3.0.0b9.tar.gz
+[2023-08-02 06:01:44] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-08-02 06:01:44] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.9.4.dev18.tar.gz tmp/coiled-0.9.4.dev5.tar.gz --markdown 20230802/c/coiled/0.9.4.dev18-0.9.4.dev5/diff.md --exclude *.pyd
+[2023-08-02 06:01:44] INFO root fetch - processPackages [odoo12-addon-l10n-it-account-stamp-ddt]: Downloading https://files.pythonhosted.org/packages/20/75/caf3423758186d376a6a8e98513bb5de3bf278d4632f7045637403edac77/odoo12_addon_l10n_it_account_stamp_ddt-12.0.1.0.1.99.dev5-py3-none-any.whl
+[2023-08-02 06:01:44] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-08-02 06:01:44] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230730.tar.gz tmp/evals-nightly-1.0.3.dev20230731.tar.gz --markdown 20230802/e/evals-nightly/1.0.3.dev20230730-1.0.3.dev20230731/diff.md --exclude *.pyd
+[2023-08-02 06:01:44] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/c5/24/aa3511ccec70287cae54de0747140f45830312cf2edd059cd71c84a3dbdb/k1lib-1.4.3.tar.gz
+[2023-08-02 06:01:44] INFO root fetch - processPackages [yeastvision]: Downloading https://files.pythonhosted.org/packages/ca/b9/a6ea7d4301424e1292a0163c278c3763cc8a40c1437af17464222ff4badc/yeastvision-0.1.9.tar.gz
+[2023-08-02 06:01:44] INFO root fetch - processPackages [skitai]: Downloading https://files.pythonhosted.org/packages/8d/5d/a745681ceb89c9d426e23cf1ee7c610fe4cf82be126d0f18eea708f6527f/skitai-0.9.4.21.tar.gz
+[2023-08-02 06:01:44] INFO root fetch - processPackages [alfred-workflow-packager]: executing diffoscope
+[2023-08-02 06:01:44] INFO root fetch - processPackages [alfred-workflow-packager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfred-workflow-packager-3.0.0b8.tar.gz tmp/alfred-workflow-packager-3.0.0b9.tar.gz --markdown 20230802/a/alfred-workflow-packager/3.0.0b8-3.0.0b9/diff.md --exclude *.pyd
+[2023-08-02 06:01:44] INFO root fetch - processPackages [atila]: Downloading https://files.pythonhosted.org/packages/a3/f2/592a655fe2082a91ef438ffbb596679e93a2596f65d61473cff095549848/atila-0.9.7.1-py3-none-any.whl
+[2023-08-02 06:01:44] INFO root fetch - processPackages [odoo12-addon-l10n-it-account-stamp-ddt]: executing diffoscope
+[2023-08-02 06:01:44] INFO root fetch - processPackages [odoo12-addon-l10n-it-account-stamp-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_account_stamp_ddt-12.0.1.0.1.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_account_stamp_ddt-12.0.1.0.1.99.dev5-py3-none-any.whl.zip --markdown 20230802/o/odoo12-addon-l10n-it-account-stamp-ddt/12.0.1.0.1.99.dev4-12.0.1.0.1.99.dev5/diff.md --exclude *.pyd
+[2023-08-02 06:01:44] INFO root fetch - processPackages [yeastvision]: executing diffoscope
+[2023-08-02 06:01:44] INFO root fetch - processPackages [yeastvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeastvision-0.1.7.tar.gz tmp/yeastvision-0.1.9.tar.gz --markdown 20230802/y/yeastvision/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 06:01:44] INFO root fetch - processPackages [atila]: executing diffoscope
+[2023-08-02 06:01:44] INFO root fetch - processPackages [atila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atila-0.9.7-py3-none-any.whl.zip tmp/atila-0.9.7.1-py3-none-any.whl.zip --markdown 20230802/a/atila/0.9.7-0.9.7.1/diff.md --exclude *.pyd
+[2023-08-02 06:01:44] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-08-02 06:01:44] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.4.2.tar.gz tmp/k1lib-1.4.3.tar.gz --markdown 20230802/k/k1lib/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-08-02 06:01:44] INFO root fetch - processPackages [skitai]: executing diffoscope
+[2023-08-02 06:01:44] INFO root fetch - processPackages [skitai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skitai-0.56.9-py3-none-any.whl.zip tmp/skitai-0.9.4.21.tar.gz --markdown 20230802/s/skitai/0.56.9-0.9.4.21/diff.md --exclude *.pyd
+[2023-08-02 06:01:45] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt-mrp-kit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_ddt_mrp_kit-12.0.1.0.0.99.dev2-py3-none-any.whl.zip]
+[2023-08-02 06:01:45] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt-mrp-kit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_ddt_mrp_kit-12.0.1.0.0.99.dev4-py3-none-any.whl.zip]
+[2023-08-02 06:01:45] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-ddt-mrp-kit]: success
+[2023-08-02 06:01:45] INFO root fetch - processPackages [alfred-workflow-packager]: Remove: archive file [/home/abi/fetcher/tmp/alfred-workflow-packager-3.0.0b8.tar.gz]
+[2023-08-02 06:01:45] INFO root fetch - processPackages [alfred-workflow-packager]: Remove: archive file [/home/abi/fetcher/tmp/alfred-workflow-packager-3.0.0b9.tar.gz]
+[2023-08-02 06:01:45] INFO root fetch - main [MainThread]: End processing [alfred-workflow-packager]: success
+[2023-08-02 06:01:45] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.4.dev18.tar.gz]
+[2023-08-02 06:01:45] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.4.dev5.tar.gz]
+[2023-08-02 06:01:45] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-08-02 06:01:45] INFO root fetch - processPackages [odoo12-addon-l10n-it-account-stamp-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_account_stamp_ddt-12.0.1.0.1.99.dev4-py3-none-any.whl.zip]
+[2023-08-02 06:01:45] INFO root fetch - processPackages [odoo12-addon-l10n-it-account-stamp-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_account_stamp_ddt-12.0.1.0.1.99.dev5-py3-none-any.whl.zip]
+[2023-08-02 06:01:45] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-account-stamp-ddt]: success
+[2023-08-02 06:01:45] INFO root fetch - processPackages [atila]: Remove: archive file [/home/abi/fetcher/tmp/atila-0.9.7-py3-none-any.whl.zip]
+[2023-08-02 06:01:45] INFO root fetch - processPackages [atila]: Remove: archive file [/home/abi/fetcher/tmp/atila-0.9.7.1-py3-none-any.whl.zip]
+[2023-08-02 06:01:45] INFO root fetch - main [MainThread]: End processing [atila]: success
+[2023-08-02 06:01:45] INFO root fetch - processPackages [yeastvision]: Remove: archive file [/home/abi/fetcher/tmp/yeastvision-0.1.7.tar.gz]
+[2023-08-02 06:01:45] INFO root fetch - processPackages [yeastvision]: Remove: archive file [/home/abi/fetcher/tmp/yeastvision-0.1.9.tar.gz]
+[2023-08-02 06:01:45] INFO root fetch - main [MainThread]: End processing [yeastvision]: success
+[2023-08-02 06:01:46] INFO root fetch - processPackages [skitai]: Remove: archive file [/home/abi/fetcher/tmp/skitai-0.56.9-py3-none-any.whl.zip]
+[2023-08-02 06:01:46] INFO root fetch - processPackages [skitai]: Remove: archive file [/home/abi/fetcher/tmp/skitai-0.9.4.21.tar.gz]
+[2023-08-02 06:01:46] INFO root fetch - main [MainThread]: End processing [skitai]: success
+[2023-08-02 06:01:46] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230730.tar.gz]
+[2023-08-02 06:01:46] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230731.tar.gz]
+[2023-08-02 06:01:46] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-08-02 06:01:46] INFO root fetch - processPackages [k1lib]: Remove: archive file [/home/abi/fetcher/tmp/k1lib-1.4.2.tar.gz]
+[2023-08-02 06:01:46] INFO root fetch - processPackages [k1lib]: Remove: archive file [/home/abi/fetcher/tmp/k1lib-1.4.3.tar.gz]
+[2023-08-02 06:01:46] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-08-02 06:01:46] INFO root fetch - main [MainThread]: Store serial: [19136321]

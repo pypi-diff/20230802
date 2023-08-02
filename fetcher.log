@@ -22267,3 +22267,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-02 13:53:23] INFO root fetch - processPackages [gitlab-arc-fs]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_arc_fs-0.0.9.dev1.tar.gz]
 [2023-08-02 13:53:23] INFO root fetch - main [MainThread]: End processing [gitlab-arc-fs]: success
 [2023-08-02 13:53:23] INFO root fetch - main [MainThread]: Store serial: [19140792]
+[2023-08-02 13:58:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19140792]
+[2023-08-02 13:58:31] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-02 13:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flojoy
+[2023-08-02 13:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lognflow
+[2023-08-02 13:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-rest-batteries
+[2023-08-02 13:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LCPDelta
+[2023-08-02 13:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onnx2tf
+[2023-08-02 13:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gs-xcom-backend-triggerer
+[2023-08-02 13:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vgs-api-client
+[2023-08-02 13:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupedsim
+[2023-08-02 13:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipeline-ai
+[2023-08-02 13:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sip
+[2023-08-02 13:58:32] WARNING root fetch - processPackages [jupedsim]: Skipping, unable to determine old version
+[2023-08-02 13:58:32] INFO root fetch - processPackages [jupedsim]: Start processing: ibott-browser-manager
+[2023-08-02 13:58:32] INFO root fetch - main [MainThread]: End processing [jupedsim] error
+[2023-08-02 13:58:32] INFO root fetch - processPackages [flojoy]: New version: [0.2.2.dev9] Old Version: [0.2.2.dev8]
+[2023-08-02 13:58:32] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-08-02 13:58:32] INFO root fetch - processPackages [django-rest-batteries]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-08-02 13:58:32] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-02 13:58:32] WARNING root fetch - processPackages [LCPDelta]: Skipping, unable to determine old version
+[2023-08-02 13:58:32] INFO root fetch - processPackages [LCPDelta]: Start processing: python-lectio
+[2023-08-02 13:58:32] INFO root fetch - main [MainThread]: End processing [LCPDelta] error
+[2023-08-02 13:58:32] INFO root fetch - processPackages [lognflow]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-02 13:58:32] INFO root fetch - processPackages [pipeline-ai]: New version: [1.0.0b1] Old Version: [0.5.0b9]
+[2023-08-02 13:58:32] INFO root fetch - processPackages [sip]: New version: [6.7.9] Old Version: [6.7.8]
+[2023-08-02 13:58:32] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-08-02 13:58:32] INFO root fetch - processPackages [python-lectio]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-02 13:58:32] INFO root fetch - processPackages [ibott-browser-manager]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-02 13:58:32] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/5a/a5/ad85b3a927c61c43fe2fc05c1e5590494c7629ac73498bc18081bd223ca0/lognflow-0.8.2.tar.gz
+[2023-08-02 13:58:32] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/04/7e/dbe7b48fb43cd257360210eb902664720b9a0bd0a7c2e48ccf5ca12b974e/vgs_api_client-0.0.44-py3-none-any.whl
+[2023-08-02 13:58:32] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/58/4a/411ed49c4c426bcb70e5ad46561890a01ad521164c31dc1a485ce164a90b/flojoy-0.2.2.dev8.tar.gz
+[2023-08-02 13:58:32] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: Downloading https://files.pythonhosted.org/packages/6c/db/f9109af4c0c592feb25aab3894c9955d68e81d7094363c7d6085cc1346d8/gs_xcom_backend_triggerer-0.0.3.tar.gz
+[2023-08-02 13:58:32] INFO root fetch - processPackages [django-rest-batteries]: Downloading https://files.pythonhosted.org/packages/14/42/2b996525ac97bcc668b8fe32b46c36206ed67005e64ed81c0d411b3924f6/django_rest_batteries-1.4.0.tar.gz
+[2023-08-02 13:58:32] INFO root fetch - processPackages [sip]: Downloading https://files.pythonhosted.org/packages/c7/09/68bfefcdc48875e66aabafc946620483d0cd93aba52dde37d2059e5bf927/sip-6.7.8.tar.gz
+[2023-08-02 13:58:32] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/b7/28/822a6cc9e70825b5c051ab9bf029b954982ed00aa6b036349995dcf4c5fa/pipeline_ai-0.5.0b9.tar.gz
+[2023-08-02 13:58:32] INFO root fetch - processPackages [python-lectio]: Downloading https://files.pythonhosted.org/packages/55/09/a6e1d9a92dcd1dcf4c9f9d8167b39e9c79d8def4f18f5394b3e31cbb82a3/python-lectio-1.9.0.tar.gz
+[2023-08-02 13:58:32] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-08-02 13:58:32] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/f3/ed/7a97156ce2d911c52393a8c6c2a834d8ee54030cb2fed24ff0bed8589019/vgs_api_client-0.0.45-py3-none-any.whl
+[2023-08-02 13:58:32] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/4e/30/7829da5fe24134fa3ee19951b9fda8638f19496a9dd153333d4974042fa5/lognflow-0.8.3.tar.gz
+[2023-08-02 13:58:32] INFO root fetch - processPackages [ibott-browser-manager]: Downloading https://files.pythonhosted.org/packages/49/a7/49386a38cb56a0612f021f42c64736f2c05ababd5ed955655ffadb0180bf/ibott_browser_manager-1.0.5.tar.gz
+[2023-08-02 13:58:32] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/bc/c3/8f34f775e6b17119e5ed320a7df64187257c3d699a70476e77c210160e7f/flojoy-0.2.2.dev9.tar.gz
+[2023-08-02 13:58:32] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-08-02 13:58:32] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230802/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-08-02 13:58:32] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: Downloading https://files.pythonhosted.org/packages/d8/01/553a9e19b400ed9a32e6a421891726ff8f724b85d0f34c6a90269e7d1d3e/gs_xcom_backend_triggerer-0.0.4.tar.gz
+[2023-08-02 13:58:33] INFO root fetch - processPackages [django-rest-batteries]: Downloading https://files.pythonhosted.org/packages/90/27/b1aa26973f4ffb8a7ee39f1b8d4346786d3dd61431195c52fbeab0f96230/django_rest_batteries-1.4.1.tar.gz
+[2023-08-02 13:58:33] INFO root fetch - processPackages [python-lectio]: Downloading https://files.pythonhosted.org/packages/c7/18/bd771dd9622178f49b76ed0e080e101372de052fcd1bf929ebff470243fd/python-lectio-1.9.1.tar.gz
+[2023-08-02 13:58:33] INFO root fetch - processPackages [lognflow]: executing diffoscope
+[2023-08-02 13:58:33] INFO root fetch - processPackages [lognflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lognflow-0.8.2.tar.gz tmp/lognflow-0.8.3.tar.gz --markdown 20230802/l/lognflow/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-08-02 13:58:33] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/ba/a3/ff7052f9b2efdfce62998264cb2b7a2a51191ed1861e5f8790ce1d76fc25/pipeline_ai-1.0.0b1.tar.gz
+[2023-08-02 13:58:33] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: executing diffoscope
+[2023-08-02 13:58:33] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_xcom_backend_triggerer-0.0.3.tar.gz tmp/gs_xcom_backend_triggerer-0.0.4.tar.gz --markdown 20230802/g/gs-xcom-backend-triggerer/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-02 13:58:33] INFO root fetch - processPackages [flojoy]: executing diffoscope
+[2023-08-02 13:58:33] INFO root fetch - processPackages [flojoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flojoy-0.2.2.dev8.tar.gz tmp/flojoy-0.2.2.dev9.tar.gz --markdown 20230802/f/flojoy/0.2.2.dev8-0.2.2.dev9/diff.md --exclude *.pyd
+[2023-08-02 13:58:33] INFO root fetch - processPackages [django-rest-batteries]: executing diffoscope
+[2023-08-02 13:58:33] INFO root fetch - processPackages [django-rest-batteries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_rest_batteries-1.4.0.tar.gz tmp/django_rest_batteries-1.4.1.tar.gz --markdown 20230802/d/django-rest-batteries/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-08-02 13:58:33] INFO root fetch - processPackages [python-lectio]: executing diffoscope
+[2023-08-02 13:58:33] INFO root fetch - processPackages [python-lectio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-lectio-1.9.0.tar.gz tmp/python-lectio-1.9.1.tar.gz --markdown 20230802/p/python-lectio/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-02 13:58:33] INFO root fetch - processPackages [pipeline-ai]: executing diffoscope
+[2023-08-02 13:58:33] INFO root fetch - processPackages [pipeline-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_ai-0.5.0b9.tar.gz tmp/pipeline_ai-1.0.0b1.tar.gz --markdown 20230802/p/pipeline-ai/0.5.0b9-1.0.0b1/diff.md --exclude *.pyd
+[2023-08-02 13:58:33] INFO root fetch - processPackages [sip]: Downloading https://files.pythonhosted.org/packages/48/75/98987181e897ef378d6c239ee733328a7264a41f2d8263e61d7b7c4c0909/sip-6.7.9.tar.gz
+[2023-08-02 13:58:33] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-08-02 13:58:33] INFO root fetch - processPackages [ibott-browser-manager]: Downloading https://files.pythonhosted.org/packages/da/bd/81d342242801e636aef81c123f3170fe720f3cf6d6b92c74221ab28ad3a2/ibott_browser_manager-1.0.6.tar.gz
+[2023-08-02 13:58:33] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-08-02 13:58:33] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230802/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-08-02 13:58:33] INFO root fetch - processPackages [sip]: executing diffoscope
+[2023-08-02 13:58:33] INFO root fetch - processPackages [sip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sip-6.7.8.tar.gz tmp/sip-6.7.9.tar.gz --markdown 20230802/s/sip/6.7.8-6.7.9/diff.md --exclude *.pyd
+[2023-08-02 13:58:33] INFO root fetch - processPackages [ibott-browser-manager]: executing diffoscope
+[2023-08-02 13:58:33] INFO root fetch - processPackages [ibott-browser-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibott_browser_manager-1.0.5.tar.gz tmp/ibott_browser_manager-1.0.6.tar.gz --markdown 20230802/i/ibott-browser-manager/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-02 13:58:34] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: Remove: archive file [/home/abi/fetcher/tmp/gs_xcom_backend_triggerer-0.0.3.tar.gz]
+[2023-08-02 13:58:34] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: Remove: archive file [/home/abi/fetcher/tmp/gs_xcom_backend_triggerer-0.0.4.tar.gz]
+[2023-08-02 13:58:34] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: Start processing: cjapy
+[2023-08-02 13:58:34] INFO root fetch - main [MainThread]: End processing [gs-xcom-backend-triggerer]: success
+[2023-08-02 13:58:34] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.8.2.tar.gz]
+[2023-08-02 13:58:34] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.8.3.tar.gz]
+[2023-08-02 13:58:34] INFO root fetch - main [MainThread]: End processing [lognflow]: success
+[2023-08-02 13:58:34] INFO root fetch - processPackages [cjapy]: New version: [0.2.1.post1] Old Version: [0.2.1]
+[2023-08-02 13:58:34] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev8.tar.gz]
+[2023-08-02 13:58:34] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev9.tar.gz]
+[2023-08-02 13:58:34] INFO root fetch - main [MainThread]: End processing [flojoy]: success
+[2023-08-02 13:58:34] INFO root fetch - processPackages [django-rest-batteries]: Remove: archive file [/home/abi/fetcher/tmp/django_rest_batteries-1.4.0.tar.gz]
+[2023-08-02 13:58:34] INFO root fetch - processPackages [django-rest-batteries]: Remove: archive file [/home/abi/fetcher/tmp/django_rest_batteries-1.4.1.tar.gz]
+[2023-08-02 13:58:34] INFO root fetch - main [MainThread]: End processing [django-rest-batteries]: success
+[2023-08-02 13:58:35] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip]
+[2023-08-02 13:58:35] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip]
+[2023-08-02 13:58:35] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-08-02 13:58:35] INFO root fetch - processPackages [python-lectio]: Remove: archive file [/home/abi/fetcher/tmp/python-lectio-1.9.0.tar.gz]
+[2023-08-02 13:58:35] INFO root fetch - processPackages [python-lectio]: Remove: archive file [/home/abi/fetcher/tmp/python-lectio-1.9.1.tar.gz]
+[2023-08-02 13:58:35] INFO root fetch - main [MainThread]: End processing [python-lectio]: success
+[2023-08-02 13:58:35] INFO root fetch - processPackages [cjapy]: Downloading https://files.pythonhosted.org/packages/6e/18/7a616d61b6deb13a5f7233bcda2537f98f8dc105a74636feb15d87f27389/cjapy-0.2.1.tar.gz
+[2023-08-02 13:58:35] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-0.5.0b9.tar.gz]
+[2023-08-02 13:58:35] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-1.0.0b1.tar.gz]
+[2023-08-02 13:58:35] INFO root fetch - main [MainThread]: End processing [pipeline-ai]: success
+[2023-08-02 13:58:35] INFO root fetch - processPackages [ibott-browser-manager]: Remove: archive file [/home/abi/fetcher/tmp/ibott_browser_manager-1.0.5.tar.gz]
+[2023-08-02 13:58:35] INFO root fetch - processPackages [ibott-browser-manager]: Remove: archive file [/home/abi/fetcher/tmp/ibott_browser_manager-1.0.6.tar.gz]
+[2023-08-02 13:58:35] INFO root fetch - main [MainThread]: End processing [ibott-browser-manager]: success
+[2023-08-02 13:58:35] INFO root fetch - processPackages [cjapy]: Downloading https://files.pythonhosted.org/packages/14/c4/622fee122321029a4009bdefecf60b099b54875b432044b2b8c1b886a518/cjapy-0.2.1.post1.tar.gz
+[2023-08-02 13:58:35] INFO root fetch - processPackages [cjapy]: executing diffoscope
+[2023-08-02 13:58:35] INFO root fetch - processPackages [cjapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjapy-0.2.1.tar.gz tmp/cjapy-0.2.1.post1.tar.gz --markdown 20230802/c/cjapy/0.2.1-0.2.1.post1/diff.md --exclude *.pyd
+[2023-08-02 13:58:36] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2023-08-02 13:58:36] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2023-08-02 13:58:36] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-08-02 13:58:36] INFO root fetch - processPackages [cjapy]: Remove: archive file [/home/abi/fetcher/tmp/cjapy-0.2.1.tar.gz]
+[2023-08-02 13:58:36] INFO root fetch - processPackages [cjapy]: Remove: archive file [/home/abi/fetcher/tmp/cjapy-0.2.1.post1.tar.gz]
+[2023-08-02 13:58:36] INFO root fetch - main [MainThread]: End processing [cjapy]: success
+[2023-08-02 13:58:37] INFO root fetch - processPackages [sip]: Remove: archive file [/home/abi/fetcher/tmp/sip-6.7.8.tar.gz]
+[2023-08-02 13:58:37] INFO root fetch - processPackages [sip]: Remove: archive file [/home/abi/fetcher/tmp/sip-6.7.9.tar.gz]
+[2023-08-02 13:58:37] INFO root fetch - main [MainThread]: End processing [sip]: success
+[2023-08-02 13:58:37] INFO root fetch - main [MainThread]: Store serial: [19140840]

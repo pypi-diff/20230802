@@ -9939,3 +9939,36 @@
 [2023-08-02 04:04:14] INFO root fetch - processPackages [runningz]: Remove: archive file [/home/abi/fetcher/tmp/runningz-0.11.7.7-py39-none-any.whl.zip]
 [2023-08-02 04:04:14] INFO root fetch - main [MainThread]: End processing [runningz]: success
 [2023-08-02 04:04:14] INFO root fetch - main [MainThread]: Store serial: [19135405]
+[2023-08-02 04:09:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19135405]
+[2023-08-02 04:09:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-02 04:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-ssi-stock
+[2023-08-02 04:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CheeseAPI
+[2023-08-02 04:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Sphinx
+[2023-08-02 04:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aanalyticsact
+[2023-08-02 04:09:23] WARNING root fetch - processPackages [odoo14-addon-ssi-stock]: Skipping, unable to determine old version
+[2023-08-02 04:09:23] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-stock] error
+[2023-08-02 04:09:23] INFO root fetch - processPackages [CheeseAPI]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 04:09:23] INFO root fetch - processPackages [aanalyticsact]: New version: [0.0.1.37] Old Version: [0.0.1.36]
+[2023-08-02 04:09:23] INFO root fetch - processPackages [Sphinx]: New version: [7.1.2] Old Version: [7.1.1]
+[2023-08-02 04:09:23] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/81/44/f88985e944628cffec8e82d12a624bc633fbfe944060ec967ea2013924b7/CheeseAPI-0.0.2.tar.gz
+[2023-08-02 04:09:24] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/30/f6/8fbe3a9ae1b1a0e9221a49a60f728ce031f9cba7775376c8d7fe846fe71e/sphinx-7.1.1.tar.gz
+[2023-08-02 04:09:24] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/7b/5d/fb33d6eac1b3394d83c964de2f974da43258b618d21c4598533e4de146b5/aanalyticsact-0.0.1.36.tar.gz
+[2023-08-02 04:09:24] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/38/d1/9fd6e2f43f9b4f5d348f927ce1cc97b45c353f0262bd21302427c495bbc4/CheeseAPI-0.0.3.tar.gz
+[2023-08-02 04:09:24] INFO root fetch - processPackages [CheeseAPI]: executing diffoscope
+[2023-08-02 04:09:24] INFO root fetch - processPackages [CheeseAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CheeseAPI-0.0.2.tar.gz tmp/CheeseAPI-0.0.3.tar.gz --markdown 20230802/C/CheeseAPI/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 04:09:24] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/05/4e/ff525b4b22eff9ca06dbcf4108156d1ae5cd782d908e4f82d6873cc05b61/aanalyticsact-0.0.1.37.tar.gz
+[2023-08-02 04:09:24] INFO root fetch - processPackages [aanalyticsact]: executing diffoscope
+[2023-08-02 04:09:24] INFO root fetch - processPackages [aanalyticsact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalyticsact-0.0.1.36.tar.gz tmp/aanalyticsact-0.0.1.37.tar.gz --markdown 20230802/a/aanalyticsact/0.0.1.36-0.0.1.37/diff.md --exclude *.pyd
+[2023-08-02 04:09:24] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/dc/01/688bdf9282241dca09fe6e3a1110eda399fa9b10d0672db609e37c2e7a39/sphinx-7.1.2.tar.gz
+[2023-08-02 04:09:25] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/CheeseAPI-0.0.2.tar.gz]
+[2023-08-02 04:09:25] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/CheeseAPI-0.0.3.tar.gz]
+[2023-08-02 04:09:25] INFO root fetch - main [MainThread]: End processing [CheeseAPI]: success
+[2023-08-02 04:09:25] INFO root fetch - processPackages [Sphinx]: executing diffoscope
+[2023-08-02 04:09:25] INFO root fetch - processPackages [Sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-7.1.1.tar.gz tmp/sphinx-7.1.2.tar.gz --markdown 20230802/S/Sphinx/7.1.1-7.1.2/diff.md --exclude *.pyd
+[2023-08-02 04:09:25] INFO root fetch - processPackages [aanalyticsact]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact-0.0.1.36.tar.gz]
+[2023-08-02 04:09:25] INFO root fetch - processPackages [aanalyticsact]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact-0.0.1.37.tar.gz]
+[2023-08-02 04:09:25] INFO root fetch - main [MainThread]: End processing [aanalyticsact]: success
+[2023-08-02 04:09:34] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.1.1.tar.gz]
+[2023-08-02 04:09:34] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.1.2.tar.gz]
+[2023-08-02 04:09:34] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
+[2023-08-02 04:09:34] INFO root fetch - main [MainThread]: Store serial: [19135418]

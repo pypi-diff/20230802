@@ -22375,3 +22375,129 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-02 13:58:37] INFO root fetch - processPackages [sip]: Remove: archive file [/home/abi/fetcher/tmp/sip-6.7.9.tar.gz]
 [2023-08-02 13:58:37] INFO root fetch - main [MainThread]: End processing [sip]: success
 [2023-08-02 13:58:37] INFO root fetch - main [MainThread]: Store serial: [19140840]
+[2023-08-02 14:03:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19140840]
+[2023-08-02 14:03:46] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-02 14:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: koil
+[2023-08-02 14:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlflow-registry-mongostore
+[2023-08-02 14:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlflow-tracking-mongostore
+[2023-08-02 14:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: demisto-py
+[2023-08-02 14:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: esp-idf-size
+[2023-08-02 14:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: v2rayp
+[2023-08-02 14:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: capellambse
+[2023-08-02 14:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clean-python
+[2023-08-02 14:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: koil
+[2023-08-02 14:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyQt-Fluent-Widgets
+[2023-08-02 14:03:47] INFO root fetch - processPackages [mlflow-registry-mongostore]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-02 14:03:47] INFO root fetch - processPackages [mlflow-tracking-mongostore]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-02 14:03:47] INFO root fetch - processPackages [koil]: New version: [0.3.2] Old Version: [0.3.0]
+[2023-08-02 14:03:47] INFO root fetch - processPackages [v2rayp]: New version: [0.7b9] Old Version: [0.7b8]
+[2023-08-02 14:03:47] INFO root fetch - processPackages [clean-python]: New version: [0.2.0b3] Old Version: [0.2.0b2]
+[2023-08-02 14:03:47] INFO root fetch - processPackages [esp-idf-size]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-08-02 14:03:47] INFO root fetch - processPackages [demisto-py]: New version: [3.3.0] Old Version: [3.2.9]
+[2023-08-02 14:03:47] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-02 14:03:47] INFO root fetch - processPackages [koil]: New version: [0.3.2] Old Version: [0.3.0]
+[2023-08-02 14:03:47] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-08-02 14:03:47] INFO root fetch - processPackages [v2rayp]: Downloading https://files.pythonhosted.org/packages/92/d1/4eaccafdc2f7e05c6059cc786c4e3318910647bece9407b579e9346fd2fd/v2rayp-0.7b8.tar.gz
+[2023-08-02 14:03:47] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/8c/df/d521364590aa7a1ee9df5288896e895ae4e2a72d4ec9ead70ba38336177e/clean-python-0.2.0b2.tar.gz
+[2023-08-02 14:03:47] INFO root fetch - processPackages [mlflow-registry-mongostore]: Downloading https://files.pythonhosted.org/packages/97/64/ae3a52741e6d095eeb089741ff334567da6c287832b8bd08da3d7ef149ed/mlflow_registry_mongostore-0.1.6-py3-none-any.whl
+[2023-08-02 14:03:47] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2023-08-02 14:03:47] INFO root fetch - processPackages [koil]: Downloading https://files.pythonhosted.org/packages/af/49/00d007330dba8459e44494174ba7a63bdee0cf9a7eb94a2d7b55e2ea416f/koil-0.3.0.tar.gz
+[2023-08-02 14:03:47] INFO root fetch - processPackages [koil]: Downloading https://files.pythonhosted.org/packages/af/49/00d007330dba8459e44494174ba7a63bdee0cf9a7eb94a2d7b55e2ea416f/koil-0.3.0.tar.gz
+[2023-08-02 14:03:47] INFO root fetch - processPackages [mlflow-tracking-mongostore]: Downloading https://files.pythonhosted.org/packages/e5/fb/bd6952564499374ac132f4514b4556525554e1068c1d8c215ff29b12faf0/mlflow_tracking_mongostore-0.1.6-py3-none-any.whl
+[2023-08-02 14:03:47] WARNING root fetch - processPackages [v2rayp]: Skipping package: exceeds size limit 65584125>=10485760
+[2023-08-02 14:03:47] INFO root fetch - processPackages [v2rayp]: Start processing: arrrgs
+[2023-08-02 14:03:47] INFO root fetch - main [MainThread]: End processing [v2rayp] error
+[2023-08-02 14:03:47] INFO root fetch - processPackages [esp-idf-size]: Downloading https://files.pythonhosted.org/packages/77/4b/48d3c4ec9ff48cfd2889f2621139f41ac904b51bf858537f49dd8976fe24/esp-idf-size-0.3.1.tar.gz
+[2023-08-02 14:03:47] INFO root fetch - processPackages [demisto-py]: Downloading https://files.pythonhosted.org/packages/a3/04/b2369aa8944eeab76a081de7daca22d420138a75c3bba16dbdda13b85da5/demisto-py-3.2.9.tar.gz
+[2023-08-02 14:03:47] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/50/a4/c788ec0403422b8c46d692e608b54852e93a52cf0b6e3e467ad5ab652baf/PyQt-Fluent-Widgets-1.0.2.tar.gz
+[2023-08-02 14:03:47] INFO root fetch - processPackages [arrrgs]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-08-02 14:03:47] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/f6/e1/2c7172b164bee44176fc13e0c144fdc6827f5c342342483c9fa3b0c2cb30/clean-python-0.2.0b3.tar.gz
+[2023-08-02 14:03:47] INFO root fetch - processPackages [mlflow-registry-mongostore]: Downloading https://files.pythonhosted.org/packages/8f/7b/b730733dcc342d50184cddd8992382aaec728ba0cef57fd284c703bbfd34/mlflow_registry_mongostore-0.1.7-py3-none-any.whl
+[2023-08-02 14:03:48] INFO root fetch - processPackages [arrrgs]: Downloading https://files.pythonhosted.org/packages/98/af/5568521bcbf81fe508e8585107b9e7ac8cbe025e7ea7782a1de25fd9a0f7/arrrgs-2.0.0.tar.gz
+[2023-08-02 14:03:48] INFO root fetch - processPackages [koil]: Downloading https://files.pythonhosted.org/packages/4a/f1/69312b584dda6fc10f642660bd1c78a38a667a1e700701deab3c576525f7/koil-0.3.2.tar.gz
+[2023-08-02 14:03:48] INFO root fetch - processPackages [koil]: Downloading https://files.pythonhosted.org/packages/4a/f1/69312b584dda6fc10f642660bd1c78a38a667a1e700701deab3c576525f7/koil-0.3.2.tar.gz
+[2023-08-02 14:03:48] INFO root fetch - processPackages [clean-python]: executing diffoscope
+[2023-08-02 14:03:48] INFO root fetch - processPackages [clean-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean-python-0.2.0b2.tar.gz tmp/clean-python-0.2.0b3.tar.gz --markdown 20230802/c/clean-python/0.2.0b2-0.2.0b3/diff.md --exclude *.pyd
+[2023-08-02 14:03:48] INFO root fetch - processPackages [esp-idf-size]: Downloading https://files.pythonhosted.org/packages/16/88/5c7fb333e6cf7a7a3295f8aa5da263ada47ad5676f936599f7846828d513/esp-idf-size-0.4.0.tar.gz
+[2023-08-02 14:03:48] INFO root fetch - processPackages [mlflow-tracking-mongostore]: Downloading https://files.pythonhosted.org/packages/26/7f/ab194abaf3b77b26af79a2ad8a20bf6765e3334158297c00d4106ba97f8a/mlflow_tracking_mongostore-0.1.7-py3-none-any.whl
+[2023-08-02 14:03:48] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2023-08-02 14:03:48] INFO root fetch - processPackages [demisto-py]: Downloading https://files.pythonhosted.org/packages/e0/7d/0aa2fdf0e1cb41bf1e071764160ff4cfea5b81359921b9b314b8e08d3a18/demisto_py-3.3.0.tar.gz
+[2023-08-02 14:03:48] INFO root fetch - processPackages [mlflow-registry-mongostore]: executing diffoscope
+[2023-08-02 14:03:48] INFO root fetch - processPackages [mlflow-registry-mongostore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow_registry_mongostore-0.1.6-py3-none-any.whl.zip tmp/mlflow_registry_mongostore-0.1.7-py3-none-any.whl.zip --markdown 20230802/m/mlflow-registry-mongostore/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-02 14:03:48] INFO root fetch - processPackages [esp-idf-size]: executing diffoscope
+[2023-08-02 14:03:48] INFO root fetch - processPackages [esp-idf-size]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esp-idf-size-0.3.1.tar.gz tmp/esp-idf-size-0.4.0.tar.gz --markdown 20230802/e/esp-idf-size/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-08-02 14:03:48] INFO root fetch - processPackages [mlflow-tracking-mongostore]: executing diffoscope
+[2023-08-02 14:03:48] INFO root fetch - processPackages [mlflow-tracking-mongostore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow_tracking_mongostore-0.1.6-py3-none-any.whl.zip tmp/mlflow_tracking_mongostore-0.1.7-py3-none-any.whl.zip --markdown 20230802/m/mlflow-tracking-mongostore/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-02 14:03:48] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/4a/94/a728c2798af911f10568c98f4c1aa97b890b24b6e50765e9b255995251b6/PyQt-Fluent-Widgets-1.0.3.tar.gz
+[2023-08-02 14:03:48] INFO root fetch - processPackages [koil]: executing diffoscope
+[2023-08-02 14:03:48] INFO root fetch - processPackages [koil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koil-0.3.0.tar.gz tmp/koil-0.3.2.tar.gz --markdown 20230802/k/koil/0.3.0-0.3.2/diff.md --exclude *.pyd
+[2023-08-02 14:03:48] INFO root fetch - processPackages [koil]: executing diffoscope
+[2023-08-02 14:03:48] INFO root fetch - processPackages [koil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koil-0.3.0.tar.gz tmp/koil-0.3.2.tar.gz --markdown 20230802/k/koil/0.3.0-0.3.2/diff.md --exclude *.pyd
+[2023-08-02 14:03:48] INFO root fetch - processPackages [demisto-py]: executing diffoscope
+[2023-08-02 14:03:48] INFO root fetch - processPackages [demisto-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demisto-py-3.2.9.tar.gz tmp/demisto_py-3.3.0.tar.gz --markdown 20230802/d/demisto-py/3.2.9-3.3.0/diff.md --exclude *.pyd
+[2023-08-02 14:03:48] INFO root fetch - processPackages [arrrgs]: Downloading https://files.pythonhosted.org/packages/bc/27/f4daca0ad4bf1ed3a03b771a5bcfd73f31d0d0c063fff1d95d61c1e04388/arrrgs-3.0.0.tar.gz
+[2023-08-02 14:03:48] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-08-02 14:03:48] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-1.0.2.tar.gz tmp/PyQt-Fluent-Widgets-1.0.3.tar.gz --markdown 20230802/P/PyQt-Fluent-Widgets/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-02 14:03:48] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-08-02 14:03:48] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230802/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-08-02 14:03:48] INFO root fetch - processPackages [arrrgs]: executing diffoscope
+[2023-08-02 14:03:48] INFO root fetch - processPackages [arrrgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrrgs-2.0.0.tar.gz tmp/arrrgs-3.0.0.tar.gz --markdown 20230802/a/arrrgs/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-08-02 14:03:50] INFO root fetch - processPackages [mlflow-registry-mongostore]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_registry_mongostore-0.1.6-py3-none-any.whl.zip]
+[2023-08-02 14:03:50] INFO root fetch - processPackages [mlflow-registry-mongostore]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_registry_mongostore-0.1.7-py3-none-any.whl.zip]
+[2023-08-02 14:03:50] INFO root fetch - processPackages [mlflow-registry-mongostore]: Start processing: raga-testing-platform
+[2023-08-02 14:03:50] INFO root fetch - main [MainThread]: End processing [mlflow-registry-mongostore]: success
+[2023-08-02 14:03:50] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-02 14:03:50] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-08-02 14:03:50] INFO root fetch - processPackages [mlflow-tracking-mongostore]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_tracking_mongostore-0.1.6-py3-none-any.whl.zip]
+[2023-08-02 14:03:50] INFO root fetch - processPackages [mlflow-tracking-mongostore]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_tracking_mongostore-0.1.7-py3-none-any.whl.zip]
+[2023-08-02 14:03:50] INFO root fetch - processPackages [mlflow-tracking-mongostore]: Start processing: pgcooldown
+[2023-08-02 14:03:50] INFO root fetch - main [MainThread]: End processing [mlflow-tracking-mongostore]: success
+[2023-08-02 14:03:50] WARNING root fetch - processPackages [pgcooldown]: Skipping, unable to determine old version
+[2023-08-02 14:03:50] INFO root fetch - processPackages [pgcooldown]: Start processing: LCPDelta
+[2023-08-02 14:03:50] INFO root fetch - main [MainThread]: End processing [pgcooldown] error
+[2023-08-02 14:03:50] INFO root fetch - processPackages [LCPDelta]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-02 14:03:50] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-08-02 14:03:50] INFO root fetch - processPackages [esp-idf-size]: Remove: archive file [/home/abi/fetcher/tmp/esp-idf-size-0.3.1.tar.gz]
+[2023-08-02 14:03:50] INFO root fetch - processPackages [esp-idf-size]: Remove: archive file [/home/abi/fetcher/tmp/esp-idf-size-0.4.0.tar.gz]
+[2023-08-02 14:03:50] INFO root fetch - processPackages [esp-idf-size]: Start processing: symbolicmode
+[2023-08-02 14:03:50] INFO root fetch - main [MainThread]: End processing [esp-idf-size]: success
+[2023-08-02 14:03:50] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.2.0b2.tar.gz]
+[2023-08-02 14:03:50] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.2.0b3.tar.gz]
+[2023-08-02 14:03:50] INFO root fetch - main [MainThread]: End processing [clean-python]: success
+[2023-08-02 14:03:50] INFO root fetch - processPackages [LCPDelta]: Downloading https://files.pythonhosted.org/packages/c9/c6/cdb0fe6d3a87b78ed00b9dffd50c7913882ff90fc155672276d12fc10333/LCPDelta-1.0.1.tar.gz
+[2023-08-02 14:03:50] INFO root fetch - processPackages [koil]: Remove: archive file [/home/abi/fetcher/tmp/koil-0.3.0.tar.gz]
+[2023-08-02 14:03:50] INFO root fetch - processPackages [koil]: Remove: archive file [/home/abi/fetcher/tmp/koil-0.3.2.tar.gz]
+[2023-08-02 14:03:50] INFO root fetch - main [MainThread]: End processing [koil]: success
+[2023-08-02 14:03:50] INFO root fetch - processPackages [symbolicmode]: New version: [1.0.1] Old Version: [1.0]
+[2023-08-02 14:03:50] INFO root fetch - main [MainThread]: End processing [koil]: success
+[2023-08-02 14:03:50] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-08-02 14:03:50] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230802/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 14:03:50] INFO root fetch - processPackages [arrrgs]: Remove: archive file [/home/abi/fetcher/tmp/arrrgs-2.0.0.tar.gz]
+[2023-08-02 14:03:50] INFO root fetch - processPackages [arrrgs]: Remove: archive file [/home/abi/fetcher/tmp/arrrgs-3.0.0.tar.gz]
+[2023-08-02 14:03:50] INFO root fetch - main [MainThread]: End processing [arrrgs]: success
+[2023-08-02 14:03:50] INFO root fetch - processPackages [symbolicmode]: Downloading https://files.pythonhosted.org/packages/0b/6f/e37cf1de5f1c83633b3287ebc2e4e6b8feca59d158b34e9c94b27a146f0c/symbolicmode-1.0.tar.gz
+[2023-08-02 14:03:50] INFO root fetch - processPackages [LCPDelta]: Downloading https://files.pythonhosted.org/packages/fa/44/4b7d593c6fa6d1e3c18c8df3c537e8c9f99e61873d6851e7064e92d61edd/LCPDelta-1.0.2.tar.gz
+[2023-08-02 14:03:51] INFO root fetch - processPackages [LCPDelta]: executing diffoscope
+[2023-08-02 14:03:51] INFO root fetch - processPackages [LCPDelta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LCPDelta-1.0.1.tar.gz tmp/LCPDelta-1.0.2.tar.gz --markdown 20230802/L/LCPDelta/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-02 14:03:51] INFO root fetch - processPackages [symbolicmode]: Downloading https://files.pythonhosted.org/packages/78/9d/34d37886800f020c113caacd1c08ef8759343d8fcc472aafa275a4fa4d27/symbolicmode-1.0.1.tar.gz
+[2023-08-02 14:03:51] INFO root fetch - processPackages [symbolicmode]: executing diffoscope
+[2023-08-02 14:03:51] INFO root fetch - processPackages [symbolicmode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicmode-1.0.tar.gz tmp/symbolicmode-1.0.1.tar.gz --markdown 20230802/s/symbolicmode/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-02 14:03:51] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-08-02 14:03:51] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-08-02 14:03:51] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-08-02 14:03:52] INFO root fetch - processPackages [demisto-py]: Remove: archive file [/home/abi/fetcher/tmp/demisto-py-3.2.9.tar.gz]
+[2023-08-02 14:03:52] INFO root fetch - processPackages [demisto-py]: Remove: archive file [/home/abi/fetcher/tmp/demisto_py-3.3.0.tar.gz]
+[2023-08-02 14:03:52] INFO root fetch - main [MainThread]: End processing [demisto-py]: success
+[2023-08-02 14:03:52] INFO root fetch - processPackages [LCPDelta]: Remove: archive file [/home/abi/fetcher/tmp/LCPDelta-1.0.1.tar.gz]
+[2023-08-02 14:03:52] INFO root fetch - processPackages [LCPDelta]: Remove: archive file [/home/abi/fetcher/tmp/LCPDelta-1.0.2.tar.gz]
+[2023-08-02 14:03:52] INFO root fetch - main [MainThread]: End processing [LCPDelta]: success
+[2023-08-02 14:03:52] INFO root fetch - processPackages [symbolicmode]: Remove: archive file [/home/abi/fetcher/tmp/symbolicmode-1.0.tar.gz]
+[2023-08-02 14:03:52] INFO root fetch - processPackages [symbolicmode]: Remove: archive file [/home/abi/fetcher/tmp/symbolicmode-1.0.1.tar.gz]
+[2023-08-02 14:03:52] INFO root fetch - main [MainThread]: End processing [symbolicmode]: success
+[2023-08-02 14:03:54] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-1.0.2.tar.gz]
+[2023-08-02 14:03:54] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-1.0.3.tar.gz]
+[2023-08-02 14:03:54] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-08-02 14:03:56] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2023-08-02 14:03:56] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2023-08-02 14:03:56] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-08-02 14:03:56] INFO root fetch - main [MainThread]: Store serial: [19140885]

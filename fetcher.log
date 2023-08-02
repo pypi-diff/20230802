@@ -15256,3 +15256,151 @@
 [2023-08-02 09:15:38] INFO root fetch - processPackages [ocrmypdf-papermerge]: Remove: archive file [/home/abi/fetcher/tmp/ocrmypdf_papermerge-0.4.9.tar.gz]
 [2023-08-02 09:15:38] INFO root fetch - main [MainThread]: End processing [ocrmypdf-papermerge]: success
 [2023-08-02 09:15:38] INFO root fetch - main [MainThread]: Store serial: [19137846]
+[2023-08-02 09:20:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19137846]
+[2023-08-02 09:20:47] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-02 09:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocrmypdf-papermerge
+[2023-08-02 09:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assisted-service-client
+[2023-08-02 09:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eggella
+[2023-08-02 09:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ert
+[2023-08-02 09:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aa-incursions
+[2023-08-02 09:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-modules
+[2023-08-02 09:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mrfix
+[2023-08-02 09:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: antchain-twc
+[2023-08-02 09:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abstract-modules
+[2023-08-02 09:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cats-python
+[2023-08-02 09:20:47] WARNING root fetch - processPackages [aa-incursions]: Skipping, unable to determine old version
+[2023-08-02 09:20:47] INFO root fetch - processPackages [aa-incursions]: Start processing: pjplan
+[2023-08-02 09:20:47] INFO root fetch - main [MainThread]: End processing [aa-incursions] error
+[2023-08-02 09:20:47] INFO root fetch - processPackages [ocrmypdf-papermerge]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-02 09:20:47] INFO root fetch - processPackages [abstract-modules]: New version: [0.0.0.8] Old Version: [0.0.0.7]
+[2023-08-02 09:20:47] INFO root fetch - processPackages [cats-python]: New version: [4.6.1] Old Version: [4.5.9]
+[2023-08-02 09:20:47] INFO root fetch - processPackages [mrfix]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-02 09:20:47] INFO root fetch - processPackages [abstract-modules]: New version: [0.0.0.8] Old Version: [0.0.0.7]
+[2023-08-02 09:20:47] INFO root fetch - processPackages [eggella]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 09:20:47] INFO root fetch - processPackages [antchain-twc]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-02 09:20:47] INFO root fetch - processPackages [pjplan]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 09:20:47] INFO root fetch - processPackages [ert]: New version: [5.1.0b6] Old Version: [5.1.0b5]
+[2023-08-02 09:20:47] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-08-02 09:20:47] INFO root fetch - processPackages [ocrmypdf-papermerge]: Downloading https://files.pythonhosted.org/packages/25/0f/25fa00a945e39cd2e2e07af0ae9b527816320d3f285df3f981732941edd2/ocrmypdf_papermerge-0.4.8.tar.gz
+[2023-08-02 09:20:47] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/c8/36/ff01772c79f6304da84d484196bc1707748a6660a1040ac06c256cf6ac4a/antchain_twc-1.9.0.tar.gz
+[2023-08-02 09:20:47] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/6a/01/dc2bf256ab02a7cd4b02600fc04b49d58f942a708d4fab8f002440444502/mrfix-2.0.8.tar.gz
+[2023-08-02 09:20:47] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/c7/81/1f1f99ba6b7ebc0db26423200a0d7958b44419c80a9ac166f9947c984725/abstract_modules-0.0.0.7-py3-none-any.whl
+[2023-08-02 09:20:47] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/c7/81/1f1f99ba6b7ebc0db26423200a0d7958b44419c80a9ac166f9947c984725/abstract_modules-0.0.0.7-py3-none-any.whl
+[2023-08-02 09:20:47] INFO root fetch - processPackages [cats-python]: Downloading https://files.pythonhosted.org/packages/1d/10/afeae1f99dd7a68e34f9b43da215ff8c3fd1f8ad05993f11a81362d16c24/cats-python-4.5.9.tar.gz
+[2023-08-02 09:20:47] INFO root fetch - processPackages [eggella]: Downloading https://files.pythonhosted.org/packages/21/93/317507fb919612586ded818e750bf73f9b2bd0baf4af3459f82a385dbfba/eggella-0.0.8.tar.gz
+[2023-08-02 09:20:47] INFO root fetch - processPackages [pjplan]: Downloading https://files.pythonhosted.org/packages/c6/ce/7abe5a357faa2aaaa745ac074b985635726f19898ca1d7b47c747dc85b26/pjplan-0.0.8.tar.gz
+[2023-08-02 09:20:47] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-08-02 09:20:47] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/ab/15/17240785250a5c8bbff2ac5c8514f915e4a4ac46c257cc3dc161d7a4a1d9/ert-5.1.0b5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-02 09:20:48] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/2a/70/06f3ca5535ef3bdefca25df75a107407176d4ec4d24f61edff8e85574d48/mrfix-2.0.9.tar.gz
+[2023-08-02 09:20:48] INFO root fetch - processPackages [ocrmypdf-papermerge]: Downloading https://files.pythonhosted.org/packages/2d/3f/b49fb3831635eb47573f0f53c713c51edc5cb91e8236c94180b7564f904a/ocrmypdf_papermerge-0.4.9.tar.gz
+[2023-08-02 09:20:48] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/80/5d/e8c3a8e4914e62821cb8c2f92eb9444de15abfbc652758282cff30ac712a/antchain_twc-1.9.1.tar.gz
+[2023-08-02 09:20:48] INFO root fetch - processPackages [mrfix]: executing diffoscope
+[2023-08-02 09:20:48] INFO root fetch - processPackages [mrfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfix-2.0.8.tar.gz tmp/mrfix-2.0.9.tar.gz --markdown 20230802/m/mrfix/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-02 09:20:48] INFO root fetch - processPackages [ocrmypdf-papermerge]: executing diffoscope
+[2023-08-02 09:20:48] INFO root fetch - processPackages [ocrmypdf-papermerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrmypdf_papermerge-0.4.8.tar.gz tmp/ocrmypdf_papermerge-0.4.9.tar.gz --markdown 20230802/o/ocrmypdf-papermerge/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-02 09:20:48] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/3e/4a/e874abd8ca6fb30728ade0fa5bffc3b98e8c4ddc50158957f6c1f9f335fa/abstract_modules-0.0.0.8-py3-none-any.whl
+[2023-08-02 09:20:48] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/3e/4a/e874abd8ca6fb30728ade0fa5bffc3b98e8c4ddc50158957f6c1f9f335fa/abstract_modules-0.0.0.8-py3-none-any.whl
+[2023-08-02 09:20:48] INFO root fetch - processPackages [eggella]: Downloading https://files.pythonhosted.org/packages/5b/79/e9370022ea8cd21959f95a9dd623ad94703f6821d1a05e31f6c80093c3df/eggella-0.0.9.tar.gz
+[2023-08-02 09:20:48] INFO root fetch - processPackages [antchain-twc]: executing diffoscope
+[2023-08-02 09:20:48] INFO root fetch - processPackages [antchain-twc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_twc-1.9.0.tar.gz tmp/antchain_twc-1.9.1.tar.gz --markdown 20230802/a/antchain-twc/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-02 09:20:48] INFO root fetch - processPackages [cats-python]: Downloading https://files.pythonhosted.org/packages/f3/7a/5306370ef55e9850f59154de0fa1877850ea885bad33fe3275ec648971b2/cats_python-4.6.1.tar.gz
+[2023-08-02 09:20:48] INFO root fetch - processPackages [eggella]: executing diffoscope
+[2023-08-02 09:20:48] INFO root fetch - processPackages [eggella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eggella-0.0.8.tar.gz tmp/eggella-0.0.9.tar.gz --markdown 20230802/e/eggella/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 09:20:48] INFO root fetch - processPackages [cats-python]: executing diffoscope
+[2023-08-02 09:20:48] INFO root fetch - processPackages [cats-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cats-python-4.5.9.tar.gz tmp/cats_python-4.6.1.tar.gz --markdown 20230802/c/cats-python/4.5.9-4.6.1/diff.md --exclude *.pyd
+[2023-08-02 09:20:48] INFO root fetch - processPackages [abstract-modules]: executing diffoscope
+[2023-08-02 09:20:48] INFO root fetch - processPackages [abstract-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_modules-0.0.0.7-py3-none-any.whl.zip tmp/abstract_modules-0.0.0.8-py3-none-any.whl.zip --markdown 20230802/a/abstract-modules/0.0.0.7-0.0.0.8/diff.md --exclude *.pyd
+[2023-08-02 09:20:48] INFO root fetch - processPackages [abstract-modules]: executing diffoscope
+[2023-08-02 09:20:48] INFO root fetch - processPackages [abstract-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_modules-0.0.0.7-py3-none-any.whl.zip tmp/abstract_modules-0.0.0.8-py3-none-any.whl.zip --markdown 20230802/a/abstract-modules/0.0.0.7-0.0.0.8/diff.md --exclude *.pyd
+[2023-08-02 09:20:48] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-08-02 09:20:48] INFO root fetch - processPackages [pjplan]: Downloading https://files.pythonhosted.org/packages/e3/ee/57d459b16143f353452e3402785545985778cd8b4ed21b2933d593ed38e3/pjplan-0.0.9.tar.gz
+[2023-08-02 09:20:48] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-08-02 09:20:48] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230802/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-08-02 09:20:48] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/09/96/c3a770c381675082363eba0403b595f6936553f1193b372d6d129f4952f5/ert-5.1.0b6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-02 09:20:48] INFO root fetch - processPackages [pjplan]: executing diffoscope
+[2023-08-02 09:20:48] INFO root fetch - processPackages [pjplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pjplan-0.0.8.tar.gz tmp/pjplan-0.0.9.tar.gz --markdown 20230802/p/pjplan/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 09:20:49] INFO root fetch - processPackages [ert]: executing diffoscope
+[2023-08-02 09:20:49] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-5.1.0b5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-5.1.0b6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230802/e/ert/5.1.0b5-5.1.0b6/diff.md --exclude *.pyd
+[2023-08-02 09:20:49] INFO root fetch - processPackages [ocrmypdf-papermerge]: Remove: archive file [/home/abi/fetcher/tmp/ocrmypdf_papermerge-0.4.8.tar.gz]
+[2023-08-02 09:20:49] INFO root fetch - processPackages [ocrmypdf-papermerge]: Remove: archive file [/home/abi/fetcher/tmp/ocrmypdf_papermerge-0.4.9.tar.gz]
+[2023-08-02 09:20:49] INFO root fetch - processPackages [ocrmypdf-papermerge]: Start processing: rclip
+[2023-08-02 09:20:49] INFO root fetch - main [MainThread]: End processing [ocrmypdf-papermerge]: success
+[2023-08-02 09:20:49] INFO root fetch - processPackages [rclip]: New version: [1.4.7a1] Old Version: [1.4.7a0]
+[2023-08-02 09:20:49] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.8.tar.gz]
+[2023-08-02 09:20:49] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.9.tar.gz]
+[2023-08-02 09:20:49] INFO root fetch - processPackages [mrfix]: Start processing: aloso
+[2023-08-02 09:20:49] INFO root fetch - main [MainThread]: End processing [mrfix]: success
+[2023-08-02 09:20:49] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/5a/18/fa653314cab95d6ba28a9feada29490ff6aa895b60d561a91bef4b1561ce/rclip-1.4.7a0.tar.gz
+[2023-08-02 09:20:49] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 09:20:49] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.0.7-py3-none-any.whl.zip]
+[2023-08-02 09:20:49] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.0.8-py3-none-any.whl.zip]
+[2023-08-02 09:20:49] INFO root fetch - processPackages [abstract-modules]: Start processing: yeref
+[2023-08-02 09:20:49] INFO root fetch - main [MainThread]: End processing [abstract-modules]: success
+[2023-08-02 09:20:50] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-02 09:20:50] INFO root fetch - processPackages [abstract-modules]: Start processing: abstract-modules
+[2023-08-02 09:20:50] INFO root fetch - main [MainThread]: End processing [abstract-modules]: success
+[2023-08-02 09:20:50] INFO root fetch - processPackages [abstract-modules]: New version: [0.0.0.8] Old Version: [0.0.0.7]
+[2023-08-02 09:20:50] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-08-02 09:20:50] INFO root fetch - processPackages [eggella]: Remove: archive file [/home/abi/fetcher/tmp/eggella-0.0.8.tar.gz]
+[2023-08-02 09:20:50] INFO root fetch - processPackages [eggella]: Remove: archive file [/home/abi/fetcher/tmp/eggella-0.0.9.tar.gz]
+[2023-08-02 09:20:50] INFO root fetch - processPackages [eggella]: Start processing: gdal2numpy
+[2023-08-02 09:20:50] INFO root fetch - main [MainThread]: End processing [eggella]: success
+[2023-08-02 09:20:50] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-08-02 09:20:50] INFO root fetch - processPackages [cats-python]: Remove: archive file [/home/abi/fetcher/tmp/cats-python-4.5.9.tar.gz]
+[2023-08-02 09:20:50] INFO root fetch - processPackages [cats-python]: Remove: archive file [/home/abi/fetcher/tmp/cats_python-4.6.1.tar.gz]
+[2023-08-02 09:20:50] INFO root fetch - processPackages [cats-python]: Start processing: cloud-governance
+[2023-08-02 09:20:50] INFO root fetch - main [MainThread]: End processing [cats-python]: success
+[2023-08-02 09:20:50] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 09:20:50] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/15/b6/6e1fe35a9755474c51413adedec402753e2d386d6ed5be5d3a2e47192893/rclip-1.4.7a1.tar.gz
+[2023-08-02 09:20:50] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-08-02 09:20:50] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/c7/81/1f1f99ba6b7ebc0db26423200a0d7958b44419c80a9ac166f9947c984725/abstract_modules-0.0.0.7-py3-none-any.whl
+[2023-08-02 09:20:50] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-08-02 09:20:50] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-08-02 09:20:50] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-08-02 09:20:50] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-02 09:20:50] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.7a0.tar.gz tmp/rclip-1.4.7a1.tar.gz --markdown 20230802/r/rclip/1.4.7a0-1.4.7a1/diff.md --exclude *.pyd
+[2023-08-02 09:20:50] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/3e/4a/e874abd8ca6fb30728ade0fa5bffc3b98e8c4ddc50158957f6c1f9f335fa/abstract_modules-0.0.0.8-py3-none-any.whl
+[2023-08-02 09:20:50] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.0.tar.gz]
+[2023-08-02 09:20:50] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.1.tar.gz]
+[2023-08-02 09:20:50] INFO root fetch - main [MainThread]: End processing [antchain-twc]: success
+[2023-08-02 09:20:50] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-08-02 09:20:50] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-08-02 09:20:50] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-08-02 09:20:50] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230802/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-02 09:20:50] INFO root fetch - processPackages [abstract-modules]: executing diffoscope
+[2023-08-02 09:20:50] INFO root fetch - processPackages [abstract-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_modules-0.0.0.7-py3-none-any.whl.zip tmp/abstract_modules-0.0.0.8-py3-none-any.whl.zip --markdown 20230802/a/abstract-modules/0.0.0.7-0.0.0.8/diff.md --exclude *.pyd
+[2023-08-02 09:20:50] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-08-02 09:20:50] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-08-02 09:20:50] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230802/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 09:20:50] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-08-02 09:20:50] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230802/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-08-02 09:20:50] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-08-02 09:20:50] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230802/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 09:20:51] INFO root fetch - processPackages [pjplan]: Remove: archive file [/home/abi/fetcher/tmp/pjplan-0.0.8.tar.gz]
+[2023-08-02 09:20:51] INFO root fetch - processPackages [pjplan]: Remove: archive file [/home/abi/fetcher/tmp/pjplan-0.0.9.tar.gz]
+[2023-08-02 09:20:51] INFO root fetch - main [MainThread]: End processing [pjplan]: success
+[2023-08-02 09:20:51] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a0.tar.gz]
+[2023-08-02 09:20:51] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a1.tar.gz]
+[2023-08-02 09:20:51] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-02 09:20:51] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.0.7-py3-none-any.whl.zip]
+[2023-08-02 09:20:51] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.0.8-py3-none-any.whl.zip]
+[2023-08-02 09:20:52] INFO root fetch - main [MainThread]: End processing [abstract-modules]: success
+[2023-08-02 09:20:52] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-08-02 09:20:52] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-08-02 09:20:52] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-08-02 09:20:52] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-08-02 09:20:52] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-08-02 09:20:52] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-08-02 09:20:52] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.8-py3-none-any.whl.zip]
+[2023-08-02 09:20:52] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.9-py3-none-any.whl.zip]
+[2023-08-02 09:20:52] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-08-02 09:20:52] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-08-02 09:20:52] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-08-02 09:20:52] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-08-02 09:20:52] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-08-02 09:20:52] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-08-02 09:20:52] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-08-02 09:20:56] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-02 09:20:56] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-02 09:20:56] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2023-08-02 09:20:56] INFO root fetch - main [MainThread]: Store serial: [19137901]

@@ -13614,3 +13614,33 @@
 [2023-08-02 07:47:38] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-1.12.dev9.tar.gz]
 [2023-08-02 07:47:38] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
 [2023-08-02 07:47:38] INFO root fetch - main [MainThread]: Store serial: [19137001]
+[2023-08-02 07:52:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19137001]
+[2023-08-02 07:52:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-02 07:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-monitoring
+[2023-08-02 07:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phynteny
+[2023-08-02 07:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdk-openapi
+[2023-08-02 07:52:47] INFO root fetch - processPackages [phynteny]: New version: [0.1.12] Old Version: [0.1.11]
+[2023-08-02 07:52:47] INFO root fetch - processPackages [sdk-openapi]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-02 07:52:47] INFO root fetch - processPackages [spaceone-monitoring]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-08-02 07:52:47] INFO root fetch - processPackages [phynteny]: Downloading https://files.pythonhosted.org/packages/d3/9c/1ab1b3f6b579760a7bd6c42ba7f612440e0c162dc2a1b7d774b814f0b490/Phynteny-0.1.11.tar.gz
+[2023-08-02 07:52:47] INFO root fetch - processPackages [sdk-openapi]: Downloading https://files.pythonhosted.org/packages/21/bb/0374382e38b3550c525689cfce1b054362546f3871b0e980c42024d17871/sdk-openapi-0.0.3.tar.gz
+[2023-08-02 07:52:47] INFO root fetch - processPackages [spaceone-monitoring]: Downloading https://files.pythonhosted.org/packages/31/50/1785bbc97bdfb08a3303bb03b26d953cde9e97d4e2e70c591a6acd91bd55/spaceone_monitoring-1.9.7.1-py3-none-any.whl
+[2023-08-02 07:52:48] INFO root fetch - processPackages [phynteny]: Downloading https://files.pythonhosted.org/packages/03/5d/7a2cd303939cffac8f5752de1830160009475baa7a08c2a5d8d1d8eca814/phynteny-0.1.12.tar.gz
+[2023-08-02 07:52:48] INFO root fetch - processPackages [sdk-openapi]: Downloading https://files.pythonhosted.org/packages/cb/63/cf913e886a95b708a446f99a06e41e26d45ebde5fac059f6e82d87b6bba6/sdk_openapi-0.0.4-py3-none-any.whl
+[2023-08-02 07:52:48] INFO root fetch - processPackages [spaceone-monitoring]: Downloading https://files.pythonhosted.org/packages/5c/43/1bcb4990406f113187354a4bc48e34799ab22b38cce64bbf832545718082/spaceone_monitoring-1.9.7rc1-py3-none-any.whl
+[2023-08-02 07:52:48] INFO root fetch - processPackages [sdk-openapi]: executing diffoscope
+[2023-08-02 07:52:48] INFO root fetch - processPackages [sdk-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdk-openapi-0.0.3.tar.gz tmp/sdk_openapi-0.0.4-py3-none-any.whl.zip --markdown 20230802/s/sdk-openapi/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-02 07:52:48] INFO root fetch - processPackages [spaceone-monitoring]: executing diffoscope
+[2023-08-02 07:52:48] INFO root fetch - processPackages [spaceone-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_monitoring-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_monitoring-1.9.7rc1-py3-none-any.whl.zip --markdown 20230802/s/spaceone-monitoring/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-08-02 07:52:48] INFO root fetch - processPackages [phynteny]: executing diffoscope
+[2023-08-02 07:52:48] INFO root fetch - processPackages [phynteny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Phynteny-0.1.11.tar.gz tmp/phynteny-0.1.12.tar.gz --markdown 20230802/p/phynteny/0.1.11-0.1.12/diff.md --exclude *.pyd
+[2023-08-02 07:52:48] INFO root fetch - processPackages [sdk-openapi]: Remove: archive file [/home/abi/fetcher/tmp/sdk-openapi-0.0.3.tar.gz]
+[2023-08-02 07:52:48] INFO root fetch - processPackages [sdk-openapi]: Remove: archive file [/home/abi/fetcher/tmp/sdk_openapi-0.0.4-py3-none-any.whl.zip]
+[2023-08-02 07:52:48] INFO root fetch - main [MainThread]: End processing [sdk-openapi]: success
+[2023-08-02 07:52:49] INFO root fetch - processPackages [spaceone-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_monitoring-1.9.7.1-py3-none-any.whl.zip]
+[2023-08-02 07:52:49] INFO root fetch - processPackages [spaceone-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_monitoring-1.9.7rc1-py3-none-any.whl.zip]
+[2023-08-02 07:52:49] INFO root fetch - main [MainThread]: End processing [spaceone-monitoring]: success
+[2023-08-02 07:52:49] INFO root fetch - processPackages [phynteny]: Remove: archive file [/home/abi/fetcher/tmp/Phynteny-0.1.11.tar.gz]
+[2023-08-02 07:52:49] INFO root fetch - processPackages [phynteny]: Remove: archive file [/home/abi/fetcher/tmp/phynteny-0.1.12.tar.gz]
+[2023-08-02 07:52:49] INFO root fetch - main [MainThread]: End processing [phynteny]: success
+[2023-08-02 07:52:49] INFO root fetch - main [MainThread]: Store serial: [19137009]

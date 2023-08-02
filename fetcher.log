@@ -13061,3 +13061,79 @@
 [2023-08-02 07:09:50] INFO root fetch - processPackages [pymobiledevice3]: Remove: archive file [/home/abi/fetcher/tmp/pymobiledevice3-2.2.1.tar.gz]
 [2023-08-02 07:09:50] INFO root fetch - main [MainThread]: End processing [pymobiledevice3]: success
 [2023-08-02 07:09:50] INFO root fetch - main [MainThread]: Store serial: [19136769]
+[2023-08-02 07:14:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136769]
+[2023-08-02 07:14:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-02 07:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: byquant
+[2023-08-02 07:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-homeassistant-custom-component
+[2023-08-02 07:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threemystic-cloud-data-client
+[2023-08-02 07:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hivedca
+[2023-08-02 07:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: khoj-assistant
+[2023-08-02 07:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aaz-dev
+[2023-08-02 07:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idev-pycolor
+[2023-08-02 07:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hivedca
+[2023-08-02 07:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hypymedia
+[2023-08-02 07:14:58] INFO root fetch - processPackages [hivedca]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-02 07:14:58] INFO root fetch - processPackages [byquant]: New version: [1.7.36] Old Version: [1.6.29]
+[2023-08-02 07:14:59] INFO root fetch - processPackages [hivedca]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-02 07:14:59] WARNING root fetch - processPackages [hypymedia]: Skipping, unable to determine old version
+[2023-08-02 07:14:59] INFO root fetch - main [MainThread]: End processing [hypymedia] error
+[2023-08-02 07:14:59] INFO root fetch - processPackages [idev-pycolor]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-02 07:14:59] INFO root fetch - processPackages [aaz-dev]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-08-02 07:14:59] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.69] Old Version: [0.1.68]
+[2023-08-02 07:14:59] INFO root fetch - processPackages [khoj-assistant]: New version: [0.9.1.dev8] Old Version: [0.9.1.dev7]
+[2023-08-02 07:14:59] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-02 07:14:59] INFO root fetch - processPackages [hivedca]: Downloading https://files.pythonhosted.org/packages/18/49/1956f144ab4ea92c8e033dd4f118e29d9d593c7ea56cb0a37f339380368f/hivedca-0.0.4.tar.gz
+[2023-08-02 07:14:59] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/e9/c8/339935190a4466d33d5ac55e5e9faf22e14c37caabaeac3d81005b89835f/threemystic_cloud_data_client-0.1.68.tar.gz
+[2023-08-02 07:14:59] INFO root fetch - processPackages [hivedca]: Downloading https://files.pythonhosted.org/packages/18/49/1956f144ab4ea92c8e033dd4f118e29d9d593c7ea56cb0a37f339380368f/hivedca-0.0.4.tar.gz
+[2023-08-02 07:14:59] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/80/c2/afc116f8f70318334052f67223fb93a5ce1d898f2d901991e87dad33b030/khoj_assistant-0.9.1.dev7.tar.gz
+[2023-08-02 07:14:59] INFO root fetch - processPackages [idev-pycolor]: Downloading https://files.pythonhosted.org/packages/e5/c2/80ad81dd98e428751e377c09256de07bbf4741e30646678d79c737fa6c1b/idev-pycolor-1.0.3.tar.gz
+[2023-08-02 07:14:59] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/46/54/6ea8b670633107265c52999ea7fd00f142925ce7eb69add33686a788db35/byquant-1.6.29.tar.gz
+[2023-08-02 07:14:59] INFO root fetch - processPackages [aaz-dev]: Downloading https://files.pythonhosted.org/packages/58/cd/3f8532972e0a17aea8d8e8043827c7732ed890416aacb1db746fcb30068a/aaz-dev-1.5.1.tar.gz
+[2023-08-02 07:14:59] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2023-08-02 07:14:59] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/26/ea/e2ee0273a217a7ed7346b0f98f3d895a8d1dffac7604ed1869386767fca2/threemystic_cloud_data_client-0.1.69.tar.gz
+[2023-08-02 07:14:59] INFO root fetch - processPackages [hivedca]: Downloading https://files.pythonhosted.org/packages/0c/a0/aa64ba3d379ca8182171321daf1b880406f9ad8dc760bae20fc9fc4b718e/hivedca-0.0.5.tar.gz
+[2023-08-02 07:14:59] INFO root fetch - processPackages [hivedca]: Downloading https://files.pythonhosted.org/packages/0c/a0/aa64ba3d379ca8182171321daf1b880406f9ad8dc760bae20fc9fc4b718e/hivedca-0.0.5.tar.gz
+[2023-08-02 07:14:59] INFO root fetch - processPackages [idev-pycolor]: Downloading https://files.pythonhosted.org/packages/ea/3f/630834bd09a7f43f065342a615fd4e7744e1e0e6684821d7a18b9b08b99e/idev-pycolor-1.0.4.tar.gz
+[2023-08-02 07:14:59] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/87/c3/a6da041c3dee772521fabc9586096b6809ee0e9289735b249898c5a282a2/khoj_assistant-0.9.1.dev8.tar.gz
+[2023-08-02 07:14:59] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-08-02 07:14:59] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.68.tar.gz tmp/threemystic_cloud_data_client-0.1.69.tar.gz --markdown 20230802/t/threemystic-cloud-data-client/0.1.68-0.1.69/diff.md --exclude *.pyd
+[2023-08-02 07:14:59] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/36/02/719a4ab7ca3e192946f8f1d979d15584a284eb506ed669c28e800a81bd17/byquant-1.7.36.tar.gz
+[2023-08-02 07:14:59] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2023-08-02 07:14:59] INFO root fetch - processPackages [idev-pycolor]: executing diffoscope
+[2023-08-02 07:14:59] INFO root fetch - processPackages [idev-pycolor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idev-pycolor-1.0.3.tar.gz tmp/idev-pycolor-1.0.4.tar.gz --markdown 20230802/i/idev-pycolor/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-02 07:14:59] INFO root fetch - processPackages [hivedca]: executing diffoscope
+[2023-08-02 07:14:59] INFO root fetch - processPackages [hivedca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivedca-0.0.4.tar.gz tmp/hivedca-0.0.5.tar.gz --markdown 20230802/h/hivedca/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-02 07:14:59] INFO root fetch - processPackages [aaz-dev]: Downloading https://files.pythonhosted.org/packages/a2/d0/8de20c57aec5054fda0bedf31ad57832e83b3a273b367aa1ebb4c06f5dc4/aaz-dev-1.5.2.tar.gz
+[2023-08-02 07:14:59] INFO root fetch - processPackages [hivedca]: executing diffoscope
+[2023-08-02 07:14:59] INFO root fetch - processPackages [hivedca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivedca-0.0.4.tar.gz tmp/hivedca-0.0.5.tar.gz --markdown 20230802/h/hivedca/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-02 07:15:00] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-08-02 07:15:00] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.9.1.dev7.tar.gz tmp/khoj_assistant-0.9.1.dev8.tar.gz --markdown 20230802/k/khoj-assistant/0.9.1.dev7-0.9.1.dev8/diff.md --exclude *.pyd
+[2023-08-02 07:15:00] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2023-08-02 07:15:00] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20230802/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-02 07:15:00] INFO root fetch - processPackages [aaz-dev]: executing diffoscope
+[2023-08-02 07:15:00] INFO root fetch - processPackages [aaz-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aaz-dev-1.5.1.tar.gz tmp/aaz-dev-1.5.2.tar.gz --markdown 20230802/a/aaz-dev/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-08-02 07:15:00] INFO root fetch - processPackages [byquant]: executing diffoscope
+[2023-08-02 07:15:00] INFO root fetch - processPackages [byquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byquant-1.6.29.tar.gz tmp/byquant-1.7.36.tar.gz --markdown 20230802/b/byquant/1.6.29-1.7.36/diff.md --exclude *.pyd
+[2023-08-02 07:15:01] INFO root fetch - processPackages [hivedca]: Remove: archive file [/home/abi/fetcher/tmp/hivedca-0.0.4.tar.gz]
+[2023-08-02 07:15:01] INFO root fetch - processPackages [hivedca]: Remove: archive file [/home/abi/fetcher/tmp/hivedca-0.0.5.tar.gz]
+[2023-08-02 07:15:01] INFO root fetch - main [MainThread]: End processing [hivedca]: success
+[2023-08-02 07:15:01] INFO root fetch - processPackages [idev-pycolor]: Remove: archive file [/home/abi/fetcher/tmp/idev-pycolor-1.0.3.tar.gz]
+[2023-08-02 07:15:01] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.68.tar.gz]
+[2023-08-02 07:15:01] INFO root fetch - processPackages [idev-pycolor]: Remove: archive file [/home/abi/fetcher/tmp/idev-pycolor-1.0.4.tar.gz]
+[2023-08-02 07:15:01] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.69.tar.gz]
+[2023-08-02 07:15:01] INFO root fetch - main [MainThread]: End processing [idev-pycolor]: success
+[2023-08-02 07:15:01] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-08-02 07:15:01] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2023-08-02 07:15:01] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2023-08-02 07:15:01] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2023-08-02 07:15:01] INFO root fetch - main [MainThread]: End processing [hivedca]: success
+[2023-08-02 07:15:01] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev7.tar.gz]
+[2023-08-02 07:15:01] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev8.tar.gz]
+[2023-08-02 07:15:01] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-08-02 07:15:02] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz-dev-1.5.1.tar.gz]
+[2023-08-02 07:15:02] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz-dev-1.5.2.tar.gz]
+[2023-08-02 07:15:02] INFO root fetch - main [MainThread]: End processing [aaz-dev]: success
+[2023-08-02 07:15:02] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.6.29.tar.gz]
+[2023-08-02 07:15:02] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.36.tar.gz]
+[2023-08-02 07:15:02] INFO root fetch - main [MainThread]: End processing [byquant]: success
+[2023-08-02 07:15:02] INFO root fetch - main [MainThread]: Store serial: [19136796]

@@ -18107,3 +18107,137 @@
 [2023-08-02 11:08:00] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-08-02 11:08:00] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-08-02 11:08:00] INFO root fetch - main [MainThread]: Store serial: [19139127]
+[2023-08-02 11:13:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19139127]
+[2023-08-02 11:13:10] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-02 11:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clusterX
+[2023-08-02 11:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apollon
+[2023-08-02 11:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ibm-watson-machine-learning
+[2023-08-02 11:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wagtail-cjkcms
+[2023-08-02 11:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: compPy
+[2023-08-02 11:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bulk-editor
+[2023-08-02 11:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scrunch
+[2023-08-02 11:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opencone
+[2023-08-02 11:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: semgrep-rules-manager
+[2023-08-02 11:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: voila
+[2023-08-02 11:13:10] INFO root fetch - processPackages [compPy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-02 11:13:10] INFO root fetch - processPackages [voila]: New version: [0.5.0b0] Old Version: [0.5.0a5]
+[2023-08-02 11:13:10] INFO root fetch - processPackages [apollon]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-02 11:13:10] INFO root fetch - processPackages [bulk-editor]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-02 11:13:10] INFO root fetch - processPackages [opencone]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-02 11:13:10] INFO root fetch - processPackages [semgrep-rules-manager]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 11:13:10] INFO root fetch - processPackages [clusterX]: New version: [2.1.0rc1] Old Version: [1.0.0.dev8]
+[2023-08-02 11:13:10] INFO root fetch - processPackages [wagtail-cjkcms]: New version: [23.8.1] Old Version: [23.7.3]
+[2023-08-02 11:13:10] INFO root fetch - processPackages [ibm-watson-machine-learning]: New version: [1.0.99] Old Version: [1.0.96]
+[2023-08-02 11:13:10] INFO root fetch - processPackages [scrunch]: New version: [6.5.2026.post1690917111] Old Version: [6.5.2026.post1690910483]
+[2023-08-02 11:13:10] INFO root fetch - processPackages [bulk-editor]: Downloading https://files.pythonhosted.org/packages/67/e9/c210d18418e9694cfacf2ece0c2105476a56d70af95552e24026eb8727d0/bulk_editor-0.1.3.tar.gz
+[2023-08-02 11:13:10] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/4f/93/0076dfe26ce6a8f0ff54a14b586396bdb51f634db1546ab28ebec198abea/scrunch-6.5.2026.post1690910483.tar.gz
+[2023-08-02 11:13:10] INFO root fetch - processPackages [compPy]: Downloading https://files.pythonhosted.org/packages/5f/6a/491104ae82ca26ddbe5731571c3236aa2429b4fd55f159f9a0259fa02ff3/compPy-0.1.0.tar.gz
+[2023-08-02 11:13:10] INFO root fetch - processPackages [clusterX]: Downloading https://files.pythonhosted.org/packages/28/b0/1c4e01921e6c8c70c9206e7c6c6d9ba4a9a843342ac3df8cafe13b3cf8a3/clusterX-1.0.0.dev8.tar.gz
+[2023-08-02 11:13:10] INFO root fetch - processPackages [voila]: Downloading https://files.pythonhosted.org/packages/32/be/e1a288693e19a2c994e22592269b81f76fef0ee37cf3de6309ab8767dbdc/voila-0.5.0a5.tar.gz
+[2023-08-02 11:13:10] INFO root fetch - processPackages [apollon]: Downloading https://files.pythonhosted.org/packages/13/08/87389d25b8a8436b0d0b8fc63147aa981e90bc7cb837b03336f2def70df3/apollon-0.1.4.tar.gz
+[2023-08-02 11:13:10] INFO root fetch - processPackages [semgrep-rules-manager]: Downloading https://files.pythonhosted.org/packages/87/24/86f6e111e8978a6ebb78b80f8ac7f5a5e31f04bf797eae06a4fc1f9c53f1/semgrep_rules_manager-0.2.0.tar.gz
+[2023-08-02 11:13:10] INFO root fetch - processPackages [opencone]: Downloading https://files.pythonhosted.org/packages/e0/96/b4ff77e84f55724a5692886d43505189a3da97d5ae778bd8314f32bd05b7/opencone-0.0.3.tar.gz
+[2023-08-02 11:13:10] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/58/40/a775ffda5d16f4fbab37ee9184852d0b9f96e7d7b19db541f8a51082509e/ibm_watson_machine_learning-1.0.96.tar.gz
+[2023-08-02 11:13:10] INFO root fetch - processPackages [wagtail-cjkcms]: Downloading https://files.pythonhosted.org/packages/9a/4a/04626a3ff14b778434b548ecef584ce2e86143becf714adf9c1930319afd/wagtail-cjkcms-23.7.3.tar.gz
+[2023-08-02 11:13:11] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/4a/02/83e1f0fb5821a5647e501de1554ea70dddd9252cc53347ccbc55245972da/scrunch-6.5.2026.post1690917111.tar.gz
+[2023-08-02 11:13:11] WARNING root fetch - processPackages [opencone]: Skipping package: exceeds size limit 36225166>=10485760
+[2023-08-02 11:13:11] INFO root fetch - processPackages [opencone]: Start processing: XenAPI
+[2023-08-02 11:13:11] INFO root fetch - main [MainThread]: End processing [opencone] error
+[2023-08-02 11:13:11] INFO root fetch - processPackages [bulk-editor]: Downloading https://files.pythonhosted.org/packages/f0/89/0f24bf7cb3b7e5ac808d04cb483705a2cd0291accda61d805a552011df98/bulk_editor-0.1.4.tar.gz
+[2023-08-02 11:13:11] INFO root fetch - processPackages [XenAPI]: New version: [23.8.0] Old Version: [23.20.0]
+[2023-08-02 11:13:11] INFO root fetch - processPackages [compPy]: Downloading https://files.pythonhosted.org/packages/d1/06/80bbdef70315a904355d509f8a29057d59b23378ce68614b105c0ff07006/compPy-0.1.1.tar.gz
+[2023-08-02 11:13:11] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-08-02 11:13:11] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2026.post1690910483.tar.gz tmp/scrunch-6.5.2026.post1690917111.tar.gz --markdown 20230802/s/scrunch/6.5.2026.post1690910483-6.5.2026.post1690917111/diff.md --exclude *.pyd
+[2023-08-02 11:13:11] INFO root fetch - processPackages [semgrep-rules-manager]: Downloading https://files.pythonhosted.org/packages/99/c5/3ceecf08021ad82ccb6031bae43040ff26371544b7c06e9c37f39bd09265/semgrep_rules_manager-0.2.1.tar.gz
+[2023-08-02 11:13:11] INFO root fetch - processPackages [apollon]: Downloading https://files.pythonhosted.org/packages/40/bb/4ecdff9103844e79204d87f5e80643cf9c5f4c8c3b9f2969bdd61b7156dd/apollon-0.1.5.tar.gz
+[2023-08-02 11:13:11] INFO root fetch - processPackages [bulk-editor]: executing diffoscope
+[2023-08-02 11:13:11] INFO root fetch - processPackages [bulk-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bulk_editor-0.1.3.tar.gz tmp/bulk_editor-0.1.4.tar.gz --markdown 20230802/b/bulk-editor/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-02 11:13:11] INFO root fetch - processPackages [compPy]: executing diffoscope
+[2023-08-02 11:13:11] INFO root fetch - processPackages [compPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compPy-0.1.0.tar.gz tmp/compPy-0.1.1.tar.gz --markdown 20230802/c/compPy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-02 11:13:11] INFO root fetch - processPackages [semgrep-rules-manager]: executing diffoscope
+[2023-08-02 11:13:11] INFO root fetch - processPackages [semgrep-rules-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semgrep_rules_manager-0.2.0.tar.gz tmp/semgrep_rules_manager-0.2.1.tar.gz --markdown 20230802/s/semgrep-rules-manager/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 11:13:11] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/48/45/3f32e9a705a7e6bf8b19591a86cc7099b54ca88fcf8660798dff04d4e6c2/ibm_watson_machine_learning-1.0.99.tar.gz
+[2023-08-02 11:13:11] INFO root fetch - processPackages [clusterX]: Downloading https://files.pythonhosted.org/packages/5e/fe/cf806dbe6aa6193a736d1627f41a642f1dd6c5a9ffd891c649cc902df133/clusterX-2.1.0rc1.tar.gz
+[2023-08-02 11:13:11] INFO root fetch - processPackages [apollon]: executing diffoscope
+[2023-08-02 11:13:11] INFO root fetch - processPackages [apollon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollon-0.1.4.tar.gz tmp/apollon-0.1.5.tar.gz --markdown 20230802/a/apollon/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-02 11:13:11] INFO root fetch - processPackages [XenAPI]: Downloading https://files.pythonhosted.org/packages/57/fc/850699e795735175dbeadaaa44569b01ac2ee86c7192758f2fdac525391e/XenAPI-23.20.0.tar.gz
+[2023-08-02 11:13:11] INFO root fetch - processPackages [wagtail-cjkcms]: Downloading https://files.pythonhosted.org/packages/26/39/3c3292863a390dccb0fe9eb03b3da6295b607914547a964a0406e03edb30/wagtail-cjkcms-23.8.1.tar.gz
+[2023-08-02 11:13:11] INFO root fetch - processPackages [ibm-watson-machine-learning]: executing diffoscope
+[2023-08-02 11:13:11] INFO root fetch - processPackages [ibm-watson-machine-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watson_machine_learning-1.0.96.tar.gz tmp/ibm_watson_machine_learning-1.0.99.tar.gz --markdown 20230802/i/ibm-watson-machine-learning/1.0.96-1.0.99/diff.md --exclude *.pyd
+[2023-08-02 11:13:11] INFO root fetch - processPackages [wagtail-cjkcms]: executing diffoscope
+[2023-08-02 11:13:11] INFO root fetch - processPackages [wagtail-cjkcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-cjkcms-23.7.3.tar.gz tmp/wagtail-cjkcms-23.8.1.tar.gz --markdown 20230802/w/wagtail-cjkcms/23.7.3-23.8.1/diff.md --exclude *.pyd
+[2023-08-02 11:13:11] INFO root fetch - processPackages [clusterX]: executing diffoscope
+[2023-08-02 11:13:11] INFO root fetch - processPackages [clusterX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clusterX-1.0.0.dev8.tar.gz tmp/clusterX-2.1.0rc1.tar.gz --markdown 20230802/c/clusterX/1.0.0.dev8-2.1.0rc1/diff.md --exclude *.pyd
+[2023-08-02 11:13:11] INFO root fetch - processPackages [XenAPI]: Downloading https://files.pythonhosted.org/packages/4c/4d/34f52619eda4ac966e9481a6a312f5235f5c58584f270e41503cc1237352/XenAPI-23.8.0.tar.gz
+[2023-08-02 11:13:11] INFO root fetch - processPackages [XenAPI]: executing diffoscope
+[2023-08-02 11:13:11] INFO root fetch - processPackages [XenAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XenAPI-23.20.0.tar.gz tmp/XenAPI-23.8.0.tar.gz --markdown 20230802/X/XenAPI/23.20.0-23.8.0/diff.md --exclude *.pyd
+[2023-08-02 11:13:12] INFO root fetch - processPackages [voila]: Downloading https://files.pythonhosted.org/packages/f2/cb/0d561a1ae65cdbba6100c171b819c7ba567a2e9dba09858c0797ee871e60/voila-0.5.0b0.tar.gz
+[2023-08-02 11:13:12] INFO root fetch - processPackages [bulk-editor]: Remove: archive file [/home/abi/fetcher/tmp/bulk_editor-0.1.3.tar.gz]
+[2023-08-02 11:13:12] INFO root fetch - processPackages [bulk-editor]: Remove: archive file [/home/abi/fetcher/tmp/bulk_editor-0.1.4.tar.gz]
+[2023-08-02 11:13:12] INFO root fetch - processPackages [bulk-editor]: Start processing: bridgecrew
+[2023-08-02 11:13:12] INFO root fetch - main [MainThread]: End processing [bulk-editor]: success
+[2023-08-02 11:13:12] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-08-02 11:13:12] INFO root fetch - processPackages [compPy]: Remove: archive file [/home/abi/fetcher/tmp/compPy-0.1.0.tar.gz]
+[2023-08-02 11:13:12] INFO root fetch - processPackages [compPy]: Remove: archive file [/home/abi/fetcher/tmp/compPy-0.1.1.tar.gz]
+[2023-08-02 11:13:12] INFO root fetch - processPackages [compPy]: Start processing: aeoprsmodel
+[2023-08-02 11:13:12] INFO root fetch - main [MainThread]: End processing [compPy]: success
+[2023-08-02 11:13:13] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-08-02 11:13:13] INFO root fetch - processPackages [aeoprsmodel]: New version: [0.2] Old Version: [0.1]
+[2023-08-02 11:13:13] INFO root fetch - processPackages [semgrep-rules-manager]: Remove: archive file [/home/abi/fetcher/tmp/semgrep_rules_manager-0.2.0.tar.gz]
+[2023-08-02 11:13:13] INFO root fetch - processPackages [semgrep-rules-manager]: Remove: archive file [/home/abi/fetcher/tmp/semgrep_rules_manager-0.2.1.tar.gz]
+[2023-08-02 11:13:13] INFO root fetch - processPackages [semgrep-rules-manager]: Start processing: apify
+[2023-08-02 11:13:13] INFO root fetch - main [MainThread]: End processing [semgrep-rules-manager]: success
+[2023-08-02 11:13:13] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-08-02 11:13:13] INFO root fetch - processPackages [apollon]: Remove: archive file [/home/abi/fetcher/tmp/apollon-0.1.4.tar.gz]
+[2023-08-02 11:13:13] INFO root fetch - processPackages [apollon]: Remove: archive file [/home/abi/fetcher/tmp/apollon-0.1.5.tar.gz]
+[2023-08-02 11:13:13] INFO root fetch - processPackages [apollon]: Start processing: actionrules-lukassykora
+[2023-08-02 11:13:13] INFO root fetch - main [MainThread]: End processing [apollon]: success
+[2023-08-02 11:13:13] INFO root fetch - processPackages [voila]: executing diffoscope
+[2023-08-02 11:13:13] INFO root fetch - processPackages [aeoprsmodel]: Downloading https://files.pythonhosted.org/packages/fc/ea/38470d9736eb4f70f28ab5a171dce729ada07bac4eb2bfeb40321ab7f578/aeoprsmodel-0.1.tar.gz
+[2023-08-02 11:13:13] INFO root fetch - processPackages [apify]: New version: [1.1.2b2] Old Version: [1.1.2b1]
+[2023-08-02 11:13:13] INFO root fetch - processPackages [voila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voila-0.5.0a5.tar.gz tmp/voila-0.5.0b0.tar.gz --markdown 20230802/v/voila/0.5.0a5-0.5.0b0/diff.md --exclude *.pyd
+[2023-08-02 11:13:13] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2026.post1690910483.tar.gz]
+[2023-08-02 11:13:13] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2026.post1690917111.tar.gz]
+[2023-08-02 11:13:13] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-08-02 11:13:13] INFO root fetch - processPackages [actionrules-lukassykora]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-02 11:13:13] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-08-02 11:13:13] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230802/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-08-02 11:13:13] INFO root fetch - processPackages [apify]: Downloading https://files.pythonhosted.org/packages/40/74/8d80732368c7a4a1c6f71dda699b1426dc4078042752e5931d75fd906bd6/apify-1.1.2b1.tar.gz
+[2023-08-02 11:13:13] INFO root fetch - processPackages [XenAPI]: Remove: archive file [/home/abi/fetcher/tmp/XenAPI-23.20.0.tar.gz]
+[2023-08-02 11:13:13] INFO root fetch - processPackages [XenAPI]: Remove: archive file [/home/abi/fetcher/tmp/XenAPI-23.8.0.tar.gz]
+[2023-08-02 11:13:13] INFO root fetch - main [MainThread]: End processing [XenAPI]: success
+[2023-08-02 11:13:13] INFO root fetch - processPackages [actionrules-lukassykora]: Downloading https://files.pythonhosted.org/packages/72/f1/40e5c965f10165c1e2891535064e344662b88b575024517566b095e3a0fc/actionrules-lukassykora-1.1.8.tar.gz
+[2023-08-02 11:13:13] INFO root fetch - processPackages [aeoprsmodel]: Downloading https://files.pythonhosted.org/packages/50/02/9d88cee3c46fa53b7f87852f46156454682dc473935e1522ee196ea894f6/aeoprsmodel-0.2.tar.gz
+[2023-08-02 11:13:13] INFO root fetch - processPackages [clusterX]: Remove: archive file [/home/abi/fetcher/tmp/clusterX-1.0.0.dev8.tar.gz]
+[2023-08-02 11:13:13] INFO root fetch - processPackages [clusterX]: Remove: archive file [/home/abi/fetcher/tmp/clusterX-2.1.0rc1.tar.gz]
+[2023-08-02 11:13:13] INFO root fetch - main [MainThread]: End processing [clusterX]: success
+[2023-08-02 11:13:13] INFO root fetch - processPackages [aeoprsmodel]: executing diffoscope
+[2023-08-02 11:13:13] INFO root fetch - processPackages [aeoprsmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeoprsmodel-0.1.tar.gz tmp/aeoprsmodel-0.2.tar.gz --markdown 20230802/a/aeoprsmodel/0.1-0.2/diff.md --exclude *.pyd
+[2023-08-02 11:13:13] INFO root fetch - processPackages [apify]: Downloading https://files.pythonhosted.org/packages/aa/04/679e8996fae268d16a049bd97c5d494ca49e235011dc7f293625b685a549/apify-1.1.2b2.tar.gz
+[2023-08-02 11:13:14] INFO root fetch - processPackages [apify]: executing diffoscope
+[2023-08-02 11:13:14] INFO root fetch - processPackages [apify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify-1.1.2b1.tar.gz tmp/apify-1.1.2b2.tar.gz --markdown 20230802/a/apify/1.1.2b1-1.1.2b2/diff.md --exclude *.pyd
+[2023-08-02 11:13:14] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-08-02 11:13:14] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-08-02 11:13:14] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-08-02 11:13:14] INFO root fetch - processPackages [actionrules-lukassykora]: Downloading https://files.pythonhosted.org/packages/92/fa/2e751d75f8411e50da90f704972eac392dbba5dcbf911d30800ea652cec3/actionrules-lukassykora-1.1.9.tar.gz
+[2023-08-02 11:13:14] INFO root fetch - processPackages [wagtail-cjkcms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-cjkcms-23.7.3.tar.gz]
+[2023-08-02 11:13:14] INFO root fetch - processPackages [wagtail-cjkcms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-cjkcms-23.8.1.tar.gz]
+[2023-08-02 11:13:14] INFO root fetch - main [MainThread]: End processing [wagtail-cjkcms]: success
+[2023-08-02 11:13:14] INFO root fetch - processPackages [actionrules-lukassykora]: executing diffoscope
+[2023-08-02 11:13:14] INFO root fetch - processPackages [actionrules-lukassykora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actionrules-lukassykora-1.1.8.tar.gz tmp/actionrules-lukassykora-1.1.9.tar.gz --markdown 20230802/a/actionrules-lukassykora/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-02 11:13:14] INFO root fetch - processPackages [aeoprsmodel]: Remove: archive file [/home/abi/fetcher/tmp/aeoprsmodel-0.1.tar.gz]
+[2023-08-02 11:13:14] INFO root fetch - processPackages [aeoprsmodel]: Remove: archive file [/home/abi/fetcher/tmp/aeoprsmodel-0.2.tar.gz]
+[2023-08-02 11:13:14] INFO root fetch - main [MainThread]: End processing [aeoprsmodel]: success
+[2023-08-02 11:13:15] INFO root fetch - processPackages [apify]: Remove: archive file [/home/abi/fetcher/tmp/apify-1.1.2b1.tar.gz]
+[2023-08-02 11:13:15] INFO root fetch - processPackages [apify]: Remove: archive file [/home/abi/fetcher/tmp/apify-1.1.2b2.tar.gz]
+[2023-08-02 11:13:15] INFO root fetch - main [MainThread]: End processing [apify]: success
+[2023-08-02 11:13:15] INFO root fetch - processPackages [actionrules-lukassykora]: Remove: archive file [/home/abi/fetcher/tmp/actionrules-lukassykora-1.1.8.tar.gz]
+[2023-08-02 11:13:15] INFO root fetch - processPackages [actionrules-lukassykora]: Remove: archive file [/home/abi/fetcher/tmp/actionrules-lukassykora-1.1.9.tar.gz]
+[2023-08-02 11:13:15] INFO root fetch - main [MainThread]: End processing [actionrules-lukassykora]: success
+[2023-08-02 11:13:17] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.96.tar.gz]
+[2023-08-02 11:13:17] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.99.tar.gz]
+[2023-08-02 11:13:17] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
+[2023-08-02 11:13:43] INFO root fetch - processPackages [voila]: Remove: archive file [/home/abi/fetcher/tmp/voila-0.5.0a5.tar.gz]
+[2023-08-02 11:13:43] INFO root fetch - processPackages [voila]: Remove: archive file [/home/abi/fetcher/tmp/voila-0.5.0b0.tar.gz]
+[2023-08-02 11:13:43] INFO root fetch - main [MainThread]: End processing [voila]: success
+[2023-08-02 11:13:43] INFO root fetch - main [MainThread]: Store serial: [19139181]

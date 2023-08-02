@@ -18958,3 +18958,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-02 11:39:59] INFO root fetch - processPackages [alchemite-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/alchemite_apiclient-0.59.0.tar.gz]
 [2023-08-02 11:39:59] INFO root fetch - main [MainThread]: End processing [alchemite-apiclient]: success
 [2023-08-02 11:39:59] INFO root fetch - main [MainThread]: Store serial: [19139425]
+[2023-08-02 11:45:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19139425]
+[2023-08-02 11:45:09] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-02 11:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: samna
+[2023-08-02 11:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fps_auth_jupyterhub
+[2023-08-02 11:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-astrolab
+[2023-08-02 11:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thinks-dash-components
+[2023-08-02 11:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zymod
+[2023-08-02 11:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wonda
+[2023-08-02 11:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: starlette_logger
+[2023-08-02 11:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zygrpc
+[2023-08-02 11:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: daggerpy
+[2023-08-02 11:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: osaca
+[2023-08-02 11:45:10] INFO root fetch - processPackages [py-astrolab]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-08-02 11:45:10] INFO root fetch - processPackages [thinks-dash-components]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-08-02 11:45:10] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-08-02 11:45:10] WARNING root fetch - processPackages [fps_auth_jupyterhub]: Skipping, unable to determine old version
+[2023-08-02 11:45:10] INFO root fetch - processPackages [fps_auth_jupyterhub]: Start processing: ethpwn
+[2023-08-02 11:45:10] INFO root fetch - main [MainThread]: End processing [fps_auth_jupyterhub] error
+[2023-08-02 11:45:10] INFO root fetch - processPackages [osaca]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-08-02 11:45:10] WARNING root fetch - processPackages [starlette_logger]: Skipping, unable to determine old version
+[2023-08-02 11:45:10] INFO root fetch - processPackages [starlette_logger]: Start processing: fschat
+[2023-08-02 11:45:10] INFO root fetch - main [MainThread]: End processing [starlette_logger] error
+[2023-08-02 11:45:10] INFO root fetch - processPackages [daggerpy]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-02 11:45:10] INFO root fetch - processPackages [zymod]: New version: [0.0.1.26] Old Version: [0.0.1.20]
+[2023-08-02 11:45:10] INFO root fetch - processPackages [zygrpc]: New version: [0.0.1.15] Old Version: [0.0.1.11]
+[2023-08-02 11:45:10] INFO root fetch - processPackages [wonda]: New version: [0.6.0a1] Old Version: [0.5.7]
+[2023-08-02 11:45:10] INFO root fetch - processPackages [ethpwn]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-02 11:45:10] INFO root fetch - processPackages [fschat]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-02 11:45:10] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/e8/14/64adfe074519e875dac5547dd27e2170df2fa6c2566f8e706b4063272792/py_astrolab-0.6.1.tar.gz
+[2023-08-02 11:45:10] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/79/f1/0b31928d46af33a94094ce8bf463e5c9e2fba193a1fb69fc212513cb1839/thinks_dash_components-0.4.6.tar.gz
+[2023-08-02 11:45:10] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/ac/49/8e22575b9ef0f797dd5332cff83b9f2288c02887aeff0cb8048a960a2edb/samna-0.9.38.0-py3-none-any.whl
+[2023-08-02 11:45:10] INFO root fetch - processPackages [osaca]: Downloading https://files.pythonhosted.org/packages/20/84/5603a295ae3154072bf09bff16cd063d52820778be05c6b1ca053a8cd0a9/osaca-0.5.0.tar.gz
+[2023-08-02 11:45:10] INFO root fetch - processPackages [ethpwn]: Downloading https://files.pythonhosted.org/packages/f6/eb/520ffab851907dc3ecca6cc06effbbe4a35819028858074e4dd2efff8f80/ethpwn-0.0.3.tar.gz
+[2023-08-02 11:45:10] INFO root fetch - processPackages [wonda]: Downloading https://files.pythonhosted.org/packages/50/95/8b991f393420f22d16559881f92caf5a631bc3fef9a3737de66a7270c893/wonda-0.5.7.tar.gz
+[2023-08-02 11:45:10] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/87/62/b4da7a5a785f37c352f8353cd89801af7ae84d326d5f4edc3084d11032dd/fschat-0.2.8.tar.gz
+[2023-08-02 11:45:10] INFO root fetch - processPackages [daggerpy]: Downloading https://files.pythonhosted.org/packages/12/94/7f2f97381b2c9d84cea19b3b37b3be71ccad02c5e0c9fd1c72a57d077bba/daggerpy-0.0.5.tar.gz
+[2023-08-02 11:45:10] WARNING root fetch - processPackages [osaca]: Skipping package: exceeds size limit 14411947>=10485760
+[2023-08-02 11:45:10] INFO root fetch - main [MainThread]: End processing [osaca] error
+[2023-08-02 11:45:10] INFO root fetch - processPackages [zygrpc]: Downloading https://files.pythonhosted.org/packages/dd/dd/d1c6088263262ab97de5061c7385f8bba16e594c4f15b84f4a7085d422f7/zygrpc-0.0.1.11.tar.gz
+[2023-08-02 11:45:10] WARNING root fetch - processPackages [ethpwn]: Skipping package: exceeds size limit 27146394>=10485760
+[2023-08-02 11:45:10] INFO root fetch - main [MainThread]: End processing [ethpwn] error
+[2023-08-02 11:45:10] INFO root fetch - processPackages [zymod]: Downloading https://files.pythonhosted.org/packages/95/36/98c7cd0e4df974a64cc250676a48e9b80cc3ea0b9ab1ab64ecc17d8ebc9e/zymod-0.0.1.20-py3-none-any.whl
+[2023-08-02 11:45:10] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/4b/30/7ac9da3be9d7388223b12623112bc7179e4125fb73c848624fa9b47fd9d4/py_astrolab-0.6.2.tar.gz
+[2023-08-02 11:45:10] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/f7/8c/7e9a2b51dd67bef5db17fee16a45693a27af66f3d7ef868d3ecb01ebff49/thinks_dash_components-0.4.7.tar.gz
+[2023-08-02 11:45:10] INFO root fetch - processPackages [py-astrolab]: executing diffoscope
+[2023-08-02 11:45:10] INFO root fetch - processPackages [py-astrolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_astrolab-0.6.1.tar.gz tmp/py_astrolab-0.6.2.tar.gz --markdown 20230802/p/py-astrolab/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-08-02 11:45:10] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/00/d4/3de54a6c91f47d5c29700e274166c999cadaf0ba26c263d4a4b8a40342e2/samna-0.9.39.0-py3-none-any.whl
+[2023-08-02 11:45:10] INFO root fetch - processPackages [thinks-dash-components]: executing diffoscope
+[2023-08-02 11:45:10] INFO root fetch - processPackages [thinks-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinks_dash_components-0.4.6.tar.gz tmp/thinks_dash_components-0.4.7.tar.gz --markdown 20230802/t/thinks-dash-components/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-08-02 11:45:10] INFO root fetch - processPackages [wonda]: Downloading https://files.pythonhosted.org/packages/60/85/0c82bf8ad8ffbb6df71335269bf6aafe9be75739baef3101a0536544594f/wonda-0.6.0a1.tar.gz
+[2023-08-02 11:45:10] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-08-02 11:45:10] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230802/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-08-02 11:45:11] INFO root fetch - processPackages [zygrpc]: Downloading https://files.pythonhosted.org/packages/39/b5/ba86ae801710750619d6e32b006066c8e2ab1305bdd23187ed8d9f9e765b/zygrpc-0.0.1.15.tar.gz
+[2023-08-02 11:45:11] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/c1/b0/505c6a4e83ac92e1871d446b70a468976b4ccdcfd047b5ebd73e5d37ba8b/fschat-0.2.9.tar.gz
+[2023-08-02 11:45:11] INFO root fetch - processPackages [daggerpy]: Downloading https://files.pythonhosted.org/packages/2e/8e/28a026fcbd4d7bbf5b1a549d8c320ee3231c6dae1a5518f130c52b3b3d32/daggerpy-0.0.6.tar.gz
+[2023-08-02 11:45:11] INFO root fetch - processPackages [zymod]: Downloading https://files.pythonhosted.org/packages/ed/44/24b273f0bae144ef49b6037216a75830b8aa7847688a511523d22c6a1449/zymod-0.0.1.26-py3-none-any.whl
+[2023-08-02 11:45:11] INFO root fetch - processPackages [zygrpc]: executing diffoscope
+[2023-08-02 11:45:11] INFO root fetch - processPackages [zygrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zygrpc-0.0.1.11.tar.gz tmp/zygrpc-0.0.1.15.tar.gz --markdown 20230802/z/zygrpc/0.0.1.11-0.0.1.15/diff.md --exclude *.pyd
+[2023-08-02 11:45:11] INFO root fetch - processPackages [wonda]: executing diffoscope
+[2023-08-02 11:45:11] INFO root fetch - processPackages [wonda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonda-0.5.7.tar.gz tmp/wonda-0.6.0a1.tar.gz --markdown 20230802/w/wonda/0.5.7-0.6.0a1/diff.md --exclude *.pyd
+[2023-08-02 11:45:11] INFO root fetch - processPackages [daggerpy]: executing diffoscope
+[2023-08-02 11:45:11] INFO root fetch - processPackages [daggerpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daggerpy-0.0.5.tar.gz tmp/daggerpy-0.0.6.tar.gz --markdown 20230802/d/daggerpy/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-02 11:45:11] INFO root fetch - processPackages [zymod]: executing diffoscope
+[2023-08-02 11:45:11] INFO root fetch - processPackages [zymod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zymod-0.0.1.20-py3-none-any.whl.zip tmp/zymod-0.0.1.26-py3-none-any.whl.zip --markdown 20230802/z/zymod/0.0.1.20-0.0.1.26/diff.md --exclude *.pyd
+[2023-08-02 11:45:11] INFO root fetch - processPackages [fschat]: executing diffoscope
+[2023-08-02 11:45:11] INFO root fetch - processPackages [fschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fschat-0.2.8.tar.gz tmp/fschat-0.2.9.tar.gz --markdown 20230802/f/fschat/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-02 11:45:12] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.6.1.tar.gz]
+[2023-08-02 11:45:12] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.6.2.tar.gz]
+[2023-08-02 11:45:12] INFO root fetch - main [MainThread]: End processing [py-astrolab]: success
+[2023-08-02 11:45:12] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.38.0-py3-none-any.whl.zip]
+[2023-08-02 11:45:12] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.39.0-py3-none-any.whl.zip]
+[2023-08-02 11:45:12] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-08-02 11:45:12] INFO root fetch - processPackages [zygrpc]: Remove: archive file [/home/abi/fetcher/tmp/zygrpc-0.0.1.11.tar.gz]
+[2023-08-02 11:45:12] INFO root fetch - processPackages [zygrpc]: Remove: archive file [/home/abi/fetcher/tmp/zygrpc-0.0.1.15.tar.gz]
+[2023-08-02 11:45:12] INFO root fetch - main [MainThread]: End processing [zygrpc]: success
+[2023-08-02 11:45:12] INFO root fetch - processPackages [zymod]: Remove: archive file [/home/abi/fetcher/tmp/zymod-0.0.1.20-py3-none-any.whl.zip]
+[2023-08-02 11:45:12] INFO root fetch - processPackages [zymod]: Remove: archive file [/home/abi/fetcher/tmp/zymod-0.0.1.26-py3-none-any.whl.zip]
+[2023-08-02 11:45:12] INFO root fetch - main [MainThread]: End processing [zymod]: success
+[2023-08-02 11:45:12] INFO root fetch - processPackages [daggerpy]: Remove: archive file [/home/abi/fetcher/tmp/daggerpy-0.0.5.tar.gz]
+[2023-08-02 11:45:12] INFO root fetch - processPackages [daggerpy]: Remove: archive file [/home/abi/fetcher/tmp/daggerpy-0.0.6.tar.gz]
+[2023-08-02 11:45:12] INFO root fetch - main [MainThread]: End processing [daggerpy]: success
+[2023-08-02 11:45:12] INFO root fetch - processPackages [wonda]: Remove: archive file [/home/abi/fetcher/tmp/wonda-0.5.7.tar.gz]
+[2023-08-02 11:45:12] INFO root fetch - processPackages [wonda]: Remove: archive file [/home/abi/fetcher/tmp/wonda-0.6.0a1.tar.gz]
+[2023-08-02 11:45:12] INFO root fetch - main [MainThread]: End processing [wonda]: success
+[2023-08-02 11:45:12] INFO root fetch - processPackages [fschat]: Remove: archive file [/home/abi/fetcher/tmp/fschat-0.2.8.tar.gz]
+[2023-08-02 11:45:12] INFO root fetch - processPackages [fschat]: Remove: archive file [/home/abi/fetcher/tmp/fschat-0.2.9.tar.gz]
+[2023-08-02 11:45:12] INFO root fetch - main [MainThread]: End processing [fschat]: success
+[2023-08-02 11:45:13] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.4.6.tar.gz]
+[2023-08-02 11:45:13] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.4.7.tar.gz]
+[2023-08-02 11:45:13] INFO root fetch - main [MainThread]: End processing [thinks-dash-components]: success
+[2023-08-02 11:45:13] INFO root fetch - main [MainThread]: Store serial: [19139467]

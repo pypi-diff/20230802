@@ -14648,3 +14648,95 @@
 [2023-08-02 08:49:26] INFO root fetch - processPackages [labelu]: Remove: archive file [/home/abi/fetcher/tmp/labelu-0.6.0.tar.gz]
 [2023-08-02 08:49:26] INFO root fetch - main [MainThread]: End processing [labelu]: success
 [2023-08-02 08:49:26] INFO root fetch - main [MainThread]: Store serial: [19137500]
+[2023-08-02 08:54:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19137500]
+[2023-08-02 08:54:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-02 08:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2023-08-02 08:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flxtrd
+[2023-08-02 08:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-utilities
+[2023-08-02 08:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aica-api
+[2023-08-02 08:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codebot
+[2023-08-02 08:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: test-gh-action
+[2023-08-02 08:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apify-shared
+[2023-08-02 08:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-08-02 08:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simple-calculate-zmw
+[2023-08-02 08:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crsts
+[2023-08-02 08:54:36] WARNING root fetch - processPackages [simple-calculate-zmw]: Skipping, unable to determine old version
+[2023-08-02 08:54:36] INFO root fetch - processPackages [simple-calculate-zmw]: Start processing: python-audio-autotest-3.10
+[2023-08-02 08:54:36] INFO root fetch - main [MainThread]: End processing [simple-calculate-zmw] error
+[2023-08-02 08:54:36] INFO root fetch - processPackages [flxtrd]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-02 08:54:36] INFO root fetch - processPackages [codebot]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-02 08:54:36] INFO root fetch - processPackages [abstract-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 08:54:36] INFO root fetch - processPackages [aica-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-02 08:54:36] INFO root fetch - processPackages [apify-shared]: New version: [1.0.2b1] Old Version: [1.0.2]
+[2023-08-02 08:54:36] INFO root fetch - processPackages [test-gh-action]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-02 08:54:37] INFO root fetch - processPackages [khoj-assistant]: New version: [0.9.1.dev8] Old Version: [0.9.1.dev7]
+[2023-08-02 08:54:37] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-02 08:54:37] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/80/c2/afc116f8f70318334052f67223fb93a5ce1d898f2d901991e87dad33b030/khoj_assistant-0.9.1.dev7.tar.gz
+[2023-08-02 08:54:37] INFO root fetch - processPackages [crsts]: New version: [2.4.5] Old Version: [2.4.3]
+[2023-08-02 08:54:37] INFO root fetch - processPackages [python-audio-autotest-3.10]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-08-02 08:54:37] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/e0/2b/ce1d43af4b5abc2c6dfe690a4633f989b5361c6f265e87f51e18c24fbd80/abstract_utilities-0.0.8.tar.gz
+[2023-08-02 08:54:37] INFO root fetch - processPackages [codebot]: Downloading https://files.pythonhosted.org/packages/ce/ef/010ff85658689b052c5c23ff8f204dee277631872735870d22039f8abc50/codebot-0.0.6.tar.gz
+[2023-08-02 08:54:37] INFO root fetch - processPackages [apify-shared]: Downloading https://files.pythonhosted.org/packages/69/ae/27f20d992d67d45b1c11da2f890490d0a9d63eead7798d9c762d785050db/apify_shared-1.0.2.tar.gz
+[2023-08-02 08:54:37] INFO root fetch - processPackages [aica-api]: Downloading https://files.pythonhosted.org/packages/ec/bd/aea1e2bab54be72253369e64635f98b33fb3503f8da672466e1266cc082f/aica_api-0.0.3.tar.gz
+[2023-08-02 08:54:37] INFO root fetch - processPackages [flxtrd]: Downloading https://files.pythonhosted.org/packages/d1/2b/abab90e17ef1d9815fab99f6c0806f1fc03112e27c62443db18622372699/flxtrd-0.2.4.tar.gz
+[2023-08-02 08:54:37] INFO root fetch - processPackages [test-gh-action]: Downloading https://files.pythonhosted.org/packages/68/38/991727a0a3458b52419a0ae24636361e57ec15e4abf1994a8b2b8795fd97/test-gh-action-1.0.0.tar.gz
+[2023-08-02 08:54:37] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-08-02 08:54:37] INFO root fetch - processPackages [crsts]: Downloading https://files.pythonhosted.org/packages/87/c6/cda1cf2a2a9d5f509e00af39c18377bb51bae39817bd2a8e19962b4a956a/crsts-2.4.3.tar.gz
+[2023-08-02 08:54:37] INFO root fetch - processPackages [python-audio-autotest-3.10]: Downloading https://files.pythonhosted.org/packages/9d/74/2eb1b8f978e518b5bda5a224d082adf91b0f7156e16ff63b1d41c313655e/python_audio_autotest_3.10-1.5.4-py3-none-any.whl
+[2023-08-02 08:54:37] INFO root fetch - processPackages [apify-shared]: Downloading https://files.pythonhosted.org/packages/a0/84/e4a83d58c3ea56b3e6298c1a6340035051da445094f3da7fc465d241c53c/apify_shared-1.0.2b1.tar.gz
+[2023-08-02 08:54:37] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/2d/bf/c73c46dd3455e0261203d2b9781bf2af9d495c25f437ec1f38833613373e/abstract_utilities-0.0.9.tar.gz
+[2023-08-02 08:54:37] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-08-02 08:54:37] WARNING root fetch - processPackages [python-audio-autotest-3.10]: Skipping package: exceeds size limit 26277744>=10485760
+[2023-08-02 08:54:37] INFO root fetch - main [MainThread]: End processing [python-audio-autotest-3.10] error
+[2023-08-02 08:54:37] INFO root fetch - processPackages [aica-api]: Downloading https://files.pythonhosted.org/packages/01/5e/f20474bb93990db870150e047fddcaf21b0924b2692b2639ce579890a956/aica_api-0.0.4.tar.gz
+[2023-08-02 08:54:37] INFO root fetch - processPackages [flxtrd]: Downloading https://files.pythonhosted.org/packages/2e/6f/0e4fb00b205b00f883412fa8b271d65a4e737e1abbaac574a55c9e1abc52/flxtrd-0.2.5.tar.gz
+[2023-08-02 08:54:37] INFO root fetch - processPackages [abstract-utilities]: executing diffoscope
+[2023-08-02 08:54:37] INFO root fetch - processPackages [abstract-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities-0.0.8.tar.gz tmp/abstract_utilities-0.0.9.tar.gz --markdown 20230802/a/abstract-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 08:54:37] INFO root fetch - processPackages [codebot]: Downloading https://files.pythonhosted.org/packages/36/31/e93e4d7dfdd65839b0a81b8e62e9de006e0c6cc5216b9d735e79e1922fcc/codebot-0.0.7.tar.gz
+[2023-08-02 08:54:37] INFO root fetch - processPackages [apify-shared]: executing diffoscope
+[2023-08-02 08:54:37] INFO root fetch - processPackages [apify-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_shared-1.0.2.tar.gz tmp/apify_shared-1.0.2b1.tar.gz --markdown 20230802/a/apify-shared/1.0.2-1.0.2b1/diff.md --exclude *.pyd
+[2023-08-02 08:54:37] INFO root fetch - processPackages [aica-api]: executing diffoscope
+[2023-08-02 08:54:37] INFO root fetch - processPackages [aica-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aica_api-0.0.3.tar.gz tmp/aica_api-0.0.4.tar.gz --markdown 20230802/a/aica-api/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-02 08:54:37] INFO root fetch - processPackages [test-gh-action]: Downloading https://files.pythonhosted.org/packages/4d/8a/3a6209700d90684df62f1797a75007c485f5be3a19c7a5b96b6e4602b8d2/test-gh-action-1.0.1.tar.gz
+[2023-08-02 08:54:37] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-08-02 08:54:37] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230802/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-02 08:54:37] INFO root fetch - processPackages [flxtrd]: executing diffoscope
+[2023-08-02 08:54:37] INFO root fetch - processPackages [flxtrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flxtrd-0.2.4.tar.gz tmp/flxtrd-0.2.5.tar.gz --markdown 20230802/f/flxtrd/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-02 08:54:37] INFO root fetch - processPackages [codebot]: executing diffoscope
+[2023-08-02 08:54:37] INFO root fetch - processPackages [codebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codebot-0.0.6.tar.gz tmp/codebot-0.0.7.tar.gz --markdown 20230802/c/codebot/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-02 08:54:37] INFO root fetch - processPackages [crsts]: Downloading https://files.pythonhosted.org/packages/1c/fb/1dd3f56a6ea9fc81ce54d8ab2ec563ea8bdacf483e3fe5eb63922f81c319/crsts-2.4.5.tar.gz
+[2023-08-02 08:54:37] INFO root fetch - processPackages [test-gh-action]: executing diffoscope
+[2023-08-02 08:54:37] INFO root fetch - processPackages [test-gh-action]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test-gh-action-1.0.0.tar.gz tmp/test-gh-action-1.0.1.tar.gz --markdown 20230802/t/test-gh-action/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-02 08:54:38] INFO root fetch - processPackages [crsts]: executing diffoscope
+[2023-08-02 08:54:38] INFO root fetch - processPackages [crsts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crsts-2.4.3.tar.gz tmp/crsts-2.4.5.tar.gz --markdown 20230802/c/crsts/2.4.3-2.4.5/diff.md --exclude *.pyd
+[2023-08-02 08:54:38] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/87/c3/a6da041c3dee772521fabc9586096b6809ee0e9289735b249898c5a282a2/khoj_assistant-0.9.1.dev8.tar.gz
+[2023-08-02 08:54:38] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-08-02 08:54:38] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.9.1.dev7.tar.gz tmp/khoj_assistant-0.9.1.dev8.tar.gz --markdown 20230802/k/khoj-assistant/0.9.1.dev7-0.9.1.dev8/diff.md --exclude *.pyd
+[2023-08-02 08:54:39] INFO root fetch - processPackages [aica-api]: Remove: archive file [/home/abi/fetcher/tmp/aica_api-0.0.3.tar.gz]
+[2023-08-02 08:54:39] INFO root fetch - processPackages [aica-api]: Remove: archive file [/home/abi/fetcher/tmp/aica_api-0.0.4.tar.gz]
+[2023-08-02 08:54:39] INFO root fetch - main [MainThread]: End processing [aica-api]: success
+[2023-08-02 08:54:39] INFO root fetch - processPackages [apify-shared]: Remove: archive file [/home/abi/fetcher/tmp/apify_shared-1.0.2.tar.gz]
+[2023-08-02 08:54:39] INFO root fetch - processPackages [apify-shared]: Remove: archive file [/home/abi/fetcher/tmp/apify_shared-1.0.2b1.tar.gz]
+[2023-08-02 08:54:39] INFO root fetch - main [MainThread]: End processing [apify-shared]: success
+[2023-08-02 08:54:39] INFO root fetch - processPackages [abstract-utilities]: Remove: archive file [/home/abi/fetcher/tmp/abstract_utilities-0.0.8.tar.gz]
+[2023-08-02 08:54:39] INFO root fetch - processPackages [abstract-utilities]: Remove: archive file [/home/abi/fetcher/tmp/abstract_utilities-0.0.9.tar.gz]
+[2023-08-02 08:54:39] INFO root fetch - main [MainThread]: End processing [abstract-utilities]: success
+[2023-08-02 08:54:39] INFO root fetch - processPackages [flxtrd]: Remove: archive file [/home/abi/fetcher/tmp/flxtrd-0.2.4.tar.gz]
+[2023-08-02 08:54:39] INFO root fetch - processPackages [flxtrd]: Remove: archive file [/home/abi/fetcher/tmp/flxtrd-0.2.5.tar.gz]
+[2023-08-02 08:54:39] INFO root fetch - main [MainThread]: End processing [flxtrd]: success
+[2023-08-02 08:54:39] INFO root fetch - processPackages [crsts]: Remove: archive file [/home/abi/fetcher/tmp/crsts-2.4.3.tar.gz]
+[2023-08-02 08:54:39] INFO root fetch - processPackages [crsts]: Remove: archive file [/home/abi/fetcher/tmp/crsts-2.4.5.tar.gz]
+[2023-08-02 08:54:39] INFO root fetch - main [MainThread]: End processing [crsts]: success
+[2023-08-02 08:54:39] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-08-02 08:54:39] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-08-02 08:54:39] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-08-02 08:54:39] INFO root fetch - processPackages [codebot]: Remove: archive file [/home/abi/fetcher/tmp/codebot-0.0.6.tar.gz]
+[2023-08-02 08:54:39] INFO root fetch - processPackages [codebot]: Remove: archive file [/home/abi/fetcher/tmp/codebot-0.0.7.tar.gz]
+[2023-08-02 08:54:39] INFO root fetch - main [MainThread]: End processing [codebot]: success
+[2023-08-02 08:54:39] INFO root fetch - processPackages [test-gh-action]: Remove: archive file [/home/abi/fetcher/tmp/test-gh-action-1.0.0.tar.gz]
+[2023-08-02 08:54:39] INFO root fetch - processPackages [test-gh-action]: Remove: archive file [/home/abi/fetcher/tmp/test-gh-action-1.0.1.tar.gz]
+[2023-08-02 08:54:39] INFO root fetch - main [MainThread]: End processing [test-gh-action]: success
+[2023-08-02 08:54:40] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev7.tar.gz]
+[2023-08-02 08:54:40] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev8.tar.gz]
+[2023-08-02 08:54:40] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-08-02 08:54:40] INFO root fetch - main [MainThread]: Store serial: [19137531]

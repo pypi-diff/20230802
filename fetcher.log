@@ -19328,3 +19328,478 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-02 11:55:47] INFO root fetch - processPackages [cytosim]: Remove: archive file [/home/abi/fetcher/tmp/cytosim-0.0.3.tar.gz]
 [2023-08-02 11:55:47] INFO root fetch - main [MainThread]: End processing [cytosim]: success
 [2023-08-02 11:55:47] INFO root fetch - main [MainThread]: Store serial: [19139564]
+[2023-08-02 12:00:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19139564]
+[2023-08-02 12:00:56] INFO root fetch - main [MainThread]: Found 54 changed packages
+[2023-08-02 12:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-dcdn20180115-py2
+[2023-08-02 12:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gardener-cicd-libs
+[2023-08-02 12:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aespark
+[2023-08-02 12:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-dcdn20180115
+[2023-08-02 12:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-whd
+[2023-08-02 12:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: poleemploi-io-api
+[2023-08-02 12:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-oci
+[2023-08-02 12:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-dnsimple
+[2023-08-02 12:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: locker-secrets
+[2023-08-02 12:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stac-collection-search
+[2023-08-02 12:00:56] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-08-02 12:00:56] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-02 12:00:56] INFO root fetch - processPackages [poleemploi-io-api]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-02 12:00:56] INFO root fetch - processPackages [stac-collection-search]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-02 12:00:56] INFO root fetch - processPackages [aespark]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-02 12:00:56] INFO root fetch - processPackages [locker-secrets]: New version: [0.0.4b1] Old Version: [0.0.3b1]
+[2023-08-02 12:00:56] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-02 12:00:56] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2122.0] Old Version: [1.2121.0]
+[2023-08-02 12:00:56] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1690968899] Old Version: [3.5.0a1690262570]
+[2023-08-02 12:00:56] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2122.0] Old Version: [1.2121.0]
+[2023-08-02 12:00:56] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Downloading https://files.pythonhosted.org/packages/eb/ef/06e095ffd858068c82d2589cae84966d4d2ac3e73812d62968e16dea80a1/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz
+[2023-08-02 12:00:56] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-08-02 12:00:56] INFO root fetch - processPackages [poleemploi-io-api]: Downloading https://files.pythonhosted.org/packages/f7/22/26bfa22aa23be7b02bfd43e4becdb3bb8ae010947a6b33458d22084a09fb/poleemploi_io_api-0.1.0.tar.gz
+[2023-08-02 12:00:56] INFO root fetch - processPackages [aespark]: Downloading https://files.pythonhosted.org/packages/d7/2e/e56f5de286ca17fa043da1981f996ed899807203d4ddef90f26269a536c7/aespark-0.0.5.tar.gz
+[2023-08-02 12:00:56] INFO root fetch - processPackages [locker-secrets]: Downloading https://files.pythonhosted.org/packages/a0/0f/f71c4200afd7db0d473f23049e05e847f8838a83140403e249672cf6e84e/locker-secrets-0.0.3b1.tar.gz
+[2023-08-02 12:00:56] INFO root fetch - processPackages [stac-collection-search]: Downloading https://files.pythonhosted.org/packages/d1/f2/88c5fa549ac5e07dc21226ae122c78975e741cfc8b3b847d83d4248959c9/stac_collection_search-0.0.6.tar.gz
+[2023-08-02 12:00:56] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/d4/f6/65c68b66e043e4431a65f4654abaed678ceae8f3474295b849ef1b139135/gardener-cicd-libs-1.2121.0.tar.gz
+[2023-08-02 12:00:56] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Downloading https://files.pythonhosted.org/packages/2f/88/fe6cfb73e7d5c72f5860767276a2df606b63ca558583a27a818b60598985/alibabacloud_dcdn20180115-1.1.8.tar.gz
+[2023-08-02 12:00:56] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/a6/81/a92cd16170af7ad8843f1f499046253e37b08fdd2b36998c7479707bc904/gardener-cicd-whd-1.2121.0.tar.gz
+[2023-08-02 12:00:56] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/dd/f2/eaf9fe8c520e3d52a44a4a62795e0657fbf27d0448e61d532d13a49f9017/pulumi_dnsimple-3.5.0a1690262570.tar.gz
+[2023-08-02 12:00:57] WARNING root fetch - processPackages [locker-secrets]: Skipping package: exceeds size limit 15777404>=10485760
+[2023-08-02 12:00:57] INFO root fetch - processPackages [locker-secrets]: Start processing: pulumi-civo
+[2023-08-02 12:00:57] INFO root fetch - main [MainThread]: End processing [locker-secrets] error
+[2023-08-02 12:00:57] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Downloading https://files.pythonhosted.org/packages/7b/3b/d2e5e5872bff482675c6c8fb178b95174b8780c80e367084d17a3bc9ccb1/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz
+[2023-08-02 12:00:57] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1690969046] Old Version: [2.4.0a1690301883]
+[2023-08-02 12:00:57] INFO root fetch - processPackages [poleemploi-io-api]: Downloading https://files.pythonhosted.org/packages/5c/16/35a730ef8ba8c00916938fd1df36f2dcd15a57d4a1628b482d01b58adf87/poleemploi_io_api-0.2.0.tar.gz
+[2023-08-02 12:00:57] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: executing diffoscope
+[2023-08-02 12:00:57] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz tmp/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz --markdown 20230802/a/alibabacloud-dcdn20180115-py2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-02 12:00:57] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-08-02 12:00:57] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/d4/42/23b417ba78eef46ad03ed21153063ab37650a79b4b1126ed09f2b7f6b3b0/pulumi_civo-2.4.0a1690301883.tar.gz
+[2023-08-02 12:00:57] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/09/e0/28032128ec43e332d98855a294a7550a30b2c76496e3274fed93791fb2c5/gardener-cicd-whd-1.2122.0.tar.gz
+[2023-08-02 12:00:57] INFO root fetch - processPackages [poleemploi-io-api]: executing diffoscope
+[2023-08-02 12:00:57] INFO root fetch - processPackages [poleemploi-io-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poleemploi_io_api-0.1.0.tar.gz tmp/poleemploi_io_api-0.2.0.tar.gz --markdown 20230802/p/poleemploi-io-api/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-02 12:00:57] INFO root fetch - processPackages [stac-collection-search]: Downloading https://files.pythonhosted.org/packages/5d/e7/58a22b8781b9d310cdec8af0d5b1151483fd074def24ca425cb045750560/stac_collection_search-0.0.7.tar.gz
+[2023-08-02 12:00:57] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/f5/13/bd1c76e89358feaeda45a3e3fcbdf184255d487bf4fe3f12b2ef43e9a8df/pulumi_dnsimple-3.5.0a1690968899.tar.gz
+[2023-08-02 12:00:57] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/c0/34/05739d689e1925e98a600cb4db5cbc2f2b2a38f74384fbcd55348b14e5a1/gardener-cicd-libs-1.2122.0.tar.gz
+[2023-08-02 12:00:57] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-08-02 12:00:57] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230802/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-08-02 12:00:57] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Downloading https://files.pythonhosted.org/packages/25/a0/92e29300ed677fe50a0f0ce94c85630438f1d94f4fd30b950a9a0b4c2777/alibabacloud_dcdn20180115-1.1.9.tar.gz
+[2023-08-02 12:00:57] INFO root fetch - processPackages [stac-collection-search]: executing diffoscope
+[2023-08-02 12:00:57] INFO root fetch - processPackages [stac-collection-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_collection_search-0.0.6.tar.gz tmp/stac_collection_search-0.0.7.tar.gz --markdown 20230802/s/stac-collection-search/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-02 12:00:57] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2023-08-02 12:00:57] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1690262570.tar.gz tmp/pulumi_dnsimple-3.5.0a1690968899.tar.gz --markdown 20230802/p/pulumi-dnsimple/3.5.0a1690262570-3.5.0a1690968899/diff.md --exclude *.pyd
+[2023-08-02 12:00:57] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-08-02 12:00:57] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2121.0.tar.gz tmp/gardener-cicd-whd-1.2122.0.tar.gz --markdown 20230802/g/gardener-cicd-whd/1.2121.0-1.2122.0/diff.md --exclude *.pyd
+[2023-08-02 12:00:57] INFO root fetch - processPackages [aespark]: Downloading https://files.pythonhosted.org/packages/e3/f9/d00c00bc6205a0c69f1243e49a403ac07cfb4c160bda01c36932c45cacf8/aespark-0.0.6.tar.gz
+[2023-08-02 12:00:57] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-08-02 12:00:57] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2121.0.tar.gz tmp/gardener-cicd-libs-1.2122.0.tar.gz --markdown 20230802/g/gardener-cicd-libs/1.2121.0-1.2122.0/diff.md --exclude *.pyd
+[2023-08-02 12:00:57] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: executing diffoscope
+[2023-08-02 12:00:57] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dcdn20180115-1.1.8.tar.gz tmp/alibabacloud_dcdn20180115-1.1.9.tar.gz --markdown 20230802/a/alibabacloud-dcdn20180115/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-02 12:00:57] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/54/63/7c1a3f5815f8a082f83069b312410e7a6ac940e26831b6c8334f18ec6e01/pulumi_civo-2.4.0a1690969046.tar.gz
+[2023-08-02 12:00:57] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2023-08-02 12:00:57] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1690301883.tar.gz tmp/pulumi_civo-2.4.0a1690969046.tar.gz --markdown 20230802/p/pulumi-civo/2.4.0a1690301883-2.4.0a1690969046/diff.md --exclude *.pyd
+[2023-08-02 12:00:58] INFO root fetch - processPackages [aespark]: executing diffoscope
+[2023-08-02 12:00:58] INFO root fetch - processPackages [aespark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aespark-0.0.5.tar.gz tmp/aespark-0.0.6.tar.gz --markdown 20230802/a/aespark/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-02 12:00:58] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz]
+[2023-08-02 12:00:58] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz]
+[2023-08-02 12:00:58] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Start processing: fastapi-queue-megatron-global
+[2023-08-02 12:00:58] INFO root fetch - main [MainThread]: End processing [alibabacloud-dcdn20180115-py2]: success
+[2023-08-02 12:00:58] WARNING root fetch - processPackages [fastapi-queue-megatron-global]: Skipping, unable to determine old version
+[2023-08-02 12:00:58] INFO root fetch - processPackages [fastapi-queue-megatron-global]: Start processing: oclock
+[2023-08-02 12:00:58] INFO root fetch - main [MainThread]: End processing [fastapi-queue-megatron-global] error
+[2023-08-02 12:00:58] INFO root fetch - processPackages [oclock]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-08-02 12:00:58] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-08-02 12:00:58] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-08-02 12:00:58] INFO root fetch - processPackages [gardener-oci]: Start processing: aurelbot
+[2023-08-02 12:00:58] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-08-02 12:00:58] INFO root fetch - processPackages [aurelbot]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [oclock]: Downloading https://files.pythonhosted.org/packages/aa/2c/fab02457606094ac306778c6326706d2bbfdda663205e72d712328f75039/oclock-1.3.1.tar.gz
+[2023-08-02 12:00:59] INFO root fetch - processPackages [poleemploi-io-api]: Remove: archive file [/home/abi/fetcher/tmp/poleemploi_io_api-0.1.0.tar.gz]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [poleemploi-io-api]: Remove: archive file [/home/abi/fetcher/tmp/poleemploi_io_api-0.2.0.tar.gz]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [poleemploi-io-api]: Start processing: ghga-transpiler
+[2023-08-02 12:00:59] INFO root fetch - main [MainThread]: End processing [poleemploi-io-api]: success
+[2023-08-02 12:00:59] INFO root fetch - processPackages [stac-collection-search]: Remove: archive file [/home/abi/fetcher/tmp/stac_collection_search-0.0.6.tar.gz]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [stac-collection-search]: Remove: archive file [/home/abi/fetcher/tmp/stac_collection_search-0.0.7.tar.gz]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [stac-collection-search]: Start processing: certora-cli-alpha-master
+[2023-08-02 12:00:59] INFO root fetch - main [MainThread]: End processing [stac-collection-search]: success
+[2023-08-02 12:00:59] INFO root fetch - processPackages [ghga-transpiler]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230802.9.57.238825] Old Version: [20230802.9.4.381677]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [aurelbot]: Downloading https://files.pythonhosted.org/packages/ae/ce/8b6d940f31b271f118468c10fd3b51e0746fe6b449acf32b4c4d1245fa4f/aurelbot-0.2.4-py3-none-any.whl
+[2023-08-02 12:00:59] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1690262570.tar.gz]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1690968899.tar.gz]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [pulumi-dnsimple]: Start processing: ccdt
+[2023-08-02 12:00:59] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2023-08-02 12:00:59] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2121.0.tar.gz]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2122.0.tar.gz]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: data-inclusion-schema
+[2023-08-02 12:00:59] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-08-02 12:00:59] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [data-inclusion-schema]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115-1.1.8.tar.gz]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115-1.1.9.tar.gz]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Start processing: nucliadb
+[2023-08-02 12:00:59] INFO root fetch - main [MainThread]: End processing [alibabacloud-dcdn20180115]: success
+[2023-08-02 12:00:59] INFO root fetch - processPackages [ghga-transpiler]: Downloading https://files.pythonhosted.org/packages/85/c8/d41c00cdb1c466ca8b9f2b0c65994da3b49c8c18b36595f470e29513bcb1/ghga_transpiler-1.1.1.tar.gz
+[2023-08-02 12:00:59] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/6d/38/155b13061b4db2391fe8b3d99afba943feb7cca0819ece3bf2eac743d476/certora-cli-alpha-master-20230802.9.4.381677.tar.gz
+[2023-08-02 12:00:59] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-08-02 12:00:59] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37806263>=10485760
+[2023-08-02 12:00:59] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: nucliadb-client
+[2023-08-02 12:00:59] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-08-02 12:00:59] INFO root fetch - processPackages [oclock]: Downloading https://files.pythonhosted.org/packages/69/9c/59765d515990bb03e5dfaf406c626895eaebab978ea2a651bef99fa13f1b/oclock-1.3.2.tar.gz
+[2023-08-02 12:00:59] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [aurelbot]: Downloading https://files.pythonhosted.org/packages/1b/36/d23fa6ccac06b7da5e7f7c1ce10658364a175a143af8c7853e7a5cd61264/aurelbot-0.2.5-py3-none-any.whl
+[2023-08-02 12:00:59] INFO root fetch - processPackages [data-inclusion-schema]: Downloading https://files.pythonhosted.org/packages/2f/3c/98e430779f6d02d78f53cf77425447a09af182a6883abfc1ae508b6fb8af/data_inclusion_schema-0.9.0.tar.gz
+[2023-08-02 12:00:59] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-08-02 12:00:59] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1690301883.tar.gz]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1690969046.tar.gz]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [pulumi-civo]: Start processing: glean-sdk
+[2023-08-02 12:00:59] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2023-08-02 12:00:59] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-08-02 12:00:59] INFO root fetch - processPackages [ghga-transpiler]: Downloading https://files.pythonhosted.org/packages/13/e3/879754c93bab5831c258add704a1a48dc19ff575b755e5488da897c449f7/ghga_transpiler-1.2.0.tar.gz
+[2023-08-02 12:00:59] INFO root fetch - processPackages [glean-sdk]: New version: [53.2.0] Old Version: [53.1.0]
+[2023-08-02 12:00:59] INFO root fetch - processPackages [aurelbot]: executing diffoscope
+[2023-08-02 12:00:59] INFO root fetch - processPackages [aurelbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aurelbot-0.2.4-py3-none-any.whl.zip tmp/aurelbot-0.2.5-py3-none-any.whl.zip --markdown 20230802/a/aurelbot/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-02 12:00:59] INFO root fetch - processPackages [oclock]: executing diffoscope
+[2023-08-02 12:00:59] INFO root fetch - processPackages [oclock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oclock-1.3.1.tar.gz tmp/oclock-1.3.2.tar.gz --markdown 20230802/o/oclock/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-08-02 12:00:59] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-08-02 12:01:00] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-08-02 12:01:00] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230802/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-08-02 12:01:00] INFO root fetch - processPackages [data-inclusion-schema]: Downloading https://files.pythonhosted.org/packages/d7/20/aa5bc1666d7b1360a925a49370844f1e00384b0035028e760d971985dfe4/data_inclusion_schema-0.9.1.tar.gz
+[2023-08-02 12:01:00] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-08-02 12:01:00] INFO root fetch - processPackages [ghga-transpiler]: executing diffoscope
+[2023-08-02 12:01:00] INFO root fetch - processPackages [ghga-transpiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghga_transpiler-1.1.1.tar.gz tmp/ghga_transpiler-1.2.0.tar.gz --markdown 20230802/g/ghga-transpiler/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-08-02 12:01:00] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-08-02 12:01:00] INFO root fetch - processPackages [glean-sdk]: Downloading https://files.pythonhosted.org/packages/01/da/3613c3f7ca1615d5c94f7194cdd4cc60b9cda2b867534634bfc9702ad033/glean-sdk-53.1.0.tar.gz
+[2023-08-02 12:01:00] INFO root fetch - processPackages [data-inclusion-schema]: executing diffoscope
+[2023-08-02 12:01:00] INFO root fetch - processPackages [data-inclusion-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_inclusion_schema-0.9.0.tar.gz tmp/data_inclusion_schema-0.9.1.tar.gz --markdown 20230802/d/data-inclusion-schema/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:00] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-08-02 12:01:00] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230802/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-08-02 12:01:00] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-08-02 12:01:00] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230802/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-08-02 12:01:00] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2121.0.tar.gz]
+[2023-08-02 12:01:00] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2122.0.tar.gz]
+[2023-08-02 12:01:00] INFO root fetch - processPackages [gardener-cicd-libs]: Start processing: nucliadb-dataset
+[2023-08-02 12:01:00] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-08-02 12:01:00] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-08-02 12:01:00] INFO root fetch - processPackages [glean-sdk]: Downloading https://files.pythonhosted.org/packages/82/84/d0e884d83d6f60e8fc199569981aa6931147ae88d2557e3b46a96444fc15/glean-sdk-53.2.0.tar.gz
+[2023-08-02 12:01:00] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-08-02 12:01:01] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-08-02 12:01:01] INFO root fetch - processPackages [aurelbot]: Remove: archive file [/home/abi/fetcher/tmp/aurelbot-0.2.4-py3-none-any.whl.zip]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [aurelbot]: Remove: archive file [/home/abi/fetcher/tmp/aurelbot-0.2.5-py3-none-any.whl.zip]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [aurelbot]: Start processing: nucliadb-models
+[2023-08-02 12:01:01] INFO root fetch - main [MainThread]: End processing [aurelbot]: success
+[2023-08-02 12:01:01] INFO root fetch - processPackages [glean-sdk]: executing diffoscope
+[2023-08-02 12:01:01] INFO root fetch - processPackages [glean-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glean-sdk-53.1.0.tar.gz tmp/glean-sdk-53.2.0.tar.gz --markdown 20230802/g/glean-sdk/53.1.0-53.2.0/diff.md --exclude *.pyd
+[2023-08-02 12:01:01] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-08-02 12:01:01] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230802/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-08-02 12:01:01] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-08-02 12:01:01] INFO root fetch - processPackages [oclock]: Remove: archive file [/home/abi/fetcher/tmp/oclock-1.3.1.tar.gz]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [oclock]: Remove: archive file [/home/abi/fetcher/tmp/oclock-1.3.2.tar.gz]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [oclock]: Start processing: nucliadb-protos
+[2023-08-02 12:01:01] INFO root fetch - main [MainThread]: End processing [oclock]: success
+[2023-08-02 12:01:01] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [data-inclusion-schema]: Remove: archive file [/home/abi/fetcher/tmp/data_inclusion_schema-0.9.0.tar.gz]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [data-inclusion-schema]: Remove: archive file [/home/abi/fetcher/tmp/data_inclusion_schema-0.9.1.tar.gz]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [data-inclusion-schema]: Start processing: nucliadb-sdk
+[2023-08-02 12:01:01] INFO root fetch - main [MainThread]: End processing [data-inclusion-schema]: success
+[2023-08-02 12:01:01] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-08-02 12:01:01] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [nucliadb-client]: Start processing: bwilBOT
+[2023-08-02 12:01:01] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-08-02 12:01:01] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-08-02 12:01:01] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [ccdt]: Start processing: nucliadb-utils
+[2023-08-02 12:01:01] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-08-02 12:01:01] INFO root fetch - processPackages [ghga-transpiler]: Remove: archive file [/home/abi/fetcher/tmp/ghga_transpiler-1.1.1.tar.gz]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [ghga-transpiler]: Remove: archive file [/home/abi/fetcher/tmp/ghga_transpiler-1.2.0.tar.gz]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [bwilBOT]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [ghga-transpiler]: Start processing: capellambse
+[2023-08-02 12:01:01] INFO root fetch - main [MainThread]: End processing [ghga-transpiler]: success
+[2023-08-02 12:01:01] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-08-02 12:01:01] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-08-02 12:01:01] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230802/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-08-02 12:01:01] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-08-02 12:01:01] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-08-02 12:01:02] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2023-08-02 12:01:02] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-08-02 12:01:02] INFO root fetch - processPackages [bwilBOT]: Downloading https://files.pythonhosted.org/packages/41/37/2bf182bb4f4237185c9e61bd5d09e04f8640808842da54ec3a3ff2bd350a/bwilBOT-0.0.1-py3-none-any.whl
+[2023-08-02 12:01:02] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-08-02 12:01:02] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-08-02 12:01:02] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230802/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-08-02 12:01:02] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-08-02 12:01:02] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230802/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-08-02 12:01:02] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-08-02 12:01:02] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-08-02 12:01:02] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230802/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-08-02 12:01:02] INFO root fetch - processPackages [bwilBOT]: Downloading https://files.pythonhosted.org/packages/94/d9/a083b78b09b373f5444346807773452953072a472afe4ca3179cb970a225/bwilBOT-0.0.3-py3-none-any.whl
+[2023-08-02 12:01:02] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-08-02 12:01:02] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-08-02 12:01:02] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: elfebot
+[2023-08-02 12:01:02] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-08-02 12:01:02] INFO root fetch - processPackages [elfebot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 12:01:02] INFO root fetch - processPackages [bwilBOT]: executing diffoscope
+[2023-08-02 12:01:02] INFO root fetch - processPackages [bwilBOT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwilBOT-0.0.1-py3-none-any.whl.zip tmp/bwilBOT-0.0.3-py3-none-any.whl.zip --markdown 20230802/b/bwilBOT/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 12:01:02] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2023-08-02 12:01:02] INFO root fetch - processPackages [elfebot]: Downloading https://files.pythonhosted.org/packages/07/21/a823911aedb838f9552cf1ca4c8218dca415f9c5852ae6df07c55760aa88/elfebot-0.0.8-py3-none-any.whl
+[2023-08-02 12:01:03] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-08-02 12:01:03] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-08-02 12:01:03] INFO root fetch - processPackages [nucliadb-models]: Start processing: dtsh
+[2023-08-02 12:01:03] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-08-02 12:01:03] INFO root fetch - processPackages [dtsh]: New version: [0.1.0b1] Old Version: [0.1.0a6]
+[2023-08-02 12:01:03] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-08-02 12:01:03] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230802/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-08-02 12:01:03] INFO root fetch - processPackages [elfebot]: Downloading https://files.pythonhosted.org/packages/fe/e0/412ed201a0b6acf75cf9234b33714c2e1e21952a12ad18617e9cf518b538/elfebot-0.0.9-py3-none-any.whl
+[2023-08-02 12:01:03] INFO root fetch - processPackages [dtsh]: Downloading https://files.pythonhosted.org/packages/16/f5/cfd90fa6ba308b257a42c9ef1c2400907a29c04f70e488d032ea1ca3dee1/dtsh-0.1.0a6.tar.gz
+[2023-08-02 12:01:03] INFO root fetch - processPackages [elfebot]: executing diffoscope
+[2023-08-02 12:01:03] INFO root fetch - processPackages [elfebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elfebot-0.0.8-py3-none-any.whl.zip tmp/elfebot-0.0.9-py3-none-any.whl.zip --markdown 20230802/e/elfebot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 12:01:03] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-08-02 12:01:03] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-08-02 12:01:03] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: oopgrade
+[2023-08-02 12:01:03] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-08-02 12:01:03] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-08-02 12:01:03] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-08-02 12:01:03] INFO root fetch - processPackages [nucliadb-protos]: Start processing: ikjbot
+[2023-08-02 12:01:03] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-08-02 12:01:03] INFO root fetch - processPackages [oopgrade]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-02 12:01:03] INFO root fetch - processPackages [ikjbot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 12:01:03] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-08-02 12:01:03] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-08-02 12:01:03] INFO root fetch - processPackages [nucliadb]: Start processing: jupyverse-api
+[2023-08-02 12:01:03] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-08-02 12:01:03] INFO root fetch - processPackages [dtsh]: Downloading https://files.pythonhosted.org/packages/85/1d/eeaa0a2ee59bea2fba03d24f876329abd0c7976991354f86fe524c5f7f7b/dtsh-0.1.0b1.tar.gz
+[2023-08-02 12:01:03] INFO root fetch - processPackages [jupyverse-api]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 12:01:03] INFO root fetch - processPackages [ikjbot]: Downloading https://files.pythonhosted.org/packages/77/7c/a2ca4853c561114b2016a140b8e1c5c6f575c272aa145f7cb7e6c4976b89/ikjbot-0.0.1-py3-none-any.whl
+[2023-08-02 12:01:03] INFO root fetch - processPackages [oopgrade]: Downloading https://files.pythonhosted.org/packages/13/5e/c1c87300a768811a5480ddf9f108b647508d677e13fae031f6f53aecdf57/oopgrade-0.8.0.tar.gz
+[2023-08-02 12:01:03] INFO root fetch - processPackages [dtsh]: executing diffoscope
+[2023-08-02 12:01:03] INFO root fetch - processPackages [dtsh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtsh-0.1.0a6.tar.gz tmp/dtsh-0.1.0b1.tar.gz --markdown 20230802/d/dtsh/0.1.0a6-0.1.0b1/diff.md --exclude *.pyd
+[2023-08-02 12:01:04] INFO root fetch - processPackages [bwilBOT]: Remove: archive file [/home/abi/fetcher/tmp/bwilBOT-0.0.1-py3-none-any.whl.zip]
+[2023-08-02 12:01:04] INFO root fetch - processPackages [bwilBOT]: Remove: archive file [/home/abi/fetcher/tmp/bwilBOT-0.0.3-py3-none-any.whl.zip]
+[2023-08-02 12:01:04] INFO root fetch - processPackages [bwilBOT]: Start processing: fps-noauth
+[2023-08-02 12:01:04] INFO root fetch - main [MainThread]: End processing [bwilBOT]: success
+[2023-08-02 12:01:04] INFO root fetch - processPackages [fps-noauth]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 12:01:04] INFO root fetch - processPackages [jupyverse-api]: Downloading https://files.pythonhosted.org/packages/93/31/8b2b99b3ee29e71bd1487fdf7c049ec999e296579cc84261c834197518f0/jupyverse_api-0.2.0.tar.gz
+[2023-08-02 12:01:04] INFO root fetch - processPackages [aespark]: Remove: archive file [/home/abi/fetcher/tmp/aespark-0.0.5.tar.gz]
+[2023-08-02 12:01:04] INFO root fetch - processPackages [aespark]: Remove: archive file [/home/abi/fetcher/tmp/aespark-0.0.6.tar.gz]
+[2023-08-02 12:01:04] INFO root fetch - processPackages [aespark]: Start processing: fps-auth
+[2023-08-02 12:01:04] INFO root fetch - main [MainThread]: End processing [aespark]: success
+[2023-08-02 12:01:04] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-08-02 12:01:04] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-08-02 12:01:04] INFO root fetch - processPackages [nucliadb-utils]: Start processing: fps-auth-fief
+[2023-08-02 12:01:04] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-08-02 12:01:04] INFO root fetch - processPackages [fps-auth]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 12:01:04] INFO root fetch - processPackages [fps-auth-fief]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 12:01:04] INFO root fetch - processPackages [ikjbot]: Downloading https://files.pythonhosted.org/packages/1d/eb/3336b342d17fd983ef8829488a1b228f7a072563a64f4bd2163aa6214df8/ikjbot-0.0.2-py3-none-any.whl
+[2023-08-02 12:01:04] INFO root fetch - processPackages [fps-noauth]: Downloading https://files.pythonhosted.org/packages/f3/1e/cb9b6befd22c4a0fa7fa71f924e26de743ba7bb4ff6a51c9d344224be11e/fps_noauth-0.2.0.tar.gz
+[2023-08-02 12:01:04] INFO root fetch - processPackages [oopgrade]: Downloading https://files.pythonhosted.org/packages/c0/fa/ff5bd8964961f201b6e28b56671d43b2d3e2b11da8390c9536df9cb28a54/oopgrade-0.9.0.tar.gz
+[2023-08-02 12:01:04] INFO root fetch - processPackages [ikjbot]: executing diffoscope
+[2023-08-02 12:01:04] INFO root fetch - processPackages [ikjbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ikjbot-0.0.1-py3-none-any.whl.zip tmp/ikjbot-0.0.2-py3-none-any.whl.zip --markdown 20230802/i/ikjbot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 12:01:04] INFO root fetch - processPackages [jupyverse-api]: Downloading https://files.pythonhosted.org/packages/2e/c0/af25e2a4e123cc054359272321ada07c7856b7851b3eb53c55875f16896b/jupyverse_api-0.2.1.tar.gz
+[2023-08-02 12:01:04] INFO root fetch - processPackages [fps-auth]: Downloading https://files.pythonhosted.org/packages/af/91/c9c91c2e11fcfb86997c7375e36b85eb7de44b1c29282100f5c9ca46ccc6/fps_auth-0.2.0.tar.gz
+[2023-08-02 12:01:04] INFO root fetch - processPackages [fps-auth-fief]: Downloading https://files.pythonhosted.org/packages/e9/9d/e3d73b482a6a2a3b337afee7d448b8db6b775454cad5b6088dc12b5591cf/fps_auth_fief-0.2.0.tar.gz
+[2023-08-02 12:01:04] INFO root fetch - processPackages [jupyverse-api]: executing diffoscope
+[2023-08-02 12:01:04] INFO root fetch - processPackages [jupyverse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyverse_api-0.2.0.tar.gz tmp/jupyverse_api-0.2.1.tar.gz --markdown 20230802/j/jupyverse-api/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:04] INFO root fetch - processPackages [oopgrade]: executing diffoscope
+[2023-08-02 12:01:04] INFO root fetch - processPackages [oopgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oopgrade-0.8.0.tar.gz tmp/oopgrade-0.9.0.tar.gz --markdown 20230802/o/oopgrade/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 12:01:04] INFO root fetch - processPackages [fps-noauth]: Downloading https://files.pythonhosted.org/packages/8e/a3/d9b9c66c438c5b7822832ac703350470f6e5b4a4905dabe0f9f66208bb8a/fps_noauth-0.2.1.tar.gz
+[2023-08-02 12:01:04] INFO root fetch - processPackages [elfebot]: Remove: archive file [/home/abi/fetcher/tmp/elfebot-0.0.8-py3-none-any.whl.zip]
+[2023-08-02 12:01:04] INFO root fetch - processPackages [elfebot]: Remove: archive file [/home/abi/fetcher/tmp/elfebot-0.0.9-py3-none-any.whl.zip]
+[2023-08-02 12:01:04] INFO root fetch - processPackages [elfebot]: Start processing: fake-data-for-learning
+[2023-08-02 12:01:04] INFO root fetch - main [MainThread]: End processing [elfebot]: success
+[2023-08-02 12:01:04] INFO root fetch - processPackages [fake-data-for-learning]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-02 12:01:04] INFO root fetch - processPackages [fps-noauth]: executing diffoscope
+[2023-08-02 12:01:04] INFO root fetch - processPackages [fps-noauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_noauth-0.2.0.tar.gz tmp/fps_noauth-0.2.1.tar.gz --markdown 20230802/f/fps-noauth/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:04] INFO root fetch - processPackages [fps-auth]: Downloading https://files.pythonhosted.org/packages/66/4d/526a438fd9df0a19c3a211dd3a4b7117f8196801de8cd18fd249b3baa35c/fps_auth-0.2.1.tar.gz
+[2023-08-02 12:01:04] INFO root fetch - processPackages [fps-auth-fief]: Downloading https://files.pythonhosted.org/packages/26/a1/5e95c9e65f77534a1345021f4953e8c685f8dbff9126edabb717dd13d886/fps_auth_fief-0.2.1.tar.gz
+[2023-08-02 12:01:04] INFO root fetch - processPackages [fps-auth]: executing diffoscope
+[2023-08-02 12:01:04] INFO root fetch - processPackages [fps-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_auth-0.2.0.tar.gz tmp/fps_auth-0.2.1.tar.gz --markdown 20230802/f/fps-auth/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:05] INFO root fetch - processPackages [fake-data-for-learning]: Downloading https://files.pythonhosted.org/packages/46/c9/5deaae1e4ebaf6c33a90a9747f0148a05f999a3bd3494c4e7ddf3023f4da/fake_data_for_learning-0.4.1.tar.gz
+[2023-08-02 12:01:05] INFO root fetch - processPackages [fps-auth-fief]: executing diffoscope
+[2023-08-02 12:01:05] INFO root fetch - processPackages [fps-auth-fief]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_auth_fief-0.2.0.tar.gz tmp/fps_auth_fief-0.2.1.tar.gz --markdown 20230802/f/fps-auth-fief/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:05] INFO root fetch - processPackages [fake-data-for-learning]: Downloading https://files.pythonhosted.org/packages/09/3a/a8e1e926451a6fb62ea41c6a472f5096024cd330cd82ddedd6e626766bda/fake_data_for_learning-0.4.2.tar.gz
+[2023-08-02 12:01:05] INFO root fetch - processPackages [dtsh]: Remove: archive file [/home/abi/fetcher/tmp/dtsh-0.1.0a6.tar.gz]
+[2023-08-02 12:01:05] INFO root fetch - processPackages [dtsh]: Remove: archive file [/home/abi/fetcher/tmp/dtsh-0.1.0b1.tar.gz]
+[2023-08-02 12:01:05] INFO root fetch - processPackages [dtsh]: Start processing: fps-auth-jupyterhub
+[2023-08-02 12:01:05] INFO root fetch - main [MainThread]: End processing [dtsh]: success
+[2023-08-02 12:01:05] INFO root fetch - processPackages [fps-auth-jupyterhub]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 12:01:05] INFO root fetch - processPackages [fake-data-for-learning]: executing diffoscope
+[2023-08-02 12:01:05] INFO root fetch - processPackages [fake-data-for-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_data_for_learning-0.4.1.tar.gz tmp/fake_data_for_learning-0.4.2.tar.gz --markdown 20230802/f/fake-data-for-learning/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-02 12:01:05] INFO root fetch - processPackages [fps-auth-jupyterhub]: Downloading https://files.pythonhosted.org/packages/93/5e/e131092f075fd75e49cffea89866221c84ab6f995d2077a466e9507ae36d/fps_auth_jupyterhub-0.2.0.tar.gz
+[2023-08-02 12:01:05] INFO root fetch - processPackages [ikjbot]: Remove: archive file [/home/abi/fetcher/tmp/ikjbot-0.0.1-py3-none-any.whl.zip]
+[2023-08-02 12:01:05] INFO root fetch - processPackages [ikjbot]: Remove: archive file [/home/abi/fetcher/tmp/ikjbot-0.0.2-py3-none-any.whl.zip]
+[2023-08-02 12:01:05] INFO root fetch - processPackages [ikjbot]: Start processing: caluma-alexandria
+[2023-08-02 12:01:05] INFO root fetch - main [MainThread]: End processing [ikjbot]: success
+[2023-08-02 12:01:05] INFO root fetch - processPackages [caluma-alexandria]: New version: [2.0.0] Old Version: [1.2.0]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-auth-jupyterhub]: Downloading https://files.pythonhosted.org/packages/51/71/be3ff3137191972687ba6f03acce08017075011a0359cdcde95facc4dd19/fps_auth_jupyterhub-0.2.1.tar.gz
+[2023-08-02 12:01:06] INFO root fetch - processPackages [jupyverse-api]: Remove: archive file [/home/abi/fetcher/tmp/jupyverse_api-0.2.0.tar.gz]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [jupyverse-api]: Remove: archive file [/home/abi/fetcher/tmp/jupyverse_api-0.2.1.tar.gz]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [jupyverse-api]: Start processing: fps-contents
+[2023-08-02 12:01:06] INFO root fetch - main [MainThread]: End processing [jupyverse-api]: success
+[2023-08-02 12:01:06] INFO root fetch - processPackages [oopgrade]: Remove: archive file [/home/abi/fetcher/tmp/oopgrade-0.8.0.tar.gz]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [oopgrade]: Remove: archive file [/home/abi/fetcher/tmp/oopgrade-0.9.0.tar.gz]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [oopgrade]: Start processing: sardine-web
+[2023-08-02 12:01:06] INFO root fetch - main [MainThread]: End processing [oopgrade]: success
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-contents]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-noauth]: Remove: archive file [/home/abi/fetcher/tmp/fps_noauth-0.2.0.tar.gz]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-noauth]: Remove: archive file [/home/abi/fetcher/tmp/fps_noauth-0.2.1.tar.gz]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-noauth]: Start processing: fps-frontend
+[2023-08-02 12:01:06] INFO root fetch - main [MainThread]: End processing [fps-noauth]: success
+[2023-08-02 12:01:06] INFO root fetch - processPackages [caluma-alexandria]: Downloading https://files.pythonhosted.org/packages/3e/dd/c743850139e7ffccd9d483fcaf5f28dbaacfdbbc74a3dac4ca3463aa61bd/caluma_alexandria-1.2.0.tar.gz
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-auth-jupyterhub]: executing diffoscope
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-auth-jupyterhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_auth_jupyterhub-0.2.0.tar.gz tmp/fps_auth_jupyterhub-0.2.1.tar.gz --markdown 20230802/f/fps-auth-jupyterhub/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:06] INFO root fetch - processPackages [sardine-web]: New version: [1.1.0] Old Version: [1.0.0.post1]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-frontend]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-auth]: Remove: archive file [/home/abi/fetcher/tmp/fps_auth-0.2.0.tar.gz]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-auth]: Remove: archive file [/home/abi/fetcher/tmp/fps_auth-0.2.1.tar.gz]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-auth]: Start processing: fps-jupyterlab
+[2023-08-02 12:01:06] INFO root fetch - main [MainThread]: End processing [fps-auth]: success
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-auth-fief]: Remove: archive file [/home/abi/fetcher/tmp/fps_auth_fief-0.2.0.tar.gz]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-auth-fief]: Remove: archive file [/home/abi/fetcher/tmp/fps_auth_fief-0.2.1.tar.gz]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-auth-fief]: Start processing: fps-kernels
+[2023-08-02 12:01:06] INFO root fetch - main [MainThread]: End processing [fps-auth-fief]: success
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-contents]: Downloading https://files.pythonhosted.org/packages/0b/a5/1c903ac0df359be69829251ed1a166ab7c971acc2bf2ce66b7fd1765f54a/fps_contents-0.2.0.tar.gz
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-jupyterlab]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [caluma-alexandria]: Downloading https://files.pythonhosted.org/packages/5f/06/0b096ecf2731f981918a0d131f8432869b1fc0660b9929310b86eb5f316c/caluma_alexandria-2.0.0.tar.gz
+[2023-08-02 12:01:06] INFO root fetch - processPackages [sardine-web]: Downloading https://files.pythonhosted.org/packages/02/98/7f71758fbf20bb2443dc094729484bf69cc51a35a6661233249d43b257e0/sardine-web-1.0.0.post1.tar.gz
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-kernels]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-frontend]: Downloading https://files.pythonhosted.org/packages/c5/15/bb390147d4ebd99a4577ea6185d0b94dd8694c1ce8fc6d1a1e7965aff816/fps_frontend-0.2.0.tar.gz
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fake-data-for-learning]: Remove: archive file [/home/abi/fetcher/tmp/fake_data_for_learning-0.4.1.tar.gz]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fake-data-for-learning]: Remove: archive file [/home/abi/fetcher/tmp/fake_data_for_learning-0.4.2.tar.gz]
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fake-data-for-learning]: Start processing: fps-lab
+[2023-08-02 12:01:06] INFO root fetch - main [MainThread]: End processing [fake-data-for-learning]: success
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-kernels]: Downloading https://files.pythonhosted.org/packages/62/ee/67a5aa4c12a5e7d461311ac00709cd34eec8621d41b4592c3e36175da616/fps_kernels-0.2.0.tar.gz
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-contents]: Downloading https://files.pythonhosted.org/packages/07/2a/a1921249cc95e696ec0c67b27dfc7ee0cea6af072ce0b2ae2f45e7c3cf80/fps_contents-0.2.1.tar.gz
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-jupyterlab]: Downloading https://files.pythonhosted.org/packages/8f/ed/475c36d3b05bc127193aeb8b8ac55c0fbefdf4bf60fbe30e21e45e075a3a/fps_jupyterlab-0.2.0.tar.gz
+[2023-08-02 12:01:06] INFO root fetch - processPackages [caluma-alexandria]: executing diffoscope
+[2023-08-02 12:01:06] INFO root fetch - processPackages [caluma-alexandria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caluma_alexandria-1.2.0.tar.gz tmp/caluma_alexandria-2.0.0.tar.gz --markdown 20230802/c/caluma-alexandria/1.2.0-2.0.0/diff.md --exclude *.pyd
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-contents]: executing diffoscope
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-contents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_contents-0.2.0.tar.gz tmp/fps_contents-0.2.1.tar.gz --markdown 20230802/f/fps-contents/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:06] INFO root fetch - processPackages [fps-frontend]: Downloading https://files.pythonhosted.org/packages/d9/f3/70e9b4dbd0ba9155414902ec331007a66ee188db398551721ac8e8e95121/fps_frontend-0.2.1.tar.gz
+[2023-08-02 12:01:07] INFO root fetch - processPackages [fps-lab]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 12:01:07] INFO root fetch - processPackages [fps-frontend]: executing diffoscope
+[2023-08-02 12:01:07] INFO root fetch - processPackages [fps-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_frontend-0.2.0.tar.gz tmp/fps_frontend-0.2.1.tar.gz --markdown 20230802/f/fps-frontend/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:07] INFO root fetch - processPackages [fps-jupyterlab]: Downloading https://files.pythonhosted.org/packages/4a/87/c35e9c480fd06cc538981910b1570942dd4fdb58fe596ec0ed0baf4a3322/fps_jupyterlab-0.2.1.tar.gz
+[2023-08-02 12:01:07] INFO root fetch - processPackages [sardine-web]: Downloading https://files.pythonhosted.org/packages/a0/1c/7495052f274bdaa62abc1cb5c73d7dbc36d83d1aa7ecd3bb96eec1ad880d/sardine-web-1.1.0.tar.gz
+[2023-08-02 12:01:07] INFO root fetch - processPackages [fps-kernels]: Downloading https://files.pythonhosted.org/packages/34/03/34481900d2a47b15d5e82879737e186bb682f064acf1ad6eb8115fe6c915/fps_kernels-0.2.1.tar.gz
+[2023-08-02 12:01:07] INFO root fetch - processPackages [fps-lab]: Downloading https://files.pythonhosted.org/packages/c6/cf/a0b8407d2a862f8f64cbc2323cc3112f53922f3093889dc572fd90c2bcae/fps_lab-0.2.0.tar.gz
+[2023-08-02 12:01:07] INFO root fetch - processPackages [fps-jupyterlab]: executing diffoscope
+[2023-08-02 12:01:07] INFO root fetch - processPackages [fps-jupyterlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_jupyterlab-0.2.0.tar.gz tmp/fps_jupyterlab-0.2.1.tar.gz --markdown 20230802/f/fps-jupyterlab/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:07] INFO root fetch - processPackages [fps-kernels]: executing diffoscope
+[2023-08-02 12:01:07] INFO root fetch - processPackages [fps-kernels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_kernels-0.2.0.tar.gz tmp/fps_kernels-0.2.1.tar.gz --markdown 20230802/f/fps-kernels/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:07] INFO root fetch - processPackages [fps-auth-jupyterhub]: Remove: archive file [/home/abi/fetcher/tmp/fps_auth_jupyterhub-0.2.0.tar.gz]
+[2023-08-02 12:01:07] INFO root fetch - processPackages [fps-auth-jupyterhub]: Remove: archive file [/home/abi/fetcher/tmp/fps_auth_jupyterhub-0.2.1.tar.gz]
+[2023-08-02 12:01:07] INFO root fetch - processPackages [fps-auth-jupyterhub]: Start processing: lkatBOT
+[2023-08-02 12:01:07] INFO root fetch - main [MainThread]: End processing [fps-auth-jupyterhub]: success
+[2023-08-02 12:01:07] INFO root fetch - processPackages [lkatBOT]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 12:01:07] INFO root fetch - processPackages [sardine-web]: executing diffoscope
+[2023-08-02 12:01:07] INFO root fetch - processPackages [sardine-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sardine-web-1.0.0.post1.tar.gz tmp/sardine-web-1.1.0.tar.gz --markdown 20230802/s/sardine-web/1.0.0.post1-1.1.0/diff.md --exclude *.pyd
+[2023-08-02 12:01:07] INFO root fetch - processPackages [fps-lab]: Downloading https://files.pythonhosted.org/packages/39/fe/044e73e26c44df7ca607addaf18c409ffb027c98056f4f659ffb6ac504a2/fps_lab-0.2.1.tar.gz
+[2023-08-02 12:01:07] INFO root fetch - processPackages [fps-lab]: executing diffoscope
+[2023-08-02 12:01:07] INFO root fetch - processPackages [fps-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_lab-0.2.0.tar.gz tmp/fps_lab-0.2.1.tar.gz --markdown 20230802/f/fps-lab/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:07] INFO root fetch - processPackages [lkatBOT]: Downloading https://files.pythonhosted.org/packages/7f/f1/3f656e3d000c77450b6fd65e61aaf3003fe35f70fc2e8148b44e7f0923eb/lkatBOT-0.0.1-py3-none-any.whl
+[2023-08-02 12:01:08] INFO root fetch - processPackages [lkatBOT]: Downloading https://files.pythonhosted.org/packages/d1/3a/297da27024ad0ded8db9719da8d0f1f5e9c3cefd46a5dd164cedc155e440/lkatBOT-0.0.2-py3-none-any.whl
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-contents]: Remove: archive file [/home/abi/fetcher/tmp/fps_contents-0.2.0.tar.gz]
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-contents]: Remove: archive file [/home/abi/fetcher/tmp/fps_contents-0.2.1.tar.gz]
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-contents]: Start processing: fps-nbconvert
+[2023-08-02 12:01:08] INFO root fetch - main [MainThread]: End processing [fps-contents]: success
+[2023-08-02 12:01:08] INFO root fetch - processPackages [lkatBOT]: executing diffoscope
+[2023-08-02 12:01:08] INFO root fetch - processPackages [lkatBOT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lkatBOT-0.0.1-py3-none-any.whl.zip tmp/lkatBOT-0.0.2-py3-none-any.whl.zip --markdown 20230802/l/lkatBOT/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 12:01:08] INFO root fetch - processPackages [caluma-alexandria]: Remove: archive file [/home/abi/fetcher/tmp/caluma_alexandria-1.2.0.tar.gz]
+[2023-08-02 12:01:08] INFO root fetch - processPackages [caluma-alexandria]: Remove: archive file [/home/abi/fetcher/tmp/caluma_alexandria-2.0.0.tar.gz]
+[2023-08-02 12:01:08] INFO root fetch - processPackages [caluma-alexandria]: Start processing: fps-retrolab
+[2023-08-02 12:01:08] INFO root fetch - main [MainThread]: End processing [caluma-alexandria]: success
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-nbconvert]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-frontend]: Remove: archive file [/home/abi/fetcher/tmp/fps_frontend-0.2.0.tar.gz]
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-frontend]: Remove: archive file [/home/abi/fetcher/tmp/fps_frontend-0.2.1.tar.gz]
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-frontend]: Start processing: fps-terminals
+[2023-08-02 12:01:08] INFO root fetch - main [MainThread]: End processing [fps-frontend]: success
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-retrolab]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/fps_jupyterlab-0.2.0.tar.gz]
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/fps_jupyterlab-0.2.1.tar.gz]
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-jupyterlab]: Start processing: fps-yjs
+[2023-08-02 12:01:08] INFO root fetch - main [MainThread]: End processing [fps-jupyterlab]: success
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-terminals]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-nbconvert]: Downloading https://files.pythonhosted.org/packages/d5/68/42fbed55ddcc1edb9b06fd33a8eff2867b30bbf0b27db9bfe6572ff9dc1e/fps_nbconvert-0.2.0.tar.gz
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-yjs]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-retrolab]: Downloading https://files.pythonhosted.org/packages/c8/76/caa2a572780063d37f1e544fc5a4d3ef1e8874708ebfd89c3932d9815db3/fps_retrolab-0.2.0.tar.gz
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-kernels]: Remove: archive file [/home/abi/fetcher/tmp/fps_kernels-0.2.0.tar.gz]
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-kernels]: Remove: archive file [/home/abi/fetcher/tmp/fps_kernels-0.2.1.tar.gz]
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-kernels]: Start processing: fps-resource-usage
+[2023-08-02 12:01:08] INFO root fetch - main [MainThread]: End processing [fps-kernels]: success
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-terminals]: Downloading https://files.pythonhosted.org/packages/f4/00/3d9e78c40608117d61bb5d2804d0d5f0c714c88979e265f794cc66b11cac/fps_terminals-0.2.0.tar.gz
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-yjs]: Downloading https://files.pythonhosted.org/packages/32/ff/f987d8ca5a06f4aaf65ca762c169003dfb76bfa186650bbdc84a7beda102/fps_yjs-0.2.0.tar.gz
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-nbconvert]: Downloading https://files.pythonhosted.org/packages/49/f3/776e38f1e91de0382a667736bc4c822ff93e632bdb3f4e4ea7b8c314af07/fps_nbconvert-0.2.1.tar.gz
+[2023-08-02 12:01:08] INFO root fetch - processPackages [fps-resource-usage]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-retrolab]: Downloading https://files.pythonhosted.org/packages/82/c3/8d6a55dfc02ba635dea8b3af163585024a64b8f20aed527d71019e91e2b4/fps_retrolab-0.2.1.tar.gz
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-nbconvert]: executing diffoscope
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-nbconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_nbconvert-0.2.0.tar.gz tmp/fps_nbconvert-0.2.1.tar.gz --markdown 20230802/f/fps-nbconvert/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-lab]: Remove: archive file [/home/abi/fetcher/tmp/fps_lab-0.2.0.tar.gz]
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-lab]: Remove: archive file [/home/abi/fetcher/tmp/fps_lab-0.2.1.tar.gz]
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-lab]: Start processing: pyGuardPoint
+[2023-08-02 12:01:09] INFO root fetch - main [MainThread]: End processing [fps-lab]: success
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-terminals]: Downloading https://files.pythonhosted.org/packages/c2/b6/ff40c6571ce71284999f2d317b43d5762abcb32512ed565ab77db1e00ed5/fps_terminals-0.2.1.tar.gz
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-retrolab]: executing diffoscope
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-retrolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_retrolab-0.2.0.tar.gz tmp/fps_retrolab-0.2.1.tar.gz --markdown 20230802/f/fps-retrolab/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-resource-usage]: Downloading https://files.pythonhosted.org/packages/d1/df/09e3eca0b61c074d8d722a559eb008650b0056723908aeed39fd0f6b9dbd/fps_resource_usage-0.2.0.tar.gz
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-yjs]: Downloading https://files.pythonhosted.org/packages/78/cf/39cc9b703d336da141a47257e8e560a75dae5df7b820b4b77c65843c9992/fps_yjs-0.2.1.tar.gz
+[2023-08-02 12:01:09] INFO root fetch - processPackages [pyGuardPoint]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-terminals]: executing diffoscope
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-terminals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_terminals-0.2.0.tar.gz tmp/fps_terminals-0.2.1.tar.gz --markdown 20230802/f/fps-terminals/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-yjs]: executing diffoscope
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-yjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_yjs-0.2.0.tar.gz tmp/fps_yjs-0.2.1.tar.gz --markdown 20230802/f/fps-yjs/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:09] INFO root fetch - processPackages [pyGuardPoint]: Downloading https://files.pythonhosted.org/packages/e2/f1/42d5b71bfdb0df327428fff721d24f7ddc59da98edd24411c7b44ab84256/pyGuardPoint-0.9.8.tar.gz
+[2023-08-02 12:01:09] INFO root fetch - processPackages [glean-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glean-sdk-53.1.0.tar.gz]
+[2023-08-02 12:01:09] INFO root fetch - processPackages [glean-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glean-sdk-53.2.0.tar.gz]
+[2023-08-02 12:01:09] INFO root fetch - processPackages [glean-sdk]: Start processing: fps-login
+[2023-08-02 12:01:09] INFO root fetch - main [MainThread]: End processing [glean-sdk]: success
+[2023-08-02 12:01:09] INFO root fetch - processPackages [lkatBOT]: Remove: archive file [/home/abi/fetcher/tmp/lkatBOT-0.0.1-py3-none-any.whl.zip]
+[2023-08-02 12:01:09] INFO root fetch - processPackages [lkatBOT]: Remove: archive file [/home/abi/fetcher/tmp/lkatBOT-0.0.2-py3-none-any.whl.zip]
+[2023-08-02 12:01:09] INFO root fetch - processPackages [lkatBOT]: Start processing: fps-webdav
+[2023-08-02 12:01:09] INFO root fetch - main [MainThread]: End processing [lkatBOT]: success
+[2023-08-02 12:01:09] INFO root fetch - processPackages [sardine-web]: Remove: archive file [/home/abi/fetcher/tmp/sardine-web-1.0.0.post1.tar.gz]
+[2023-08-02 12:01:09] INFO root fetch - processPackages [sardine-web]: Remove: archive file [/home/abi/fetcher/tmp/sardine-web-1.1.0.tar.gz]
+[2023-08-02 12:01:09] INFO root fetch - main [MainThread]: End processing [sardine-web]: success
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-resource-usage]: Downloading https://files.pythonhosted.org/packages/4b/68/585069259164f7bf914f9a0a78d76ff716e4989e880a1fe9840e9f992a0f/fps_resource_usage-0.2.1.tar.gz
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-login]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-resource-usage]: executing diffoscope
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-resource-usage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_resource_usage-0.2.0.tar.gz tmp/fps_resource_usage-0.2.1.tar.gz --markdown 20230802/f/fps-resource-usage/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-webdav]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-login]: Downloading https://files.pythonhosted.org/packages/52/1a/d50ff5e8f49ad90059d8c296e51f0702296b67b4e2115b944aa7f3c76a58/fps_login-0.2.0.tar.gz
+[2023-08-02 12:01:09] INFO root fetch - processPackages [pyGuardPoint]: Downloading https://files.pythonhosted.org/packages/31/e0/ddf92cab859abd7afcea49bca9b4a6848d56f0ac7fee6ebf7a933fe9c4a8/pyGuardPoint-0.9.9.tar.gz
+[2023-08-02 12:01:09] INFO root fetch - processPackages [fps-webdav]: Downloading https://files.pythonhosted.org/packages/70/95/92240bf6d25185c43eb55cb40f5752ac12177b6e1dd66bde7074dac8f6e2/fps_webdav-0.2.0.tar.gz
+[2023-08-02 12:01:10] INFO root fetch - processPackages [fps-nbconvert]: Remove: archive file [/home/abi/fetcher/tmp/fps_nbconvert-0.2.0.tar.gz]
+[2023-08-02 12:01:10] INFO root fetch - processPackages [fps-nbconvert]: Remove: archive file [/home/abi/fetcher/tmp/fps_nbconvert-0.2.1.tar.gz]
+[2023-08-02 12:01:10] INFO root fetch - main [MainThread]: End processing [fps-nbconvert]: success
+[2023-08-02 12:01:10] INFO root fetch - processPackages [pyGuardPoint]: executing diffoscope
+[2023-08-02 12:01:10] INFO root fetch - processPackages [pyGuardPoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyGuardPoint-0.9.8.tar.gz tmp/pyGuardPoint-0.9.9.tar.gz --markdown 20230802/p/pyGuardPoint/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-02 12:01:10] INFO root fetch - processPackages [fps-login]: Downloading https://files.pythonhosted.org/packages/d2/ce/5459b7ed1ffbeec5e7a301b6e06018794205c4f7123fb67134979664c296/fps_login-0.2.1.tar.gz
+[2023-08-02 12:01:10] INFO root fetch - processPackages [fps-webdav]: Downloading https://files.pythonhosted.org/packages/85/e5/33b27aec6a94f0c85a00f966336ae011e7116640456aded7b3e96a330748/fps_webdav-0.2.1.tar.gz
+[2023-08-02 12:01:10] INFO root fetch - processPackages [fps-retrolab]: Remove: archive file [/home/abi/fetcher/tmp/fps_retrolab-0.2.0.tar.gz]
+[2023-08-02 12:01:10] INFO root fetch - processPackages [fps-retrolab]: Remove: archive file [/home/abi/fetcher/tmp/fps_retrolab-0.2.1.tar.gz]
+[2023-08-02 12:01:10] INFO root fetch - main [MainThread]: End processing [fps-retrolab]: success
+[2023-08-02 12:01:10] INFO root fetch - processPackages [fps-login]: executing diffoscope
+[2023-08-02 12:01:10] INFO root fetch - processPackages [fps-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_login-0.2.0.tar.gz tmp/fps_login-0.2.1.tar.gz --markdown 20230802/f/fps-login/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:10] INFO root fetch - processPackages [fps-webdav]: executing diffoscope
+[2023-08-02 12:01:10] INFO root fetch - processPackages [fps-webdav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_webdav-0.2.0.tar.gz tmp/fps_webdav-0.2.1.tar.gz --markdown 20230802/f/fps-webdav/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:01:10] INFO root fetch - processPackages [fps-yjs]: Remove: archive file [/home/abi/fetcher/tmp/fps_yjs-0.2.0.tar.gz]
+[2023-08-02 12:01:10] INFO root fetch - processPackages [fps-yjs]: Remove: archive file [/home/abi/fetcher/tmp/fps_yjs-0.2.1.tar.gz]
+[2023-08-02 12:01:10] INFO root fetch - main [MainThread]: End processing [fps-yjs]: success
+[2023-08-02 12:01:10] INFO root fetch - processPackages [fps-terminals]: Remove: archive file [/home/abi/fetcher/tmp/fps_terminals-0.2.0.tar.gz]
+[2023-08-02 12:01:10] INFO root fetch - processPackages [fps-terminals]: Remove: archive file [/home/abi/fetcher/tmp/fps_terminals-0.2.1.tar.gz]
+[2023-08-02 12:01:10] INFO root fetch - main [MainThread]: End processing [fps-terminals]: success
+[2023-08-02 12:01:10] INFO root fetch - processPackages [fps-resource-usage]: Remove: archive file [/home/abi/fetcher/tmp/fps_resource_usage-0.2.0.tar.gz]
+[2023-08-02 12:01:10] INFO root fetch - processPackages [fps-resource-usage]: Remove: archive file [/home/abi/fetcher/tmp/fps_resource_usage-0.2.1.tar.gz]
+[2023-08-02 12:01:10] INFO root fetch - main [MainThread]: End processing [fps-resource-usage]: success
+[2023-08-02 12:01:11] INFO root fetch - processPackages [pyGuardPoint]: Remove: archive file [/home/abi/fetcher/tmp/pyGuardPoint-0.9.8.tar.gz]
+[2023-08-02 12:01:11] INFO root fetch - processPackages [pyGuardPoint]: Remove: archive file [/home/abi/fetcher/tmp/pyGuardPoint-0.9.9.tar.gz]
+[2023-08-02 12:01:11] INFO root fetch - main [MainThread]: End processing [pyGuardPoint]: success
+[2023-08-02 12:01:11] INFO root fetch - processPackages [fps-webdav]: Remove: archive file [/home/abi/fetcher/tmp/fps_webdav-0.2.0.tar.gz]
+[2023-08-02 12:01:11] INFO root fetch - processPackages [fps-webdav]: Remove: archive file [/home/abi/fetcher/tmp/fps_webdav-0.2.1.tar.gz]
+[2023-08-02 12:01:11] INFO root fetch - main [MainThread]: End processing [fps-webdav]: success
+[2023-08-02 12:01:11] INFO root fetch - processPackages [fps-login]: Remove: archive file [/home/abi/fetcher/tmp/fps_login-0.2.0.tar.gz]
+[2023-08-02 12:01:11] INFO root fetch - processPackages [fps-login]: Remove: archive file [/home/abi/fetcher/tmp/fps_login-0.2.1.tar.gz]
+[2023-08-02 12:01:11] INFO root fetch - main [MainThread]: End processing [fps-login]: success
+[2023-08-02 12:01:12] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2023-08-02 12:01:12] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2023-08-02 12:01:12] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-08-02 12:01:12] INFO root fetch - main [MainThread]: Store serial: [19139720]

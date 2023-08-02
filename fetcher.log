@@ -22501,3 +22501,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-02 14:03:56] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2023-08-02 14:03:56] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2023-08-02 14:03:56] INFO root fetch - main [MainThread]: Store serial: [19140885]
+[2023-08-02 14:09:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19140885]
+[2023-08-02 14:09:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-02 14:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clirail
+[2023-08-02 14:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gestionatr
+[2023-08-02 14:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luminesce-sdk-preview
+[2023-08-02 14:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotify-recommender-api
+[2023-08-02 14:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: greedyFAS
+[2023-08-02 14:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omni-infer-api-account
+[2023-08-02 14:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vzg.jconv
+[2023-08-02 14:09:07] INFO root fetch - processPackages [clirail]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-08-02 14:09:07] INFO root fetch - processPackages [spotify-recommender-api]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-08-02 14:09:07] INFO root fetch - processPackages [gestionatr]: New version: [3.1.8] Old Version: [3.1.7]
+[2023-08-02 14:09:07] INFO root fetch - processPackages [vzg.jconv]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-08-02 14:09:07] WARNING root fetch - processPackages [omni-infer-api-account]: Skipping, unable to determine old version
+[2023-08-02 14:09:07] INFO root fetch - main [MainThread]: End processing [omni-infer-api-account] error
+[2023-08-02 14:09:07] INFO root fetch - processPackages [greedyFAS]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-02 14:09:07] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-08-02 14:09:08] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-08-02 14:09:08] INFO root fetch - processPackages [vzg.jconv]: Downloading https://files.pythonhosted.org/packages/a2/ff/1de38e446e50c83588ab74e2c3ad077bd233e43a3a06db1fe29b8be6509e/vzg.jconv-1.2.6.tar.gz
+[2023-08-02 14:09:08] INFO root fetch - processPackages [clirail]: Downloading https://files.pythonhosted.org/packages/90/12/25b3f0470b7c952820eaa2a55cce116bddcce431ce3bde2089f4e022c82c/clirail-1.7.1.tar.gz
+[2023-08-02 14:09:08] INFO root fetch - processPackages [gestionatr]: Downloading https://files.pythonhosted.org/packages/3e/83/19585faeff054d0b833b27e53df3a89d23348d88446d1b765ad2956b760a/gestionatr-3.1.7.tar.gz
+[2023-08-02 14:09:08] INFO root fetch - processPackages [spotify-recommender-api]: Downloading https://files.pythonhosted.org/packages/bd/58/bd6ef63e743e35136ecca83a4ffcc031553451ec2c95855ed1afd264282e/spotify_recommender_api-5.0.1-py3-none-any.whl
+[2023-08-02 14:09:08] INFO root fetch - processPackages [greedyFAS]: Downloading https://files.pythonhosted.org/packages/17/a1/5db526d0aff1735e04ea3cb4cafd2fb9dfac4d36e8e148dba07b29811754/greedyFAS-1.9.0.tar.gz
+[2023-08-02 14:09:08] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-08-02 14:09:08] INFO root fetch - processPackages [vzg.jconv]: Downloading https://files.pythonhosted.org/packages/a4/c4/a67c9e71206b7488b393001e87748b07fe9c80bb2c9bb5e5e3022ae627f6/vzg.jconv-1.2.7.tar.gz
+[2023-08-02 14:09:08] INFO root fetch - processPackages [spotify-recommender-api]: Downloading https://files.pythonhosted.org/packages/7d/bf/684ea154ba9f264435fb4a1f4a13c78a928caa2434953d04e7625ea84442/spotify_recommender_api-5.0.2-py3-none-any.whl
+[2023-08-02 14:09:08] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-08-02 14:09:08] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230802/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-08-02 14:09:08] INFO root fetch - processPackages [gestionatr]: Downloading https://files.pythonhosted.org/packages/b0/c3/6604cd8ba74c904872d48b04cf0b34dae5b8d28381ad590e8a84b62d4a56/gestionatr-3.1.8.tar.gz
+[2023-08-02 14:09:08] INFO root fetch - processPackages [greedyFAS]: Downloading https://files.pythonhosted.org/packages/5e/ef/a255efe3fba413830c37f81917a8f31daf07ba429901b9c69b8ab1d8061c/greedyFAS-1.9.1.tar.gz
+[2023-08-02 14:09:08] INFO root fetch - processPackages [clirail]: Downloading https://files.pythonhosted.org/packages/30/c9/ccf2643b3451643f8cf83f45e3b6dad9c1a9c03e69508a14a1a04032bfd5/clirail-1.7.2.tar.gz
+[2023-08-02 14:09:08] INFO root fetch - processPackages [spotify-recommender-api]: executing diffoscope
+[2023-08-02 14:09:08] INFO root fetch - processPackages [spotify-recommender-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_recommender_api-5.0.1-py3-none-any.whl.zip tmp/spotify_recommender_api-5.0.2-py3-none-any.whl.zip --markdown 20230802/s/spotify-recommender-api/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-08-02 14:09:08] INFO root fetch - processPackages [vzg.jconv]: executing diffoscope
+[2023-08-02 14:09:08] INFO root fetch - processPackages [vzg.jconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vzg.jconv-1.2.6.tar.gz tmp/vzg.jconv-1.2.7.tar.gz --markdown 20230802/v/vzg.jconv/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-08-02 14:09:08] INFO root fetch - processPackages [clirail]: executing diffoscope
+[2023-08-02 14:09:08] INFO root fetch - processPackages [clirail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clirail-1.7.1.tar.gz tmp/clirail-1.7.2.tar.gz --markdown 20230802/c/clirail/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-08-02 14:09:08] INFO root fetch - processPackages [greedyFAS]: executing diffoscope
+[2023-08-02 14:09:08] INFO root fetch - processPackages [greedyFAS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greedyFAS-1.9.0.tar.gz tmp/greedyFAS-1.9.1.tar.gz --markdown 20230802/g/greedyFAS/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-02 14:09:08] INFO root fetch - processPackages [gestionatr]: executing diffoscope
+[2023-08-02 14:09:08] INFO root fetch - processPackages [gestionatr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gestionatr-3.1.7.tar.gz tmp/gestionatr-3.1.8.tar.gz --markdown 20230802/g/gestionatr/3.1.7-3.1.8/diff.md --exclude *.pyd
+[2023-08-02 14:09:10] INFO root fetch - processPackages [spotify-recommender-api]: Remove: archive file [/home/abi/fetcher/tmp/spotify_recommender_api-5.0.1-py3-none-any.whl.zip]
+[2023-08-02 14:09:10] INFO root fetch - processPackages [spotify-recommender-api]: Remove: archive file [/home/abi/fetcher/tmp/spotify_recommender_api-5.0.2-py3-none-any.whl.zip]
+[2023-08-02 14:09:10] INFO root fetch - main [MainThread]: End processing [spotify-recommender-api]: success
+[2023-08-02 14:09:10] INFO root fetch - processPackages [clirail]: Remove: archive file [/home/abi/fetcher/tmp/clirail-1.7.1.tar.gz]
+[2023-08-02 14:09:10] INFO root fetch - processPackages [clirail]: Remove: archive file [/home/abi/fetcher/tmp/clirail-1.7.2.tar.gz]
+[2023-08-02 14:09:10] INFO root fetch - main [MainThread]: End processing [clirail]: success
+[2023-08-02 14:09:10] INFO root fetch - processPackages [vzg.jconv]: Remove: archive file [/home/abi/fetcher/tmp/vzg.jconv-1.2.6.tar.gz]
+[2023-08-02 14:09:10] INFO root fetch - processPackages [vzg.jconv]: Remove: archive file [/home/abi/fetcher/tmp/vzg.jconv-1.2.7.tar.gz]
+[2023-08-02 14:09:10] INFO root fetch - main [MainThread]: End processing [vzg.jconv]: success
+[2023-08-02 14:09:10] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-08-02 14:09:10] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-08-02 14:09:10] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-08-02 14:09:10] INFO root fetch - processPackages [greedyFAS]: Remove: archive file [/home/abi/fetcher/tmp/greedyFAS-1.9.0.tar.gz]
+[2023-08-02 14:09:10] INFO root fetch - processPackages [greedyFAS]: Remove: archive file [/home/abi/fetcher/tmp/greedyFAS-1.9.1.tar.gz]
+[2023-08-02 14:09:10] INFO root fetch - main [MainThread]: End processing [greedyFAS]: success
+[2023-08-02 14:09:11] INFO root fetch - processPackages [gestionatr]: Remove: archive file [/home/abi/fetcher/tmp/gestionatr-3.1.7.tar.gz]
+[2023-08-02 14:09:11] INFO root fetch - processPackages [gestionatr]: Remove: archive file [/home/abi/fetcher/tmp/gestionatr-3.1.8.tar.gz]
+[2023-08-02 14:09:11] INFO root fetch - main [MainThread]: End processing [gestionatr]: success
+[2023-08-02 14:09:11] INFO root fetch - main [MainThread]: Store serial: [19140908]

@@ -12869,3 +12869,45 @@
 [2023-08-02 06:49:04] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_timesheet_time_control-16.0.1.0.0.3-py3-none-any.whl.zip]
 [2023-08-02 06:49:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-timesheet-time-control]: success
 [2023-08-02 06:49:04] INFO root fetch - main [MainThread]: Store serial: [19136688]
+[2023-08-02 06:54:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136688]
+[2023-08-02 06:54:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-02 06:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: running-ng
+[2023-08-02 06:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apimeter
+[2023-08-02 06:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omni-infer-api
+[2023-08-02 06:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcanomaly
+[2023-08-02 06:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trading-strategy
+[2023-08-02 06:54:13] INFO root fetch - processPackages [running-ng]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-02 06:54:13] INFO root fetch - processPackages [omni-infer-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 06:54:13] WARNING root fetch - processPackages [dcanomaly]: Skipping, unable to determine old version
+[2023-08-02 06:54:13] INFO root fetch - main [MainThread]: End processing [dcanomaly] error
+[2023-08-02 06:54:13] INFO root fetch - processPackages [apimeter]: New version: [2.6.0] Old Version: [2.5.9]
+[2023-08-02 06:54:13] INFO root fetch - processPackages [trading-strategy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-02 06:54:13] INFO root fetch - processPackages [omni-infer-api]: Downloading https://files.pythonhosted.org/packages/94/d1/16efc454be51f25cebdf6ce104f22b24854e6d00e0e8953e824891ffc586/omni_infer_api-0.0.2-py3-none-any.whl
+[2023-08-02 06:54:13] INFO root fetch - processPackages [apimeter]: Downloading https://files.pythonhosted.org/packages/7e/b9/d3d2d6ec2f538886b7ec2e6988f7d53c26892e167b28250a0154e2cd195b/apimeter-2.5.9.tar.gz
+[2023-08-02 06:54:13] INFO root fetch - processPackages [running-ng]: Downloading https://files.pythonhosted.org/packages/98/17/070a09d6f60ad6ff6f91d395bc94d4aad158c6514c122f737076a33fa3ab/running-ng-0.3.8.tar.gz
+[2023-08-02 06:54:13] INFO root fetch - processPackages [trading-strategy]: Downloading https://files.pythonhosted.org/packages/ef/db/cd3ff8efe6cae935b76889796fae0e73dbff0e09b269d049406dd64339c6/trading_strategy-0.9.0.tar.gz
+[2023-08-02 06:54:14] INFO root fetch - processPackages [omni-infer-api]: Downloading https://files.pythonhosted.org/packages/69/7b/9eb0a739ebb345547d52b59548c1c4901c5d79bed829d7dfdb93d8e6ff39/omni_infer_api-0.0.3-py3-none-any.whl
+[2023-08-02 06:54:14] INFO root fetch - processPackages [apimeter]: Downloading https://files.pythonhosted.org/packages/a5/11/e82cdaa1f32be36fb6d6a13159ba8dfff9e65e15c24961018a6c2cf4f5f6/apimeter-2.6.0.tar.gz
+[2023-08-02 06:54:14] INFO root fetch - processPackages [running-ng]: Downloading https://files.pythonhosted.org/packages/ec/d7/6cc494d6e843724d8a89dea26651875199ecc5c34c328ec67f3b936badab/running-ng-0.3.9.tar.gz
+[2023-08-02 06:54:14] INFO root fetch - processPackages [omni-infer-api]: executing diffoscope
+[2023-08-02 06:54:14] INFO root fetch - processPackages [omni-infer-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni_infer_api-0.0.2-py3-none-any.whl.zip tmp/omni_infer_api-0.0.3-py3-none-any.whl.zip --markdown 20230802/o/omni-infer-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 06:54:14] INFO root fetch - processPackages [apimeter]: executing diffoscope
+[2023-08-02 06:54:14] INFO root fetch - processPackages [apimeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimeter-2.5.9.tar.gz tmp/apimeter-2.6.0.tar.gz --markdown 20230802/a/apimeter/2.5.9-2.6.0/diff.md --exclude *.pyd
+[2023-08-02 06:54:14] INFO root fetch - processPackages [running-ng]: executing diffoscope
+[2023-08-02 06:54:14] INFO root fetch - processPackages [running-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/running-ng-0.3.8.tar.gz tmp/running-ng-0.3.9.tar.gz --markdown 20230802/r/running-ng/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-02 06:54:14] INFO root fetch - processPackages [trading-strategy]: Downloading https://files.pythonhosted.org/packages/5c/56/6a3bae759cb2d96b94978afb98541c2d384070652678881d1ec20043940b/trading_strategy-0.9.1.tar.gz
+[2023-08-02 06:54:14] INFO root fetch - processPackages [trading-strategy]: executing diffoscope
+[2023-08-02 06:54:14] INFO root fetch - processPackages [trading-strategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trading_strategy-0.9.0.tar.gz tmp/trading_strategy-0.9.1.tar.gz --markdown 20230802/t/trading-strategy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-02 06:54:15] INFO root fetch - processPackages [apimeter]: Remove: archive file [/home/abi/fetcher/tmp/apimeter-2.5.9.tar.gz]
+[2023-08-02 06:54:15] INFO root fetch - processPackages [apimeter]: Remove: archive file [/home/abi/fetcher/tmp/apimeter-2.6.0.tar.gz]
+[2023-08-02 06:54:15] INFO root fetch - main [MainThread]: End processing [apimeter]: success
+[2023-08-02 06:54:15] INFO root fetch - processPackages [omni-infer-api]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api-0.0.2-py3-none-any.whl.zip]
+[2023-08-02 06:54:15] INFO root fetch - processPackages [omni-infer-api]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api-0.0.3-py3-none-any.whl.zip]
+[2023-08-02 06:54:15] INFO root fetch - main [MainThread]: End processing [omni-infer-api]: success
+[2023-08-02 06:54:15] INFO root fetch - processPackages [running-ng]: Remove: archive file [/home/abi/fetcher/tmp/running-ng-0.3.8.tar.gz]
+[2023-08-02 06:54:15] INFO root fetch - processPackages [running-ng]: Remove: archive file [/home/abi/fetcher/tmp/running-ng-0.3.9.tar.gz]
+[2023-08-02 06:54:15] INFO root fetch - main [MainThread]: End processing [running-ng]: success
+[2023-08-02 06:54:16] INFO root fetch - processPackages [trading-strategy]: Remove: archive file [/home/abi/fetcher/tmp/trading_strategy-0.9.0.tar.gz]
+[2023-08-02 06:54:16] INFO root fetch - processPackages [trading-strategy]: Remove: archive file [/home/abi/fetcher/tmp/trading_strategy-0.9.1.tar.gz]
+[2023-08-02 06:54:16] INFO root fetch - main [MainThread]: End processing [trading-strategy]: success
+[2023-08-02 06:54:16] INFO root fetch - main [MainThread]: Store serial: [19136707]

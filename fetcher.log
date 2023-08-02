@@ -20190,3 +20190,129 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-02 12:22:41] INFO root fetch - processPackages [kornia]: Remove: archive file [/home/abi/fetcher/tmp/kornia-0.7.0.tar.gz]
 [2023-08-02 12:22:41] INFO root fetch - main [MainThread]: End processing [kornia]: success
 [2023-08-02 12:22:41] INFO root fetch - main [MainThread]: Store serial: [19139857]
+[2023-08-02 12:27:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19139857]
+[2023-08-02 12:27:50] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-02 12:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Flask-SimplePay
+[2023-08-02 12:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangoldp-babelfish
+[2023-08-02 12:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CSET
+[2023-08-02 12:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TGDbot
+[2023-08-02 12:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moss-decoder
+[2023-08-02 12:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: StarClusterPlot
+[2023-08-02 12:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulp-container
+[2023-08-02 12:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulp-container-client
+[2023-08-02 12:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fake-data-for-learning
+[2023-08-02 12:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-connector-importer
+[2023-08-02 12:27:51] INFO root fetch - processPackages [CSET]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-02 12:27:51] INFO root fetch - processPackages [djangoldp-babelfish]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-02 12:27:51] INFO root fetch - processPackages [fake-data-for-learning]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-02 12:27:51] WARNING root fetch - processPackages [StarClusterPlot]: Skipping, unable to determine old version
+[2023-08-02 12:27:51] INFO root fetch - processPackages [StarClusterPlot]: Start processing: msaBase
+[2023-08-02 12:27:51] INFO root fetch - main [MainThread]: End processing [StarClusterPlot] error
+[2023-08-02 12:27:51] INFO root fetch - processPackages [TGDbot]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-08-02 12:27:51] INFO root fetch - processPackages [odoo14-addon-connector-importer]: New version: [14.0.2.6.2] Old Version: [14.0.2.6.1]
+[2023-08-02 12:27:51] INFO root fetch - processPackages [Flask-SimplePay]: New version: [1.5] Old Version: [1.4]
+[2023-08-02 12:27:51] INFO root fetch - processPackages [pulp-container]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-08-02 12:27:51] INFO root fetch - processPackages [pulp-container-client]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-08-02 12:27:51] INFO root fetch - processPackages [moss-decoder]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-02 12:27:51] INFO root fetch - processPackages [msaBase]: New version: [0.0.96] Old Version: [0.0.95]
+[2023-08-02 12:27:51] INFO root fetch - processPackages [TGDbot]: Downloading https://files.pythonhosted.org/packages/be/36/cc00a9f95fa1cedca6ec3bb3904fe0ce764c5f8e81ad932c1936b8ff3920/TGDbot-0.3.6-py3-none-any.whl
+[2023-08-02 12:27:51] INFO root fetch - processPackages [djangoldp-babelfish]: Downloading https://files.pythonhosted.org/packages/f4/28/75449b5c23f040d4772a1e7418b17bebb70201493e8a344c44aa65549f7a/djangoldp_babelfish-1.0.6.tar.gz
+[2023-08-02 12:27:51] INFO root fetch - processPackages [moss-decoder]: Downloading https://files.pythonhosted.org/packages/83/8b/fd998d2decc40139ebad79c7d0e4c4cb682fe42e118348313bce578cfbc1/moss_decoder-0.7.0.tar.gz
+[2023-08-02 12:27:51] INFO root fetch - processPackages [fake-data-for-learning]: Downloading https://files.pythonhosted.org/packages/09/3a/a8e1e926451a6fb62ea41c6a472f5096024cd330cd82ddedd6e626766bda/fake_data_for_learning-0.4.2.tar.gz
+[2023-08-02 12:27:51] INFO root fetch - processPackages [CSET]: Downloading https://files.pythonhosted.org/packages/a4/10/1e514d8959eaca24b5c98920f0d387b8c4f2857da6d7b8df1af3692aadb5/CSET-0.2.0.tar.gz
+[2023-08-02 12:27:51] INFO root fetch - processPackages [Flask-SimplePay]: Downloading https://files.pythonhosted.org/packages/1f/a0/16901f059c954ea8f74261bdeed75bd28aea979f1e029c39e97f87bed306/Flask-SimplePay-1.4.tar.gz
+[2023-08-02 12:27:51] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Downloading https://files.pythonhosted.org/packages/96/5b/1bc0402ff37d326f1400d553d8847564efc430d80b64a076c7f3f58185ce/odoo14_addon_connector_importer-14.0.2.6.1-py3-none-any.whl
+[2023-08-02 12:27:51] INFO root fetch - processPackages [pulp-container-client]: Downloading https://files.pythonhosted.org/packages/e9/01/a3daad08d76d51b9e0347223055817e98861ea9bf1c8cf02987348bb3357/pulp_container-client-2.9.8.tar.gz
+[2023-08-02 12:27:51] INFO root fetch - processPackages [pulp-container]: Downloading https://files.pythonhosted.org/packages/57/4c/de95a198cf3ae576fad5962898a4437820d9482a608240abc66d5bebe2c1/pulp-container-2.9.8.tar.gz
+[2023-08-02 12:27:51] INFO root fetch - processPackages [msaBase]: Downloading https://files.pythonhosted.org/packages/88/ce/58e733d0be908f8025d1d81d1883c5b37f95433b830a41fd816bc49c17b1/msaBase-0.0.95.tar.gz
+[2023-08-02 12:27:51] INFO root fetch - processPackages [TGDbot]: Downloading https://files.pythonhosted.org/packages/7d/60/15f1b0ed855977d829828e7d4810b25a36ea1b2dc497358d351aa3681bfe/TGDbot-0.3.7-py3-none-any.whl
+[2023-08-02 12:27:51] INFO root fetch - processPackages [CSET]: Downloading https://files.pythonhosted.org/packages/52/1c/d3e6898aba9880b18164f975f3a56226ccf26eb17841da5f0763ce8e2c50/CSET-0.3.0.tar.gz
+[2023-08-02 12:27:52] INFO root fetch - processPackages [fake-data-for-learning]: Downloading https://files.pythonhosted.org/packages/ae/f2/500932533d2abb24b4349dc252439f2bc12eb15f27fb6eff05319b792989/fake_data_for_learning-0.4.3.tar.gz
+[2023-08-02 12:27:52] INFO root fetch - processPackages [moss-decoder]: Downloading https://files.pythonhosted.org/packages/b0/6e/2e83a9576cb95dae4e8be7b2c188b9413150bc511501356221f50968b4f3/moss_decoder-0.7.1.tar.gz
+[2023-08-02 12:27:52] INFO root fetch - processPackages [djangoldp-babelfish]: Downloading https://files.pythonhosted.org/packages/9a/0e/85aab8f49732f8622a4e8f0a89549f1f3d9fe2c9b3575d423e87d15d8d6c/djangoldp_babelfish-1.0.7.tar.gz
+[2023-08-02 12:27:52] INFO root fetch - processPackages [Flask-SimplePay]: Downloading https://files.pythonhosted.org/packages/37/9d/4a996f610fb5605d34de5398c9ece3ed5b731420f36f317f555441c66414/Flask-SimplePay-1.5.tar.gz
+[2023-08-02 12:27:52] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Downloading https://files.pythonhosted.org/packages/65/1a/52d0525f6b0b68d5c2c8576ee5a331294c619f5d9cfe7d88b35ab389bdd4/odoo14_addon_connector_importer-14.0.2.6.2-py3-none-any.whl
+[2023-08-02 12:27:52] INFO root fetch - processPackages [msaBase]: Downloading https://files.pythonhosted.org/packages/fc/29/e847e86514615f181a8b7c842d345d5096613071f392af169da729e64bd3/msaBase-0.0.96.tar.gz
+[2023-08-02 12:27:52] INFO root fetch - processPackages [CSET]: executing diffoscope
+[2023-08-02 12:27:52] INFO root fetch - processPackages [CSET]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CSET-0.2.0.tar.gz tmp/CSET-0.3.0.tar.gz --markdown 20230802/C/CSET/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-02 12:27:52] INFO root fetch - processPackages [TGDbot]: executing diffoscope
+[2023-08-02 12:27:52] INFO root fetch - processPackages [TGDbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TGDbot-0.3.6-py3-none-any.whl.zip tmp/TGDbot-0.3.7-py3-none-any.whl.zip --markdown 20230802/T/TGDbot/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-08-02 12:27:52] INFO root fetch - processPackages [odoo14-addon-connector-importer]: executing diffoscope
+[2023-08-02 12:27:52] INFO root fetch - processPackages [odoo14-addon-connector-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_connector_importer-14.0.2.6.1-py3-none-any.whl.zip tmp/odoo14_addon_connector_importer-14.0.2.6.2-py3-none-any.whl.zip --markdown 20230802/o/odoo14-addon-connector-importer/14.0.2.6.1-14.0.2.6.2/diff.md --exclude *.pyd
+[2023-08-02 12:27:52] INFO root fetch - processPackages [fake-data-for-learning]: executing diffoscope
+[2023-08-02 12:27:52] INFO root fetch - processPackages [fake-data-for-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_data_for_learning-0.4.2.tar.gz tmp/fake_data_for_learning-0.4.3.tar.gz --markdown 20230802/f/fake-data-for-learning/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-02 12:27:52] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-08-02 12:27:52] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.95.tar.gz tmp/msaBase-0.0.96.tar.gz --markdown 20230802/m/msaBase/0.0.95-0.0.96/diff.md --exclude *.pyd
+[2023-08-02 12:27:52] INFO root fetch - processPackages [djangoldp-babelfish]: executing diffoscope
+[2023-08-02 12:27:52] INFO root fetch - processPackages [djangoldp-babelfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_babelfish-1.0.6.tar.gz tmp/djangoldp_babelfish-1.0.7.tar.gz --markdown 20230802/d/djangoldp-babelfish/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-02 12:27:52] INFO root fetch - processPackages [Flask-SimplePay]: executing diffoscope
+[2023-08-02 12:27:52] INFO root fetch - processPackages [Flask-SimplePay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-SimplePay-1.4.tar.gz tmp/Flask-SimplePay-1.5.tar.gz --markdown 20230802/F/Flask-SimplePay/1.4-1.5/diff.md --exclude *.pyd
+[2023-08-02 12:27:52] INFO root fetch - processPackages [pulp-container-client]: Downloading https://files.pythonhosted.org/packages/fb/1f/d65523f406ba6275db9e0fdb44160109d2c5b1ac2db48bec3fd97cb5ccc3/pulp_container-client-2.9.9.tar.gz
+[2023-08-02 12:27:52] INFO root fetch - processPackages [moss-decoder]: executing diffoscope
+[2023-08-02 12:27:52] INFO root fetch - processPackages [moss-decoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moss_decoder-0.7.0.tar.gz tmp/moss_decoder-0.7.1.tar.gz --markdown 20230802/m/moss-decoder/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-02 12:27:52] INFO root fetch - processPackages [pulp-container]: Downloading https://files.pythonhosted.org/packages/d4/6d/3386b11359dfd542f3fd8f302eb8bb09777dfbd1caff886578e05374938f/pulp-container-2.9.9.tar.gz
+[2023-08-02 12:27:53] INFO root fetch - processPackages [pulp-container]: executing diffoscope
+[2023-08-02 12:27:53] INFO root fetch - processPackages [pulp-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-container-2.9.8.tar.gz tmp/pulp-container-2.9.9.tar.gz --markdown 20230802/p/pulp-container/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-08-02 12:27:53] INFO root fetch - processPackages [pulp-container-client]: executing diffoscope
+[2023-08-02 12:27:53] INFO root fetch - processPackages [pulp-container-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_container-client-2.9.8.tar.gz tmp/pulp_container-client-2.9.9.tar.gz --markdown 20230802/p/pulp-container-client/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-08-02 12:27:54] INFO root fetch - processPackages [TGDbot]: Remove: archive file [/home/abi/fetcher/tmp/TGDbot-0.3.6-py3-none-any.whl.zip]
+[2023-08-02 12:27:54] INFO root fetch - processPackages [TGDbot]: Remove: archive file [/home/abi/fetcher/tmp/TGDbot-0.3.7-py3-none-any.whl.zip]
+[2023-08-02 12:27:54] INFO root fetch - processPackages [TGDbot]: Start processing: fastapi-queue-task
+[2023-08-02 12:27:54] INFO root fetch - main [MainThread]: End processing [TGDbot]: success
+[2023-08-02 12:27:54] WARNING root fetch - processPackages [fastapi-queue-task]: Skipping, unable to determine old version
+[2023-08-02 12:27:54] INFO root fetch - processPackages [fastapi-queue-task]: Start processing: multiHGtest
+[2023-08-02 12:27:54] INFO root fetch - main [MainThread]: End processing [fastapi-queue-task] error
+[2023-08-02 12:27:54] INFO root fetch - processPackages [multiHGtest]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 12:27:54] INFO root fetch - processPackages [multiHGtest]: Downloading https://files.pythonhosted.org/packages/85/ea/9e6aa6d88942dd9048914fda56cae6524d425471478fd8de4542275e326b/multiHGtest-0.0.2.tar.gz
+[2023-08-02 12:27:54] INFO root fetch - processPackages [CSET]: Remove: archive file [/home/abi/fetcher/tmp/CSET-0.2.0.tar.gz]
+[2023-08-02 12:27:54] INFO root fetch - processPackages [CSET]: Remove: archive file [/home/abi/fetcher/tmp/CSET-0.3.0.tar.gz]
+[2023-08-02 12:27:54] INFO root fetch - processPackages [CSET]: Start processing: djangoldp-babelfish
+[2023-08-02 12:27:54] INFO root fetch - main [MainThread]: End processing [CSET]: success
+[2023-08-02 12:27:54] INFO root fetch - processPackages [fake-data-for-learning]: Remove: archive file [/home/abi/fetcher/tmp/fake_data_for_learning-0.4.2.tar.gz]
+[2023-08-02 12:27:54] INFO root fetch - processPackages [fake-data-for-learning]: Remove: archive file [/home/abi/fetcher/tmp/fake_data_for_learning-0.4.3.tar.gz]
+[2023-08-02 12:27:54] INFO root fetch - processPackages [fake-data-for-learning]: Start processing: gs-quant
+[2023-08-02 12:27:54] INFO root fetch - main [MainThread]: End processing [fake-data-for-learning]: success
+[2023-08-02 12:27:54] INFO root fetch - processPackages [djangoldp-babelfish]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-02 12:27:54] INFO root fetch - processPackages [msaBase]: Remove: archive file [/home/abi/fetcher/tmp/msaBase-0.0.95.tar.gz]
+[2023-08-02 12:27:54] INFO root fetch - processPackages [msaBase]: Remove: archive file [/home/abi/fetcher/tmp/msaBase-0.0.96.tar.gz]
+[2023-08-02 12:27:54] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-08-02 12:27:54] INFO root fetch - processPackages [Flask-SimplePay]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SimplePay-1.4.tar.gz]
+[2023-08-02 12:27:54] INFO root fetch - processPackages [Flask-SimplePay]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SimplePay-1.5.tar.gz]
+[2023-08-02 12:27:54] INFO root fetch - main [MainThread]: End processing [Flask-SimplePay]: success
+[2023-08-02 12:27:54] INFO root fetch - processPackages [djangoldp-babelfish]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_babelfish-1.0.6.tar.gz]
+[2023-08-02 12:27:54] INFO root fetch - processPackages [djangoldp-babelfish]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_babelfish-1.0.7.tar.gz]
+[2023-08-02 12:27:54] INFO root fetch - main [MainThread]: End processing [djangoldp-babelfish]: success
+[2023-08-02 12:27:54] INFO root fetch - processPackages [gs-quant]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-02 12:27:54] INFO root fetch - processPackages [multiHGtest]: Downloading https://files.pythonhosted.org/packages/59/1f/bdb6a0ab896b01ad0e0025282fbd2c626d81eeb447902278329eb376201e/multiHGtest-0.0.3.tar.gz
+[2023-08-02 12:27:54] INFO root fetch - processPackages [djangoldp-babelfish]: Downloading https://files.pythonhosted.org/packages/9a/0e/85aab8f49732f8622a4e8f0a89549f1f3d9fe2c9b3575d423e87d15d8d6c/djangoldp_babelfish-1.0.7.tar.gz
+[2023-08-02 12:27:54] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_importer-14.0.2.6.1-py3-none-any.whl.zip]
+[2023-08-02 12:27:54] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_importer-14.0.2.6.2-py3-none-any.whl.zip]
+[2023-08-02 12:27:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-connector-importer]: success
+[2023-08-02 12:27:54] INFO root fetch - processPackages [djangoldp-babelfish]: executing diffoscope
+[2023-08-02 12:27:54] INFO root fetch - processPackages [djangoldp-babelfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_babelfish-1.0.6.tar.gz tmp/djangoldp_babelfish-1.0.7.tar.gz --markdown 20230802/d/djangoldp-babelfish/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-02 12:27:54] INFO root fetch - processPackages [multiHGtest]: executing diffoscope
+[2023-08-02 12:27:54] INFO root fetch - processPackages [multiHGtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiHGtest-0.0.2.tar.gz tmp/multiHGtest-0.0.3.tar.gz --markdown 20230802/m/multiHGtest/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 12:27:55] INFO root fetch - processPackages [gs-quant]: Downloading https://files.pythonhosted.org/packages/a8/22/ccb70839873a816734ed7fe4a20a50658f4061e8379cdae45a21e643297a/gs_quant-1.0.8.tar.gz
+[2023-08-02 12:27:55] INFO root fetch - processPackages [gs-quant]: Downloading https://files.pythonhosted.org/packages/36/ec/d3b4336a4612dcf07a05e896931bb06e76482967f438ed53953017d5c2fd/gs_quant-1.0.9.tar.gz
+[2023-08-02 12:27:55] INFO root fetch - processPackages [pulp-container]: Remove: archive file [/home/abi/fetcher/tmp/pulp-container-2.9.8.tar.gz]
+[2023-08-02 12:27:55] INFO root fetch - processPackages [pulp-container]: Remove: archive file [/home/abi/fetcher/tmp/pulp-container-2.9.9.tar.gz]
+[2023-08-02 12:27:55] INFO root fetch - main [MainThread]: End processing [pulp-container]: success
+[2023-08-02 12:27:55] ERROR root fetch - processPackages [djangoldp-babelfish]: Diffoscope failed: time="2023-08-02T12:27:54+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/djangoldp_babelfish-1.0.6.tar.gz: No such file or directory
+
+[2023-08-02 12:27:55] INFO root fetch - main [MainThread]: End processing [djangoldp-babelfish] error
+[2023-08-02 12:27:55] INFO root fetch - processPackages [gs-quant]: executing diffoscope
+[2023-08-02 12:27:55] INFO root fetch - processPackages [gs-quant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_quant-1.0.8.tar.gz tmp/gs_quant-1.0.9.tar.gz --markdown 20230802/g/gs-quant/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 12:27:55] INFO root fetch - processPackages [moss-decoder]: Remove: archive file [/home/abi/fetcher/tmp/moss_decoder-0.7.0.tar.gz]
+[2023-08-02 12:27:55] INFO root fetch - processPackages [moss-decoder]: Remove: archive file [/home/abi/fetcher/tmp/moss_decoder-0.7.1.tar.gz]
+[2023-08-02 12:27:55] INFO root fetch - main [MainThread]: End processing [moss-decoder]: success
+[2023-08-02 12:27:56] INFO root fetch - processPackages [pulp-container-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_container-client-2.9.8.tar.gz]
+[2023-08-02 12:27:56] INFO root fetch - processPackages [pulp-container-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_container-client-2.9.9.tar.gz]
+[2023-08-02 12:27:56] INFO root fetch - main [MainThread]: End processing [pulp-container-client]: success
+[2023-08-02 12:27:56] INFO root fetch - processPackages [multiHGtest]: Remove: archive file [/home/abi/fetcher/tmp/multiHGtest-0.0.2.tar.gz]
+[2023-08-02 12:27:56] INFO root fetch - processPackages [multiHGtest]: Remove: archive file [/home/abi/fetcher/tmp/multiHGtest-0.0.3.tar.gz]
+[2023-08-02 12:27:56] INFO root fetch - main [MainThread]: End processing [multiHGtest]: success
+[2023-08-02 12:27:58] INFO root fetch - processPackages [gs-quant]: Remove: archive file [/home/abi/fetcher/tmp/gs_quant-1.0.8.tar.gz]
+[2023-08-02 12:27:58] INFO root fetch - processPackages [gs-quant]: Remove: archive file [/home/abi/fetcher/tmp/gs_quant-1.0.9.tar.gz]
+[2023-08-02 12:27:58] INFO root fetch - main [MainThread]: End processing [gs-quant]: success
+[2023-08-02 12:27:58] INFO root fetch - main [MainThread]: Store serial: [19139973]

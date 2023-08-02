@@ -21236,3 +21236,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-02 13:05:02] INFO root fetch - processPackages [pig-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pig_sdk-1.2.0.tar.gz]
 [2023-08-02 13:05:02] INFO root fetch - main [MainThread]: End processing [pig-sdk]: success
 [2023-08-02 13:05:02] INFO root fetch - main [MainThread]: Store serial: [19140394]
+[2023-08-02 13:10:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19140394]
+[2023-08-02 13:10:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-02 13:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mb_netmgmt
+[2023-08-02 13:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scipion-em-aretomo
+[2023-08-02 13:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bitrot
+[2023-08-02 13:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LCPDelta
+[2023-08-02 13:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sbmlutils
+[2023-08-02 13:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdkit
+[2023-08-02 13:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: holo-vector-store
+[2023-08-02 13:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyright
+[2023-08-02 13:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geomanager
+[2023-08-02 13:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hecdbetz
+[2023-08-02 13:10:11] INFO root fetch - processPackages [hecdbetz]: New version: [4.0] Old Version: [3.0]
+[2023-08-02 13:10:12] INFO root fetch - processPackages [bitrot]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-02 13:10:12] INFO root fetch - processPackages [scipion-em-aretomo]: New version: [3.7.1] Old Version: [3.7]
+[2023-08-02 13:10:12] INFO root fetch - processPackages [LCPDelta]: New version: [1.0.0] Old Version: [0.1.0.2]
+[2023-08-02 13:10:12] INFO root fetch - processPackages [sbmlutils]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-08-02 13:10:12] INFO root fetch - processPackages [mb_netmgmt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 13:10:12] INFO root fetch - processPackages [holo-vector-store]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 13:10:12] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-02 13:10:12] INFO root fetch - processPackages [geomanager]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-02 13:10:12] INFO root fetch - processPackages [hecdbetz]: Downloading https://files.pythonhosted.org/packages/02/e1/470734ec3f7844f309a5aa1d09cabe073123d31de50372ffb423b2d7e3e3/hecdbetz-3.0.tar.gz
+[2023-08-02 13:10:12] INFO root fetch - processPackages [pyright]: New version: [1.1.320] Old Version: [1.1.318]
+[2023-08-02 13:10:12] INFO root fetch - processPackages [holo-vector-store]: Downloading https://files.pythonhosted.org/packages/0f/ed/d6e02abdc070c830dd0e684615281f38a7584943a9f24c0c9e132bd31b82/holo_vector_store-0.0.1.tar.gz
+[2023-08-02 13:10:12] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-08-02 13:10:12] INFO root fetch - processPackages [scipion-em-aretomo]: Downloading https://files.pythonhosted.org/packages/5a/50/4030641990bc1128dbba34599b414e97828da3efacdb37b4dcb9247edb37/scipion-em-aretomo-3.7.tar.gz
+[2023-08-02 13:10:12] INFO root fetch - processPackages [LCPDelta]: Downloading https://files.pythonhosted.org/packages/a8/ac/38af983f89148e79f9df456a9c779588e6fab3ee8815eba92b5faeb2acf1/LCPDelta-0.1.0.2.tar.gz
+[2023-08-02 13:10:12] INFO root fetch - processPackages [sbmlutils]: Downloading https://files.pythonhosted.org/packages/74/ce/47b4c35b51b275ce49c44f118fb70a0598c0806f2936cac6016c37607c6b/sbmlutils-0.8.4.tar.gz
+[2023-08-02 13:10:12] INFO root fetch - processPackages [mb_netmgmt]: Downloading https://files.pythonhosted.org/packages/c5/08/34cb3d39ed007932f38305034cf8a5455e5fc04967b4330d641500c725d4/mb_netmgmt-0.0.8.tar.gz
+[2023-08-02 13:10:12] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/7c/ce/58f6e45a1c8d5a09b755dec1dfc5aaf6b0dd3102218c5e67b00182fea899/pyright-1.1.318.tar.gz
+[2023-08-02 13:10:12] INFO root fetch - processPackages [geomanager]: Downloading https://files.pythonhosted.org/packages/24/e2/d3f7017f39494a95f8e83f9e2bb6b4deb396d4b42bc22eba72fb8d382f3e/geomanager-0.0.4.tar.gz
+[2023-08-02 13:10:12] INFO root fetch - processPackages [holo-vector-store]: Downloading https://files.pythonhosted.org/packages/cb/69/b687301e7b0ce7332daadda7e64c08bc4f015439cef5a6b9c28dde505982/holo_vector_store-0.0.2.tar.gz
+[2023-08-02 13:10:12] INFO root fetch - processPackages [bitrot]: Downloading https://files.pythonhosted.org/packages/d5/3d/6e37bb18cb67df779d0b556a49919f2bd469f66fe32058daa94960749170/bitrot-1.0.0.tar.gz
+[2023-08-02 13:10:12] WARNING root fetch - processPackages [sbmlutils]: Skipping package: exceeds size limit 25989172>=10485760
+[2023-08-02 13:10:12] INFO root fetch - main [MainThread]: End processing [sbmlutils] error
+[2023-08-02 13:10:12] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-08-02 13:10:12] INFO root fetch - processPackages [hecdbetz]: Downloading https://files.pythonhosted.org/packages/5d/94/4522fa26b05d3b925af42fc04a5bccec2554748a0678580f534562a7553f/hecdbetz-4.0.tar.gz
+[2023-08-02 13:10:12] INFO root fetch - processPackages [holo-vector-store]: executing diffoscope
+[2023-08-02 13:10:12] INFO root fetch - processPackages [holo-vector-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holo_vector_store-0.0.1.tar.gz tmp/holo_vector_store-0.0.2.tar.gz --markdown 20230802/h/holo-vector-store/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 13:10:12] INFO root fetch - processPackages [LCPDelta]: Downloading https://files.pythonhosted.org/packages/d1/13/a02bdafa115d8d936abb071419f730140bbfe54bc67bc1762b3973a4ae3f/LCPDelta-1.0.0.tar.gz
+[2023-08-02 13:10:12] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-08-02 13:10:12] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230802/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-02 13:10:12] INFO root fetch - processPackages [hecdbetz]: executing diffoscope
+[2023-08-02 13:10:12] INFO root fetch - processPackages [hecdbetz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hecdbetz-3.0.tar.gz tmp/hecdbetz-4.0.tar.gz --markdown 20230802/h/hecdbetz/3.0-4.0/diff.md --exclude *.pyd
+[2023-08-02 13:10:12] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/84/2a/e4694be6ebfd170bed88edef1521b205f1b4a8213e86f16672a2b5a168ba/pyright-1.1.320.tar.gz
+[2023-08-02 13:10:12] INFO root fetch - processPackages [scipion-em-aretomo]: Downloading https://files.pythonhosted.org/packages/66/71/21e6f123c41563efd7a2c861615424f4137102cd8273f6bb2567fe684c33/scipion-em-aretomo-3.7.1.tar.gz
+[2023-08-02 13:10:12] INFO root fetch - processPackages [geomanager]: Downloading https://files.pythonhosted.org/packages/a5/0e/7b7dbefc23bf1f3ba535247b1609b3248336829f64583df2f76314bbe24e/geomanager-0.0.5.tar.gz
+[2023-08-02 13:10:13] INFO root fetch - processPackages [LCPDelta]: executing diffoscope
+[2023-08-02 13:10:13] INFO root fetch - processPackages [LCPDelta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LCPDelta-0.1.0.2.tar.gz tmp/LCPDelta-1.0.0.tar.gz --markdown 20230802/L/LCPDelta/0.1.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-08-02 13:10:13] INFO root fetch - processPackages [mb_netmgmt]: Downloading https://files.pythonhosted.org/packages/f5/4a/2237f43f6621af590e38d99a70ba13765ba572848f251dd89f9e01ef5d47/mb_netmgmt-0.0.9.tar.gz
+[2023-08-02 13:10:13] INFO root fetch - processPackages [bitrot]: Downloading https://files.pythonhosted.org/packages/05/5a/948160fad98ab13a7eeb1e1011a24a6b99fb2007e3456eae2bec4aaa55d1/bitrot-1.0.1.tar.gz
+[2023-08-02 13:10:13] INFO root fetch - processPackages [pyright]: executing diffoscope
+[2023-08-02 13:10:13] INFO root fetch - processPackages [pyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyright-1.1.318.tar.gz tmp/pyright-1.1.320.tar.gz --markdown 20230802/p/pyright/1.1.318-1.1.320/diff.md --exclude *.pyd
+[2023-08-02 13:10:13] INFO root fetch - processPackages [scipion-em-aretomo]: executing diffoscope
+[2023-08-02 13:10:13] INFO root fetch - processPackages [scipion-em-aretomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-aretomo-3.7.tar.gz tmp/scipion-em-aretomo-3.7.1.tar.gz --markdown 20230802/s/scipion-em-aretomo/3.7-3.7.1/diff.md --exclude *.pyd
+[2023-08-02 13:10:13] INFO root fetch - processPackages [geomanager]: executing diffoscope
+[2023-08-02 13:10:13] INFO root fetch - processPackages [geomanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomanager-0.0.4.tar.gz tmp/geomanager-0.0.5.tar.gz --markdown 20230802/g/geomanager/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-02 13:10:13] INFO root fetch - processPackages [bitrot]: executing diffoscope
+[2023-08-02 13:10:13] INFO root fetch - processPackages [bitrot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitrot-1.0.0.tar.gz tmp/bitrot-1.0.1.tar.gz --markdown 20230802/b/bitrot/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-02 13:10:13] INFO root fetch - processPackages [mb_netmgmt]: executing diffoscope
+[2023-08-02 13:10:13] INFO root fetch - processPackages [mb_netmgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_netmgmt-0.0.8.tar.gz tmp/mb_netmgmt-0.0.9.tar.gz --markdown 20230802/m/mb_netmgmt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 13:10:14] INFO root fetch - processPackages [hecdbetz]: Remove: archive file [/home/abi/fetcher/tmp/hecdbetz-3.0.tar.gz]
+[2023-08-02 13:10:14] INFO root fetch - processPackages [hecdbetz]: Remove: archive file [/home/abi/fetcher/tmp/hecdbetz-4.0.tar.gz]
+[2023-08-02 13:10:14] INFO root fetch - main [MainThread]: End processing [hecdbetz]: success
+[2023-08-02 13:10:14] INFO root fetch - processPackages [holo-vector-store]: Remove: archive file [/home/abi/fetcher/tmp/holo_vector_store-0.0.1.tar.gz]
+[2023-08-02 13:10:14] INFO root fetch - processPackages [holo-vector-store]: Remove: archive file [/home/abi/fetcher/tmp/holo_vector_store-0.0.2.tar.gz]
+[2023-08-02 13:10:14] INFO root fetch - main [MainThread]: End processing [holo-vector-store]: success
+[2023-08-02 13:10:14] INFO root fetch - processPackages [LCPDelta]: Remove: archive file [/home/abi/fetcher/tmp/LCPDelta-0.1.0.2.tar.gz]
+[2023-08-02 13:10:14] INFO root fetch - processPackages [LCPDelta]: Remove: archive file [/home/abi/fetcher/tmp/LCPDelta-1.0.0.tar.gz]
+[2023-08-02 13:10:14] INFO root fetch - main [MainThread]: End processing [LCPDelta]: success
+[2023-08-02 13:10:14] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.318.tar.gz]
+[2023-08-02 13:10:14] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.320.tar.gz]
+[2023-08-02 13:10:14] INFO root fetch - main [MainThread]: End processing [pyright]: success
+[2023-08-02 13:10:14] INFO root fetch - processPackages [bitrot]: Remove: archive file [/home/abi/fetcher/tmp/bitrot-1.0.0.tar.gz]
+[2023-08-02 13:10:14] INFO root fetch - processPackages [bitrot]: Remove: archive file [/home/abi/fetcher/tmp/bitrot-1.0.1.tar.gz]
+[2023-08-02 13:10:14] INFO root fetch - main [MainThread]: End processing [bitrot]: success
+[2023-08-02 13:10:14] INFO root fetch - processPackages [scipion-em-aretomo]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-aretomo-3.7.tar.gz]
+[2023-08-02 13:10:14] INFO root fetch - processPackages [scipion-em-aretomo]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-aretomo-3.7.1.tar.gz]
+[2023-08-02 13:10:14] INFO root fetch - main [MainThread]: End processing [scipion-em-aretomo]: success
+[2023-08-02 13:10:14] INFO root fetch - processPackages [mb_netmgmt]: Remove: archive file [/home/abi/fetcher/tmp/mb_netmgmt-0.0.8.tar.gz]
+[2023-08-02 13:10:14] INFO root fetch - processPackages [mb_netmgmt]: Remove: archive file [/home/abi/fetcher/tmp/mb_netmgmt-0.0.9.tar.gz]
+[2023-08-02 13:10:14] INFO root fetch - main [MainThread]: End processing [mb_netmgmt]: success
+[2023-08-02 13:10:14] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-08-02 13:10:14] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-08-02 13:10:14] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-08-02 13:10:15] INFO root fetch - processPackages [geomanager]: Remove: archive file [/home/abi/fetcher/tmp/geomanager-0.0.4.tar.gz]
+[2023-08-02 13:10:15] INFO root fetch - processPackages [geomanager]: Remove: archive file [/home/abi/fetcher/tmp/geomanager-0.0.5.tar.gz]
+[2023-08-02 13:10:15] INFO root fetch - main [MainThread]: End processing [geomanager]: success
+[2023-08-02 13:10:15] INFO root fetch - main [MainThread]: Store serial: [19140425]

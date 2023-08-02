@@ -21890,3 +21890,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-02 13:37:24] INFO root fetch - processPackages [dara-core]: Remove: archive file [/home/abi/fetcher/tmp/dara_core-1.0.0a2-py3-none-any.whl.zip]
 [2023-08-02 13:37:24] INFO root fetch - main [MainThread]: End processing [dara-core]: success
 [2023-08-02 13:37:24] INFO root fetch - main [MainThread]: Store serial: [19140634]
+[2023-08-02 13:42:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19140634]
+[2023-08-02 13:42:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-02 13:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: always-updates
+[2023-08-02 13:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: always-updates
+[2023-08-02 13:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flojoy
+[2023-08-02 13:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyre-check-nightly
+[2023-08-02 13:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: report-dh
+[2023-08-02 13:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cellfinder
+[2023-08-02 13:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: always-updates
+[2023-08-02 13:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: always-updates
+[2023-08-02 13:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jfExt
+[2023-08-02 13:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nice65
+[2023-08-02 13:42:34] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-02 13:42:34] WARNING root fetch - processPackages [nice65]: Skipping, unable to determine old version
+[2023-08-02 13:42:34] INFO root fetch - processPackages [nice65]: Start processing: MicrobeRX
+[2023-08-02 13:42:34] INFO root fetch - main [MainThread]: End processing [nice65] error
+[2023-08-02 13:42:34] INFO root fetch - processPackages [report-dh]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-02 13:42:34] INFO root fetch - processPackages [flojoy]: New version: [0.2.2.dev9] Old Version: [0.2.2.dev8]
+[2023-08-02 13:42:34] INFO root fetch - processPackages [cellfinder]: New version: [0.7.0] Old Version: [0.4.9]
+[2023-08-02 13:42:34] INFO root fetch - processPackages [jfExt]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-08-02 13:42:34] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-02 13:42:34] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-02 13:42:34] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-02 13:42:34] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101690974660] Old Version: [0.0.101690888251]
+[2023-08-02 13:42:34] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/ca/61/310c98f28cdee4f9643eebd855676e5c7be6042e137573cdc28768e8f575/report-dh-0.9.1.tar.gz
+[2023-08-02 13:42:34] WARNING root fetch - processPackages [MicrobeRX]: Skipping, unable to determine old version
+[2023-08-02 13:42:34] INFO root fetch - main [MainThread]: End processing [MicrobeRX] error
+[2023-08-02 13:42:34] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-02 13:42:34] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-02 13:42:34] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-02 13:42:34] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-02 13:42:34] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/58/4a/411ed49c4c426bcb70e5ad46561890a01ad521164c31dc1a485ce164a90b/flojoy-0.2.2.dev8.tar.gz
+[2023-08-02 13:42:34] INFO root fetch - processPackages [cellfinder]: Downloading https://files.pythonhosted.org/packages/1c/20/2ee932fb44a5c73fda2a3dc369c0d330c87937a18fe89c36e33155e6ca3b/cellfinder-0.4.9.tar.gz
+[2023-08-02 13:42:34] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/e5/7e/3fbfaa91d86cd9c088f8f42fabc1eebbc029ab575a9bbbb32e24abf1c20a/jfExt-1.9.2.tar.gz
+[2023-08-02 13:42:34] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/4b/34/8b69204016c044d122c72a8388c37e37c06ab9699d9f6c555d8cf3da0018/pyre-check-nightly-0.0.101690888251.tar.gz
+[2023-08-02 13:42:34] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/46/6b/31920ea74c958ad93386f56bfb06760dfac1e7c2fbefd75115490c2ccf21/report-dh-0.9.2.tar.gz
+[2023-08-02 13:42:34] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-02 13:42:34] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23739545>=10485760
+[2023-08-02 13:42:34] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-08-02 13:42:34] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-02 13:42:34] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-02 13:42:34] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-02 13:42:34] INFO root fetch - processPackages [report-dh]: executing diffoscope
+[2023-08-02 13:42:34] INFO root fetch - processPackages [report-dh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report-dh-0.9.1.tar.gz tmp/report-dh-0.9.2.tar.gz --markdown 20230802/r/report-dh/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-02 13:42:34] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/bc/c3/8f34f775e6b17119e5ed320a7df64187257c3d699a70476e77c210160e7f/flojoy-0.2.2.dev9.tar.gz
+[2023-08-02 13:42:35] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-02 13:42:35] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230802/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-02 13:42:35] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-02 13:42:35] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230802/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-02 13:42:35] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-02 13:42:35] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230802/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-02 13:42:35] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-02 13:42:35] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230802/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-02 13:42:35] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/ce/51/95691ae4b5a72a967f0ef1b8e09494c5c40e7b25992912d677d442c10e66/jfExt-1.9.3.tar.gz
+[2023-08-02 13:42:35] INFO root fetch - processPackages [cellfinder]: Downloading https://files.pythonhosted.org/packages/5b/9b/41703498abbae9c54b7ec9b7021397d47cdbea38da7c07acb5e03233ec2d/cellfinder-0.7.0.tar.gz
+[2023-08-02 13:42:35] INFO root fetch - processPackages [flojoy]: executing diffoscope
+[2023-08-02 13:42:35] INFO root fetch - processPackages [flojoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flojoy-0.2.2.dev8.tar.gz tmp/flojoy-0.2.2.dev9.tar.gz --markdown 20230802/f/flojoy/0.2.2.dev8-0.2.2.dev9/diff.md --exclude *.pyd
+[2023-08-02 13:42:35] INFO root fetch - processPackages [cellfinder]: executing diffoscope
+[2023-08-02 13:42:35] INFO root fetch - processPackages [cellfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellfinder-0.4.9.tar.gz tmp/cellfinder-0.7.0.tar.gz --markdown 20230802/c/cellfinder/0.4.9-0.7.0/diff.md --exclude *.pyd
+[2023-08-02 13:42:35] INFO root fetch - processPackages [jfExt]: executing diffoscope
+[2023-08-02 13:42:35] INFO root fetch - processPackages [jfExt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfExt-1.9.2.tar.gz tmp/jfExt-1.9.3.tar.gz --markdown 20230802/j/jfExt/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-08-02 13:42:36] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.1.tar.gz]
+[2023-08-02 13:42:36] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.2.tar.gz]
+[2023-08-02 13:42:36] INFO root fetch - main [MainThread]: End processing [report-dh]: success
+[2023-08-02 13:42:37] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-08-02 13:42:37] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-08-02 13:42:37] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-02 13:42:37] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-02 13:42:37] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-02 13:42:37] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-02 13:42:37] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev8.tar.gz]
+[2023-08-02 13:42:37] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev9.tar.gz]
+[2023-08-02 13:42:37] INFO root fetch - main [MainThread]: End processing [flojoy]: success
+[2023-08-02 13:42:37] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.2.tar.gz]
+[2023-08-02 13:42:37] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.3.tar.gz]
+[2023-08-02 13:42:37] INFO root fetch - main [MainThread]: End processing [jfExt]: success
+[2023-08-02 13:42:37] INFO root fetch - processPackages [cellfinder]: Remove: archive file [/home/abi/fetcher/tmp/cellfinder-0.4.9.tar.gz]
+[2023-08-02 13:42:37] INFO root fetch - processPackages [cellfinder]: Remove: archive file [/home/abi/fetcher/tmp/cellfinder-0.7.0.tar.gz]
+[2023-08-02 13:42:37] INFO root fetch - main [MainThread]: End processing [cellfinder]: success
+[2023-08-02 13:42:37] INFO root fetch - main [MainThread]: Store serial: [19140675]

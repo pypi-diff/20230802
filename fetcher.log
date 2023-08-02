@@ -13644,3 +13644,63 @@
 [2023-08-02 07:52:49] INFO root fetch - processPackages [phynteny]: Remove: archive file [/home/abi/fetcher/tmp/phynteny-0.1.12.tar.gz]
 [2023-08-02 07:52:49] INFO root fetch - main [MainThread]: End processing [phynteny]: success
 [2023-08-02 07:52:49] INFO root fetch - main [MainThread]: Store serial: [19137009]
+[2023-08-02 07:57:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19137009]
+[2023-08-02 07:57:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-02 07:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: customs-dtoc
+[2023-08-02 07:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fprime-fpl-convert-xml
+[2023-08-02 07:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fprime-fpl-layout
+[2023-08-02 07:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fprime-fpl-write-pic
+[2023-08-02 07:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raga-testing-platform
+[2023-08-02 07:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: np-workflows
+[2023-08-02 07:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hppmodule
+[2023-08-02 07:57:58] INFO root fetch - processPackages [fprime-fpl-layout]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-02 07:57:58] INFO root fetch - processPackages [np-workflows]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-08-02 07:57:58] INFO root fetch - processPackages [fprime-fpl-convert-xml]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-02 07:57:58] INFO root fetch - processPackages [fprime-fpl-write-pic]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-02 07:57:58] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-02 07:57:58] WARNING root fetch - processPackages [customs-dtoc]: Skipping, unable to determine old version
+[2023-08-02 07:57:58] INFO root fetch - main [MainThread]: End processing [customs-dtoc] error
+[2023-08-02 07:57:58] INFO root fetch - processPackages [hppmodule]: New version: [1.1] Old Version: [0.15]
+[2023-08-02 07:57:58] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/79/f0/0fa25095ad07ad1bd48cf6fba3816492415511c013c514a468b3d474f59c/np_workflows-1.6.8.tar.gz
+[2023-08-02 07:57:58] INFO root fetch - processPackages [hppmodule]: Downloading https://files.pythonhosted.org/packages/99/8a/ff85a5ed448742944a2ee7d323794e80e89f37c84aacc664b3682df39207/hppmodule-0.15.tar.gz
+[2023-08-02 07:57:58] INFO root fetch - processPackages [fprime-fpl-layout]: Downloading https://files.pythonhosted.org/packages/32/11/ebed44d0e8fd97d2f98fda3b6d222bf1bb08eb3a5fbc75a5302ba20f2bf4/fprime_fpl_layout-0.1.1-py3-none-manylinux_2_28_x86_64.whl
+[2023-08-02 07:57:58] INFO root fetch - processPackages [fprime-fpl-write-pic]: Downloading https://files.pythonhosted.org/packages/1a/54/8f3c6abe5d11b7d14cc1c70b77800b08c4ad40e3115b76f9dafead96ac84/fprime_fpl_write_pic-0.1.1-py3-none-manylinux_2_28_x86_64.whl
+[2023-08-02 07:57:58] INFO root fetch - processPackages [fprime-fpl-convert-xml]: Downloading https://files.pythonhosted.org/packages/32/2d/40ed651c63bcf7072c0d9461195ed4cb9e0c60b60e0da608f40e656516f7/fprime_fpl_convert_xml-0.1.1-py3-none-manylinux_2_28_x86_64.whl
+[2023-08-02 07:57:58] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-08-02 07:57:58] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/22/99/1d9bd467267c7857762e4b9683759e82d21a0e8fc1b3850ae9710f4f7866/np_workflows-1.6.9.tar.gz
+[2023-08-02 07:57:58] INFO root fetch - processPackages [hppmodule]: Downloading https://files.pythonhosted.org/packages/8e/51/fb09ba89a4e0ce4717684610931b5d65ffe93df964f0cfb5cff9cb2ceeeb/hppmodule-1.1.tar.gz
+[2023-08-02 07:57:59] INFO root fetch - processPackages [hppmodule]: executing diffoscope
+[2023-08-02 07:57:59] INFO root fetch - processPackages [hppmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hppmodule-0.15.tar.gz tmp/hppmodule-1.1.tar.gz --markdown 20230802/h/hppmodule/0.15-1.1/diff.md --exclude *.pyd
+[2023-08-02 07:57:59] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2023-08-02 07:57:59] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.6.8.tar.gz tmp/np_workflows-1.6.9.tar.gz --markdown 20230802/n/np-workflows/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-08-02 07:57:59] INFO root fetch - processPackages [fprime-fpl-layout]: Downloading https://files.pythonhosted.org/packages/fd/a5/d520a3b1e5275d8061c4bffee98e3f36613e0aed68015344f9d9768de14b/fprime_fpl_layout-0.1.2-py3-none-manylinux_2_28_x86_64.whl
+[2023-08-02 07:57:59] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-08-02 07:57:59] INFO root fetch - processPackages [fprime-fpl-write-pic]: Downloading https://files.pythonhosted.org/packages/e8/e9/1b62d5c471b743679859fe984476cd0a35537a0cb23a2580570a815ad854/fprime_fpl_write_pic-0.1.2-py3-none-manylinux_2_28_x86_64.whl
+[2023-08-02 07:57:59] INFO root fetch - processPackages [fprime-fpl-convert-xml]: Downloading https://files.pythonhosted.org/packages/2e/51/ae3de1dad207dc0cfa9fa68ffbb1884460faecf285ad5fa0acdea9fae2f4/fprime_fpl_convert_xml-0.1.2-py3-none-manylinux_2_28_x86_64.whl
+[2023-08-02 07:57:59] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-08-02 07:57:59] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230802/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 07:57:59] INFO root fetch - processPackages [fprime-fpl-write-pic]: executing diffoscope
+[2023-08-02 07:57:59] INFO root fetch - processPackages [fprime-fpl-write-pic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_fpl_write_pic-0.1.1-py3-none-manylinux_2_28_x86_64.whl.zip tmp/fprime_fpl_write_pic-0.1.2-py3-none-manylinux_2_28_x86_64.whl.zip --markdown 20230802/f/fprime-fpl-write-pic/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-02 07:57:59] INFO root fetch - processPackages [hppmodule]: Remove: archive file [/home/abi/fetcher/tmp/hppmodule-0.15.tar.gz]
+[2023-08-02 07:57:59] INFO root fetch - processPackages [hppmodule]: Remove: archive file [/home/abi/fetcher/tmp/hppmodule-1.1.tar.gz]
+[2023-08-02 07:57:59] INFO root fetch - main [MainThread]: End processing [hppmodule]: success
+[2023-08-02 07:58:00] INFO root fetch - processPackages [fprime-fpl-convert-xml]: executing diffoscope
+[2023-08-02 07:58:00] INFO root fetch - processPackages [fprime-fpl-convert-xml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_fpl_convert_xml-0.1.1-py3-none-manylinux_2_28_x86_64.whl.zip tmp/fprime_fpl_convert_xml-0.1.2-py3-none-manylinux_2_28_x86_64.whl.zip --markdown 20230802/f/fprime-fpl-convert-xml/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-02 07:58:00] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.8.tar.gz]
+[2023-08-02 07:58:00] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.9.tar.gz]
+[2023-08-02 07:58:00] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2023-08-02 07:58:00] INFO root fetch - processPackages [fprime-fpl-layout]: executing diffoscope
+[2023-08-02 07:58:00] INFO root fetch - processPackages [fprime-fpl-layout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_fpl_layout-0.1.1-py3-none-manylinux_2_28_x86_64.whl.zip tmp/fprime_fpl_layout-0.1.2-py3-none-manylinux_2_28_x86_64.whl.zip --markdown 20230802/f/fprime-fpl-layout/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-02 07:58:00] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-08-02 07:58:00] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-08-02 07:58:00] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-08-02 07:58:24] INFO root fetch - processPackages [fprime-fpl-write-pic]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpl_write_pic-0.1.1-py3-none-manylinux_2_28_x86_64.whl.zip]
+[2023-08-02 07:58:24] INFO root fetch - processPackages [fprime-fpl-write-pic]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpl_write_pic-0.1.2-py3-none-manylinux_2_28_x86_64.whl.zip]
+[2023-08-02 07:58:24] INFO root fetch - main [MainThread]: End processing [fprime-fpl-write-pic]: success
+[2023-08-02 07:58:24] INFO root fetch - processPackages [fprime-fpl-layout]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpl_layout-0.1.1-py3-none-manylinux_2_28_x86_64.whl.zip]
+[2023-08-02 07:58:24] INFO root fetch - processPackages [fprime-fpl-layout]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpl_layout-0.1.2-py3-none-manylinux_2_28_x86_64.whl.zip]
+[2023-08-02 07:58:24] INFO root fetch - main [MainThread]: End processing [fprime-fpl-layout]: success
+[2023-08-02 07:58:34] INFO root fetch - processPackages [fprime-fpl-convert-xml]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpl_convert_xml-0.1.1-py3-none-manylinux_2_28_x86_64.whl.zip]
+[2023-08-02 07:58:34] INFO root fetch - processPackages [fprime-fpl-convert-xml]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpl_convert_xml-0.1.2-py3-none-manylinux_2_28_x86_64.whl.zip]
+[2023-08-02 07:58:34] INFO root fetch - main [MainThread]: End processing [fprime-fpl-convert-xml]: success
+[2023-08-02 07:58:34] INFO root fetch - main [MainThread]: Store serial: [19137038]

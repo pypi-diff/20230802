@@ -21094,3 +21094,145 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-02 12:59:48] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.0.9.tar.gz]
 [2023-08-02 12:59:48] INFO root fetch - main [MainThread]: End processing [image2layout-computer-vision]: success
 [2023-08-02 12:59:48] INFO root fetch - main [MainThread]: Store serial: [19140332]
+[2023-08-02 13:04:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19140332]
+[2023-08-02 13:04:56] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-02 13:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clipped
+[2023-08-02 13:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lastfm-mpris2-scrobbler
+[2023-08-02 13:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KKMeans
+[2023-08-02 13:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: always-updates
+[2023-08-02 13:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zylo-admin
+[2023-08-02 13:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proactive
+[2023-08-02 13:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-private-bucket
+[2023-08-02 13:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: proactive-jupyter-kernel
+[2023-08-02 13:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bridgeql
+[2023-08-02 13:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: concrete-python
+[2023-08-02 13:04:57] INFO root fetch - processPackages [zylo-admin]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-02 13:04:57] INFO root fetch - processPackages [KKMeans]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-02 13:04:57] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-02 13:04:57] INFO root fetch - processPackages [concrete-python]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-08-02 13:04:57] INFO root fetch - processPackages [bridgeql]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-02 13:04:57] INFO root fetch - processPackages [clipped]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-08-02 13:04:57] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-08-02 13:04:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-08-02 13:04:57] INFO root fetch - processPackages [KKMeans]: Downloading https://files.pythonhosted.org/packages/73/29/f31f0f445d3a6bd6f425baae253cd67248b235476ef966ac73c214d91042/KKMeans-0.0.7.tar.gz
+[2023-08-02 13:04:57] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 13:04:57] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-02 13:04:57] INFO root fetch - processPackages [zylo-admin]: Downloading https://files.pythonhosted.org/packages/cd/28/491eaf97c6ae4be0ff1e928c3b78ecb1a2fec32436fd2bc3f8ed654a1894/zylo_admin-1.0.1-py3-none-any.whl
+[2023-08-02 13:04:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-08-02 13:04:57] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-08-02 13:04:57] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-08-02 13:04:57] INFO root fetch - processPackages [clipped]: Downloading https://files.pythonhosted.org/packages/6a/13/36387c6444bc38d6db4bf598a04ef4d7425b04001de15c308adf6e857238/clipped-0.5.0.tar.gz
+[2023-08-02 13:04:57] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: Downloading https://files.pythonhosted.org/packages/ba/86/42d2920beda3c452f2520503270c8638d0f653f30061283017a0061aaa17/lastfm-mpris2-scrobbler-0.2.0.tar.gz
+[2023-08-02 13:04:57] INFO root fetch - processPackages [concrete-python]: Downloading https://files.pythonhosted.org/packages/20/7d/ff4a76d1424f18bf8173d075d057bcdb00fc44432cfc1a8e6c47fd3e75b6/concrete_python-2.0.0-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-08-02 13:04:57] INFO root fetch - processPackages [bridgeql]: Downloading https://files.pythonhosted.org/packages/f0/13/2cfb4d6c4cc46dfbdc5785a77a2df879a7fb95438e2894a4ad2e2466dff7/bridgeql-0.2.1.tar.gz
+[2023-08-02 13:04:57] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-02 13:04:57] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-08-02 13:04:57] INFO root fetch - processPackages [proactive]: Start processing: AdroitFisherman
+[2023-08-02 13:04:57] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-08-02 13:04:57] WARNING root fetch - processPackages [concrete-python]: Skipping package: exceeds size limit 64780772>=10485760
+[2023-08-02 13:04:57] INFO root fetch - processPackages [concrete-python]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-08-02 13:04:57] INFO root fetch - main [MainThread]: End processing [concrete-python] error
+[2023-08-02 13:04:57] WARNING root fetch - processPackages [AdroitFisherman]: Skipping, unable to determine old version
+[2023-08-02 13:04:57] INFO root fetch - processPackages [AdroitFisherman]: Start processing: coretex
+[2023-08-02 13:04:57] INFO root fetch - main [MainThread]: End processing [AdroitFisherman] error
+[2023-08-02 13:04:57] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.8.8] Old Version: [0.3.9.8.7]
+[2023-08-02 13:04:57] INFO root fetch - processPackages [coretex]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-02 13:04:58] INFO root fetch - processPackages [KKMeans]: Downloading https://files.pythonhosted.org/packages/cd/fb/2c82d5f6f78142b156c26197efef459f9ceb7fa39a229381422034ad99bb/KKMeans-0.0.8.tar.gz
+[2023-08-02 13:04:58] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-08-02 13:04:58] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-08-02 13:04:58] INFO root fetch - processPackages [zylo-admin]: Downloading https://files.pythonhosted.org/packages/77/6c/8e50d95ffc82bdd8e30c7039b298cff95f6c7a456876a788c9c4fc8168a7/zylo-admin-1.0.2.tar.gz
+[2023-08-02 13:04:58] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: Downloading https://files.pythonhosted.org/packages/ad/cd/11197f58e798ae5604eb8807dcc62837cd834d18f7f3e9e07dc1e4c704ec/lastfm-mpris2-scrobbler-0.2.1.tar.gz
+[2023-08-02 13:04:58] INFO root fetch - processPackages [clipped]: Downloading https://files.pythonhosted.org/packages/b1/bb/704022bd6cf7638ee754a08c286c2e64eef492be669d01068dbb908d7aea/clipped-0.5.1.tar.gz
+[2023-08-02 13:04:58] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/a0/03/9080ee9fb764b12dc47bf0b4dd623ce1f7c217d5ef049e856742609f2f14/nonebot_plugin_stable_diffusion_diao-0.3.9.8.7.tar.gz
+[2023-08-02 13:04:58] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-08-02 13:04:58] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230802/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-08-02 13:04:58] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-08-02 13:04:58] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230802/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 13:04:58] INFO root fetch - processPackages [zylo-admin]: executing diffoscope
+[2023-08-02 13:04:58] INFO root fetch - processPackages [zylo-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zylo_admin-1.0.1-py3-none-any.whl.zip tmp/zylo-admin-1.0.2.tar.gz --markdown 20230802/z/zylo-admin/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-02 13:04:58] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/d7/75/8f4b6144971b3d6263e9a16d64f4cdb7e8674d361ee6bf7eb12131095413/coretex-1.0.8.tar.gz
+[2023-08-02 13:04:58] INFO root fetch - processPackages [bridgeql]: Downloading https://files.pythonhosted.org/packages/7f/f8/40524ca94ac7e180e8436e457b00a2ce693943d3b3cbaf28fb2ab5abeb0a/bridgeql-0.2.2.tar.gz
+[2023-08-02 13:04:58] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: executing diffoscope
+[2023-08-02 13:04:58] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastfm-mpris2-scrobbler-0.2.0.tar.gz tmp/lastfm-mpris2-scrobbler-0.2.1.tar.gz --markdown 20230802/l/lastfm-mpris2-scrobbler/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 13:04:58] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-02 13:04:58] INFO root fetch - processPackages [clipped]: executing diffoscope
+[2023-08-02 13:04:58] INFO root fetch - processPackages [clipped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clipped-0.5.0.tar.gz tmp/clipped-0.5.1.tar.gz --markdown 20230802/c/clipped/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-08-02 13:04:58] INFO root fetch - processPackages [bridgeql]: executing diffoscope
+[2023-08-02 13:04:58] INFO root fetch - processPackages [bridgeql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgeql-0.2.1.tar.gz tmp/bridgeql-0.2.2.tar.gz --markdown 20230802/b/bridgeql/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-02 13:04:58] INFO root fetch - processPackages [KKMeans]: executing diffoscope
+[2023-08-02 13:04:58] INFO root fetch - processPackages [KKMeans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KKMeans-0.0.7.tar.gz tmp/KKMeans-0.0.8.tar.gz --markdown 20230802/K/KKMeans/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-02 13:04:58] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-02 13:04:58] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230802/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-02 13:04:58] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/53/c1/6c0d9344784e5b8e2616df1064671b9f64dcf3e42d9a796c4f6da48e34cd/nonebot_plugin_stable_diffusion_diao-0.3.9.8.8.tar.gz
+[2023-08-02 13:04:58] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/d6/c4/89dc77c1c4645d9dfc7e2c5fabe518d4c2a28b7142db6b030a93cb938fca/coretex-1.0.9.tar.gz
+[2023-08-02 13:04:58] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-08-02 13:04:58] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.7.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.8.tar.gz --markdown 20230802/n/nonebot-plugin-stable-diffusion-diao/0.3.9.8.7-0.3.9.8.8/diff.md --exclude *.pyd
+[2023-08-02 13:04:58] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-08-02 13:04:58] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.8.tar.gz tmp/coretex-1.0.9.tar.gz --markdown 20230802/c/coretex/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 13:04:59] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-08-02 13:04:59] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-08-02 13:04:59] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Start processing: pybiolib
+[2023-08-02 13:04:59] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-08-02 13:04:59] INFO root fetch - processPackages [zylo-admin]: Remove: archive file [/home/abi/fetcher/tmp/zylo_admin-1.0.1-py3-none-any.whl.zip]
+[2023-08-02 13:04:59] INFO root fetch - processPackages [zylo-admin]: Remove: archive file [/home/abi/fetcher/tmp/zylo-admin-1.0.2.tar.gz]
+[2023-08-02 13:04:59] INFO root fetch - processPackages [zylo-admin]: Start processing: sphinx-changelog
+[2023-08-02 13:04:59] INFO root fetch - main [MainThread]: End processing [zylo-admin]: success
+[2023-08-02 13:04:59] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: Remove: archive file [/home/abi/fetcher/tmp/lastfm-mpris2-scrobbler-0.2.0.tar.gz]
+[2023-08-02 13:04:59] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: Remove: archive file [/home/abi/fetcher/tmp/lastfm-mpris2-scrobbler-0.2.1.tar.gz]
+[2023-08-02 13:04:59] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: Start processing: prevo
+[2023-08-02 13:04:59] INFO root fetch - main [MainThread]: End processing [lastfm-mpris2-scrobbler]: success
+[2023-08-02 13:04:59] INFO root fetch - processPackages [sphinx-changelog]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-08-02 13:04:59] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2023-08-02 13:04:59] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-08-02 13:04:59] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-08-02 13:05:00] INFO root fetch - processPackages [proactive-jupyter-kernel]: Start processing: pig-sdk
+[2023-08-02 13:05:00] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-08-02 13:05:00] INFO root fetch - processPackages [prevo]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-02 13:05:00] INFO root fetch - processPackages [sphinx-changelog]: Downloading https://files.pythonhosted.org/packages/8c/e0/7b98a5936c76d6d8f95b64907df0b56a8d5eeabf65034ea4befb01aa2248/sphinx_changelog-1.3.0.tar.gz
+[2023-08-02 13:05:00] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-08-02 13:05:00] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-08-02 13:05:00] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-02 13:05:00] INFO root fetch - processPackages [prevo]: Downloading https://files.pythonhosted.org/packages/58/ec/5d4f8aee7df3016880ad1c2bf6fdd3fa1ddd7327146334a5af5a1fe73b81/prevo-0.8.1.tar.gz
+[2023-08-02 13:05:00] INFO root fetch - processPackages [bridgeql]: Remove: archive file [/home/abi/fetcher/tmp/bridgeql-0.2.1.tar.gz]
+[2023-08-02 13:05:00] INFO root fetch - processPackages [bridgeql]: Remove: archive file [/home/abi/fetcher/tmp/bridgeql-0.2.2.tar.gz]
+[2023-08-02 13:05:00] INFO root fetch - main [MainThread]: End processing [bridgeql]: success
+[2023-08-02 13:05:00] INFO root fetch - processPackages [clipped]: Remove: archive file [/home/abi/fetcher/tmp/clipped-0.5.0.tar.gz]
+[2023-08-02 13:05:00] INFO root fetch - processPackages [clipped]: Remove: archive file [/home/abi/fetcher/tmp/clipped-0.5.1.tar.gz]
+[2023-08-02 13:05:00] INFO root fetch - main [MainThread]: End processing [clipped]: success
+[2023-08-02 13:05:00] INFO root fetch - processPackages [pig-sdk]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-08-02 13:05:00] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2023-08-02 13:05:00] INFO root fetch - processPackages [sphinx-changelog]: Downloading https://files.pythonhosted.org/packages/ae/e5/d087844b8bcbdd4e51f8116c64288fb8479ffaff84a86010d6cb5b2dde53/sphinx_changelog-1.4.0.tar.gz
+[2023-08-02 13:05:00] INFO root fetch - processPackages [prevo]: Downloading https://files.pythonhosted.org/packages/26/f3/2e237b95ea66098709c5f36c7124c87b977ae797e141696103b35a9f04bc/prevo-0.9.0.tar.gz
+[2023-08-02 13:05:00] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.7.tar.gz]
+[2023-08-02 13:05:00] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.8.tar.gz]
+[2023-08-02 13:05:00] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-08-02 13:05:00] INFO root fetch - processPackages [sphinx-changelog]: executing diffoscope
+[2023-08-02 13:05:00] INFO root fetch - processPackages [sphinx-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_changelog-1.3.0.tar.gz tmp/sphinx_changelog-1.4.0.tar.gz --markdown 20230802/s/sphinx-changelog/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-08-02 13:05:00] INFO root fetch - processPackages [KKMeans]: Remove: archive file [/home/abi/fetcher/tmp/KKMeans-0.0.7.tar.gz]
+[2023-08-02 13:05:00] INFO root fetch - processPackages [KKMeans]: Remove: archive file [/home/abi/fetcher/tmp/KKMeans-0.0.8.tar.gz]
+[2023-08-02 13:05:00] INFO root fetch - main [MainThread]: End processing [KKMeans]: success
+[2023-08-02 13:05:00] INFO root fetch - processPackages [pig-sdk]: Downloading https://files.pythonhosted.org/packages/ff/54/c4c7fcc1d73b2a31c311ddd82eddbb213314aacd20867aa21e8598448d98/pig_sdk-1.1.4.tar.gz
+[2023-08-02 13:05:00] INFO root fetch - processPackages [prevo]: executing diffoscope
+[2023-08-02 13:05:00] INFO root fetch - processPackages [prevo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prevo-0.8.1.tar.gz tmp/prevo-0.9.0.tar.gz --markdown 20230802/p/prevo/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 13:05:00] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2023-08-02 13:05:00] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-08-02 13:05:00] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20230802/p/pybiolib/1.1.997-1.1.999/diff.md --exclude *.pyd
+[2023-08-02 13:05:00] INFO root fetch - processPackages [pig-sdk]: Downloading https://files.pythonhosted.org/packages/e8/1a/dfe83c36a53da73e50017e3c8816716ec6d433ce27de94527b6806710761/pig_sdk-1.2.0.tar.gz
+[2023-08-02 13:05:00] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.8.tar.gz]
+[2023-08-02 13:05:00] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.9.tar.gz]
+[2023-08-02 13:05:00] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-08-02 13:05:01] INFO root fetch - processPackages [pig-sdk]: executing diffoscope
+[2023-08-02 13:05:01] INFO root fetch - processPackages [pig-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pig_sdk-1.1.4.tar.gz tmp/pig_sdk-1.2.0.tar.gz --markdown 20230802/p/pig-sdk/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-08-02 13:05:01] INFO root fetch - processPackages [sphinx-changelog]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_changelog-1.3.0.tar.gz]
+[2023-08-02 13:05:01] INFO root fetch - processPackages [sphinx-changelog]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_changelog-1.4.0.tar.gz]
+[2023-08-02 13:05:01] INFO root fetch - main [MainThread]: End processing [sphinx-changelog]: success
+[2023-08-02 13:05:01] INFO root fetch - processPackages [prevo]: Remove: archive file [/home/abi/fetcher/tmp/prevo-0.8.1.tar.gz]
+[2023-08-02 13:05:01] INFO root fetch - processPackages [prevo]: Remove: archive file [/home/abi/fetcher/tmp/prevo-0.9.0.tar.gz]
+[2023-08-02 13:05:01] INFO root fetch - main [MainThread]: End processing [prevo]: success
+[2023-08-02 13:05:01] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2023-08-02 13:05:01] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2023-08-02 13:05:01] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-08-02 13:05:02] INFO root fetch - processPackages [pig-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pig_sdk-1.1.4.tar.gz]
+[2023-08-02 13:05:02] INFO root fetch - processPackages [pig-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pig_sdk-1.2.0.tar.gz]
+[2023-08-02 13:05:02] INFO root fetch - main [MainThread]: End processing [pig-sdk]: success
+[2023-08-02 13:05:02] INFO root fetch - main [MainThread]: Store serial: [19140394]

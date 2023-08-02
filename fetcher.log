@@ -21587,3 +21587,117 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-02 13:21:10] INFO root fetch - processPackages [finesse]: Remove: archive file [/home/abi/fetcher/tmp/finesse-3.0a8.tar.gz]
 [2023-08-02 13:21:10] INFO root fetch - main [MainThread]: End processing [finesse]: success
 [2023-08-02 13:21:10] INFO root fetch - main [MainThread]: Store serial: [19140522]
+[2023-08-02 13:26:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19140522]
+[2023-08-02 13:26:23] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-02 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: always-updates
+[2023-08-02 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: krfzf-py
+[2023-08-02 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: osw
+[2023-08-02 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: holo-vector-store
+[2023-08-02 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: osw
+[2023-08-02 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sampo
+[2023-08-02 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ag-llama2-hub-s
+[2023-08-02 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: djangocms-leaflet
+[2023-08-02 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lazysdk
+[2023-08-02 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchserve-nightly
+[2023-08-02 13:26:23] INFO root fetch - processPackages [osw]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-02 13:26:23] INFO root fetch - processPackages [osw]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-02 13:26:23] INFO root fetch - processPackages [ag-llama2-hub-s]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-08-02 13:26:23] INFO root fetch - processPackages [krfzf-py]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-02 13:26:23] INFO root fetch - processPackages [djangocms-leaflet]: New version: [0.0.3b2] Old Version: [0.0.3b1]
+[2023-08-02 13:26:23] INFO root fetch - processPackages [holo-vector-store]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-02 13:26:23] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.8.1] Old Version: [2023.7.9]
+[2023-08-02 13:26:23] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 13:26:23] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-02 13:26:23] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-08-02 13:26:24] INFO root fetch - processPackages [djangocms-leaflet]: Downloading https://files.pythonhosted.org/packages/23/3d/0c0dc6ec38c709872764ac1b5443560cce55eb85553c62988e68b27ed476/djangocms_leaflet-0.0.3b1.tar.gz
+[2023-08-02 13:26:24] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/b2/22/c32218b9186513a19502d6b2d788048749672ea0e92d519306d89cee0ac9/torchserve_nightly-2023.7.9-py3-none-any.whl
+[2023-08-02 13:26:24] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-08-02 13:26:24] INFO root fetch - processPackages [krfzf-py]: Downloading https://files.pythonhosted.org/packages/78/93/c8eda31c6177f993cb111c9f8d7eec26cc949049c163f7561f13d5ecf316/krfzf_py-0.0.4.tar.gz
+[2023-08-02 13:26:24] INFO root fetch - processPackages [ag-llama2-hub-s]: Downloading https://files.pythonhosted.org/packages/8e/94/e089ab0635bfea3fec61bb10c25026f110600bdb3a5f0fa58cb7939adfd4/ag_llama2_hub_s-0.0.18.tar.gz
+[2023-08-02 13:26:24] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/c0/f0/691fad5ee7a8eae5d9b71eb531e4b6d414959a5afcc9811977263994bd77/sampo-0.1.1.98.tar.gz
+[2023-08-02 13:26:24] INFO root fetch - processPackages [osw]: Downloading https://files.pythonhosted.org/packages/26/a8/326700e2a6461b1445964baa8f725eaa49b86e7d01b90acfe28e9cd8dd9c/osw-0.8.1.tar.gz
+[2023-08-02 13:26:24] INFO root fetch - processPackages [osw]: Downloading https://files.pythonhosted.org/packages/26/a8/326700e2a6461b1445964baa8f725eaa49b86e7d01b90acfe28e9cd8dd9c/osw-0.8.1.tar.gz
+[2023-08-02 13:26:24] INFO root fetch - processPackages [holo-vector-store]: Downloading https://files.pythonhosted.org/packages/8a/0f/7935d4642c263fd06cfb88fe5c12b7141de751d241c87948545e198e8eae/holo_vector_store-0.0.4.tar.gz
+[2023-08-02 13:26:24] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-02 13:26:24] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750207>=10485760
+[2023-08-02 13:26:24] INFO root fetch - processPackages [torchserve-nightly]: Start processing: torch-model-archiver-nightly
+[2023-08-02 13:26:24] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-08-02 13:26:24] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.8.1] Old Version: [2023.7.9]
+[2023-08-02 13:26:24] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-08-02 13:26:24] INFO root fetch - processPackages [krfzf-py]: Downloading https://files.pythonhosted.org/packages/62/9c/9cc4195df6a32f2ed6a0d95ef25a9679ec54e7c71a4b5e87d6b65b8ff69a/krfzf_py-0.0.5.tar.gz
+[2023-08-02 13:26:24] INFO root fetch - processPackages [ag-llama2-hub-s]: Downloading https://files.pythonhosted.org/packages/a4/87/d1d303cd259594ae6d20a957e13915318dd0118a9349fe073da39d5e87ad/ag_llama2_hub_s-0.0.19.tar.gz
+[2023-08-02 13:26:24] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fa/aa/2acd3c1df69eef6cb2f42f54b0fd7b1c220c14c65ccebdf7f555bda0304d/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-08-02 13:26:24] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/28/10/7f07e18ca3b08fef3d13985a88344883d8eaf53be7daeda7186b282872a8/sampo-0.1.1.99.tar.gz
+[2023-08-02 13:26:24] INFO root fetch - processPackages [djangocms-leaflet]: Downloading https://files.pythonhosted.org/packages/f4/4d/cef0f51b2c4523751c544f5391a45bb377eca8c0bbec7f3f82d3f8c30fa7/djangocms_leaflet-0.0.3b2.tar.gz
+[2023-08-02 13:26:24] INFO root fetch - processPackages [holo-vector-store]: Downloading https://files.pythonhosted.org/packages/78/cf/968341c6f43d2a79d40720ae082e60631210109dc59e5a3759e74b559c38/holo_vector_store-0.0.5.tar.gz
+[2023-08-02 13:26:24] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-08-02 13:26:24] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230802/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 13:26:24] INFO root fetch - processPackages [osw]: Downloading https://files.pythonhosted.org/packages/13/cc/74dd2c87432fecad0abe454330808f96c0eb0589faea2daeb46dd621947a/osw-0.9.0.tar.gz
+[2023-08-02 13:26:24] INFO root fetch - processPackages [osw]: Downloading https://files.pythonhosted.org/packages/13/cc/74dd2c87432fecad0abe454330808f96c0eb0589faea2daeb46dd621947a/osw-0.9.0.tar.gz
+[2023-08-02 13:26:24] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-02 13:26:24] INFO root fetch - processPackages [krfzf-py]: executing diffoscope
+[2023-08-02 13:26:24] INFO root fetch - processPackages [krfzf-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krfzf_py-0.0.4.tar.gz tmp/krfzf_py-0.0.5.tar.gz --markdown 20230802/k/krfzf-py/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-02 13:26:25] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-08-02 13:26:25] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230802/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-08-02 13:26:25] INFO root fetch - processPackages [ag-llama2-hub-s]: executing diffoscope
+[2023-08-02 13:26:25] INFO root fetch - processPackages [ag-llama2-hub-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama2_hub_s-0.0.18.tar.gz tmp/ag_llama2_hub_s-0.0.19.tar.gz --markdown 20230802/a/ag-llama2-hub-s/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-08-02 13:26:25] INFO root fetch - processPackages [holo-vector-store]: executing diffoscope
+[2023-08-02 13:26:25] INFO root fetch - processPackages [holo-vector-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holo_vector_store-0.0.4.tar.gz tmp/holo_vector_store-0.0.5.tar.gz --markdown 20230802/h/holo-vector-store/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-02 13:26:25] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-02 13:26:25] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230802/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-02 13:26:25] INFO root fetch - processPackages [djangocms-leaflet]: executing diffoscope
+[2023-08-02 13:26:25] INFO root fetch - processPackages [djangocms-leaflet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms_leaflet-0.0.3b1.tar.gz tmp/djangocms_leaflet-0.0.3b2.tar.gz --markdown 20230802/d/djangocms-leaflet/0.0.3b1-0.0.3b2/diff.md --exclude *.pyd
+[2023-08-02 13:26:25] INFO root fetch - processPackages [osw]: executing diffoscope
+[2023-08-02 13:26:25] INFO root fetch - processPackages [osw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osw-0.8.1.tar.gz tmp/osw-0.9.0.tar.gz --markdown 20230802/o/osw/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 13:26:25] INFO root fetch - processPackages [osw]: executing diffoscope
+[2023-08-02 13:26:25] INFO root fetch - processPackages [osw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osw-0.8.1.tar.gz tmp/osw-0.9.0.tar.gz --markdown 20230802/o/osw/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 13:26:25] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/1e/4a/d6d24efd802133e8ad23559efab3aa4115e8a54a0a0f206050f21ada1a12/torch_model_archiver_nightly-2023.8.1-py3-none-any.whl
+[2023-08-02 13:26:25] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-08-02 13:26:25] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.8.1-py3-none-any.whl.zip --markdown 20230802/t/torch-model-archiver-nightly/2023.7.9-2023.8.1/diff.md --exclude *.pyd
+[2023-08-02 13:26:27] INFO root fetch - processPackages [krfzf-py]: Remove: archive file [/home/abi/fetcher/tmp/krfzf_py-0.0.4.tar.gz]
+[2023-08-02 13:26:27] INFO root fetch - processPackages [krfzf-py]: Remove: archive file [/home/abi/fetcher/tmp/krfzf_py-0.0.5.tar.gz]
+[2023-08-02 13:26:27] INFO root fetch - processPackages [krfzf-py]: Start processing: torch-workflow-archiver-nightly
+[2023-08-02 13:26:27] INFO root fetch - main [MainThread]: End processing [krfzf-py]: success
+[2023-08-02 13:26:27] INFO root fetch - processPackages [ag-llama2-hub-s]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama2_hub_s-0.0.18.tar.gz]
+[2023-08-02 13:26:27] INFO root fetch - processPackages [ag-llama2-hub-s]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama2_hub_s-0.0.19.tar.gz]
+[2023-08-02 13:26:27] INFO root fetch - processPackages [ag-llama2-hub-s]: Start processing: torchtnt-nightly
+[2023-08-02 13:26:27] INFO root fetch - main [MainThread]: End processing [ag-llama2-hub-s]: success
+[2023-08-02 13:26:27] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.8.1] Old Version: [2023.7.9]
+[2023-08-02 13:26:27] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.8.1] Old Version: [2023.7.9]
+[2023-08-02 13:26:27] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-08-02 13:26:27] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-08-02 13:26:27] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-08-02 13:26:27] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fe/e1/e410f517fa560296c172a15440f705636cb42246e81398b27edb5a7c072f/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-08-02 13:26:28] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/ae/7f/589eb3c0712725a4a9594bdbc4229b9087a94038117bda63c54ef6d2e7e5/torchtnt-nightly-2023.7.9.tar.gz
+[2023-08-02 13:26:28] INFO root fetch - processPackages [holo-vector-store]: Remove: archive file [/home/abi/fetcher/tmp/holo_vector_store-0.0.4.tar.gz]
+[2023-08-02 13:26:28] INFO root fetch - processPackages [holo-vector-store]: Remove: archive file [/home/abi/fetcher/tmp/holo_vector_store-0.0.5.tar.gz]
+[2023-08-02 13:26:28] INFO root fetch - main [MainThread]: End processing [holo-vector-store]: success
+[2023-08-02 13:26:28] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-08-02 13:26:28] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-08-02 13:26:28] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-02 13:26:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-08-02 13:26:28] INFO root fetch - processPackages [djangocms-leaflet]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_leaflet-0.0.3b1.tar.gz]
+[2023-08-02 13:26:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.8.1-py3-none-any.whl.zip]
+[2023-08-02 13:26:28] INFO root fetch - processPackages [djangocms-leaflet]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_leaflet-0.0.3b2.tar.gz]
+[2023-08-02 13:26:28] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-08-02 13:26:28] INFO root fetch - main [MainThread]: End processing [djangocms-leaflet]: success
+[2023-08-02 13:26:28] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/90/7c/2cf89f3905bde7fbe5ecdf5a659117672d39c181b8bf65b6e4c4c376c35b/torchtnt-nightly-2023.8.1.tar.gz
+[2023-08-02 13:26:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/bb/94/b3576b1c85d26bbe9b7b0c16ef6363714e84d3c1f63bc8e615d39b394b5c/torch_workflow_archiver_nightly-2023.8.1-py3-none-any.whl
+[2023-08-02 13:26:28] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-08-02 13:26:28] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.9.tar.gz tmp/torchtnt-nightly-2023.8.1.tar.gz --markdown 20230802/t/torchtnt-nightly/2023.7.9-2023.8.1/diff.md --exclude *.pyd
+[2023-08-02 13:26:28] INFO root fetch - processPackages [sampo]: Remove: archive file [/home/abi/fetcher/tmp/sampo-0.1.1.98.tar.gz]
+[2023-08-02 13:26:28] INFO root fetch - processPackages [sampo]: Remove: archive file [/home/abi/fetcher/tmp/sampo-0.1.1.99.tar.gz]
+[2023-08-02 13:26:28] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-08-02 13:26:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-08-02 13:26:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.8.1-py3-none-any.whl.zip --markdown 20230802/t/torch-workflow-archiver-nightly/2023.7.9-2023.8.1/diff.md --exclude *.pyd
+[2023-08-02 13:26:28] INFO root fetch - processPackages [osw]: Remove: archive file [/home/abi/fetcher/tmp/osw-0.8.1.tar.gz]
+[2023-08-02 13:26:28] INFO root fetch - processPackages [osw]: Remove: archive file [/home/abi/fetcher/tmp/osw-0.9.0.tar.gz]
+[2023-08-02 13:26:28] INFO root fetch - main [MainThread]: End processing [osw]: success
+[2023-08-02 13:26:28] INFO root fetch - main [MainThread]: End processing [osw]: success
+[2023-08-02 13:26:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-08-02 13:26:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.8.1-py3-none-any.whl.zip]
+[2023-08-02 13:26:29] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-08-02 13:26:29] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.9.tar.gz]
+[2023-08-02 13:26:29] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.8.1.tar.gz]
+[2023-08-02 13:26:29] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-08-02 13:26:29] INFO root fetch - main [MainThread]: Store serial: [19140565]

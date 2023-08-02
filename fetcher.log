@@ -20316,3 +20316,112 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-02 12:27:58] INFO root fetch - processPackages [gs-quant]: Remove: archive file [/home/abi/fetcher/tmp/gs_quant-1.0.9.tar.gz]
 [2023-08-02 12:27:58] INFO root fetch - main [MainThread]: End processing [gs-quant]: success
 [2023-08-02 12:27:58] INFO root fetch - main [MainThread]: Store serial: [19139973]
+[2023-08-02 12:33:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19139973]
+[2023-08-02 12:33:07] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-02 12:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: constellation
+[2023-08-02 12:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onedep-deposition
+[2023-08-02 12:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ursus-ssg
+[2023-08-02 12:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastdup
+[2023-08-02 12:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prodiapy
+[2023-08-02 12:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: umka
+[2023-08-02 12:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djangoldp-babelfish
+[2023-08-02 12:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucypher-core
+[2023-08-02 12:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-notifications-sdk-preview
+[2023-08-02 12:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xblock-sdk
+[2023-08-02 12:33:07] INFO root fetch - processPackages [djangoldp-babelfish]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-08-02 12:33:07] INFO root fetch - processPackages [onedep-deposition]: New version: [0.1.dev8] Old Version: [0.1.dev7]
+[2023-08-02 12:33:07] INFO root fetch - processPackages [prodiapy]: New version: [3.5] Old Version: [3.4]
+[2023-08-02 12:33:07] INFO root fetch - processPackages [umka]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-02 12:33:07] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.803] Old Version: [0.1.802]
+[2023-08-02 12:33:07] INFO root fetch - processPackages [ursus-ssg]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-08-02 12:33:07] INFO root fetch - processPackages [xblock-sdk]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-08-02 12:33:07] INFO root fetch - processPackages [constellation]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-08-02 12:33:07] INFO root fetch - processPackages [fastdup]: New version: [1.33] Old Version: [1.32]
+[2023-08-02 12:33:07] INFO root fetch - processPackages [nucypher-core]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-02 12:33:08] INFO root fetch - processPackages [xblock-sdk]: Downloading https://files.pythonhosted.org/packages/45/92/b3246cac343d24383708d2bd12db582110a23fea1c3e91035f5ad3182819/xblock-sdk-0.6.0.tar.gz
+[2023-08-02 12:33:08] INFO root fetch - processPackages [prodiapy]: Downloading https://files.pythonhosted.org/packages/60/d1/066ce6e4c60c1751ea7eab07265f714cbe6a447577eb03c7751302125a6e/prodiapy-3.4.tar.gz
+[2023-08-02 12:33:08] INFO root fetch - processPackages [onedep-deposition]: Downloading https://files.pythonhosted.org/packages/d2/98/30a87fc5998499dcea2b892c71dfaf3df7c060f26767f240cba5c2506572/onedep_deposition-0.1.dev7.tar.gz
+[2023-08-02 12:33:08] INFO root fetch - processPackages [constellation]: Downloading https://files.pythonhosted.org/packages/9c/c7/0a73177b21dea67a3a6da07648a32c431f2a7727f7b0f712a12987197ad2/constellation-1.1.2.tar.gz
+[2023-08-02 12:33:08] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ed/bc/78a97cd49ae3ec3973652748c68bb530d70c2c0d52f8eed51942e4add7f3/lusid-notifications-sdk-preview-0.1.802.tar.gz
+[2023-08-02 12:33:08] INFO root fetch - processPackages [ursus-ssg]: Downloading https://files.pythonhosted.org/packages/0c/6f/1cd83557db23657c21297dfb06aaeea8921e406b7f773f290cf02ec1c8fe/ursus_ssg-1.0.1.tar.gz
+[2023-08-02 12:33:08] INFO root fetch - processPackages [umka]: Downloading https://files.pythonhosted.org/packages/3c/2d/7b3c6b73f22004a4baaea968475e243c24428eb042bd76d687f2a22d1592/umka-0.1.0.tar.gz
+[2023-08-02 12:33:08] INFO root fetch - processPackages [nucypher-core]: Downloading https://files.pythonhosted.org/packages/73/bb/fbbd106bfe676fcd8fc5c5b68b68dbf9fc2de029e709f862154d81efc969/nucypher_core-0.8.0.tar.gz
+[2023-08-02 12:33:08] INFO root fetch - processPackages [djangoldp-babelfish]: Downloading https://files.pythonhosted.org/packages/40/bf/b80f1ba68c049d323bdcd2ea53010d46f36ae2eb4c5f2fd0056610dfa5d4/djangoldp_babelfish-1.0.8.tar.gz
+[2023-08-02 12:33:08] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/ce/39/ed8d393895869f3139ce9fd764fd575f0278d58e31e510f7cf40a7f7a10b/fastdup-1.32-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-08-02 12:33:08] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75145134>=10485760
+[2023-08-02 12:33:08] INFO root fetch - processPackages [fastdup]: Start processing: metaboatrace.models
+[2023-08-02 12:33:08] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-08-02 12:33:08] INFO root fetch - processPackages [metaboatrace.models]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-02 12:33:08] INFO root fetch - processPackages [djangoldp-babelfish]: executing diffoscope
+[2023-08-02 12:33:08] INFO root fetch - processPackages [djangoldp-babelfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_babelfish-1.0.7.tar.gz tmp/djangoldp_babelfish-1.0.8.tar.gz --markdown 20230802/d/djangoldp-babelfish/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-08-02 12:33:08] INFO root fetch - processPackages [prodiapy]: Downloading https://files.pythonhosted.org/packages/22/00/dd89a201bb12751fe060a10758da71210bc18afc3232e05527c315a7b4a2/prodiapy-3.5.tar.gz
+[2023-08-02 12:33:08] INFO root fetch - processPackages [metaboatrace.models]: Downloading https://files.pythonhosted.org/packages/93/92/1f20c2a9aafca8cb161f85fdb3e6c2967e9f3e7c1686e09a48c15811cd5c/metaboatrace_models-0.3.0.tar.gz
+[2023-08-02 12:33:08] INFO root fetch - processPackages [xblock-sdk]: Downloading https://files.pythonhosted.org/packages/e2/f0/b6ad4701793f1ff823108c9d1486291b9a2ecee8ae84ff4a1bf76ebe6a4e/xblock-sdk-0.7.0.tar.gz
+[2023-08-02 12:33:08] INFO root fetch - processPackages [constellation]: Downloading https://files.pythonhosted.org/packages/93/8b/81c0f9672addee660d99f753d2aa3992caee348d22c430df33fd9917bfef/constellation-1.1.3.tar.gz
+[2023-08-02 12:33:08] INFO root fetch - processPackages [ursus-ssg]: Downloading https://files.pythonhosted.org/packages/9e/ff/8ffb2a9ae688b320232068e82829674597004298395eccd5f6dad03a5da8/ursus_ssg-1.1.0.tar.gz
+[2023-08-02 12:33:08] INFO root fetch - processPackages [umka]: Downloading https://files.pythonhosted.org/packages/cf/f8/5be244ada41685ce7058ea1613be094dcde3c2e98def0dfceb6a32847ca3/umka-0.1.1.tar.gz
+[2023-08-02 12:33:08] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/a8/88/6cad0db0da8d1abd362b012c35efa3693dd0ef5c6836e5af796fba902605/lusid-notifications-sdk-preview-0.1.803.tar.gz
+[2023-08-02 12:33:09] INFO root fetch - processPackages [prodiapy]: executing diffoscope
+[2023-08-02 12:33:09] INFO root fetch - processPackages [prodiapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodiapy-3.4.tar.gz tmp/prodiapy-3.5.tar.gz --markdown 20230802/p/prodiapy/3.4-3.5/diff.md --exclude *.pyd
+[2023-08-02 12:33:09] INFO root fetch - processPackages [constellation]: executing diffoscope
+[2023-08-02 12:33:09] INFO root fetch - processPackages [constellation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constellation-1.1.2.tar.gz tmp/constellation-1.1.3.tar.gz --markdown 20230802/c/constellation/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-08-02 12:33:09] INFO root fetch - processPackages [nucypher-core]: Downloading https://files.pythonhosted.org/packages/9a/e1/1805254a6560d512d5da2609d3c33b0bbfad862c70105f83e82ece146983/nucypher_core-0.9.0.tar.gz
+[2023-08-02 12:33:09] INFO root fetch - processPackages [ursus-ssg]: executing diffoscope
+[2023-08-02 12:33:09] INFO root fetch - processPackages [ursus-ssg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ursus_ssg-1.0.1.tar.gz tmp/ursus_ssg-1.1.0.tar.gz --markdown 20230802/u/ursus-ssg/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-08-02 12:33:09] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-08-02 12:33:09] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.802.tar.gz tmp/lusid-notifications-sdk-preview-0.1.803.tar.gz --markdown 20230802/l/lusid-notifications-sdk-preview/0.1.802-0.1.803/diff.md --exclude *.pyd
+[2023-08-02 12:33:09] INFO root fetch - processPackages [xblock-sdk]: executing diffoscope
+[2023-08-02 12:33:09] INFO root fetch - processPackages [xblock-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xblock-sdk-0.6.0.tar.gz tmp/xblock-sdk-0.7.0.tar.gz --markdown 20230802/x/xblock-sdk/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-08-02 12:33:09] INFO root fetch - processPackages [umka]: executing diffoscope
+[2023-08-02 12:33:09] INFO root fetch - processPackages [umka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umka-0.1.0.tar.gz tmp/umka-0.1.1.tar.gz --markdown 20230802/u/umka/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-02 12:33:09] INFO root fetch - processPackages [onedep-deposition]: Downloading https://files.pythonhosted.org/packages/81/0a/bc8f12b1f58d0223acfe7ffadcdc1bd1c43e9502adc76c0e48b1ee4414be/onedep_deposition-0.1.dev8.tar.gz
+[2023-08-02 12:33:09] INFO root fetch - processPackages [metaboatrace.models]: Downloading https://files.pythonhosted.org/packages/d2/0e/17decfa7f68b7689b20fed84b2aaa9736119872be9bcc6844c142d3a0a66/metaboatrace_models-0.4.0.tar.gz
+[2023-08-02 12:33:09] INFO root fetch - processPackages [onedep-deposition]: executing diffoscope
+[2023-08-02 12:33:09] INFO root fetch - processPackages [onedep-deposition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onedep_deposition-0.1.dev7.tar.gz tmp/onedep_deposition-0.1.dev8.tar.gz --markdown 20230802/o/onedep-deposition/0.1.dev7-0.1.dev8/diff.md --exclude *.pyd
+[2023-08-02 12:33:09] INFO root fetch - processPackages [metaboatrace.models]: executing diffoscope
+[2023-08-02 12:33:09] INFO root fetch - processPackages [metaboatrace.models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaboatrace_models-0.3.0.tar.gz tmp/metaboatrace_models-0.4.0.tar.gz --markdown 20230802/m/metaboatrace.models/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-02 12:33:09] INFO root fetch - processPackages [nucypher-core]: executing diffoscope
+[2023-08-02 12:33:09] INFO root fetch - processPackages [nucypher-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucypher_core-0.8.0.tar.gz tmp/nucypher_core-0.9.0.tar.gz --markdown 20230802/n/nucypher-core/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 12:33:10] INFO root fetch - processPackages [djangoldp-babelfish]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_babelfish-1.0.7.tar.gz]
+[2023-08-02 12:33:10] INFO root fetch - processPackages [djangoldp-babelfish]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_babelfish-1.0.8.tar.gz]
+[2023-08-02 12:33:10] INFO root fetch - processPackages [djangoldp-babelfish]: Start processing: fake-data-for-learning
+[2023-08-02 12:33:10] INFO root fetch - main [MainThread]: End processing [djangoldp-babelfish]: success
+[2023-08-02 12:33:10] INFO root fetch - processPackages [fake-data-for-learning]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-02 12:33:10] INFO root fetch - processPackages [fake-data-for-learning]: Downloading https://files.pythonhosted.org/packages/09/3a/a8e1e926451a6fb62ea41c6a472f5096024cd330cd82ddedd6e626766bda/fake_data_for_learning-0.4.2.tar.gz
+[2023-08-02 12:33:11] INFO root fetch - processPackages [fake-data-for-learning]: Downloading https://files.pythonhosted.org/packages/ae/f2/500932533d2abb24b4349dc252439f2bc12eb15f27fb6eff05319b792989/fake_data_for_learning-0.4.3.tar.gz
+[2023-08-02 12:33:11] INFO root fetch - processPackages [fake-data-for-learning]: executing diffoscope
+[2023-08-02 12:33:11] INFO root fetch - processPackages [fake-data-for-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_data_for_learning-0.4.2.tar.gz tmp/fake_data_for_learning-0.4.3.tar.gz --markdown 20230802/f/fake-data-for-learning/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-02 12:33:11] INFO root fetch - processPackages [prodiapy]: Remove: archive file [/home/abi/fetcher/tmp/prodiapy-3.4.tar.gz]
+[2023-08-02 12:33:11] INFO root fetch - processPackages [prodiapy]: Remove: archive file [/home/abi/fetcher/tmp/prodiapy-3.5.tar.gz]
+[2023-08-02 12:33:11] INFO root fetch - processPackages [prodiapy]: Start processing: fastapi-queue-task
+[2023-08-02 12:33:11] INFO root fetch - main [MainThread]: End processing [prodiapy]: success
+[2023-08-02 12:33:11] ERROR root fetch - processPackages [fastapi-queue-task]: Unable to get metadata: No such project 'fastapi-queue-task'
+[2023-08-02 12:33:11] INFO root fetch - main [MainThread]: End processing [fastapi-queue-task] error
+[2023-08-02 12:33:11] INFO root fetch - processPackages [constellation]: Remove: archive file [/home/abi/fetcher/tmp/constellation-1.1.2.tar.gz]
+[2023-08-02 12:33:11] INFO root fetch - processPackages [constellation]: Remove: archive file [/home/abi/fetcher/tmp/constellation-1.1.3.tar.gz]
+[2023-08-02 12:33:11] INFO root fetch - main [MainThread]: End processing [constellation]: success
+[2023-08-02 12:33:11] INFO root fetch - processPackages [umka]: Remove: archive file [/home/abi/fetcher/tmp/umka-0.1.0.tar.gz]
+[2023-08-02 12:33:11] INFO root fetch - processPackages [umka]: Remove: archive file [/home/abi/fetcher/tmp/umka-0.1.1.tar.gz]
+[2023-08-02 12:33:11] INFO root fetch - main [MainThread]: End processing [umka]: success
+[2023-08-02 12:33:12] INFO root fetch - processPackages [ursus-ssg]: Remove: archive file [/home/abi/fetcher/tmp/ursus_ssg-1.0.1.tar.gz]
+[2023-08-02 12:33:12] INFO root fetch - processPackages [ursus-ssg]: Remove: archive file [/home/abi/fetcher/tmp/ursus_ssg-1.1.0.tar.gz]
+[2023-08-02 12:33:12] INFO root fetch - main [MainThread]: End processing [ursus-ssg]: success
+[2023-08-02 12:33:12] INFO root fetch - processPackages [onedep-deposition]: Remove: archive file [/home/abi/fetcher/tmp/onedep_deposition-0.1.dev7.tar.gz]
+[2023-08-02 12:33:12] INFO root fetch - processPackages [onedep-deposition]: Remove: archive file [/home/abi/fetcher/tmp/onedep_deposition-0.1.dev8.tar.gz]
+[2023-08-02 12:33:12] INFO root fetch - main [MainThread]: End processing [onedep-deposition]: success
+[2023-08-02 12:33:12] INFO root fetch - processPackages [metaboatrace.models]: Remove: archive file [/home/abi/fetcher/tmp/metaboatrace_models-0.3.0.tar.gz]
+[2023-08-02 12:33:12] INFO root fetch - processPackages [metaboatrace.models]: Remove: archive file [/home/abi/fetcher/tmp/metaboatrace_models-0.4.0.tar.gz]
+[2023-08-02 12:33:12] INFO root fetch - main [MainThread]: End processing [metaboatrace.models]: success
+[2023-08-02 12:33:12] INFO root fetch - processPackages [nucypher-core]: Remove: archive file [/home/abi/fetcher/tmp/nucypher_core-0.8.0.tar.gz]
+[2023-08-02 12:33:12] INFO root fetch - processPackages [nucypher-core]: Remove: archive file [/home/abi/fetcher/tmp/nucypher_core-0.9.0.tar.gz]
+[2023-08-02 12:33:12] INFO root fetch - main [MainThread]: End processing [nucypher-core]: success
+[2023-08-02 12:33:12] INFO root fetch - processPackages [xblock-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xblock-sdk-0.6.0.tar.gz]
+[2023-08-02 12:33:12] INFO root fetch - processPackages [xblock-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xblock-sdk-0.7.0.tar.gz]
+[2023-08-02 12:33:12] INFO root fetch - main [MainThread]: End processing [xblock-sdk]: success
+[2023-08-02 12:33:12] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.802.tar.gz]
+[2023-08-02 12:33:12] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.803.tar.gz]
+[2023-08-02 12:33:12] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-08-02 12:33:12] INFO root fetch - processPackages [fake-data-for-learning]: Remove: archive file [/home/abi/fetcher/tmp/fake_data_for_learning-0.4.2.tar.gz]
+[2023-08-02 12:33:12] INFO root fetch - processPackages [fake-data-for-learning]: Remove: archive file [/home/abi/fetcher/tmp/fake_data_for_learning-0.4.3.tar.gz]
+[2023-08-02 12:33:12] INFO root fetch - main [MainThread]: End processing [fake-data-for-learning]: success
+[2023-08-02 12:33:12] INFO root fetch - main [MainThread]: Store serial: [19140080]

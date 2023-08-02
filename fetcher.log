@@ -16390,3 +16390,97 @@
 [2023-08-02 10:06:52] INFO root fetch - processPackages [fibsem]: Remove: archive file [/home/abi/fetcher/tmp/fibsem-0.2.2a0-py3-none-any.whl.zip]
 [2023-08-02 10:06:52] INFO root fetch - main [MainThread]: End processing [fibsem]: success
 [2023-08-02 10:06:52] INFO root fetch - main [MainThread]: Store serial: [19138398]
+[2023-08-02 10:11:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19138398]
+[2023-08-02 10:12:01] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-02 10:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyglove
+[2023-08-02 10:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monolith-filemanager
+[2023-08-02 10:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-audio
+[2023-08-02 10:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wow-ai-sdk
+[2023-08-02 10:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rclip
+[2023-08-02 10:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdk-test-sdk
+[2023-08-02 10:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hestia-earth-validation
+[2023-08-02 10:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: playerguayyy
+[2023-08-02 10:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abstract-audio
+[2023-08-02 10:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hestia-earth-models
+[2023-08-02 10:12:02] INFO root fetch - processPackages [rclip]: New version: [1.4.7a9] Old Version: [1.4.7a8]
+[2023-08-02 10:12:02] INFO root fetch - processPackages [abstract-audio]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-08-02 10:12:02] INFO root fetch - processPackages [pyglove]: New version: [0.4.3.dev20230802] Old Version: [0.4.3.dev20230801]
+[2023-08-02 10:12:02] INFO root fetch - processPackages [abstract-audio]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-08-02 10:12:02] INFO root fetch - processPackages [monolith-filemanager]: New version: [2.0.0] Old Version: [1.1.1]
+[2023-08-02 10:12:02] WARNING root fetch - processPackages [playerguayyy]: Skipping, unable to determine old version
+[2023-08-02 10:12:02] INFO root fetch - processPackages [playerguayyy]: Start processing: scorecardpipeline
+[2023-08-02 10:12:02] INFO root fetch - main [MainThread]: End processing [playerguayyy] error
+[2023-08-02 10:12:02] INFO root fetch - processPackages [sdk-test-sdk]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-08-02 10:12:02] INFO root fetch - processPackages [wow-ai-sdk]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-08-02 10:12:02] INFO root fetch - processPackages [hestia-earth-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-02 10:12:02] INFO root fetch - processPackages [hestia-earth-validation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-02 10:12:02] INFO root fetch - processPackages [scorecardpipeline]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 10:12:02] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/b6/33/9368279ac437576613cd3b1c5360d684c7b9ab8730455128e271023e71bd/rclip-1.4.7a8.tar.gz
+[2023-08-02 10:12:02] INFO root fetch - processPackages [wow-ai-sdk]: Downloading https://files.pythonhosted.org/packages/10/bb/a8c4cda8df179e6b15e7cd61e18f13b4f04456401d0510c5fede038bb9ba/wow_ai_sdk-0.1.9.tar.gz
+[2023-08-02 10:12:02] INFO root fetch - processPackages [abstract-audio]: Downloading https://files.pythonhosted.org/packages/a8/c5/207c0c34d10f35f8ce0d6390ee524be8662911bbd211f70d5c3cc71c9926/abstract_audio-0.0.0.1-py3-none-any.whl
+[2023-08-02 10:12:02] INFO root fetch - processPackages [abstract-audio]: Downloading https://files.pythonhosted.org/packages/a8/c5/207c0c34d10f35f8ce0d6390ee524be8662911bbd211f70d5c3cc71c9926/abstract_audio-0.0.0.1-py3-none-any.whl
+[2023-08-02 10:12:02] INFO root fetch - processPackages [sdk-test-sdk]: Downloading https://files.pythonhosted.org/packages/13/cf/d68fcb28692550703928205c2eeeb8119ceaf7996fea85a6d5c804a9c63e/sdk_test_sdk-1.0.0.tar.gz
+[2023-08-02 10:12:02] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/5e/11/6cd673955b5b88b139ff8b439c253db248d8e6e63b6783013da0905079c4/pyglove-0.4.3.dev20230801.tar.gz
+[2023-08-02 10:12:02] INFO root fetch - processPackages [monolith-filemanager]: Downloading https://files.pythonhosted.org/packages/93/9a/2c5a84f1ab17383ce83077a0d230d6a778a5ca15fd927da92cfaafd49413/monolith_filemanager-1.1.1.tar.gz
+[2023-08-02 10:12:02] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/33/b1/1105a4e61f23c309958db8eb0a5c59b945e3291d912a253970b1cdb90f73/hestia-earth-validation-0.9.2.tar.gz
+[2023-08-02 10:12:02] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/a2/61/d19a2d7e01e8a5e0035eea49d6f5bdd2e224d17d89fe9ef0012f7ff05723/hestia-earth-models-0.9.0.tar.gz
+[2023-08-02 10:12:02] INFO root fetch - processPackages [scorecardpipeline]: Downloading https://files.pythonhosted.org/packages/fd/af/ef7ecf96dcc4213b3f7dfb9a15525fa157ef059a491d6853a7dd1105e435/scorecardpipeline-0.1.8.tar.gz
+[2023-08-02 10:12:02] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/31/e5/7bb0bec8ec5f762444a62bbc17fd8e01f29a10f98d54311ab9c756bd2fea/rclip-1.4.7a9.tar.gz
+[2023-08-02 10:12:02] INFO root fetch - processPackages [wow-ai-sdk]: Downloading https://files.pythonhosted.org/packages/2d/64/3bbbe67e46035f6ab015be56f369bf839eefba75be1dcee9342b684e380f/wow_ai_sdk-0.2.0.tar.gz
+[2023-08-02 10:12:03] INFO root fetch - processPackages [abstract-audio]: Downloading https://files.pythonhosted.org/packages/e5/3d/0f3ebcf77e2bec59a71264237af8c8b7fb35a56a5055cfa7817f8a3fa69e/abstract_audio-0.0.0.2-py3-none-any.whl
+[2023-08-02 10:12:03] INFO root fetch - processPackages [abstract-audio]: Downloading https://files.pythonhosted.org/packages/e5/3d/0f3ebcf77e2bec59a71264237af8c8b7fb35a56a5055cfa7817f8a3fa69e/abstract_audio-0.0.0.2-py3-none-any.whl
+[2023-08-02 10:12:03] INFO root fetch - processPackages [sdk-test-sdk]: Downloading https://files.pythonhosted.org/packages/1f/e8/3a0d1825229173ff0a9d4adcb6f8cd5fb8c4833332275533e4f3231cc741/sdk_test_sdk-2.0.0.tar.gz
+[2023-08-02 10:12:03] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-02 10:12:03] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.7a8.tar.gz tmp/rclip-1.4.7a9.tar.gz --markdown 20230802/r/rclip/1.4.7a8-1.4.7a9/diff.md --exclude *.pyd
+[2023-08-02 10:12:03] INFO root fetch - processPackages [monolith-filemanager]: Downloading https://files.pythonhosted.org/packages/be/76/2ea5f5345eb4d3e42d9ab0b4929f2129a537756015630311372c1cf70ac5/monolith_filemanager-2.0.0.tar.gz
+[2023-08-02 10:12:03] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/85/02/0cbfea636276cdb7ffe318798e29d0a1a68e72042245cf969798890394f1/pyglove-0.4.3.dev20230802.tar.gz
+[2023-08-02 10:12:03] INFO root fetch - processPackages [wow-ai-sdk]: executing diffoscope
+[2023-08-02 10:12:03] INFO root fetch - processPackages [wow-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_sdk-0.1.9.tar.gz tmp/wow_ai_sdk-0.2.0.tar.gz --markdown 20230802/w/wow-ai-sdk/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-08-02 10:12:03] INFO root fetch - processPackages [abstract-audio]: executing diffoscope
+[2023-08-02 10:12:03] INFO root fetch - processPackages [abstract-audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_audio-0.0.0.1-py3-none-any.whl.zip tmp/abstract_audio-0.0.0.2-py3-none-any.whl.zip --markdown 20230802/a/abstract-audio/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-08-02 10:12:03] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/b0/45/d5ba27a9ee459bf387b017277d998197192c37d8374146ae34a294f8a0af/hestia-earth-validation-0.9.3.tar.gz
+[2023-08-02 10:12:03] INFO root fetch - processPackages [abstract-audio]: executing diffoscope
+[2023-08-02 10:12:03] INFO root fetch - processPackages [abstract-audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_audio-0.0.0.1-py3-none-any.whl.zip tmp/abstract_audio-0.0.0.2-py3-none-any.whl.zip --markdown 20230802/a/abstract-audio/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-08-02 10:12:03] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/59/94/5b9b4317f8ae747ccffceb5debddd5d4f68a8aac6d6d53afb2ade6dbdfdb/hestia-earth-models-0.9.1.tar.gz
+[2023-08-02 10:12:03] INFO root fetch - processPackages [sdk-test-sdk]: executing diffoscope
+[2023-08-02 10:12:03] INFO root fetch - processPackages [sdk-test-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdk_test_sdk-1.0.0.tar.gz tmp/sdk_test_sdk-2.0.0.tar.gz --markdown 20230802/s/sdk-test-sdk/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-08-02 10:12:03] INFO root fetch - processPackages [monolith-filemanager]: executing diffoscope
+[2023-08-02 10:12:03] INFO root fetch - processPackages [monolith-filemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monolith_filemanager-1.1.1.tar.gz tmp/monolith_filemanager-2.0.0.tar.gz --markdown 20230802/m/monolith-filemanager/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-08-02 10:12:03] INFO root fetch - processPackages [hestia-earth-validation]: executing diffoscope
+[2023-08-02 10:12:03] INFO root fetch - processPackages [hestia-earth-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-validation-0.9.2.tar.gz tmp/hestia-earth-validation-0.9.3.tar.gz --markdown 20230802/h/hestia-earth-validation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-02 10:12:03] INFO root fetch - processPackages [hestia-earth-models]: executing diffoscope
+[2023-08-02 10:12:03] INFO root fetch - processPackages [hestia-earth-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-models-0.9.0.tar.gz tmp/hestia-earth-models-0.9.1.tar.gz --markdown 20230802/h/hestia-earth-models/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-02 10:12:03] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-08-02 10:12:03] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.3.dev20230801.tar.gz tmp/pyglove-0.4.3.dev20230802.tar.gz --markdown 20230802/p/pyglove/0.4.3.dev20230801-0.4.3.dev20230802/diff.md --exclude *.pyd
+[2023-08-02 10:12:03] INFO root fetch - processPackages [scorecardpipeline]: Downloading https://files.pythonhosted.org/packages/a4/91/45325468a92f3523d06f1e377fde8445d27c1710c8141c51f0c036fc39af/scorecardpipeline-0.1.9.tar.gz
+[2023-08-02 10:12:04] INFO root fetch - processPackages [wow-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_sdk-0.1.9.tar.gz]
+[2023-08-02 10:12:04] INFO root fetch - processPackages [wow-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_sdk-0.2.0.tar.gz]
+[2023-08-02 10:12:04] INFO root fetch - main [MainThread]: End processing [wow-ai-sdk]: success
+[2023-08-02 10:12:04] INFO root fetch - processPackages [scorecardpipeline]: executing diffoscope
+[2023-08-02 10:12:04] INFO root fetch - processPackages [scorecardpipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scorecardpipeline-0.1.8.tar.gz tmp/scorecardpipeline-0.1.9.tar.gz --markdown 20230802/s/scorecardpipeline/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 10:12:05] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a8.tar.gz]
+[2023-08-02 10:12:05] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a9.tar.gz]
+[2023-08-02 10:12:05] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-02 10:12:05] INFO root fetch - processPackages [abstract-audio]: Remove: archive file [/home/abi/fetcher/tmp/abstract_audio-0.0.0.1-py3-none-any.whl.zip]
+[2023-08-02 10:12:05] INFO root fetch - processPackages [abstract-audio]: Remove: archive file [/home/abi/fetcher/tmp/abstract_audio-0.0.0.2-py3-none-any.whl.zip]
+[2023-08-02 10:12:05] INFO root fetch - main [MainThread]: End processing [abstract-audio]: success
+[2023-08-02 10:12:05] INFO root fetch - main [MainThread]: End processing [abstract-audio]: success
+[2023-08-02 10:12:05] INFO root fetch - processPackages [sdk-test-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sdk_test_sdk-1.0.0.tar.gz]
+[2023-08-02 10:12:05] INFO root fetch - processPackages [sdk-test-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sdk_test_sdk-2.0.0.tar.gz]
+[2023-08-02 10:12:05] INFO root fetch - main [MainThread]: End processing [sdk-test-sdk]: success
+[2023-08-02 10:12:05] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.2.tar.gz]
+[2023-08-02 10:12:05] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.3.tar.gz]
+[2023-08-02 10:12:05] INFO root fetch - main [MainThread]: End processing [hestia-earth-validation]: success
+[2023-08-02 10:12:05] INFO root fetch - processPackages [monolith-filemanager]: Remove: archive file [/home/abi/fetcher/tmp/monolith_filemanager-1.1.1.tar.gz]
+[2023-08-02 10:12:05] INFO root fetch - processPackages [monolith-filemanager]: Remove: archive file [/home/abi/fetcher/tmp/monolith_filemanager-2.0.0.tar.gz]
+[2023-08-02 10:12:05] INFO root fetch - main [MainThread]: End processing [monolith-filemanager]: success
+[2023-08-02 10:12:06] INFO root fetch - processPackages [scorecardpipeline]: Remove: archive file [/home/abi/fetcher/tmp/scorecardpipeline-0.1.8.tar.gz]
+[2023-08-02 10:12:06] INFO root fetch - processPackages [scorecardpipeline]: Remove: archive file [/home/abi/fetcher/tmp/scorecardpipeline-0.1.9.tar.gz]
+[2023-08-02 10:12:06] INFO root fetch - main [MainThread]: End processing [scorecardpipeline]: success
+[2023-08-02 10:12:06] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230801.tar.gz]
+[2023-08-02 10:12:06] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230802.tar.gz]
+[2023-08-02 10:12:06] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-08-02 10:12:06] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.0.tar.gz]
+[2023-08-02 10:12:06] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.1.tar.gz]
+[2023-08-02 10:12:06] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
+[2023-08-02 10:12:06] INFO root fetch - main [MainThread]: Store serial: [19138442]

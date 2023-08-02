@@ -11177,3 +11177,132 @@
 [2023-08-02 05:19:13] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz]
 [2023-08-02 05:19:13] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
 [2023-08-02 05:19:13] INFO root fetch - main [MainThread]: Store serial: [19135915]
+[2023-08-02 05:24:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19135915]
+[2023-08-02 05:24:22] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-02 05:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: d20-securityLayer
+[2023-08-02 05:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omnata-plugin-devkit
+[2023-08-02 05:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stim
+[2023-08-02 05:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stimcirq
+[2023-08-02 05:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ecabc
+[2023-08-02 05:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sinter
+[2023-08-02 05:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-website-sale-product-brand
+[2023-08-02 05:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-e-commerce
+[2023-08-02 05:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: drfsimple2
+[2023-08-02 05:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: snok
+[2023-08-02 05:24:22] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-08-02 05:24:22] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: New version: [16.0.20230801.0] Old Version: [16.0.20230707.0]
+[2023-08-02 05:24:22] INFO root fetch - processPackages [snok]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 05:24:22] WARNING root fetch - processPackages [drfsimple2]: Skipping, unable to determine old version
+[2023-08-02 05:24:22] INFO root fetch - processPackages [drfsimple2]: Start processing: UniDockTools
+[2023-08-02 05:24:22] INFO root fetch - main [MainThread]: End processing [drfsimple2] error
+[2023-08-02 05:24:22] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 05:24:22] INFO root fetch - processPackages [ecabc]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-08-02 05:24:22] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-08-02 05:24:22] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-08-02 05:24:22] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-08-02 05:24:22] INFO root fetch - processPackages [stim]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-02 05:24:22] INFO root fetch - processPackages [UniDockTools]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-02 05:24:22] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-08-02 05:24:23] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Downloading https://files.pythonhosted.org/packages/80/d6/5a17121db99cad86fc2b2ab5d45309f9c8a861e42051d6ea8843520545bf/odoo_addons_oca_e_commerce-16.0.20230707.0-py3-none-any.whl
+[2023-08-02 05:24:23] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/77/84/f4da540098a63a20561a4eabc3a085403f873b6759547533829959f50dec/snok-0.0.8.tar.gz
+[2023-08-02 05:24:23] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: Downloading https://files.pythonhosted.org/packages/c3/f2/37a27b4bc59d15712d904712a5f623fcd73f8fac033ea5f71076a63cd371/odoo_addon_website_sale_product_brand-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-02 05:24:23] INFO root fetch - processPackages [ecabc]: Downloading https://files.pythonhosted.org/packages/d6/31/8a5204e98e6c54224d80bea68763751509ca38edaf6137c790cd680b542b/ecabc-3.0.0.tar.gz
+[2023-08-02 05:24:23] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-08-02 05:24:23] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2023-08-02 05:24:23] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2023-08-02 05:24:23] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/a7/d7/36196ad48b77efebe7d5d4e198ad0a9cac4f5acb5e0a8a7035133184a641/stim-1.8.0.tar.gz
+[2023-08-02 05:24:23] INFO root fetch - processPackages [UniDockTools]: Downloading https://files.pythonhosted.org/packages/f0/15/ccdc0562e6f61cbdb9967ae3926320bc132c63327a5fbbf20e8d5a5ba74d/UniDockTools-1.0.0.tar.gz
+[2023-08-02 05:24:23] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-08-02 05:24:23] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-08-02 05:24:23] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230802/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 05:24:23] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Downloading https://files.pythonhosted.org/packages/28/eb/2eb9cde15717072f96b72dda75c92d61d6c1ba2851174081ad9f6b090dfe/odoo_addons_oca_e_commerce-16.0.20230801.0-py3-none-any.whl
+[2023-08-02 05:24:23] INFO root fetch - processPackages [ecabc]: Downloading https://files.pythonhosted.org/packages/69/86/e0c521f290c81db66f21d0fd7cea78f83023beba98e741c67285560c93e8/ecabc-3.0.1.tar.gz
+[2023-08-02 05:24:23] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/39/0e/0a854f8c899c6ff1c39f119dd502a6e81c43e41e4a98f1a9d9e06896f96f/snok-0.0.9.tar.gz
+[2023-08-02 05:24:23] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: executing diffoscope
+[2023-08-02 05:24:23] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_e_commerce-16.0.20230707.0-py3-none-any.whl.zip tmp/odoo_addons_oca_e_commerce-16.0.20230801.0-py3-none-any.whl.zip --markdown 20230802/o/odoo-addons-oca-e-commerce/16.0.20230707.0-16.0.20230801.0/diff.md --exclude *.pyd
+[2023-08-02 05:24:23] INFO root fetch - processPackages [UniDockTools]: Downloading https://files.pythonhosted.org/packages/ac/0e/55f269191d3412b6e66da22c41b2dcb3b56707b2088db8c5a7af5e9d480e/UniDockTools-1.0.1.tar.gz
+[2023-08-02 05:24:23] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: Downloading https://files.pythonhosted.org/packages/c0/79/d415e52ca018b466ad49660c33ba08d46bb3385f9bf8b2d998c086d2949b/odoo_addon_website_sale_product_brand-16.0.1.0.0.3-py3-none-any.whl
+[2023-08-02 05:24:23] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2023-08-02 05:24:23] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/56/46/f3ba1d8980a81e7e0579b812ea29d2c68be9c442ea0e7168a51afcd8c79e/d20-securityLayer-2.0.0a9.tar.gz
+[2023-08-02 05:24:23] INFO root fetch - processPackages [ecabc]: executing diffoscope
+[2023-08-02 05:24:23] INFO root fetch - processPackages [ecabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecabc-3.0.0.tar.gz tmp/ecabc-3.0.1.tar.gz --markdown 20230802/e/ecabc/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-08-02 05:24:23] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/d4/c3/eba3f24b52d2c1ed2e7fd5490f31c7cafa4a0a82b9282b1ffee94eee8a4c/stim-1.9.0.tar.gz
+[2023-08-02 05:24:23] INFO root fetch - processPackages [snok]: executing diffoscope
+[2023-08-02 05:24:23] INFO root fetch - processPackages [snok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snok-0.0.8.tar.gz tmp/snok-0.0.9.tar.gz --markdown 20230802/s/snok/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 05:24:24] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-08-02 05:24:24] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a8.tar.gz tmp/d20-securityLayer-2.0.0a9.tar.gz --markdown 20230802/d/d20-securityLayer/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-08-02 05:24:24] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: executing diffoscope
+[2023-08-02 05:24:24] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_product_brand-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_website_sale_product_brand-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230802/o/odoo-addon-website-sale-product-brand/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-08-02 05:24:24] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2023-08-02 05:24:24] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20230802/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-08-02 05:24:24] INFO root fetch - processPackages [UniDockTools]: executing diffoscope
+[2023-08-02 05:24:24] INFO root fetch - processPackages [UniDockTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UniDockTools-1.0.0.tar.gz tmp/UniDockTools-1.0.1.tar.gz --markdown 20230802/U/UniDockTools/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-02 05:24:24] INFO root fetch - processPackages [stim]: executing diffoscope
+[2023-08-02 05:24:24] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.8.0.tar.gz tmp/stim-1.9.0.tar.gz --markdown 20230802/s/stim/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-02 05:24:24] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2023-08-02 05:24:24] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2023-08-02 05:24:24] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20230802/s/sinter/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-08-02 05:24:24] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-08-02 05:24:24] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-08-02 05:24:24] INFO root fetch - processPackages [omnata-plugin-devkit]: Start processing: regex-toolkit
+[2023-08-02 05:24:24] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-08-02 05:24:24] INFO root fetch - processPackages [regex-toolkit]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-02 05:24:25] INFO root fetch - processPackages [regex-toolkit]: Downloading https://files.pythonhosted.org/packages/aa/31/704d162e2725cbffa4a50fd6faa0a9f184af5bbc35cbe13bee3be93e4ff1/regex_toolkit-0.0.3.tar.gz
+[2023-08-02 05:24:25] INFO root fetch - processPackages [ecabc]: Remove: archive file [/home/abi/fetcher/tmp/ecabc-3.0.0.tar.gz]
+[2023-08-02 05:24:25] INFO root fetch - processPackages [ecabc]: Remove: archive file [/home/abi/fetcher/tmp/ecabc-3.0.1.tar.gz]
+[2023-08-02 05:24:25] INFO root fetch - processPackages [ecabc]: Start processing: huggingface-tool
+[2023-08-02 05:24:25] INFO root fetch - main [MainThread]: End processing [ecabc]: success
+[2023-08-02 05:24:25] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_e_commerce-16.0.20230707.0-py3-none-any.whl.zip]
+[2023-08-02 05:24:25] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_e_commerce-16.0.20230801.0-py3-none-any.whl.zip]
+[2023-08-02 05:24:25] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Start processing: yyszh
+[2023-08-02 05:24:25] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-e-commerce]: success
+[2023-08-02 05:24:25] INFO root fetch - processPackages [huggingface-tool]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-02 05:24:25] INFO root fetch - processPackages [yyszh]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-02 05:24:25] INFO root fetch - processPackages [regex-toolkit]: Downloading https://files.pythonhosted.org/packages/31/09/1ed1596c9790777696d6862b830582c6fe2ae682eddaeee7ed7eeb3e2bab/regex_toolkit-0.0.4.tar.gz
+[2023-08-02 05:24:25] INFO root fetch - processPackages [huggingface-tool]: Downloading https://files.pythonhosted.org/packages/c6/aa/66f70788a2ead204ef5337c9830de68ed0d71a14ea88570127b3768e3ce0/huggingface_tool-0.0.4.tar.gz
+[2023-08-02 05:24:25] INFO root fetch - processPackages [regex-toolkit]: executing diffoscope
+[2023-08-02 05:24:25] INFO root fetch - processPackages [regex-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regex_toolkit-0.0.3.tar.gz tmp/regex_toolkit-0.0.4.tar.gz --markdown 20230802/r/regex-toolkit/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-02 05:24:25] INFO root fetch - processPackages [yyszh]: Downloading https://files.pythonhosted.org/packages/12/8d/8fba91189518f4cbc51db707c5f3be8fc66dcf6a6442c2da672610c564bc/yyszh-0.1.0.tar.gz
+[2023-08-02 05:24:25] INFO root fetch - processPackages [UniDockTools]: Remove: archive file [/home/abi/fetcher/tmp/UniDockTools-1.0.0.tar.gz]
+[2023-08-02 05:24:25] INFO root fetch - processPackages [UniDockTools]: Remove: archive file [/home/abi/fetcher/tmp/UniDockTools-1.0.1.tar.gz]
+[2023-08-02 05:24:25] INFO root fetch - processPackages [UniDockTools]: Start processing: opentelemetry-resource-detector-container
+[2023-08-02 05:24:25] INFO root fetch - main [MainThread]: End processing [UniDockTools]: success
+[2023-08-02 05:24:25] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.8.tar.gz]
+[2023-08-02 05:24:25] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.9.tar.gz]
+[2023-08-02 05:24:25] INFO root fetch - processPackages [snok]: Start processing: otel-hooks-implement-django-instrument
+[2023-08-02 05:24:25] INFO root fetch - main [MainThread]: End processing [snok]: success
+[2023-08-02 05:24:25] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-08-02 05:24:25] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a9.tar.gz]
+[2023-08-02 05:24:25] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-08-02 05:24:25] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2023-08-02 05:24:25] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2023-08-02 05:24:25] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2023-08-02 05:24:25] WARNING root fetch - processPackages [opentelemetry-resource-detector-container]: Skipping, unable to determine old version
+[2023-08-02 05:24:25] INFO root fetch - main [MainThread]: End processing [opentelemetry-resource-detector-container] error
+[2023-08-02 05:24:25] WARNING root fetch - processPackages [otel-hooks-implement-django-instrument]: Skipping, unable to determine old version
+[2023-08-02 05:24:25] INFO root fetch - main [MainThread]: End processing [otel-hooks-implement-django-instrument] error
+[2023-08-02 05:24:25] INFO root fetch - processPackages [huggingface-tool]: Downloading https://files.pythonhosted.org/packages/2e/0c/b28c8cd5a3a02ea368e48f6eee2bd01fd0d0b9cf3028ce438eafc299f39c/huggingface_tool-0.0.5.tar.gz
+[2023-08-02 05:24:25] INFO root fetch - processPackages [yyszh]: Downloading https://files.pythonhosted.org/packages/4c/aa/780c30386c48efca6ee8caa3433b54efc2e2955849993a7fed843d0e0eda/yyszh-0.1.1.tar.gz
+[2023-08-02 05:24:25] INFO root fetch - processPackages [huggingface-tool]: executing diffoscope
+[2023-08-02 05:24:25] INFO root fetch - processPackages [huggingface-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huggingface_tool-0.0.4.tar.gz tmp/huggingface_tool-0.0.5.tar.gz --markdown 20230802/h/huggingface-tool/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-02 05:24:25] INFO root fetch - processPackages [yyszh]: executing diffoscope
+[2023-08-02 05:24:25] INFO root fetch - processPackages [yyszh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyszh-0.1.0.tar.gz tmp/yyszh-0.1.1.tar.gz --markdown 20230802/y/yyszh/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-02 05:24:26] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_product_brand-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-02 05:24:26] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_product_brand-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-02 05:24:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-product-brand]: success
+[2023-08-02 05:24:26] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2023-08-02 05:24:26] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2023-08-02 05:24:26] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2023-08-02 05:24:26] INFO root fetch - processPackages [regex-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/regex_toolkit-0.0.3.tar.gz]
+[2023-08-02 05:24:26] INFO root fetch - processPackages [regex-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/regex_toolkit-0.0.4.tar.gz]
+[2023-08-02 05:24:26] INFO root fetch - main [MainThread]: End processing [regex-toolkit]: success
+[2023-08-02 05:24:26] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.8.0.tar.gz]
+[2023-08-02 05:24:26] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.0.tar.gz]
+[2023-08-02 05:24:26] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2023-08-02 05:24:26] INFO root fetch - processPackages [yyszh]: Remove: archive file [/home/abi/fetcher/tmp/yyszh-0.1.0.tar.gz]
+[2023-08-02 05:24:26] INFO root fetch - processPackages [yyszh]: Remove: archive file [/home/abi/fetcher/tmp/yyszh-0.1.1.tar.gz]
+[2023-08-02 05:24:26] INFO root fetch - main [MainThread]: End processing [yyszh]: success
+[2023-08-02 05:24:27] INFO root fetch - processPackages [huggingface-tool]: Remove: archive file [/home/abi/fetcher/tmp/huggingface_tool-0.0.4.tar.gz]
+[2023-08-02 05:24:27] INFO root fetch - processPackages [huggingface-tool]: Remove: archive file [/home/abi/fetcher/tmp/huggingface_tool-0.0.5.tar.gz]
+[2023-08-02 05:24:27] INFO root fetch - main [MainThread]: End processing [huggingface-tool]: success
+[2023-08-02 05:24:27] INFO root fetch - main [MainThread]: Store serial: [19135991]

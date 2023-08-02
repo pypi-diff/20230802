@@ -20694,3 +20694,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-02 12:43:44] INFO root fetch - processPackages [warc2zim]: Remove: archive file [/home/abi/fetcher/tmp/warc2zim-1.5.2.tar.gz]
 [2023-08-02 12:43:44] INFO root fetch - main [MainThread]: End processing [warc2zim]: success
 [2023-08-02 12:43:44] INFO root fetch - main [MainThread]: Store serial: [19140196]
+[2023-08-02 12:48:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19140196]
+[2023-08-02 12:48:54] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-02 12:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymetadata
+[2023-08-02 12:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrex
+[2023-08-02 12:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QWeb
+[2023-08-02 12:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyfi
+[2023-08-02 12:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ttqakit
+[2023-08-02 12:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-azuread
+[2023-08-02 12:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hp2p-api
+[2023-08-02 12:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amiyabot
+[2023-08-02 12:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ag-llama2-hub-s
+[2023-08-02 12:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-okta
+[2023-08-02 12:48:54] INFO root fetch - processPackages [hp2p-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-02 12:48:54] INFO root fetch - processPackages [ag-llama2-hub-s]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-08-02 12:48:54] INFO root fetch - processPackages [pymetadata]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-02 12:48:54] WARNING root fetch - processPackages [ttqakit]: Skipping, unable to determine old version
+[2023-08-02 12:48:54] INFO root fetch - processPackages [ttqakit]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-08-02 12:48:54] INFO root fetch - main [MainThread]: End processing [ttqakit] error
+[2023-08-02 12:48:54] INFO root fetch - processPackages [QWeb]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-08-02 12:48:54] INFO root fetch - processPackages [pulumi-okta]: New version: [4.2.0a1690971916] Old Version: [4.2.0a1690263967]
+[2023-08-02 12:48:54] INFO root fetch - processPackages [hyfi]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-08-02 12:48:54] INFO root fetch - processPackages [amiyabot]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-08-02 12:48:54] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2023-08-02 12:48:54] INFO root fetch - processPackages [cybrex]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-02 12:48:54] INFO root fetch - processPackages [ag-llama2-hub-s]: Downloading https://files.pythonhosted.org/packages/59/b6/b1bc8097fdec91cf5de5375635377bad780b4136e783b03aad4d3b45bde0/ag_llama2_hub_s-0.0.16.tar.gz
+[2023-08-02 12:48:54] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/0c/d5/2fbe9416a9203508f74c38267bf24cf38ed818a052d4711ab45e5c44cb06/hyfi-1.9.3.tar.gz
+[2023-08-02 12:48:54] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/f8/41/822687472d6e0b76254be836e3518cc11802fbe78bd71f6837e8e57ac7f4/cybrex-1.1.8.tar.gz
+[2023-08-02 12:48:54] INFO root fetch - processPackages [pymetadata]: Downloading https://files.pythonhosted.org/packages/3a/e7/d83d6aba6e6d4c2b69157079213317819481e989408d864ce99c63c08fd4/pymetadata-0.3.8.tar.gz
+[2023-08-02 12:48:54] INFO root fetch - processPackages [hp2p-api]: Downloading https://files.pythonhosted.org/packages/b9/77/c1f9a645758b04c95aa0b85e6794662d7024d424676515f6dddb591cdc24/hp2p-api-0.0.3.tar.gz
+[2023-08-02 12:48:55] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 12:48:55] INFO root fetch - processPackages [QWeb]: Downloading https://files.pythonhosted.org/packages/35/fb/ec3d0448825619a776be98d4833b05d19008a2876d38db6d387ceecf5207/QWeb-2.2.0.tar.gz
+[2023-08-02 12:48:55] INFO root fetch - processPackages [amiyabot]: Downloading https://files.pythonhosted.org/packages/1d/8f/b72c3d0bae54b46d01bb5f5dd9c27b0b818fb33f4475942374d67c89f259/amiyabot-1.6.2-py3-none-any.whl
+[2023-08-02 12:48:55] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2023-08-02 12:48:55] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/33/ba/c2154a1ae016852804833003c366e6e6025f1cbe7108d1f6bce1ccc55805/pulumi_okta-4.2.0a1690263967.tar.gz
+[2023-08-02 12:48:55] WARNING root fetch - processPackages [amiyabot]: Skipping package: exceeds size limit 11419846>=10485760
+[2023-08-02 12:48:55] INFO root fetch - processPackages [amiyabot]: Start processing: toui
+[2023-08-02 12:48:55] INFO root fetch - main [MainThread]: End processing [amiyabot] error
+[2023-08-02 12:48:55] INFO root fetch - processPackages [ag-llama2-hub-s]: Downloading https://files.pythonhosted.org/packages/b1/ba/39890fc08d8553b294eff6ffd6f431d21be01103203491f4bf9dfb20369c/ag_llama2_hub_s-0.0.17.tar.gz
+[2023-08-02 12:48:55] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/2f/e2/024fd591185726de091f0bca9a73624944543bd52f723541d967066ff8c9/hyfi-1.9.4.tar.gz
+[2023-08-02 12:48:55] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/3a/e4/2cf0806887a91ce4e7e15652eb199bbbdae1925a861aed0a9a1bcd6d747d/cybrex-1.1.9.tar.gz
+[2023-08-02 12:48:55] INFO root fetch - processPackages [ag-llama2-hub-s]: executing diffoscope
+[2023-08-02 12:48:55] INFO root fetch - processPackages [ag-llama2-hub-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama2_hub_s-0.0.16.tar.gz tmp/ag_llama2_hub_s-0.0.17.tar.gz --markdown 20230802/a/ag-llama2-hub-s/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-08-02 12:48:55] INFO root fetch - processPackages [toui]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-08-02 12:48:55] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-08-02 12:48:55] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.9.3.tar.gz tmp/hyfi-1.9.4.tar.gz --markdown 20230802/h/hyfi/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-08-02 12:48:55] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-08-02 12:48:55] INFO root fetch - processPackages [cybrex]: executing diffoscope
+[2023-08-02 12:48:55] INFO root fetch - processPackages [cybrex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrex-1.1.8.tar.gz tmp/cybrex-1.1.9.tar.gz --markdown 20230802/c/cybrex/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-02 12:48:55] INFO root fetch - processPackages [hp2p-api]: Downloading https://files.pythonhosted.org/packages/3c/87/23c32e97fc4df574619a668b2d5bef3f1fdde1dffbd02b77dbaf3c72bbf3/hp2p-api-0.0.4.tar.gz
+[2023-08-02 12:48:55] INFO root fetch - processPackages [QWeb]: Downloading https://files.pythonhosted.org/packages/e6/ca/6a3f13511548e83b677b181bd68bef40728c0fff0a1c94f2b7b70927bc74/QWeb-2.2.1.tar.gz
+[2023-08-02 12:48:55] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2023-08-02 12:48:55] INFO root fetch - processPackages [toui]: Downloading https://files.pythonhosted.org/packages/a5/1c/10c97114dd1838b8968b8af848fb433b4103b6c21f0772e0577e77806d24/toui-3.1.0.tar.gz
+[2023-08-02 12:48:55] INFO root fetch - processPackages [hp2p-api]: executing diffoscope
+[2023-08-02 12:48:55] INFO root fetch - processPackages [hp2p-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hp2p-api-0.0.3.tar.gz tmp/hp2p-api-0.0.4.tar.gz --markdown 20230802/h/hp2p-api/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-02 12:48:55] INFO root fetch - processPackages [QWeb]: executing diffoscope
+[2023-08-02 12:48:55] INFO root fetch - processPackages [QWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QWeb-2.2.0.tar.gz tmp/QWeb-2.2.1.tar.gz --markdown 20230802/Q/QWeb/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-08-02 12:48:55] INFO root fetch - processPackages [pymetadata]: Downloading https://files.pythonhosted.org/packages/c5/a0/60d04d3557b8d42d76ad79122555bbba7390a391a0459bce2204153c4b76/pymetadata-0.3.9.tar.gz
+[2023-08-02 12:48:55] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-08-02 12:48:55] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2023-08-02 12:48:55] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20230802/p/pulumi-azuread/5.9.0-5.9.0a1637590268/diff.md --exclude *.pyd
+[2023-08-02 12:48:55] INFO root fetch - processPackages [toui]: Downloading https://files.pythonhosted.org/packages/35/89/d6996783f75df07db8de7f285de7c02e69c8896f65131f81ca35c33935e0/toui-3.2.0.tar.gz
+[2023-08-02 12:48:55] INFO root fetch - processPackages [pymetadata]: executing diffoscope
+[2023-08-02 12:48:55] INFO root fetch - processPackages [pymetadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymetadata-0.3.8.tar.gz tmp/pymetadata-0.3.9.tar.gz --markdown 20230802/p/pymetadata/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-02 12:48:56] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-08-02 12:48:56] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230802/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 12:48:56] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/e3/82/282a6354cf9c12c1eef03fbe27311f589026de5af0bd45b523e7833334b6/pulumi_okta-4.2.0a1690971916.tar.gz
+[2023-08-02 12:48:56] INFO root fetch - processPackages [toui]: executing diffoscope
+[2023-08-02 12:48:56] INFO root fetch - processPackages [toui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toui-3.1.0.tar.gz tmp/toui-3.2.0.tar.gz --markdown 20230802/t/toui/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-08-02 12:48:56] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2023-08-02 12:48:56] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.2.0a1690263967.tar.gz tmp/pulumi_okta-4.2.0a1690971916.tar.gz --markdown 20230802/p/pulumi-okta/4.2.0a1690263967-4.2.0a1690971916/diff.md --exclude *.pyd
+[2023-08-02 12:48:56] INFO root fetch - processPackages [ag-llama2-hub-s]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama2_hub_s-0.0.16.tar.gz]
+[2023-08-02 12:48:56] INFO root fetch - processPackages [ag-llama2-hub-s]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama2_hub_s-0.0.17.tar.gz]
+[2023-08-02 12:48:56] INFO root fetch - processPackages [ag-llama2-hub-s]: Start processing: mcrit
+[2023-08-02 12:48:56] INFO root fetch - main [MainThread]: End processing [ag-llama2-hub-s]: success
+[2023-08-02 12:48:56] INFO root fetch - processPackages [mcrit]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-02 12:48:56] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.1.8.tar.gz]
+[2023-08-02 12:48:56] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.1.9.tar.gz]
+[2023-08-02 12:48:56] INFO root fetch - main [MainThread]: End processing [cybrex]: success
+[2023-08-02 12:48:56] INFO root fetch - processPackages [mcrit]: Downloading https://files.pythonhosted.org/packages/fc/09/12c963a0c87b62e0e9a5900444bf43ca160a73e4ba441c80a1f376b9e9e5/mcrit-1.0.8.tar.gz
+[2023-08-02 12:48:57] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.3.tar.gz]
+[2023-08-02 12:48:57] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.4.tar.gz]
+[2023-08-02 12:48:57] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-08-02 12:48:57] INFO root fetch - processPackages [hp2p-api]: Remove: archive file [/home/abi/fetcher/tmp/hp2p-api-0.0.3.tar.gz]
+[2023-08-02 12:48:57] INFO root fetch - processPackages [hp2p-api]: Remove: archive file [/home/abi/fetcher/tmp/hp2p-api-0.0.4.tar.gz]
+[2023-08-02 12:48:57] INFO root fetch - main [MainThread]: End processing [hp2p-api]: success
+[2023-08-02 12:48:57] INFO root fetch - processPackages [mcrit]: Downloading https://files.pythonhosted.org/packages/98/a4/b2b95421ce62aae370b30559fa6f86e297b8d3b66a64a39cc7f2b33a8440/mcrit-1.0.9.tar.gz
+[2023-08-02 12:48:57] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-08-02 12:48:57] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-08-02 12:48:57] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-08-02 12:48:57] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2023-08-02 12:48:57] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2023-08-02 12:48:57] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2023-08-02 12:48:57] INFO root fetch - processPackages [QWeb]: Remove: archive file [/home/abi/fetcher/tmp/QWeb-2.2.0.tar.gz]
+[2023-08-02 12:48:57] INFO root fetch - processPackages [QWeb]: Remove: archive file [/home/abi/fetcher/tmp/QWeb-2.2.1.tar.gz]
+[2023-08-02 12:48:57] INFO root fetch - main [MainThread]: End processing [QWeb]: success
+[2023-08-02 12:48:57] INFO root fetch - processPackages [toui]: Remove: archive file [/home/abi/fetcher/tmp/toui-3.1.0.tar.gz]
+[2023-08-02 12:48:57] INFO root fetch - processPackages [toui]: Remove: archive file [/home/abi/fetcher/tmp/toui-3.2.0.tar.gz]
+[2023-08-02 12:48:57] INFO root fetch - main [MainThread]: End processing [toui]: success
+[2023-08-02 12:48:57] INFO root fetch - processPackages [mcrit]: executing diffoscope
+[2023-08-02 12:48:57] INFO root fetch - processPackages [mcrit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcrit-1.0.8.tar.gz tmp/mcrit-1.0.9.tar.gz --markdown 20230802/m/mcrit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 12:48:57] INFO root fetch - processPackages [pymetadata]: Remove: archive file [/home/abi/fetcher/tmp/pymetadata-0.3.8.tar.gz]
+[2023-08-02 12:48:57] INFO root fetch - processPackages [pymetadata]: Remove: archive file [/home/abi/fetcher/tmp/pymetadata-0.3.9.tar.gz]
+[2023-08-02 12:48:57] INFO root fetch - main [MainThread]: End processing [pymetadata]: success
+[2023-08-02 12:48:58] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.2.0a1690263967.tar.gz]
+[2023-08-02 12:48:58] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.2.0a1690971916.tar.gz]
+[2023-08-02 12:48:58] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2023-08-02 12:48:58] INFO root fetch - processPackages [mcrit]: Remove: archive file [/home/abi/fetcher/tmp/mcrit-1.0.8.tar.gz]
+[2023-08-02 12:48:58] INFO root fetch - processPackages [mcrit]: Remove: archive file [/home/abi/fetcher/tmp/mcrit-1.0.9.tar.gz]
+[2023-08-02 12:48:58] INFO root fetch - main [MainThread]: End processing [mcrit]: success
+[2023-08-02 12:48:58] INFO root fetch - main [MainThread]: Store serial: [19140231]

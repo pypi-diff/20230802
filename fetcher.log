@@ -14893,3 +14893,126 @@
 [2023-08-02 08:59:54] INFO root fetch - processPackages [tensorflow-hs-addon]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_hs_addon-0.0.5-cp37-cp37m-manylinux2014_x86_64.whl.zip]
 [2023-08-02 08:59:54] INFO root fetch - main [MainThread]: End processing [tensorflow-hs-addon]: success
 [2023-08-02 08:59:54] INFO root fetch - main [MainThread]: Store serial: [19137654]
+[2023-08-02 09:04:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19137654]
+[2023-08-02 09:05:04] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-02 09:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fysh
+[2023-08-02 09:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AdyanUtils
+[2023-08-02 09:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pami
+[2023-08-02 09:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clip-inference
+[2023-08-02 09:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seqio-nightly
+[2023-08-02 09:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyOphidia
+[2023-08-02 09:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bittrade-binance-websocket
+[2023-08-02 09:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-08-02 09:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SOMcreator
+[2023-08-02 09:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DynamicForms
+[2023-08-02 09:05:04] INFO root fetch - processPackages [fysh]: New version: [0.0.1.2] Old Version: [0.0.1.1]
+[2023-08-02 09:05:04] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-08-02 09:05:04] WARNING root fetch - processPackages [clip-inference]: Skipping, unable to determine old version
+[2023-08-02 09:05:04] INFO root fetch - processPackages [clip-inference]: Start processing: gonio-imsoft
+[2023-08-02 09:05:04] INFO root fetch - main [MainThread]: End processing [clip-inference] error
+[2023-08-02 09:05:04] INFO root fetch - processPackages [PyOphidia]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-02 09:05:04] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-08-02 09:05:04] INFO root fetch - processPackages [AdyanUtils]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-08-02 09:05:04] INFO root fetch - processPackages [SOMcreator]: New version: [1.1.8.2] Old Version: [1.1.8]
+[2023-08-02 09:05:04] INFO root fetch - processPackages [bittrade-binance-websocket]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 09:05:04] INFO root fetch - processPackages [DynamicForms]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-02 09:05:04] INFO root fetch - processPackages [pami]: New version: [2023.8.1] Old Version: [2023.7.7]
+[2023-08-02 09:05:04] INFO root fetch - processPackages [fysh]: Downloading https://files.pythonhosted.org/packages/d3/ef/9ea235de8dc12c238d8cdef6ec5be5dbb68876d73bbc249d6bad8f25e0d2/fysh-0.0.1.1.tar.gz
+[2023-08-02 09:05:04] INFO root fetch - processPackages [gonio-imsoft]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-08-02 09:05:04] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-08-02 09:05:04] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-08-02 09:05:04] INFO root fetch - processPackages [SOMcreator]: Downloading https://files.pythonhosted.org/packages/d4/b1/a307184625c9673d42c57e8451b209c0198ca2ace65c4dcbf7723d48b9f6/SOMcreator-1.1.8.tar.gz
+[2023-08-02 09:05:05] INFO root fetch - processPackages [AdyanUtils]: Downloading https://files.pythonhosted.org/packages/61/7b/a62c5757730889fb3dcd7c9f516f22818cb454e9c8e1e5c40f13d5ed037e/AdyanUtils-0.6.6.tar.gz
+[2023-08-02 09:05:05] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/c1/a3/a9391b0a0ba21940c726b8e676f919e072e53da35bfe6fdc30f6cd4976ed/DynamicForms-0.9.8.tar.gz
+[2023-08-02 09:05:05] INFO root fetch - processPackages [PyOphidia]: Downloading https://files.pythonhosted.org/packages/6b/0b/b2fb52f3358dec1b497b068900db382e0dd29e21febf6928e15606a88d3d/PyOphidia-1.9.0.tar.gz
+[2023-08-02 09:05:05] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/e5/b5/d3f8f4040d5ecd0e1161e74b0d0aa44917c676425d43137299c53e5096b5/pami-2023.7.7.tar.gz
+[2023-08-02 09:05:05] INFO root fetch - processPackages [bittrade-binance-websocket]: Downloading https://files.pythonhosted.org/packages/4d/7b/a4d06972f877a052f4e09088e62bc9d1c95316753146ba3d44b4f6692eef/bittrade_binance_websocket-0.1.8.tar.gz
+[2023-08-02 09:05:05] INFO root fetch - processPackages [gonio-imsoft]: Downloading https://files.pythonhosted.org/packages/16/9d/68b115a632cfa673765556993e04398d1462e2b08f0eee13a39060c840c7/gonio-imsoft-0.0.2.tar.gz
+[2023-08-02 09:05:05] INFO root fetch - processPackages [fysh]: Downloading https://files.pythonhosted.org/packages/35/72/9f91de7144d6d78dc597f509d2b0a829cfae1408d5f4c65ba486668f2190/fysh-0.0.1.2.tar.gz
+[2023-08-02 09:05:05] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-08-02 09:05:05] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-08-02 09:05:05] INFO root fetch - processPackages [SOMcreator]: Downloading https://files.pythonhosted.org/packages/e2/65/5555993adf893d4980d662281fc8283ca1bee5c570aad319caacee113aaf/SOMcreator-1.1.8.2.tar.gz
+[2023-08-02 09:05:05] INFO root fetch - processPackages [AdyanUtils]: Downloading https://files.pythonhosted.org/packages/74/9c/a2242e38d28c25d9fd158748be05d4a5d9e8873ab45d76763f759c389572/AdyanUtils-0.6.7.tar.gz
+[2023-08-02 09:05:05] INFO root fetch - processPackages [fysh]: executing diffoscope
+[2023-08-02 09:05:05] INFO root fetch - processPackages [fysh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fysh-0.0.1.1.tar.gz tmp/fysh-0.0.1.2.tar.gz --markdown 20230802/f/fysh/0.0.1.1-0.0.1.2/diff.md --exclude *.pyd
+[2023-08-02 09:05:05] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-08-02 09:05:05] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230802/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 09:05:05] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/07/f3/928746deec46d8edd3f5500d7067a46e4e212b3bf3731b7488c8f3071fec/pami-2023.8.1.tar.gz
+[2023-08-02 09:05:05] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/17/92/2562c5f02d4953bc96c46e2b195343702ea6763233eceaed5091889f2ab8/DynamicForms-0.9.9.tar.gz
+[2023-08-02 09:05:05] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-08-02 09:05:05] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230802/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-08-02 09:05:05] INFO root fetch - processPackages [PyOphidia]: Downloading https://files.pythonhosted.org/packages/db/96/ff348183c9db1571e7eaf68fa60d0a7290a12f9eaf68589ea1f94e2092a5/PyOphidia-1.9.1.tar.gz
+[2023-08-02 09:05:05] INFO root fetch - processPackages [DynamicForms]: executing diffoscope
+[2023-08-02 09:05:05] INFO root fetch - processPackages [DynamicForms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicForms-0.9.8.tar.gz tmp/DynamicForms-0.9.9.tar.gz --markdown 20230802/D/DynamicForms/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-02 09:05:05] INFO root fetch - processPackages [bittrade-binance-websocket]: Downloading https://files.pythonhosted.org/packages/85/be/0d145a609996ff1fca888764b9d5b7917ceb3a20aaf8503cd68424b6d1f3/bittrade_binance_websocket-0.1.9.tar.gz
+[2023-08-02 09:05:05] INFO root fetch - processPackages [gonio-imsoft]: Downloading https://files.pythonhosted.org/packages/8e/d7/dd111f9b8402373bc01eb4da86ab692c14b31c8a6707991e793295bb9e93/gonio-imsoft-0.1.0.tar.gz
+[2023-08-02 09:05:05] INFO root fetch - processPackages [SOMcreator]: executing diffoscope
+[2023-08-02 09:05:05] INFO root fetch - processPackages [SOMcreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SOMcreator-1.1.8.tar.gz tmp/SOMcreator-1.1.8.2.tar.gz --markdown 20230802/S/SOMcreator/1.1.8-1.1.8.2/diff.md --exclude *.pyd
+[2023-08-02 09:05:05] INFO root fetch - processPackages [AdyanUtils]: executing diffoscope
+[2023-08-02 09:05:05] INFO root fetch - processPackages [AdyanUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AdyanUtils-0.6.6.tar.gz tmp/AdyanUtils-0.6.7.tar.gz --markdown 20230802/A/AdyanUtils/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-08-02 09:05:05] INFO root fetch - processPackages [pami]: executing diffoscope
+[2023-08-02 09:05:05] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2023.7.7.tar.gz tmp/pami-2023.8.1.tar.gz --markdown 20230802/p/pami/2023.7.7-2023.8.1/diff.md --exclude *.pyd
+[2023-08-02 09:05:05] INFO root fetch - processPackages [PyOphidia]: executing diffoscope
+[2023-08-02 09:05:05] INFO root fetch - processPackages [PyOphidia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyOphidia-1.9.0.tar.gz tmp/PyOphidia-1.9.1.tar.gz --markdown 20230802/P/PyOphidia/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-02 09:05:05] INFO root fetch - processPackages [bittrade-binance-websocket]: executing diffoscope
+[2023-08-02 09:05:05] INFO root fetch - processPackages [bittrade-binance-websocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittrade_binance_websocket-0.1.8.tar.gz tmp/bittrade_binance_websocket-0.1.9.tar.gz --markdown 20230802/b/bittrade-binance-websocket/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 09:05:05] INFO root fetch - processPackages [gonio-imsoft]: executing diffoscope
+[2023-08-02 09:05:05] INFO root fetch - processPackages [gonio-imsoft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gonio-imsoft-0.0.2.tar.gz tmp/gonio-imsoft-0.1.0.tar.gz --markdown 20230802/g/gonio-imsoft/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-08-02 09:05:07] INFO root fetch - processPackages [fysh]: Remove: archive file [/home/abi/fetcher/tmp/fysh-0.0.1.1.tar.gz]
+[2023-08-02 09:05:07] INFO root fetch - processPackages [fysh]: Remove: archive file [/home/abi/fetcher/tmp/fysh-0.0.1.2.tar.gz]
+[2023-08-02 09:05:07] INFO root fetch - processPackages [fysh]: Start processing: fysh
+[2023-08-02 09:05:07] INFO root fetch - main [MainThread]: End processing [fysh]: success
+[2023-08-02 09:05:07] INFO root fetch - processPackages [fysh]: New version: [0.0.1.3] Old Version: [0.0.1.2]
+[2023-08-02 09:05:07] INFO root fetch - processPackages [fysh]: Downloading https://files.pythonhosted.org/packages/35/72/9f91de7144d6d78dc597f509d2b0a829cfae1408d5f4c65ba486668f2190/fysh-0.0.1.2.tar.gz
+[2023-08-02 09:05:07] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-08-02 09:05:07] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-08-02 09:05:07] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Start processing: xj-push
+[2023-08-02 09:05:07] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-08-02 09:05:07] INFO root fetch - processPackages [AdyanUtils]: Remove: archive file [/home/abi/fetcher/tmp/AdyanUtils-0.6.6.tar.gz]
+[2023-08-02 09:05:07] INFO root fetch - processPackages [AdyanUtils]: Remove: archive file [/home/abi/fetcher/tmp/AdyanUtils-0.6.7.tar.gz]
+[2023-08-02 09:05:07] INFO root fetch - processPackages [AdyanUtils]: Start processing: calculatorPython3
+[2023-08-02 09:05:07] INFO root fetch - main [MainThread]: End processing [AdyanUtils]: success
+[2023-08-02 09:05:07] INFO root fetch - processPackages [SOMcreator]: Remove: archive file [/home/abi/fetcher/tmp/SOMcreator-1.1.8.tar.gz]
+[2023-08-02 09:05:07] INFO root fetch - processPackages [SOMcreator]: Remove: archive file [/home/abi/fetcher/tmp/SOMcreator-1.1.8.2.tar.gz]
+[2023-08-02 09:05:07] INFO root fetch - processPackages [SOMcreator]: Start processing: flxtrd
+[2023-08-02 09:05:07] INFO root fetch - main [MainThread]: End processing [SOMcreator]: success
+[2023-08-02 09:05:07] WARNING root fetch - processPackages [xj-push]: Skipping, unable to determine old version
+[2023-08-02 09:05:07] INFO root fetch - processPackages [xj-push]: Start processing: bfscale
+[2023-08-02 09:05:07] INFO root fetch - main [MainThread]: End processing [xj-push] error
+[2023-08-02 09:05:07] WARNING root fetch - processPackages [calculatorPython3]: Skipping, unable to determine old version
+[2023-08-02 09:05:07] INFO root fetch - main [MainThread]: End processing [calculatorPython3] error
+[2023-08-02 09:05:07] INFO root fetch - processPackages [flxtrd]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-02 09:05:07] INFO root fetch - processPackages [fysh]: Downloading https://files.pythonhosted.org/packages/36/fc/7694d0f9b822b35917bf6a26cbb514816594595c0d5dfcfdfbc71d7e8581/fysh-0.0.1.3.tar.gz
+[2023-08-02 09:05:07] WARNING root fetch - processPackages [bfscale]: Skipping, unable to determine old version
+[2023-08-02 09:05:07] INFO root fetch - main [MainThread]: End processing [bfscale] error
+[2023-08-02 09:05:07] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-08-02 09:05:07] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-08-02 09:05:07] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-08-02 09:05:07] INFO root fetch - processPackages [bittrade-binance-websocket]: Remove: archive file [/home/abi/fetcher/tmp/bittrade_binance_websocket-0.1.8.tar.gz]
+[2023-08-02 09:05:07] INFO root fetch - processPackages [bittrade-binance-websocket]: Remove: archive file [/home/abi/fetcher/tmp/bittrade_binance_websocket-0.1.9.tar.gz]
+[2023-08-02 09:05:07] INFO root fetch - main [MainThread]: End processing [bittrade-binance-websocket]: success
+[2023-08-02 09:05:07] INFO root fetch - processPackages [gonio-imsoft]: Remove: archive file [/home/abi/fetcher/tmp/gonio-imsoft-0.0.2.tar.gz]
+[2023-08-02 09:05:07] INFO root fetch - processPackages [gonio-imsoft]: Remove: archive file [/home/abi/fetcher/tmp/gonio-imsoft-0.1.0.tar.gz]
+[2023-08-02 09:05:07] INFO root fetch - main [MainThread]: End processing [gonio-imsoft]: success
+[2023-08-02 09:05:07] INFO root fetch - processPackages [PyOphidia]: Remove: archive file [/home/abi/fetcher/tmp/PyOphidia-1.9.0.tar.gz]
+[2023-08-02 09:05:07] INFO root fetch - processPackages [flxtrd]: Downloading https://files.pythonhosted.org/packages/d1/2b/abab90e17ef1d9815fab99f6c0806f1fc03112e27c62443db18622372699/flxtrd-0.2.4.tar.gz
+[2023-08-02 09:05:07] INFO root fetch - processPackages [PyOphidia]: Remove: archive file [/home/abi/fetcher/tmp/PyOphidia-1.9.1.tar.gz]
+[2023-08-02 09:05:07] INFO root fetch - main [MainThread]: End processing [PyOphidia]: success
+[2023-08-02 09:05:07] INFO root fetch - processPackages [fysh]: executing diffoscope
+[2023-08-02 09:05:07] INFO root fetch - processPackages [fysh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fysh-0.0.1.2.tar.gz tmp/fysh-0.0.1.3.tar.gz --markdown 20230802/f/fysh/0.0.1.2-0.0.1.3/diff.md --exclude *.pyd
+[2023-08-02 09:05:07] INFO root fetch - processPackages [flxtrd]: Downloading https://files.pythonhosted.org/packages/2e/6f/0e4fb00b205b00f883412fa8b271d65a4e737e1abbaac574a55c9e1abc52/flxtrd-0.2.5.tar.gz
+[2023-08-02 09:05:08] INFO root fetch - processPackages [flxtrd]: executing diffoscope
+[2023-08-02 09:05:08] INFO root fetch - processPackages [flxtrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flxtrd-0.2.4.tar.gz tmp/flxtrd-0.2.5.tar.gz --markdown 20230802/f/flxtrd/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-02 09:05:08] INFO root fetch - processPackages [fysh]: Remove: archive file [/home/abi/fetcher/tmp/fysh-0.0.1.2.tar.gz]
+[2023-08-02 09:05:08] INFO root fetch - processPackages [fysh]: Remove: archive file [/home/abi/fetcher/tmp/fysh-0.0.1.3.tar.gz]
+[2023-08-02 09:05:08] INFO root fetch - main [MainThread]: End processing [fysh]: success
+[2023-08-02 09:05:08] INFO root fetch - processPackages [flxtrd]: Remove: archive file [/home/abi/fetcher/tmp/flxtrd-0.2.4.tar.gz]
+[2023-08-02 09:05:08] INFO root fetch - processPackages [flxtrd]: Remove: archive file [/home/abi/fetcher/tmp/flxtrd-0.2.5.tar.gz]
+[2023-08-02 09:05:08] INFO root fetch - main [MainThread]: End processing [flxtrd]: success
+[2023-08-02 09:05:09] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.8.tar.gz]
+[2023-08-02 09:05:09] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.9.tar.gz]
+[2023-08-02 09:05:09] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
+[2023-08-02 09:05:09] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.7.tar.gz]
+[2023-08-02 09:05:09] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.8.1.tar.gz]
+[2023-08-02 09:05:09] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2023-08-02 09:05:09] INFO root fetch - main [MainThread]: Store serial: [19137737]

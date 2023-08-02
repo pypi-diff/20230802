@@ -12116,3 +12116,66 @@
 [2023-08-02 06:01:46] INFO root fetch - processPackages [k1lib]: Remove: archive file [/home/abi/fetcher/tmp/k1lib-1.4.3.tar.gz]
 [2023-08-02 06:01:46] INFO root fetch - main [MainThread]: End processing [k1lib]: success
 [2023-08-02 06:01:46] INFO root fetch - main [MainThread]: Store serial: [19136321]
+[2023-08-02 06:06:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136321]
+[2023-08-02 06:06:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-02 06:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-ro-stock-account
+[2023-08-02 06:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ifileoperation
+[2023-08-02 06:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: retakesearch
+[2023-08-02 06:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CheeseAPI
+[2023-08-02 06:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wbutils
+[2023-08-02 06:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chromedriver-binary
+[2023-08-02 06:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llm-friendly
+[2023-08-02 06:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-doc
+[2023-08-02 06:06:59] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: New version: [16.0.1.4.0.1] Old Version: [16.0.1.4.0]
+[2023-08-02 06:06:59] INFO root fetch - processPackages [retakesearch]: New version: [0.1.25] Old Version: [0.1.24]
+[2023-08-02 06:06:59] WARNING root fetch - processPackages [llm-friendly]: Skipping, unable to determine old version
+[2023-08-02 06:06:59] INFO root fetch - main [MainThread]: End processing [llm-friendly] error
+[2023-08-02 06:06:59] INFO root fetch - processPackages [py-doc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 06:06:59] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2023-08-02 06:06:59] WARNING root fetch - processPackages [wbutils]: Skipping, unable to determine old version
+[2023-08-02 06:06:59] INFO root fetch - main [MainThread]: End processing [wbutils] error
+[2023-08-02 06:06:59] INFO root fetch - processPackages [CheeseAPI]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-02 06:06:59] INFO root fetch - processPackages [ifileoperation]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-08-02 06:06:59] INFO root fetch - processPackages [py-doc]: Downloading https://files.pythonhosted.org/packages/6d/0c/756b76f9f6ad1623201564a554ac4761f5592e383022666bb3f5d89d17bd/py-doc-0.0.8.tar.gz
+[2023-08-02 06:06:59] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/6a/0e/03d6d00e2ed254273a95cd732b9c3060ea3e02f729cee050395b9c8f43ef/odoo_addon_l10n_ro_stock_account-16.0.1.4.0-py3-none-any.whl
+[2023-08-02 06:06:59] INFO root fetch - processPackages [retakesearch]: Downloading https://files.pythonhosted.org/packages/21/b0/b52d82d1fbe65cf3b0836f34c3bd4008b6c7cd4714c8de9a18ccb59ac7ed/retakesearch-0.1.24.tar.gz
+[2023-08-02 06:06:59] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2023-08-02 06:06:59] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/38/d1/9fd6e2f43f9b4f5d348f927ce1cc97b45c353f0262bd21302427c495bbc4/CheeseAPI-0.0.3.tar.gz
+[2023-08-02 06:06:59] INFO root fetch - processPackages [ifileoperation]: Downloading https://files.pythonhosted.org/packages/b5/42/a82f4a7cb13e2cd5519e4956d571d8bf9787fbe26e39842bae70f8659999/ifileoperation-1.2.5.tar.gz
+[2023-08-02 06:06:59] INFO root fetch - processPackages [py-doc]: Downloading https://files.pythonhosted.org/packages/ee/52/a1a02effd769884bd4cd97ab861f453ae5664085ab6ed8100da6f64cfcbe/py-doc-0.0.9.tar.gz
+[2023-08-02 06:06:59] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/46/62/343f5b961f2ee776277d123b78ad9e3ac580d4f147efd1c1cce19d47a7b8/odoo_addon_l10n_ro_stock_account-16.0.1.4.0.1-py3-none-any.whl
+[2023-08-02 06:06:59] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2023-08-02 06:06:59] INFO root fetch - processPackages [retakesearch]: Downloading https://files.pythonhosted.org/packages/ab/ad/00bf554af2dc37f480c7c1c169f12c76a87202281346a9755a223867ee85/retakesearch-0.1.25.tar.gz
+[2023-08-02 06:06:59] INFO root fetch - processPackages [py-doc]: executing diffoscope
+[2023-08-02 06:06:59] INFO root fetch - processPackages [py-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-doc-0.0.8.tar.gz tmp/py-doc-0.0.9.tar.gz --markdown 20230802/p/py-doc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 06:06:59] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/53/bb/251fd21f01546300f4d9443bb96346bf6783b6d5219547aeb008ac2b2aa7/CheeseAPI-0.0.4.tar.gz
+[2023-08-02 06:06:59] INFO root fetch - processPackages [retakesearch]: executing diffoscope
+[2023-08-02 06:06:59] INFO root fetch - processPackages [retakesearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retakesearch-0.1.24.tar.gz tmp/retakesearch-0.1.25.tar.gz --markdown 20230802/r/retakesearch/0.1.24-0.1.25/diff.md --exclude *.pyd
+[2023-08-02 06:06:59] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-08-02 06:06:59] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account-16.0.1.4.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account-16.0.1.4.0.1-py3-none-any.whl.zip --markdown 20230802/o/odoo-addon-l10n-ro-stock-account/16.0.1.4.0-16.0.1.4.0.1/diff.md --exclude *.pyd
+[2023-08-02 06:07:00] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2023-08-02 06:07:00] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20230802/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2023-08-02 06:07:00] INFO root fetch - processPackages [CheeseAPI]: executing diffoscope
+[2023-08-02 06:07:00] INFO root fetch - processPackages [CheeseAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CheeseAPI-0.0.3.tar.gz tmp/CheeseAPI-0.0.4.tar.gz --markdown 20230802/C/CheeseAPI/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-02 06:07:00] INFO root fetch - processPackages [ifileoperation]: Downloading https://files.pythonhosted.org/packages/f3/f4/c16f3eafb9bfb73e25e271ed0be539acd3f147e762fc45a7ddaa72b0b8e9/ifileoperation-1.2.6.tar.gz
+[2023-08-02 06:07:00] INFO root fetch - processPackages [ifileoperation]: executing diffoscope
+[2023-08-02 06:07:00] INFO root fetch - processPackages [ifileoperation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifileoperation-1.2.5.tar.gz tmp/ifileoperation-1.2.6.tar.gz --markdown 20230802/i/ifileoperation/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-08-02 06:07:00] INFO root fetch - processPackages [py-doc]: Remove: archive file [/home/abi/fetcher/tmp/py-doc-0.0.8.tar.gz]
+[2023-08-02 06:07:00] INFO root fetch - processPackages [py-doc]: Remove: archive file [/home/abi/fetcher/tmp/py-doc-0.0.9.tar.gz]
+[2023-08-02 06:07:00] INFO root fetch - main [MainThread]: End processing [py-doc]: success
+[2023-08-02 06:07:00] INFO root fetch - processPackages [retakesearch]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-0.1.24.tar.gz]
+[2023-08-02 06:07:00] INFO root fetch - processPackages [retakesearch]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-0.1.25.tar.gz]
+[2023-08-02 06:07:00] INFO root fetch - main [MainThread]: End processing [retakesearch]: success
+[2023-08-02 06:07:01] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2023-08-02 06:07:01] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2023-08-02 06:07:01] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2023-08-02 06:07:01] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.4.0-py3-none-any.whl.zip]
+[2023-08-02 06:07:01] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.4.0.1-py3-none-any.whl.zip]
+[2023-08-02 06:07:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
+[2023-08-02 06:07:01] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/CheeseAPI-0.0.3.tar.gz]
+[2023-08-02 06:07:01] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/CheeseAPI-0.0.4.tar.gz]
+[2023-08-02 06:07:01] INFO root fetch - main [MainThread]: End processing [CheeseAPI]: success
+[2023-08-02 06:07:01] INFO root fetch - processPackages [ifileoperation]: Remove: archive file [/home/abi/fetcher/tmp/ifileoperation-1.2.5.tar.gz]
+[2023-08-02 06:07:01] INFO root fetch - processPackages [ifileoperation]: Remove: archive file [/home/abi/fetcher/tmp/ifileoperation-1.2.6.tar.gz]
+[2023-08-02 06:07:01] INFO root fetch - main [MainThread]: End processing [ifileoperation]: success
+[2023-08-02 06:07:01] INFO root fetch - main [MainThread]: Store serial: [19136351]

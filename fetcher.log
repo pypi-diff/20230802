@@ -17520,3 +17520,100 @@
 [2023-08-02 10:50:40] INFO root fetch - processPackages [brainways]: Remove: archive file [/home/abi/fetcher/tmp/brainways-0.1.7.tar.gz]
 [2023-08-02 10:50:40] INFO root fetch - main [MainThread]: End processing [brainways]: success
 [2023-08-02 10:50:40] INFO root fetch - main [MainThread]: Store serial: [19138851]
+[2023-08-02 10:55:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19138851]
+[2023-08-02 10:55:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-02 10:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proxygen-cli
+[2023-08-02 10:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mathtext
+[2023-08-02 10:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oclock
+[2023-08-02 10:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: filter-stations
+[2023-08-02 10:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kaydet
+[2023-08-02 10:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: queryandprocessdatautility
+[2023-08-02 10:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nameless-deploy-tools
+[2023-08-02 10:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minireload
+[2023-08-02 10:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sdmxthon
+[2023-08-02 10:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyxdi
+[2023-08-02 10:55:50] INFO root fetch - processPackages [filter-stations]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-02 10:55:50] INFO root fetch - processPackages [oclock]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-08-02 10:55:50] INFO root fetch - processPackages [proxygen-cli]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-02 10:55:50] WARNING root fetch - processPackages [kaydet]: Skipping, unable to determine old version
+[2023-08-02 10:55:50] INFO root fetch - processPackages [kaydet]: Start processing: kaydet
+[2023-08-02 10:55:50] INFO root fetch - main [MainThread]: End processing [kaydet] error
+[2023-08-02 10:55:50] INFO root fetch - processPackages [minireload]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 10:55:50] INFO root fetch - processPackages [sdmxthon]: New version: [2.2] Old Version: [2.1]
+[2023-08-02 10:55:50] INFO root fetch - processPackages [mathtext]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 10:55:50] INFO root fetch - processPackages [pyxdi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-02 10:55:50] INFO root fetch - processPackages [queryandprocessdatautility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 10:55:50] INFO root fetch - processPackages [nameless-deploy-tools]: New version: [1.99] Old Version: [1.98]
+[2023-08-02 10:55:50] INFO root fetch - processPackages [kaydet]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-08-02 10:55:50] INFO root fetch - processPackages [minireload]: Downloading https://files.pythonhosted.org/packages/c4/d0/07f34ac33ac3f1366ff204de63e6c5c846799748692ce181398fe0cb7603/minireload-0.0.2.tar.gz
+[2023-08-02 10:55:50] INFO root fetch - processPackages [mathtext]: Downloading https://files.pythonhosted.org/packages/12/fc/43c69273b15fcec408339f8eb8bdcad454e58c30e87634b864c78b60a6d2/mathtext-0.0.8.tar.gz
+[2023-08-02 10:55:50] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/bb/ba/2ddffdca60c08cb627a5fd9b280e6cc83ec0c5a91c0c701cdf66aa67ea18/filter_stations-0.3.8.tar.gz
+[2023-08-02 10:55:50] INFO root fetch - processPackages [oclock]: Downloading https://files.pythonhosted.org/packages/96/b6/0788713dfb8206fa56fdeb9b855a434b1e9858d74e47bac054761d202774/oclock-1.3.0.tar.gz
+[2023-08-02 10:55:50] INFO root fetch - processPackages [proxygen-cli]: Downloading https://files.pythonhosted.org/packages/e2/37/7d06bc8fd8f6d5b0993593e8ed3c057e7975c3a3b24e9f9ea1c74fb0177d/proxygen_cli-2.0.8.tar.gz
+[2023-08-02 10:55:50] WARNING root fetch - processPackages [mathtext]: Skipping package: exceeds size limit 11880565>=10485760
+[2023-08-02 10:55:50] INFO root fetch - processPackages [mathtext]: Start processing: amiyabot
+[2023-08-02 10:55:50] INFO root fetch - main [MainThread]: End processing [mathtext] error
+[2023-08-02 10:55:50] INFO root fetch - processPackages [kaydet]: Downloading https://files.pythonhosted.org/packages/1a/ce/471b20b5dba1f1f7aecb6c6fc5e76ca0f4c5da1977bce1f48c2d6229addb/kaydet-0.8.3.tar.gz
+[2023-08-02 10:55:50] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/e5/18/ab2dd9cc1f7178820c2f15a2587d89212f36475e8a62df5f390d5d5e6795/queryandprocessdatautility-0.0.8-py3-none-any.whl
+[2023-08-02 10:55:50] INFO root fetch - processPackages [nameless-deploy-tools]: Downloading https://files.pythonhosted.org/packages/0d/c8/8c3c9f7254326f089bfaaf17c4f26d37fda0baf5993e7674c3c324a4ddc8/nameless-deploy-tools-1.98.tar.gz
+[2023-08-02 10:55:50] INFO root fetch - processPackages [sdmxthon]: Downloading https://files.pythonhosted.org/packages/b7/b3/28251a7e2b5366f50b5c7915a8cad58f1a0afe9d267ce2c23f495f89f7b5/sdmxthon-2.1.tar.gz
+[2023-08-02 10:55:50] INFO root fetch - processPackages [pyxdi]: Downloading https://files.pythonhosted.org/packages/27/55/a1b5b4bd6e45d73ca7a025ca1ff8928b16ffa69b07f64f6da6e526f48042/pyxdi-0.8.0.tar.gz
+[2023-08-02 10:55:50] INFO root fetch - processPackages [amiyabot]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-08-02 10:55:50] INFO root fetch - processPackages [minireload]: Downloading https://files.pythonhosted.org/packages/49/ba/5ab6694e5cad7346c75e00db8ed8285e6a743983c5d8ac80adc045bc3635/minireload-0.0.3.tar.gz
+[2023-08-02 10:55:50] INFO root fetch - processPackages [minireload]: executing diffoscope
+[2023-08-02 10:55:50] INFO root fetch - processPackages [minireload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minireload-0.0.2.tar.gz tmp/minireload-0.0.3.tar.gz --markdown 20230802/m/minireload/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 10:55:50] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/77/8e/07218807f1e3a03c9010a4a206798f76a40a680bf82259509f97152eac20/filter_stations-0.3.9.tar.gz
+[2023-08-02 10:55:50] INFO root fetch - processPackages [kaydet]: Downloading https://files.pythonhosted.org/packages/f8/a9/ba54b0bc113d3c248538ddeca44a8311701180c6304f4deb41a6d3a43f7f/kaydet-0.8.4.tar.gz
+[2023-08-02 10:55:50] INFO root fetch - processPackages [amiyabot]: Downloading https://files.pythonhosted.org/packages/74/78/68097232b424d30b2c34709e120d1a8db3d74351f16b9ed536db23028b75/amiyabot-1.6.1-py3-none-any.whl
+[2023-08-02 10:55:50] INFO root fetch - processPackages [oclock]: Downloading https://files.pythonhosted.org/packages/aa/2c/fab02457606094ac306778c6326706d2bbfdda663205e72d712328f75039/oclock-1.3.1.tar.gz
+[2023-08-02 10:55:50] INFO root fetch - processPackages [proxygen-cli]: Downloading https://files.pythonhosted.org/packages/00/12/2a1aab274b3a0df5485114c60d1f1a6e9feeea2593cbcf49275814638cc7/proxygen_cli-2.0.9.tar.gz
+[2023-08-02 10:55:51] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/dc/18/de6ee5fff1b47eae3227bc53bfc0e1cbd8796730d2c45800dd46e1c9d264/queryandprocessdatautility-0.0.9-py3-none-any.whl
+[2023-08-02 10:55:51] INFO root fetch - processPackages [sdmxthon]: Downloading https://files.pythonhosted.org/packages/22/4e/f1f58c230ea229e0f27333c6fd5b2761ce337a6ff7793a27bb8f1b828780/sdmxthon-2.2.tar.gz
+[2023-08-02 10:55:51] INFO root fetch - processPackages [filter-stations]: executing diffoscope
+[2023-08-02 10:55:51] INFO root fetch - processPackages [filter-stations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter_stations-0.3.8.tar.gz tmp/filter_stations-0.3.9.tar.gz --markdown 20230802/f/filter-stations/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-02 10:55:51] WARNING root fetch - processPackages [amiyabot]: Skipping package: exceeds size limit 11420552>=10485760
+[2023-08-02 10:55:51] INFO root fetch - main [MainThread]: End processing [amiyabot] error
+[2023-08-02 10:55:51] INFO root fetch - processPackages [queryandprocessdatautility]: executing diffoscope
+[2023-08-02 10:55:51] INFO root fetch - processPackages [queryandprocessdatautility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip --markdown 20230802/q/queryandprocessdatautility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 10:55:51] INFO root fetch - processPackages [nameless-deploy-tools]: Downloading https://files.pythonhosted.org/packages/fe/19/ea262f36b269c4dbb14250dd1ad53e26d137416f57251e88cd4db4227090/nameless-deploy-tools-1.99.tar.gz
+[2023-08-02 10:55:51] INFO root fetch - processPackages [sdmxthon]: executing diffoscope
+[2023-08-02 10:55:51] INFO root fetch - processPackages [sdmxthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdmxthon-2.1.tar.gz tmp/sdmxthon-2.2.tar.gz --markdown 20230802/s/sdmxthon/2.1-2.2/diff.md --exclude *.pyd
+[2023-08-02 10:55:51] INFO root fetch - processPackages [kaydet]: executing diffoscope
+[2023-08-02 10:55:51] INFO root fetch - processPackages [kaydet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaydet-0.8.3.tar.gz tmp/kaydet-0.8.4.tar.gz --markdown 20230802/k/kaydet/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-08-02 10:55:51] INFO root fetch - processPackages [oclock]: executing diffoscope
+[2023-08-02 10:55:51] INFO root fetch - processPackages [oclock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oclock-1.3.0.tar.gz tmp/oclock-1.3.1.tar.gz --markdown 20230802/o/oclock/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-08-02 10:55:51] INFO root fetch - processPackages [proxygen-cli]: executing diffoscope
+[2023-08-02 10:55:51] INFO root fetch - processPackages [proxygen-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxygen_cli-2.0.8.tar.gz tmp/proxygen_cli-2.0.9.tar.gz --markdown 20230802/p/proxygen-cli/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-02 10:55:51] INFO root fetch - processPackages [nameless-deploy-tools]: executing diffoscope
+[2023-08-02 10:55:51] INFO root fetch - processPackages [nameless-deploy-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nameless-deploy-tools-1.98.tar.gz tmp/nameless-deploy-tools-1.99.tar.gz --markdown 20230802/n/nameless-deploy-tools/1.98-1.99/diff.md --exclude *.pyd
+[2023-08-02 10:55:51] INFO root fetch - processPackages [pyxdi]: Downloading https://files.pythonhosted.org/packages/35/d0/d7f47f282bd060c3329acec77ca2b7e3c82658406503d58ac50d045ea3ee/pyxdi-0.9.0.tar.gz
+[2023-08-02 10:55:52] INFO root fetch - processPackages [minireload]: Remove: archive file [/home/abi/fetcher/tmp/minireload-0.0.2.tar.gz]
+[2023-08-02 10:55:52] INFO root fetch - processPackages [minireload]: Remove: archive file [/home/abi/fetcher/tmp/minireload-0.0.3.tar.gz]
+[2023-08-02 10:55:52] INFO root fetch - main [MainThread]: End processing [minireload]: success
+[2023-08-02 10:55:52] INFO root fetch - processPackages [pyxdi]: executing diffoscope
+[2023-08-02 10:55:52] INFO root fetch - processPackages [pyxdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxdi-0.8.0.tar.gz tmp/pyxdi-0.9.0.tar.gz --markdown 20230802/p/pyxdi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 10:55:52] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.8.tar.gz]
+[2023-08-02 10:55:52] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.9.tar.gz]
+[2023-08-02 10:55:52] INFO root fetch - main [MainThread]: End processing [filter-stations]: success
+[2023-08-02 10:55:52] INFO root fetch - processPackages [kaydet]: Remove: archive file [/home/abi/fetcher/tmp/kaydet-0.8.3.tar.gz]
+[2023-08-02 10:55:52] INFO root fetch - processPackages [kaydet]: Remove: archive file [/home/abi/fetcher/tmp/kaydet-0.8.4.tar.gz]
+[2023-08-02 10:55:52] INFO root fetch - main [MainThread]: End processing [kaydet]: success
+[2023-08-02 10:55:52] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip]
+[2023-08-02 10:55:52] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip]
+[2023-08-02 10:55:52] INFO root fetch - main [MainThread]: End processing [queryandprocessdatautility]: success
+[2023-08-02 10:55:52] INFO root fetch - processPackages [oclock]: Remove: archive file [/home/abi/fetcher/tmp/oclock-1.3.0.tar.gz]
+[2023-08-02 10:55:52] INFO root fetch - processPackages [oclock]: Remove: archive file [/home/abi/fetcher/tmp/oclock-1.3.1.tar.gz]
+[2023-08-02 10:55:52] INFO root fetch - main [MainThread]: End processing [oclock]: success
+[2023-08-02 10:55:52] INFO root fetch - processPackages [proxygen-cli]: Remove: archive file [/home/abi/fetcher/tmp/proxygen_cli-2.0.8.tar.gz]
+[2023-08-02 10:55:52] INFO root fetch - processPackages [proxygen-cli]: Remove: archive file [/home/abi/fetcher/tmp/proxygen_cli-2.0.9.tar.gz]
+[2023-08-02 10:55:52] INFO root fetch - main [MainThread]: End processing [proxygen-cli]: success
+[2023-08-02 10:55:53] INFO root fetch - processPackages [pyxdi]: Remove: archive file [/home/abi/fetcher/tmp/pyxdi-0.8.0.tar.gz]
+[2023-08-02 10:55:53] INFO root fetch - processPackages [pyxdi]: Remove: archive file [/home/abi/fetcher/tmp/pyxdi-0.9.0.tar.gz]
+[2023-08-02 10:55:53] INFO root fetch - main [MainThread]: End processing [pyxdi]: success
+[2023-08-02 10:55:53] INFO root fetch - processPackages [sdmxthon]: Remove: archive file [/home/abi/fetcher/tmp/sdmxthon-2.1.tar.gz]
+[2023-08-02 10:55:53] INFO root fetch - processPackages [sdmxthon]: Remove: archive file [/home/abi/fetcher/tmp/sdmxthon-2.2.tar.gz]
+[2023-08-02 10:55:53] INFO root fetch - main [MainThread]: End processing [sdmxthon]: success
+[2023-08-02 10:55:53] INFO root fetch - processPackages [nameless-deploy-tools]: Remove: archive file [/home/abi/fetcher/tmp/nameless-deploy-tools-1.98.tar.gz]
+[2023-08-02 10:55:53] INFO root fetch - processPackages [nameless-deploy-tools]: Remove: archive file [/home/abi/fetcher/tmp/nameless-deploy-tools-1.99.tar.gz]
+[2023-08-02 10:55:53] INFO root fetch - main [MainThread]: End processing [nameless-deploy-tools]: success
+[2023-08-02 10:55:53] INFO root fetch - main [MainThread]: Store serial: [19138890]

@@ -12343,3 +12343,81 @@
 [2023-08-02 06:17:29] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip]
 [2023-08-02 06:17:29] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
 [2023-08-02 06:17:29] INFO root fetch - main [MainThread]: Store serial: [19136436]
+[2023-08-02 06:22:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136436]
+[2023-08-02 06:22:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-02 06:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai-chat-chain
+[2023-08-02 06:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccdt
+[2023-08-02 06:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphractal
+[2023-08-02 06:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astroemperor
+[2023-08-02 06:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyIFPNI
+[2023-08-02 06:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: protloc-mex-x
+[2023-08-02 06:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-doc
+[2023-08-02 06:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: argus-rico
+[2023-08-02 06:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hypymedia
+[2023-08-02 06:22:38] INFO root fetch - processPackages [protloc-mex-x]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-02 06:22:38] INFO root fetch - processPackages [ai-chat-chain]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-02 06:22:38] INFO root fetch - processPackages [astroemperor]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-08-02 06:22:38] INFO root fetch - processPackages [py-doc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 06:22:38] INFO root fetch - processPackages [argus-rico]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-02 06:22:38] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-02 06:22:38] INFO root fetch - processPackages [pyIFPNI]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-02 06:22:38] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-08-02 06:22:38] WARNING root fetch - processPackages [hypymedia]: Skipping, unable to determine old version
+[2023-08-02 06:22:38] INFO root fetch - main [MainThread]: End processing [hypymedia] error
+[2023-08-02 06:22:38] INFO root fetch - processPackages [py-doc]: Downloading https://files.pythonhosted.org/packages/6d/0c/756b76f9f6ad1623201564a554ac4761f5592e383022666bb3f5d89d17bd/py-doc-0.0.8.tar.gz
+[2023-08-02 06:22:38] INFO root fetch - processPackages [argus-rico]: Downloading https://files.pythonhosted.org/packages/e6/d8/eb6229a897c589ba6c0c0e52c46de59addc64ceff33745df2c8883e71b7c/argus_rico-0.1.0.tar.gz
+[2023-08-02 06:22:38] INFO root fetch - processPackages [protloc-mex-x]: Downloading https://files.pythonhosted.org/packages/94/b4/b86cc290e45091da754b6ae54507e899f5e2bb95a951be6a028c13d54cd5/protloc_mex_x-0.0.5.tar.gz
+[2023-08-02 06:22:38] INFO root fetch - processPackages [ai-chat-chain]: Downloading https://files.pythonhosted.org/packages/1d/0b/bb450ff5f3a5874fc91167c2d986ddb673e7670c60a241ec9b14ce777500/ai_chat_chain-0.2.2.tar.gz
+[2023-08-02 06:22:38] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-08-02 06:22:38] INFO root fetch - processPackages [pyIFPNI]: Downloading https://files.pythonhosted.org/packages/b9/1a/66769fa27d9b156ccc3ff929878d77326661f19bff469822823cb0ed87d7/pyIFPNI-0.0.3.tar.gz
+[2023-08-02 06:22:38] INFO root fetch - processPackages [astroemperor]: Downloading https://files.pythonhosted.org/packages/a8/05/8bc7107887a3ba127856d0eae39f795af0a1de55147cb39c5f750fce4782/astroemperor-0.8.1.tar.gz
+[2023-08-02 06:22:38] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-08-02 06:22:38] INFO root fetch - processPackages [py-doc]: Downloading https://files.pythonhosted.org/packages/ee/52/a1a02effd769884bd4cd97ab861f453ae5664085ab6ed8100da6f64cfcbe/py-doc-0.0.9.tar.gz
+[2023-08-02 06:22:38] INFO root fetch - processPackages [argus-rico]: Downloading https://files.pythonhosted.org/packages/03/ae/b10cc764d32a4d8a3401adffe81516863c96ac44575afad0adb901954d7e/argus_rico-0.2.0.tar.gz
+[2023-08-02 06:22:38] INFO root fetch - processPackages [protloc-mex-x]: Downloading https://files.pythonhosted.org/packages/7d/d8/e821751c5499854674e40cc39c0ea1cd1b1dd94c9af7d8e5feff09e0f7c2/protloc_mex_x-0.0.6.tar.gz
+[2023-08-02 06:22:38] INFO root fetch - processPackages [py-doc]: executing diffoscope
+[2023-08-02 06:22:38] INFO root fetch - processPackages [py-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-doc-0.0.8.tar.gz tmp/py-doc-0.0.9.tar.gz --markdown 20230802/p/py-doc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 06:22:38] INFO root fetch - processPackages [ai-chat-chain]: Downloading https://files.pythonhosted.org/packages/15/fa/0e96dd5089467d0a3ab8cb24dff72f0374ebf08756f4fead46ead238d9f2/ai_chat_chain-0.2.3.tar.gz
+[2023-08-02 06:22:38] INFO root fetch - processPackages [pyIFPNI]: Downloading https://files.pythonhosted.org/packages/a0/42/5a88b588526867192d8fb8a76ccc88fcae39aafdc0ab0fecb5b9d802dd90/pyIFPNI-0.0.4.tar.gz
+[2023-08-02 06:22:38] INFO root fetch - processPackages [astroemperor]: Downloading https://files.pythonhosted.org/packages/a6/b2/bb9794bc59249ae4942e4b5f4e8d6bc68b9d4831722238da154a20d83bb3/astroemperor-0.8.2.tar.gz
+[2023-08-02 06:22:38] INFO root fetch - processPackages [argus-rico]: executing diffoscope
+[2023-08-02 06:22:38] INFO root fetch - processPackages [argus-rico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus_rico-0.1.0.tar.gz tmp/argus_rico-0.2.0.tar.gz --markdown 20230802/a/argus-rico/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-02 06:22:38] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-08-02 06:22:38] INFO root fetch - processPackages [protloc-mex-x]: executing diffoscope
+[2023-08-02 06:22:38] INFO root fetch - processPackages [protloc-mex-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protloc_mex_x-0.0.5.tar.gz tmp/protloc_mex_x-0.0.6.tar.gz --markdown 20230802/p/protloc-mex-x/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-02 06:22:38] INFO root fetch - processPackages [ai-chat-chain]: executing diffoscope
+[2023-08-02 06:22:38] INFO root fetch - processPackages [ai-chat-chain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_chat_chain-0.2.2.tar.gz tmp/ai_chat_chain-0.2.3.tar.gz --markdown 20230802/a/ai-chat-chain/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-02 06:22:38] INFO root fetch - processPackages [astroemperor]: executing diffoscope
+[2023-08-02 06:22:38] INFO root fetch - processPackages [astroemperor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astroemperor-0.8.1.tar.gz tmp/astroemperor-0.8.2.tar.gz --markdown 20230802/a/astroemperor/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-08-02 06:22:39] INFO root fetch - processPackages [pyIFPNI]: executing diffoscope
+[2023-08-02 06:22:39] INFO root fetch - processPackages [pyIFPNI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyIFPNI-0.0.3.tar.gz tmp/pyIFPNI-0.0.4.tar.gz --markdown 20230802/p/pyIFPNI/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-02 06:22:39] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-08-02 06:22:39] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230802/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-02 06:22:39] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-08-02 06:22:39] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-08-02 06:22:39] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230802/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-08-02 06:22:39] INFO root fetch - processPackages [py-doc]: Remove: archive file [/home/abi/fetcher/tmp/py-doc-0.0.8.tar.gz]
+[2023-08-02 06:22:39] INFO root fetch - processPackages [py-doc]: Remove: archive file [/home/abi/fetcher/tmp/py-doc-0.0.9.tar.gz]
+[2023-08-02 06:22:39] INFO root fetch - main [MainThread]: End processing [py-doc]: success
+[2023-08-02 06:22:40] INFO root fetch - processPackages [astroemperor]: Remove: archive file [/home/abi/fetcher/tmp/astroemperor-0.8.1.tar.gz]
+[2023-08-02 06:22:40] INFO root fetch - processPackages [astroemperor]: Remove: archive file [/home/abi/fetcher/tmp/astroemperor-0.8.2.tar.gz]
+[2023-08-02 06:22:40] INFO root fetch - main [MainThread]: End processing [astroemperor]: success
+[2023-08-02 06:22:40] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-08-02 06:22:40] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-08-02 06:22:40] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-08-02 06:22:40] INFO root fetch - processPackages [ai-chat-chain]: Remove: archive file [/home/abi/fetcher/tmp/ai_chat_chain-0.2.2.tar.gz]
+[2023-08-02 06:22:40] INFO root fetch - processPackages [ai-chat-chain]: Remove: archive file [/home/abi/fetcher/tmp/ai_chat_chain-0.2.3.tar.gz]
+[2023-08-02 06:22:40] INFO root fetch - main [MainThread]: End processing [ai-chat-chain]: success
+[2023-08-02 06:22:40] INFO root fetch - processPackages [pyIFPNI]: Remove: archive file [/home/abi/fetcher/tmp/pyIFPNI-0.0.3.tar.gz]
+[2023-08-02 06:22:40] INFO root fetch - processPackages [pyIFPNI]: Remove: archive file [/home/abi/fetcher/tmp/pyIFPNI-0.0.4.tar.gz]
+[2023-08-02 06:22:40] INFO root fetch - main [MainThread]: End processing [pyIFPNI]: success
+[2023-08-02 06:22:40] INFO root fetch - processPackages [protloc-mex-x]: Remove: archive file [/home/abi/fetcher/tmp/protloc_mex_x-0.0.5.tar.gz]
+[2023-08-02 06:22:40] INFO root fetch - processPackages [protloc-mex-x]: Remove: archive file [/home/abi/fetcher/tmp/protloc_mex_x-0.0.6.tar.gz]
+[2023-08-02 06:22:40] INFO root fetch - main [MainThread]: End processing [protloc-mex-x]: success
+[2023-08-02 06:22:40] INFO root fetch - processPackages [argus-rico]: Remove: archive file [/home/abi/fetcher/tmp/argus_rico-0.1.0.tar.gz]
+[2023-08-02 06:22:40] INFO root fetch - processPackages [argus-rico]: Remove: archive file [/home/abi/fetcher/tmp/argus_rico-0.2.0.tar.gz]
+[2023-08-02 06:22:40] INFO root fetch - main [MainThread]: End processing [argus-rico]: success
+[2023-08-02 06:22:40] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-08-02 06:22:40] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-08-02 06:22:40] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-08-02 06:22:40] INFO root fetch - main [MainThread]: Store serial: [19136469]

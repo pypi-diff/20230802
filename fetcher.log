@@ -13917,3 +13917,126 @@
 [2023-08-02 08:09:24] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.9.tar.gz]
 [2023-08-02 08:09:24] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
 [2023-08-02 08:09:24] INFO root fetch - main [MainThread]: Store serial: [19137142]
+[2023-08-02 08:14:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19137142]
+[2023-08-02 08:14:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inhandtest
+[2023-08-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-finance
+[2023-08-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: casbin-django-orm-adapter
+[2023-08-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ant1Interface
+[2023-08-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omnata-plugin-devkit
+[2023-08-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zengin-code
+[2023-08-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arrow-odbc
+[2023-08-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: remotemanager
+[2023-08-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-image
+[2023-08-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s-operator
+[2023-08-02 08:14:32] INFO root fetch - processPackages [inhandtest]: New version: [0.0.63] Old Version: [0.0.62]
+[2023-08-02 08:14:32] INFO root fetch - processPackages [ant1Interface]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-08-02 08:14:32] INFO root fetch - processPackages [casbin-django-orm-adapter]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-02 08:14:33] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 08:14:33] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-08-02 08:14:33] INFO root fetch - processPackages [arrow-odbc]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-02 08:14:33] INFO root fetch - processPackages [remotemanager]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-02 08:14:33] INFO root fetch - processPackages [zengin-code]: New version: [1.1.0.20230802] Old Version: [1.1.0.20230717]
+[2023-08-02 08:14:33] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-02 08:14:33] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-02 08:14:33] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-08-02 08:14:33] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/ec/88/3a42ef13eeb70e156d3cf4e296adf9012fbef15a7685742aedf921da4911/ant1Interface-0.0.7-py3-none-any.whl
+[2023-08-02 08:14:33] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/3a/50/528a08969afb90065e86c917ad0bd8c483a312df046908703699cd798a92/remotemanager-0.9.8.tar.gz
+[2023-08-02 08:14:33] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/0e/07/a492fee074d5e30e6bede52dd6928adf95259e90013389c9ebef5cab8cdf/inhandtest-0.0.62.tar.gz
+[2023-08-02 08:14:33] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-08-02 08:14:33] INFO root fetch - processPackages [casbin-django-orm-adapter]: Downloading https://files.pythonhosted.org/packages/56/6f/b91a91426d8b8c2518f6f101c38dd64fad10e3cab9c023e88ca5677dca2b/casbin-django-orm-adapter-1.1.0.tar.gz
+[2023-08-02 08:14:33] INFO root fetch - processPackages [zengin-code]: Downloading https://files.pythonhosted.org/packages/1d/40/5a835c2b61e59b92fad283282040662c4e37d25049e660e505ed7e6437cf/zengin_code-1.1.0.20230717.tar.gz
+[2023-08-02 08:14:33] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/85/06/1e9c8076aa8e0629c14bb494a76121b916ff57c4793069cd4ef44db94916/xj_finance-1.1.7.tar.gz
+[2023-08-02 08:14:33] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/08/4a/4983fe97d4073731fd1258ffef45d7770c72f1de7244a05cdfe1bb68d3b0/cdk8s-image-0.2.98.tar.gz
+[2023-08-02 08:14:33] INFO root fetch - processPackages [arrow-odbc]: Downloading https://files.pythonhosted.org/packages/74/62/fe4758cfc37636b8473713af3e806df0d63fb732640822bd50da327e8e3f/arrow_odbc-1.2.0.tar.gz
+[2023-08-02 08:14:33] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-08-02 08:14:33] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/6c/ad/4dc56a0e10097173d3641ee71fb03814440f99f7f8e09d6b4646fc06a8c1/remotemanager-0.9.9.tar.gz
+[2023-08-02 08:14:33] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/cf/d2/fcb6e1b2a714653f4642d8b21e4ee22b1b4ffbf9e9a950b6433053e972f8/ant1Interface-0.0.9-py3-none-any.whl
+[2023-08-02 08:14:33] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/00/c1/45e0a35adf93a0565c0dffa862758e9de5bd5cc9ffe2f4b0692cabe39713/inhandtest-0.0.63.tar.gz
+[2023-08-02 08:14:33] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-08-02 08:14:33] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/fb/19/ce87f85995849eec0b27665fe8c6c59e225f2d99370b1c068893ad31c698/cdk8s-image-0.2.99.tar.gz
+[2023-08-02 08:14:33] INFO root fetch - processPackages [casbin-django-orm-adapter]: Downloading https://files.pythonhosted.org/packages/03/9c/63150d0956bbedd79572f52425a889e31ef361741412a08150e749aa2403/casbin-django-orm-adapter-1.1.1.tar.gz
+[2023-08-02 08:14:33] INFO root fetch - processPackages [zengin-code]: Downloading https://files.pythonhosted.org/packages/d9/b2/545c888ce063b6e8304672f0287cc98507e02048afc4a26a993f62840c77/zengin_code-1.1.0.20230802.tar.gz
+[2023-08-02 08:14:33] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-08-02 08:14:33] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230802/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 08:14:33] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/05/17/1d8ed3acedb3e976333c002d75343346b672b1b0907099e9685be98f80ac/xj_finance-1.1.8.tar.gz
+[2023-08-02 08:14:34] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-08-02 08:14:34] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.9.8.tar.gz tmp/remotemanager-0.9.9.tar.gz --markdown 20230802/r/remotemanager/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-02 08:14:34] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-08-02 08:14:34] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.62.tar.gz tmp/inhandtest-0.0.63.tar.gz --markdown 20230802/i/inhandtest/0.0.62-0.0.63/diff.md --exclude *.pyd
+[2023-08-02 08:14:34] INFO root fetch - processPackages [arrow-odbc]: Downloading https://files.pythonhosted.org/packages/d0/9f/34be21fddede310d56a18f428f5804f14bbcaaa9de910e3391007dbc94ec/arrow_odbc-1.2.1.tar.gz
+[2023-08-02 08:14:34] INFO root fetch - processPackages [casbin-django-orm-adapter]: executing diffoscope
+[2023-08-02 08:14:34] INFO root fetch - processPackages [casbin-django-orm-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casbin-django-orm-adapter-1.1.0.tar.gz tmp/casbin-django-orm-adapter-1.1.1.tar.gz --markdown 20230802/c/casbin-django-orm-adapter/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-02 08:14:34] INFO root fetch - processPackages [ant1Interface]: executing diffoscope
+[2023-08-02 08:14:34] INFO root fetch - processPackages [ant1Interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ant1Interface-0.0.7-py3-none-any.whl.zip tmp/ant1Interface-0.0.9-py3-none-any.whl.zip --markdown 20230802/a/ant1Interface/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 08:14:34] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-08-02 08:14:34] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230802/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-02 08:14:34] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-08-02 08:14:34] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230802/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-02 08:14:34] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-08-02 08:14:34] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230802/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-08-02 08:14:34] INFO root fetch - processPackages [arrow-odbc]: executing diffoscope
+[2023-08-02 08:14:34] INFO root fetch - processPackages [arrow-odbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrow_odbc-1.2.0.tar.gz tmp/arrow_odbc-1.2.1.tar.gz --markdown 20230802/a/arrow-odbc/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-08-02 08:14:34] INFO root fetch - processPackages [zengin-code]: executing diffoscope
+[2023-08-02 08:14:34] INFO root fetch - processPackages [zengin-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zengin_code-1.1.0.20230717.tar.gz tmp/zengin_code-1.1.0.20230802.tar.gz --markdown 20230802/z/zengin-code/1.1.0.20230717-1.1.0.20230802/diff.md --exclude *.pyd
+[2023-08-02 08:14:35] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-08-02 08:14:35] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-08-02 08:14:35] INFO root fetch - processPackages [omnata-plugin-devkit]: Start processing: xj-push
+[2023-08-02 08:14:35] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-08-02 08:14:35] WARNING root fetch - processPackages [xj-push]: Skipping, unable to determine old version
+[2023-08-02 08:14:35] INFO root fetch - processPackages [xj-push]: Start processing: shapeout2
+[2023-08-02 08:14:35] INFO root fetch - main [MainThread]: End processing [xj-push] error
+[2023-08-02 08:14:35] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-08-02 08:14:35] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-08-02 08:14:35] INFO root fetch - processPackages [cdk8s-operator]: Start processing: tablate
+[2023-08-02 08:14:35] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-08-02 08:14:35] INFO root fetch - processPackages [shapeout2]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-08-02 08:14:35] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 08:14:35] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.98.tar.gz]
+[2023-08-02 08:14:35] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.99.tar.gz]
+[2023-08-02 08:14:35] INFO root fetch - processPackages [cdk8s-image]: Start processing: cyp-quantum-circuit
+[2023-08-02 08:14:35] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-08-02 08:14:35] INFO root fetch - processPackages [shapeout2]: Downloading https://files.pythonhosted.org/packages/27/26/7e5e08bc714db215c9103bad6c7528a292dad54c0cd3e56a556dd2fd660a/shapeout2-2.9.5.tar.gz
+[2023-08-02 08:14:35] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.8.tar.gz]
+[2023-08-02 08:14:35] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.9.tar.gz]
+[2023-08-02 08:14:35] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-08-02 08:14:35] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-02 08:14:35] INFO root fetch - processPackages [casbin-django-orm-adapter]: Remove: archive file [/home/abi/fetcher/tmp/casbin-django-orm-adapter-1.1.0.tar.gz]
+[2023-08-02 08:14:35] INFO root fetch - processPackages [casbin-django-orm-adapter]: Remove: archive file [/home/abi/fetcher/tmp/casbin-django-orm-adapter-1.1.1.tar.gz]
+[2023-08-02 08:14:35] INFO root fetch - main [MainThread]: End processing [casbin-django-orm-adapter]: success
+[2023-08-02 08:14:36] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.7.tar.gz]
+[2023-08-02 08:14:36] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.8.tar.gz]
+[2023-08-02 08:14:36] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-08-02 08:14:36] INFO root fetch - processPackages [shapeout2]: Downloading https://files.pythonhosted.org/packages/35/23/3e2b923fd3a130e068a59c3125d5bcfcc7bcf9ff2dfd5df0df3ce914dfa7/shapeout2-2.9.6.tar.gz
+[2023-08-02 08:14:36] INFO root fetch - processPackages [arrow-odbc]: Remove: archive file [/home/abi/fetcher/tmp/arrow_odbc-1.2.0.tar.gz]
+[2023-08-02 08:14:36] INFO root fetch - processPackages [arrow-odbc]: Remove: archive file [/home/abi/fetcher/tmp/arrow_odbc-1.2.1.tar.gz]
+[2023-08-02 08:14:36] INFO root fetch - main [MainThread]: End processing [arrow-odbc]: success
+[2023-08-02 08:14:36] INFO root fetch - processPackages [cyp-quantum-circuit]: New version: [0.1.69] Old Version: [0.1.1]
+[2023-08-02 08:14:36] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-02 08:14:36] INFO root fetch - processPackages [ant1Interface]: Remove: archive file [/home/abi/fetcher/tmp/ant1Interface-0.0.7-py3-none-any.whl.zip]
+[2023-08-02 08:14:36] INFO root fetch - processPackages [ant1Interface]: Remove: archive file [/home/abi/fetcher/tmp/ant1Interface-0.0.9-py3-none-any.whl.zip]
+[2023-08-02 08:14:36] INFO root fetch - main [MainThread]: End processing [ant1Interface]: success
+[2023-08-02 08:14:36] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.62.tar.gz]
+[2023-08-02 08:14:36] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.63.tar.gz]
+[2023-08-02 08:14:36] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-08-02 08:14:36] INFO root fetch - processPackages [shapeout2]: executing diffoscope
+[2023-08-02 08:14:36] INFO root fetch - processPackages [shapeout2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapeout2-2.9.5.tar.gz tmp/shapeout2-2.9.6.tar.gz --markdown 20230802/s/shapeout2/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-08-02 08:14:36] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-02 08:14:36] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230802/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 08:14:36] INFO root fetch - processPackages [cyp-quantum-circuit]: Downloading https://files.pythonhosted.org/packages/7c/d2/8f7936430ff1368392559d8dca49a67e41cd896f1de28ec4ac429e314756/cyp_quantum_circuit-0.1.1.tar.gz
+[2023-08-02 08:14:36] INFO root fetch - processPackages [cyp-quantum-circuit]: Downloading https://files.pythonhosted.org/packages/44/c7/ae0e7e53fd4e74cad19975884084a9e74de51f3a34aba0f5d606de4bccad/cyp_quantum_circuit-0.1.69-cp311-cp311-macosx_11_0_arm64.whl
+[2023-08-02 08:14:37] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-02 08:14:37] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-02 08:14:37] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-02 08:14:38] INFO root fetch - processPackages [shapeout2]: Remove: archive file [/home/abi/fetcher/tmp/shapeout2-2.9.5.tar.gz]
+[2023-08-02 08:14:38] INFO root fetch - processPackages [shapeout2]: Remove: archive file [/home/abi/fetcher/tmp/shapeout2-2.9.6.tar.gz]
+[2023-08-02 08:14:38] INFO root fetch - main [MainThread]: End processing [shapeout2]: success
+[2023-08-02 08:14:38] INFO root fetch - processPackages [cyp-quantum-circuit]: executing diffoscope
+[2023-08-02 08:14:38] INFO root fetch - processPackages [cyp-quantum-circuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyp_quantum_circuit-0.1.1.tar.gz tmp/cyp_quantum_circuit-0.1.69-cp311-cp311-macosx_11_0_arm64.whl.zip --markdown 20230802/c/cyp-quantum-circuit/0.1.1-0.1.69/diff.md --exclude *.pyd
+[2023-08-02 08:14:38] INFO root fetch - processPackages [cyp-quantum-circuit]: Remove: archive file [/home/abi/fetcher/tmp/cyp_quantum_circuit-0.1.1.tar.gz]
+[2023-08-02 08:14:38] INFO root fetch - processPackages [cyp-quantum-circuit]: Remove: archive file [/home/abi/fetcher/tmp/cyp_quantum_circuit-0.1.69-cp311-cp311-macosx_11_0_arm64.whl.zip]
+[2023-08-02 08:14:38] INFO root fetch - main [MainThread]: End processing [cyp-quantum-circuit]: success
+[2023-08-02 08:14:41] INFO root fetch - processPackages [zengin-code]: Remove: archive file [/home/abi/fetcher/tmp/zengin_code-1.1.0.20230717.tar.gz]
+[2023-08-02 08:14:41] INFO root fetch - processPackages [zengin-code]: Remove: archive file [/home/abi/fetcher/tmp/zengin_code-1.1.0.20230802.tar.gz]
+[2023-08-02 08:14:41] INFO root fetch - main [MainThread]: End processing [zengin-code]: success
+[2023-08-02 08:14:41] INFO root fetch - main [MainThread]: Store serial: [19137193]

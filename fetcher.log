@@ -9334,3 +9334,137 @@
 [2023-08-02 03:32:27] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.403.0.tar.gz]
 [2023-08-02 03:32:27] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-08-02 03:32:27] INFO root fetch - main [MainThread]: Store serial: [19135185]
+[2023-08-02 03:37:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19135185]
+[2023-08-02 03:37:36] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-02 03:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bootloader-core-library
+[2023-08-02 03:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-utilities
+[2023-08-02 03:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-numpy
+[2023-08-02 03:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maggma
+[2023-08-02 03:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline-service-client
+[2023-08-02 03:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-service-server
+[2023-08-02 03:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-ui
+[2023-08-02 03:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline-v4-service
+[2023-08-02 03:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline
+[2023-08-02 03:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-core
+[2023-08-02 03:37:36] INFO root fetch - processPackages [abstract-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 03:37:36] INFO root fetch - processPackages [bootloader-core-library]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-02 03:37:36] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-02 03:37:36] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-02 03:37:36] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-02 03:37:36] INFO root fetch - processPackages [maggma]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-02 03:37:36] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-02 03:37:36] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-02 03:37:36] INFO root fetch - processPackages [bootloader-core-library]: Downloading https://files.pythonhosted.org/packages/4a/e0/f4a0b72d8b62e1def98724398372d3ca6e9f29465a9da16e3432fa0c567b/bootloader_core_library-0.0.6.tar.gz
+[2023-08-02 03:37:36] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-02 03:37:36] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 03:37:36] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-08-02 03:37:36] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-08-02 03:37:36] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-08-02 03:37:37] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/e0/2b/ce1d43af4b5abc2c6dfe690a4633f989b5361c6f265e87f51e18c24fbd80/abstract_utilities-0.0.8.tar.gz
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-08-02 03:37:37] INFO root fetch - processPackages [maggma]: Downloading https://files.pythonhosted.org/packages/0b/d5/4bfefd3094fe323ae3b4f6043dd7f75d763cd562d238063c16d1d2f30697/maggma-0.8.0.tar.gz
+[2023-08-02 03:37:37] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-08-02 03:37:37] INFO root fetch - processPackages [bootloader-core-library]: Downloading https://files.pythonhosted.org/packages/00/20/0bb6e6c684624067f9b954aaecaa97f98e94d7c59c7999a90546ad747648/bootloader_core_library-0.0.7.tar.gz
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-08-02 03:37:37] INFO root fetch - processPackages [bootloader-core-library]: executing diffoscope
+[2023-08-02 03:37:37] INFO root fetch - processPackages [bootloader-core-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bootloader_core_library-0.0.6.tar.gz tmp/bootloader_core_library-0.0.7.tar.gz --markdown 20230802/b/bootloader-core-library/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-08-02 03:37:37] INFO root fetch - processPackages [maggma]: Downloading https://files.pythonhosted.org/packages/e3/6f/7133584ec97cb54d2930706c7623e641ac8328cb0b9166e7bc2f9f04616f/maggma-0.9.0.tar.gz
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230802/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230802/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-02 03:37:37] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230802/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-02 03:37:37] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/2d/bf/c73c46dd3455e0261203d2b9781bf2af9d495c25f437ec1f38833613373e/abstract_utilities-0.0.9.tar.gz
+[2023-08-02 03:37:37] INFO root fetch - processPackages [maggma]: executing diffoscope
+[2023-08-02 03:37:37] INFO root fetch - processPackages [maggma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maggma-0.8.0.tar.gz tmp/maggma-0.9.0.tar.gz --markdown 20230802/m/maggma/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 03:37:37] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-08-02 03:37:37] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230802/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230802/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230802/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-08-02 03:37:37] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230802/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-02 03:37:38] INFO root fetch - processPackages [abstract-utilities]: executing diffoscope
+[2023-08-02 03:37:38] INFO root fetch - processPackages [abstract-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities-0.0.8.tar.gz tmp/abstract_utilities-0.0.9.tar.gz --markdown 20230802/a/abstract-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 03:37:39] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: nbdev-pandas
+[2023-08-02 03:37:39] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-08-02 03:37:39] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: homeassistant
+[2023-08-02 03:37:39] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-08-02 03:37:39] INFO root fetch - processPackages [bootloader-core-library]: Remove: archive file [/home/abi/fetcher/tmp/bootloader_core_library-0.0.6.tar.gz]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [bootloader-core-library]: Remove: archive file [/home/abi/fetcher/tmp/bootloader_core_library-0.0.7.tar.gz]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [bootloader-core-library]: Start processing: omnata-plugin-devkit
+[2023-08-02 03:37:39] INFO root fetch - main [MainThread]: End processing [bootloader-core-library]: success
+[2023-08-02 03:37:39] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-08-02 03:37:39] INFO root fetch - processPackages [homeassistant]: New version: [2023.8.0b4] Old Version: [2023.8.0b3]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [nbdev-numpy]: Start processing: nbdev-pytorch
+[2023-08-02 03:37:39] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-08-02 03:37:39] INFO root fetch - processPackages [maggma]: Remove: archive file [/home/abi/fetcher/tmp/maggma-0.8.0.tar.gz]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [maggma]: Remove: archive file [/home/abi/fetcher/tmp/maggma-0.9.0.tar.gz]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [maggma]: Start processing: nbdev-scipy
+[2023-08-02 03:37:39] INFO root fetch - main [MainThread]: End processing [maggma]: success
+[2023-08-02 03:37:39] INFO root fetch - processPackages [abstract-utilities]: Remove: archive file [/home/abi/fetcher/tmp/abstract_utilities-0.0.8.tar.gz]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [abstract-utilities]: Remove: archive file [/home/abi/fetcher/tmp/abstract_utilities-0.0.9.tar.gz]
+[2023-08-02 03:37:39] INFO root fetch - main [MainThread]: End processing [abstract-utilities]: success
+[2023-08-02 03:37:39] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-08-02 03:37:39] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-08-02 03:37:39] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-08-02 03:37:39] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-08-02 03:37:39] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-08-02 03:37:39] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-08-02 03:37:39] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-08-02 03:37:39] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/1e/23/488b4a9fe7487ecd597840040d70b17efe7cef01524d6f40bf568ed787c8/homeassistant-2023.8.0b3.tar.gz
+[2023-08-02 03:37:40] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-08-02 03:37:40] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 15961994>=10485760
+[2023-08-02 03:37:40] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-08-02 03:37:40] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-08-02 03:37:40] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-08-02 03:37:40] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230802/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 03:37:40] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-08-02 03:37:40] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-08-02 03:37:40] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-08-02 03:37:40] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-08-02 03:37:40] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230802/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 03:37:40] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-08-02 03:37:40] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230802/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 03:37:40] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-08-02 03:37:40] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230802/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 03:37:40] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-08-02 03:37:40] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-08-02 03:37:40] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-08-02 03:37:41] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-08-02 03:37:41] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-08-02 03:37:41] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-08-02 03:37:41] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-08-02 03:37:41] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-08-02 03:37:41] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-08-02 03:37:41] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-08-02 03:37:41] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-08-02 03:37:41] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-08-02 03:37:41] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-08-02 03:37:41] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-08-02 03:37:41] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-08-02 03:37:41] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-08-02 03:37:41] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-08-02 03:37:41] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-08-02 03:37:41] INFO root fetch - main [MainThread]: Store serial: [19135223]

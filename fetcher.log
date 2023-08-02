@@ -15681,3 +15681,97 @@
 [2023-08-02 09:32:03] INFO root fetch - processPackages [django-cms-qe]: Remove: archive file [/home/abi/fetcher/tmp/django-cms-qe-2.2.tar.gz]
 [2023-08-02 09:32:03] INFO root fetch - main [MainThread]: End processing [django-cms-qe]: success
 [2023-08-02 09:32:03] INFO root fetch - main [MainThread]: Store serial: [19138007]
+[2023-08-02 09:37:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19138007]
+[2023-08-02 09:37:13] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-02 09:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gediao-utils
+[2023-08-02 09:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liveramp-automation
+[2023-08-02 09:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xw-cbase
+[2023-08-02 09:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frontengine
+[2023-08-02 09:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: petsc
+[2023-08-02 09:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: petsc4py
+[2023-08-02 09:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: actnova-yolo
+[2023-08-02 09:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: caf.toolkit
+[2023-08-02 09:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: test-gh-action-test
+[2023-08-02 09:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lalsuite
+[2023-08-02 09:37:13] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 09:37:13] WARNING root fetch - processPackages [gediao-utils]: Skipping, unable to determine old version
+[2023-08-02 09:37:13] INFO root fetch - processPackages [gediao-utils]: Start processing: rclip
+[2023-08-02 09:37:13] INFO root fetch - main [MainThread]: End processing [gediao-utils] error
+[2023-08-02 09:37:13] WARNING root fetch - processPackages [test-gh-action-test]: Skipping, unable to determine old version
+[2023-08-02 09:37:13] INFO root fetch - processPackages [test-gh-action-test]: Start processing: pybenutils
+[2023-08-02 09:37:13] INFO root fetch - main [MainThread]: End processing [test-gh-action-test] error
+[2023-08-02 09:37:13] WARNING root fetch - processPackages [xw-cbase]: Skipping, unable to determine old version
+[2023-08-02 09:37:13] INFO root fetch - processPackages [liveramp-automation]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-08-02 09:37:13] INFO root fetch - processPackages [xw-cbase]: Start processing: syntaxlight
+[2023-08-02 09:37:13] INFO root fetch - main [MainThread]: End processing [xw-cbase] error
+[2023-08-02 09:37:13] INFO root fetch - processPackages [petsc]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-08-02 09:37:13] INFO root fetch - processPackages [petsc4py]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-08-02 09:37:13] INFO root fetch - processPackages [rclip]: New version: [1.4.7a4] Old Version: [1.4.7a3]
+[2023-08-02 09:37:13] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-08-02 09:37:13] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2023-08-02 09:37:13] INFO root fetch - processPackages [caf.toolkit]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-02 09:37:13] INFO root fetch - processPackages [actnova-yolo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-02 09:37:13] INFO root fetch - processPackages [pybenutils]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-08-02 09:37:13] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/5b/b9/a99c1d44a1196306212d78292d8d97e705ffe603cee33cfcd6fa672728ff/rclip-1.4.7a3.tar.gz
+[2023-08-02 09:37:13] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 09:37:13] INFO root fetch - processPackages [petsc4py]: Downloading https://files.pythonhosted.org/packages/ab/7e/4a73e2c00a9853d12d5092329c2c66be43cb73595303447841abf9fba2b0/petsc4py-3.9.0.tar.gz
+[2023-08-02 09:37:13] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-02 09:37:13] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/f2/f6/449da30fe709cc73648917c8e3b51228600b7285fd38101a428332f288c7/liveramp_automation-0.1.4.tar.gz
+[2023-08-02 09:37:13] INFO root fetch - processPackages [petsc]: Downloading https://files.pythonhosted.org/packages/e6/6c/555ad15fd1f9f2d8a044577c2df9fe855a7cd0f47d2716ebf478a2ca0a37/petsc-3.9.1.tar.gz
+[2023-08-02 09:37:13] INFO root fetch - processPackages [caf.toolkit]: Downloading https://files.pythonhosted.org/packages/58/b5/491860066157ee6a59d632718af3537d4710755c47a4265fcba6b18a0daf/caf.toolkit-0.1.2.tar.gz
+[2023-08-02 09:37:13] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/ba/6c/31a9bb28c03219e559a3a37b81cafbf4440eec33815b3e3f54ea4d6b7b09/actnova-yolo-1.0.8.tar.gz
+[2023-08-02 09:37:13] INFO root fetch - processPackages [pybenutils]: Downloading https://files.pythonhosted.org/packages/93/b9/24b5774d7cc43ebe740670d3399ca4265c2101550cc2cec9bd4f2e05e948/pybenutils-3.4.0.tar.gz
+[2023-08-02 09:37:13] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2023-08-02 09:37:14] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/9c/e7/388b586d2c4a9e07285a125e941be8a4a35248f78d3978b1fc6fb3131f7a/syntaxlight-0.0.8.tar.gz
+[2023-08-02 09:37:14] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-08-02 09:37:14] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230802/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 09:37:14] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/af/67/09f78e50c57aa27097778ca715f352f5cf1a053c359acf5fa21365681d1a/rclip-1.4.7a4.tar.gz
+[2023-08-02 09:37:14] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/15/8c/93686d7a32a2c03e139571c1a81bd465e47b2e32f0afa6a2ab4ef41f8cec/liveramp_automation-0.1.6.tar.gz
+[2023-08-02 09:37:14] WARNING root fetch - processPackages [petsc]: Skipping package: exceeds size limit 11609124>=10485760
+[2023-08-02 09:37:14] INFO root fetch - main [MainThread]: End processing [petsc] error
+[2023-08-02 09:37:14] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2023-08-02 09:37:14] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-0.1.4.tar.gz tmp/liveramp_automation-0.1.6.tar.gz --markdown 20230802/l/liveramp-automation/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-08-02 09:37:14] INFO root fetch - processPackages [pybenutils]: Downloading https://files.pythonhosted.org/packages/51/b7/206156efd449739120d74e71f33c175f5e0ff946d87147c5757a0bad8cb8/pybenutils-3.4.1.tar.gz
+[2023-08-02 09:37:14] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-02 09:37:14] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.7a3.tar.gz tmp/rclip-1.4.7a4.tar.gz --markdown 20230802/r/rclip/1.4.7a3-1.4.7a4/diff.md --exclude *.pyd
+[2023-08-02 09:37:14] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-08-02 09:37:14] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-08-02 09:37:14] INFO root fetch - processPackages [caf.toolkit]: Downloading https://files.pythonhosted.org/packages/81/ce/0517515c1bbbba941a8bc1c858969d2ea69df1176211fc188dc97e135c0d/caf.toolkit-0.1.3.tar.gz
+[2023-08-02 09:37:14] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c9/91/13558ab5b93b1a78bf9a8107609b86f60a4f327572b56938b00d7aea5b31/syntaxlight-0.0.9.tar.gz
+[2023-08-02 09:37:14] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/55/46/2ea0567b8122b8054b20183fc8ee2200ad05930e1c3d7fe52916c631eae5/actnova-yolo-1.0.9.tar.gz
+[2023-08-02 09:37:14] INFO root fetch - processPackages [pybenutils]: executing diffoscope
+[2023-08-02 09:37:14] INFO root fetch - processPackages [pybenutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybenutils-3.4.0.tar.gz tmp/pybenutils-3.4.1.tar.gz --markdown 20230802/p/pybenutils/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-08-02 09:37:14] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-08-02 09:37:14] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.8.tar.gz tmp/syntaxlight-0.0.9.tar.gz --markdown 20230802/s/syntaxlight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 09:37:14] INFO root fetch - processPackages [caf.toolkit]: executing diffoscope
+[2023-08-02 09:37:14] INFO root fetch - processPackages [caf.toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caf.toolkit-0.1.2.tar.gz tmp/caf.toolkit-0.1.3.tar.gz --markdown 20230802/c/caf.toolkit/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-02 09:37:14] INFO root fetch - processPackages [actnova-yolo]: executing diffoscope
+[2023-08-02 09:37:14] INFO root fetch - processPackages [actnova-yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actnova-yolo-1.0.8.tar.gz tmp/actnova-yolo-1.0.9.tar.gz --markdown 20230802/a/actnova-yolo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 09:37:14] INFO root fetch - processPackages [petsc4py]: Downloading https://files.pythonhosted.org/packages/91/8c/2c5d593b5dc7aff46bd56b7c71fc5550bd342c8295440eb8c9cb255f2e71/petsc4py-3.9.1.tar.gz
+[2023-08-02 09:37:15] INFO root fetch - processPackages [petsc4py]: executing diffoscope
+[2023-08-02 09:37:15] INFO root fetch - processPackages [petsc4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petsc4py-3.9.0.tar.gz tmp/petsc4py-3.9.1.tar.gz --markdown 20230802/p/petsc4py/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-08-02 09:37:15] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2023-08-02 09:37:15] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2023-08-02 09:37:15] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-08-02 09:37:15] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.1.4.tar.gz]
+[2023-08-02 09:37:15] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.1.6.tar.gz]
+[2023-08-02 09:37:15] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2023-08-02 09:37:15] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a3.tar.gz]
+[2023-08-02 09:37:15] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a4.tar.gz]
+[2023-08-02 09:37:15] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-02 09:37:16] INFO root fetch - processPackages [pybenutils]: Remove: archive file [/home/abi/fetcher/tmp/pybenutils-3.4.0.tar.gz]
+[2023-08-02 09:37:16] INFO root fetch - processPackages [pybenutils]: Remove: archive file [/home/abi/fetcher/tmp/pybenutils-3.4.1.tar.gz]
+[2023-08-02 09:37:16] INFO root fetch - main [MainThread]: End processing [pybenutils]: success
+[2023-08-02 09:37:16] INFO root fetch - processPackages [caf.toolkit]: Remove: archive file [/home/abi/fetcher/tmp/caf.toolkit-0.1.2.tar.gz]
+[2023-08-02 09:37:16] INFO root fetch - processPackages [caf.toolkit]: Remove: archive file [/home/abi/fetcher/tmp/caf.toolkit-0.1.3.tar.gz]
+[2023-08-02 09:37:16] INFO root fetch - main [MainThread]: End processing [caf.toolkit]: success
+[2023-08-02 09:37:16] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.8.tar.gz]
+[2023-08-02 09:37:16] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.9.tar.gz]
+[2023-08-02 09:37:16] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-08-02 09:37:16] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.8.tar.gz]
+[2023-08-02 09:37:16] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.9.tar.gz]
+[2023-08-02 09:37:16] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
+[2023-08-02 09:37:22] INFO root fetch - processPackages [petsc4py]: Remove: archive file [/home/abi/fetcher/tmp/petsc4py-3.9.0.tar.gz]
+[2023-08-02 09:37:22] INFO root fetch - processPackages [petsc4py]: Remove: archive file [/home/abi/fetcher/tmp/petsc4py-3.9.1.tar.gz]
+[2023-08-02 09:37:22] INFO root fetch - main [MainThread]: End processing [petsc4py]: success
+[2023-08-02 09:37:22] INFO root fetch - main [MainThread]: Store serial: [19138103]

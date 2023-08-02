@@ -22962,3 +22962,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-02 14:24:56] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-1.0.3.tar.gz]
 [2023-08-02 14:24:56] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
 [2023-08-02 14:24:56] INFO root fetch - main [MainThread]: Store serial: [19141052]
+[2023-08-02 14:30:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19141052]
+[2023-08-02 14:30:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-02 14:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-plugin-runtime
+[2023-08-02 14:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-08-02 14:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clirail
+[2023-08-02 14:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ima-predeployed
+[2023-08-02 14:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: monday-item-parser
+[2023-08-02 14:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: i2cssh
+[2023-08-02 14:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ia-sdk
+[2023-08-02 14:30:06] INFO root fetch - processPackages [i2cssh]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-08-02 14:30:06] INFO root fetch - processPackages [clirail]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-08-02 14:30:06] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 14:30:06] INFO root fetch - processPackages [monday-item-parser]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-02 14:30:07] INFO root fetch - processPackages [ia-sdk]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-08-02 14:30:07] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 14:30:07] INFO root fetch - processPackages [ima-predeployed]: New version: [2.0.0b5] Old Version: [2.0.0b4]
+[2023-08-02 14:30:07] INFO root fetch - processPackages [clirail]: Downloading https://files.pythonhosted.org/packages/30/c9/ccf2643b3451643f8cf83f45e3b6dad9c1a9c03e69508a14a1a04032bfd5/clirail-1.7.2.tar.gz
+[2023-08-02 14:30:07] INFO root fetch - processPackages [ia-sdk]: Downloading https://files.pythonhosted.org/packages/6a/c8/8146af0547f43c5658a96a68b8e129cef8238f59062efe584624c72119bf/ia-sdk-0.4.0.tar.gz
+[2023-08-02 14:30:07] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-08-02 14:30:07] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-08-02 14:30:07] INFO root fetch - processPackages [i2cssh]: Downloading https://files.pythonhosted.org/packages/68/75/6f77b0743797b72c052706e37bd711c265d2a6e4eb7b72c3b552cd8f6991/i2cssh-0.0.9.tar.gz
+[2023-08-02 14:30:07] INFO root fetch - processPackages [monday-item-parser]: Downloading https://files.pythonhosted.org/packages/3b/d7/d20df777d9f9d5220ae0fc9892fcce90c8dae86bc0ce26a396b5d3862692/monday-item-parser-0.2.8.tar.gz
+[2023-08-02 14:30:07] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/08/b9/bdce816b8cdd4df27314d070da2c5ebbb63236e3a1b0cf211ba3f14907cf/ima-predeployed-2.0.0b4.tar.gz
+[2023-08-02 14:30:07] INFO root fetch - processPackages [clirail]: Downloading https://files.pythonhosted.org/packages/8d/9f/fedf4f760d973f09677b842a23d85eddf1e08f15534733a4243252dacde2/clirail-1.7.3.tar.gz
+[2023-08-02 14:30:07] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-08-02 14:30:07] INFO root fetch - processPackages [ia-sdk]: Downloading https://files.pythonhosted.org/packages/14/08/583eebbc9e5de04902a38f9469807f68aee94600c162912ae13bf77f3bf2/ia-sdk-0.4.1.tar.gz
+[2023-08-02 14:30:07] INFO root fetch - processPackages [i2cssh]: Downloading https://files.pythonhosted.org/packages/27/28/9dacad202812ae7e2192294825be005cca4a4749a12e75f4b780c9cc2d9a/i2cssh-0.1.0.tar.gz
+[2023-08-02 14:30:07] INFO root fetch - processPackages [clirail]: executing diffoscope
+[2023-08-02 14:30:07] INFO root fetch - processPackages [clirail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clirail-1.7.2.tar.gz tmp/clirail-1.7.3.tar.gz --markdown 20230802/c/clirail/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-08-02 14:30:07] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-08-02 14:30:07] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-08-02 14:30:07] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230802/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 14:30:07] INFO root fetch - processPackages [i2cssh]: executing diffoscope
+[2023-08-02 14:30:07] INFO root fetch - processPackages [i2cssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i2cssh-0.0.9.tar.gz tmp/i2cssh-0.1.0.tar.gz --markdown 20230802/i/i2cssh/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-08-02 14:30:07] INFO root fetch - processPackages [ia-sdk]: executing diffoscope
+[2023-08-02 14:30:07] INFO root fetch - processPackages [ia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ia-sdk-0.4.0.tar.gz tmp/ia-sdk-0.4.1.tar.gz --markdown 20230802/i/ia-sdk/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-08-02 14:30:07] INFO root fetch - processPackages [monday-item-parser]: Downloading https://files.pythonhosted.org/packages/fc/79/c51fb2990497d7bc4fa7af06ebb35053f84f3e9f6b46badd1dbeab1581a3/monday-item-parser-0.2.9.tar.gz
+[2023-08-02 14:30:07] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-08-02 14:30:07] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230802/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 14:30:07] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/a9/0e/ef5d7eb3448a991780c00717d55bcba8541e7daca8c87e3907ff012b3633/ima-predeployed-2.0.0b5.tar.gz
+[2023-08-02 14:30:08] INFO root fetch - processPackages [monday-item-parser]: executing diffoscope
+[2023-08-02 14:30:08] INFO root fetch - processPackages [monday-item-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monday-item-parser-0.2.8.tar.gz tmp/monday-item-parser-0.2.9.tar.gz --markdown 20230802/m/monday-item-parser/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-02 14:30:08] INFO root fetch - processPackages [ima-predeployed]: executing diffoscope
+[2023-08-02 14:30:08] INFO root fetch - processPackages [ima-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ima-predeployed-2.0.0b4.tar.gz tmp/ima-predeployed-2.0.0b5.tar.gz --markdown 20230802/i/ima-predeployed/2.0.0b4-2.0.0b5/diff.md --exclude *.pyd
+[2023-08-02 14:30:09] INFO root fetch - processPackages [clirail]: Remove: archive file [/home/abi/fetcher/tmp/clirail-1.7.2.tar.gz]
+[2023-08-02 14:30:09] INFO root fetch - processPackages [clirail]: Remove: archive file [/home/abi/fetcher/tmp/clirail-1.7.3.tar.gz]
+[2023-08-02 14:30:09] INFO root fetch - main [MainThread]: End processing [clirail]: success
+[2023-08-02 14:30:09] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-08-02 14:30:09] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-08-02 14:30:09] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-08-02 14:30:09] INFO root fetch - processPackages [i2cssh]: Remove: archive file [/home/abi/fetcher/tmp/i2cssh-0.0.9.tar.gz]
+[2023-08-02 14:30:09] INFO root fetch - processPackages [i2cssh]: Remove: archive file [/home/abi/fetcher/tmp/i2cssh-0.1.0.tar.gz]
+[2023-08-02 14:30:09] INFO root fetch - main [MainThread]: End processing [i2cssh]: success
+[2023-08-02 14:30:09] INFO root fetch - processPackages [ia-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ia-sdk-0.4.0.tar.gz]
+[2023-08-02 14:30:09] INFO root fetch - processPackages [ia-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ia-sdk-0.4.1.tar.gz]
+[2023-08-02 14:30:09] INFO root fetch - main [MainThread]: End processing [ia-sdk]: success
+[2023-08-02 14:30:09] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-08-02 14:30:09] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-08-02 14:30:09] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-08-02 14:30:09] INFO root fetch - processPackages [monday-item-parser]: Remove: archive file [/home/abi/fetcher/tmp/monday-item-parser-0.2.8.tar.gz]
+[2023-08-02 14:30:09] INFO root fetch - processPackages [monday-item-parser]: Remove: archive file [/home/abi/fetcher/tmp/monday-item-parser-0.2.9.tar.gz]
+[2023-08-02 14:30:09] INFO root fetch - main [MainThread]: End processing [monday-item-parser]: success
+[2023-08-02 14:30:10] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b4.tar.gz]
+[2023-08-02 14:30:10] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b5.tar.gz]
+[2023-08-02 14:30:10] INFO root fetch - main [MainThread]: End processing [ima-predeployed]: success
+[2023-08-02 14:30:10] INFO root fetch - main [MainThread]: Store serial: [19141089]

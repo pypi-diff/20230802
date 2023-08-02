@@ -11589,3 +11589,72 @@
 [2023-08-02 05:34:58] INFO root fetch - processPackages [torchkeras]: Remove: archive file [/home/abi/fetcher/tmp/torchkeras-3.9.3.tar.gz]
 [2023-08-02 05:34:58] INFO root fetch - main [MainThread]: End processing [torchkeras]: success
 [2023-08-02 05:34:58] INFO root fetch - main [MainThread]: Store serial: [19136092]
+[2023-08-02 05:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136092]
+[2023-08-02 05:40:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-02 05:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otel-hooks-implement-django-instrument
+[2023-08-02 05:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-seleniumlibrary
+[2023-08-02 05:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liangutil
+[2023-08-02 05:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-logwriter
+[2023-08-02 05:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: encapsule
+[2023-08-02 05:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-hr-holidays-public-city
+[2023-08-02 05:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: physicX
+[2023-08-02 05:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zq-tools
+[2023-08-02 05:40:06] INFO root fetch - processPackages [odoo-addon-hr-holidays-public-city]: New version: [15.0.1.0.1.2] Old Version: [15.0.1.0.1]
+[2023-08-02 05:40:07] INFO root fetch - processPackages [otel-hooks-implement-django-instrument]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 05:40:07] INFO root fetch - processPackages [liangutil]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-02 05:40:07] INFO root fetch - processPackages [encapsule]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-02 05:40:07] INFO root fetch - processPackages [physicX]: New version: [0.0.118] Old Version: [0.0.117]
+[2023-08-02 05:40:07] INFO root fetch - processPackages [zq-tools]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-02 05:40:07] INFO root fetch - processPackages [robotframework-seleniumlibrary]: New version: [6.1.1rc1] Old Version: [6.1.0rc1]
+[2023-08-02 05:40:07] WARNING root fetch - processPackages [ml-logwriter]: Skipping, unable to determine old version
+[2023-08-02 05:40:07] INFO root fetch - main [MainThread]: End processing [ml-logwriter] error
+[2023-08-02 05:40:07] INFO root fetch - processPackages [encapsule]: Downloading https://files.pythonhosted.org/packages/ec/00/2e301d1b356702bb3a65beb0a05ef780ed67105fd2e668e75df20ecea281/encapsule-0.0.6.tar.gz
+[2023-08-02 05:40:07] INFO root fetch - processPackages [otel-hooks-implement-django-instrument]: Downloading https://files.pythonhosted.org/packages/a5/1d/256f3ec3717c84499f15069db295f6cac321a4faedd9c700af19b57c5060/otel_hooks_implement_django_instrument-0.0.1-py3-none-any.whl
+[2023-08-02 05:40:07] INFO root fetch - processPackages [liangutil]: Downloading https://files.pythonhosted.org/packages/f3/8e/156ffad1c604a7ce777b4599412277595f56d3ac3f10fbe3b0c5863b9617/liangutil-0.1.0.tar.gz
+[2023-08-02 05:40:07] INFO root fetch - processPackages [odoo-addon-hr-holidays-public-city]: Downloading https://files.pythonhosted.org/packages/47/6d/1218fdfdf96adad4dcccccf9c95471f6d48c569fb87a5424ec0e7ed531f6/odoo_addon_hr_holidays_public_city-15.0.1.0.1-py3-none-any.whl
+[2023-08-02 05:40:07] INFO root fetch - processPackages [zq-tools]: Downloading https://files.pythonhosted.org/packages/de/30/7277f3c30ebb0fb643416c63a74e3e88a27055344ba4677b327bcc2cbf51/zq-tools-1.0.1.tar.gz
+[2023-08-02 05:40:07] INFO root fetch - processPackages [physicX]: Downloading https://files.pythonhosted.org/packages/d6/29/4d7264979c727adea2092acb09fc138fa2ab786ebe984a5b537c9b3ca601/physicX-0.0.117.tar.gz
+[2023-08-02 05:40:07] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Downloading https://files.pythonhosted.org/packages/ef/e4/7b996d23b12c965914155bcd2c34fb66753d528d3eec19d6c532bfa16ad7/robotframework-seleniumlibrary-6.1.0rc1.tar.gz
+[2023-08-02 05:40:07] INFO root fetch - processPackages [encapsule]: Downloading https://files.pythonhosted.org/packages/ad/c5/bcc1eaa05ff5e4958df1596523fbd0dde81ddd02cdc1bbaa527f92a0be0f/encapsule-0.0.7.tar.gz
+[2023-08-02 05:40:07] INFO root fetch - processPackages [otel-hooks-implement-django-instrument]: Downloading https://files.pythonhosted.org/packages/a6/01/62e42dfa36f6b67211366e6ab06081ebd77154484e754977ed92ed219d2e/otel_hooks_implement_django_instrument-0.0.2-py3-none-any.whl
+[2023-08-02 05:40:07] INFO root fetch - processPackages [liangutil]: Downloading https://files.pythonhosted.org/packages/41/15/ef15f92f2ee3192fd1cc1e7c91c7d57d7560eb6e596f6d2774b695a87e2e/liangutil-0.1.1.tar.gz
+[2023-08-02 05:40:07] INFO root fetch - processPackages [zq-tools]: Downloading https://files.pythonhosted.org/packages/99/9f/03115136228ed0776f52f05086ac516e8fca9b6457da065a42ce99d05d08/zq-tools-1.0.2.tar.gz
+[2023-08-02 05:40:07] INFO root fetch - processPackages [physicX]: Downloading https://files.pythonhosted.org/packages/51/69/efe031f61139421bbae99fbe8e343e021fc00f1079c65ac104017e0321a0/physicX-0.0.118.tar.gz
+[2023-08-02 05:40:07] INFO root fetch - processPackages [otel-hooks-implement-django-instrument]: executing diffoscope
+[2023-08-02 05:40:07] INFO root fetch - processPackages [otel-hooks-implement-django-instrument]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otel_hooks_implement_django_instrument-0.0.1-py3-none-any.whl.zip tmp/otel_hooks_implement_django_instrument-0.0.2-py3-none-any.whl.zip --markdown 20230802/o/otel-hooks-implement-django-instrument/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 05:40:07] INFO root fetch - processPackages [encapsule]: executing diffoscope
+[2023-08-02 05:40:07] INFO root fetch - processPackages [encapsule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encapsule-0.0.6.tar.gz tmp/encapsule-0.0.7.tar.gz --markdown 20230802/e/encapsule/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-02 05:40:07] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Downloading https://files.pythonhosted.org/packages/0a/91/242f664d3d8d2d2092b37941b8669b53bcf5222865a933e721bbeba71d65/robotframework-seleniumlibrary-6.1.1rc1.tar.gz
+[2023-08-02 05:40:07] INFO root fetch - processPackages [odoo-addon-hr-holidays-public-city]: Downloading https://files.pythonhosted.org/packages/32/35/af171d662e16ae4c215dcf50eee7bd79b1ac49aae641a0bdd9f379761ed8/odoo_addon_hr_holidays_public_city-15.0.1.0.1.2-py3-none-any.whl
+[2023-08-02 05:40:07] INFO root fetch - processPackages [liangutil]: executing diffoscope
+[2023-08-02 05:40:07] INFO root fetch - processPackages [liangutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liangutil-0.1.0.tar.gz tmp/liangutil-0.1.1.tar.gz --markdown 20230802/l/liangutil/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-02 05:40:07] INFO root fetch - processPackages [zq-tools]: executing diffoscope
+[2023-08-02 05:40:07] INFO root fetch - processPackages [zq-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zq-tools-1.0.1.tar.gz tmp/zq-tools-1.0.2.tar.gz --markdown 20230802/z/zq-tools/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-02 05:40:07] INFO root fetch - processPackages [physicX]: executing diffoscope
+[2023-08-02 05:40:07] INFO root fetch - processPackages [physicX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physicX-0.0.117.tar.gz tmp/physicX-0.0.118.tar.gz --markdown 20230802/p/physicX/0.0.117-0.0.118/diff.md --exclude *.pyd
+[2023-08-02 05:40:07] INFO root fetch - processPackages [odoo-addon-hr-holidays-public-city]: executing diffoscope
+[2023-08-02 05:40:07] INFO root fetch - processPackages [odoo-addon-hr-holidays-public-city]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_holidays_public_city-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_hr_holidays_public_city-15.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230802/o/odoo-addon-hr-holidays-public-city/15.0.1.0.1-15.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-08-02 05:40:07] INFO root fetch - processPackages [robotframework-seleniumlibrary]: executing diffoscope
+[2023-08-02 05:40:07] INFO root fetch - processPackages [robotframework-seleniumlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-seleniumlibrary-6.1.0rc1.tar.gz tmp/robotframework-seleniumlibrary-6.1.1rc1.tar.gz --markdown 20230802/r/robotframework-seleniumlibrary/6.1.0rc1-6.1.1rc1/diff.md --exclude *.pyd
+[2023-08-02 05:40:08] INFO root fetch - processPackages [otel-hooks-implement-django-instrument]: Remove: archive file [/home/abi/fetcher/tmp/otel_hooks_implement_django_instrument-0.0.1-py3-none-any.whl.zip]
+[2023-08-02 05:40:08] INFO root fetch - processPackages [otel-hooks-implement-django-instrument]: Remove: archive file [/home/abi/fetcher/tmp/otel_hooks_implement_django_instrument-0.0.2-py3-none-any.whl.zip]
+[2023-08-02 05:40:08] INFO root fetch - main [MainThread]: End processing [otel-hooks-implement-django-instrument]: success
+[2023-08-02 05:40:09] INFO root fetch - processPackages [encapsule]: Remove: archive file [/home/abi/fetcher/tmp/encapsule-0.0.6.tar.gz]
+[2023-08-02 05:40:09] INFO root fetch - processPackages [encapsule]: Remove: archive file [/home/abi/fetcher/tmp/encapsule-0.0.7.tar.gz]
+[2023-08-02 05:40:09] INFO root fetch - main [MainThread]: End processing [encapsule]: success
+[2023-08-02 05:40:09] INFO root fetch - processPackages [zq-tools]: Remove: archive file [/home/abi/fetcher/tmp/zq-tools-1.0.1.tar.gz]
+[2023-08-02 05:40:09] INFO root fetch - processPackages [zq-tools]: Remove: archive file [/home/abi/fetcher/tmp/zq-tools-1.0.2.tar.gz]
+[2023-08-02 05:40:09] INFO root fetch - main [MainThread]: End processing [zq-tools]: success
+[2023-08-02 05:40:09] INFO root fetch - processPackages [liangutil]: Remove: archive file [/home/abi/fetcher/tmp/liangutil-0.1.0.tar.gz]
+[2023-08-02 05:40:09] INFO root fetch - processPackages [liangutil]: Remove: archive file [/home/abi/fetcher/tmp/liangutil-0.1.1.tar.gz]
+[2023-08-02 05:40:09] INFO root fetch - main [MainThread]: End processing [liangutil]: success
+[2023-08-02 05:40:09] INFO root fetch - processPackages [odoo-addon-hr-holidays-public-city]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_holidays_public_city-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-02 05:40:09] INFO root fetch - processPackages [odoo-addon-hr-holidays-public-city]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_holidays_public_city-15.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-08-02 05:40:09] INFO root fetch - processPackages [physicX]: Remove: archive file [/home/abi/fetcher/tmp/physicX-0.0.117.tar.gz]
+[2023-08-02 05:40:09] INFO root fetch - processPackages [physicX]: Remove: archive file [/home/abi/fetcher/tmp/physicX-0.0.118.tar.gz]
+[2023-08-02 05:40:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-holidays-public-city]: success
+[2023-08-02 05:40:09] INFO root fetch - main [MainThread]: End processing [physicX]: success
+[2023-08-02 05:40:09] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-seleniumlibrary-6.1.0rc1.tar.gz]
+[2023-08-02 05:40:09] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-seleniumlibrary-6.1.1rc1.tar.gz]
+[2023-08-02 05:40:09] INFO root fetch - main [MainThread]: End processing [robotframework-seleniumlibrary]: success
+[2023-08-02 05:40:09] INFO root fetch - main [MainThread]: Store serial: [19136114]

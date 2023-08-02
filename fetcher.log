@@ -18834,3 +18834,127 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-02 11:34:43] INFO root fetch - processPackages [shapelets-native]: Remove: archive file [/home/abi/fetcher/tmp/shapelets_native-2.0.95-cp39-cp39-win_amd64.whl.zip]
 [2023-08-02 11:34:43] INFO root fetch - main [MainThread]: End processing [shapelets-native]: success
 [2023-08-02 11:34:43] INFO root fetch - main [MainThread]: Store serial: [19139372]
+[2023-08-02 11:39:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19139372]
+[2023-08-02 11:39:52] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-02 11:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MicrobeRX
+[2023-08-02 11:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-databricks
+[2023-08-02 11:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clg-logger
+[2023-08-02 11:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gdal2numpy
+[2023-08-02 11:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clg-logger
+[2023-08-02 11:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: camSort
+[2023-08-02 11:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mazemastery
+[2023-08-02 11:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-rabbitmq
+[2023-08-02 11:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-tls
+[2023-08-02 11:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: external-user-local
+[2023-08-02 11:39:52] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1690968008] Old Version: [3.4.0a1690264329]
+[2023-08-02 11:39:52] WARNING root fetch - processPackages [MicrobeRX]: Skipping, unable to determine old version
+[2023-08-02 11:39:52] INFO root fetch - processPackages [MicrobeRX]: Start processing: RDG
+[2023-08-02 11:39:52] INFO root fetch - main [MainThread]: End processing [MicrobeRX] error
+[2023-08-02 11:39:52] INFO root fetch - processPackages [clg-logger]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-08-02 11:39:52] INFO root fetch - processPackages [clg-logger]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-08-02 11:39:52] INFO root fetch - processPackages [camSort]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-08-02 11:39:52] INFO root fetch - processPackages [mazemastery]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-08-02 11:39:52] INFO root fetch - processPackages [external-user-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 11:39:52] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 11:39:52] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1690967682] Old Version: [5.1.0a1690265370]
+[2023-08-02 11:39:52] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2023-08-02 11:39:52] INFO root fetch - processPackages [RDG]: New version: [0.1.4.2] Old Version: [0.1.4.1]
+[2023-08-02 11:39:52] INFO root fetch - processPackages [camSort]: Downloading https://files.pythonhosted.org/packages/7c/0f/56bcca56cb84200534b8260b96ab5b05334a88c9d0dcd9863b5a53f68b9c/camSort-0.2.7.tar.gz
+[2023-08-02 11:39:52] INFO root fetch - processPackages [clg-logger]: Downloading https://files.pythonhosted.org/packages/9a/d5/0665a4f1321a0320d99c583f5ff9eecd53b748722df2b020f9544fc637cc/clg-logger-0.1.0.tar.gz
+[2023-08-02 11:39:52] INFO root fetch - processPackages [clg-logger]: Downloading https://files.pythonhosted.org/packages/9a/d5/0665a4f1321a0320d99c583f5ff9eecd53b748722df2b020f9544fc637cc/clg-logger-0.1.0.tar.gz
+[2023-08-02 11:39:52] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-08-02 11:39:52] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/d8/4b/d3aaebf1a76cf32cead764e79e304cbebca9915c656fc41dda55ca73998d/pulumi_rabbitmq-3.4.0a1690264329.tar.gz
+[2023-08-02 11:39:52] INFO root fetch - processPackages [external-user-local]: Downloading https://files.pythonhosted.org/packages/86/30/b540313993796f3f2d485b43bfe07512777aa124a848f52f01c45115413f/External-User-Local-0.0.8.tar.gz
+[2023-08-02 11:39:52] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/b3/53/a7383ab51650b9b7e368a681648622faac53a63feee1e3f4ac8fee4c3db8/pulumi_tls-5.1.0a1690265370.tar.gz
+[2023-08-02 11:39:53] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2023-08-02 11:39:53] INFO root fetch - processPackages [RDG]: Downloading https://files.pythonhosted.org/packages/fa/55/6d8888fd25602238d9db28d62c544b0b76720f4fa447bbf704bcfeeeea99/RDG-0.1.4.1.tar.gz
+[2023-08-02 11:39:53] INFO root fetch - processPackages [mazemastery]: Downloading https://files.pythonhosted.org/packages/cd/c9/e540aa2139507fa140b39eee7a183f68e8064ee30f3dc36d3804112bd673/mazemastery-0.0.4.tar.gz
+[2023-08-02 11:39:53] INFO root fetch - processPackages [external-user-local]: Downloading https://files.pythonhosted.org/packages/ce/14/fcd112d1522df4a9951f08cb9c7f39637dd2b6ea155db31d46d9df347f21/External-user-local-0.0.9.tar.gz
+[2023-08-02 11:39:53] INFO root fetch - processPackages [camSort]: Downloading https://files.pythonhosted.org/packages/9c/be/1c8e69f2f0698e6a92d442756a7bece0975e6d89edd30120a8d13a406b75/camSort-0.2.8.tar.gz
+[2023-08-02 11:39:53] INFO root fetch - processPackages [clg-logger]: Downloading https://files.pythonhosted.org/packages/ea/43/216b9f4bdc5bcf56ba11853887f3619e53af515131be3160a1ad241a38aa/clg-logger-1.0.0.tar.gz
+[2023-08-02 11:39:53] INFO root fetch - processPackages [clg-logger]: Downloading https://files.pythonhosted.org/packages/ea/43/216b9f4bdc5bcf56ba11853887f3619e53af515131be3160a1ad241a38aa/clg-logger-1.0.0.tar.gz
+[2023-08-02 11:39:53] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-08-02 11:39:53] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/ed/35/22d053115dea6ad24a6565315ecaecaa282a4626ac3fd5ec6f4d804d687f/pulumi_rabbitmq-3.4.0a1690968008.tar.gz
+[2023-08-02 11:39:53] INFO root fetch - processPackages [external-user-local]: executing diffoscope
+[2023-08-02 11:39:53] INFO root fetch - processPackages [external-user-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/External-User-Local-0.0.8.tar.gz tmp/External-user-local-0.0.9.tar.gz --markdown 20230802/e/external-user-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 11:39:53] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/44/be/d976b978c466bd49b1e198cc8ca28f0e29bdc3e893968d3c91ab0d009d20/pulumi_tls-5.1.0a1690967682.tar.gz
+[2023-08-02 11:39:53] INFO root fetch - processPackages [clg-logger]: executing diffoscope
+[2023-08-02 11:39:53] INFO root fetch - processPackages [clg-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clg-logger-0.1.0.tar.gz tmp/clg-logger-1.0.0.tar.gz --markdown 20230802/c/clg-logger/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-02 11:39:53] INFO root fetch - processPackages [clg-logger]: executing diffoscope
+[2023-08-02 11:39:53] INFO root fetch - processPackages [clg-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clg-logger-0.1.0.tar.gz tmp/clg-logger-1.0.0.tar.gz --markdown 20230802/c/clg-logger/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-02 11:39:53] INFO root fetch - processPackages [camSort]: executing diffoscope
+[2023-08-02 11:39:53] INFO root fetch - processPackages [camSort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camSort-0.2.7.tar.gz tmp/camSort-0.2.8.tar.gz --markdown 20230802/c/camSort/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-08-02 11:39:53] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-08-02 11:39:53] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230802/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 11:39:53] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2023-08-02 11:39:53] INFO root fetch - processPackages [RDG]: Downloading https://files.pythonhosted.org/packages/0e/aa/2c342c51f37ffdfc070997d7191a6fb199b771ca5048b87b79823c23ed09/RDG-0.1.4.2.tar.gz
+[2023-08-02 11:39:53] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2023-08-02 11:39:53] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20230802/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/diff.md --exclude *.pyd
+[2023-08-02 11:39:53] INFO root fetch - processPackages [mazemastery]: Downloading https://files.pythonhosted.org/packages/2b/a5/df60b4437942b056467a4d5b6d8ba4d54094a4129e3b239fe9ea11953efe/mazemastery-0.1.0.tar.gz
+[2023-08-02 11:39:53] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2023-08-02 11:39:53] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1690264329.tar.gz tmp/pulumi_rabbitmq-3.4.0a1690968008.tar.gz --markdown 20230802/p/pulumi-rabbitmq/3.4.0a1690264329-3.4.0a1690968008/diff.md --exclude *.pyd
+[2023-08-02 11:39:53] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2023-08-02 11:39:53] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1690265370.tar.gz tmp/pulumi_tls-5.1.0a1690967682.tar.gz --markdown 20230802/p/pulumi-tls/5.1.0a1690265370-5.1.0a1690967682/diff.md --exclude *.pyd
+[2023-08-02 11:39:53] INFO root fetch - processPackages [RDG]: executing diffoscope
+[2023-08-02 11:39:53] INFO root fetch - processPackages [RDG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RDG-0.1.4.1.tar.gz tmp/RDG-0.1.4.2.tar.gz --markdown 20230802/R/RDG/0.1.4.1-0.1.4.2/diff.md --exclude *.pyd
+[2023-08-02 11:39:53] INFO root fetch - processPackages [mazemastery]: executing diffoscope
+[2023-08-02 11:39:53] INFO root fetch - processPackages [mazemastery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mazemastery-0.0.4.tar.gz tmp/mazemastery-0.1.0.tar.gz --markdown 20230802/m/mazemastery/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-08-02 11:39:55] INFO root fetch - processPackages [external-user-local]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-0.0.8.tar.gz]
+[2023-08-02 11:39:55] INFO root fetch - processPackages [external-user-local]: Remove: archive file [/home/abi/fetcher/tmp/External-user-local-0.0.9.tar.gz]
+[2023-08-02 11:39:55] INFO root fetch - processPackages [external-user-local]: Start processing: sphinx-changelog
+[2023-08-02 11:39:55] INFO root fetch - main [MainThread]: End processing [external-user-local]: success
+[2023-08-02 11:39:55] INFO root fetch - processPackages [clg-logger]: Remove: archive file [/home/abi/fetcher/tmp/clg-logger-0.1.0.tar.gz]
+[2023-08-02 11:39:55] INFO root fetch - processPackages [clg-logger]: Remove: archive file [/home/abi/fetcher/tmp/clg-logger-1.0.0.tar.gz]
+[2023-08-02 11:39:55] INFO root fetch - processPackages [clg-logger]: Start processing: sazagame
+[2023-08-02 11:39:55] INFO root fetch - main [MainThread]: End processing [clg-logger]: success
+[2023-08-02 11:39:55] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-08-02 11:39:55] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-08-02 11:39:55] INFO root fetch - processPackages [gdal2numpy]: Start processing: alchemite-apiclient
+[2023-08-02 11:39:55] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-08-02 11:39:55] INFO root fetch - processPackages [sphinx-changelog]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-08-02 11:39:55] INFO root fetch - processPackages [clg-logger]: Start processing: readyocr
+[2023-08-02 11:39:55] INFO root fetch - main [MainThread]: End processing [clg-logger]: success
+[2023-08-02 11:39:55] WARNING root fetch - processPackages [sazagame]: Skipping, unable to determine old version
+[2023-08-02 11:39:55] INFO root fetch - main [MainThread]: End processing [sazagame] error
+[2023-08-02 11:39:55] INFO root fetch - processPackages [alchemite-apiclient]: New version: [0.59.0] Old Version: [0.58.0]
+[2023-08-02 11:39:55] INFO root fetch - processPackages [readyocr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 11:39:55] INFO root fetch - processPackages [camSort]: Remove: archive file [/home/abi/fetcher/tmp/camSort-0.2.7.tar.gz]
+[2023-08-02 11:39:55] INFO root fetch - processPackages [camSort]: Remove: archive file [/home/abi/fetcher/tmp/camSort-0.2.8.tar.gz]
+[2023-08-02 11:39:55] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1690265370.tar.gz]
+[2023-08-02 11:39:55] INFO root fetch - main [MainThread]: End processing [camSort]: success
+[2023-08-02 11:39:55] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1690967682.tar.gz]
+[2023-08-02 11:39:55] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2023-08-02 11:39:55] INFO root fetch - processPackages [sphinx-changelog]: Downloading https://files.pythonhosted.org/packages/8c/e0/7b98a5936c76d6d8f95b64907df0b56a8d5eeabf65034ea4befb01aa2248/sphinx_changelog-1.3.0.tar.gz
+[2023-08-02 11:39:55] INFO root fetch - processPackages [alchemite-apiclient]: Downloading https://files.pythonhosted.org/packages/11/04/4bd954d4f37e04b40d9780d02c3971e8670822eaaccb1fc1d0bc52b0ba09/alchemite_apiclient-0.58.0.tar.gz
+[2023-08-02 11:39:55] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1690264329.tar.gz]
+[2023-08-02 11:39:55] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1690968008.tar.gz]
+[2023-08-02 11:39:55] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2023-08-02 11:39:55] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-08-02 11:39:55] INFO root fetch - processPackages [mazemastery]: Remove: archive file [/home/abi/fetcher/tmp/mazemastery-0.0.4.tar.gz]
+[2023-08-02 11:39:55] INFO root fetch - processPackages [mazemastery]: Remove: archive file [/home/abi/fetcher/tmp/mazemastery-0.1.0.tar.gz]
+[2023-08-02 11:39:55] INFO root fetch - main [MainThread]: End processing [mazemastery]: success
+[2023-08-02 11:39:55] INFO root fetch - processPackages [RDG]: Remove: archive file [/home/abi/fetcher/tmp/RDG-0.1.4.1.tar.gz]
+[2023-08-02 11:39:55] INFO root fetch - processPackages [RDG]: Remove: archive file [/home/abi/fetcher/tmp/RDG-0.1.4.2.tar.gz]
+[2023-08-02 11:39:55] INFO root fetch - main [MainThread]: End processing [RDG]: success
+[2023-08-02 11:39:55] INFO root fetch - processPackages [sphinx-changelog]: Downloading https://files.pythonhosted.org/packages/ae/e5/d087844b8bcbdd4e51f8116c64288fb8479ffaff84a86010d6cb5b2dde53/sphinx_changelog-1.4.0.tar.gz
+[2023-08-02 11:39:55] INFO root fetch - processPackages [sphinx-changelog]: executing diffoscope
+[2023-08-02 11:39:55] INFO root fetch - processPackages [sphinx-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_changelog-1.3.0.tar.gz tmp/sphinx_changelog-1.4.0.tar.gz --markdown 20230802/s/sphinx-changelog/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-08-02 11:39:55] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/67/b0/34662554637d50f73b74973afb6ddfb4d9895b1fafbfa36c16d5764321fa/readyocr-0.0.9.tar.gz
+[2023-08-02 11:39:55] INFO root fetch - processPackages [alchemite-apiclient]: Downloading https://files.pythonhosted.org/packages/38/1a/0171b3b558ed41fa8850efbdca602594c4d94895c5fc708f1e5aae22fd8d/alchemite_apiclient-0.59.0.tar.gz
+[2023-08-02 11:39:56] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-08-02 11:39:56] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.8.tar.gz tmp/readyocr-0.0.9.tar.gz --markdown 20230802/r/readyocr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 11:39:56] INFO root fetch - processPackages [alchemite-apiclient]: executing diffoscope
+[2023-08-02 11:39:56] INFO root fetch - processPackages [alchemite-apiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchemite_apiclient-0.58.0.tar.gz tmp/alchemite_apiclient-0.59.0.tar.gz --markdown 20230802/a/alchemite-apiclient/0.58.0-0.59.0/diff.md --exclude *.pyd
+[2023-08-02 11:39:56] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.8.0a1678127428.tar.gz]
+[2023-08-02 11:39:56] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
+[2023-08-02 11:39:56] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2023-08-02 11:39:56] INFO root fetch - processPackages [sphinx-changelog]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_changelog-1.3.0.tar.gz]
+[2023-08-02 11:39:56] INFO root fetch - processPackages [sphinx-changelog]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_changelog-1.4.0.tar.gz]
+[2023-08-02 11:39:56] INFO root fetch - main [MainThread]: End processing [sphinx-changelog]: success
+[2023-08-02 11:39:57] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-08-02 11:39:57] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.9.tar.gz]
+[2023-08-02 11:39:57] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-08-02 11:39:59] INFO root fetch - processPackages [alchemite-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/alchemite_apiclient-0.58.0.tar.gz]
+[2023-08-02 11:39:59] INFO root fetch - processPackages [alchemite-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/alchemite_apiclient-0.59.0.tar.gz]
+[2023-08-02 11:39:59] INFO root fetch - main [MainThread]: End processing [alchemite-apiclient]: success
+[2023-08-02 11:39:59] INFO root fetch - main [MainThread]: Store serial: [19139425]

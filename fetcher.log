@@ -14296,3 +14296,123 @@
 [2023-08-02 08:33:21] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230802.tar.gz]
 [2023-08-02 08:33:21] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-08-02 08:33:21] INFO root fetch - main [MainThread]: Store serial: [19137368]
+[2023-08-02 08:38:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19137368]
+[2023-08-02 08:38:30] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-02 08:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ogsapi
+[2023-08-02 08:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih
+[2023-08-02 08:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valeriepieris
+[2023-08-02 08:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: retakesearch
+[2023-08-02 08:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fysh
+[2023-08-02 08:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-08-02 08:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyaddlicense
+[2023-08-02 08:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-08-02 08:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-prototyping-sdk.cdk-graph
+[2023-08-02 08:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-prototyping-sdk.cdk-graph-plugin-diagram
+[2023-08-02 08:38:30] INFO root fetch - processPackages [ogsapi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-02 08:38:30] INFO root fetch - processPackages [valeriepieris]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-02 08:38:30] INFO root fetch - processPackages [pyaddlicense]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-08-02 08:38:30] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph]: New version: [0.19.58] Old Version: [0.19.57]
+[2023-08-02 08:38:30] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph-plugin-diagram]: New version: [0.19.57] Old Version: [0.12.26]
+[2023-08-02 08:38:30] WARNING root fetch - processPackages [fysh]: Skipping, unable to determine old version
+[2023-08-02 08:38:30] INFO root fetch - processPackages [fysh]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-08-02 08:38:30] INFO root fetch - main [MainThread]: End processing [fysh] error
+[2023-08-02 08:38:30] INFO root fetch - processPackages [retakesearch]: New version: [0.1.26] Old Version: [0.1.25]
+[2023-08-02 08:38:30] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-08-02 08:38:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-02 08:38:30] INFO root fetch - processPackages [pih]: New version: [1.48027] Old Version: [1.48026]
+[2023-08-02 08:38:30] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-02 08:38:30] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph]: Downloading https://files.pythonhosted.org/packages/a3/25/957c64709a0f5bdff090991513d4123734a80098c447243b5e209635a5d2/aws_prototyping_sdk.cdk_graph-0.19.57.tar.gz
+[2023-08-02 08:38:30] INFO root fetch - processPackages [ogsapi]: Downloading https://files.pythonhosted.org/packages/85/e7/e106e14286945a598b43a3ed6adc0d6541b78231ad1325b1569160e61122/ogsapi-0.8.0.tar.gz
+[2023-08-02 08:38:30] INFO root fetch - processPackages [retakesearch]: Downloading https://files.pythonhosted.org/packages/ab/ad/00bf554af2dc37f480c7c1c169f12c76a87202281346a9755a223867ee85/retakesearch-0.1.25.tar.gz
+[2023-08-02 08:38:30] INFO root fetch - processPackages [valeriepieris]: Downloading https://files.pythonhosted.org/packages/b8/7c/2828cc96adddc9b32552e2a3ea9bf5e46cc899672b27e5623aea3dd26087/valeriepieris-0.1.1.tar.gz
+[2023-08-02 08:38:30] INFO root fetch - processPackages [pyaddlicense]: Downloading https://files.pythonhosted.org/packages/a5/20/0468d31843e68d67fab9f32f2364a0c4b8e67ab648857fd28be0a9ca937c/pyaddlicense-0.2.3.tar.gz
+[2023-08-02 08:38:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-08-02 08:38:30] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/9b/9d/e0b01f09029cc3275b5cbb982ad82eb722a32dabcd2db0b85d04e5e1e95e/aws_prototyping_sdk.aws_arch-0.19.8.tar.gz
+[2023-08-02 08:38:30] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/89/4d/0cfe83cf0a1839adc268021cacce00587ffd6e3e033f30a3109817ac616e/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz
+[2023-08-02 08:38:30] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/c3/cb/b1683570806bdaa4a35b35682f581de366b59f54bc93481d28d60d8ea6f2/pih-1.48026.tar.gz
+[2023-08-02 08:38:30] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19300041>=10485760
+[2023-08-02 08:38:30] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: python-audio-autotest
+[2023-08-02 08:38:30] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-08-02 08:38:30] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph-plugin-diagram]: Downloading https://files.pythonhosted.org/packages/bb/02/6dd0254151ec9ccccde0e94b48a1572619dc72458956a39463a82889b7cc/aws_prototyping_sdk.cdk_graph_plugin_diagram-0.19.57.tar.gz
+[2023-08-02 08:38:30] INFO root fetch - processPackages [python-audio-autotest]: New version: [1.5.5] Old Version: [1.5.4rc0]
+[2023-08-02 08:38:31] WARNING root fetch - processPackages [aws-prototyping-sdk.cdk-graph-plugin-diagram]: Skipping package: exceeds size limit 85053674>=10485760
+[2023-08-02 08:38:31] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph-plugin-diagram]: Start processing: aws-prototyping-sdk.identity
+[2023-08-02 08:38:31] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cdk-graph-plugin-diagram] error
+[2023-08-02 08:38:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-08-02 08:38:31] INFO root fetch - processPackages [ogsapi]: Downloading https://files.pythonhosted.org/packages/c4/e7/4af085269a15239a4107a51bc36cf408cff2ad32dbf9f698f9349f8a6442/ogsapi-0.9.0.tar.gz
+[2023-08-02 08:38:31] INFO root fetch - processPackages [pyaddlicense]: Downloading https://files.pythonhosted.org/packages/29/de/ebd0dc723f238c81d2420f7f1564872411414cdd316a888e26eb1f97ddc6/pyaddlicense-0.3.0.tar.gz
+[2023-08-02 08:38:31] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph]: Downloading https://files.pythonhosted.org/packages/d6/bd/75ae684912329ba6e81515c72ff33f984836821fa9b23abb2b12cdf524a3/aws_prototyping_sdk.cdk_graph-0.19.58.tar.gz
+[2023-08-02 08:38:31] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-02 08:38:31] INFO root fetch - processPackages [retakesearch]: Downloading https://files.pythonhosted.org/packages/d0/21/27a3fc77ad40eee643117c17529220e6c82b5a63e6db16578c73cd7fa430/retakesearch-0.1.26.tar.gz
+[2023-08-02 08:38:31] INFO root fetch - processPackages [valeriepieris]: Downloading https://files.pythonhosted.org/packages/8d/97/ee8b2b11147254f1e119d432ea2e527535acff0486b203333c534b19ce89/valeriepieris-0.1.2.tar.gz
+[2023-08-02 08:38:31] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/f7/be/7cbad907d8e6a591b873fd439e612fd865cdc76a1042feba71c36cd4bed5/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz
+[2023-08-02 08:38:31] INFO root fetch - processPackages [pyaddlicense]: executing diffoscope
+[2023-08-02 08:38:31] INFO root fetch - processPackages [pyaddlicense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaddlicense-0.2.3.tar.gz tmp/pyaddlicense-0.3.0.tar.gz --markdown 20230802/p/pyaddlicense/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-08-02 08:38:31] INFO root fetch - processPackages [ogsapi]: executing diffoscope
+[2023-08-02 08:38:31] INFO root fetch - processPackages [ogsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogsapi-0.8.0.tar.gz tmp/ogsapi-0.9.0.tar.gz --markdown 20230802/o/ogsapi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 08:38:31] INFO root fetch - processPackages [python-audio-autotest]: Downloading https://files.pythonhosted.org/packages/37/fc/8ebe4a15bef93864fce0fc6aa916f1379f3650c85348d091523238d1ac2a/python_audio_autotest-1.5.4rc0-py3-none-any.whl
+[2023-08-02 08:38:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-08-02 08:38:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230802/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-02 08:38:31] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/97/38/e2f9b14890efcd00ef828b165bd9ff276265616d79d8d621c6ec8b436d08/aws_prototyping_sdk.identity-0.9.3.tar.gz
+[2023-08-02 08:38:31] INFO root fetch - processPackages [retakesearch]: executing diffoscope
+[2023-08-02 08:38:31] INFO root fetch - processPackages [retakesearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retakesearch-0.1.25.tar.gz tmp/retakesearch-0.1.26.tar.gz --markdown 20230802/r/retakesearch/0.1.25-0.1.26/diff.md --exclude *.pyd
+[2023-08-02 08:38:31] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/4b/83/a0f55ac78f1213149b648810e3ce56010102f51f302f0c7f56a4ae1119fd/pih-1.48027.tar.gz
+[2023-08-02 08:38:31] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph]: executing diffoscope
+[2023-08-02 08:38:31] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cdk_graph-0.19.57.tar.gz tmp/aws_prototyping_sdk.cdk_graph-0.19.58.tar.gz --markdown 20230802/a/aws-prototyping-sdk.cdk-graph/0.19.57-0.19.58/diff.md --exclude *.pyd
+[2023-08-02 08:38:31] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-08-02 08:38:31] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230802/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-02 08:38:31] INFO root fetch - processPackages [valeriepieris]: executing diffoscope
+[2023-08-02 08:38:31] INFO root fetch - processPackages [valeriepieris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valeriepieris-0.1.1.tar.gz tmp/valeriepieris-0.1.2.tar.gz --markdown 20230802/v/valeriepieris/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-02 08:38:31] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-02 08:38:31] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.48026.tar.gz tmp/pih-1.48027.tar.gz --markdown 20230802/p/pih/1.48026-1.48027/diff.md --exclude *.pyd
+[2023-08-02 08:38:31] WARNING root fetch - processPackages [python-audio-autotest]: Skipping package: exceeds size limit 26277746>=10485760
+[2023-08-02 08:38:31] INFO root fetch - processPackages [python-audio-autotest]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-08-02 08:38:31] INFO root fetch - main [MainThread]: End processing [python-audio-autotest] error
+[2023-08-02 08:38:31] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/4f/9d/94a124e4f88dd060b8de9979d16e3ba1cb19e6590bed27dc100625fd0edb/aws_prototyping_sdk.identity-0.9.4.tar.gz
+[2023-08-02 08:38:31] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-02 08:38:31] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-08-02 08:38:31] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230802/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-02 08:38:31] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/62/6e/219166e3d14e639aae9211cbc1509a6dbe15cc23f9142e59ce77cdea2f2e/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz
+[2023-08-02 08:38:32] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/ef/05/b722ba023c19fdaec868b3d4963e41743ef58e82a6aa6b26fdc843152495/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz
+[2023-08-02 08:38:32] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-08-02 08:38:32] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230802/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-02 08:38:33] INFO root fetch - processPackages [retakesearch]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-0.1.25.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - processPackages [retakesearch]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-0.1.26.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - processPackages [retakesearch]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-08-02 08:38:33] INFO root fetch - main [MainThread]: End processing [retakesearch]: success
+[2023-08-02 08:38:33] INFO root fetch - processPackages [pyaddlicense]: Remove: archive file [/home/abi/fetcher/tmp/pyaddlicense-0.2.3.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - processPackages [pyaddlicense]: Remove: archive file [/home/abi/fetcher/tmp/pyaddlicense-0.3.0.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - main [MainThread]: End processing [pyaddlicense]: success
+[2023-08-02 08:38:33] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-02 08:38:33] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/a6/45/ddfefdff429d9a4baf37e564fdd0a983f5ea8166d0e2334b90c0b418756a/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz
+[2023-08-02 08:38:33] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-08-02 08:38:33] INFO root fetch - processPackages [ogsapi]: Remove: archive file [/home/abi/fetcher/tmp/ogsapi-0.8.0.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - processPackages [ogsapi]: Remove: archive file [/home/abi/fetcher/tmp/ogsapi-0.9.0.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - main [MainThread]: End processing [ogsapi]: success
+[2023-08-02 08:38:33] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cdk_graph-0.19.57.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cdk_graph-0.19.58.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cdk-graph]: success
+[2023-08-02 08:38:33] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/50/a5/38b1bbe94b587fb0e87caef969a05ba18b295e505292f0ba228b136ae731/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz
+[2023-08-02 08:38:33] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-08-02 08:38:33] INFO root fetch - processPackages [valeriepieris]: Remove: archive file [/home/abi/fetcher/tmp/valeriepieris-0.1.1.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - processPackages [valeriepieris]: Remove: archive file [/home/abi/fetcher/tmp/valeriepieris-0.1.2.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - main [MainThread]: End processing [valeriepieris]: success
+[2023-08-02 08:38:33] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-08-02 08:38:33] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230802/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-02 08:38:33] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-08-02 08:38:33] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48026.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48027.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-02 08:38:33] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz]
+[2023-08-02 08:38:33] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-08-02 08:38:34] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz]
+[2023-08-02 08:38:34] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz]
+[2023-08-02 08:38:34] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-08-02 08:38:34] INFO root fetch - main [MainThread]: Store serial: [19137418]

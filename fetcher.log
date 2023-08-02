@@ -13704,3 +13704,76 @@
 [2023-08-02 07:58:34] INFO root fetch - processPackages [fprime-fpl-convert-xml]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpl_convert_xml-0.1.2-py3-none-manylinux_2_28_x86_64.whl.zip]
 [2023-08-02 07:58:34] INFO root fetch - main [MainThread]: End processing [fprime-fpl-convert-xml]: success
 [2023-08-02 07:58:34] INFO root fetch - main [MainThread]: Store serial: [19137038]
+[2023-08-02 08:04:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19137038]
+[2023-08-02 08:04:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-02 08:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hypymedia
+[2023-08-02 08:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmdcomp
+[2023-08-02 08:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apache-tvm
+[2023-08-02 08:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-08-02 08:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HyoungSooo
+[2023-08-02 08:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asqlcell
+[2023-08-02 08:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smart-factory-faker
+[2023-08-02 08:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agentware
+[2023-08-02 08:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xj-enroll
+[2023-08-02 08:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tablate
+[2023-08-02 08:04:05] INFO root fetch - processPackages [hypymedia]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-02 08:04:05] INFO root fetch - processPackages [cmdcomp]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-08-02 08:04:05] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 08:04:05] INFO root fetch - processPackages [asqlcell]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-08-02 08:04:05] INFO root fetch - processPackages [apache-tvm]: New version: [0.9.0] Old Version: [0.14.dev93]
+[2023-08-02 08:04:05] INFO root fetch - processPackages [agentware]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-02 08:04:05] WARNING root fetch - processPackages [smart-factory-faker]: Skipping, unable to determine old version
+[2023-08-02 08:04:05] INFO root fetch - main [MainThread]: End processing [smart-factory-faker] error
+[2023-08-02 08:04:05] ERROR root fetch - processPackages [HyoungSooo]: Unable to get metadata: No such project 'HyoungSooo'
+[2023-08-02 08:04:05] INFO root fetch - main [MainThread]: End processing [HyoungSooo] error
+[2023-08-02 08:04:05] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-08-02 08:04:05] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-02 08:04:05] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-02 08:04:05] INFO root fetch - processPackages [apache-tvm]: Downloading https://files.pythonhosted.org/packages/2a/f7/9ced2744bb85d0e5e4a9d2eab724ad06600b54c296fddd6fe2566a4007dd/apache_tvm-0.14.dev93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-02 08:04:05] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-08-02 08:04:05] INFO root fetch - processPackages [hypymedia]: Downloading https://files.pythonhosted.org/packages/7e/44/a62947cf20be21ef55e965b0c3d706eba6fb26a979b92e079f1ee536b546/hypymedia-0.1.4.tar.gz
+[2023-08-02 08:04:05] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/9d/48/366d1b671163475b460e02d5bd5d517ee0d800f5e0a7172b8a703ac116e3/cmdcomp-2.0.4.tar.gz
+[2023-08-02 08:04:05] INFO root fetch - processPackages [asqlcell]: Downloading https://files.pythonhosted.org/packages/c3/76/378e192f78b3a984ab39c0867fe61a605c9b929964c49ac69e2dbb9866bc/asqlcell-0.1.8-py2.py3-none-any.whl
+[2023-08-02 08:04:05] INFO root fetch - processPackages [agentware]: Downloading https://files.pythonhosted.org/packages/f0/80/e2b6583d375de817045165de5c1ff6cc8d7e0bf2be7748d7a891707f4df7/agentware-0.1.4.tar.gz
+[2023-08-02 08:04:05] WARNING root fetch - processPackages [apache-tvm]: Skipping package: exceeds size limit 69038101>=10485760
+[2023-08-02 08:04:05] INFO root fetch - main [MainThread]: End processing [apache-tvm] error
+[2023-08-02 08:04:05] WARNING root fetch - processPackages [asqlcell]: Skipping package: exceeds size limit 16657596>=10485760
+[2023-08-02 08:04:05] INFO root fetch - main [MainThread]: End processing [asqlcell] error
+[2023-08-02 08:04:05] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-02 08:04:05] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/5f/55/043c01a1a9d5f4d1bc26501f84e1b44b3f001a7d69f9bfbcf23c512659ae/xj_enroll-1.0.98.tar.gz
+[2023-08-02 08:04:05] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-08-02 08:04:05] INFO root fetch - processPackages [hypymedia]: Downloading https://files.pythonhosted.org/packages/e5/5d/e1aa85c8f74523ac8d7083becf538369c57a1260610a933303f86e687297/hypymedia-0.1.5.tar.gz
+[2023-08-02 08:04:05] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-02 08:04:05] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230802/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 08:04:05] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/cd/f0/2c58d1aa8c72837199ca7d49fc97ba1ccc79f2b12787af5de1ac4449c7e3/cmdcomp-2.0.5.tar.gz
+[2023-08-02 08:04:05] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-08-02 08:04:05] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230802/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-08-02 08:04:05] INFO root fetch - processPackages [hypymedia]: executing diffoscope
+[2023-08-02 08:04:05] INFO root fetch - processPackages [hypymedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypymedia-0.1.4.tar.gz tmp/hypymedia-0.1.5.tar.gz --markdown 20230802/h/hypymedia/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-02 08:04:05] INFO root fetch - processPackages [cmdcomp]: executing diffoscope
+[2023-08-02 08:04:05] INFO root fetch - processPackages [cmdcomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdcomp-2.0.4.tar.gz tmp/cmdcomp-2.0.5.tar.gz --markdown 20230802/c/cmdcomp/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-08-02 08:04:05] INFO root fetch - processPackages [agentware]: Downloading https://files.pythonhosted.org/packages/b8/67/e7cffd3d2c4751b546a000b97c89faba6cc15f58273cb1bc2f65f6955979/agentware-0.1.5.tar.gz
+[2023-08-02 08:04:06] INFO root fetch - processPackages [agentware]: executing diffoscope
+[2023-08-02 08:04:06] INFO root fetch - processPackages [agentware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentware-0.1.4.tar.gz tmp/agentware-0.1.5.tar.gz --markdown 20230802/a/agentware/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-02 08:04:06] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/10/ba/d433d5e19456323afc65c6931bf6856d7357d50aca4073aa4b8c1dd1dd4b/xj_enroll-1.0.99.tar.gz
+[2023-08-02 08:04:06] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-08-02 08:04:06] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230802/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-02 08:04:06] INFO root fetch - processPackages [hypymedia]: Remove: archive file [/home/abi/fetcher/tmp/hypymedia-0.1.4.tar.gz]
+[2023-08-02 08:04:06] INFO root fetch - processPackages [hypymedia]: Remove: archive file [/home/abi/fetcher/tmp/hypymedia-0.1.5.tar.gz]
+[2023-08-02 08:04:06] INFO root fetch - main [MainThread]: End processing [hypymedia]: success
+[2023-08-02 08:04:07] INFO root fetch - processPackages [agentware]: Remove: archive file [/home/abi/fetcher/tmp/agentware-0.1.4.tar.gz]
+[2023-08-02 08:04:07] INFO root fetch - processPackages [agentware]: Remove: archive file [/home/abi/fetcher/tmp/agentware-0.1.5.tar.gz]
+[2023-08-02 08:04:07] INFO root fetch - main [MainThread]: End processing [agentware]: success
+[2023-08-02 08:04:07] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-02 08:04:07] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-02 08:04:07] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-02 08:04:07] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.98.tar.gz]
+[2023-08-02 08:04:07] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.99.tar.gz]
+[2023-08-02 08:04:07] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-08-02 08:04:07] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-2.0.4.tar.gz]
+[2023-08-02 08:04:07] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-2.0.5.tar.gz]
+[2023-08-02 08:04:07] INFO root fetch - main [MainThread]: End processing [cmdcomp]: success
+[2023-08-02 08:04:08] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-08-02 08:04:08] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-08-02 08:04:08] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-08-02 08:04:08] INFO root fetch - main [MainThread]: Store serial: [19137086]

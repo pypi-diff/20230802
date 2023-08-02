@@ -11658,3 +11658,103 @@
 [2023-08-02 05:40:09] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-seleniumlibrary-6.1.1rc1.tar.gz]
 [2023-08-02 05:40:09] INFO root fetch - main [MainThread]: End processing [robotframework-seleniumlibrary]: success
 [2023-08-02 05:40:09] INFO root fetch - main [MainThread]: Store serial: [19136114]
+[2023-08-02 05:45:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136114]
+[2023-08-02 05:45:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-02 05:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ant1Interface
+[2023-08-02 05:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mop-utils
+[2023-08-02 05:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: argus-rico
+[2023-08-02 05:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-logwriter
+[2023-08-02 05:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addons-oca-knowledge
+[2023-08-02 05:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-utilities
+[2023-08-02 05:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: policyengine-us
+[2023-08-02 05:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pssepath
+[2023-08-02 05:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abstract-utilities
+[2023-08-02 05:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: goplus
+[2023-08-02 05:45:18] INFO root fetch - processPackages [goplus]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-08-02 05:45:18] INFO root fetch - processPackages [ml-logwriter]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-02 05:45:18] INFO root fetch - processPackages [odoo14-addons-oca-knowledge]: New version: [14.0.20230801.0] Old Version: [14.0.20221002.0]
+[2023-08-02 05:45:18] INFO root fetch - processPackages [ant1Interface]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-08-02 05:45:18] INFO root fetch - processPackages [abstract-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 05:45:18] INFO root fetch - processPackages [argus-rico]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-02 05:45:18] INFO root fetch - processPackages [abstract-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 05:45:18] INFO root fetch - processPackages [pssepath]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-02 05:45:18] INFO root fetch - processPackages [mop-utils]: New version: [2.0rc1] Old Version: [1.8]
+[2023-08-02 05:45:18] INFO root fetch - processPackages [policyengine-us]: New version: [0.403.1] Old Version: [0.403.0]
+[2023-08-02 05:45:18] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/e0/2b/ce1d43af4b5abc2c6dfe690a4633f989b5361c6f265e87f51e18c24fbd80/abstract_utilities-0.0.8.tar.gz
+[2023-08-02 05:45:18] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/e0/2b/ce1d43af4b5abc2c6dfe690a4633f989b5361c6f265e87f51e18c24fbd80/abstract_utilities-0.0.8.tar.gz
+[2023-08-02 05:45:18] INFO root fetch - processPackages [ml-logwriter]: Downloading https://files.pythonhosted.org/packages/68/c9/e037d6528531246ab8429aa266c75a82610e16cc5943516a9bd3da276dcd/ml_logwriter-0.2.1.tar.gz
+[2023-08-02 05:45:18] INFO root fetch - processPackages [odoo14-addons-oca-knowledge]: Downloading https://files.pythonhosted.org/packages/24/c1/5205466abc12e45b79753ae5da3c3776ab2bf279a23143ec509272b7fcb8/odoo14_addons_oca_knowledge-14.0.20221002.0-py3-none-any.whl
+[2023-08-02 05:45:18] INFO root fetch - processPackages [goplus]: Downloading https://files.pythonhosted.org/packages/54/8b/819e8248d2799060f0e1982acd4988a2b7cd13cdc33f2df6fa343a7ab728/goplus-0.1.6.tar.gz
+[2023-08-02 05:45:18] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/13/92/964dbb17715fd9b6b5a62d5be9c2e7624d9e41e7de7a54d457902fc2f5a7/policyengine-us-0.403.0.tar.gz
+[2023-08-02 05:45:18] INFO root fetch - processPackages [argus-rico]: Downloading https://files.pythonhosted.org/packages/e6/d8/eb6229a897c589ba6c0c0e52c46de59addc64ceff33745df2c8883e71b7c/argus_rico-0.1.0.tar.gz
+[2023-08-02 05:45:18] INFO root fetch - processPackages [mop-utils]: Downloading https://files.pythonhosted.org/packages/51/80/87d208a3a0539257bc9de02190d6b7611a3e95739f281fc8ce61056efa11/mop_utils-1.8.tar.gz
+[2023-08-02 05:45:18] INFO root fetch - processPackages [pssepath]: Downloading https://files.pythonhosted.org/packages/6b/33/cc451ad80209f155477de9638c7a3626b3c8a569cbfbc0d4cea56dab3c54/pssepath-0.2.1.tar.gz
+[2023-08-02 05:45:18] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/ec/88/3a42ef13eeb70e156d3cf4e296adf9012fbef15a7685742aedf921da4911/ant1Interface-0.0.7-py3-none-any.whl
+[2023-08-02 05:45:19] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/2d/bf/c73c46dd3455e0261203d2b9781bf2af9d495c25f437ec1f38833613373e/abstract_utilities-0.0.9.tar.gz
+[2023-08-02 05:45:19] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/2d/bf/c73c46dd3455e0261203d2b9781bf2af9d495c25f437ec1f38833613373e/abstract_utilities-0.0.9.tar.gz
+[2023-08-02 05:45:19] INFO root fetch - processPackages [goplus]: Downloading https://files.pythonhosted.org/packages/ed/a2/41e158f859dc20e1fc603d7d524c1594cd1e18fc4d3eae9b6fcbdd5334e4/goplus-0.2.0.tar.gz
+[2023-08-02 05:45:19] INFO root fetch - processPackages [abstract-utilities]: executing diffoscope
+[2023-08-02 05:45:19] INFO root fetch - processPackages [abstract-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities-0.0.8.tar.gz tmp/abstract_utilities-0.0.9.tar.gz --markdown 20230802/a/abstract-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 05:45:19] INFO root fetch - processPackages [abstract-utilities]: executing diffoscope
+[2023-08-02 05:45:19] INFO root fetch - processPackages [abstract-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities-0.0.8.tar.gz tmp/abstract_utilities-0.0.9.tar.gz --markdown 20230802/a/abstract-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 05:45:19] INFO root fetch - processPackages [ml-logwriter]: Downloading https://files.pythonhosted.org/packages/0e/48/00d7c6f6e71e5c28f4bcf3a3f9d931ca7f583e4eb4b0ef06f60a84ec62f3/ml_logwriter-0.2.2.tar.gz
+[2023-08-02 05:45:19] INFO root fetch - processPackages [odoo14-addons-oca-knowledge]: Downloading https://files.pythonhosted.org/packages/84/8b/f515e6c18f5ca77a2e2db0b9f4fba97692ad65fd4d78bd798b581dfe6298/odoo14_addons_oca_knowledge-14.0.20230801.0-py3-none-any.whl
+[2023-08-02 05:45:19] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/11/08/66a6a449a5fb6b56b6b5478e47bf68afd05ad83f2ab852f37966091f3c62/policyengine-us-0.403.1.tar.gz
+[2023-08-02 05:45:19] INFO root fetch - processPackages [mop-utils]: Downloading https://files.pythonhosted.org/packages/be/54/2fdea4442f787e43b2be54819438f42977a2f5d6beb79335bb6decea6035/mop_utils-2.0rc1.tar.gz
+[2023-08-02 05:45:19] INFO root fetch - processPackages [argus-rico]: Downloading https://files.pythonhosted.org/packages/03/ae/b10cc764d32a4d8a3401adffe81516863c96ac44575afad0adb901954d7e/argus_rico-0.2.0.tar.gz
+[2023-08-02 05:45:19] INFO root fetch - processPackages [ml-logwriter]: executing diffoscope
+[2023-08-02 05:45:19] INFO root fetch - processPackages [ml-logwriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_logwriter-0.2.1.tar.gz tmp/ml_logwriter-0.2.2.tar.gz --markdown 20230802/m/ml-logwriter/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-02 05:45:19] INFO root fetch - processPackages [goplus]: executing diffoscope
+[2023-08-02 05:45:19] INFO root fetch - processPackages [goplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goplus-0.1.6.tar.gz tmp/goplus-0.2.0.tar.gz --markdown 20230802/g/goplus/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-08-02 05:45:19] INFO root fetch - processPackages [odoo14-addons-oca-knowledge]: executing diffoscope
+[2023-08-02 05:45:19] INFO root fetch - processPackages [odoo14-addons-oca-knowledge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_knowledge-14.0.20221002.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_knowledge-14.0.20230801.0-py3-none-any.whl.zip --markdown 20230802/o/odoo14-addons-oca-knowledge/14.0.20221002.0-14.0.20230801.0/diff.md --exclude *.pyd
+[2023-08-02 05:45:19] INFO root fetch - processPackages [pssepath]: Downloading https://files.pythonhosted.org/packages/94/26/7ccea8d4a5246660b1f314a840170829fc6bd6ab5778e9bbd62fd1178ae2/pssepath-0.2.2.tar.gz
+[2023-08-02 05:45:19] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-08-02 05:45:19] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.403.0.tar.gz tmp/policyengine-us-0.403.1.tar.gz --markdown 20230802/p/policyengine-us/0.403.0-0.403.1/diff.md --exclude *.pyd
+[2023-08-02 05:45:19] INFO root fetch - processPackages [argus-rico]: executing diffoscope
+[2023-08-02 05:45:19] INFO root fetch - processPackages [argus-rico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus_rico-0.1.0.tar.gz tmp/argus_rico-0.2.0.tar.gz --markdown 20230802/a/argus-rico/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-02 05:45:19] INFO root fetch - processPackages [pssepath]: executing diffoscope
+[2023-08-02 05:45:19] INFO root fetch - processPackages [pssepath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pssepath-0.2.1.tar.gz tmp/pssepath-0.2.2.tar.gz --markdown 20230802/p/pssepath/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-02 05:45:19] INFO root fetch - processPackages [mop-utils]: executing diffoscope
+[2023-08-02 05:45:19] INFO root fetch - processPackages [mop-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mop_utils-1.8.tar.gz tmp/mop_utils-2.0rc1.tar.gz --markdown 20230802/m/mop-utils/1.8-2.0rc1/diff.md --exclude *.pyd
+[2023-08-02 05:45:19] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/cf/d2/fcb6e1b2a714653f4642d8b21e4ee22b1b4ffbf9e9a950b6433053e972f8/ant1Interface-0.0.9-py3-none-any.whl
+[2023-08-02 05:45:19] INFO root fetch - processPackages [ant1Interface]: executing diffoscope
+[2023-08-02 05:45:19] INFO root fetch - processPackages [ant1Interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ant1Interface-0.0.7-py3-none-any.whl.zip tmp/ant1Interface-0.0.9-py3-none-any.whl.zip --markdown 20230802/a/ant1Interface/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 05:45:20] INFO root fetch - processPackages [abstract-utilities]: Remove: archive file [/home/abi/fetcher/tmp/abstract_utilities-0.0.8.tar.gz]
+[2023-08-02 05:45:20] INFO root fetch - processPackages [abstract-utilities]: Remove: archive file [/home/abi/fetcher/tmp/abstract_utilities-0.0.9.tar.gz]
+[2023-08-02 05:45:20] INFO root fetch - processPackages [abstract-utilities]: Start processing: threemystic-cloud-data-client
+[2023-08-02 05:45:20] INFO root fetch - main [MainThread]: End processing [abstract-utilities]: success
+[2023-08-02 05:45:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.65] Old Version: [0.1.64]
+[2023-08-02 05:45:21] INFO root fetch - processPackages [odoo14-addons-oca-knowledge]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_knowledge-14.0.20221002.0-py3-none-any.whl.zip]
+[2023-08-02 05:45:21] INFO root fetch - processPackages [odoo14-addons-oca-knowledge]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_knowledge-14.0.20230801.0-py3-none-any.whl.zip]
+[2023-08-02 05:45:21] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-knowledge]: success
+[2023-08-02 05:45:21] INFO root fetch - main [MainThread]: End processing [abstract-utilities]: success
+[2023-08-02 05:45:21] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/67/81/9723049efad8745729aff5048578bb5047233a9490ced7e64b8b65a25f18/threemystic_cloud_data_client-0.1.64.tar.gz
+[2023-08-02 05:45:21] INFO root fetch - processPackages [ml-logwriter]: Remove: archive file [/home/abi/fetcher/tmp/ml_logwriter-0.2.1.tar.gz]
+[2023-08-02 05:45:21] INFO root fetch - processPackages [ml-logwriter]: Remove: archive file [/home/abi/fetcher/tmp/ml_logwriter-0.2.2.tar.gz]
+[2023-08-02 05:45:21] INFO root fetch - main [MainThread]: End processing [ml-logwriter]: success
+[2023-08-02 05:45:21] INFO root fetch - processPackages [mop-utils]: Remove: archive file [/home/abi/fetcher/tmp/mop_utils-1.8.tar.gz]
+[2023-08-02 05:45:21] INFO root fetch - processPackages [mop-utils]: Remove: archive file [/home/abi/fetcher/tmp/mop_utils-2.0rc1.tar.gz]
+[2023-08-02 05:45:21] INFO root fetch - main [MainThread]: End processing [mop-utils]: success
+[2023-08-02 05:45:21] INFO root fetch - processPackages [argus-rico]: Remove: archive file [/home/abi/fetcher/tmp/argus_rico-0.1.0.tar.gz]
+[2023-08-02 05:45:21] INFO root fetch - processPackages [argus-rico]: Remove: archive file [/home/abi/fetcher/tmp/argus_rico-0.2.0.tar.gz]
+[2023-08-02 05:45:21] INFO root fetch - main [MainThread]: End processing [argus-rico]: success
+[2023-08-02 05:45:21] INFO root fetch - processPackages [pssepath]: Remove: archive file [/home/abi/fetcher/tmp/pssepath-0.2.1.tar.gz]
+[2023-08-02 05:45:21] INFO root fetch - processPackages [pssepath]: Remove: archive file [/home/abi/fetcher/tmp/pssepath-0.2.2.tar.gz]
+[2023-08-02 05:45:21] INFO root fetch - main [MainThread]: End processing [pssepath]: success
+[2023-08-02 05:45:21] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/ee/75/502365c386695c57ff83ed673c6752a948a55cfba9491c3b79fe0e6a001c/threemystic_cloud_data_client-0.1.65.tar.gz
+[2023-08-02 05:45:21] INFO root fetch - processPackages [goplus]: Remove: archive file [/home/abi/fetcher/tmp/goplus-0.1.6.tar.gz]
+[2023-08-02 05:45:21] INFO root fetch - processPackages [goplus]: Remove: archive file [/home/abi/fetcher/tmp/goplus-0.2.0.tar.gz]
+[2023-08-02 05:45:21] INFO root fetch - main [MainThread]: End processing [goplus]: success
+[2023-08-02 05:45:21] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-08-02 05:45:21] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.64.tar.gz tmp/threemystic_cloud_data_client-0.1.65.tar.gz --markdown 20230802/t/threemystic-cloud-data-client/0.1.64-0.1.65/diff.md --exclude *.pyd
+[2023-08-02 05:45:21] INFO root fetch - processPackages [ant1Interface]: Remove: archive file [/home/abi/fetcher/tmp/ant1Interface-0.0.7-py3-none-any.whl.zip]
+[2023-08-02 05:45:21] INFO root fetch - processPackages [ant1Interface]: Remove: archive file [/home/abi/fetcher/tmp/ant1Interface-0.0.9-py3-none-any.whl.zip]
+[2023-08-02 05:45:21] INFO root fetch - main [MainThread]: End processing [ant1Interface]: success
+[2023-08-02 05:45:22] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.64.tar.gz]
+[2023-08-02 05:45:22] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.65.tar.gz]
+[2023-08-02 05:45:22] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-08-02 05:45:51] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.403.0.tar.gz]
+[2023-08-02 05:45:51] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.403.1.tar.gz]
+[2023-08-02 05:45:51] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-08-02 05:45:51] INFO root fetch - main [MainThread]: Store serial: [19136143]

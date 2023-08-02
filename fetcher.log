@@ -21470,3 +21470,120 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-02 13:15:31] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
 [2023-08-02 13:15:31] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2023-08-02 13:15:31] INFO root fetch - main [MainThread]: Store serial: [19140484]
+[2023-08-02 13:20:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19140484]
+[2023-08-02 13:20:41] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-02 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-cdk
+[2023-08-02 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: holo-vector-store
+[2023-08-02 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kimariplot
+[2023-08-02 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: niceml
+[2023-08-02 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dmppred
+[2023-08-02 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polywrap-manifest
+[2023-08-02 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dassana
+[2023-08-02 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: decoratory
+[2023-08-02 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finesse
+[2023-08-02 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: imxInsights
+[2023-08-02 13:20:41] INFO root fetch - processPackages [polywrap-manifest]: New version: [0.1.0b2] Old Version: [0.1.0b1]
+[2023-08-02 13:20:41] INFO root fetch - processPackages [niceml]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-08-02 13:20:41] INFO root fetch - processPackages [holo-vector-store]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-02 13:20:41] INFO root fetch - processPackages [decoratory]: New version: [0.9.7.1] Old Version: [0.9.6.1]
+[2023-08-02 13:20:41] INFO root fetch - processPackages [dmppred]: New version: [1.1] Old Version: [1.0.0]
+[2023-08-02 13:20:41] INFO root fetch - processPackages [finesse]: New version: [3.0a8] Old Version: [3.0a7]
+[2023-08-02 13:20:41] INFO root fetch - processPackages [kimariplot]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-08-02 13:20:41] INFO root fetch - processPackages [dassana]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-08-02 13:20:41] INFO root fetch - processPackages [imxInsights]: New version: [0.0.1.dev14] Old Version: [0.0.1.dev13]
+[2023-08-02 13:20:41] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-08-02 13:20:41] INFO root fetch - processPackages [polywrap-manifest]: Downloading https://files.pythonhosted.org/packages/52/be/b97c41d846c7e5ab039f36ff2d8e658cfeaa0a16409995e2ad1e2e82a68f/polywrap_manifest-0.1.0b1.tar.gz
+[2023-08-02 13:20:41] INFO root fetch - processPackages [holo-vector-store]: Downloading https://files.pythonhosted.org/packages/83/43/fe1f15d263c64033f64bf5c83a6d4433cd61ebd043560669f1a185a780b8/holo_vector_store-0.0.3.tar.gz
+[2023-08-02 13:20:41] INFO root fetch - processPackages [niceml]: Downloading https://files.pythonhosted.org/packages/10/27/907d679f84ae0ebfbf41c508d713230ab58761db3a9cbbac17f0f01aeb6d/niceml-0.6.0.tar.gz
+[2023-08-02 13:20:41] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/94/d5/208536028e4def0406cba1824ccffb8fe1d968e5dba509f159942c238ce8/decoratory-0.9.6.1.tar.gz
+[2023-08-02 13:20:41] INFO root fetch - processPackages [dmppred]: Downloading https://files.pythonhosted.org/packages/39/4d/6ac6e6d88d8ab2005733a5b5cd9c38395fe6a6c685a91c0891c58ad9db39/dmppred-1.0.0.tar.gz
+[2023-08-02 13:20:41] INFO root fetch - processPackages [finesse]: Downloading https://files.pythonhosted.org/packages/7d/69/453a412277309f8c790f50a44a03dfc0b8ca8998450632d62a585fd34c7c/finesse-3.0a7.tar.gz
+[2023-08-02 13:20:41] INFO root fetch - processPackages [kimariplot]: Downloading https://files.pythonhosted.org/packages/50/60/792dd2d6fa8ab21431c31be1909b0addc9046f0120049fa77d834ecc18db/kimariplot-1.2.2.tar.gz
+[2023-08-02 13:20:41] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2023-08-02 13:20:41] INFO root fetch - processPackages [imxInsights]: Downloading https://files.pythonhosted.org/packages/f8/b0/ec24f98c7702731061e84aab94c64955ee0045a2631ff79051817d1a4f6b/imxinsights-0.0.1.dev13.tar.gz
+[2023-08-02 13:20:41] INFO root fetch - processPackages [polywrap-manifest]: Downloading https://files.pythonhosted.org/packages/12/d8/47a632daab4fb109dba9f59e365d3db6c673e63497d291fab8923719943e/polywrap_manifest-0.1.0b2.tar.gz
+[2023-08-02 13:20:42] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/66/46/b3cdedec31ab008aa3468fa791eb0fcf6bf7ff309fbb9262efa5781dc938/dassana-0.8.8.tar.gz
+[2023-08-02 13:20:42] INFO root fetch - processPackages [holo-vector-store]: Downloading https://files.pythonhosted.org/packages/8a/0f/7935d4642c263fd06cfb88fe5c12b7141de751d241c87948545e198e8eae/holo_vector_store-0.0.4.tar.gz
+[2023-08-02 13:20:42] INFO root fetch - processPackages [polywrap-manifest]: executing diffoscope
+[2023-08-02 13:20:42] INFO root fetch - processPackages [polywrap-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_manifest-0.1.0b1.tar.gz tmp/polywrap_manifest-0.1.0b2.tar.gz --markdown 20230802/p/polywrap-manifest/0.1.0b1-0.1.0b2/diff.md --exclude *.pyd
+[2023-08-02 13:20:42] INFO root fetch - processPackages [holo-vector-store]: executing diffoscope
+[2023-08-02 13:20:42] INFO root fetch - processPackages [holo-vector-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holo_vector_store-0.0.3.tar.gz tmp/holo_vector_store-0.0.4.tar.gz --markdown 20230802/h/holo-vector-store/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-02 13:20:42] INFO root fetch - processPackages [dmppred]: Downloading https://files.pythonhosted.org/packages/25/cd/0313de5555e60c5c27878ee6a6684671a8a6703a0c0423e79bbcafeb9957/dmppred-1.1-py3-none-any.whl
+[2023-08-02 13:20:42] INFO root fetch - processPackages [kimariplot]: Downloading https://files.pythonhosted.org/packages/9e/30/e3da64a35b647396a343ddcfc379fc31c6ef54cbe9dcd25c998fb8f524b3/kimariplot-1.2.3.tar.gz
+[2023-08-02 13:20:42] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/06/1f/c4f6493e5a692ababa4bdf8bba6b6bec32bebad20eae858e752b88ba1a7f/decoratory-0.9.7.1.tar.gz
+[2023-08-02 13:20:42] INFO root fetch - processPackages [dmppred]: executing diffoscope
+[2023-08-02 13:20:42] INFO root fetch - processPackages [dmppred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmppred-1.0.0.tar.gz tmp/dmppred-1.1-py3-none-any.whl.zip --markdown 20230802/d/dmppred/1.0.0-1.1/diff.md --exclude *.pyd
+[2023-08-02 13:20:42] INFO root fetch - processPackages [kimariplot]: executing diffoscope
+[2023-08-02 13:20:42] INFO root fetch - processPackages [kimariplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kimariplot-1.2.2.tar.gz tmp/kimariplot-1.2.3.tar.gz --markdown 20230802/k/kimariplot/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-08-02 13:20:42] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2023-08-02 13:20:42] INFO root fetch - processPackages [decoratory]: executing diffoscope
+[2023-08-02 13:20:42] INFO root fetch - processPackages [decoratory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoratory-0.9.6.1.tar.gz tmp/decoratory-0.9.7.1.tar.gz --markdown 20230802/d/decoratory/0.9.6.1-0.9.7.1/diff.md --exclude *.pyd
+[2023-08-02 13:20:42] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2023-08-02 13:20:42] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20230802/a/airbyte-cdk/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-08-02 13:20:42] INFO root fetch - processPackages [niceml]: Downloading https://files.pythonhosted.org/packages/9b/10/7677c77120a8b7b703547c88674ba836731c869a8d929eed661554a467de/niceml-0.6.1.tar.gz
+[2023-08-02 13:20:42] INFO root fetch - processPackages [niceml]: executing diffoscope
+[2023-08-02 13:20:42] INFO root fetch - processPackages [niceml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niceml-0.6.0.tar.gz tmp/niceml-0.6.1.tar.gz --markdown 20230802/n/niceml/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-08-02 13:20:43] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/8e/4e/7d3d50bf262d8a54ecec7caa65b833a09c6836af619fec13826ec58b3f94/dassana-0.8.9.tar.gz
+[2023-08-02 13:20:43] INFO root fetch - processPackages [dassana]: executing diffoscope
+[2023-08-02 13:20:43] INFO root fetch - processPackages [dassana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dassana-0.8.8.tar.gz tmp/dassana-0.8.9.tar.gz --markdown 20230802/d/dassana/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-08-02 13:20:44] INFO root fetch - processPackages [polywrap-manifest]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_manifest-0.1.0b1.tar.gz]
+[2023-08-02 13:20:44] INFO root fetch - processPackages [polywrap-manifest]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_manifest-0.1.0b2.tar.gz]
+[2023-08-02 13:20:44] INFO root fetch - processPackages [polywrap-manifest]: Start processing: aws-step-functions-pydantic
+[2023-08-02 13:20:44] INFO root fetch - main [MainThread]: End processing [polywrap-manifest]: success
+[2023-08-02 13:20:44] INFO root fetch - processPackages [dmppred]: Remove: archive file [/home/abi/fetcher/tmp/dmppred-1.0.0.tar.gz]
+[2023-08-02 13:20:44] INFO root fetch - processPackages [dmppred]: Remove: archive file [/home/abi/fetcher/tmp/dmppred-1.1-py3-none-any.whl.zip]
+[2023-08-02 13:20:44] INFO root fetch - processPackages [dmppred]: Start processing: lazysdk
+[2023-08-02 13:20:44] INFO root fetch - main [MainThread]: End processing [dmppred]: success
+[2023-08-02 13:20:44] INFO root fetch - processPackages [holo-vector-store]: Remove: archive file [/home/abi/fetcher/tmp/holo_vector_store-0.0.3.tar.gz]
+[2023-08-02 13:20:44] INFO root fetch - processPackages [holo-vector-store]: Remove: archive file [/home/abi/fetcher/tmp/holo_vector_store-0.0.4.tar.gz]
+[2023-08-02 13:20:44] INFO root fetch - processPackages [holo-vector-store]: Start processing: tb-nightly
+[2023-08-02 13:20:44] INFO root fetch - main [MainThread]: End processing [holo-vector-store]: success
+[2023-08-02 13:20:44] INFO root fetch - processPackages [aws-step-functions-pydantic]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-02 13:20:44] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 13:20:44] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-08-02 13:20:44] INFO root fetch - processPackages [aws-step-functions-pydantic]: Downloading https://files.pythonhosted.org/packages/bb/ee/4dc3b131d3a1876b6bb105acbb86ba51e5a4e795de100dae86b9a3946d03/aws-step-functions-pydantic-0.0.3.tar.gz
+[2023-08-02 13:20:44] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-08-02 13:20:44] INFO root fetch - processPackages [kimariplot]: Remove: archive file [/home/abi/fetcher/tmp/kimariplot-1.2.2.tar.gz]
+[2023-08-02 13:20:44] INFO root fetch - processPackages [kimariplot]: Remove: archive file [/home/abi/fetcher/tmp/kimariplot-1.2.3.tar.gz]
+[2023-08-02 13:20:44] INFO root fetch - main [MainThread]: End processing [kimariplot]: success
+[2023-08-02 13:20:44] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-08-02 13:20:44] INFO root fetch - processPackages [aws-step-functions-pydantic]: Downloading https://files.pythonhosted.org/packages/52/ea/650f23118ee0d7119151e6eaa19d0a0e2dd2f1be2d4b622652d19806d2e1/aws-step-functions-pydantic-0.0.4.tar.gz
+[2023-08-02 13:20:44] INFO root fetch - processPackages [aws-step-functions-pydantic]: executing diffoscope
+[2023-08-02 13:20:44] INFO root fetch - processPackages [aws-step-functions-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-step-functions-pydantic-0.0.3.tar.gz tmp/aws-step-functions-pydantic-0.0.4.tar.gz --markdown 20230802/a/aws-step-functions-pydantic/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-02 13:20:44] INFO root fetch - processPackages [imxInsights]: Downloading https://files.pythonhosted.org/packages/d6/42/114ba8c7923f78fd48d01f6239e68e90b23a6cfd912dcb5613b66dee1ccb/imxinsights-0.0.1.dev14.tar.gz
+[2023-08-02 13:20:44] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.9.6.1.tar.gz]
+[2023-08-02 13:20:44] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.9.7.1.tar.gz]
+[2023-08-02 13:20:44] INFO root fetch - main [MainThread]: End processing [decoratory]: success
+[2023-08-02 13:20:44] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-08-02 13:20:44] WARNING root fetch - processPackages [imxInsights]: Skipping package: exceeds size limit 13855126>=10485760
+[2023-08-02 13:20:44] INFO root fetch - main [MainThread]: End processing [imxInsights] error
+[2023-08-02 13:20:44] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.8.8.tar.gz]
+[2023-08-02 13:20:44] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.8.9.tar.gz]
+[2023-08-02 13:20:44] INFO root fetch - main [MainThread]: End processing [dassana]: success
+[2023-08-02 13:20:44] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-08-02 13:20:44] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230802/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 13:20:45] INFO root fetch - processPackages [finesse]: Downloading https://files.pythonhosted.org/packages/4d/b5/4ffb84f09fa01ec87721ce4b17350f2f8eefbdaa39afc060c8a80276d236/finesse-3.0a8.tar.gz
+[2023-08-02 13:20:45] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-08-02 13:20:45] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.4.tar.gz]
+[2023-08-02 13:20:45] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2023-08-02 13:20:45] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2023-08-02 13:20:45] INFO root fetch - processPackages [aws-step-functions-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/aws-step-functions-pydantic-0.0.3.tar.gz]
+[2023-08-02 13:20:45] INFO root fetch - processPackages [aws-step-functions-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/aws-step-functions-pydantic-0.0.4.tar.gz]
+[2023-08-02 13:20:45] INFO root fetch - main [MainThread]: End processing [aws-step-functions-pydantic]: success
+[2023-08-02 13:20:45] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-08-02 13:20:45] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230802/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-08-02 13:20:46] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-08-02 13:20:46] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-08-02 13:20:46] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-08-02 13:20:46] INFO root fetch - processPackages [niceml]: Remove: archive file [/home/abi/fetcher/tmp/niceml-0.6.0.tar.gz]
+[2023-08-02 13:20:46] INFO root fetch - processPackages [niceml]: Remove: archive file [/home/abi/fetcher/tmp/niceml-0.6.1.tar.gz]
+[2023-08-02 13:20:46] INFO root fetch - main [MainThread]: End processing [niceml]: success
+[2023-08-02 13:20:47] INFO root fetch - processPackages [finesse]: executing diffoscope
+[2023-08-02 13:20:47] INFO root fetch - processPackages [finesse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finesse-3.0a7.tar.gz tmp/finesse-3.0a8.tar.gz --markdown 20230802/f/finesse/3.0a7-3.0a8/diff.md --exclude *.pyd
+[2023-08-02 13:20:48] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-08-02 13:20:48] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-08-02 13:20:48] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-08-02 13:21:10] INFO root fetch - processPackages [finesse]: Remove: archive file [/home/abi/fetcher/tmp/finesse-3.0a7.tar.gz]
+[2023-08-02 13:21:10] INFO root fetch - processPackages [finesse]: Remove: archive file [/home/abi/fetcher/tmp/finesse-3.0a8.tar.gz]
+[2023-08-02 13:21:10] INFO root fetch - main [MainThread]: End processing [finesse]: success
+[2023-08-02 13:21:10] INFO root fetch - main [MainThread]: Store serial: [19140522]

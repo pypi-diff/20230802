@@ -2060,3 +2060,130 @@
 [2023-08-02 02:02:26] INFO root fetch - processPackages [pyquiver]: Remove: archive file [/home/abi/fetcher/tmp/pyquiver-0.0.4-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
 [2023-08-02 02:02:26] INFO root fetch - main [MainThread]: End processing [pyquiver]: success
 [2023-08-02 02:02:26] INFO root fetch - main [MainThread]: Store serial: [19132604]
+[2023-08-02 02:07:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19132604]
+[2023-08-02 02:07:41] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-02 02:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmdhelper
+[2023-08-02 02:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-radiance
+[2023-08-02 02:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dragonfly-core
+[2023-08-02 02:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchdatasets-nightly
+[2023-08-02 02:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: honeybee-energy
+[2023-08-02 02:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fake-useragent
+[2023-08-02 02:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mct-nightly
+[2023-08-02 02:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxkern-nightly
+[2023-08-02 02:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shipper-shippy
+[2023-08-02 02:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-github
+[2023-08-02 02:07:41] INFO root fetch - processPackages [shipper-shippy]: New version: [2.18.3] Old Version: [2.18.2]
+[2023-08-02 02:07:42] INFO root fetch - processPackages [fake-useragent]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-08-02 02:07:42] INFO root fetch - processPackages [cmdhelper]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-02 02:07:42] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-08-02 02:07:42] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-08-02 02:07:42] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1690848223] Old Version: [1690761793]
+[2023-08-02 02:07:42] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 02:07:42] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-08-02 02:07:42] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/ec/a2/6400999b285536674b30740161a988e28d9c69ab46b2bc47aafa273a2d55/shipper-shippy-2.18.2.tar.gz
+[2023-08-02 02:07:42] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-08-02 02:07:42] INFO root fetch - processPackages [fake-useragent]: Downloading https://files.pythonhosted.org/packages/1c/ed/05c6beb88d82c13ae84394604f5a292ddf9a37f088850aa5cbc8a091e711/fake-useragent-1.1.3.tar.gz
+[2023-08-02 02:07:42] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230802.post405] Old Version: [1.9.0.20230801.post450]
+[2023-08-02 02:07:42] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-08-02 02:07:42] INFO root fetch - processPackages [cmdhelper]: Downloading https://files.pythonhosted.org/packages/72/e1/f5036287034f78da0145f2973b6b4c702f4c9df16a44f77f47e1cdc4683c/cmdhelper-0.3.0.tar.gz
+[2023-08-02 02:07:42] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/70/1f/943fd838521cec3b3653cf4ee3e63d8ec1582554bb9f70582aa183789244/torchdatasets-nightly-1690761793.tar.gz
+[2023-08-02 02:07:42] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2023-08-02 02:07:42] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2023-08-02 02:07:42] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-08-02 02:07:42] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2023-08-02 02:07:42] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/d2/b0/c1918e20d4b655d723963baccbbd99679a5fc3ee32db846255f8a404e4c7/mct-nightly-1.9.0.20230801.post450.tar.gz
+[2023-08-02 02:07:42] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/01/ec/4bb50880f21b3abe3240eea792d8e969f2ae6e2745c1d3509da3d93a62db/shipper-shippy-2.18.3.tar.gz
+[2023-08-02 02:07:42] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2023-08-02 02:07:42] INFO root fetch - processPackages [fake-useragent]: Downloading https://files.pythonhosted.org/packages/77/7a/87ccc5918f2bac62effbbde0412398820ce9a10ccec713870c86a093692c/fake-useragent-1.2.0.tar.gz
+[2023-08-02 02:07:42] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-08-02 02:07:42] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2023-08-02 02:07:42] INFO root fetch - processPackages [cmdhelper]: Downloading https://files.pythonhosted.org/packages/8d/c2/1269039a36bc1eccee8a0a2a858736aa8044558fecc1cba7a7d08458c410/cmdhelper-0.3.1.tar.gz
+[2023-08-02 02:07:42] INFO root fetch - processPackages [shipper-shippy]: executing diffoscope
+[2023-08-02 02:07:42] INFO root fetch - processPackages [shipper-shippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipper-shippy-2.18.2.tar.gz tmp/shipper-shippy-2.18.3.tar.gz --markdown 20230802/s/shipper-shippy/2.18.2-2.18.3/diff.md --exclude *.pyd
+[2023-08-02 02:07:42] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/97/32/e755b0135cf936183b19679ffb4e5cbc684415dd71a66ce9c9c40aea20c0/torchdatasets-nightly-1690848223.tar.gz
+[2023-08-02 02:07:42] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2023-08-02 02:07:42] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20230802/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-08-02 02:07:43] INFO root fetch - processPackages [fake-useragent]: executing diffoscope
+[2023-08-02 02:07:43] INFO root fetch - processPackages [fake-useragent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-useragent-1.1.3.tar.gz tmp/fake-useragent-1.2.0.tar.gz --markdown 20230802/f/fake-useragent/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-08-02 02:07:43] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-08-02 02:07:43] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230802/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-08-02 02:07:43] INFO root fetch - processPackages [cmdhelper]: executing diffoscope
+[2023-08-02 02:07:43] INFO root fetch - processPackages [cmdhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdhelper-0.3.0.tar.gz tmp/cmdhelper-0.3.1.tar.gz --markdown 20230802/c/cmdhelper/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-02 02:07:43] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2023-08-02 02:07:43] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-08-02 02:07:43] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230802/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-08-02 02:07:43] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/07/ed/194ff64c31bde235ec6ecf18904abe7c58312d4d7fb70ed38423a168120c/mct-nightly-1.9.0.20230802.post405.tar.gz
+[2023-08-02 02:07:43] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-08-02 02:07:43] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230802/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-08-02 02:07:43] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-08-02 02:07:43] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1690761793.tar.gz tmp/torchdatasets-nightly-1690848223.tar.gz --markdown 20230802/t/torchdatasets-nightly/1690761793-1690848223/diff.md --exclude *.pyd
+[2023-08-02 02:07:43] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-08-02 02:07:43] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-08-02 02:07:43] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230802/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 02:07:43] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-08-02 02:07:43] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230801.post450.tar.gz tmp/mct-nightly-1.9.0.20230802.post405.tar.gz --markdown 20230802/m/mct-nightly/1.9.0.20230801.post450-1.9.0.20230802.post405/diff.md --exclude *.pyd
+[2023-08-02 02:07:44] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper-shippy-2.18.2.tar.gz]
+[2023-08-02 02:07:44] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper-shippy-2.18.3.tar.gz]
+[2023-08-02 02:07:44] INFO root fetch - processPackages [shipper-shippy]: Start processing: jaxutils-nightly
+[2023-08-02 02:07:44] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
+[2023-08-02 02:07:44] INFO root fetch - processPackages [fake-useragent]: Remove: archive file [/home/abi/fetcher/tmp/fake-useragent-1.1.3.tar.gz]
+[2023-08-02 02:07:44] INFO root fetch - processPackages [fake-useragent]: Remove: archive file [/home/abi/fetcher/tmp/fake-useragent-1.2.0.tar.gz]
+[2023-08-02 02:07:44] INFO root fetch - processPackages [fake-useragent]: Start processing: ml-compiler-opt
+[2023-08-02 02:07:44] INFO root fetch - main [MainThread]: End processing [fake-useragent]: success
+[2023-08-02 02:07:44] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230801] Old Version: [0.0.8.dev20230731]
+[2023-08-02 02:07:44] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202308020007] Old Version: [0.0.1.dev202308020006]
+[2023-08-02 02:07:44] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-08-02 02:07:44] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-08-02 02:07:44] INFO root fetch - processPackages [jaxkern-nightly]: Start processing: ml-compiler-opt
+[2023-08-02 02:07:44] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-08-02 02:07:44] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/9f/8b/cd423c3644e63c6fab8b1e66cc5d0849b9108dab2ab85e2d9aaf032d08ab/jaxutils-nightly-0.0.8.dev20230731.tar.gz
+[2023-08-02 02:07:44] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202308020007] Old Version: [0.0.1.dev202308020006]
+[2023-08-02 02:07:44] INFO root fetch - processPackages [cmdhelper]: Remove: archive file [/home/abi/fetcher/tmp/cmdhelper-0.3.0.tar.gz]
+[2023-08-02 02:07:44] INFO root fetch - processPackages [cmdhelper]: Remove: archive file [/home/abi/fetcher/tmp/cmdhelper-0.3.1.tar.gz]
+[2023-08-02 02:07:44] INFO root fetch - processPackages [cmdhelper]: Start processing: torchlayers-nightly
+[2023-08-02 02:07:44] INFO root fetch - main [MainThread]: End processing [cmdhelper]: success
+[2023-08-02 02:07:44] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2023-08-02 02:07:44] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2023-08-02 02:07:44] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2023-08-02 02:07:44] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/5d/72/46ccaf2555c90e1497b5357725d5f4adb1c0a2fa1ba9c48941936e23119f/ml-compiler-opt-0.0.1.dev202308020006.tar.gz
+[2023-08-02 02:07:44] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/5d/72/46ccaf2555c90e1497b5357725d5f4adb1c0a2fa1ba9c48941936e23119f/ml-compiler-opt-0.0.1.dev202308020006.tar.gz
+[2023-08-02 02:07:44] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690761793.tar.gz]
+[2023-08-02 02:07:44] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690848223.tar.gz]
+[2023-08-02 02:07:44] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-08-02 02:07:44] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1690848521] Old Version: [1690762052]
+[2023-08-02 02:07:44] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/fc/1d/4630205f8ab0e5c65521d43a285e825b940e056e447fd3a9a990bbe8ce11/torchlayers-nightly-1690762052.tar.gz
+[2023-08-02 02:07:44] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-08-02 02:07:44] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-08-02 02:07:45] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-08-02 02:07:45] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/50/ed/05678740112ee7e3f914820031e0c5c90bd93694780b39fd2c81643b5c75/jaxutils-nightly-0.0.8.dev20230801.tar.gz
+[2023-08-02 02:07:45] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/3c/75/7e31a544b250845f184c213090f764e618576a27c65dd44f4b407c0f358b/ml_compiler_opt-0.0.1.dev202308020007-py3-none-any.whl
+[2023-08-02 02:07:45] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/3c/75/7e31a544b250845f184c213090f764e618576a27c65dd44f4b407c0f358b/ml_compiler_opt-0.0.1.dev202308020007-py3-none-any.whl
+[2023-08-02 02:07:45] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-08-02 02:07:45] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230731.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230801.tar.gz --markdown 20230802/j/jaxutils-nightly/0.0.8.dev20230731-0.0.8.dev20230801/diff.md --exclude *.pyd
+[2023-08-02 02:07:45] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-08-02 02:07:45] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202308020006.tar.gz tmp/ml_compiler_opt-0.0.1.dev202308020007-py3-none-any.whl.zip --markdown 20230802/m/ml-compiler-opt/0.0.1.dev202308020006-0.0.1.dev202308020007/diff.md --exclude *.pyd
+[2023-08-02 02:07:45] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-08-02 02:07:45] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202308020006.tar.gz tmp/ml_compiler_opt-0.0.1.dev202308020007-py3-none-any.whl.zip --markdown 20230802/m/ml-compiler-opt/0.0.1.dev202308020006-0.0.1.dev202308020007/diff.md --exclude *.pyd
+[2023-08-02 02:07:45] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/65/69/ae717500538a648426299751cd2085404cd8dfbbf826fcc5ed38d67140ff/torchlayers-nightly-1690848521.tar.gz
+[2023-08-02 02:07:45] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2023-08-02 02:07:45] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2023-08-02 02:07:45] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-08-02 02:07:45] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-08-02 02:07:45] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1690762052.tar.gz tmp/torchlayers-nightly-1690848521.tar.gz --markdown 20230802/t/torchlayers-nightly/1690762052-1690848521/diff.md --exclude *.pyd
+[2023-08-02 02:07:45] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.1.tar.gz]
+[2023-08-02 02:07:45] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
+[2023-08-02 02:07:45] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-08-02 02:07:46] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230731.tar.gz]
+[2023-08-02 02:07:46] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230801.tar.gz]
+[2023-08-02 02:07:46] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-08-02 02:07:46] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202308020006.tar.gz]
+[2023-08-02 02:07:46] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml_compiler_opt-0.0.1.dev202308020007-py3-none-any.whl.zip]
+[2023-08-02 02:07:46] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-08-02 02:07:46] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-08-02 02:07:46] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1690762052.tar.gz]
+[2023-08-02 02:07:46] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1690848521.tar.gz]
+[2023-08-02 02:07:46] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-08-02 02:07:47] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230801.post450.tar.gz]
+[2023-08-02 02:07:47] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230802.post405.tar.gz]
+[2023-08-02 02:07:47] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-08-02 02:07:47] INFO root fetch - main [MainThread]: Store serial: [19132643]

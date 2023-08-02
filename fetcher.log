@@ -14416,3 +14416,132 @@
 [2023-08-02 08:38:34] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz]
 [2023-08-02 08:38:34] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
 [2023-08-02 08:38:34] INFO root fetch - main [MainThread]: Store serial: [19137418]
+[2023-08-02 08:43:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19137418]
+[2023-08-02 08:43:43] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-02 08:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-08-02 08:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-prototyping-sdk.pipeline
+[2023-08-02 08:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-prototyping-sdk.static-website
+[2023-08-02 08:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crypto-screening
+[2023-08-02 08:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smart-factory-faker
+[2023-08-02 08:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-08-02 08:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: starmerx-url
+[2023-08-02 08:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: valeriepieris
+[2023-08-02 08:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lesscode-py
+[2023-08-02 08:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: springs
+[2023-08-02 08:43:43] INFO root fetch - processPackages [crypto-screening]: New version: [8.4.2] Old Version: [8.4.1]
+[2023-08-02 08:43:43] INFO root fetch - processPackages [valeriepieris]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-02 08:43:43] INFO root fetch - processPackages [smart-factory-faker]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-08-02 08:43:43] INFO root fetch - processPackages [starmerx-url]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-02 08:43:43] INFO root fetch - processPackages [springs]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-02 08:43:43] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-02 08:43:43] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-08-02 08:43:43] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-02 08:43:43] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-02 08:43:43] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-02 08:43:43] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/33/2f/60587f31d52e48c949b1da26eb9e70f7d2091bc14ce396730cba7ee0991f/aws_prototyping_sdk.static_website-0.9.3.tar.gz
+[2023-08-02 08:43:43] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/70/3c/18435bb9fb3fdbb639555e8691ad8c3342b266c4404728c01f7119b3f200/crypto-screening-8.4.1.tar.gz
+[2023-08-02 08:43:43] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/ce/60/72043fc0e30f8705240241169b3b70906aceae84a2a19822234ae4fa038d/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz
+[2023-08-02 08:43:43] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-08-02 08:43:43] INFO root fetch - processPackages [valeriepieris]: Downloading https://files.pythonhosted.org/packages/e0/f3/1ec6c29b40898611194a226d7ec91b18730bde9062d3669e6315c0315b7d/valeriepieris-0.1.3.tar.gz
+[2023-08-02 08:43:43] INFO root fetch - processPackages [smart-factory-faker]: Downloading https://files.pythonhosted.org/packages/4e/57/e7c1c0ceac259b253628cbce717a621cd188141af7eff45d050bbf68f013/smart_factory_faker-0.8.0.tar.gz
+[2023-08-02 08:43:44] INFO root fetch - processPackages [starmerx-url]: Downloading https://files.pythonhosted.org/packages/46/fb/262964bae70bd3c57cb48e4fcfba01ad47c42e2d4db77e4a76713bb08345/starmerx_url-0.1.6.tar.gz
+[2023-08-02 08:43:44] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/42/08/74d21c65ab1d20b6b0ffa70724b1674c9dfb7fb5928c75be8facb32049a8/aws_prototyping_sdk.pipeline-0.9.3.tar.gz
+[2023-08-02 08:43:44] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/9b/a8/fb239c1d2008fa7b1297ad1672aa3e98e9a9063bff2eaa6cdcd842a88a9b/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz
+[2023-08-02 08:43:44] INFO root fetch - processPackages [springs]: Downloading https://files.pythonhosted.org/packages/3c/d2/0224d9eeb060e880f73de16faa2b65b07e1157988705af0df519777eeb01/springs-1.9.0.tar.gz
+[2023-08-02 08:43:44] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/e5/0f/641eb55e81a3b33a7465ceab3037ff68668a4f9bba07d31995a7c7bd15b2/aws_prototyping_sdk.static_website-0.9.4.tar.gz
+[2023-08-02 08:43:44] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/f4/27/5047b871b36882879776010666de606ac6b0119b47d0cac24792b8cc5991/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz
+[2023-08-02 08:43:44] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-08-02 08:43:44] INFO root fetch - processPackages [smart-factory-faker]: Downloading https://files.pythonhosted.org/packages/4b/01/cb47efc781fcb8441ba6ccb7460b0db4178ac948f9990ea9b24bd92ceed9/smart_factory_faker-0.8.1.tar.gz
+[2023-08-02 08:43:44] INFO root fetch - processPackages [starmerx-url]: Downloading https://files.pythonhosted.org/packages/29/f0/823b8a04bc85c9fe3973ba1959c2319d1108fa9691fdc7ddd90da3681385/starmerx_url-0.1.7.tar.gz
+[2023-08-02 08:43:44] INFO root fetch - processPackages [valeriepieris]: Downloading https://files.pythonhosted.org/packages/d4/13/71968b2486b4b20db7e817a2f16f7535808e27edc07b1d91a36fd07a40b3/valeriepieris-0.1.4.tar.gz
+[2023-08-02 08:43:44] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/12/71/4f7e5e98d46a0838bcfdff9092c0d810bc7a9d8a2026f6359027e18bd571/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz
+[2023-08-02 08:43:44] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/5e/d3/5446b850944ed03543ef2cb371a34cd02dce3d4607a516f8d28eeed7a00e/crypto-screening-8.4.2.tar.gz
+[2023-08-02 08:43:44] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/3b/25/07bfef78766c8655b384c468aeb5f171d537aafabe48a0af1fd12c7301df/aws_prototyping_sdk.pipeline-0.9.4.tar.gz
+[2023-08-02 08:43:44] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-08-02 08:43:44] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230802/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-02 08:43:44] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-08-02 08:43:44] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz --markdown 20230802/a/aws-prototyping-sdk.type-safe-api/0.19.8-0.19.9/diff.md --exclude *.pyd
+[2023-08-02 08:43:44] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-08-02 08:43:44] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230802/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-02 08:43:44] INFO root fetch - processPackages [smart-factory-faker]: executing diffoscope
+[2023-08-02 08:43:44] INFO root fetch - processPackages [smart-factory-faker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_factory_faker-0.8.0.tar.gz tmp/smart_factory_faker-0.8.1.tar.gz --markdown 20230802/s/smart-factory-faker/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-08-02 08:43:44] INFO root fetch - processPackages [starmerx-url]: executing diffoscope
+[2023-08-02 08:43:44] INFO root fetch - processPackages [starmerx-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starmerx_url-0.1.6.tar.gz tmp/starmerx_url-0.1.7.tar.gz --markdown 20230802/s/starmerx-url/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-02 08:43:44] INFO root fetch - processPackages [valeriepieris]: executing diffoscope
+[2023-08-02 08:43:44] INFO root fetch - processPackages [valeriepieris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valeriepieris-0.1.3.tar.gz tmp/valeriepieris-0.1.4.tar.gz --markdown 20230802/v/valeriepieris/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-02 08:43:44] INFO root fetch - processPackages [springs]: Downloading https://files.pythonhosted.org/packages/15/d4/3883cf5fea48b856d1cf94bfda3661a8d5ceb86475f966445c8f836d065b/springs-1.9.1.tar.gz
+[2023-08-02 08:43:44] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-08-02 08:43:44] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230802/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-02 08:43:44] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-08-02 08:43:44] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-8.4.1.tar.gz tmp/crypto-screening-8.4.2.tar.gz --markdown 20230802/c/crypto-screening/8.4.1-8.4.2/diff.md --exclude *.pyd
+[2023-08-02 08:43:44] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-08-02 08:43:44] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230802/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-02 08:43:45] INFO root fetch - processPackages [springs]: executing diffoscope
+[2023-08-02 08:43:45] INFO root fetch - processPackages [springs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/springs-1.9.0.tar.gz tmp/springs-1.9.1.tar.gz --markdown 20230802/s/springs/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-02 08:43:46] INFO root fetch - processPackages [smart-factory-faker]: Remove: archive file [/home/abi/fetcher/tmp/smart_factory_faker-0.8.0.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [smart-factory-faker]: Remove: archive file [/home/abi/fetcher/tmp/smart_factory_faker-0.8.1.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [smart-factory-faker]: Start processing: valeriepieris
+[2023-08-02 08:43:46] INFO root fetch - main [MainThread]: End processing [smart-factory-faker]: success
+[2023-08-02 08:43:46] INFO root fetch - processPackages [valeriepieris]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Start processing: ambient-toolbox
+[2023-08-02 08:43:46] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-08-02 08:43:46] INFO root fetch - processPackages [valeriepieris]: executing diffoscope
+[2023-08-02 08:43:46] INFO root fetch - processPackages [valeriepieris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valeriepieris-0.1.3.tar.gz tmp/valeriepieris-0.1.4.tar.gz --markdown 20230802/v/valeriepieris/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-02 08:43:46] INFO root fetch - processPackages [ambient-toolbox]: New version: [9.0.2] Old Version: [9.0.1]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Start processing: intelliw
+[2023-08-02 08:43:46] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-08-02 08:43:46] INFO root fetch - processPackages [ambient-toolbox]: Downloading https://files.pythonhosted.org/packages/9d/2b/acfb8e53a891695009438f9c578d5467df32b25c46b12c3f4558df4ee7de/ambient_toolbox-9.0.1.tar.gz
+[2023-08-02 08:43:46] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Start processing: usb-monitor
+[2023-08-02 08:43:46] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-08-02 08:43:46] INFO root fetch - processPackages [starmerx-url]: Remove: archive file [/home/abi/fetcher/tmp/starmerx_url-0.1.6.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [starmerx-url]: Remove: archive file [/home/abi/fetcher/tmp/starmerx_url-0.1.7.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - main [MainThread]: End processing [starmerx-url]: success
+[2023-08-02 08:43:46] INFO root fetch - processPackages [intelliw]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [valeriepieris]: Remove: archive file [/home/abi/fetcher/tmp/valeriepieris-0.1.3.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [valeriepieris]: Remove: archive file [/home/abi/fetcher/tmp/valeriepieris-0.1.4.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - main [MainThread]: End processing [valeriepieris]: success
+[2023-08-02 08:43:46] INFO root fetch - processPackages [springs]: Remove: archive file [/home/abi/fetcher/tmp/springs-1.9.0.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [springs]: Remove: archive file [/home/abi/fetcher/tmp/springs-1.9.1.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - main [MainThread]: End processing [springs]: success
+[2023-08-02 08:43:46] INFO root fetch - processPackages [usb-monitor]: New version: [1.9] Old Version: [1.8]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-08-02 08:43:46] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.4.1.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.4.2.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-08-02 08:43:46] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.8.tar.gz]
+[2023-08-02 08:43:46] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
+[2023-08-02 08:43:47] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-08-02 08:43:47] INFO root fetch - processPackages [usb-monitor]: Downloading https://files.pythonhosted.org/packages/89/11/b7f8f74cf4200043ad5cd2251725442b2676370c32a8a8b40c8f73520e8e/usb-monitor-1.8.tar.gz
+[2023-08-02 08:43:47] INFO root fetch - processPackages [intelliw]: Downloading https://files.pythonhosted.org/packages/9a/ce/20850d455cee55870f68b4c52538dfbcad9360bd19b3fe310f2060fc3b4e/intelliw-1.2.8-py3-none-any.whl
+[2023-08-02 08:43:47] INFO root fetch - processPackages [ambient-toolbox]: Downloading https://files.pythonhosted.org/packages/21/86/cb08a3a19d113ab504b763d989217647334b7eff6c4578d1dc602d45a608/ambient_toolbox-9.0.2.tar.gz
+[2023-08-02 08:43:47] INFO root fetch - processPackages [usb-monitor]: Downloading https://files.pythonhosted.org/packages/b8/24/66ba7dbab40ec8656d74e794f8eb3b2f0d995a1f4c23df75fd67122eeb84/usb-monitor-1.9.tar.gz
+[2023-08-02 08:43:47] INFO root fetch - processPackages [ambient-toolbox]: executing diffoscope
+[2023-08-02 08:43:47] INFO root fetch - processPackages [ambient-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient_toolbox-9.0.1.tar.gz tmp/ambient_toolbox-9.0.2.tar.gz --markdown 20230802/a/ambient-toolbox/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2023-08-02 08:43:47] INFO root fetch - processPackages [usb-monitor]: executing diffoscope
+[2023-08-02 08:43:47] INFO root fetch - processPackages [usb-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usb-monitor-1.8.tar.gz tmp/usb-monitor-1.9.tar.gz --markdown 20230802/u/usb-monitor/1.8-1.9/diff.md --exclude *.pyd
+[2023-08-02 08:43:47] ERROR root fetch - processPackages [valeriepieris]: Diffoscope failed: time="2023-08-02T08:43:46+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/valeriepieris-0.1.3.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/valeriepieris-0.1.4.tar.gz: No such file or directory
+
+[2023-08-02 08:43:47] INFO root fetch - main [MainThread]: End processing [valeriepieris] error
+[2023-08-02 08:43:47] INFO root fetch - processPackages [intelliw]: Downloading https://files.pythonhosted.org/packages/56/39/8c9d9f02f068eb32b537f84561688a3542e0d77b426f926f06943dd7238a/intelliw-1.2.9-py3-none-any.whl
+[2023-08-02 08:43:47] INFO root fetch - processPackages [intelliw]: executing diffoscope
+[2023-08-02 08:43:47] INFO root fetch - processPackages [intelliw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intelliw-1.2.8-py3-none-any.whl.zip tmp/intelliw-1.2.9-py3-none-any.whl.zip --markdown 20230802/i/intelliw/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-02 08:43:48] INFO root fetch - processPackages [usb-monitor]: Remove: archive file [/home/abi/fetcher/tmp/usb-monitor-1.8.tar.gz]
+[2023-08-02 08:43:48] INFO root fetch - processPackages [usb-monitor]: Remove: archive file [/home/abi/fetcher/tmp/usb-monitor-1.9.tar.gz]
+[2023-08-02 08:43:48] INFO root fetch - main [MainThread]: End processing [usb-monitor]: success
+[2023-08-02 08:43:48] INFO root fetch - processPackages [ambient-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/ambient_toolbox-9.0.1.tar.gz]
+[2023-08-02 08:43:48] INFO root fetch - processPackages [ambient-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/ambient_toolbox-9.0.2.tar.gz]
+[2023-08-02 08:43:48] INFO root fetch - main [MainThread]: End processing [ambient-toolbox]: success
+[2023-08-02 08:43:48] INFO root fetch - processPackages [intelliw]: Remove: archive file [/home/abi/fetcher/tmp/intelliw-1.2.8-py3-none-any.whl.zip]
+[2023-08-02 08:43:48] INFO root fetch - processPackages [intelliw]: Remove: archive file [/home/abi/fetcher/tmp/intelliw-1.2.9-py3-none-any.whl.zip]
+[2023-08-02 08:43:48] INFO root fetch - main [MainThread]: End processing [intelliw]: success
+[2023-08-02 08:43:48] INFO root fetch - main [MainThread]: Store serial: [19137461]

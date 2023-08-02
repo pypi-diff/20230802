@@ -12997,3 +12997,67 @@
 [2023-08-02 07:04:38] INFO root fetch - processPackages [flappy-bird-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/flappy-bird-gymnasium-0.2.2.tar.gz]
 [2023-08-02 07:04:38] INFO root fetch - main [MainThread]: End processing [flappy-bird-gymnasium]: success
 [2023-08-02 07:04:38] INFO root fetch - main [MainThread]: Store serial: [19136747]
+[2023-08-02 07:09:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19136747]
+[2023-08-02 07:09:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-02 07:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flappy-bird-gymnasium
+[2023-08-02 07:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapid-pe
+[2023-08-02 07:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymobiledevice3
+[2023-08-02 07:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycobol2csv
+[2023-08-02 07:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dask-cuda
+[2023-08-02 07:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hivedca
+[2023-08-02 07:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dask-cuda
+[2023-08-02 07:09:47] INFO root fetch - processPackages [pycobol2csv]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-02 07:09:47] INFO root fetch - processPackages [flappy-bird-gymnasium]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-02 07:09:47] INFO root fetch - processPackages [hivedca]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 07:09:47] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230802] Old Version: [23.8.0a230801]
+[2023-08-02 07:09:47] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230802] Old Version: [0.1.1.dev20230801]
+[2023-08-02 07:09:47] INFO root fetch - processPackages [pymobiledevice3]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-08-02 07:09:47] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230802] Old Version: [23.8.0a230801]
+[2023-08-02 07:09:47] INFO root fetch - processPackages [pycobol2csv]: Downloading https://files.pythonhosted.org/packages/99/db/f246eeaaf34ae5a2cb9a871f8444da67c5fbd30577947114605933e1452f/pycobol2csv-0.1.5-py3-none-any.whl
+[2023-08-02 07:09:47] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/88/84/8448e141a70b4a83ae2177c7b5019082c35a4ec90989862b5d4b8bfa5d56/dask-cuda-23.8.0a230801.tar.gz
+[2023-08-02 07:09:47] INFO root fetch - processPackages [hivedca]: Downloading https://files.pythonhosted.org/packages/51/aa/01f01eb4ed325dc0e3aaec5045ac91c7a8536a917629ad447067d6ce840d/hivedca-0.0.2.tar.gz
+[2023-08-02 07:09:47] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/88/84/8448e141a70b4a83ae2177c7b5019082c35a4ec90989862b5d4b8bfa5d56/dask-cuda-23.8.0a230801.tar.gz
+[2023-08-02 07:09:47] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/e4/28/02dad34726a9863c8c85da5e954550692a37f9d5204ac4d6fe91ce0b2cca/rapid_pe-0.1.1.dev20230801.tar.gz
+[2023-08-02 07:09:47] INFO root fetch - processPackages [flappy-bird-gymnasium]: Downloading https://files.pythonhosted.org/packages/14/a4/65a97c8635a3e9c2a6129af8e53084699cbfcd7b4097e1dfb18e50644689/flappy-bird-gymnasium-0.2.1.tar.gz
+[2023-08-02 07:09:47] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/c5/a5/3f4a25bdd0fb8545f2abf2c5300ec986572fca34c8a43e83d1b16f56cd9a/pymobiledevice3-2.2.0.tar.gz
+[2023-08-02 07:09:47] INFO root fetch - processPackages [pycobol2csv]: Downloading https://files.pythonhosted.org/packages/2d/82/7ee342194969fe7ad00d74cdd27b2d748017770a7aa36fa04cb174d75ea8/pycobol2csv-0.1.6-py3-none-any.whl
+[2023-08-02 07:09:47] INFO root fetch - processPackages [hivedca]: Downloading https://files.pythonhosted.org/packages/e0/1b/431569cacc27f60bc0815b9d805f6311afb2c042c687e6de4b6a3f54918d/hivedca-0.0.3.tar.gz
+[2023-08-02 07:09:47] INFO root fetch - processPackages [pycobol2csv]: executing diffoscope
+[2023-08-02 07:09:47] INFO root fetch - processPackages [pycobol2csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycobol2csv-0.1.5-py3-none-any.whl.zip tmp/pycobol2csv-0.1.6-py3-none-any.whl.zip --markdown 20230802/p/pycobol2csv/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-02 07:09:48] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/7a/df/575e328078ac7fddcb6caf7f3e8edb3df35524769d31b738684819e50c9f/dask-cuda-23.8.0a230802.tar.gz
+[2023-08-02 07:09:48] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/7a/df/575e328078ac7fddcb6caf7f3e8edb3df35524769d31b738684819e50c9f/dask-cuda-23.8.0a230802.tar.gz
+[2023-08-02 07:09:48] INFO root fetch - processPackages [hivedca]: executing diffoscope
+[2023-08-02 07:09:48] INFO root fetch - processPackages [hivedca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivedca-0.0.2.tar.gz tmp/hivedca-0.0.3.tar.gz --markdown 20230802/h/hivedca/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 07:09:48] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/8d/43/fead01b07b1d811317db2624dc07ba4f13cf8ee1a62655f5cad565926bc1/rapid_pe-0.1.1.dev20230802.tar.gz
+[2023-08-02 07:09:48] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/47/d4/c65707d8805f232d325a54dfeaf67628b9b46a4b1ea8d23403ecae601ebb/pymobiledevice3-2.2.1.tar.gz
+[2023-08-02 07:09:48] INFO root fetch - processPackages [flappy-bird-gymnasium]: Downloading https://files.pythonhosted.org/packages/18/ea/2e12ffab88a360fa4f99831872536e657f71bba053e6154aa84514220818/flappy-bird-gymnasium-0.2.2.tar.gz
+[2023-08-02 07:09:48] INFO root fetch - processPackages [pymobiledevice3]: executing diffoscope
+[2023-08-02 07:09:48] INFO root fetch - processPackages [pymobiledevice3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymobiledevice3-2.2.0.tar.gz tmp/pymobiledevice3-2.2.1.tar.gz --markdown 20230802/p/pymobiledevice3/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-08-02 07:09:48] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-08-02 07:09:48] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230801.tar.gz tmp/dask-cuda-23.8.0a230802.tar.gz --markdown 20230802/d/dask-cuda/23.8.0a230801-23.8.0a230802/diff.md --exclude *.pyd
+[2023-08-02 07:09:48] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-08-02 07:09:48] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230801.tar.gz tmp/dask-cuda-23.8.0a230802.tar.gz --markdown 20230802/d/dask-cuda/23.8.0a230801-23.8.0a230802/diff.md --exclude *.pyd
+[2023-08-02 07:09:48] INFO root fetch - processPackages [flappy-bird-gymnasium]: executing diffoscope
+[2023-08-02 07:09:48] INFO root fetch - processPackages [flappy-bird-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flappy-bird-gymnasium-0.2.1.tar.gz tmp/flappy-bird-gymnasium-0.2.2.tar.gz --markdown 20230802/f/flappy-bird-gymnasium/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-02 07:09:48] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-08-02 07:09:48] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230801.tar.gz tmp/rapid_pe-0.1.1.dev20230802.tar.gz --markdown 20230802/r/rapid-pe/0.1.1.dev20230801-0.1.1.dev20230802/diff.md --exclude *.pyd
+[2023-08-02 07:09:49] INFO root fetch - processPackages [pycobol2csv]: Remove: archive file [/home/abi/fetcher/tmp/pycobol2csv-0.1.5-py3-none-any.whl.zip]
+[2023-08-02 07:09:49] INFO root fetch - processPackages [pycobol2csv]: Remove: archive file [/home/abi/fetcher/tmp/pycobol2csv-0.1.6-py3-none-any.whl.zip]
+[2023-08-02 07:09:49] INFO root fetch - main [MainThread]: End processing [pycobol2csv]: success
+[2023-08-02 07:09:49] INFO root fetch - processPackages [hivedca]: Remove: archive file [/home/abi/fetcher/tmp/hivedca-0.0.2.tar.gz]
+[2023-08-02 07:09:49] INFO root fetch - processPackages [hivedca]: Remove: archive file [/home/abi/fetcher/tmp/hivedca-0.0.3.tar.gz]
+[2023-08-02 07:09:49] INFO root fetch - main [MainThread]: End processing [hivedca]: success
+[2023-08-02 07:09:49] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230801.tar.gz]
+[2023-08-02 07:09:49] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230802.tar.gz]
+[2023-08-02 07:09:49] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-08-02 07:09:49] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230801.tar.gz]
+[2023-08-02 07:09:49] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230802.tar.gz]
+[2023-08-02 07:09:49] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-08-02 07:09:49] INFO root fetch - processPackages [flappy-bird-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/flappy-bird-gymnasium-0.2.1.tar.gz]
+[2023-08-02 07:09:49] INFO root fetch - processPackages [flappy-bird-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/flappy-bird-gymnasium-0.2.2.tar.gz]
+[2023-08-02 07:09:49] INFO root fetch - main [MainThread]: End processing [flappy-bird-gymnasium]: success
+[2023-08-02 07:09:49] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-08-02 07:09:50] INFO root fetch - processPackages [pymobiledevice3]: Remove: archive file [/home/abi/fetcher/tmp/pymobiledevice3-2.2.0.tar.gz]
+[2023-08-02 07:09:50] INFO root fetch - processPackages [pymobiledevice3]: Remove: archive file [/home/abi/fetcher/tmp/pymobiledevice3-2.2.1.tar.gz]
+[2023-08-02 07:09:50] INFO root fetch - main [MainThread]: End processing [pymobiledevice3]: success
+[2023-08-02 07:09:50] INFO root fetch - main [MainThread]: Store serial: [19136769]

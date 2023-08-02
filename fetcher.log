@@ -20518,3 +20518,179 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-02 12:38:27] INFO root fetch - processPackages [KKMeans]: Remove: archive file [/home/abi/fetcher/tmp/KKMeans-0.0.7.tar.gz]
 [2023-08-02 12:38:27] INFO root fetch - main [MainThread]: End processing [KKMeans]: success
 [2023-08-02 12:38:27] INFO root fetch - main [MainThread]: Store serial: [19140154]
+[2023-08-02 12:43:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19140154]
+[2023-08-02 12:43:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-02 12:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neo-cli
+[2023-08-02 12:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kaydet
+[2023-08-02 12:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: async-rmq-v
+[2023-08-02 12:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: warc2zim
+[2023-08-02 12:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DynamicForms
+[2023-08-02 12:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: labonneboite-datamodel
+[2023-08-02 12:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: music-assistant
+[2023-08-02 12:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skypilot-nightly
+[2023-08-02 12:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cm-two
+[2023-08-02 12:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zmq-ai-client-python
+[2023-08-02 12:43:36] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-08-02 12:43:36] INFO root fetch - processPackages [kaydet]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-08-02 12:43:36] INFO root fetch - processPackages [async-rmq-v]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-02 12:43:36] INFO root fetch - processPackages [labonneboite-datamodel]: New version: [1.2.0rc1] Old Version: [1.1.0]
+[2023-08-02 12:43:36] INFO root fetch - processPackages [warc2zim]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-08-02 12:43:36] WARNING root fetch - processPackages [zmq-ai-client-python]: Skipping, unable to determine old version
+[2023-08-02 12:43:36] INFO root fetch - processPackages [zmq-ai-client-python]: Start processing: pulumi-vault
+[2023-08-02 12:43:36] INFO root fetch - main [MainThread]: End processing [zmq-ai-client-python] error
+[2023-08-02 12:43:36] INFO root fetch - processPackages [neo-cli]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-08-02 12:43:36] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230801] Old Version: [1.0.0.dev20230731]
+[2023-08-02 12:43:36] INFO root fetch - processPackages [cm-two]: New version: [2.3.597] Old Version: [2.3.596]
+[2023-08-02 12:43:36] INFO root fetch - processPackages [DynamicForms]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-02 12:43:36] INFO root fetch - processPackages [async-rmq-v]: Downloading https://files.pythonhosted.org/packages/3c/c3/e9fb02efcab0991ff2280c5e07b76282e8e23a7b972bd216cd6067590053/async_rmq_v-0.3.2.tar.gz
+[2023-08-02 12:43:37] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-08-02 12:43:37] INFO root fetch - processPackages [neo-cli]: Downloading https://files.pythonhosted.org/packages/3c/5d/2e36145eb1a35f0907b00c4f1a3015e206fd6ad040160ac8cd8912f26340/neo-cli-0.9.5.tar.gz
+[2023-08-02 12:43:37] INFO root fetch - processPackages [pulumi-vault]: New version: [5.9.0a1678382334] Old Version: [5.9.0a1678129627]
+[2023-08-02 12:43:37] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/c1/a3/a9391b0a0ba21940c726b8e676f919e072e53da35bfe6fdc30f6cd4976ed/DynamicForms-0.9.8.tar.gz
+[2023-08-02 12:43:37] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-08-02 12:43:37] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-08-02 12:43:37] INFO root fetch - processPackages [kaydet]: Downloading https://files.pythonhosted.org/packages/f8/a9/ba54b0bc113d3c248538ddeca44a8311701180c6304f4deb41a6d3a43f7f/kaydet-0.8.4.tar.gz
+[2023-08-02 12:43:37] INFO root fetch - processPackages [labonneboite-datamodel]: Downloading https://files.pythonhosted.org/packages/75/6e/805f7495a5316914e26d9442bc389a5200468eefcb2c7d9e5beee2f03dde/labonneboite_datamodel-1.1.0.tar.gz
+[2023-08-02 12:43:37] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/36/2b/d93e37c86c1ce4467d80c65e930a88e59d8fd0f05ef19d58ed5664368a92/skypilot-nightly-1.0.0.dev20230731.tar.gz
+[2023-08-02 12:43:37] INFO root fetch - processPackages [warc2zim]: Downloading https://files.pythonhosted.org/packages/97/c0/f26b2cbb8652e5bc48feb7c973ccae2f33a2f3c67549b26f2bd3502c4c0e/warc2zim-1.5.1.tar.gz
+[2023-08-02 12:43:37] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/e3/c9/65898499b67448eae06780fb3be448afa8cd40dece05d5bff04eb8c060fd/pulumi_vault-5.9.0a1678129627.tar.gz
+[2023-08-02 12:43:37] INFO root fetch - processPackages [async-rmq-v]: Downloading https://files.pythonhosted.org/packages/db/ac/14a43bf1739f70a1349df22af72b098a66480b881071e25a4a56ec2217f2/async_rmq_v-0.3.3.tar.gz
+[2023-08-02 12:43:37] INFO root fetch - processPackages [neo-cli]: Downloading https://files.pythonhosted.org/packages/59/a9/6ab3f4e5d9fe6735777db3f366dc6dfb461d4873d258693b0d2b96a64d19/neo-cli-0.9.6.tar.gz
+[2023-08-02 12:43:37] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/a7/ed/141c25294e39456e207ee4339174eda0385cdfcff22df3a1cae094ddda84/cm_two-2.3.597-py3-none-any.whl
+[2023-08-02 12:43:37] INFO root fetch - processPackages [kaydet]: Downloading https://files.pythonhosted.org/packages/12/59/65a5f4474c3a049a2705715c5ed551f15d0fdd2c455000a858f22622efd9/kaydet-0.8.5.tar.gz
+[2023-08-02 12:43:37] INFO root fetch - processPackages [labonneboite-datamodel]: Downloading https://files.pythonhosted.org/packages/55/d5/a6410fa610bca46cff472cd54032c7983d664d77d58fd6dacb9d9b6f0812/labonneboite_datamodel-1.2.0rc1.tar.gz
+[2023-08-02 12:43:37] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/17/92/2562c5f02d4953bc96c46e2b195343702ea6763233eceaed5091889f2ab8/DynamicForms-0.9.9.tar.gz
+[2023-08-02 12:43:37] INFO root fetch - processPackages [async-rmq-v]: executing diffoscope
+[2023-08-02 12:43:37] INFO root fetch - processPackages [async-rmq-v]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_rmq_v-0.3.2.tar.gz tmp/async_rmq_v-0.3.3.tar.gz --markdown 20230802/a/async-rmq-v/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-02 12:43:37] INFO root fetch - processPackages [warc2zim]: Downloading https://files.pythonhosted.org/packages/6e/7f/b5bd8079cd799ff40fa252f6df4d9867ff55bd9c678a6f9d239d60078119/warc2zim-1.5.2.tar.gz
+[2023-08-02 12:43:37] INFO root fetch - processPackages [labonneboite-datamodel]: executing diffoscope
+[2023-08-02 12:43:37] INFO root fetch - processPackages [labonneboite-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labonneboite_datamodel-1.1.0.tar.gz tmp/labonneboite_datamodel-1.2.0rc1.tar.gz --markdown 20230802/l/labonneboite-datamodel/1.1.0-1.2.0rc1/diff.md --exclude *.pyd
+[2023-08-02 12:43:37] INFO root fetch - processPackages [neo-cli]: executing diffoscope
+[2023-08-02 12:43:37] INFO root fetch - processPackages [neo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo-cli-0.9.5.tar.gz tmp/neo-cli-0.9.6.tar.gz --markdown 20230802/n/neo-cli/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-08-02 12:43:37] INFO root fetch - processPackages [kaydet]: executing diffoscope
+[2023-08-02 12:43:37] INFO root fetch - processPackages [kaydet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaydet-0.8.4.tar.gz tmp/kaydet-0.8.5.tar.gz --markdown 20230802/k/kaydet/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-08-02 12:43:37] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/ac/56/100b45a98dd4c63093d9af380c3e2ade5665315f6bf3522a077d3dacc050/skypilot-nightly-1.0.0.dev20230801.tar.gz
+[2023-08-02 12:43:38] INFO root fetch - processPackages [DynamicForms]: executing diffoscope
+[2023-08-02 12:43:38] INFO root fetch - processPackages [DynamicForms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicForms-0.9.8.tar.gz tmp/DynamicForms-0.9.9.tar.gz --markdown 20230802/D/DynamicForms/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-02 12:43:38] INFO root fetch - processPackages [warc2zim]: executing diffoscope
+[2023-08-02 12:43:38] INFO root fetch - processPackages [warc2zim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warc2zim-1.5.1.tar.gz tmp/warc2zim-1.5.2.tar.gz --markdown 20230802/w/warc2zim/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-08-02 12:43:38] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-08-02 12:43:38] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.596-py3-none-any.whl.zip tmp/cm_two-2.3.597-py3-none-any.whl.zip --markdown 20230802/c/cm-two/2.3.596-2.3.597/diff.md --exclude *.pyd
+[2023-08-02 12:43:38] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/ed/2f/d2dbb3407f0fdd01cc4ad94d930a70843270a50c7d8cc4597b5113561639/pulumi_vault-5.9.0a1678382334.tar.gz
+[2023-08-02 12:43:38] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-08-02 12:43:38] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230731.tar.gz tmp/skypilot-nightly-1.0.0.dev20230801.tar.gz --markdown 20230802/s/skypilot-nightly/1.0.0.dev20230731-1.0.0.dev20230801/diff.md --exclude *.pyd
+[2023-08-02 12:43:38] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2023-08-02 12:43:38] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-5.9.0a1678129627.tar.gz tmp/pulumi_vault-5.9.0a1678382334.tar.gz --markdown 20230802/p/pulumi-vault/5.9.0a1678129627-5.9.0a1678382334/diff.md --exclude *.pyd
+[2023-08-02 12:43:39] INFO root fetch - processPackages [labonneboite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/labonneboite_datamodel-1.1.0.tar.gz]
+[2023-08-02 12:43:39] INFO root fetch - processPackages [labonneboite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/labonneboite_datamodel-1.2.0rc1.tar.gz]
+[2023-08-02 12:43:39] INFO root fetch - main [MainThread]: End processing [labonneboite-datamodel]: success
+[2023-08-02 12:43:39] INFO root fetch - processPackages [async-rmq-v]: Remove: archive file [/home/abi/fetcher/tmp/async_rmq_v-0.3.2.tar.gz]
+[2023-08-02 12:43:39] INFO root fetch - processPackages [async-rmq-v]: Remove: archive file [/home/abi/fetcher/tmp/async_rmq_v-0.3.3.tar.gz]
+[2023-08-02 12:43:39] INFO root fetch - main [MainThread]: End processing [async-rmq-v]: success
+[2023-08-02 12:43:39] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: time="2023-08-02T12:43:38+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-08-02 12:43:39] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-08-02 12:43:39] INFO root fetch - processPackages [kaydet]: Remove: archive file [/home/abi/fetcher/tmp/kaydet-0.8.4.tar.gz]
+[2023-08-02 12:43:39] INFO root fetch - processPackages [kaydet]: Remove: archive file [/home/abi/fetcher/tmp/kaydet-0.8.5.tar.gz]
+[2023-08-02 12:43:39] INFO root fetch - main [MainThread]: End processing [kaydet]: success
+[2023-08-02 12:43:39] INFO root fetch - processPackages [neo-cli]: Remove: archive file [/home/abi/fetcher/tmp/neo-cli-0.9.5.tar.gz]
+[2023-08-02 12:43:39] INFO root fetch - processPackages [neo-cli]: Remove: archive file [/home/abi/fetcher/tmp/neo-cli-0.9.6.tar.gz]
+[2023-08-02 12:43:39] INFO root fetch - main [MainThread]: End processing [neo-cli]: success
+[2023-08-02 12:43:40] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230731.tar.gz]
+[2023-08-02 12:43:40] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230801.tar.gz]
+[2023-08-02 12:43:40] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-08-02 12:43:40] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.8.tar.gz]
+[2023-08-02 12:43:40] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.9.tar.gz]
+[2023-08-02 12:43:40] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
+[2023-08-02 12:43:40] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-5.9.0a1678129627.tar.gz]
+[2023-08-02 12:43:40] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-5.9.0a1678382334.tar.gz]
+[2023-08-02 12:43:40] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2023-08-02 12:43:44] INFO root fetch - processPackages [warc2zim]: Remove: archive file [/home/abi/fetcher/tmp/warc2zim-1.5.1.tar.gz]
+[2023-08-02 12:43:44] INFO root fetch - processPackages [warc2zim]: Remove: archive file [/home/abi/fetcher/tmp/warc2zim-1.5.2.tar.gz]
+[2023-08-02 12:43:44] INFO root fetch - main [MainThread]: End processing [warc2zim]: success
+[2023-08-02 12:43:44] INFO root fetch - main [MainThread]: Store serial: [19140196]

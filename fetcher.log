@@ -19145,3 +19145,186 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-02 11:50:28] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.9.1.tar.gz]
 [2023-08-02 11:50:28] INFO root fetch - main [MainThread]: End processing [smartchart]: success
 [2023-08-02 11:50:28] INFO root fetch - main [MainThread]: Store serial: [19139512]
+[2023-08-02 11:55:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19139512]
+[2023-08-02 11:55:37] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-08-02 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thinks-dash-components
+[2023-08-02 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyscabbard
+[2023-08-02 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: holo-vector-store
+[2023-08-02 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TGDbot
+[2023-08-02 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ECAgent
+[2023-08-02 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rafalkrol-xyz.cdk-fsx-ontap
+[2023-08-02 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: readyocr
+[2023-08-02 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cytosim
+[2023-08-02 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-mysql
+[2023-08-02 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: piperider
+[2023-08-02 11:55:37] INFO root fetch - processPackages [holo-vector-store]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 11:55:37] INFO root fetch - processPackages [thinks-dash-components]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-02 11:55:37] INFO root fetch - processPackages [pyscabbard]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 11:55:37] INFO root fetch - processPackages [ECAgent]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-08-02 11:55:37] INFO root fetch - processPackages [cytosim]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 11:55:37] INFO root fetch - processPackages [rafalkrol-xyz.cdk-fsx-ontap]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-02 11:55:37] INFO root fetch - processPackages [TGDbot]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-08-02 11:55:37] INFO root fetch - processPackages [readyocr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 11:55:37] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.2.0a1690968753] Old Version: [3.2.0a1690263584]
+[2023-08-02 11:55:37] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-08-02 11:55:37] INFO root fetch - processPackages [cytosim]: Downloading https://files.pythonhosted.org/packages/b6/fa/0c33a7fbbcbcd0d62a445c4e94da69c1df0c0f2cf4b16bc934a4a6c35f30/cytosim-0.0.2.tar.gz
+[2023-08-02 11:55:37] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/00/50/25debd7cb37023192f29c667c449490d400e8c3dac12da6d0fe3c0cb4d59/thinks_dash_components-0.4.8.tar.gz
+[2023-08-02 11:55:37] INFO root fetch - processPackages [holo-vector-store]: Downloading https://files.pythonhosted.org/packages/0f/ed/d6e02abdc070c830dd0e684615281f38a7584943a9f24c0c9e132bd31b82/holo_vector_store-0.0.1.tar.gz
+[2023-08-02 11:55:37] INFO root fetch - processPackages [pyscabbard]: Downloading https://files.pythonhosted.org/packages/f3/60/fd78f4495ec196d76291e99eb5595c0fe06f9c8aa433264475f1a4cda5d3/pyscabbard-0.0.1.tar.gz
+[2023-08-02 11:55:37] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-08-02 11:55:37] INFO root fetch - processPackages [rafalkrol-xyz.cdk-fsx-ontap]: Downloading https://files.pythonhosted.org/packages/e3/cf/d3505827d398208afb122a72be74608b1930f89bc792327c4bb73e44be24/rafalkrol-xyz.cdk-fsx-ontap-1.0.1.tar.gz
+[2023-08-02 11:55:37] INFO root fetch - processPackages [ECAgent]: Downloading https://files.pythonhosted.org/packages/b1/33/1fefcdfec5f760f6d09d9de900825f40a21073f61ce1193c40a2621b5fc4/ECAgent-0.5.4.tar.gz
+[2023-08-02 11:55:37] INFO root fetch - processPackages [TGDbot]: Downloading https://files.pythonhosted.org/packages/b5/ad/2d0c3c0f96de431b5ecc30505703c755702098a4be41d5ac20c45ab9e412/TGDbot-0.3.5-py3-none-any.whl
+[2023-08-02 11:55:37] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/1a/27/37b22e58924cf55c8646a7674704e46465ced22ff5a28869c4b3acd5260a/pulumi_mysql-3.2.0a1690263584.tar.gz
+[2023-08-02 11:55:38] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-08-02 11:55:38] INFO root fetch - processPackages [pyscabbard]: Downloading https://files.pythonhosted.org/packages/87/1d/3785ec5d63c15a2b5136623368e04225ca6fc89ebc2d1604eec2482c8cf7/pyscabbard-0.0.2.tar.gz
+[2023-08-02 11:55:38] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/06/3e/4a343eabe9ed89bae6993d415f6f2a253dcdf14ecc8a7594e59f454f6987/thinks_dash_components-0.4.9.tar.gz
+[2023-08-02 11:55:38] INFO root fetch - processPackages [holo-vector-store]: Downloading https://files.pythonhosted.org/packages/cb/69/b687301e7b0ce7332daadda7e64c08bc4f015439cef5a6b9c28dde505982/holo_vector_store-0.0.2.tar.gz
+[2023-08-02 11:55:38] INFO root fetch - processPackages [cytosim]: Downloading https://files.pythonhosted.org/packages/3d/1a/41154f261f6df712878385aa8cdd81da02475e0fe60b5a204f633350e2b8/cytosim-0.0.3.tar.gz
+[2023-08-02 11:55:38] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/67/b0/34662554637d50f73b74973afb6ddfb4d9895b1fafbfa36c16d5764321fa/readyocr-0.0.9.tar.gz
+[2023-08-02 11:55:38] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/d1/cb/5631ae5b176a90cbd52bc1e9f058f0de5098f1089fd2e29796b0d61d02fa/pulumi_mysql-3.2.0a1690968753.tar.gz
+[2023-08-02 11:55:38] INFO root fetch - processPackages [TGDbot]: Downloading https://files.pythonhosted.org/packages/be/36/cc00a9f95fa1cedca6ec3bb3904fe0ce764c5f8e81ad932c1936b8ff3920/TGDbot-0.3.6-py3-none-any.whl
+[2023-08-02 11:55:38] INFO root fetch - processPackages [ECAgent]: Downloading https://files.pythonhosted.org/packages/03/ce/9cbc3d5f09e74c546f2db147be956f5b76b7fd0eaa240f25824c9b2c872c/ECAgent-0.5.5.tar.gz
+[2023-08-02 11:55:38] INFO root fetch - processPackages [rafalkrol-xyz.cdk-fsx-ontap]: Downloading https://files.pythonhosted.org/packages/50/a0/f71f3d02fd2fd84dd33b671955b8a948472799d2bad1d35347c938fadb3c/rafalkrol-xyz.cdk-fsx-ontap-1.0.2.tar.gz
+[2023-08-02 11:55:38] INFO root fetch - processPackages [pyscabbard]: executing diffoscope
+[2023-08-02 11:55:38] INFO root fetch - processPackages [pyscabbard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscabbard-0.0.1.tar.gz tmp/pyscabbard-0.0.2.tar.gz --markdown 20230802/p/pyscabbard/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 11:55:38] INFO root fetch - processPackages [thinks-dash-components]: executing diffoscope
+[2023-08-02 11:55:38] INFO root fetch - processPackages [thinks-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinks_dash_components-0.4.8.tar.gz tmp/thinks_dash_components-0.4.9.tar.gz --markdown 20230802/t/thinks-dash-components/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-02 11:55:38] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2023-08-02 11:55:38] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.2.0a1690263584.tar.gz tmp/pulumi_mysql-3.2.0a1690968753.tar.gz --markdown 20230802/p/pulumi-mysql/3.2.0a1690263584-3.2.0a1690968753/diff.md --exclude *.pyd
+[2023-08-02 11:55:38] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-08-02 11:55:38] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.8.tar.gz tmp/readyocr-0.0.9.tar.gz --markdown 20230802/r/readyocr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 11:55:38] INFO root fetch - processPackages [TGDbot]: executing diffoscope
+[2023-08-02 11:55:38] INFO root fetch - processPackages [TGDbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TGDbot-0.3.5-py3-none-any.whl.zip tmp/TGDbot-0.3.6-py3-none-any.whl.zip --markdown 20230802/T/TGDbot/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-08-02 11:55:38] INFO root fetch - processPackages [ECAgent]: executing diffoscope
+[2023-08-02 11:55:38] INFO root fetch - processPackages [ECAgent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ECAgent-0.5.4.tar.gz tmp/ECAgent-0.5.5.tar.gz --markdown 20230802/E/ECAgent/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-08-02 11:55:38] INFO root fetch - processPackages [holo-vector-store]: executing diffoscope
+[2023-08-02 11:55:38] INFO root fetch - processPackages [holo-vector-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holo_vector_store-0.0.1.tar.gz tmp/holo_vector_store-0.0.2.tar.gz --markdown 20230802/h/holo-vector-store/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 11:55:38] INFO root fetch - processPackages [rafalkrol-xyz.cdk-fsx-ontap]: executing diffoscope
+[2023-08-02 11:55:38] INFO root fetch - processPackages [rafalkrol-xyz.cdk-fsx-ontap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rafalkrol-xyz.cdk-fsx-ontap-1.0.1.tar.gz tmp/rafalkrol-xyz.cdk-fsx-ontap-1.0.2.tar.gz --markdown 20230802/r/rafalkrol-xyz.cdk-fsx-ontap/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-02 11:55:39] INFO root fetch - processPackages [cytosim]: executing diffoscope
+[2023-08-02 11:55:39] INFO root fetch - processPackages [cytosim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cytosim-0.0.2.tar.gz tmp/cytosim-0.0.3.tar.gz --markdown 20230802/c/cytosim/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 11:55:39] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-08-02 11:55:40] INFO root fetch - processPackages [pyscabbard]: Remove: archive file [/home/abi/fetcher/tmp/pyscabbard-0.0.1.tar.gz]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [pyscabbard]: Remove: archive file [/home/abi/fetcher/tmp/pyscabbard-0.0.2.tar.gz]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [pyscabbard]: Start processing: seedspark
+[2023-08-02 11:55:40] INFO root fetch - main [MainThread]: End processing [pyscabbard]: success
+[2023-08-02 11:55:40] INFO root fetch - processPackages [seedspark]: New version: [0.3.0] Old Version: [0.1.9]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.9.tar.gz]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [readyocr]: Start processing: lognflow
+[2023-08-02 11:55:40] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-08-02 11:55:40] INFO root fetch - processPackages [TGDbot]: Remove: archive file [/home/abi/fetcher/tmp/TGDbot-0.3.5-py3-none-any.whl.zip]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [TGDbot]: Remove: archive file [/home/abi/fetcher/tmp/TGDbot-0.3.6-py3-none-any.whl.zip]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [TGDbot]: Start processing: pulumi-mailgun
+[2023-08-02 11:55:40] INFO root fetch - main [MainThread]: End processing [TGDbot]: success
+[2023-08-02 11:55:40] INFO root fetch - processPackages [holo-vector-store]: Remove: archive file [/home/abi/fetcher/tmp/holo_vector_store-0.0.1.tar.gz]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [holo-vector-store]: Remove: archive file [/home/abi/fetcher/tmp/holo_vector_store-0.0.2.tar.gz]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [holo-vector-store]: Start processing: trustedtwin
+[2023-08-02 11:55:40] INFO root fetch - main [MainThread]: End processing [holo-vector-store]: success
+[2023-08-02 11:55:40] INFO root fetch - processPackages [ECAgent]: Remove: archive file [/home/abi/fetcher/tmp/ECAgent-0.5.4.tar.gz]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [ECAgent]: Remove: archive file [/home/abi/fetcher/tmp/ECAgent-0.5.5.tar.gz]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [ECAgent]: Start processing: localstack-core
+[2023-08-02 11:55:40] INFO root fetch - main [MainThread]: End processing [ECAgent]: success
+[2023-08-02 11:55:40] INFO root fetch - processPackages [lognflow]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.5.0a1690968929] Old Version: [3.5.0a1690263328]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.2.0a1690263584.tar.gz]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.2.0a1690968753.tar.gz]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [pulumi-mysql]: Start processing: edwh-files-plugin
+[2023-08-02 11:55:40] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2023-08-02 11:55:40] INFO root fetch - processPackages [seedspark]: Downloading https://files.pythonhosted.org/packages/9a/01/ce4b78ea628303e1ef4d9f50794c8707b0b3fb5e05c1d0ce1203ec881eca/seedspark-0.1.9.tar.gz
+[2023-08-02 11:55:40] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230801214610] Old Version: [2.2.1.dev20230801163643]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [trustedtwin]: New version: [3.3.20230802095450] Old Version: [0.4.9]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [rafalkrol-xyz.cdk-fsx-ontap]: Remove: archive file [/home/abi/fetcher/tmp/rafalkrol-xyz.cdk-fsx-ontap-1.0.1.tar.gz]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [rafalkrol-xyz.cdk-fsx-ontap]: Remove: archive file [/home/abi/fetcher/tmp/rafalkrol-xyz.cdk-fsx-ontap-1.0.2.tar.gz]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [rafalkrol-xyz.cdk-fsx-ontap]: Start processing: gardener-cicd-base
+[2023-08-02 11:55:40] INFO root fetch - main [MainThread]: End processing [rafalkrol-xyz.cdk-fsx-ontap]: success
+[2023-08-02 11:55:40] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/60/df/088c44cb9ee9a50277489b96922ac3b5e0e517d08fca963cb8361873bcec/localstack-core-2.2.1.dev20230801163643.tar.gz
+[2023-08-02 11:55:40] INFO root fetch - processPackages [edwh-files-plugin]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/d9/05/d049827dd881e786029de2bc371bebdb005643e40b74bada140d59f721a5/lognflow-0.8.1.tar.gz
+[2023-08-02 11:55:40] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2121.0] Old Version: [1.2120.0]
+[2023-08-02 11:55:40] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/e6/d1/8260e2bfe4aaa2c164edb2cf560c3b50240e36d82a71b4509a0ed917f2d4/pulumi_mailgun-3.5.0a1690263328.tar.gz
+[2023-08-02 11:55:40] INFO root fetch - processPackages [trustedtwin]: Downloading https://files.pythonhosted.org/packages/ce/28/f3af45ad2474127d80fb70b3ac1e28ff4b45dff893aaf73cf85359e039eb/trustedtwin-0.4.9.tar.gz
+[2023-08-02 11:55:40] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/b8/13/c65eb1c5b3e05f490bf4e45558ead6c90dd65ef7434c1277659e892460d9/gardener-cicd-base-1.2120.0.tar.gz
+[2023-08-02 11:55:40] INFO root fetch - processPackages [seedspark]: Downloading https://files.pythonhosted.org/packages/7a/7e/b2a64467cf818969ad958f845805de11efbba1e9ebae1368dd62b7b3934f/seedspark-0.3.0.tar.gz
+[2023-08-02 11:55:40] INFO root fetch - processPackages [edwh-files-plugin]: Downloading https://files.pythonhosted.org/packages/ff/7b/909d6cf953c2618eec0869f4f48a4b67299bfde3a5fef6c02a79394f837a/edwh_files_plugin-0.1.0.tar.gz
+[2023-08-02 11:55:40] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-08-02 11:55:40] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230802/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-08-02 11:55:40] INFO root fetch - processPackages [seedspark]: executing diffoscope
+[2023-08-02 11:55:40] INFO root fetch - processPackages [seedspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seedspark-0.1.9.tar.gz tmp/seedspark-0.3.0.tar.gz --markdown 20230802/s/seedspark/0.1.9-0.3.0/diff.md --exclude *.pyd
+[2023-08-02 11:55:40] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/5a/a5/ad85b3a927c61c43fe2fc05c1e5590494c7629ac73498bc18081bd223ca0/lognflow-0.8.2.tar.gz
+[2023-08-02 11:55:40] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/21/08/fbc426589c6da44c4c8c53ae3354a611805e400716907ca7fe7e2df7ba5b/pulumi_mailgun-3.5.0a1690968929.tar.gz
+[2023-08-02 11:55:40] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/b5/e1/0f0ce08197bccda6b881a27e33d7ae6e3dd200bd64f32263c552b00c8ef5/gardener-cicd-base-1.2121.0.tar.gz
+[2023-08-02 11:55:41] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/b7/5d/b049089ac117171126f9964d5f496c2ed0306519d309b2952c60544075d0/localstack-core-2.2.1.dev20230801214610.tar.gz
+[2023-08-02 11:55:41] INFO root fetch - processPackages [lognflow]: executing diffoscope
+[2023-08-02 11:55:41] INFO root fetch - processPackages [lognflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lognflow-0.8.1.tar.gz tmp/lognflow-0.8.2.tar.gz --markdown 20230802/l/lognflow/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-08-02 11:55:41] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2023-08-02 11:55:41] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.5.0a1690263328.tar.gz tmp/pulumi_mailgun-3.5.0a1690968929.tar.gz --markdown 20230802/p/pulumi-mailgun/3.5.0a1690263328-3.5.0a1690968929/diff.md --exclude *.pyd
+[2023-08-02 11:55:41] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-08-02 11:55:41] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2120.0.tar.gz tmp/gardener-cicd-base-1.2121.0.tar.gz --markdown 20230802/g/gardener-cicd-base/1.2120.0-1.2121.0/diff.md --exclude *.pyd
+[2023-08-02 11:55:41] INFO root fetch - processPackages [edwh-files-plugin]: Downloading https://files.pythonhosted.org/packages/60/4e/161d9a3b9f40a9c8ea132ed59f92d6b04743dc7aafd0047efd0c422ccc30/edwh_files_plugin-0.1.1.tar.gz
+[2023-08-02 11:55:41] INFO root fetch - processPackages [trustedtwin]: Downloading https://files.pythonhosted.org/packages/1a/1d/a418a5db4641897412ec6d7cc00408bcbc33fa7244b9a8feb7b892b9cab8/trustedtwin-3.3.20230802095450.tar.gz
+[2023-08-02 11:55:41] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-08-02 11:55:41] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230801163643.tar.gz tmp/localstack-core-2.2.1.dev20230801214610.tar.gz --markdown 20230802/l/localstack-core/2.2.1.dev20230801163643-2.2.1.dev20230801214610/diff.md --exclude *.pyd
+[2023-08-02 11:55:41] INFO root fetch - processPackages [edwh-files-plugin]: executing diffoscope
+[2023-08-02 11:55:41] INFO root fetch - processPackages [edwh-files-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_files_plugin-0.1.0.tar.gz tmp/edwh_files_plugin-0.1.1.tar.gz --markdown 20230802/e/edwh-files-plugin/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-02 11:55:41] INFO root fetch - processPackages [trustedtwin]: executing diffoscope
+[2023-08-02 11:55:41] INFO root fetch - processPackages [trustedtwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trustedtwin-0.4.9.tar.gz tmp/trustedtwin-3.3.20230802095450.tar.gz --markdown 20230802/t/trustedtwin/0.4.9-3.3.20230802095450/diff.md --exclude *.pyd
+[2023-08-02 11:55:41] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.4.8.tar.gz]
+[2023-08-02 11:55:41] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.4.9.tar.gz]
+[2023-08-02 11:55:41] INFO root fetch - processPackages [thinks-dash-components]: Start processing: gardener-cicd-cli
+[2023-08-02 11:55:41] INFO root fetch - main [MainThread]: End processing [thinks-dash-components]: success
+[2023-08-02 11:55:41] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2121.0] Old Version: [1.2120.0]
+[2023-08-02 11:55:41] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/38/e4/29beefe305fdb10f278f9e580a00674c15d78f825ed2ce8fe4f1776e9ead/gardener-cicd-cli-1.2120.0.tar.gz
+[2023-08-02 11:55:41] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/fb/28/6470ce23891da78ca15fcc9850a7146fe321d612ff0a31d63a31869ce2cd/gardener-cicd-cli-1.2121.0.tar.gz
+[2023-08-02 11:55:42] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-08-02 11:55:42] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2120.0.tar.gz tmp/gardener-cicd-cli-1.2121.0.tar.gz --markdown 20230802/g/gardener-cicd-cli/1.2120.0-1.2121.0/diff.md --exclude *.pyd
+[2023-08-02 11:55:42] INFO root fetch - processPackages [seedspark]: Remove: archive file [/home/abi/fetcher/tmp/seedspark-0.1.9.tar.gz]
+[2023-08-02 11:55:42] INFO root fetch - processPackages [seedspark]: Remove: archive file [/home/abi/fetcher/tmp/seedspark-0.3.0.tar.gz]
+[2023-08-02 11:55:42] INFO root fetch - processPackages [seedspark]: Start processing: gardener-cicd-dso
+[2023-08-02 11:55:42] INFO root fetch - main [MainThread]: End processing [seedspark]: success
+[2023-08-02 11:55:42] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2121.0] Old Version: [1.2120.0]
+[2023-08-02 11:55:42] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/46/d3/191807f4014610b2971e551c5969f2ba37d3bc22ae92833835a98468c0ea/gardener-cicd-dso-1.2120.0.tar.gz
+[2023-08-02 11:55:42] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.5.0a1690263328.tar.gz]
+[2023-08-02 11:55:42] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.5.0a1690968929.tar.gz]
+[2023-08-02 11:55:42] INFO root fetch - processPackages [pulumi-mailgun]: Start processing: alibabacloud-dcdn20180115-py2
+[2023-08-02 11:55:42] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2023-08-02 11:55:42] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/3e/1f/404b06d79959b47582252883fbde944737399effe2c8430bbee800157e03/gardener-cicd-dso-1.2121.0.tar.gz
+[2023-08-02 11:55:42] INFO root fetch - processPackages [trustedtwin]: Remove: archive file [/home/abi/fetcher/tmp/trustedtwin-0.4.9.tar.gz]
+[2023-08-02 11:55:42] INFO root fetch - processPackages [trustedtwin]: Remove: archive file [/home/abi/fetcher/tmp/trustedtwin-3.3.20230802095450.tar.gz]
+[2023-08-02 11:55:42] INFO root fetch - main [MainThread]: End processing [trustedtwin]: success
+[2023-08-02 11:55:42] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-08-02 11:55:42] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2120.0.tar.gz tmp/gardener-cicd-dso-1.2121.0.tar.gz --markdown 20230802/g/gardener-cicd-dso/1.2120.0-1.2121.0/diff.md --exclude *.pyd
+[2023-08-02 11:55:42] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-02 11:55:42] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.8.1.tar.gz]
+[2023-08-02 11:55:42] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.8.2.tar.gz]
+[2023-08-02 11:55:42] INFO root fetch - main [MainThread]: End processing [lognflow]: success
+[2023-08-02 11:55:42] INFO root fetch - processPackages [edwh-files-plugin]: Remove: archive file [/home/abi/fetcher/tmp/edwh_files_plugin-0.1.0.tar.gz]
+[2023-08-02 11:55:42] INFO root fetch - processPackages [edwh-files-plugin]: Remove: archive file [/home/abi/fetcher/tmp/edwh_files_plugin-0.1.1.tar.gz]
+[2023-08-02 11:55:42] INFO root fetch - main [MainThread]: End processing [edwh-files-plugin]: success
+[2023-08-02 11:55:42] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2120.0.tar.gz]
+[2023-08-02 11:55:42] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2121.0.tar.gz]
+[2023-08-02 11:55:42] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-08-02 11:55:43] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Downloading https://files.pythonhosted.org/packages/eb/ef/06e095ffd858068c82d2589cae84966d4d2ac3e73812d62968e16dea80a1/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz
+[2023-08-02 11:55:43] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2120.0.tar.gz]
+[2023-08-02 11:55:43] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2121.0.tar.gz]
+[2023-08-02 11:55:43] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-08-02 11:55:43] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Downloading https://files.pythonhosted.org/packages/7b/3b/d2e5e5872bff482675c6c8fb178b95174b8780c80e367084d17a3bc9ccb1/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz
+[2023-08-02 11:55:43] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: executing diffoscope
+[2023-08-02 11:55:43] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz tmp/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz --markdown 20230802/a/alibabacloud-dcdn20180115-py2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-02 11:55:43] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0.tar.gz]
+[2023-08-02 11:55:43] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
+[2023-08-02 11:55:43] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2120.0.tar.gz]
+[2023-08-02 11:55:43] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2121.0.tar.gz]
+[2023-08-02 11:55:43] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-08-02 11:55:43] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-08-02 11:55:44] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz]
+[2023-08-02 11:55:44] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz]
+[2023-08-02 11:55:44] INFO root fetch - main [MainThread]: End processing [alibabacloud-dcdn20180115-py2]: success
+[2023-08-02 11:55:46] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230801163643.tar.gz]
+[2023-08-02 11:55:46] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230801214610.tar.gz]
+[2023-08-02 11:55:46] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-08-02 11:55:47] INFO root fetch - processPackages [cytosim]: Remove: archive file [/home/abi/fetcher/tmp/cytosim-0.0.2.tar.gz]
+[2023-08-02 11:55:47] INFO root fetch - processPackages [cytosim]: Remove: archive file [/home/abi/fetcher/tmp/cytosim-0.0.3.tar.gz]
+[2023-08-02 11:55:47] INFO root fetch - main [MainThread]: End processing [cytosim]: success
+[2023-08-02 11:55:47] INFO root fetch - main [MainThread]: Store serial: [19139564]

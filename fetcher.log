@@ -5591,3 +5591,96 @@
 [2023-08-02 03:02:23] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-08-02 03:02:23] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-08-02 03:02:23] INFO root fetch - main [MainThread]: Store serial: [19133838]
+[2023-08-02 03:07:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19133838]
+[2023-08-02 03:07:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-02 03:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phap
+[2023-08-02 03:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-08-02 03:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: csirtg-indicator
+[2023-08-02 03:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fprime-native-images
+[2023-08-02 03:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sungrow-http-config
+[2023-08-02 03:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-hugo-deploy
+[2023-08-02 03:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-organizations
+[2023-08-02 03:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gantry
+[2023-08-02 03:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: decryptogame
+[2023-08-02 03:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: liveramp-automation
+[2023-08-02 03:07:32] INFO root fetch - processPackages [gantry]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-08-02 03:07:32] INFO root fetch - processPackages [sungrow-http-config]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 03:07:32] INFO root fetch - processPackages [decryptogame]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-02 03:07:32] INFO root fetch - processPackages [phap]: New version: [3.1.0rc3] Old Version: [3.1.0rc2]
+[2023-08-02 03:07:32] INFO root fetch - processPackages [csirtg-indicator]: New version: [3.0b9] Old Version: [3.0b8]
+[2023-08-02 03:07:32] INFO root fetch - processPackages [fprime-native-images]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-02 03:07:32] INFO root fetch - processPackages [liveramp-automation]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-08-02 03:07:32] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 03:07:32] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-08-02 03:07:32] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-08-02 03:07:32] INFO root fetch - processPackages [decryptogame]: Downloading https://files.pythonhosted.org/packages/90/b1/8ce3d9d8e3f9f59c9e3b411b3b2b8bbd4d94f79a16cff4258a4d4141a1f8/decryptogame-1.0.2.tar.gz
+[2023-08-02 03:07:32] INFO root fetch - processPackages [fprime-native-images]: Downloading https://files.pythonhosted.org/packages/25/7a/611b30b80e446dab0f0c43ef3173af7d711ec9ae28315222c720b2b32faa/fprime-native-images-0.1.0.tar.gz
+[2023-08-02 03:07:32] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-08-02 03:07:32] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/34/5f/fa810f0d7a136a1fa9c96b97781a9e6b5a3ce59ba9f0f38ec2e2a89a1202/liveramp_automation-0.0.7.tar.gz
+[2023-08-02 03:07:32] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-08-02 03:07:32] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-08-02 03:07:32] INFO root fetch - processPackages [sungrow-http-config]: Downloading https://files.pythonhosted.org/packages/00/67/3dad380bbccccc84045232fb7ff97dd1cfbf955d36402be9ad6c520b9cab/sungrow_http_config-0.0.1.tar.gz
+[2023-08-02 03:07:32] INFO root fetch - processPackages [gantry]: Downloading https://files.pythonhosted.org/packages/04/92/e8194247a54c8ff4acda78faf77cd72fd5e8a24d636da7989581a789eb05/gantry-0.6.8.tar.gz
+[2023-08-02 03:07:32] INFO root fetch - processPackages [phap]: Downloading https://files.pythonhosted.org/packages/51/7d/a2ac5b485fc91fa92b3b1264891af989b227748eab6d8b153a724cdce4a6/phap-3.1.0rc2.tar.gz
+[2023-08-02 03:07:32] INFO root fetch - processPackages [csirtg-indicator]: Downloading https://files.pythonhosted.org/packages/dd/38/a6c3d328f345bb7a458476d1323f933552fe6b63bb96ab67093383de0b90/csirtg-indicator-3.0b8.tar.gz
+[2023-08-02 03:07:33] INFO root fetch - processPackages [decryptogame]: Downloading https://files.pythonhosted.org/packages/80/7d/e140e3ea35020ebd0a319f9d245e40e0906ab53e9f3678c4ef8f82476143/decryptogame-1.0.3.tar.gz
+[2023-08-02 03:07:33] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-08-02 03:07:33] INFO root fetch - processPackages [fprime-native-images]: Downloading https://files.pythonhosted.org/packages/df/ad/abf3ac97c583b87ad4d016de9552cc3df4ab04678c74ef24938b1116fc85/fprime-native-images-0.1.1.tar.gz
+[2023-08-02 03:07:33] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/5b/f7/f2f9f33eb65fd6e1d46bef087747555e65ecea0ac02a28c01e1a5a71116c/liveramp_automation-0.0.9.tar.gz
+[2023-08-02 03:07:33] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-08-02 03:07:33] INFO root fetch - processPackages [decryptogame]: executing diffoscope
+[2023-08-02 03:07:33] INFO root fetch - processPackages [decryptogame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decryptogame-1.0.2.tar.gz tmp/decryptogame-1.0.3.tar.gz --markdown 20230802/d/decryptogame/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-02 03:07:33] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-08-02 03:07:33] INFO root fetch - processPackages [sungrow-http-config]: Downloading https://files.pythonhosted.org/packages/92/1d/463127f59776642d132b395a068e5f0a3f9db33ce9062a0dd30d33dbfebf/sungrow_http_config-0.0.2.tar.gz
+[2023-08-02 03:07:33] INFO root fetch - processPackages [phap]: Downloading https://files.pythonhosted.org/packages/06/5b/66a679d6dd222a70a468680420ca96ea5fcc89f29533850359e52f5935ce/phap-3.1.0rc3.tar.gz
+[2023-08-02 03:07:33] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2023-08-02 03:07:33] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-0.0.7.tar.gz tmp/liveramp_automation-0.0.9.tar.gz --markdown 20230802/l/liveramp-automation/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 03:07:33] INFO root fetch - processPackages [gantry]: Downloading https://files.pythonhosted.org/packages/62/a6/b90b9f931c044f248880cfcfbe4091c9fe84c27d3a148fb8a469a53d8f38/gantry-0.6.9.tar.gz
+[2023-08-02 03:07:33] INFO root fetch - processPackages [fprime-native-images]: executing diffoscope
+[2023-08-02 03:07:33] INFO root fetch - processPackages [fprime-native-images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime-native-images-0.1.0.tar.gz tmp/fprime-native-images-0.1.1.tar.gz --markdown 20230802/f/fprime-native-images/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-02 03:07:33] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-08-02 03:07:33] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230802/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 03:07:33] INFO root fetch - processPackages [csirtg-indicator]: Downloading https://files.pythonhosted.org/packages/48/47/ee00973f74c62b39f9003389b16dc96912164e5c84c84cc49607e3624427/csirtg-indicator-3.0b9.tar.gz
+[2023-08-02 03:07:33] INFO root fetch - processPackages [phap]: executing diffoscope
+[2023-08-02 03:07:33] INFO root fetch - processPackages [phap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phap-3.1.0rc2.tar.gz tmp/phap-3.1.0rc3.tar.gz --markdown 20230802/p/phap/3.1.0rc2-3.1.0rc3/diff.md --exclude *.pyd
+[2023-08-02 03:07:33] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-08-02 03:07:33] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230802/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-08-02 03:07:33] INFO root fetch - processPackages [sungrow-http-config]: executing diffoscope
+[2023-08-02 03:07:33] INFO root fetch - processPackages [sungrow-http-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sungrow_http_config-0.0.1.tar.gz tmp/sungrow_http_config-0.0.2.tar.gz --markdown 20230802/s/sungrow-http-config/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 03:07:33] INFO root fetch - processPackages [gantry]: executing diffoscope
+[2023-08-02 03:07:33] INFO root fetch - processPackages [gantry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gantry-0.6.8.tar.gz tmp/gantry-0.6.9.tar.gz --markdown 20230802/g/gantry/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-08-02 03:07:33] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-08-02 03:07:33] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230802/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-08-02 03:07:33] INFO root fetch - processPackages [csirtg-indicator]: executing diffoscope
+[2023-08-02 03:07:33] INFO root fetch - processPackages [csirtg-indicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csirtg-indicator-3.0b8.tar.gz tmp/csirtg-indicator-3.0b9.tar.gz --markdown 20230802/c/csirtg-indicator/3.0b8-3.0b9/diff.md --exclude *.pyd
+[2023-08-02 03:07:34] INFO root fetch - processPackages [decryptogame]: Remove: archive file [/home/abi/fetcher/tmp/decryptogame-1.0.2.tar.gz]
+[2023-08-02 03:07:34] INFO root fetch - processPackages [decryptogame]: Remove: archive file [/home/abi/fetcher/tmp/decryptogame-1.0.3.tar.gz]
+[2023-08-02 03:07:34] INFO root fetch - main [MainThread]: End processing [decryptogame]: success
+[2023-08-02 03:07:34] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.0.7.tar.gz]
+[2023-08-02 03:07:34] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.0.9.tar.gz]
+[2023-08-02 03:07:34] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2023-08-02 03:07:35] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-08-02 03:07:35] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-08-02 03:07:35] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-08-02 03:07:35] INFO root fetch - processPackages [fprime-native-images]: Remove: archive file [/home/abi/fetcher/tmp/fprime-native-images-0.1.0.tar.gz]
+[2023-08-02 03:07:35] INFO root fetch - processPackages [fprime-native-images]: Remove: archive file [/home/abi/fetcher/tmp/fprime-native-images-0.1.1.tar.gz]
+[2023-08-02 03:07:35] INFO root fetch - main [MainThread]: End processing [fprime-native-images]: success
+[2023-08-02 03:07:35] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-08-02 03:07:35] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-08-02 03:07:35] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-08-02 03:07:35] INFO root fetch - processPackages [phap]: Remove: archive file [/home/abi/fetcher/tmp/phap-3.1.0rc2.tar.gz]
+[2023-08-02 03:07:35] INFO root fetch - processPackages [phap]: Remove: archive file [/home/abi/fetcher/tmp/phap-3.1.0rc3.tar.gz]
+[2023-08-02 03:07:35] INFO root fetch - main [MainThread]: End processing [phap]: success
+[2023-08-02 03:07:35] INFO root fetch - processPackages [sungrow-http-config]: Remove: archive file [/home/abi/fetcher/tmp/sungrow_http_config-0.0.1.tar.gz]
+[2023-08-02 03:07:35] INFO root fetch - processPackages [sungrow-http-config]: Remove: archive file [/home/abi/fetcher/tmp/sungrow_http_config-0.0.2.tar.gz]
+[2023-08-02 03:07:35] INFO root fetch - main [MainThread]: End processing [sungrow-http-config]: success
+[2023-08-02 03:07:35] INFO root fetch - processPackages [csirtg-indicator]: Remove: archive file [/home/abi/fetcher/tmp/csirtg-indicator-3.0b8.tar.gz]
+[2023-08-02 03:07:35] INFO root fetch - processPackages [csirtg-indicator]: Remove: archive file [/home/abi/fetcher/tmp/csirtg-indicator-3.0b9.tar.gz]
+[2023-08-02 03:07:35] INFO root fetch - main [MainThread]: End processing [csirtg-indicator]: success
+[2023-08-02 03:07:35] INFO root fetch - processPackages [gantry]: Remove: archive file [/home/abi/fetcher/tmp/gantry-0.6.8.tar.gz]
+[2023-08-02 03:07:35] INFO root fetch - processPackages [gantry]: Remove: archive file [/home/abi/fetcher/tmp/gantry-0.6.9.tar.gz]
+[2023-08-02 03:07:35] INFO root fetch - main [MainThread]: End processing [gantry]: success
+[2023-08-02 03:07:36] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-08-02 03:07:36] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-08-02 03:07:36] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-08-02 03:07:36] INFO root fetch - main [MainThread]: Store serial: [19133869]

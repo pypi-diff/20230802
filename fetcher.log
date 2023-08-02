@@ -22561,3 +22561,162 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-02 14:09:11] INFO root fetch - processPackages [gestionatr]: Remove: archive file [/home/abi/fetcher/tmp/gestionatr-3.1.8.tar.gz]
 [2023-08-02 14:09:11] INFO root fetch - main [MainThread]: End processing [gestionatr]: success
 [2023-08-02 14:09:11] INFO root fetch - main [MainThread]: Store serial: [19140908]
+[2023-08-02 14:14:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19140908]
+[2023-08-02 14:14:20] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-02 14:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neolibrary
+[2023-08-02 14:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rouskinhf
+[2023-08-02 14:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: esptool
+[2023-08-02 14:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moligeek
+[2023-08-02 14:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: address-ping-system
+[2023-08-02 14:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kqcircuits
+[2023-08-02 14:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gs-xcom-backend-triggerer
+[2023-08-02 14:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iris-dollar-list
+[2023-08-02 14:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyeasysql
+[2023-08-02 14:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-08-02 14:14:20] INFO root fetch - processPackages [moligeek]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-02 14:14:20] INFO root fetch - processPackages [esptool]: New version: [4.7.dev1] Old Version: [4.6.dev1]
+[2023-08-02 14:14:20] INFO root fetch - processPackages [rouskinhf]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-02 14:14:20] INFO root fetch - processPackages [neolibrary]: New version: [0.1.6b0] Old Version: [0.1.4b0]
+[2023-08-02 14:14:20] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-02 14:14:20] INFO root fetch - processPackages [address-ping-system]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-02 14:14:20] INFO root fetch - processPackages [iris-dollar-list]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-08-02 14:14:20] INFO root fetch - processPackages [kqcircuits]: New version: [4.6.9rc1] Old Version: [4.6.22]
+[2023-08-02 14:14:20] INFO root fetch - processPackages [pyeasysql]: New version: [3.2.4] Old Version: [3.2.3]
+[2023-08-02 14:14:20] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 14:14:20] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: Downloading https://files.pythonhosted.org/packages/d8/01/553a9e19b400ed9a32e6a421891726ff8f724b85d0f34c6a90269e7d1d3e/gs_xcom_backend_triggerer-0.0.4.tar.gz
+[2023-08-02 14:14:20] INFO root fetch - processPackages [neolibrary]: Downloading https://files.pythonhosted.org/packages/76/b5/a87f4f8dcccd188fabdb1e440ee45ebe26faab1918cfe4c591d9d07048ea/neolibrary-0.1.4b0.tar.gz
+[2023-08-02 14:14:20] INFO root fetch - processPackages [pyeasysql]: Downloading https://files.pythonhosted.org/packages/36/11/deebb99dd846a85dafac7bd8030e76f90d8e586b0c77ff701123dfcdc4b8/pyeasysql-3.2.3.tar.gz
+[2023-08-02 14:14:20] INFO root fetch - processPackages [moligeek]: Downloading https://files.pythonhosted.org/packages/19/89/8cc7e5396934c18bb0f150d2f82f2ab9703754ea4f52872ceb3328ecf2fc/moligeek-1.0.0.tar.gz
+[2023-08-02 14:14:20] INFO root fetch - processPackages [esptool]: Downloading https://files.pythonhosted.org/packages/5b/c6/6343b61959181c959ffd82544c41d9b7f5194d8ec8d40a6ee2440db46751/esptool-4.6.dev1.tar.gz
+[2023-08-02 14:14:20] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/eb/91/67661843d88a70ee44befd85ca26df2726f5ad5570ad98cb2cba2c7f3601/kqcircuits-4.6.22.tar.gz
+[2023-08-02 14:14:20] INFO root fetch - processPackages [rouskinhf]: Downloading https://files.pythonhosted.org/packages/06/bd/005233b302d42b227538ddab421ddab3953595002d64a11fec9bab6b381b/rouskinhf-0.2.5.tar.gz
+[2023-08-02 14:14:20] INFO root fetch - processPackages [address-ping-system]: Downloading https://files.pythonhosted.org/packages/39/f3/2753a889c78da2617e7a25adcb727c870015af90220885ddbcc6b82f69a0/address_ping_system-0.4.0.tar.gz
+[2023-08-02 14:14:21] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-08-02 14:14:21] INFO root fetch - processPackages [iris-dollar-list]: Downloading https://files.pythonhosted.org/packages/06/7d/8b83828f66c53f6f20178503e2d72f9ae5d5aad55106331a37724a38ab63/iris-dollar-list-0.9.5.tar.gz
+[2023-08-02 14:14:21] INFO root fetch - processPackages [neolibrary]: Downloading https://files.pythonhosted.org/packages/74/4f/c8bdd64f0c97a048fca478920a433253f0840be80ecd1a1dfdc56ca209b2/neolibrary-0.1.6b0.tar.gz
+[2023-08-02 14:14:21] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: Downloading https://files.pythonhosted.org/packages/a5/54/766bb1cf446bc8bfce8f437954c07c778b83241af46f66ec308a018daba2/gs_xcom_backend_triggerer-0.0.5.tar.gz
+[2023-08-02 14:14:21] INFO root fetch - processPackages [pyeasysql]: Downloading https://files.pythonhosted.org/packages/87/72/4b3f7c622f5e92b5ed57ed860f14e9f7a223c2c5bfb52cbf52eb93719b01/pyeasysql-3.2.4.tar.gz
+[2023-08-02 14:14:21] INFO root fetch - processPackages [moligeek]: Downloading https://files.pythonhosted.org/packages/f9/7d/fced9f5206a6aca573ec8b47f6ff72bff04f079a52de4452da4501eee11c/moligeek-1.0.1.tar.gz
+[2023-08-02 14:14:21] INFO root fetch - processPackages [esptool]: Downloading https://files.pythonhosted.org/packages/8e/24/eee0a8e4324c3a1368b1042d72fe8a42234f02da963ee15a0c3927748070/esptool-4.7.dev1.tar.gz
+[2023-08-02 14:14:21] INFO root fetch - processPackages [address-ping-system]: Downloading https://files.pythonhosted.org/packages/d3/f0/de5d7bc24d72f159671289368a15c36a066d5171e6a1a9718f9db3357bdc/address_ping_system-0.5.0.tar.gz
+[2023-08-02 14:14:21] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/28/fc/4a19bae7b5af757678d9dcca920c9357f97f9cee24781e5c76e70acacf4c/kqcircuits-4.6.9rc1.tar.gz
+[2023-08-02 14:14:21] INFO root fetch - processPackages [iris-dollar-list]: Downloading https://files.pythonhosted.org/packages/fe/df/66dfea224aeb71e609defe9c6ed5fb4ca8a510e88c8db1a3399bcc97737e/iris-dollar-list-0.9.6.tar.gz
+[2023-08-02 14:14:21] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-08-02 14:14:21] INFO root fetch - processPackages [neolibrary]: executing diffoscope
+[2023-08-02 14:14:21] INFO root fetch - processPackages [neolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neolibrary-0.1.4b0.tar.gz tmp/neolibrary-0.1.6b0.tar.gz --markdown 20230802/n/neolibrary/0.1.4b0-0.1.6b0/diff.md --exclude *.pyd
+[2023-08-02 14:14:21] INFO root fetch - processPackages [rouskinhf]: Downloading https://files.pythonhosted.org/packages/7c/b8/4550d52e78f26d404fd2568ecec528e0dcee179cf561773e39f56f3a53b6/rouskinhf-0.2.6.tar.gz
+[2023-08-02 14:14:21] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: executing diffoscope
+[2023-08-02 14:14:21] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_xcom_backend_triggerer-0.0.4.tar.gz tmp/gs_xcom_backend_triggerer-0.0.5.tar.gz --markdown 20230802/g/gs-xcom-backend-triggerer/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-02 14:14:21] INFO root fetch - processPackages [address-ping-system]: executing diffoscope
+[2023-08-02 14:14:21] INFO root fetch - processPackages [address-ping-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/address_ping_system-0.4.0.tar.gz tmp/address_ping_system-0.5.0.tar.gz --markdown 20230802/a/address-ping-system/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-02 14:14:21] INFO root fetch - processPackages [pyeasysql]: executing diffoscope
+[2023-08-02 14:14:21] INFO root fetch - processPackages [pyeasysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeasysql-3.2.3.tar.gz tmp/pyeasysql-3.2.4.tar.gz --markdown 20230802/p/pyeasysql/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2023-08-02 14:14:21] INFO root fetch - processPackages [esptool]: executing diffoscope
+[2023-08-02 14:14:21] INFO root fetch - processPackages [esptool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esptool-4.6.dev1.tar.gz tmp/esptool-4.7.dev1.tar.gz --markdown 20230802/e/esptool/4.6.dev1-4.7.dev1/diff.md --exclude *.pyd
+[2023-08-02 14:14:21] INFO root fetch - processPackages [iris-dollar-list]: executing diffoscope
+[2023-08-02 14:14:21] INFO root fetch - processPackages [iris-dollar-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iris-dollar-list-0.9.5.tar.gz tmp/iris-dollar-list-0.9.6.tar.gz --markdown 20230802/i/iris-dollar-list/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-08-02 14:14:21] INFO root fetch - processPackages [moligeek]: executing diffoscope
+[2023-08-02 14:14:21] INFO root fetch - processPackages [moligeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moligeek-1.0.0.tar.gz tmp/moligeek-1.0.1.tar.gz --markdown 20230802/m/moligeek/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-02 14:14:21] INFO root fetch - processPackages [kqcircuits]: executing diffoscope
+[2023-08-02 14:14:21] INFO root fetch - processPackages [kqcircuits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kqcircuits-4.6.22.tar.gz tmp/kqcircuits-4.6.9rc1.tar.gz --markdown 20230802/k/kqcircuits/4.6.22-4.6.9rc1/diff.md --exclude *.pyd
+[2023-08-02 14:14:21] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-08-02 14:14:21] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230802/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 14:14:21] INFO root fetch - processPackages [rouskinhf]: executing diffoscope
+[2023-08-02 14:14:21] INFO root fetch - processPackages [rouskinhf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rouskinhf-0.2.5.tar.gz tmp/rouskinhf-0.2.6.tar.gz --markdown 20230802/r/rouskinhf/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-02 14:14:23] INFO root fetch - processPackages [neolibrary]: Remove: archive file [/home/abi/fetcher/tmp/neolibrary-0.1.4b0.tar.gz]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [neolibrary]: Remove: archive file [/home/abi/fetcher/tmp/neolibrary-0.1.6b0.tar.gz]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [neolibrary]: Start processing: dcf-tools
+[2023-08-02 14:14:23] INFO root fetch - main [MainThread]: End processing [neolibrary]: success
+[2023-08-02 14:14:23] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: Remove: archive file [/home/abi/fetcher/tmp/gs_xcom_backend_triggerer-0.0.4.tar.gz]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: Remove: archive file [/home/abi/fetcher/tmp/gs_xcom_backend_triggerer-0.0.5.tar.gz]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: Start processing: WinUsbCDC
+[2023-08-02 14:14:23] INFO root fetch - main [MainThread]: End processing [gs-xcom-backend-triggerer]: success
+[2023-08-02 14:14:23] INFO root fetch - processPackages [dcf-tools]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [WinUsbCDC]: New version: [1.6] Old Version: [1.5]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [iris-dollar-list]: Remove: archive file [/home/abi/fetcher/tmp/iris-dollar-list-0.9.5.tar.gz]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [iris-dollar-list]: Remove: archive file [/home/abi/fetcher/tmp/iris-dollar-list-0.9.6.tar.gz]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [iris-dollar-list]: Start processing: reliability
+[2023-08-02 14:14:23] INFO root fetch - main [MainThread]: End processing [iris-dollar-list]: success
+[2023-08-02 14:14:23] INFO root fetch - processPackages [reliability]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [address-ping-system]: Remove: archive file [/home/abi/fetcher/tmp/address_ping_system-0.4.0.tar.gz]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [address-ping-system]: Remove: archive file [/home/abi/fetcher/tmp/address_ping_system-0.5.0.tar.gz]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [address-ping-system]: Start processing: useer
+[2023-08-02 14:14:23] INFO root fetch - main [MainThread]: End processing [address-ping-system]: success
+[2023-08-02 14:14:23] WARNING root fetch - processPackages [useer]: Skipping, unable to determine old version
+[2023-08-02 14:14:23] INFO root fetch - processPackages [useer]: Start processing: aiogram3-di
+[2023-08-02 14:14:23] INFO root fetch - main [MainThread]: End processing [useer] error
+[2023-08-02 14:14:23] INFO root fetch - processPackages [dcf-tools]: Downloading https://files.pythonhosted.org/packages/a3/5e/db2f1a491b93544a84ea6a75f66fc9c0ffb66b84c3d619fcb128658c82ed/dcf-tools-2.4.1.tar.gz
+[2023-08-02 14:14:23] INFO root fetch - processPackages [WinUsbCDC]: Downloading https://files.pythonhosted.org/packages/f7/c1/587e050b6c1cc0a0f230ceb842951d7050f14a6af09d60c93e37d4313771/WinUsbCDC-1.5-py3-none-any.whl
+[2023-08-02 14:14:23] INFO root fetch - processPackages [aiogram3-di]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [rouskinhf]: Remove: archive file [/home/abi/fetcher/tmp/rouskinhf-0.2.5.tar.gz]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [rouskinhf]: Remove: archive file [/home/abi/fetcher/tmp/rouskinhf-0.2.6.tar.gz]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [rouskinhf]: Start processing: python-lectio
+[2023-08-02 14:14:23] INFO root fetch - main [MainThread]: End processing [rouskinhf]: success
+[2023-08-02 14:14:23] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [pyeasysql]: Remove: archive file [/home/abi/fetcher/tmp/pyeasysql-3.2.3.tar.gz]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [pyeasysql]: Remove: archive file [/home/abi/fetcher/tmp/pyeasysql-3.2.4.tar.gz]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Start processing: reaxpro-wrappers
+[2023-08-02 14:14:23] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-08-02 14:14:23] INFO root fetch - processPackages [pyeasysql]: Start processing: zhenglin
+[2023-08-02 14:14:23] INFO root fetch - main [MainThread]: End processing [pyeasysql]: success
+[2023-08-02 14:14:23] INFO root fetch - processPackages [reliability]: Downloading https://files.pythonhosted.org/packages/d2/79/221445e50d12bfd5d185c753c71357107d3323e99e9f0f22da8f1cda1e69/reliability-0.8.8.tar.gz
+[2023-08-02 14:14:23] INFO root fetch - processPackages [python-lectio]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [moligeek]: Remove: archive file [/home/abi/fetcher/tmp/moligeek-1.0.0.tar.gz]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [moligeek]: Remove: archive file [/home/abi/fetcher/tmp/moligeek-1.0.1.tar.gz]
+[2023-08-02 14:14:23] INFO root fetch - main [MainThread]: End processing [moligeek]: success
+[2023-08-02 14:14:23] INFO root fetch - processPackages [reaxpro-wrappers]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [zhenglin]: New version: [0.18.14] Old Version: [0.16.13]
+[2023-08-02 14:14:23] INFO root fetch - processPackages [aiogram3-di]: Downloading https://files.pythonhosted.org/packages/4e/68/458c1dd4950c5805acc879341d8a80345996e593c68915357d8ebe50a5a7/aiogram3_di-1.0.4.tar.gz
+[2023-08-02 14:14:23] INFO root fetch - processPackages [python-lectio]: Downloading https://files.pythonhosted.org/packages/55/09/a6e1d9a92dcd1dcf4c9f9d8167b39e9c79d8def4f18f5394b3e31cbb82a3/python-lectio-1.9.0.tar.gz
+[2023-08-02 14:14:24] INFO root fetch - processPackages [dcf-tools]: Downloading https://files.pythonhosted.org/packages/60/c4/6110df14e8cb31a945cf5c231eb151e28ea84edb992357cb38f0244bf769/dcf-tools-2.4.2.tar.gz
+[2023-08-02 14:14:24] INFO root fetch - processPackages [WinUsbCDC]: Downloading https://files.pythonhosted.org/packages/44/4b/77c6d116395ad19457ab19398fb4b5d7bedb6a2afa85c4c5f5fb73344846/WinUsbCDC-1.6-py3-none-any.whl
+[2023-08-02 14:14:24] INFO root fetch - processPackages [zhenglin]: Downloading https://files.pythonhosted.org/packages/7b/31/05e47ca0b7e2dfb4be4fe5c91568c9cf3ee38c0e7e5308510712f00e793d/zhenglin-0.16.13.tar.gz
+[2023-08-02 14:14:24] INFO root fetch - processPackages [reaxpro-wrappers]: Downloading https://files.pythonhosted.org/packages/40/f7/e75fdfe96c6e09958c774e42705cb025b6a1a79a92cc94f0d0752351e470/reaxpro-wrappers-1.2.0.tar.gz
+[2023-08-02 14:14:24] INFO root fetch - processPackages [dcf-tools]: executing diffoscope
+[2023-08-02 14:14:24] INFO root fetch - processPackages [dcf-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcf-tools-2.4.1.tar.gz tmp/dcf-tools-2.4.2.tar.gz --markdown 20230802/d/dcf-tools/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-08-02 14:14:24] INFO root fetch - processPackages [python-lectio]: Downloading https://files.pythonhosted.org/packages/c7/18/bd771dd9622178f49b76ed0e080e101372de052fcd1bf929ebff470243fd/python-lectio-1.9.1.tar.gz
+[2023-08-02 14:14:24] INFO root fetch - processPackages [WinUsbCDC]: executing diffoscope
+[2023-08-02 14:14:24] INFO root fetch - processPackages [WinUsbCDC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WinUsbCDC-1.5-py3-none-any.whl.zip tmp/WinUsbCDC-1.6-py3-none-any.whl.zip --markdown 20230802/W/WinUsbCDC/1.5-1.6/diff.md --exclude *.pyd
+[2023-08-02 14:14:24] INFO root fetch - processPackages [aiogram3-di]: Downloading https://files.pythonhosted.org/packages/84/3a/621b9102eba5ec3837e28b3cbf1f9763032abeb74ac0336375f10889184c/aiogram3_di-1.0.5.tar.gz
+[2023-08-02 14:14:24] INFO root fetch - processPackages [python-lectio]: executing diffoscope
+[2023-08-02 14:14:24] INFO root fetch - processPackages [python-lectio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-lectio-1.9.0.tar.gz tmp/python-lectio-1.9.1.tar.gz --markdown 20230802/p/python-lectio/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-02 14:14:24] INFO root fetch - processPackages [esptool]: Remove: archive file [/home/abi/fetcher/tmp/esptool-4.6.dev1.tar.gz]
+[2023-08-02 14:14:24] INFO root fetch - processPackages [esptool]: Remove: archive file [/home/abi/fetcher/tmp/esptool-4.7.dev1.tar.gz]
+[2023-08-02 14:14:24] INFO root fetch - main [MainThread]: End processing [esptool]: success
+[2023-08-02 14:14:24] INFO root fetch - processPackages [aiogram3-di]: executing diffoscope
+[2023-08-02 14:14:24] INFO root fetch - processPackages [aiogram3-di]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram3_di-1.0.4.tar.gz tmp/aiogram3_di-1.0.5.tar.gz --markdown 20230802/a/aiogram3-di/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-02 14:14:24] INFO root fetch - processPackages [reaxpro-wrappers]: Downloading https://files.pythonhosted.org/packages/f3/66/aee1494781e614536f3c45242d6969070540e84553254b5b8235177fb115/reaxpro-wrappers-1.3.0.tar.gz
+[2023-08-02 14:14:24] INFO root fetch - processPackages [zhenglin]: Downloading https://files.pythonhosted.org/packages/00/42/9713b7bcd1b28f2299e6406beeef2a6604050b394810a3fe37beda199c87/zhenglin-0.18.14.tar.gz
+[2023-08-02 14:14:24] INFO root fetch - processPackages [reaxpro-wrappers]: executing diffoscope
+[2023-08-02 14:14:24] INFO root fetch - processPackages [reaxpro-wrappers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaxpro-wrappers-1.2.0.tar.gz tmp/reaxpro-wrappers-1.3.0.tar.gz --markdown 20230802/r/reaxpro-wrappers/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-08-02 14:14:24] INFO root fetch - processPackages [zhenglin]: executing diffoscope
+[2023-08-02 14:14:24] INFO root fetch - processPackages [zhenglin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhenglin-0.16.13.tar.gz tmp/zhenglin-0.18.14.tar.gz --markdown 20230802/z/zhenglin/0.16.13-0.18.14/diff.md --exclude *.pyd
+[2023-08-02 14:14:24] INFO root fetch - processPackages [kqcircuits]: Remove: archive file [/home/abi/fetcher/tmp/kqcircuits-4.6.22.tar.gz]
+[2023-08-02 14:14:24] INFO root fetch - processPackages [kqcircuits]: Remove: archive file [/home/abi/fetcher/tmp/kqcircuits-4.6.9rc1.tar.gz]
+[2023-08-02 14:14:24] INFO root fetch - main [MainThread]: End processing [kqcircuits]: success
+[2023-08-02 14:14:25] INFO root fetch - processPackages [WinUsbCDC]: Remove: archive file [/home/abi/fetcher/tmp/WinUsbCDC-1.5-py3-none-any.whl.zip]
+[2023-08-02 14:14:25] INFO root fetch - processPackages [WinUsbCDC]: Remove: archive file [/home/abi/fetcher/tmp/WinUsbCDC-1.6-py3-none-any.whl.zip]
+[2023-08-02 14:14:25] INFO root fetch - main [MainThread]: End processing [WinUsbCDC]: success
+[2023-08-02 14:14:25] INFO root fetch - processPackages [dcf-tools]: Remove: archive file [/home/abi/fetcher/tmp/dcf-tools-2.4.1.tar.gz]
+[2023-08-02 14:14:25] INFO root fetch - processPackages [dcf-tools]: Remove: archive file [/home/abi/fetcher/tmp/dcf-tools-2.4.2.tar.gz]
+[2023-08-02 14:14:25] INFO root fetch - main [MainThread]: End processing [dcf-tools]: success
+[2023-08-02 14:14:25] INFO root fetch - processPackages [aiogram3-di]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3_di-1.0.4.tar.gz]
+[2023-08-02 14:14:25] INFO root fetch - processPackages [aiogram3-di]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3_di-1.0.5.tar.gz]
+[2023-08-02 14:14:25] INFO root fetch - main [MainThread]: End processing [aiogram3-di]: success
+[2023-08-02 14:14:25] INFO root fetch - processPackages [python-lectio]: Remove: archive file [/home/abi/fetcher/tmp/python-lectio-1.9.0.tar.gz]
+[2023-08-02 14:14:25] INFO root fetch - processPackages [python-lectio]: Remove: archive file [/home/abi/fetcher/tmp/python-lectio-1.9.1.tar.gz]
+[2023-08-02 14:14:25] INFO root fetch - main [MainThread]: End processing [python-lectio]: success
+[2023-08-02 14:14:25] INFO root fetch - processPackages [reaxpro-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/reaxpro-wrappers-1.2.0.tar.gz]
+[2023-08-02 14:14:25] INFO root fetch - processPackages [reaxpro-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/reaxpro-wrappers-1.3.0.tar.gz]
+[2023-08-02 14:14:25] INFO root fetch - main [MainThread]: End processing [reaxpro-wrappers]: success
+[2023-08-02 14:14:26] INFO root fetch - processPackages [zhenglin]: Remove: archive file [/home/abi/fetcher/tmp/zhenglin-0.16.13.tar.gz]
+[2023-08-02 14:14:26] INFO root fetch - processPackages [zhenglin]: Remove: archive file [/home/abi/fetcher/tmp/zhenglin-0.18.14.tar.gz]
+[2023-08-02 14:14:26] INFO root fetch - main [MainThread]: End processing [zhenglin]: success
+[2023-08-02 14:14:26] INFO root fetch - processPackages [reliability]: Downloading https://files.pythonhosted.org/packages/3a/43/ffdf1e9baf80baaf58e0e91509d5096dc98aeabc6d7ed3fe4fcd167ea88b/reliability-0.8.9.tar.gz
+[2023-08-02 14:14:27] INFO root fetch - processPackages [reliability]: executing diffoscope
+[2023-08-02 14:14:27] INFO root fetch - processPackages [reliability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliability-0.8.8.tar.gz tmp/reliability-0.8.9.tar.gz --markdown 20230802/r/reliability/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-08-02 14:14:28] INFO root fetch - processPackages [reliability]: Remove: archive file [/home/abi/fetcher/tmp/reliability-0.8.8.tar.gz]
+[2023-08-02 14:14:28] INFO root fetch - processPackages [reliability]: Remove: archive file [/home/abi/fetcher/tmp/reliability-0.8.9.tar.gz]
+[2023-08-02 14:14:28] INFO root fetch - main [MainThread]: End processing [reliability]: success
+[2023-08-02 14:14:28] INFO root fetch - main [MainThread]: Store serial: [19140959]

@@ -16751,3 +16751,186 @@
 [2023-08-02 10:23:07] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.4.1.tar.gz]
 [2023-08-02 10:23:07] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2023-08-02 10:23:07] INFO root fetch - main [MainThread]: Store serial: [19138542]
+[2023-08-02 10:28:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19138542]
+[2023-08-02 10:28:18] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-08-02 10:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xj-push
+[2023-08-02 10:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: external-user-local
+[2023-08-02 10:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal-client
+[2023-08-02 10:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modal
+[2023-08-02 10:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shareddata
+[2023-08-02 10:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codebot
+[2023-08-02 10:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scoda-tk
+[2023-08-02 10:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gov-uk-dashboards
+[2023-08-02 10:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quantplay
+[2023-08-02 10:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-httpx
+[2023-08-02 10:28:18] INFO root fetch - processPackages [modal]: New version: [0.50.2877] Old Version: [0.50.2870]
+[2023-08-02 10:28:18] INFO root fetch - processPackages [modal-client]: New version: [0.50.2877] Old Version: [0.50.2870]
+[2023-08-02 10:28:18] INFO root fetch - processPackages [xj-push]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-02 10:28:18] INFO root fetch - processPackages [codebot]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-02 10:28:18] INFO root fetch - processPackages [external-user-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 10:28:18] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-08-02 10:28:18] INFO root fetch - processPackages [pytest-httpx]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-02 10:28:18] INFO root fetch - processPackages [scoda-tk]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-08-02 10:28:18] INFO root fetch - processPackages [quantplay]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-02 10:28:18] INFO root fetch - processPackages [shareddata]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-08-02 10:28:18] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/ec/0c/711a39d50f55a67ffc7a8d5c1c31727c18fee59a823ece98232f089204ca/shareddata-2.3.0.tar.gz
+[2023-08-02 10:28:18] INFO root fetch - processPackages [codebot]: Downloading https://files.pythonhosted.org/packages/90/d2/647228e1a24ff892b71ce5b6f346b2734ab3514b7ba916ea439015c84b13/codebot-0.1.0.tar.gz
+[2023-08-02 10:28:18] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b1/17/be6adc88989b01d1e0e9c3005dd6f65457072a6a233f780afe85a39718b6/modal-0.50.2870-py3-none-any.whl
+[2023-08-02 10:28:18] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/c0/54/aa5601330922b0f78d44a8664f4c1175180b994fae34970451870bb79c58/modal_client-0.50.2870-py3-none-any.whl
+[2023-08-02 10:28:18] INFO root fetch - processPackages [pytest-httpx]: Downloading https://files.pythonhosted.org/packages/bb/16/cf59ab9b9c7ba8a94f214103e97fc2a3ef726231ff02993cb00d55381786/pytest_httpx-0.8.0.tar.gz
+[2023-08-02 10:28:18] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/2e/97/fa0322b0193e25cb2e3e9d33b3798d963cc96a48e59f363df56d9cf72349/scoda-tk-0.2.8.tar.gz
+[2023-08-02 10:28:18] INFO root fetch - processPackages [external-user-local]: Downloading https://files.pythonhosted.org/packages/86/30/b540313993796f3f2d485b43bfe07512777aa124a848f52f01c45115413f/External-User-Local-0.0.8.tar.gz
+[2023-08-02 10:28:19] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-08-02 10:28:19] INFO root fetch - processPackages [xj-push]: Downloading https://files.pythonhosted.org/packages/13/f7/438c5265264fc7d0bfc32f4395f41d7feaadf20af78754760937b43fea5f/xj_push-1.0.3.tar.gz
+[2023-08-02 10:28:19] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2023-08-02 10:28:19] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/57/2d/50d892b76529a10ce66b8b53d954b8beb9da21243c6a9ef13b6449be2799/shareddata-2.3.1.tar.gz
+[2023-08-02 10:28:19] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/52/b2/8b959edeb8651b846a2620b54632fcf217fa71224105fa783ff03f05ff8a/modal-0.50.2877-py3-none-any.whl
+[2023-08-02 10:28:19] INFO root fetch - processPackages [codebot]: Downloading https://files.pythonhosted.org/packages/2e/92/a299e2e5f0404f34c72c6925ca32f8b7547fc847602e5a401fcf9a41cc8e/codebot-0.1.1.tar.gz
+[2023-08-02 10:28:19] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/c9/b9/8498d1e604b7067099795ad48b3398a8a5ba10631ee3308e3861e126d52c/modal_client-0.50.2877-py3-none-any.whl
+[2023-08-02 10:28:19] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/13/c3/b58cf6eecd73d89ab559d03ea0d4fa4c1d4d6b692bf46094cbe32653d687/scoda-tk-0.3.0.tar.gz
+[2023-08-02 10:28:19] INFO root fetch - processPackages [pytest-httpx]: Downloading https://files.pythonhosted.org/packages/67/55/9e0c7edf35ff5b19e5d51c3867dfd140ce9e1706862e34e9d78d3b4aeece/pytest_httpx-0.9.0.tar.gz
+[2023-08-02 10:28:19] INFO root fetch - processPackages [xj-push]: Downloading https://files.pythonhosted.org/packages/0d/f4/5a280a0aa0096761a845ecc26e85267621b74579814a94e9bcfc9287f29a/xj_push-1.0.4.tar.gz
+[2023-08-02 10:28:19] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-08-02 10:28:19] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.3.0.tar.gz tmp/shareddata-2.3.1.tar.gz --markdown 20230802/s/shareddata/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-08-02 10:28:19] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/ee/a5/18caaa36bc077cbd964b78406eed5d1840456172da7cdd1b6c18be824d06/quantplay-1.3.9.tar.gz
+[2023-08-02 10:28:19] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-08-02 10:28:19] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2870-py3-none-any.whl.zip tmp/modal-0.50.2877-py3-none-any.whl.zip --markdown 20230802/m/modal/0.50.2870-0.50.2877/diff.md --exclude *.pyd
+[2023-08-02 10:28:19] INFO root fetch - processPackages [external-user-local]: Downloading https://files.pythonhosted.org/packages/ce/14/fcd112d1522df4a9951f08cb9c7f39637dd2b6ea155db31d46d9df347f21/External-user-local-0.0.9.tar.gz
+[2023-08-02 10:28:19] INFO root fetch - processPackages [codebot]: executing diffoscope
+[2023-08-02 10:28:19] INFO root fetch - processPackages [codebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codebot-0.1.0.tar.gz tmp/codebot-0.1.1.tar.gz --markdown 20230802/c/codebot/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-02 10:28:19] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2023-08-02 10:28:19] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-08-02 10:28:19] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2870-py3-none-any.whl.zip tmp/modal_client-0.50.2877-py3-none-any.whl.zip --markdown 20230802/m/modal-client/0.50.2870-0.50.2877/diff.md --exclude *.pyd
+[2023-08-02 10:28:19] INFO root fetch - processPackages [xj-push]: executing diffoscope
+[2023-08-02 10:28:19] INFO root fetch - processPackages [xj-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_push-1.0.3.tar.gz tmp/xj_push-1.0.4.tar.gz --markdown 20230802/x/xj-push/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-02 10:28:19] INFO root fetch - processPackages [external-user-local]: executing diffoscope
+[2023-08-02 10:28:19] INFO root fetch - processPackages [external-user-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/External-User-Local-0.0.8.tar.gz tmp/External-user-local-0.0.9.tar.gz --markdown 20230802/e/external-user-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 10:28:19] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-08-02 10:28:19] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.2.8.tar.gz tmp/scoda-tk-0.3.0.tar.gz --markdown 20230802/s/scoda-tk/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-08-02 10:28:19] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-08-02 10:28:19] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.8.tar.gz tmp/quantplay-1.3.9.tar.gz --markdown 20230802/q/quantplay/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-02 10:28:19] INFO root fetch - processPackages [pytest-httpx]: executing diffoscope
+[2023-08-02 10:28:19] INFO root fetch - processPackages [pytest-httpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_httpx-0.8.0.tar.gz tmp/pytest_httpx-0.9.0.tar.gz --markdown 20230802/p/pytest-httpx/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-02 10:28:20] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2023-08-02 10:28:20] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20230802/g/gov-uk-dashboards/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-08-02 10:28:20] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2870-py3-none-any.whl.zip]
+[2023-08-02 10:28:20] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2877-py3-none-any.whl.zip]
+[2023-08-02 10:28:20] INFO root fetch - processPackages [modal]: Start processing: hcam-widgets
+[2023-08-02 10:28:21] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-08-02 10:28:21] INFO root fetch - processPackages [hcam-widgets]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [hcam-widgets]: Downloading https://files.pythonhosted.org/packages/78/d3/118da44d494c08fba33b316644af0bb8500dc4a5974f5e98e8633b08e89c/hcam_widgets-1.1.1.tar.gz
+[2023-08-02 10:28:21] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.3.0.tar.gz]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.3.1.tar.gz]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [shareddata]: Start processing: scPANTHEON
+[2023-08-02 10:28:21] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-08-02 10:28:21] INFO root fetch - processPackages [scPANTHEON]: New version: [0.3.9.1] Old Version: [0.3.8]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [pytest-httpx]: Remove: archive file [/home/abi/fetcher/tmp/pytest_httpx-0.8.0.tar.gz]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [pytest-httpx]: Remove: archive file [/home/abi/fetcher/tmp/pytest_httpx-0.9.0.tar.gz]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [pytest-httpx]: Start processing: pami
+[2023-08-02 10:28:21] INFO root fetch - main [MainThread]: End processing [pytest-httpx]: success
+[2023-08-02 10:28:21] INFO root fetch - processPackages [pami]: New version: [2023.8.2] Old Version: [2023.8.1]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/07/f3/928746deec46d8edd3f5500d7067a46e4e212b3bf3731b7488c8f3071fec/pami-2023.8.1.tar.gz
+[2023-08-02 10:28:21] INFO root fetch - processPackages [xj-push]: Remove: archive file [/home/abi/fetcher/tmp/xj_push-1.0.3.tar.gz]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [xj-push]: Remove: archive file [/home/abi/fetcher/tmp/xj_push-1.0.4.tar.gz]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [xj-push]: Start processing: a38
+[2023-08-02 10:28:21] INFO root fetch - main [MainThread]: End processing [xj-push]: success
+[2023-08-02 10:28:21] INFO root fetch - processPackages [scPANTHEON]: Downloading https://files.pythonhosted.org/packages/25/2e/3a63135a690d8033f3e9018510689aabdb9c783e34c537a95843cb2e0e65/scPANTHEON-0.3.8.tar.gz
+[2023-08-02 10:28:21] INFO root fetch - processPackages [external-user-local]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-0.0.8.tar.gz]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [external-user-local]: Remove: archive file [/home/abi/fetcher/tmp/External-user-local-0.0.9.tar.gz]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [external-user-local]: Start processing: oddrn-generator
+[2023-08-02 10:28:21] INFO root fetch - main [MainThread]: End processing [external-user-local]: success
+[2023-08-02 10:28:21] INFO root fetch - processPackages [hcam-widgets]: Downloading https://files.pythonhosted.org/packages/3f/97/c9d2d97dd57a77b52dc4a85439b8e58c9249db1aa415d1882c921b18cd18/hcam_widgets-1.1.2.tar.gz
+[2023-08-02 10:28:21] INFO root fetch - processPackages [a38]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [quantplay]: Start processing: FedxD
+[2023-08-02 10:28:21] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-08-02 10:28:21] INFO root fetch - processPackages [oddrn-generator]: New version: [0.1.91] Old Version: [0.1.90]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [codebot]: Remove: archive file [/home/abi/fetcher/tmp/codebot-0.1.0.tar.gz]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [codebot]: Remove: archive file [/home/abi/fetcher/tmp/codebot-0.1.1.tar.gz]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [codebot]: Start processing: power-grid-model
+[2023-08-02 10:28:21] INFO root fetch - main [MainThread]: End processing [codebot]: success
+[2023-08-02 10:28:21] INFO root fetch - processPackages [FedxD]: New version: [0.2] Old Version: [0.1]
+[2023-08-02 10:28:21] INFO root fetch - processPackages [hcam-widgets]: executing diffoscope
+[2023-08-02 10:28:21] INFO root fetch - processPackages [hcam-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcam_widgets-1.1.1.tar.gz tmp/hcam_widgets-1.1.2.tar.gz --markdown 20230802/h/hcam-widgets/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-02 10:28:21] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9237309696369] Old Version: [1.5.0rc9235810164209]
+[2023-08-02 10:28:22] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/d3/cd/497327688253b4f93a66a56d5e8bc771fda8cc06d92147e6458143532c19/power-grid-model-1.5.0rc9235810164209.tar.gz
+[2023-08-02 10:28:22] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/87/5e/53a22647a62d2db1eab21f78041f5fcf60b008f8939317d799ddb1350fd5/oddrn_generator-0.1.90.tar.gz
+[2023-08-02 10:28:22] INFO root fetch - processPackages [a38]: Downloading https://files.pythonhosted.org/packages/5f/43/53f711fab8b7bd15ca81dcd0b52743d07ce4101901c51da507b2ba60040c/a38-0.1.5.tar.gz
+[2023-08-02 10:28:22] INFO root fetch - processPackages [scPANTHEON]: Downloading https://files.pythonhosted.org/packages/10/00/e47e7b4a0e882393081180538a40a06c0e6f8724626aa8ad9bd56944e9c4/scPANTHEON-0.3.9.1.tar.gz
+[2023-08-02 10:28:22] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/18/f7/b96ef960ccc02be2d3568dd5710e325ed4369257077b81de5d8bccc5f198/pami-2023.8.2.tar.gz
+[2023-08-02 10:28:22] INFO root fetch - processPackages [FedxD]: Downloading https://files.pythonhosted.org/packages/33/34/a592ff05af801b6de94a8300724e5803fbfe4a61c7d5848aea39d5965772/FedxD-0.1.tar.gz
+[2023-08-02 10:28:22] INFO root fetch - processPackages [scPANTHEON]: executing diffoscope
+[2023-08-02 10:28:22] INFO root fetch - processPackages [scPANTHEON]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scPANTHEON-0.3.8.tar.gz tmp/scPANTHEON-0.3.9.1.tar.gz --markdown 20230802/s/scPANTHEON/0.3.8-0.3.9.1/diff.md --exclude *.pyd
+[2023-08-02 10:28:22] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2023-08-02 10:28:22] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2023-08-02 10:28:22] INFO root fetch - processPackages [gov-uk-dashboards]: Start processing: pjplan
+[2023-08-02 10:28:22] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2023-08-02 10:28:22] INFO root fetch - processPackages [pjplan]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 10:28:22] INFO root fetch - processPackages [pami]: executing diffoscope
+[2023-08-02 10:28:22] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2023.8.1.tar.gz tmp/pami-2023.8.2.tar.gz --markdown 20230802/p/pami/2023.8.1-2023.8.2/diff.md --exclude *.pyd
+[2023-08-02 10:28:22] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/ab/f4/b73bd5737edc11b92e5ded57d62a1c7756246729eda48400dd24ed5e2cef/power-grid-model-1.5.0rc9237309696369.tar.gz
+[2023-08-02 10:28:22] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/11/57/21618d3de177cb1358167c3af3643e07ae6a232451139823d9cbdd069044/oddrn_generator-0.1.91.tar.gz
+[2023-08-02 10:28:22] INFO root fetch - processPackages [pjplan]: Downloading https://files.pythonhosted.org/packages/c6/ce/7abe5a357faa2aaaa745ac074b985635726f19898ca1d7b47c747dc85b26/pjplan-0.0.8.tar.gz
+[2023-08-02 10:28:22] INFO root fetch - processPackages [FedxD]: Downloading https://files.pythonhosted.org/packages/66/e2/08fb8c7831535c13ccdc93a38c9737515866c0a2e06faa6eabb665d3591a/FedxD-0.2.tar.gz
+[2023-08-02 10:28:22] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-08-02 10:28:22] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9235810164209.tar.gz tmp/power-grid-model-1.5.0rc9237309696369.tar.gz --markdown 20230802/p/power-grid-model/1.5.0rc9235810164209-1.5.0rc9237309696369/diff.md --exclude *.pyd
+[2023-08-02 10:28:22] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2870-py3-none-any.whl.zip]
+[2023-08-02 10:28:22] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2877-py3-none-any.whl.zip]
+[2023-08-02 10:28:22] INFO root fetch - processPackages [modal-client]: Start processing: phylotreelib
+[2023-08-02 10:28:22] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-08-02 10:28:22] INFO root fetch - processPackages [oddrn-generator]: executing diffoscope
+[2023-08-02 10:28:22] INFO root fetch - processPackages [oddrn-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oddrn_generator-0.1.90.tar.gz tmp/oddrn_generator-0.1.91.tar.gz --markdown 20230802/o/oddrn-generator/0.1.90-0.1.91/diff.md --exclude *.pyd
+[2023-08-02 10:28:22] INFO root fetch - processPackages [a38]: Downloading https://files.pythonhosted.org/packages/39/ab/fadfa8eaf17575be295bb74dc1483b3c54568b4fe3b684e02e74eeff95f1/a38-0.1.6.tar.gz
+[2023-08-02 10:28:22] INFO root fetch - processPackages [phylotreelib]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-02 10:28:22] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.2.8.tar.gz]
+[2023-08-02 10:28:22] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.3.0.tar.gz]
+[2023-08-02 10:28:22] INFO root fetch - processPackages [scoda-tk]: Start processing: thinks-dash-components
+[2023-08-02 10:28:22] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-08-02 10:28:22] INFO root fetch - processPackages [FedxD]: executing diffoscope
+[2023-08-02 10:28:22] INFO root fetch - processPackages [FedxD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FedxD-0.1.tar.gz tmp/FedxD-0.2.tar.gz --markdown 20230802/F/FedxD/0.1-0.2/diff.md --exclude *.pyd
+[2023-08-02 10:28:22] INFO root fetch - processPackages [phylotreelib]: Downloading https://files.pythonhosted.org/packages/cb/fb/4129474e203eb7ff7a6c9f42fad45c6afbf7415569c6e2ec1fcba40d0357/phylotreelib-1.9.0.tar.gz
+[2023-08-02 10:28:22] INFO root fetch - processPackages [a38]: executing diffoscope
+[2023-08-02 10:28:22] INFO root fetch - processPackages [a38]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a38-0.1.5.tar.gz tmp/a38-0.1.6.tar.gz --markdown 20230802/a/a38/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-02 10:28:22] INFO root fetch - processPackages [thinks-dash-components]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-02 10:28:22] INFO root fetch - processPackages [pjplan]: Downloading https://files.pythonhosted.org/packages/e3/ee/57d459b16143f353452e3402785545985778cd8b4ed21b2933d593ed38e3/pjplan-0.0.9.tar.gz
+[2023-08-02 10:28:23] INFO root fetch - processPackages [phylotreelib]: Downloading https://files.pythonhosted.org/packages/0b/9c/4b0689963cdbd3666b5a42d32decedfd9833c728f364b00bea9f7b6a98f3/phylotreelib-1.9.1.tar.gz
+[2023-08-02 10:28:23] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/b6/a5/e31c0879cc608929cdee3347bf23c440769d3069ad27ff80c2088565278a/thinks_dash_components-0.4.2.tar.gz
+[2023-08-02 10:28:23] INFO root fetch - processPackages [pjplan]: executing diffoscope
+[2023-08-02 10:28:23] INFO root fetch - processPackages [pjplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pjplan-0.0.8.tar.gz tmp/pjplan-0.0.9.tar.gz --markdown 20230802/p/pjplan/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 10:28:23] INFO root fetch - processPackages [phylotreelib]: executing diffoscope
+[2023-08-02 10:28:23] INFO root fetch - processPackages [phylotreelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phylotreelib-1.9.0.tar.gz tmp/phylotreelib-1.9.1.tar.gz --markdown 20230802/p/phylotreelib/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-02 10:28:23] INFO root fetch - processPackages [hcam-widgets]: Remove: archive file [/home/abi/fetcher/tmp/hcam_widgets-1.1.1.tar.gz]
+[2023-08-02 10:28:23] INFO root fetch - processPackages [hcam-widgets]: Remove: archive file [/home/abi/fetcher/tmp/hcam_widgets-1.1.2.tar.gz]
+[2023-08-02 10:28:23] INFO root fetch - main [MainThread]: End processing [hcam-widgets]: success
+[2023-08-02 10:28:23] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/8e/79/5f761aa361bff80e4807aa48e017bc0d248336888cac8499579541d89316/thinks_dash_components-0.4.3.tar.gz
+[2023-08-02 10:28:23] INFO root fetch - processPackages [scPANTHEON]: Remove: archive file [/home/abi/fetcher/tmp/scPANTHEON-0.3.8.tar.gz]
+[2023-08-02 10:28:23] INFO root fetch - processPackages [scPANTHEON]: Remove: archive file [/home/abi/fetcher/tmp/scPANTHEON-0.3.9.1.tar.gz]
+[2023-08-02 10:28:23] INFO root fetch - main [MainThread]: End processing [scPANTHEON]: success
+[2023-08-02 10:28:23] INFO root fetch - processPackages [thinks-dash-components]: executing diffoscope
+[2023-08-02 10:28:23] INFO root fetch - processPackages [thinks-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinks_dash_components-0.4.2.tar.gz tmp/thinks_dash_components-0.4.3.tar.gz --markdown 20230802/t/thinks-dash-components/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-02 10:28:24] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn_generator-0.1.90.tar.gz]
+[2023-08-02 10:28:24] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn_generator-0.1.91.tar.gz]
+[2023-08-02 10:28:24] INFO root fetch - main [MainThread]: End processing [oddrn-generator]: success
+[2023-08-02 10:28:24] INFO root fetch - processPackages [FedxD]: Remove: archive file [/home/abi/fetcher/tmp/FedxD-0.1.tar.gz]
+[2023-08-02 10:28:24] INFO root fetch - processPackages [FedxD]: Remove: archive file [/home/abi/fetcher/tmp/FedxD-0.2.tar.gz]
+[2023-08-02 10:28:24] INFO root fetch - main [MainThread]: End processing [FedxD]: success
+[2023-08-02 10:28:24] INFO root fetch - processPackages [a38]: Remove: archive file [/home/abi/fetcher/tmp/a38-0.1.5.tar.gz]
+[2023-08-02 10:28:24] INFO root fetch - processPackages [a38]: Remove: archive file [/home/abi/fetcher/tmp/a38-0.1.6.tar.gz]
+[2023-08-02 10:28:24] INFO root fetch - main [MainThread]: End processing [a38]: success
+[2023-08-02 10:28:24] INFO root fetch - processPackages [phylotreelib]: Remove: archive file [/home/abi/fetcher/tmp/phylotreelib-1.9.0.tar.gz]
+[2023-08-02 10:28:24] INFO root fetch - processPackages [phylotreelib]: Remove: archive file [/home/abi/fetcher/tmp/phylotreelib-1.9.1.tar.gz]
+[2023-08-02 10:28:24] INFO root fetch - main [MainThread]: End processing [phylotreelib]: success
+[2023-08-02 10:28:25] INFO root fetch - processPackages [pjplan]: Remove: archive file [/home/abi/fetcher/tmp/pjplan-0.0.8.tar.gz]
+[2023-08-02 10:28:25] INFO root fetch - processPackages [pjplan]: Remove: archive file [/home/abi/fetcher/tmp/pjplan-0.0.9.tar.gz]
+[2023-08-02 10:28:25] INFO root fetch - main [MainThread]: End processing [pjplan]: success
+[2023-08-02 10:28:25] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.8.1.tar.gz]
+[2023-08-02 10:28:25] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.8.2.tar.gz]
+[2023-08-02 10:28:25] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2023-08-02 10:28:26] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.4.2.tar.gz]
+[2023-08-02 10:28:26] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.4.3.tar.gz]
+[2023-08-02 10:28:26] INFO root fetch - main [MainThread]: End processing [thinks-dash-components]: success
+[2023-08-02 10:28:45] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9235810164209.tar.gz]
+[2023-08-02 10:28:45] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9237309696369.tar.gz]
+[2023-08-02 10:28:45] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-08-02 10:28:45] INFO root fetch - main [MainThread]: Store serial: [19138611]

@@ -9717,3 +9717,141 @@
 [2023-08-02 03:48:39] INFO root fetch - processPackages [djgentelella]: Remove: archive file [/home/abi/fetcher/tmp/djgentelella-0.3.9.tar.gz]
 [2023-08-02 03:48:39] INFO root fetch - main [MainThread]: End processing [djgentelella]: success
 [2023-08-02 03:48:39] INFO root fetch - main [MainThread]: Store serial: [19135306]
+[2023-08-02 03:53:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19135306]
+[2023-08-02 03:53:47] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-02 03:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: json-five
+[2023-08-02 03:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drone-env
+[2023-08-02 03:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchapp
+[2023-08-02 03:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfads-o-builder
+[2023-08-02 03:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: awpr
+[2023-08-02 03:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cvat-manifest-builder
+[2023-08-02 03:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fsai-grpc-api
+[2023-08-02 03:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: recursive-validator
+[2023-08-02 03:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fsai-shared-funcs
+[2023-08-02 03:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iwx-manifest-builder
+[2023-08-02 03:53:47] INFO root fetch - processPackages [drone-env]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 03:53:47] INFO root fetch - processPackages [torchapp]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-02 03:53:47] INFO root fetch - processPackages [cvat-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 03:53:47] INFO root fetch - processPackages [tfads-o-builder]: New version: [0.0.175] Old Version: [0.0.174]
+[2023-08-02 03:53:47] INFO root fetch - processPackages [json-five]: New version: [1.0.0rc1] Old Version: [1.0.0.post1]
+[2023-08-02 03:53:47] INFO root fetch - processPackages [fsai-grpc-api]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 03:53:48] INFO root fetch - processPackages [recursive-validator]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 03:53:48] INFO root fetch - processPackages [awpr]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 03:53:48] INFO root fetch - processPackages [iwx-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 03:53:48] INFO root fetch - processPackages [fsai-shared-funcs]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 03:53:48] INFO root fetch - processPackages [tfads-o-builder]: Downloading https://files.pythonhosted.org/packages/22/7a/2a4f3a9f5b9097e5a8be85f8b353775fc6ad0ecd92cffc1698708c966e70/tfads_o_builder-0.0.174.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/44/24/6e3f27033069680d4ad07aee3e1d535e1b3444f1ce72e8df548e8a16dc8e/recursive_validator-0.0.98.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/4d/53/ceeb4be50300cbb9ab2e0de8699ddef9fb20be70ac60f72cac3097f0efc9/cvat_manifest_builder-0.0.98.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/08/a7/9a7ebe38ab432231655f1bfd81e702be8be178baa4b6a212002bdcf3cd96/fsai_grpc_api-0.0.98.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [drone-env]: Downloading https://files.pythonhosted.org/packages/c7/e7/93a98633bcb2d1ac34ae07d64cb3987e91c4405461dbc03024b12964bd31/drone_env-0.0.2.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/33/bf/02ba356059e9069f6db9f027bf1bd97a4c1de39fe82e72814ed2f73f3c39/iwx_manifest_builder-0.0.98.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/61/bc/39412ebc8deaeb66f457caebc15c02bc1fe07bc33108672e4bf143d64e3b/fsai_shared_funcs-0.0.98.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [torchapp]: Downloading https://files.pythonhosted.org/packages/33/09/d55bfcf3c6597fad5bda4394fea33fa6bf2726c74748a488e7e23283a489/torchapp-0.3.1.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/20/69/15c65a62a3a988a3178f156c6296d17502891a9da8e386979e511c8bd639/awpr-0.0.98.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [json-five]: Downloading https://files.pythonhosted.org/packages/86/85/75290d552c8cd029e2568e0088e148c469e7b32341142135a309fb77a6a8/json-five-1.0.0.post1.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/3a/cc/f8feacbe20ac476d11c94a3c866b32fb9b4dde5694a5194843b6b0dde0eb/recursive_validator-0.0.99.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [tfads-o-builder]: Downloading https://files.pythonhosted.org/packages/37/ce/5593679e89c597517c3c12d48c0a1515d261fd71d55d5a701e752e00a379/tfads_o_builder-0.0.175.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/2d/fd/8ffcf4ea6e13da75ab842cd4fdacad9222d483a9b210dbc27e9c251f6a20/cvat_manifest_builder-0.0.99.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/9b/76/8a69144e2e7db3d7b70f7a9a6458e71d63b921d67ca39c9f646ee438e103/fsai_grpc_api-0.0.99.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/d7/d6/4db840a6915c649204176fabdc1a7d70a4fdf7a1d3bd33ddd8cd11c02111/iwx_manifest_builder-0.0.99.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [recursive-validator]: executing diffoscope
+[2023-08-02 03:53:48] INFO root fetch - processPackages [recursive-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recursive_validator-0.0.98.tar.gz tmp/recursive_validator-0.0.99.tar.gz --markdown 20230802/r/recursive-validator/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 03:53:48] INFO root fetch - processPackages [drone-env]: Downloading https://files.pythonhosted.org/packages/7f/eb/53e08789a14fc07cd8fc0d1cde8670b43edd7c9f8722ff6c9fe0da0c00ed/drone_env-0.0.3.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [tfads-o-builder]: executing diffoscope
+[2023-08-02 03:53:48] INFO root fetch - processPackages [tfads-o-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfads_o_builder-0.0.174.tar.gz tmp/tfads_o_builder-0.0.175.tar.gz --markdown 20230802/t/tfads-o-builder/0.0.174-0.0.175/diff.md --exclude *.pyd
+[2023-08-02 03:53:48] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/43/6a/a5e099ae1a88431e28ea793094495025f2a78ac4d52ea49d8aad0e55cf8c/awpr-0.0.99.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/3d/ad/0128c444d5b95fa3b9882d63404069f05fbee06ab63f54a541348c51a445/fsai_shared_funcs-0.0.99.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [cvat-manifest-builder]: executing diffoscope
+[2023-08-02 03:53:48] INFO root fetch - processPackages [cvat-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_manifest_builder-0.0.98.tar.gz tmp/cvat_manifest_builder-0.0.99.tar.gz --markdown 20230802/c/cvat-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 03:53:48] INFO root fetch - processPackages [torchapp]: Downloading https://files.pythonhosted.org/packages/4c/46/9db15bef3b2a4fd413e8dfd0ada8c2d8b565bf7b5f600e435faf727d9a3a/torchapp-0.3.2.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [fsai-grpc-api]: executing diffoscope
+[2023-08-02 03:53:48] INFO root fetch - processPackages [fsai-grpc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_grpc_api-0.0.98.tar.gz tmp/fsai_grpc_api-0.0.99.tar.gz --markdown 20230802/f/fsai-grpc-api/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 03:53:48] INFO root fetch - processPackages [json-five]: Downloading https://files.pythonhosted.org/packages/3b/f7/ddcdc5e2ec36b89e5da1fb8a038e44c630a00e0f071ff5a6989701af0fce/json-five-1.0.0rc1.tar.gz
+[2023-08-02 03:53:48] INFO root fetch - processPackages [iwx-manifest-builder]: executing diffoscope
+[2023-08-02 03:53:48] INFO root fetch - processPackages [iwx-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iwx_manifest_builder-0.0.98.tar.gz tmp/iwx_manifest_builder-0.0.99.tar.gz --markdown 20230802/i/iwx-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 03:53:48] INFO root fetch - processPackages [drone-env]: executing diffoscope
+[2023-08-02 03:53:48] INFO root fetch - processPackages [drone-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drone_env-0.0.2.tar.gz tmp/drone_env-0.0.3.tar.gz --markdown 20230802/d/drone-env/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 03:53:48] INFO root fetch - processPackages [awpr]: executing diffoscope
+[2023-08-02 03:53:48] INFO root fetch - processPackages [awpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awpr-0.0.98.tar.gz tmp/awpr-0.0.99.tar.gz --markdown 20230802/a/awpr/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 03:53:49] INFO root fetch - processPackages [fsai-shared-funcs]: executing diffoscope
+[2023-08-02 03:53:49] INFO root fetch - processPackages [fsai-shared-funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_shared_funcs-0.0.98.tar.gz tmp/fsai_shared_funcs-0.0.99.tar.gz --markdown 20230802/f/fsai-shared-funcs/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 03:53:49] INFO root fetch - processPackages [torchapp]: executing diffoscope
+[2023-08-02 03:53:49] INFO root fetch - processPackages [torchapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchapp-0.3.1.tar.gz tmp/torchapp-0.3.2.tar.gz --markdown 20230802/t/torchapp/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-02 03:53:49] INFO root fetch - processPackages [json-five]: executing diffoscope
+[2023-08-02 03:53:49] INFO root fetch - processPackages [json-five]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-five-1.0.0.post1.tar.gz tmp/json-five-1.0.0rc1.tar.gz --markdown 20230802/j/json-five/1.0.0.post1-1.0.0rc1/diff.md --exclude *.pyd
+[2023-08-02 03:53:50] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.98.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.99.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [recursive-validator]: Start processing: json-file-split
+[2023-08-02 03:53:50] INFO root fetch - main [MainThread]: End processing [recursive-validator]: success
+[2023-08-02 03:53:50] INFO root fetch - processPackages [json-file-split]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/99/d8/622632db80b721cb33feb5bafb9759e9b295589e09234724044a35a985ba/json_file_split-0.0.98.tar.gz
+[2023-08-02 03:53:50] INFO root fetch - processPackages [tfads-o-builder]: Remove: archive file [/home/abi/fetcher/tmp/tfads_o_builder-0.0.174.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [tfads-o-builder]: Remove: archive file [/home/abi/fetcher/tmp/tfads_o_builder-0.0.175.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [tfads-o-builder]: Start processing: geopix
+[2023-08-02 03:53:50] INFO root fetch - main [MainThread]: End processing [tfads-o-builder]: success
+[2023-08-02 03:53:50] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.98.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.99.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [iwx-manifest-builder]: Start processing: yagooglesearch
+[2023-08-02 03:53:50] INFO root fetch - main [MainThread]: End processing [iwx-manifest-builder]: success
+[2023-08-02 03:53:50] INFO root fetch - processPackages [geopix]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [drone-env]: Remove: archive file [/home/abi/fetcher/tmp/drone_env-0.0.2.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [drone-env]: Remove: archive file [/home/abi/fetcher/tmp/drone_env-0.0.3.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [drone-env]: Start processing: prism-ds
+[2023-08-02 03:53:50] INFO root fetch - main [MainThread]: End processing [drone-env]: success
+[2023-08-02 03:53:50] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.98.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.99.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [cvat-manifest-builder]: Start processing: email-extractor-unicode
+[2023-08-02 03:53:50] INFO root fetch - main [MainThread]: End processing [cvat-manifest-builder]: success
+[2023-08-02 03:53:50] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/b6/a3/41b4f581e7463e3bce55e79579de9bf1f2c828011573c06bf7ab33a974bd/geopix-0.0.98.tar.gz
+[2023-08-02 03:53:50] INFO root fetch - processPackages [prism-ds]: New version: [0.2.1] Old Version: [0.2.0rc2]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [yagooglesearch]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.98.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.99.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - main [MainThread]: End processing [fsai-grpc-api]: success
+[2023-08-02 03:53:50] INFO root fetch - processPackages [email-extractor-unicode]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/a0/bb/0991effbd14e0114fac9146f11da815fc866dc9e12a179cdfc204af7bd99/json_file_split-0.0.99.tar.gz
+[2023-08-02 03:53:50] INFO root fetch - processPackages [torchapp]: Remove: archive file [/home/abi/fetcher/tmp/torchapp-0.3.1.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [torchapp]: Remove: archive file [/home/abi/fetcher/tmp/torchapp-0.3.2.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - main [MainThread]: End processing [torchapp]: success
+[2023-08-02 03:53:50] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.98.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.99.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - main [MainThread]: End processing [fsai-shared-funcs]: success
+[2023-08-02 03:53:50] INFO root fetch - processPackages [email-extractor-unicode]: Downloading https://files.pythonhosted.org/packages/64/b4/525ab7c65229c2fa4d0ce11abcd3c72791ad0493d7adb22f9a590c233ab8/email_extractor_unicode-1.0.8.tar.gz
+[2023-08-02 03:53:50] INFO root fetch - processPackages [json-five]: Remove: archive file [/home/abi/fetcher/tmp/json-five-1.0.0.post1.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [json-five]: Remove: archive file [/home/abi/fetcher/tmp/json-five-1.0.0rc1.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - main [MainThread]: End processing [json-five]: success
+[2023-08-02 03:53:50] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.98.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.99.tar.gz]
+[2023-08-02 03:53:50] INFO root fetch - main [MainThread]: End processing [awpr]: success
+[2023-08-02 03:53:50] INFO root fetch - processPackages [json-file-split]: executing diffoscope
+[2023-08-02 03:53:50] INFO root fetch - processPackages [json-file-split]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_file_split-0.0.98.tar.gz tmp/json_file_split-0.0.99.tar.gz --markdown 20230802/j/json-file-split/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 03:53:50] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/6a/35/1c90409a83c347836b8e4e5b2ad3d6ad6534718a8977dd9b3a646edd5e26/geopix-0.0.99.tar.gz
+[2023-08-02 03:53:50] INFO root fetch - processPackages [yagooglesearch]: Downloading https://files.pythonhosted.org/packages/8c/e5/81db4a82189dbfd6dfbdba205c48bff50a0c5e0f5a2006aff882898b205a/yagooglesearch-1.7.0.tar.gz
+[2023-08-02 03:53:50] INFO root fetch - processPackages [prism-ds]: Downloading https://files.pythonhosted.org/packages/a2/83/7164053752b334fc635f407d66154b469cfe6737499e7d30ad7e509e813e/prism-ds-0.2.0rc2.tar.gz
+[2023-08-02 03:53:51] INFO root fetch - processPackages [geopix]: executing diffoscope
+[2023-08-02 03:53:51] INFO root fetch - processPackages [geopix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopix-0.0.98.tar.gz tmp/geopix-0.0.99.tar.gz --markdown 20230802/g/geopix/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 03:53:51] INFO root fetch - processPackages [email-extractor-unicode]: Downloading https://files.pythonhosted.org/packages/c4/30/1269e572861a6224e6abaa2398beafa6e6322fe8f31174de901bd9749c77/email_extractor_unicode-1.0.9.tar.gz
+[2023-08-02 03:53:51] INFO root fetch - processPackages [yagooglesearch]: Downloading https://files.pythonhosted.org/packages/a5/8f/70aaf759aada8f68196f0696b42cee7060895cd621919cd37a606c2a02a6/yagooglesearch-1.8.0.tar.gz
+[2023-08-02 03:53:51] INFO root fetch - processPackages [prism-ds]: Downloading https://files.pythonhosted.org/packages/ba/9e/62933c2bd9da950b9ed4bdc0d8ad94af5db6a0f502bc472a42372df3d2a6/prism-ds-0.2.1.tar.gz
+[2023-08-02 03:53:51] INFO root fetch - processPackages [email-extractor-unicode]: executing diffoscope
+[2023-08-02 03:53:51] INFO root fetch - processPackages [email-extractor-unicode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email_extractor_unicode-1.0.8.tar.gz tmp/email_extractor_unicode-1.0.9.tar.gz --markdown 20230802/e/email-extractor-unicode/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-02 03:53:51] INFO root fetch - processPackages [yagooglesearch]: executing diffoscope
+[2023-08-02 03:53:51] INFO root fetch - processPackages [yagooglesearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yagooglesearch-1.7.0.tar.gz tmp/yagooglesearch-1.8.0.tar.gz --markdown 20230802/y/yagooglesearch/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-08-02 03:53:51] INFO root fetch - processPackages [prism-ds]: executing diffoscope
+[2023-08-02 03:53:51] INFO root fetch - processPackages [prism-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prism-ds-0.2.0rc2.tar.gz tmp/prism-ds-0.2.1.tar.gz --markdown 20230802/p/prism-ds/0.2.0rc2-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 03:53:51] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.98.tar.gz]
+[2023-08-02 03:53:51] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.99.tar.gz]
+[2023-08-02 03:53:51] INFO root fetch - main [MainThread]: End processing [json-file-split]: success
+[2023-08-02 03:53:51] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.98.tar.gz]
+[2023-08-02 03:53:51] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.99.tar.gz]
+[2023-08-02 03:53:51] INFO root fetch - main [MainThread]: End processing [geopix]: success
+[2023-08-02 03:53:52] INFO root fetch - processPackages [email-extractor-unicode]: Remove: archive file [/home/abi/fetcher/tmp/email_extractor_unicode-1.0.8.tar.gz]
+[2023-08-02 03:53:52] INFO root fetch - processPackages [email-extractor-unicode]: Remove: archive file [/home/abi/fetcher/tmp/email_extractor_unicode-1.0.9.tar.gz]
+[2023-08-02 03:53:52] INFO root fetch - main [MainThread]: End processing [email-extractor-unicode]: success
+[2023-08-02 03:53:52] INFO root fetch - processPackages [yagooglesearch]: Remove: archive file [/home/abi/fetcher/tmp/yagooglesearch-1.7.0.tar.gz]
+[2023-08-02 03:53:52] INFO root fetch - processPackages [yagooglesearch]: Remove: archive file [/home/abi/fetcher/tmp/yagooglesearch-1.8.0.tar.gz]
+[2023-08-02 03:53:52] INFO root fetch - main [MainThread]: End processing [yagooglesearch]: success
+[2023-08-02 03:53:53] INFO root fetch - processPackages [prism-ds]: Remove: archive file [/home/abi/fetcher/tmp/prism-ds-0.2.0rc2.tar.gz]
+[2023-08-02 03:53:53] INFO root fetch - processPackages [prism-ds]: Remove: archive file [/home/abi/fetcher/tmp/prism-ds-0.2.1.tar.gz]
+[2023-08-02 03:53:53] INFO root fetch - main [MainThread]: End processing [prism-ds]: success
+[2023-08-02 03:53:53] INFO root fetch - main [MainThread]: Store serial: [19135355]

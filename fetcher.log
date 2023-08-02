@@ -9972,3 +9972,69 @@
 [2023-08-02 04:09:34] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.1.2.tar.gz]
 [2023-08-02 04:09:34] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
 [2023-08-02 04:09:34] INFO root fetch - main [MainThread]: Store serial: [19135418]
+[2023-08-02 04:14:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19135418]
+[2023-08-02 04:14:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-02 04:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-gpdb20160503
+[2023-08-02 04:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-gpdb20160503-py2
+[2023-08-02 04:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-inventory
+[2023-08-02 04:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: email-extractor-unicode
+[2023-08-02 04:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsonly
+[2023-08-02 04:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crcf
+[2023-08-02 04:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jovialengine
+[2023-08-02 04:14:43] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-08-02 04:14:43] INFO root fetch - processPackages [jsonly]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-08-02 04:14:43] INFO root fetch - processPackages [crcf]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-08-02 04:14:43] INFO root fetch - processPackages [jovialengine]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-02 04:14:43] INFO root fetch - processPackages [email-extractor-unicode]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-08-02 04:14:43] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-08-02 04:14:43] INFO root fetch - processPackages [spaceone-inventory]: New version: [1.9.7rc1] Old Version: [1.9.7.3]
+[2023-08-02 04:14:43] INFO root fetch - processPackages [email-extractor-unicode]: Downloading https://files.pythonhosted.org/packages/ad/42/6bfdc50f2cded2f3f89153095d44bbc12ff462d0cd7794f394882245c20b/email_extractor_unicode-1.1.2.tar.gz
+[2023-08-02 04:14:43] INFO root fetch - processPackages [jovialengine]: Downloading https://files.pythonhosted.org/packages/9a/41/e086f77ff74ffe1070356ac284f21d4d10a204cceaacc845b628b5c2eb49/jovialengine-0.9.3.tar.gz
+[2023-08-02 04:14:43] INFO root fetch - processPackages [jsonly]: Downloading https://files.pythonhosted.org/packages/1b/f4/328b6fcb4d6cb76b5df567200e36c4ea5ac3382cd24204953a39a29bd163/jsonly-2.0.0.tar.gz
+[2023-08-02 04:14:43] INFO root fetch - processPackages [crcf]: Downloading https://files.pythonhosted.org/packages/da/03/08208f6ce8855c51c3c104d8679b54cc52f01fe99f1b1ee381f90a379ef3/crcf-0.0.3.tar.gz
+[2023-08-02 04:14:43] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/a9/82/c593d30951fa8a48a0777598d6512a6f1c3d737ee4831063408619868fff/spaceone_inventory-1.9.7.3-py3-none-any.whl
+[2023-08-02 04:14:43] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Downloading https://files.pythonhosted.org/packages/c1/39/ce91966aa0d7287385e5740efbd359e59c01bf841ed82a87f0953903b693/alibabacloud_gpdb20160503-2.0.1.tar.gz
+[2023-08-02 04:14:43] INFO root fetch - processPackages [jovialengine]: Downloading https://files.pythonhosted.org/packages/15/c9/8295aa239655c3784c27ebaab0b2f127011abe79262b781f410337a0d82c/jovialengine-0.9.4.tar.gz
+[2023-08-02 04:14:43] INFO root fetch - processPackages [email-extractor-unicode]: Downloading https://files.pythonhosted.org/packages/d3/11/913232b18a4e4483d92037e428243088538238843376d8d0c682f7f9ecbc/email_extractor_unicode-1.1.3.tar.gz
+[2023-08-02 04:14:43] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Downloading https://files.pythonhosted.org/packages/90/da/ce987f70ec1a647af2863232a1c28ce7265809eaa9b8ed99a16fb16ccc53/alibabacloud_gpdb20160503_py2-2.0.1.tar.gz
+[2023-08-02 04:14:44] INFO root fetch - processPackages [jovialengine]: executing diffoscope
+[2023-08-02 04:14:44] INFO root fetch - processPackages [jovialengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jovialengine-0.9.3.tar.gz tmp/jovialengine-0.9.4.tar.gz --markdown 20230802/j/jovialengine/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-02 04:14:44] INFO root fetch - processPackages [email-extractor-unicode]: executing diffoscope
+[2023-08-02 04:14:44] INFO root fetch - processPackages [email-extractor-unicode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email_extractor_unicode-1.1.2.tar.gz tmp/email_extractor_unicode-1.1.3.tar.gz --markdown 20230802/e/email-extractor-unicode/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-08-02 04:14:44] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Downloading https://files.pythonhosted.org/packages/ce/f2/c20dd250a9b107f6929b541478cfb1b64a3322faaf28046da99d292864d6/alibabacloud_gpdb20160503-2.0.2.tar.gz
+[2023-08-02 04:14:44] INFO root fetch - processPackages [jsonly]: Downloading https://files.pythonhosted.org/packages/7b/90/69919106d761794615aba91d2c30c23090fdd890d202c57c4a06909b5478/jsonly-2.0.1.tar.gz
+[2023-08-02 04:14:44] INFO root fetch - processPackages [crcf]: Downloading https://files.pythonhosted.org/packages/bc/1d/8659b35420d1c2f5e2de8414ff99c45715dcbe13f3ff191ea4fa08bf8078/crcf-1.0.0.tar.gz
+[2023-08-02 04:14:44] INFO root fetch - processPackages [jsonly]: executing diffoscope
+[2023-08-02 04:14:44] INFO root fetch - processPackages [jsonly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonly-2.0.0.tar.gz tmp/jsonly-2.0.1.tar.gz --markdown 20230802/j/jsonly/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-08-02 04:14:44] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: executing diffoscope
+[2023-08-02 04:14:44] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_gpdb20160503-2.0.1.tar.gz tmp/alibabacloud_gpdb20160503-2.0.2.tar.gz --markdown 20230802/a/alibabacloud-gpdb20160503/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-08-02 04:14:44] INFO root fetch - processPackages [crcf]: executing diffoscope
+[2023-08-02 04:14:44] INFO root fetch - processPackages [crcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crcf-0.0.3.tar.gz tmp/crcf-1.0.0.tar.gz --markdown 20230802/c/crcf/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-08-02 04:14:44] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Downloading https://files.pythonhosted.org/packages/c5/ce/c8d5c6c56e5aeb5f66dae75bbf47544ab69772f54247848b7c0aff20693b/alibabacloud_gpdb20160503_py2-2.0.2.tar.gz
+[2023-08-02 04:14:44] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/8b/3e/9b66d8ee4c516bd667673a5577cc4743104de117a9cf1693532b741e45c4/spaceone_inventory-1.9.7rc1-py3-none-any.whl
+[2023-08-02 04:14:44] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: executing diffoscope
+[2023-08-02 04:14:44] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_gpdb20160503_py2-2.0.1.tar.gz tmp/alibabacloud_gpdb20160503_py2-2.0.2.tar.gz --markdown 20230802/a/alibabacloud-gpdb20160503-py2/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-08-02 04:14:44] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2023-08-02 04:14:44] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip --markdown 20230802/s/spaceone-inventory/1.9.7.3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-08-02 04:14:45] INFO root fetch - processPackages [jovialengine]: Remove: archive file [/home/abi/fetcher/tmp/jovialengine-0.9.3.tar.gz]
+[2023-08-02 04:14:45] INFO root fetch - processPackages [jovialengine]: Remove: archive file [/home/abi/fetcher/tmp/jovialengine-0.9.4.tar.gz]
+[2023-08-02 04:14:45] INFO root fetch - main [MainThread]: End processing [jovialengine]: success
+[2023-08-02 04:14:45] INFO root fetch - processPackages [email-extractor-unicode]: Remove: archive file [/home/abi/fetcher/tmp/email_extractor_unicode-1.1.2.tar.gz]
+[2023-08-02 04:14:45] INFO root fetch - processPackages [email-extractor-unicode]: Remove: archive file [/home/abi/fetcher/tmp/email_extractor_unicode-1.1.3.tar.gz]
+[2023-08-02 04:14:45] INFO root fetch - main [MainThread]: End processing [email-extractor-unicode]: success
+[2023-08-02 04:14:45] INFO root fetch - processPackages [crcf]: Remove: archive file [/home/abi/fetcher/tmp/crcf-0.0.3.tar.gz]
+[2023-08-02 04:14:45] INFO root fetch - processPackages [crcf]: Remove: archive file [/home/abi/fetcher/tmp/crcf-1.0.0.tar.gz]
+[2023-08-02 04:14:45] INFO root fetch - main [MainThread]: End processing [crcf]: success
+[2023-08-02 04:14:45] INFO root fetch - processPackages [jsonly]: Remove: archive file [/home/abi/fetcher/tmp/jsonly-2.0.0.tar.gz]
+[2023-08-02 04:14:45] INFO root fetch - processPackages [jsonly]: Remove: archive file [/home/abi/fetcher/tmp/jsonly-2.0.1.tar.gz]
+[2023-08-02 04:14:45] INFO root fetch - main [MainThread]: End processing [jsonly]: success
+[2023-08-02 04:14:45] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503_py2-2.0.1.tar.gz]
+[2023-08-02 04:14:45] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503_py2-2.0.2.tar.gz]
+[2023-08-02 04:14:45] INFO root fetch - main [MainThread]: End processing [alibabacloud-gpdb20160503-py2]: success
+[2023-08-02 04:14:45] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503-2.0.1.tar.gz]
+[2023-08-02 04:14:45] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503-2.0.2.tar.gz]
+[2023-08-02 04:14:45] INFO root fetch - main [MainThread]: End processing [alibabacloud-gpdb20160503]: success
+[2023-08-02 04:14:46] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip]
+[2023-08-02 04:14:46] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip]
+[2023-08-02 04:14:46] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2023-08-02 04:14:46] INFO root fetch - main [MainThread]: Store serial: [19135444]

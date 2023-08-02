@@ -10690,3 +10690,45 @@
 [2023-08-02 04:52:54] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.17.tar.gz]
 [2023-08-02 04:52:54] INFO root fetch - main [MainThread]: End processing [harpia]: success
 [2023-08-02 04:52:54] INFO root fetch - main [MainThread]: Store serial: [19135735]
+[2023-08-02 04:57:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19135735]
+[2023-08-02 04:58:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-02 04:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TheSilent
+[2023-08-02 04:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apimeter
+[2023-08-02 04:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JSONSki
+[2023-08-02 04:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bitchain
+[2023-08-02 04:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: red_utils
+[2023-08-02 04:58:02] INFO root fetch - processPackages [red_utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 04:58:02] INFO root fetch - processPackages [apimeter]: New version: [2.5.9] Old Version: [2.5.7]
+[2023-08-02 04:58:02] INFO root fetch - processPackages [JSONSki]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 04:58:02] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 04:58:03] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/db/50/0f8365e42c9e379605196075f02241e65e4f5e0d80a46726a47ac5393d09/red_utils-0.1.8.tar.gz
+[2023-08-02 04:58:03] WARNING root fetch - processPackages [bitchain]: Skipping, unable to determine old version
+[2023-08-02 04:58:03] INFO root fetch - main [MainThread]: End processing [bitchain] error
+[2023-08-02 04:58:03] INFO root fetch - processPackages [JSONSki]: Downloading https://files.pythonhosted.org/packages/be/df/3258de20af6aa9e4d32d7e8e5f66f6484604eca9dd82f4065a97313b81e1/JSONSki-0.1.8.tar.gz
+[2023-08-02 04:58:03] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-02 04:58:03] INFO root fetch - processPackages [apimeter]: Downloading https://files.pythonhosted.org/packages/f2/72/3ce2726d24783306c0d876e97451a6d5a36042c14fc5979584856320c4a4/apimeter-2.5.7.tar.gz
+[2023-08-02 04:58:03] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/c6/5d/b20e4b7e154b6d71d7ecbed9bd94084f1d167f7d6145f93016593b44bab1/red_utils-0.1.9.tar.gz
+[2023-08-02 04:58:03] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-02 04:58:03] INFO root fetch - processPackages [JSONSki]: Downloading https://files.pythonhosted.org/packages/18/10/c28f46260c2e0e042ba3442444dc80baecdc051e1dcb00889575c6157ca4/JSONSki-0.1.9.tar.gz
+[2023-08-02 04:58:03] INFO root fetch - processPackages [red_utils]: executing diffoscope
+[2023-08-02 04:58:03] INFO root fetch - processPackages [red_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_utils-0.1.8.tar.gz tmp/red_utils-0.1.9.tar.gz --markdown 20230802/r/red_utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 04:58:03] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-02 04:58:03] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230802/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 04:58:03] INFO root fetch - processPackages [JSONSki]: executing diffoscope
+[2023-08-02 04:58:03] INFO root fetch - processPackages [JSONSki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JSONSki-0.1.8.tar.gz tmp/JSONSki-0.1.9.tar.gz --markdown 20230802/J/JSONSki/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 04:58:03] INFO root fetch - processPackages [apimeter]: Downloading https://files.pythonhosted.org/packages/7e/b9/d3d2d6ec2f538886b7ec2e6988f7d53c26892e167b28250a0154e2cd195b/apimeter-2.5.9.tar.gz
+[2023-08-02 04:58:03] INFO root fetch - processPackages [apimeter]: executing diffoscope
+[2023-08-02 04:58:03] INFO root fetch - processPackages [apimeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimeter-2.5.7.tar.gz tmp/apimeter-2.5.9.tar.gz --markdown 20230802/a/apimeter/2.5.7-2.5.9/diff.md --exclude *.pyd
+[2023-08-02 04:58:04] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-02 04:58:04] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-02 04:58:04] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-02 04:58:04] INFO root fetch - processPackages [JSONSki]: Remove: archive file [/home/abi/fetcher/tmp/JSONSki-0.1.8.tar.gz]
+[2023-08-02 04:58:04] INFO root fetch - processPackages [JSONSki]: Remove: archive file [/home/abi/fetcher/tmp/JSONSki-0.1.9.tar.gz]
+[2023-08-02 04:58:04] INFO root fetch - main [MainThread]: End processing [JSONSki]: success
+[2023-08-02 04:58:04] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.1.8.tar.gz]
+[2023-08-02 04:58:04] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.1.9.tar.gz]
+[2023-08-02 04:58:04] INFO root fetch - main [MainThread]: End processing [red_utils]: success
+[2023-08-02 04:58:04] INFO root fetch - processPackages [apimeter]: Remove: archive file [/home/abi/fetcher/tmp/apimeter-2.5.7.tar.gz]
+[2023-08-02 04:58:04] INFO root fetch - processPackages [apimeter]: Remove: archive file [/home/abi/fetcher/tmp/apimeter-2.5.9.tar.gz]
+[2023-08-02 04:58:04] INFO root fetch - main [MainThread]: End processing [apimeter]: success
+[2023-08-02 04:58:04] INFO root fetch - main [MainThread]: Store serial: [19135753]

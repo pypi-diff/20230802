@@ -11092,3 +11092,88 @@
 [2023-08-02 05:13:59] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230802.tar.gz]
 [2023-08-02 05:13:59] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
 [2023-08-02 05:13:59] INFO root fetch - main [MainThread]: Store serial: [19135886]
+[2023-08-02 05:19:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19135886]
+[2023-08-02 05:19:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-02 05:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: litellm
+[2023-08-02 05:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upbge-stubs
+[2023-08-02 05:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvxsimulator
+[2023-08-02 05:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lixinger
+[2023-08-02 05:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai-chat-chain
+[2023-08-02 05:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: litellm
+[2023-08-02 05:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ogsapi
+[2023-08-02 05:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: UniDockTools
+[2023-08-02 05:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdktf-cdktf-provider-spotinst
+[2023-08-02 05:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-08-02 05:19:08] INFO root fetch - processPackages [litellm]: New version: [0.1.213] Old Version: [0.1.212]
+[2023-08-02 05:19:08] INFO root fetch - processPackages [upbge-stubs]: New version: [0.3.1.27.dev5733820946] Old Version: [0.3.1.27.dev5719807072]
+[2023-08-02 05:19:08] INFO root fetch - processPackages [ai-chat-chain]: New version: [0.2.1] Old Version: [0.1.3]
+[2023-08-02 05:19:08] INFO root fetch - processPackages [ogsapi]: New version: [0.8.0] Old Version: [0.7.3]
+[2023-08-02 05:19:08] INFO root fetch - processPackages [lixinger]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 05:19:08] INFO root fetch - processPackages [litellm]: New version: [0.1.213] Old Version: [0.1.212]
+[2023-08-02 05:19:08] INFO root fetch - processPackages [cvxsimulator]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-08-02 05:19:08] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-02 05:19:08] WARNING root fetch - processPackages [UniDockTools]: Skipping, unable to determine old version
+[2023-08-02 05:19:08] INFO root fetch - main [MainThread]: End processing [UniDockTools] error
+[2023-08-02 05:19:08] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [9.0.8] Old Version: [9.0.7]
+[2023-08-02 05:19:08] INFO root fetch - processPackages [lixinger]: Downloading https://files.pythonhosted.org/packages/c9/a9/b2ce17145a4e8a15ef7024f7c233d315cfba31e3ad54175d3907d050c710/lixinger-0.1.8.tar.gz
+[2023-08-02 05:19:08] INFO root fetch - processPackages [upbge-stubs]: Downloading https://files.pythonhosted.org/packages/c1/f3/9e5619849123fe5162504847029e0ffb6207da61fad195d40e3d9f4729fe/upbge-stubs-0.3.1.27.dev5719807072.tar.gz
+[2023-08-02 05:19:08] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-08-02 05:19:08] INFO root fetch - processPackages [ai-chat-chain]: Downloading https://files.pythonhosted.org/packages/dd/a6/1768d7bd3da62dacdcd0435293248e5b4cdd45ba5d3e4d2bde6381fc1728/ai_chat_chain-0.1.3.tar.gz
+[2023-08-02 05:19:08] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/35/ba/a7f221b5ef98b0356fa64aabfa250733ad5bc4473c08acf5172d54d7fdd7/litellm-0.1.212.tar.gz
+[2023-08-02 05:19:08] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/35/ba/a7f221b5ef98b0356fa64aabfa250733ad5bc4473c08acf5172d54d7fdd7/litellm-0.1.212.tar.gz
+[2023-08-02 05:19:08] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/a5/71/38384671c6c65b84849c3a316cb62bad6b6b5d545763e30e10ddc37c8b4c/cvxsimulator-0.7.2.tar.gz
+[2023-08-02 05:19:09] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/6a/bc/3e227a21efb2758d2db5a4bb741baf13ea02c85af397ae7ddface7816673/cdktf-cdktf-provider-spotinst-9.0.7.tar.gz
+[2023-08-02 05:19:09] INFO root fetch - processPackages [ogsapi]: Downloading https://files.pythonhosted.org/packages/37/00/4da3a29ebb74fa44eb1a3cb4ccbfe881837464d7f78d9428fc5d8e568554/ogsapi-0.7.3.tar.gz
+[2023-08-02 05:19:09] INFO root fetch - processPackages [lixinger]: Downloading https://files.pythonhosted.org/packages/1e/35/f944798fea6e0b10d26cd12f5f07e0255c34eb90610bf7c309a2d6035fba/lixinger-0.1.9.tar.gz
+[2023-08-02 05:19:09] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-08-02 05:19:09] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/f6/b4/eff96cd93b92300cd0f42fde0a08693cd50375e785076c19e3f4ac832b81/litellm-0.1.213.tar.gz
+[2023-08-02 05:19:09] INFO root fetch - processPackages [lixinger]: executing diffoscope
+[2023-08-02 05:19:09] INFO root fetch - processPackages [lixinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lixinger-0.1.8.tar.gz tmp/lixinger-0.1.9.tar.gz --markdown 20230802/l/lixinger/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 05:19:09] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/f6/b4/eff96cd93b92300cd0f42fde0a08693cd50375e785076c19e3f4ac832b81/litellm-0.1.213.tar.gz
+[2023-08-02 05:19:09] INFO root fetch - processPackages [ai-chat-chain]: Downloading https://files.pythonhosted.org/packages/65/2a/9bf15abfbce1741f8e546f3e82fd709ee5b1eac4be6eb85f3d0d8daecfe8/ai_chat_chain-0.2.1.tar.gz
+[2023-08-02 05:19:09] INFO root fetch - processPackages [upbge-stubs]: Downloading https://files.pythonhosted.org/packages/9e/dc/a60bd96db800a00a4afcb0a303c03679b6c8ddbafc47b3369c7e1feb5bf2/upbge-stubs-0.3.1.27.dev5733820946.tar.gz
+[2023-08-02 05:19:09] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-08-02 05:19:09] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230802/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-02 05:19:09] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/20/92/41c6add820625767d2619083de2553cd963f40597cb60b48828b1442a12a/cvxsimulator-0.7.3.tar.gz
+[2023-08-02 05:19:09] INFO root fetch - processPackages [ai-chat-chain]: executing diffoscope
+[2023-08-02 05:19:09] INFO root fetch - processPackages [ai-chat-chain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_chat_chain-0.1.3.tar.gz tmp/ai_chat_chain-0.2.1.tar.gz --markdown 20230802/a/ai-chat-chain/0.1.3-0.2.1/diff.md --exclude *.pyd
+[2023-08-02 05:19:09] INFO root fetch - processPackages [ogsapi]: Downloading https://files.pythonhosted.org/packages/85/e7/e106e14286945a598b43a3ed6adc0d6541b78231ad1325b1569160e61122/ogsapi-0.8.0.tar.gz
+[2023-08-02 05:19:09] INFO root fetch - processPackages [upbge-stubs]: executing diffoscope
+[2023-08-02 05:19:09] INFO root fetch - processPackages [upbge-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upbge-stubs-0.3.1.27.dev5719807072.tar.gz tmp/upbge-stubs-0.3.1.27.dev5733820946.tar.gz --markdown 20230802/u/upbge-stubs/0.3.1.27.dev5719807072-0.3.1.27.dev5733820946/diff.md --exclude *.pyd
+[2023-08-02 05:19:09] INFO root fetch - processPackages [cvxsimulator]: executing diffoscope
+[2023-08-02 05:19:09] INFO root fetch - processPackages [cvxsimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxsimulator-0.7.2.tar.gz tmp/cvxsimulator-0.7.3.tar.gz --markdown 20230802/c/cvxsimulator/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-08-02 05:19:09] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-02 05:19:09] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.212.tar.gz tmp/litellm-0.1.213.tar.gz --markdown 20230802/l/litellm/0.1.212-0.1.213/diff.md --exclude *.pyd
+[2023-08-02 05:19:09] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-02 05:19:09] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.212.tar.gz tmp/litellm-0.1.213.tar.gz --markdown 20230802/l/litellm/0.1.212-0.1.213/diff.md --exclude *.pyd
+[2023-08-02 05:19:09] INFO root fetch - processPackages [ogsapi]: executing diffoscope
+[2023-08-02 05:19:09] INFO root fetch - processPackages [ogsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogsapi-0.7.3.tar.gz tmp/ogsapi-0.8.0.tar.gz --markdown 20230802/o/ogsapi/0.7.3-0.8.0/diff.md --exclude *.pyd
+[2023-08-02 05:19:09] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/23/3a/ff7bddacc6d9aefca0eeeab5018195400ffe56e21e80a61d96540ae2d5ef/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz
+[2023-08-02 05:19:10] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2023-08-02 05:19:10] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-9.0.7.tar.gz tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz --markdown 20230802/c/cdktf-cdktf-provider-spotinst/9.0.7-9.0.8/diff.md --exclude *.pyd
+[2023-08-02 05:19:10] INFO root fetch - processPackages [lixinger]: Remove: archive file [/home/abi/fetcher/tmp/lixinger-0.1.8.tar.gz]
+[2023-08-02 05:19:10] INFO root fetch - processPackages [lixinger]: Remove: archive file [/home/abi/fetcher/tmp/lixinger-0.1.9.tar.gz]
+[2023-08-02 05:19:10] INFO root fetch - main [MainThread]: End processing [lixinger]: success
+[2023-08-02 05:19:10] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-08-02 05:19:10] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-08-02 05:19:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-08-02 05:19:10] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.212.tar.gz]
+[2023-08-02 05:19:10] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.213.tar.gz]
+[2023-08-02 05:19:10] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-02 05:19:10] INFO root fetch - processPackages [cvxsimulator]: Remove: archive file [/home/abi/fetcher/tmp/cvxsimulator-0.7.2.tar.gz]
+[2023-08-02 05:19:10] INFO root fetch - processPackages [cvxsimulator]: Remove: archive file [/home/abi/fetcher/tmp/cvxsimulator-0.7.3.tar.gz]
+[2023-08-02 05:19:10] INFO root fetch - main [MainThread]: End processing [cvxsimulator]: success
+[2023-08-02 05:19:10] INFO root fetch - processPackages [ai-chat-chain]: Remove: archive file [/home/abi/fetcher/tmp/ai_chat_chain-0.1.3.tar.gz]
+[2023-08-02 05:19:10] INFO root fetch - processPackages [ai-chat-chain]: Remove: archive file [/home/abi/fetcher/tmp/ai_chat_chain-0.2.1.tar.gz]
+[2023-08-02 05:19:10] INFO root fetch - main [MainThread]: End processing [ai-chat-chain]: success
+[2023-08-02 05:19:11] INFO root fetch - processPackages [ogsapi]: Remove: archive file [/home/abi/fetcher/tmp/ogsapi-0.7.3.tar.gz]
+[2023-08-02 05:19:11] INFO root fetch - processPackages [ogsapi]: Remove: archive file [/home/abi/fetcher/tmp/ogsapi-0.8.0.tar.gz]
+[2023-08-02 05:19:11] INFO root fetch - main [MainThread]: End processing [ogsapi]: success
+[2023-08-02 05:19:11] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-02 05:19:12] INFO root fetch - processPackages [upbge-stubs]: Remove: archive file [/home/abi/fetcher/tmp/upbge-stubs-0.3.1.27.dev5719807072.tar.gz]
+[2023-08-02 05:19:12] INFO root fetch - processPackages [upbge-stubs]: Remove: archive file [/home/abi/fetcher/tmp/upbge-stubs-0.3.1.27.dev5733820946.tar.gz]
+[2023-08-02 05:19:12] INFO root fetch - main [MainThread]: End processing [upbge-stubs]: success
+[2023-08-02 05:19:13] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.7.tar.gz]
+[2023-08-02 05:19:13] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz]
+[2023-08-02 05:19:13] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2023-08-02 05:19:13] INFO root fetch - main [MainThread]: Store serial: [19135915]

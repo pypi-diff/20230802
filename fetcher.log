@@ -10960,3 +10960,135 @@
 [2023-08-02 05:08:44] INFO root fetch - processPackages [AeroSandbox]: Remove: archive file [/home/abi/fetcher/tmp/AeroSandbox-4.1.0.tar.gz]
 [2023-08-02 05:08:44] INFO root fetch - main [MainThread]: End processing [AeroSandbox]: success
 [2023-08-02 05:08:44] INFO root fetch - main [MainThread]: Store serial: [19135845]
+[2023-08-02 05:13:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19135845]
+[2023-08-02 05:13:54] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-02 05:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-cooperator
+[2023-08-02 05:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arcpyext
+[2023-08-02 05:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyprshade
+[2023-08-02 05:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: safe2pay
+[2023-08-02 05:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py3seed
+[2023-08-02 05:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: formulite
+[2023-08-02 05:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lixinger
+[2023-08-02 05:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Metadata-Magic
+[2023-08-02 05:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: juliang
+[2023-08-02 05:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-crm-project-task
+[2023-08-02 05:13:54] INFO root fetch - processPackages [odoo12-addon-cooperator]: New version: [12.0.6.4.3.99.dev2] Old Version: [12.0.6.4.3.99.dev1]
+[2023-08-02 05:13:54] INFO root fetch - processPackages [arcpyext]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-08-02 05:13:54] INFO root fetch - processPackages [odoo-addon-crm-project-task]: New version: [15.0.1.1.0.2] Old Version: [15.0.1.1.0]
+[2023-08-02 05:13:54] INFO root fetch - processPackages [safe2pay]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 05:13:54] INFO root fetch - processPackages [juliang]: New version: [1.0.1] Old Version: [0.1.9.1]
+[2023-08-02 05:13:54] INFO root fetch - processPackages [formulite]: New version: [0.0.2] Old Version: [0.0.1.dev0]
+[2023-08-02 05:13:54] INFO root fetch - processPackages [Metadata-Magic]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-08-02 05:13:54] INFO root fetch - processPackages [hyprshade]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-08-02 05:13:54] INFO root fetch - processPackages [lixinger]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-02 05:13:54] INFO root fetch - processPackages [py3seed]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-02 05:13:54] INFO root fetch - processPackages [formulite]: Downloading https://files.pythonhosted.org/packages/4b/6d/a59ff4d114da1a3edbe75a23f9dc1804022fa25e1bf62d13acba0577f91f/formulite-0.0.1.dev0.tar.gz
+[2023-08-02 05:13:54] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/8a/e2/1466b621d73d96bb4a48d75b47acfe81498f0dcb49ff0dbc8f32f432d686/py3seed-0.3.0.tar.gz
+[2023-08-02 05:13:54] INFO root fetch - processPackages [arcpyext]: Downloading https://files.pythonhosted.org/packages/af/eb/0d5f144561d2a0dab2cb717956e2051169c299d412df7da0d8730577b7b3/arcpyext-0.7.8-py2.py3-none-any.whl
+[2023-08-02 05:13:54] INFO root fetch - processPackages [safe2pay]: Downloading https://files.pythonhosted.org/packages/fc/32/605bf9b65327d88834eaae5fee334dca60e89937c4e125fc9995b7dc8894/safe2pay-0.0.1.tar.gz
+[2023-08-02 05:13:54] INFO root fetch - processPackages [odoo-addon-crm-project-task]: Downloading https://files.pythonhosted.org/packages/4e/c6/f3b86152be2dbfcc20905a38ed40b4f316e94ef4d63b3552eb73812bca3e/odoo_addon_crm_project_task-15.0.1.1.0-py3-none-any.whl
+[2023-08-02 05:13:54] INFO root fetch - processPackages [odoo12-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/3f/8f/504ab34a35217245c537fa59f06709018b1dcbcf1a219c18ec106a072590/odoo12_addon_cooperator-12.0.6.4.3.99.dev1-py3-none-any.whl
+[2023-08-02 05:13:54] INFO root fetch - processPackages [juliang]: Downloading https://files.pythonhosted.org/packages/f0/cc/c4743e56114f0505534fb10b32545e21f2d214866ac634e7c1d8f5ace691/juliang-0.1.9.1.tar.gz
+[2023-08-02 05:13:54] INFO root fetch - processPackages [Metadata-Magic]: Downloading https://files.pythonhosted.org/packages/1f/df/eaf6b44485b4591796a427d26bd6f284aeff3199e574a489b3237aee3946/Metadata_Magic-0.6.2-py3-none-any.whl
+[2023-08-02 05:13:54] INFO root fetch - processPackages [lixinger]: Downloading https://files.pythonhosted.org/packages/c9/a9/b2ce17145a4e8a15ef7024f7c233d315cfba31e3ad54175d3907d050c710/lixinger-0.1.8.tar.gz
+[2023-08-02 05:13:54] INFO root fetch - processPackages [hyprshade]: Downloading https://files.pythonhosted.org/packages/ed/32/d3e7cf05abea29e3d04c1ad4b3b59297726fd20cc20e6b5d66d251a0f05e/hyprshade-0.7.0.tar.gz
+[2023-08-02 05:13:55] INFO root fetch - processPackages [formulite]: Downloading https://files.pythonhosted.org/packages/e7/0e/6b2cfa26d19a51acf20b36221ea1a8287e8f17f896698a20aed9c5d686af/formulite-0.0.2.tar.gz
+[2023-08-02 05:13:55] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/7a/c2/915d2ec0cc26fd10d72ba748d8900fb5578386fa56ab8b9b58c06bd4a8de/py3seed-0.3.1.tar.gz
+[2023-08-02 05:13:55] INFO root fetch - processPackages [formulite]: executing diffoscope
+[2023-08-02 05:13:55] INFO root fetch - processPackages [formulite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formulite-0.0.1.dev0.tar.gz tmp/formulite-0.0.2.tar.gz --markdown 20230802/f/formulite/0.0.1.dev0-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 05:13:55] INFO root fetch - processPackages [safe2pay]: Downloading https://files.pythonhosted.org/packages/bd/b4/748800c3f0468da3421e8bdff23dc60a2acd06e61eb5d05645e67b600947/safe2pay-0.0.2.tar.gz
+[2023-08-02 05:13:55] INFO root fetch - processPackages [arcpyext]: Downloading https://files.pythonhosted.org/packages/8e/70/c8a3549a9ad665f3831b83fb3320d345e16d3687c177c70a07ba1afce80d/arcpyext-0.7.9-py2.py3-none-any.whl
+[2023-08-02 05:13:55] INFO root fetch - processPackages [juliang]: Downloading https://files.pythonhosted.org/packages/79/d2/59cca9b542a0d4fd9111c2d2af68a7e6bea00c4345444041565d79257140/juliang-1.0.1.tar.gz
+[2023-08-02 05:13:55] INFO root fetch - processPackages [Metadata-Magic]: Downloading https://files.pythonhosted.org/packages/83/1d/c77446f66c54337df3ce978ac0518ec89135d08084460892953e66e198a6/Metadata_Magic-0.7.0-py3-none-any.whl
+[2023-08-02 05:13:55] INFO root fetch - processPackages [hyprshade]: Downloading https://files.pythonhosted.org/packages/18/e3/238ac8fc96b3204a49eed98309e06ec34005031d000423e17e909189a06b/hyprshade-0.8.0.tar.gz
+[2023-08-02 05:13:55] INFO root fetch - processPackages [odoo-addon-crm-project-task]: Downloading https://files.pythonhosted.org/packages/7c/6a/352a508d2fb5118bb316be098b77dc44f689c42796ba2db3e7b3dce7c797/odoo_addon_crm_project_task-15.0.1.1.0.2-py3-none-any.whl
+[2023-08-02 05:13:55] INFO root fetch - processPackages [odoo12-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/02/a4/8b2bfb4fc81034a98b97b14689befc4650d431ae40ad6601ca48307af072/odoo12_addon_cooperator-12.0.6.4.3.99.dev2-py3-none-any.whl
+[2023-08-02 05:13:55] INFO root fetch - processPackages [lixinger]: Downloading https://files.pythonhosted.org/packages/1e/35/f944798fea6e0b10d26cd12f5f07e0255c34eb90610bf7c309a2d6035fba/lixinger-0.1.9.tar.gz
+[2023-08-02 05:13:55] INFO root fetch - processPackages [safe2pay]: executing diffoscope
+[2023-08-02 05:13:55] INFO root fetch - processPackages [safe2pay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe2pay-0.0.1.tar.gz tmp/safe2pay-0.0.2.tar.gz --markdown 20230802/s/safe2pay/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 05:13:55] INFO root fetch - processPackages [juliang]: executing diffoscope
+[2023-08-02 05:13:55] INFO root fetch - processPackages [juliang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juliang-0.1.9.1.tar.gz tmp/juliang-1.0.1.tar.gz --markdown 20230802/j/juliang/0.1.9.1-1.0.1/diff.md --exclude *.pyd
+[2023-08-02 05:13:55] INFO root fetch - processPackages [hyprshade]: executing diffoscope
+[2023-08-02 05:13:55] INFO root fetch - processPackages [hyprshade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyprshade-0.7.0.tar.gz tmp/hyprshade-0.8.0.tar.gz --markdown 20230802/h/hyprshade/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-08-02 05:13:55] INFO root fetch - processPackages [odoo-addon-crm-project-task]: executing diffoscope
+[2023-08-02 05:13:55] INFO root fetch - processPackages [odoo-addon-crm-project-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_project_task-15.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_crm_project_task-15.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230802/o/odoo-addon-crm-project-task/15.0.1.1.0-15.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-08-02 05:13:55] INFO root fetch - processPackages [Metadata-Magic]: executing diffoscope
+[2023-08-02 05:13:55] INFO root fetch - processPackages [Metadata-Magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Metadata_Magic-0.6.2-py3-none-any.whl.zip tmp/Metadata_Magic-0.7.0-py3-none-any.whl.zip --markdown 20230802/M/Metadata-Magic/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-08-02 05:13:55] INFO root fetch - processPackages [lixinger]: executing diffoscope
+[2023-08-02 05:13:55] INFO root fetch - processPackages [lixinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lixinger-0.1.8.tar.gz tmp/lixinger-0.1.9.tar.gz --markdown 20230802/l/lixinger/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-02 05:13:55] INFO root fetch - processPackages [odoo12-addon-cooperator]: executing diffoscope
+[2023-08-02 05:13:55] INFO root fetch - processPackages [odoo12-addon-cooperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_cooperator-12.0.6.4.3.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_cooperator-12.0.6.4.3.99.dev2-py3-none-any.whl.zip --markdown 20230802/o/odoo12-addon-cooperator/12.0.6.4.3.99.dev1-12.0.6.4.3.99.dev2/diff.md --exclude *.pyd
+[2023-08-02 05:13:55] INFO root fetch - processPackages [arcpyext]: executing diffoscope
+[2023-08-02 05:13:55] INFO root fetch - processPackages [arcpyext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcpyext-0.7.8-py2.py3-none-any.whl.zip tmp/arcpyext-0.7.9-py2.py3-none-any.whl.zip --markdown 20230802/a/arcpyext/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-08-02 05:13:55] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-08-02 05:13:55] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.3.0.tar.gz tmp/py3seed-0.3.1.tar.gz --markdown 20230802/p/py3seed/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-02 05:13:56] INFO root fetch - processPackages [formulite]: Remove: archive file [/home/abi/fetcher/tmp/formulite-0.0.1.dev0.tar.gz]
+[2023-08-02 05:13:56] INFO root fetch - processPackages [formulite]: Remove: archive file [/home/abi/fetcher/tmp/formulite-0.0.2.tar.gz]
+[2023-08-02 05:13:56] INFO root fetch - processPackages [formulite]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-08-02 05:13:56] INFO root fetch - main [MainThread]: End processing [formulite]: success
+[2023-08-02 05:13:56] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-02 05:13:57] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-08-02 05:13:57] INFO root fetch - processPackages [hyprshade]: Remove: archive file [/home/abi/fetcher/tmp/hyprshade-0.7.0.tar.gz]
+[2023-08-02 05:13:57] INFO root fetch - processPackages [hyprshade]: Remove: archive file [/home/abi/fetcher/tmp/hyprshade-0.8.0.tar.gz]
+[2023-08-02 05:13:57] INFO root fetch - processPackages [hyprshade]: Start processing: fastmega
+[2023-08-02 05:13:57] INFO root fetch - main [MainThread]: End processing [hyprshade]: success
+[2023-08-02 05:13:57] WARNING root fetch - processPackages [fastmega]: Skipping, unable to determine old version
+[2023-08-02 05:13:57] INFO root fetch - processPackages [fastmega]: Start processing: stdflow
+[2023-08-02 05:13:57] INFO root fetch - main [MainThread]: End processing [fastmega] error
+[2023-08-02 05:13:57] INFO root fetch - processPackages [stdflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-02 05:13:57] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-08-02 05:13:57] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/37/2b/dc718c9a789aae941c5744468c42fa99c1ca83c6fc824add3debc6df543d/stdflow-0.0.8.tar.gz
+[2023-08-02 05:13:57] INFO root fetch - processPackages [juliang]: Remove: archive file [/home/abi/fetcher/tmp/juliang-0.1.9.1.tar.gz]
+[2023-08-02 05:13:57] INFO root fetch - processPackages [juliang]: Remove: archive file [/home/abi/fetcher/tmp/juliang-1.0.1.tar.gz]
+[2023-08-02 05:13:57] INFO root fetch - processPackages [juliang]: Start processing: GANDLF
+[2023-08-02 05:13:57] INFO root fetch - main [MainThread]: End processing [juliang]: success
+[2023-08-02 05:13:57] INFO root fetch - processPackages [safe2pay]: Remove: archive file [/home/abi/fetcher/tmp/safe2pay-0.0.1.tar.gz]
+[2023-08-02 05:13:57] INFO root fetch - processPackages [safe2pay]: Remove: archive file [/home/abi/fetcher/tmp/safe2pay-0.0.2.tar.gz]
+[2023-08-02 05:13:57] INFO root fetch - processPackages [safe2pay]: Start processing: safe2pay
+[2023-08-02 05:13:57] INFO root fetch - main [MainThread]: End processing [safe2pay]: success
+[2023-08-02 05:13:57] INFO root fetch - processPackages [odoo-addon-crm-project-task]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_project_task-15.0.1.1.0-py3-none-any.whl.zip]
+[2023-08-02 05:13:57] INFO root fetch - processPackages [odoo-addon-crm-project-task]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_project_task-15.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-08-02 05:13:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-project-task]: success
+[2023-08-02 05:13:57] INFO root fetch - processPackages [lixinger]: Remove: archive file [/home/abi/fetcher/tmp/lixinger-0.1.8.tar.gz]
+[2023-08-02 05:13:57] INFO root fetch - processPackages [lixinger]: Remove: archive file [/home/abi/fetcher/tmp/lixinger-0.1.9.tar.gz]
+[2023-08-02 05:13:57] INFO root fetch - main [MainThread]: End processing [lixinger]: success
+[2023-08-02 05:13:57] INFO root fetch - processPackages [safe2pay]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 05:13:57] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.3.0.tar.gz]
+[2023-08-02 05:13:57] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.3.1.tar.gz]
+[2023-08-02 05:13:57] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-08-02 05:13:57] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-08-02 05:13:57] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230802/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-02 05:13:57] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230802] Old Version: [0.0.17.dev20230801]
+[2023-08-02 05:13:57] INFO root fetch - processPackages [safe2pay]: Downloading https://files.pythonhosted.org/packages/bd/b4/748800c3f0468da3421e8bdff23dc60a2acd06e61eb5d05645e67b600947/safe2pay-0.0.2.tar.gz
+[2023-08-02 05:13:57] INFO root fetch - processPackages [arcpyext]: Remove: archive file [/home/abi/fetcher/tmp/arcpyext-0.7.8-py2.py3-none-any.whl.zip]
+[2023-08-02 05:13:57] INFO root fetch - processPackages [arcpyext]: Remove: archive file [/home/abi/fetcher/tmp/arcpyext-0.7.9-py2.py3-none-any.whl.zip]
+[2023-08-02 05:13:57] INFO root fetch - main [MainThread]: End processing [arcpyext]: success
+[2023-08-02 05:13:57] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/93/a7/7a92845fb1a7092159c2fbc2b23c0b733e7c93e5cd012f6538ca900ea3b6/stdflow-0.0.9-py3-none-any.whl
+[2023-08-02 05:13:57] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/de/36/469bd25669f10dea4ee8cc446d7d0195d5d7f5ddad863d7bb7c3c1a29ad6/GANDLF-0.0.17.dev20230801.tar.gz
+[2023-08-02 05:13:57] INFO root fetch - processPackages [Metadata-Magic]: Remove: archive file [/home/abi/fetcher/tmp/Metadata_Magic-0.6.2-py3-none-any.whl.zip]
+[2023-08-02 05:13:57] INFO root fetch - processPackages [Metadata-Magic]: Remove: archive file [/home/abi/fetcher/tmp/Metadata_Magic-0.7.0-py3-none-any.whl.zip]
+[2023-08-02 05:13:57] INFO root fetch - main [MainThread]: End processing [Metadata-Magic]: success
+[2023-08-02 05:13:57] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-08-02 05:13:57] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.8.tar.gz tmp/stdflow-0.0.9-py3-none-any.whl.zip --markdown 20230802/s/stdflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-02 05:13:57] INFO root fetch - processPackages [odoo12-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_cooperator-12.0.6.4.3.99.dev1-py3-none-any.whl.zip]
+[2023-08-02 05:13:57] INFO root fetch - processPackages [odoo12-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_cooperator-12.0.6.4.3.99.dev2-py3-none-any.whl.zip]
+[2023-08-02 05:13:57] INFO root fetch - main [MainThread]: End processing [odoo12-addon-cooperator]: success
+[2023-08-02 05:13:57] INFO root fetch - processPackages [safe2pay]: Downloading https://files.pythonhosted.org/packages/fb/30/4266d7597b9c4ac0903dea7fd968a9da5ba99de7b09e11a634ea46571dbf/safe2pay-0.0.3.tar.gz
+[2023-08-02 05:13:58] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/1b/3b/c813a6989c5340d858b529476ecdd50aafae17ad69bee708bb66968db39a/GANDLF-0.0.17.dev20230802.tar.gz
+[2023-08-02 05:13:58] INFO root fetch - processPackages [safe2pay]: executing diffoscope
+[2023-08-02 05:13:58] INFO root fetch - processPackages [safe2pay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe2pay-0.0.2.tar.gz tmp/safe2pay-0.0.3.tar.gz --markdown 20230802/s/safe2pay/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 05:13:58] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-08-02 05:13:58] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230801.tar.gz tmp/GANDLF-0.0.17.dev20230802.tar.gz --markdown 20230802/G/GANDLF/0.0.17.dev20230801-0.0.17.dev20230802/diff.md --exclude *.pyd
+[2023-08-02 05:13:58] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.8.tar.gz]
+[2023-08-02 05:13:58] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.9-py3-none-any.whl.zip]
+[2023-08-02 05:13:58] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-08-02 05:13:58] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-08-02 05:13:58] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-08-02 05:13:58] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-08-02 05:13:59] INFO root fetch - processPackages [safe2pay]: Remove: archive file [/home/abi/fetcher/tmp/safe2pay-0.0.2.tar.gz]
+[2023-08-02 05:13:59] INFO root fetch - processPackages [safe2pay]: Remove: archive file [/home/abi/fetcher/tmp/safe2pay-0.0.3.tar.gz]
+[2023-08-02 05:13:59] INFO root fetch - main [MainThread]: End processing [safe2pay]: success
+[2023-08-02 05:13:59] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230801.tar.gz]
+[2023-08-02 05:13:59] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230802.tar.gz]
+[2023-08-02 05:13:59] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-08-02 05:13:59] INFO root fetch - main [MainThread]: Store serial: [19135886]

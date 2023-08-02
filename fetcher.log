@@ -17400,3 +17400,123 @@
 [2023-08-02 10:45:26] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-08-02 10:45:26] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-08-02 10:45:26] INFO root fetch - main [MainThread]: Store serial: [19138790]
+[2023-08-02 10:50:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19138790]
+[2023-08-02 10:50:35] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-02 10:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autodistill-seggpt
+[2023-08-02 10:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tritium-remote
+[2023-08-02 10:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: click-fuzzy
+[2023-08-02 10:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dissect.target
+[2023-08-02 10:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-advanced-pdf
+[2023-08-02 10:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-xrengine20230313
+[2023-08-02 10:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: daktari
+[2023-08-02 10:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mldn-program
+[2023-08-02 10:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SPCEj9bbotw
+[2023-08-02 10:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyvrp
+[2023-08-02 10:50:35] INFO root fetch - processPackages [tritium-remote]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-02 10:50:35] INFO root fetch - processPackages [autodistill-seggpt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 10:50:35] INFO root fetch - processPackages [pyvrp]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-08-02 10:50:35] INFO root fetch - processPackages [SPCEj9bbotw]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-02 10:50:35] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: New version: [2.0.0] Old Version: [1.0.2]
+[2023-08-02 10:50:35] INFO root fetch - processPackages [django-advanced-pdf]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-02 10:50:35] INFO root fetch - processPackages [click-fuzzy]: New version: [0.1] Old Version: [0]
+[2023-08-02 10:50:35] WARNING root fetch - processPackages [mldn-program]: Skipping, unable to determine old version
+[2023-08-02 10:50:35] INFO root fetch - processPackages [mldn-program]: Start processing: indico
+[2023-08-02 10:50:35] INFO root fetch - main [MainThread]: End processing [mldn-program] error
+[2023-08-02 10:50:35] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 10:50:35] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-08-02 10:50:35] INFO root fetch - processPackages [django-advanced-pdf]: Downloading https://files.pythonhosted.org/packages/d7/3a/51caf3d71c3202ee5d14b7397a9ed7b70f6851ee055a0abf8b47dafeeb13/django-advanced-pdf-0.2.5.tar.gz
+[2023-08-02 10:50:35] INFO root fetch - processPackages [indico]: New version: [3.2.7] Old Version: [3.2.6]
+[2023-08-02 10:50:35] INFO root fetch - processPackages [SPCEj9bbotw]: Downloading https://files.pythonhosted.org/packages/80/56/99e26b45255a8e4af238b81e2f3069c204c9e8af6b769d6d9346e78c45eb/SPCEj9bbotw-0.0.6.tar.gz
+[2023-08-02 10:50:35] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2023-08-02 10:50:35] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-08-02 10:50:35] INFO root fetch - processPackages [click-fuzzy]: Downloading https://files.pythonhosted.org/packages/47/ed/80cb40e66f7827da4c795a5cf7227ff44bd99975e126fe9220a3ac7c734f/click_fuzzy-0.tar.gz
+[2023-08-02 10:50:35] INFO root fetch - processPackages [tritium-remote]: Downloading https://files.pythonhosted.org/packages/3c/80/d3c35323fc7d7e66291cf34ff4c29cccb2782f80f109d4378fe91a9dc9a3/tritium_remote-1.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-02 10:50:35] INFO root fetch - processPackages [pyvrp]: Downloading https://files.pythonhosted.org/packages/a9/c4/6c2482b486a0da7e3330375d83a2eeb87dd202927b2fae100f3be7a14a41/pyvrp-0.4.4.tar.gz
+[2023-08-02 10:50:35] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Downloading https://files.pythonhosted.org/packages/9f/18/8d88c17630f3e339bfdd8ab0b9549d4deb28ed3644277b9123d8653f9b78/alibabacloud_xrengine20230313-1.0.2.tar.gz
+[2023-08-02 10:50:35] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-08-02 10:50:35] INFO root fetch - processPackages [dissect.target]: Start processing: mariqt-widgets
+[2023-08-02 10:50:35] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-08-02 10:50:35] INFO root fetch - processPackages [autodistill-seggpt]: Downloading https://files.pythonhosted.org/packages/62/bf/ba17ac8f69b9ae8a0ec44d05a8bb3a0dddc58a9617aa0b2fe0b0d06084ea/autodistill-seggpt-0.0.1.tar.gz
+[2023-08-02 10:50:35] WARNING root fetch - processPackages [tritium-remote]: Skipping package: exceeds size limit 14288275>=10485760
+[2023-08-02 10:50:36] INFO root fetch - processPackages [tritium-remote]: Start processing: pheno-utils
+[2023-08-02 10:50:36] INFO root fetch - main [MainThread]: End processing [tritium-remote] error
+[2023-08-02 10:50:36] INFO root fetch - processPackages [mariqt-widgets]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-08-02 10:50:36] INFO root fetch - processPackages [pheno-utils]: New version: [0.3.8.7] Old Version: [0.3.8.6]
+[2023-08-02 10:50:36] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2023-08-02 10:50:36] INFO root fetch - processPackages [pyvrp]: Downloading https://files.pythonhosted.org/packages/67/4e/dd6de53cf4c6709d0dbcd1bc3bebf4b381c960c19e8d98e8aeb048968362/pyvrp-0.5.0.tar.gz
+[2023-08-02 10:50:36] INFO root fetch - processPackages [mariqt-widgets]: Downloading https://files.pythonhosted.org/packages/e5/fc/2ed0203aa4f58de67fa0efaf80fb3c221742fcd4eba65947ee804a0b9da7/mariqt_widgets-0.3.4-py2.py3-none-any.whl
+[2023-08-02 10:50:36] INFO root fetch - processPackages [SPCEj9bbotw]: Downloading https://files.pythonhosted.org/packages/17/0d/7c7c14e4b8daa7230eb40ba10102b601b2ba8da2926c193b89757c25a248/SPCEj9bbotw-0.0.7.tar.gz
+[2023-08-02 10:50:36] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/de/3b/821a013cf0540fa09c915062c849a580d4a6beb6e270723fd1b80b8c1bfd/pheno-utils-0.3.8.6.tar.gz
+[2023-08-02 10:50:36] INFO root fetch - processPackages [click-fuzzy]: Downloading https://files.pythonhosted.org/packages/0e/3f/71a45ac13fd06611057a02ad5173de208d382f871b23a5dfa1b10dc80192/click_fuzzy-0.1.tar.gz
+[2023-08-02 10:50:36] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-08-02 10:50:36] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20230802/d/daktari/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 10:50:36] INFO root fetch - processPackages [indico]: Downloading https://files.pythonhosted.org/packages/1f/f1/d5e65bc874bc81bd8bf4fc19c8998abc3bacf428c2d6cc80154eff6d48ba/indico-3.2.6-py3-none-any.whl
+[2023-08-02 10:50:36] INFO root fetch - processPackages [autodistill-seggpt]: Downloading https://files.pythonhosted.org/packages/c3/32/c37050b2d71ad4ee003584b3120668251b5d4d74991d6fbe5f91684421a5/autodistill-seggpt-0.0.2.tar.gz
+[2023-08-02 10:50:36] INFO root fetch - processPackages [pyvrp]: executing diffoscope
+[2023-08-02 10:50:36] INFO root fetch - processPackages [pyvrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvrp-0.4.4.tar.gz tmp/pyvrp-0.5.0.tar.gz --markdown 20230802/p/pyvrp/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-08-02 10:50:36] INFO root fetch - processPackages [SPCEj9bbotw]: executing diffoscope
+[2023-08-02 10:50:36] INFO root fetch - processPackages [SPCEj9bbotw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPCEj9bbotw-0.0.6.tar.gz tmp/SPCEj9bbotw-0.0.7.tar.gz --markdown 20230802/S/SPCEj9bbotw/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-02 10:50:36] INFO root fetch - processPackages [click-fuzzy]: executing diffoscope
+[2023-08-02 10:50:36] INFO root fetch - processPackages [click-fuzzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click_fuzzy-0.tar.gz tmp/click_fuzzy-0.1.tar.gz --markdown 20230802/c/click-fuzzy/0-0.1/diff.md --exclude *.pyd
+[2023-08-02 10:50:36] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Downloading https://files.pythonhosted.org/packages/50/b0/82d823580318c4913c0564aa1ecf9d4084cc670ed78af5dae934be4ea59e/alibabacloud_xrengine20230313-2.0.0.tar.gz
+[2023-08-02 10:50:36] INFO root fetch - processPackages [autodistill-seggpt]: executing diffoscope
+[2023-08-02 10:50:36] INFO root fetch - processPackages [autodistill-seggpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodistill-seggpt-0.0.1.tar.gz tmp/autodistill-seggpt-0.0.2.tar.gz --markdown 20230802/a/autodistill-seggpt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 10:50:36] INFO root fetch - processPackages [django-advanced-pdf]: Downloading https://files.pythonhosted.org/packages/0f/97/9c69ef3529959d2cfa4a2618dded081290c43ed9055ee6d9ee48f3c887fd/django-advanced-pdf-0.2.6.tar.gz
+[2023-08-02 10:50:36] WARNING root fetch - processPackages [indico]: Skipping package: exceeds size limit 29637044>=10485760
+[2023-08-02 10:50:36] INFO root fetch - processPackages [indico]: Start processing: napari-nanopyx
+[2023-08-02 10:50:36] INFO root fetch - main [MainThread]: End processing [indico] error
+[2023-08-02 10:50:36] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: executing diffoscope
+[2023-08-02 10:50:36] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_xrengine20230313-1.0.2.tar.gz tmp/alibabacloud_xrengine20230313-2.0.0.tar.gz --markdown 20230802/a/alibabacloud-xrengine20230313/1.0.2-2.0.0/diff.md --exclude *.pyd
+[2023-08-02 10:50:36] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/36/4c/a96a7eb923a379c0f6f9feb7d33579b3aa141b4ffd623a478f0aa1a47df0/pheno-utils-0.3.8.7.tar.gz
+[2023-08-02 10:50:36] INFO root fetch - processPackages [napari-nanopyx]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-02 10:50:36] INFO root fetch - processPackages [mariqt-widgets]: Downloading https://files.pythonhosted.org/packages/3d/be/462782c188195f09aa520957319446f6b624a25479d7121ff4fca63a94d2/mariqt_widgets-0.3.5-py2.py3-none-any.whl
+[2023-08-02 10:50:36] INFO root fetch - processPackages [pheno-utils]: executing diffoscope
+[2023-08-02 10:50:36] INFO root fetch - processPackages [pheno-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheno-utils-0.3.8.6.tar.gz tmp/pheno-utils-0.3.8.7.tar.gz --markdown 20230802/p/pheno-utils/0.3.8.6-0.3.8.7/diff.md --exclude *.pyd
+[2023-08-02 10:50:36] INFO root fetch - processPackages [napari-nanopyx]: Downloading https://files.pythonhosted.org/packages/1b/51/d80b6da1935dd7ecc089acfac24b335c359c68447dd7fc37df22d73c1398/napari-nanopyx-0.0.3.tar.gz
+[2023-08-02 10:50:36] INFO root fetch - processPackages [mariqt-widgets]: executing diffoscope
+[2023-08-02 10:50:36] INFO root fetch - processPackages [mariqt-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mariqt_widgets-0.3.4-py2.py3-none-any.whl.zip tmp/mariqt_widgets-0.3.5-py2.py3-none-any.whl.zip --markdown 20230802/m/mariqt-widgets/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-08-02 10:50:36] INFO root fetch - processPackages [django-advanced-pdf]: executing diffoscope
+[2023-08-02 10:50:36] INFO root fetch - processPackages [django-advanced-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-advanced-pdf-0.2.5.tar.gz tmp/django-advanced-pdf-0.2.6.tar.gz --markdown 20230802/d/django-advanced-pdf/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-02 10:50:37] INFO root fetch - processPackages [napari-nanopyx]: Downloading https://files.pythonhosted.org/packages/fc/db/a3e3a8c07ed33685493c6ba36496d58f0ec8767915769dfd148695ff6a73/napari-nanopyx-0.0.4.tar.gz
+[2023-08-02 10:50:37] INFO root fetch - processPackages [napari-nanopyx]: executing diffoscope
+[2023-08-02 10:50:37] INFO root fetch - processPackages [napari-nanopyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-nanopyx-0.0.3.tar.gz tmp/napari-nanopyx-0.0.4.tar.gz --markdown 20230802/n/napari-nanopyx/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-02 10:50:38] INFO root fetch - processPackages [SPCEj9bbotw]: Remove: archive file [/home/abi/fetcher/tmp/SPCEj9bbotw-0.0.6.tar.gz]
+[2023-08-02 10:50:38] INFO root fetch - processPackages [SPCEj9bbotw]: Remove: archive file [/home/abi/fetcher/tmp/SPCEj9bbotw-0.0.7.tar.gz]
+[2023-08-02 10:50:38] INFO root fetch - processPackages [SPCEj9bbotw]: Start processing: brainways
+[2023-08-02 10:50:38] INFO root fetch - main [MainThread]: End processing [SPCEj9bbotw]: success
+[2023-08-02 10:50:38] INFO root fetch - processPackages [brainways]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-02 10:50:38] INFO root fetch - processPackages [click-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/click_fuzzy-0.tar.gz]
+[2023-08-02 10:50:38] INFO root fetch - processPackages [click-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/click_fuzzy-0.1.tar.gz]
+[2023-08-02 10:50:38] INFO root fetch - main [MainThread]: End processing [click-fuzzy]: success
+[2023-08-02 10:50:38] INFO root fetch - processPackages [autodistill-seggpt]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-seggpt-0.0.1.tar.gz]
+[2023-08-02 10:50:38] INFO root fetch - processPackages [autodistill-seggpt]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-seggpt-0.0.2.tar.gz]
+[2023-08-02 10:50:38] INFO root fetch - main [MainThread]: End processing [autodistill-seggpt]: success
+[2023-08-02 10:50:38] INFO root fetch - processPackages [brainways]: Downloading https://files.pythonhosted.org/packages/56/54/6bff0e415b5dc7c290374d9c70b59d6f5334b80d31cceeea5dfff92fbc7a/brainways-0.1.6.tar.gz
+[2023-08-02 10:50:38] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_xrengine20230313-1.0.2.tar.gz]
+[2023-08-02 10:50:38] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_xrengine20230313-2.0.0.tar.gz]
+[2023-08-02 10:50:38] INFO root fetch - main [MainThread]: End processing [alibabacloud-xrengine20230313]: success
+[2023-08-02 10:50:39] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2023-08-02 10:50:39] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2023-08-02 10:50:39] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-08-02 10:50:39] INFO root fetch - processPackages [mariqt-widgets]: Remove: archive file [/home/abi/fetcher/tmp/mariqt_widgets-0.3.4-py2.py3-none-any.whl.zip]
+[2023-08-02 10:50:39] INFO root fetch - processPackages [mariqt-widgets]: Remove: archive file [/home/abi/fetcher/tmp/mariqt_widgets-0.3.5-py2.py3-none-any.whl.zip]
+[2023-08-02 10:50:39] INFO root fetch - main [MainThread]: End processing [mariqt-widgets]: success
+[2023-08-02 10:50:39] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.8.6.tar.gz]
+[2023-08-02 10:50:39] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.8.7.tar.gz]
+[2023-08-02 10:50:39] INFO root fetch - main [MainThread]: End processing [pheno-utils]: success
+[2023-08-02 10:50:39] INFO root fetch - processPackages [brainways]: Downloading https://files.pythonhosted.org/packages/03/5e/5f7507f142746273543116362ef44d93e288bff986c33282449d07352f67/brainways-0.1.7.tar.gz
+[2023-08-02 10:50:39] INFO root fetch - processPackages [napari-nanopyx]: Remove: archive file [/home/abi/fetcher/tmp/napari-nanopyx-0.0.3.tar.gz]
+[2023-08-02 10:50:39] INFO root fetch - processPackages [napari-nanopyx]: Remove: archive file [/home/abi/fetcher/tmp/napari-nanopyx-0.0.4.tar.gz]
+[2023-08-02 10:50:39] INFO root fetch - main [MainThread]: End processing [napari-nanopyx]: success
+[2023-08-02 10:50:39] INFO root fetch - processPackages [brainways]: executing diffoscope
+[2023-08-02 10:50:39] INFO root fetch - processPackages [brainways]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainways-0.1.6.tar.gz tmp/brainways-0.1.7.tar.gz --markdown 20230802/b/brainways/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-02 10:50:39] INFO root fetch - processPackages [pyvrp]: Remove: archive file [/home/abi/fetcher/tmp/pyvrp-0.4.4.tar.gz]
+[2023-08-02 10:50:39] INFO root fetch - processPackages [pyvrp]: Remove: archive file [/home/abi/fetcher/tmp/pyvrp-0.5.0.tar.gz]
+[2023-08-02 10:50:39] INFO root fetch - main [MainThread]: End processing [pyvrp]: success
+[2023-08-02 10:50:40] INFO root fetch - processPackages [django-advanced-pdf]: Remove: archive file [/home/abi/fetcher/tmp/django-advanced-pdf-0.2.5.tar.gz]
+[2023-08-02 10:50:40] INFO root fetch - processPackages [django-advanced-pdf]: Remove: archive file [/home/abi/fetcher/tmp/django-advanced-pdf-0.2.6.tar.gz]
+[2023-08-02 10:50:40] INFO root fetch - main [MainThread]: End processing [django-advanced-pdf]: success
+[2023-08-02 10:50:40] INFO root fetch - processPackages [brainways]: Remove: archive file [/home/abi/fetcher/tmp/brainways-0.1.6.tar.gz]
+[2023-08-02 10:50:40] INFO root fetch - processPackages [brainways]: Remove: archive file [/home/abi/fetcher/tmp/brainways-0.1.7.tar.gz]
+[2023-08-02 10:50:40] INFO root fetch - main [MainThread]: End processing [brainways]: success
+[2023-08-02 10:50:40] INFO root fetch - main [MainThread]: Store serial: [19138851]

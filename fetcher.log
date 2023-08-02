@@ -15016,3 +15016,114 @@
 [2023-08-02 09:05:09] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.8.1.tar.gz]
 [2023-08-02 09:05:09] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2023-08-02 09:05:09] INFO root fetch - main [MainThread]: Store serial: [19137737]
+[2023-08-02 09:10:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19137737]
+[2023-08-02 09:10:20] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-02 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snakemake
+[2023-08-02 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdkit
+[2023-08-02 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih
+[2023-08-02 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-mio
+[2023-08-02 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telebot-components
+[2023-08-02 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: liveramp-automation
+[2023-08-02 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fysh
+[2023-08-02 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: re-edge-gpt-dev
+[2023-08-02 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: series-feature
+[2023-08-02 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: IMDBTraktSyncer
+[2023-08-02 09:10:20] INFO root fetch - processPackages [pih-mio]: New version: [1.48021] Old Version: [1.48020]
+[2023-08-02 09:10:20] INFO root fetch - processPackages [fysh]: New version: [0.0.1.4] Old Version: [0.0.1.3]
+[2023-08-02 09:10:20] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-02 09:10:20] WARNING root fetch - processPackages [series-feature]: Skipping, unable to determine old version
+[2023-08-02 09:10:20] INFO root fetch - processPackages [telebot-components]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-08-02 09:10:20] INFO root fetch - processPackages [series-feature]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-08-02 09:10:20] INFO root fetch - main [MainThread]: End processing [series-feature] error
+[2023-08-02 09:10:20] INFO root fetch - processPackages [IMDBTraktSyncer]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-08-02 09:10:20] INFO root fetch - processPackages [liveramp-automation]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-08-02 09:10:20] WARNING root fetch - processPackages [re-edge-gpt-dev]: Skipping, unable to determine old version
+[2023-08-02 09:10:20] INFO root fetch - processPackages [re-edge-gpt-dev]: Start processing: re-edge-gpt
+[2023-08-02 09:10:20] INFO root fetch - main [MainThread]: End processing [re-edge-gpt-dev] error
+[2023-08-02 09:10:20] INFO root fetch - processPackages [snakemake]: New version: [7.9.0] Old Version: [7.8.5]
+[2023-08-02 09:10:20] INFO root fetch - processPackages [pih]: New version: [1.48028] Old Version: [1.48027]
+[2023-08-02 09:10:20] WARNING root fetch - processPackages [re-edge-gpt]: Skipping, unable to determine old version
+[2023-08-02 09:10:20] INFO root fetch - processPackages [re-edge-gpt]: Start processing: omni-infer-api
+[2023-08-02 09:10:20] INFO root fetch - main [MainThread]: End processing [re-edge-gpt] error
+[2023-08-02 09:10:20] INFO root fetch - processPackages [fysh]: Downloading https://files.pythonhosted.org/packages/36/fc/7694d0f9b822b35917bf6a26cbb514816594595c0d5dfcfdfbc71d7e8581/fysh-0.0.1.3.tar.gz
+[2023-08-02 09:10:20] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-08-02 09:10:20] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-08-02 09:10:20] INFO root fetch - processPackages [omni-infer-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-02 09:10:20] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/c4/32/d1db8260af38a1694f238f2546de475e351b376bc6eec1a9988e17c2e74c/pih-mio-1.48020.tar.gz
+[2023-08-02 09:10:20] INFO root fetch - processPackages [telebot-components]: Downloading https://files.pythonhosted.org/packages/fb/23/cd5704df83fc37ad6b64b1565fd12e1c10aab201ef5cbc5801bc47d77b3e/telebot_components-0.8.8.tar.gz
+[2023-08-02 09:10:20] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/4b/83/a0f55ac78f1213149b648810e3ce56010102f51f302f0c7f56a4ae1119fd/pih-1.48027.tar.gz
+[2023-08-02 09:10:20] INFO root fetch - processPackages [omni-infer-api]: Downloading https://files.pythonhosted.org/packages/94/d1/16efc454be51f25cebdf6ce104f22b24854e6d00e0e8953e824891ffc586/omni_infer_api-0.0.2-py3-none-any.whl
+[2023-08-02 09:10:20] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/39/bc/796948afcb991ec6023f56dc90eecfa3011d3fcaf14e73b81cc573a58f0a/IMDBTraktSyncer-1.7.1.tar.gz
+[2023-08-02 09:10:20] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/5d/46/165e979908eabbb5cd0b58bcdad46e04802264f46764940c97dad3ffeb85/snakemake-7.8.5.tar.gz
+[2023-08-02 09:10:20] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-08-02 09:10:20] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/b5/4a/f9926d6107f3dff4b16e7c20f3043101230312d0985b09e9e309010db5ab/liveramp_automation-0.1.1.tar.gz
+[2023-08-02 09:10:21] INFO root fetch - processPackages [fysh]: Downloading https://files.pythonhosted.org/packages/56/48/fd9c52f99e8f58a1b93cc33f9be842fd7a32c9e3a123d34a388a1711e4e5/fysh-0.0.1.4.tar.gz
+[2023-08-02 09:10:21] INFO root fetch - processPackages [omni-infer-api]: Downloading https://files.pythonhosted.org/packages/69/7b/9eb0a739ebb345547d52b59548c1c4901c5d79bed829d7dfdb93d8e6ff39/omni_infer_api-0.0.3-py3-none-any.whl
+[2023-08-02 09:10:21] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-08-02 09:10:21] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/30/c0/af43241a20543ff324cbae45aa825ad84006f4fc494924315ab8f795cfc8/pih-mio-1.48021.tar.gz
+[2023-08-02 09:10:21] INFO root fetch - processPackages [telebot-components]: Downloading https://files.pythonhosted.org/packages/3a/da/e1a7548f1c8197cc3f9e3f2536ffb60ff45538ac1b8299ad48cbc0442a41/telebot_components-0.8.9.tar.gz
+[2023-08-02 09:10:21] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/82/26/1d43517355aac55442e895ecf2331021f0ffa5df09779cd3902ed43fc158/pih-1.48028.tar.gz
+[2023-08-02 09:10:21] INFO root fetch - processPackages [omni-infer-api]: executing diffoscope
+[2023-08-02 09:10:21] INFO root fetch - processPackages [omni-infer-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni_infer_api-0.0.2-py3-none-any.whl.zip tmp/omni_infer_api-0.0.3-py3-none-any.whl.zip --markdown 20230802/o/omni-infer-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-02 09:10:21] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/2a/70/10a495953e8d6b39c104f63de00fff7b7ea49053e8f33a34e6b1e00ddd80/liveramp_automation-0.1.3.tar.gz
+[2023-08-02 09:10:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-08-02 09:10:21] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/c4/0c/908fa71ab6f70af831bdfe126155f10b3f9e2ff822c4e2354d88985eaf07/IMDBTraktSyncer-1.7.2.tar.gz
+[2023-08-02 09:10:21] INFO root fetch - processPackages [fysh]: executing diffoscope
+[2023-08-02 09:10:21] INFO root fetch - processPackages [fysh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fysh-0.0.1.3.tar.gz tmp/fysh-0.0.1.4.tar.gz --markdown 20230802/f/fysh/0.0.1.3-0.0.1.4/diff.md --exclude *.pyd
+[2023-08-02 09:10:21] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/6a/d0/729c86354d6fa9730d622186edfc9d900c52fcfa0b4316726433079c7a1d/snakemake-7.9.0.tar.gz
+[2023-08-02 09:10:21] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2023-08-02 09:10:21] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mio-1.48020.tar.gz tmp/pih-mio-1.48021.tar.gz --markdown 20230802/p/pih-mio/1.48020-1.48021/diff.md --exclude *.pyd
+[2023-08-02 09:10:21] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-08-02 09:10:21] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230802/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-02 09:10:21] INFO root fetch - processPackages [telebot-components]: executing diffoscope
+[2023-08-02 09:10:21] INFO root fetch - processPackages [telebot-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telebot_components-0.8.8.tar.gz tmp/telebot_components-0.8.9.tar.gz --markdown 20230802/t/telebot-components/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-08-02 09:10:21] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2023-08-02 09:10:21] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-0.1.1.tar.gz tmp/liveramp_automation-0.1.3.tar.gz --markdown 20230802/l/liveramp-automation/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-08-02 09:10:21] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-02 09:10:21] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.48027.tar.gz tmp/pih-1.48028.tar.gz --markdown 20230802/p/pih/1.48027-1.48028/diff.md --exclude *.pyd
+[2023-08-02 09:10:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-08-02 09:10:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230802/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 09:10:21] INFO root fetch - processPackages [IMDBTraktSyncer]: executing diffoscope
+[2023-08-02 09:10:21] INFO root fetch - processPackages [IMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMDBTraktSyncer-1.7.1.tar.gz tmp/IMDBTraktSyncer-1.7.2.tar.gz --markdown 20230802/I/IMDBTraktSyncer/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-08-02 09:10:21] INFO root fetch - processPackages [snakemake]: executing diffoscope
+[2023-08-02 09:10:21] INFO root fetch - processPackages [snakemake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake-7.8.5.tar.gz tmp/snakemake-7.9.0.tar.gz --markdown 20230802/s/snakemake/7.8.5-7.9.0/diff.md --exclude *.pyd
+[2023-08-02 09:10:23] INFO root fetch - processPackages [omni-infer-api]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api-0.0.2-py3-none-any.whl.zip]
+[2023-08-02 09:10:23] INFO root fetch - processPackages [omni-infer-api]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api-0.0.3-py3-none-any.whl.zip]
+[2023-08-02 09:10:23] INFO root fetch - processPackages [omni-infer-api]: Start processing: cdxbasics
+[2023-08-02 09:10:23] INFO root fetch - main [MainThread]: End processing [omni-infer-api]: success
+[2023-08-02 09:10:23] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48020.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48021.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2023-08-02 09:10:23] INFO root fetch - processPackages [cdxbasics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-02 09:10:23] INFO root fetch - processPackages [fysh]: Remove: archive file [/home/abi/fetcher/tmp/fysh-0.0.1.3.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - processPackages [fysh]: Remove: archive file [/home/abi/fetcher/tmp/fysh-0.0.1.4.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - main [MainThread]: End processing [fysh]: success
+[2023-08-02 09:10:23] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.1.1.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.1.3.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2023-08-02 09:10:23] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/44/bf/adf4351223f4cd638d1bb79229170666b0915f3adf1e0e9189ee6769224f/cdxbasics-0.2.8.tar.gz
+[2023-08-02 09:10:23] INFO root fetch - processPackages [telebot-components]: Remove: archive file [/home/abi/fetcher/tmp/telebot_components-0.8.8.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - processPackages [telebot-components]: Remove: archive file [/home/abi/fetcher/tmp/telebot_components-0.8.9.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - main [MainThread]: End processing [telebot-components]: success
+[2023-08-02 09:10:23] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/IMDBTraktSyncer-1.7.1.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/IMDBTraktSyncer-1.7.2.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - main [MainThread]: End processing [IMDBTraktSyncer]: success
+[2023-08-02 09:10:23] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-08-02 09:10:23] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48027.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48028.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-02 09:10:23] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-08-02 09:10:23] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/70/b4/020ddadf0e041dbe964c3ee126f0ced6d699d6a5c6d0e256f1e532782902/cdxbasics-0.2.9.tar.gz
+[2023-08-02 09:10:23] INFO root fetch - processPackages [cdxbasics]: executing diffoscope
+[2023-08-02 09:10:23] INFO root fetch - processPackages [cdxbasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxbasics-0.2.8.tar.gz tmp/cdxbasics-0.2.9.tar.gz --markdown 20230802/c/cdxbasics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-02 09:10:23] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.8.5.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.9.0.tar.gz]
+[2023-08-02 09:10:23] INFO root fetch - main [MainThread]: End processing [snakemake]: success
+[2023-08-02 09:10:24] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.8.tar.gz]
+[2023-08-02 09:10:24] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.9.tar.gz]
+[2023-08-02 09:10:24] INFO root fetch - main [MainThread]: End processing [cdxbasics]: success
+[2023-08-02 09:10:24] INFO root fetch - main [MainThread]: Store serial: [19137784]

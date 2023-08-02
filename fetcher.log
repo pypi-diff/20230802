@@ -22146,3 +22146,124 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-02 13:48:07] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
 [2023-08-02 13:48:07] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-08-02 13:48:07] INFO root fetch - main [MainThread]: Store serial: [19140739]
+[2023-08-02 13:53:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19140739]
+[2023-08-02 13:53:18] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-02 13:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discord-serverless
+[2023-08-02 13:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: runeq
+[2023-08-02 13:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kstreams
+[2023-08-02 13:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tree-sitter-requirements
+[2023-08-02 13:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phanos
+[2023-08-02 13:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: compPy
+[2023-08-02 13:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: traceloop-sdk
+[2023-08-02 13:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: microboxlabs-auth-manager
+[2023-08-02 13:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phanos
+[2023-08-02 13:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moligeek
+[2023-08-02 13:53:18] WARNING root fetch - processPackages [compPy]: Skipping, unable to determine old version
+[2023-08-02 13:53:18] INFO root fetch - processPackages [compPy]: Start processing: AshCrypt
+[2023-08-02 13:53:18] INFO root fetch - main [MainThread]: End processing [compPy] error
+[2023-08-02 13:53:18] WARNING root fetch - processPackages [moligeek]: Skipping, unable to determine old version
+[2023-08-02 13:53:18] INFO root fetch - processPackages [moligeek]: Start processing: port-ocean
+[2023-08-02 13:53:18] INFO root fetch - main [MainThread]: End processing [moligeek] error
+[2023-08-02 13:53:18] INFO root fetch - processPackages [runeq]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-02 13:53:18] INFO root fetch - processPackages [kstreams]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-02 13:53:18] INFO root fetch - processPackages [phanos]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-02 13:53:18] INFO root fetch - processPackages [tree-sitter-requirements]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-02 13:53:18] INFO root fetch - processPackages [traceloop-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-02 13:53:18] INFO root fetch - processPackages [phanos]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-02 13:53:18] INFO root fetch - processPackages [discord-serverless]: New version: [2023.1004a0] Old Version: [2023.1001a0]
+[2023-08-02 13:53:18] INFO root fetch - processPackages [microboxlabs-auth-manager]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-02 13:53:18] INFO root fetch - processPackages [AshCrypt]: New version: [3.1.0] Old Version: [3.0.9]
+[2023-08-02 13:53:18] INFO root fetch - processPackages [port-ocean]: New version: [0.1.3rc4] Old Version: [0.1.3rc3]
+[2023-08-02 13:53:19] INFO root fetch - processPackages [tree-sitter-requirements]: Downloading https://files.pythonhosted.org/packages/a9/bd/fd1abfcd33421c5bf30cd483eb6bf62890876ec4b2d49d0237b50816d932/tree_sitter_requirements-0.1.2-cp38-abi3-macosx_10_9_universal2.whl
+[2023-08-02 13:53:19] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/53/00/f9acd08500bc9fca5cc6ecc3dc5ca28abc39ec247c83e6c922082dbd1c37/AshCrypt-3.0.9.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/73/06/68e5e7407b8bb8926f7ce07d93e298d7c1843887e148c32524d93199ac19/phanos-0.1.1.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/73/06/68e5e7407b8bb8926f7ce07d93e298d7c1843887e148c32524d93199ac19/phanos-0.1.1.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [runeq]: Downloading https://files.pythonhosted.org/packages/38/04/cdde7f24b4d95711b51495435a121403fbcd7a6e6a3f9d4091beac45b269/runeq-0.9.0.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [discord-serverless]: Downloading https://files.pythonhosted.org/packages/61/89/383674efd7d3d4befecd220ffab0533dc55983e54ae1b2cc79955b34a4fe/discord-serverless-2023.1001a0.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/c1/b3/6128670e02f3ce39bcd424cfed9e525ce86ad8d16c34416624912c1303fd/traceloop_sdk-0.0.1.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [kstreams]: Downloading https://files.pythonhosted.org/packages/9a/1d/ca3e2b8b740d2aa5987bc32e9793e218566beceff074a61554892e99e7b2/kstreams-0.9.0.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [microboxlabs-auth-manager]: Downloading https://files.pythonhosted.org/packages/2d/74/99b15ce2b9e8e50c630064b46281c4726704da98ed07d04a4d3b602a36ab/microboxlabs_auth_manager-0.1.0.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/41/28/98dca0fbd1482fd95f5c28b42a2b71a714f1cb69759279a79fc7b2cb79c1/port_ocean-0.1.3rc3.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [tree-sitter-requirements]: Downloading https://files.pythonhosted.org/packages/b5/a7/2dc9947f87fd5b05a5e92c27c820396551c7da41fef2cb0fd65f281a2eea/tree_sitter_requirements-0.1.3-cp38-abi3-macosx_10_9_universal2.whl
+[2023-08-02 13:53:19] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/37/7f/77de5e2f4ec7dcca55067fbba36b341b98537429fd6bd04421bb2d16cc0d/AshCrypt-3.1.0.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/68/c7/6dc6d30d4149366cfd81cb72cef549c6c8b8895b50dbd316b9e70eb95222/phanos-0.1.2.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/68/c7/6dc6d30d4149366cfd81cb72cef549c6c8b8895b50dbd316b9e70eb95222/phanos-0.1.2.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [discord-serverless]: Downloading https://files.pythonhosted.org/packages/c7/d9/509735087bc079bedcfb6574da617ec3c84a7330c0f99fae79e1e781eef2/discord-serverless-2023.1004a0.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/9e/c0/70e2de9cbd4c6a9e4a51afede09a827500a20226bd4afe8a3d34a3064b60/traceloop_sdk-0.0.2.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [AshCrypt]: executing diffoscope
+[2023-08-02 13:53:19] INFO root fetch - processPackages [AshCrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AshCrypt-3.0.9.tar.gz tmp/AshCrypt-3.1.0.tar.gz --markdown 20230802/A/AshCrypt/3.0.9-3.1.0/diff.md --exclude *.pyd
+[2023-08-02 13:53:19] INFO root fetch - processPackages [kstreams]: Downloading https://files.pythonhosted.org/packages/62/9f/51bb919a10a681dae9c3fa7686fbdb1d017488a680b89797d87c871743e4/kstreams-0.9.1.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [microboxlabs-auth-manager]: Downloading https://files.pythonhosted.org/packages/3d/21/3d134725338f3e9314e9eb314d9ae6c98470ef8709f973ec4dd61284ca31/microboxlabs_auth_manager-0.1.1.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [traceloop-sdk]: executing diffoscope
+[2023-08-02 13:53:19] INFO root fetch - processPackages [traceloop-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceloop_sdk-0.0.1.tar.gz tmp/traceloop_sdk-0.0.2.tar.gz --markdown 20230802/t/traceloop-sdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-02 13:53:19] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/af/f2/e534061d0f9c276ac06c01accaa13afc90772d8601128ae5ee0c2cf3ae16/port_ocean-0.1.3rc4.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [runeq]: Downloading https://files.pythonhosted.org/packages/d1/8e/316c44308f9465fc1f4c45ec6b4a580ea6866a306e5145f0b2c9f2457641/runeq-0.9.1.tar.gz
+[2023-08-02 13:53:19] INFO root fetch - processPackages [tree-sitter-requirements]: executing diffoscope
+[2023-08-02 13:53:19] INFO root fetch - processPackages [tree-sitter-requirements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_sitter_requirements-0.1.2-cp38-abi3-macosx_10_9_universal2.whl.zip tmp/tree_sitter_requirements-0.1.3-cp38-abi3-macosx_10_9_universal2.whl.zip --markdown 20230802/t/tree-sitter-requirements/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-02 13:53:20] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-08-02 13:53:20] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.1.1.tar.gz tmp/phanos-0.1.2.tar.gz --markdown 20230802/p/phanos/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-02 13:53:20] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-08-02 13:53:20] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.1.1.tar.gz tmp/phanos-0.1.2.tar.gz --markdown 20230802/p/phanos/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-02 13:53:20] INFO root fetch - processPackages [discord-serverless]: executing diffoscope
+[2023-08-02 13:53:20] INFO root fetch - processPackages [discord-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-serverless-2023.1001a0.tar.gz tmp/discord-serverless-2023.1004a0.tar.gz --markdown 20230802/d/discord-serverless/2023.1001a0-2023.1004a0/diff.md --exclude *.pyd
+[2023-08-02 13:53:20] INFO root fetch - processPackages [kstreams]: executing diffoscope
+[2023-08-02 13:53:20] INFO root fetch - processPackages [kstreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kstreams-0.9.0.tar.gz tmp/kstreams-0.9.1.tar.gz --markdown 20230802/k/kstreams/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-02 13:53:20] INFO root fetch - processPackages [microboxlabs-auth-manager]: executing diffoscope
+[2023-08-02 13:53:20] INFO root fetch - processPackages [microboxlabs-auth-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microboxlabs_auth_manager-0.1.0.tar.gz tmp/microboxlabs_auth_manager-0.1.1.tar.gz --markdown 20230802/m/microboxlabs-auth-manager/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-02 13:53:20] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2023-08-02 13:53:20] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.1.3rc3.tar.gz tmp/port_ocean-0.1.3rc4.tar.gz --markdown 20230802/p/port-ocean/0.1.3rc3-0.1.3rc4/diff.md --exclude *.pyd
+[2023-08-02 13:53:20] INFO root fetch - processPackages [runeq]: executing diffoscope
+[2023-08-02 13:53:20] INFO root fetch - processPackages [runeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runeq-0.9.0.tar.gz tmp/runeq-0.9.1.tar.gz --markdown 20230802/r/runeq/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-02 13:53:21] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.0.1.tar.gz]
+[2023-08-02 13:53:21] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.0.2.tar.gz]
+[2023-08-02 13:53:21] INFO root fetch - processPackages [traceloop-sdk]: Start processing: MicrobeRX
+[2023-08-02 13:53:21] INFO root fetch - main [MainThread]: End processing [traceloop-sdk]: success
+[2023-08-02 13:53:21] INFO root fetch - processPackages [MicrobeRX]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-02 13:53:21] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-3.0.9.tar.gz]
+[2023-08-02 13:53:21] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-3.1.0.tar.gz]
+[2023-08-02 13:53:21] INFO root fetch - processPackages [AshCrypt]: Start processing: gitlab-arc-fs
+[2023-08-02 13:53:21] INFO root fetch - main [MainThread]: End processing [AshCrypt]: success
+[2023-08-02 13:53:21] INFO root fetch - processPackages [gitlab-arc-fs]: New version: [0.0.9.dev1] Old Version: [0.0.8.dev1]
+[2023-08-02 13:53:21] INFO root fetch - processPackages [discord-serverless]: Remove: archive file [/home/abi/fetcher/tmp/discord-serverless-2023.1001a0.tar.gz]
+[2023-08-02 13:53:21] INFO root fetch - processPackages [discord-serverless]: Remove: archive file [/home/abi/fetcher/tmp/discord-serverless-2023.1004a0.tar.gz]
+[2023-08-02 13:53:21] INFO root fetch - processPackages [discord-serverless]: Start processing: microboxlabs-auth-manager
+[2023-08-02 13:53:21] INFO root fetch - main [MainThread]: End processing [discord-serverless]: success
+[2023-08-02 13:53:21] INFO root fetch - processPackages [MicrobeRX]: Downloading https://files.pythonhosted.org/packages/bc/58/d5e8b3c42e43d3fcf839cfb83e84328cd1aa43da30ffbdf9e0670dc290ab/MicrobeRX-0.1.1.tar.gz
+[2023-08-02 13:53:21] INFO root fetch - processPackages [microboxlabs-auth-manager]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-02 13:53:21] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.1.1.tar.gz]
+[2023-08-02 13:53:21] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.1.2.tar.gz]
+[2023-08-02 13:53:21] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-08-02 13:53:21] INFO root fetch - processPackages [kstreams]: Remove: archive file [/home/abi/fetcher/tmp/kstreams-0.9.0.tar.gz]
+[2023-08-02 13:53:21] INFO root fetch - processPackages [kstreams]: Remove: archive file [/home/abi/fetcher/tmp/kstreams-0.9.1.tar.gz]
+[2023-08-02 13:53:21] INFO root fetch - main [MainThread]: End processing [kstreams]: success
+[2023-08-02 13:53:21] INFO root fetch - processPackages [gitlab-arc-fs]: Downloading https://files.pythonhosted.org/packages/0e/13/96cc6617347f539f4105aa2d8c22e0f59367d4839663ee5456fdf3fa2047/gitlab_arc_fs-0.0.8.dev1.tar.gz
+[2023-08-02 13:53:22] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-08-02 13:53:22] INFO root fetch - processPackages [microboxlabs-auth-manager]: Remove: archive file [/home/abi/fetcher/tmp/microboxlabs_auth_manager-0.1.0.tar.gz]
+[2023-08-02 13:53:22] INFO root fetch - processPackages [microboxlabs-auth-manager]: Remove: archive file [/home/abi/fetcher/tmp/microboxlabs_auth_manager-0.1.1.tar.gz]
+[2023-08-02 13:53:22] INFO root fetch - main [MainThread]: End processing [microboxlabs-auth-manager]: success
+[2023-08-02 13:53:22] INFO root fetch - processPackages [microboxlabs-auth-manager]: Downloading https://files.pythonhosted.org/packages/d2/54/52330cddb6bed9a580c94ed4c8c5c2ce39c5a15f3f40fd2dbe8bffaffa0a/microboxlabs_auth_manager-0.1.2.tar.gz
+[2023-08-02 13:53:22] INFO root fetch - processPackages [runeq]: Remove: archive file [/home/abi/fetcher/tmp/runeq-0.9.0.tar.gz]
+[2023-08-02 13:53:22] INFO root fetch - processPackages [runeq]: Remove: archive file [/home/abi/fetcher/tmp/runeq-0.9.1.tar.gz]
+[2023-08-02 13:53:22] INFO root fetch - main [MainThread]: End processing [runeq]: success
+[2023-08-02 13:53:22] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.3rc3.tar.gz]
+[2023-08-02 13:53:22] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.3rc4.tar.gz]
+[2023-08-02 13:53:22] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2023-08-02 13:53:22] INFO root fetch - processPackages [MicrobeRX]: Downloading https://files.pythonhosted.org/packages/ce/a3/fca4ec48c6eb7b5d391193252c2a9709f9a1f3c8358dfdcbdcb80c3fcd0b/MicrobeRX-0.1.2.tar.gz
+[2023-08-02 13:53:22] INFO root fetch - processPackages [microboxlabs-auth-manager]: executing diffoscope
+[2023-08-02 13:53:22] INFO root fetch - processPackages [microboxlabs-auth-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microboxlabs_auth_manager-0.1.1.tar.gz tmp/microboxlabs_auth_manager-0.1.2.tar.gz --markdown 20230802/m/microboxlabs-auth-manager/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-02 13:53:22] WARNING root fetch - processPackages [MicrobeRX]: Skipping package: exceeds size limit 15231473>=10485760
+[2023-08-02 13:53:22] INFO root fetch - main [MainThread]: End processing [MicrobeRX] error
+[2023-08-02 13:53:22] INFO root fetch - processPackages [gitlab-arc-fs]: Downloading https://files.pythonhosted.org/packages/0f/cd/99d970c989763e4c968b7bc029225b30885ba89e68822868e6b6f5cf5be8/gitlab_arc_fs-0.0.9.dev1.tar.gz
+[2023-08-02 13:53:22] INFO root fetch - processPackages [gitlab-arc-fs]: executing diffoscope
+[2023-08-02 13:53:22] INFO root fetch - processPackages [gitlab-arc-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_arc_fs-0.0.8.dev1.tar.gz tmp/gitlab_arc_fs-0.0.9.dev1.tar.gz --markdown 20230802/g/gitlab-arc-fs/0.0.8.dev1-0.0.9.dev1/diff.md --exclude *.pyd
+[2023-08-02 13:53:22] INFO root fetch - processPackages [tree-sitter-requirements]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_requirements-0.1.2-cp38-abi3-macosx_10_9_universal2.whl.zip]
+[2023-08-02 13:53:22] INFO root fetch - processPackages [tree-sitter-requirements]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_requirements-0.1.3-cp38-abi3-macosx_10_9_universal2.whl.zip]
+[2023-08-02 13:53:22] INFO root fetch - main [MainThread]: End processing [tree-sitter-requirements]: success
+[2023-08-02 13:53:22] ERROR root fetch - processPackages [microboxlabs-auth-manager]: Diffoscope failed: time="2023-08-02T13:53:22+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/microboxlabs_auth_manager-0.1.1.tar.gz: No such file or directory
+
+[2023-08-02 13:53:22] INFO root fetch - main [MainThread]: End processing [microboxlabs-auth-manager] error
+[2023-08-02 13:53:23] INFO root fetch - processPackages [gitlab-arc-fs]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_arc_fs-0.0.8.dev1.tar.gz]
+[2023-08-02 13:53:23] INFO root fetch - processPackages [gitlab-arc-fs]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_arc_fs-0.0.9.dev1.tar.gz]
+[2023-08-02 13:53:23] INFO root fetch - main [MainThread]: End processing [gitlab-arc-fs]: success
+[2023-08-02 13:53:23] INFO root fetch - main [MainThread]: Store serial: [19140792]

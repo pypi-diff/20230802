@@ -17617,3 +17617,245 @@
 [2023-08-02 10:55:53] INFO root fetch - processPackages [nameless-deploy-tools]: Remove: archive file [/home/abi/fetcher/tmp/nameless-deploy-tools-1.99.tar.gz]
 [2023-08-02 10:55:53] INFO root fetch - main [MainThread]: End processing [nameless-deploy-tools]: success
 [2023-08-02 10:55:53] INFO root fetch - main [MainThread]: Store serial: [19138890]
+[2023-08-02 11:00:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19138890]
+[2023-08-02 11:01:02] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-08-02 11:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: report-dh
+[2023-08-02 11:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scoda-tk
+[2023-08-02 11:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrex
+[2023-08-02 11:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sui-brownie
+[2023-08-02 11:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spaceone-api
+[2023-08-02 11:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napari-brainways
+[2023-08-02 11:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SageLogger
+[2023-08-02 11:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minddatapack
+[2023-08-02 11:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: e2xauthoring
+[2023-08-02 11:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.projen-awscdk-construct
+[2023-08-02 11:01:02] INFO root fetch - processPackages [napari-brainways]: New version: [0.1.7] Old Version: [0.1.6.1]
+[2023-08-02 11:01:02] INFO root fetch - processPackages [scoda-tk]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-02 11:01:02] INFO root fetch - processPackages [report-dh]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-02 11:01:02] INFO root fetch - processPackages [sui-brownie]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-08-02 11:01:02] INFO root fetch - processPackages [minddatapack]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-02 11:01:02] INFO root fetch - processPackages [SageLogger]: New version: [1.5] Old Version: [1.4]
+[2023-08-02 11:01:02] INFO root fetch - processPackages [cybrex]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-02 11:01:02] INFO root fetch - processPackages [e2xauthoring]: New version: [0.2.0.dev2] Old Version: [0.2.0.dev1]
+[2023-08-02 11:01:02] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-08-02 11:01:02] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 11:01:02] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/f8/41/822687472d6e0b76254be836e3518cc11802fbe78bd71f6837e8e57ac7f4/cybrex-1.1.8.tar.gz
+[2023-08-02 11:01:02] INFO root fetch - processPackages [sui-brownie]: Downloading https://files.pythonhosted.org/packages/41/90/dc318452abf7a3ae8556775f80d1f163b0050e0bc70a6fb436c67aa0dd34/sui_brownie-1.1.3-py3-none-any.whl
+[2023-08-02 11:01:02] INFO root fetch - processPackages [napari-brainways]: Downloading https://files.pythonhosted.org/packages/ff/bb/afbac5b96e13c9192c47fc1820ca527c9fb6c7ab42ca9e7569c0365ea5c3/napari_brainways-0.1.6.1.tar.gz
+[2023-08-02 11:01:02] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/ec/dc/bc59cf50096c77eb8481d32e30591d1d782385fd700198af371ee1b71356/scoda-tk-0.3.1.tar.gz
+[2023-08-02 11:01:03] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/ca/61/310c98f28cdee4f9643eebd855676e5c7be6042e137573cdc28768e8f575/report-dh-0.9.1.tar.gz
+[2023-08-02 11:01:03] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/a4/2e/3c2505b736f0001519b2af2f82bb0b59a92be1f52920841a70ed6130f95f/spaceone_api-1.9.7.dev3-py3-none-any.whl
+[2023-08-02 11:01:03] INFO root fetch - processPackages [minddatapack]: Downloading https://files.pythonhosted.org/packages/27/e8/3e400b7b03c677dc30e90234f3c5a6bd16d220ec03287923ed721eb9d606/minddatapack-1.0.0.tar.gz
+[2023-08-02 11:01:03] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/27/9d/380a7fdc5a80010e4d2e5b413e1d840afc04777fad15601dfb2fb9e80f69/SageLogger-1.4.tar.gz
+[2023-08-02 11:01:03] INFO root fetch - processPackages [e2xauthoring]: Downloading https://files.pythonhosted.org/packages/16/dc/4665bcf64bee2103c1d8828885c46b73a06326507a2cea1f1b681b3dc88c/e2xauthoring-0.2.0.dev1.tar.gz
+[2023-08-02 11:01:03] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-08-02 11:01:03] INFO root fetch - processPackages [sui-brownie]: Downloading https://files.pythonhosted.org/packages/c3/4b/1b032acf37c5c181cc5b50cf42d0ac648a286b44bb9c3ad28cd25d6659cf/sui_brownie-1.1.4-py3-none-any.whl
+[2023-08-02 11:01:03] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/3a/e4/2cf0806887a91ce4e7e15652eb199bbbdae1925a861aed0a9a1bcd6d747d/cybrex-1.1.9.tar.gz
+[2023-08-02 11:01:03] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/4b/c6/a53cb53945b03960bedb0e5f60b51747d62ab4d7920e6acc5d786cab946b/SageLogger-1.5.tar.gz
+[2023-08-02 11:01:03] INFO root fetch - processPackages [napari-brainways]: Downloading https://files.pythonhosted.org/packages/ad/5b/0112e6d56f9b7cd211981ab6c36af598c184859f2abd12602304e9728843/napari_brainways-0.1.7.tar.gz
+[2023-08-02 11:01:03] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/8c/0b/f78af090f9ede49a1391aed70ec4377ec18859ff0284f0b2ac00a32fb449/scoda-tk-0.3.2.tar.gz
+[2023-08-02 11:01:03] INFO root fetch - processPackages [sui-brownie]: executing diffoscope
+[2023-08-02 11:01:03] INFO root fetch - processPackages [sui-brownie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sui_brownie-1.1.3-py3-none-any.whl.zip tmp/sui_brownie-1.1.4-py3-none-any.whl.zip --markdown 20230802/s/sui-brownie/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-08-02 11:01:03] INFO root fetch - processPackages [minddatapack]: Downloading https://files.pythonhosted.org/packages/3d/c7/a2276313e3a2321dae911cd17ce542979ef0653f432d64542fde9fc3a41b/minddatapack-1.0.1.tar.gz
+[2023-08-02 11:01:03] INFO root fetch - processPackages [cybrex]: executing diffoscope
+[2023-08-02 11:01:03] INFO root fetch - processPackages [cybrex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrex-1.1.8.tar.gz tmp/cybrex-1.1.9.tar.gz --markdown 20230802/c/cybrex/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-02 11:01:03] INFO root fetch - processPackages [SageLogger]: executing diffoscope
+[2023-08-02 11:01:03] INFO root fetch - processPackages [SageLogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SageLogger-1.4.tar.gz tmp/SageLogger-1.5.tar.gz --markdown 20230802/S/SageLogger/1.4-1.5/diff.md --exclude *.pyd
+[2023-08-02 11:01:03] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-08-02 11:01:03] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/de/af/8e93fe948b2016f1ee538eb2313082d5abc623499eca64d48ae30013a5ad/spaceone_api-1.9.7rc1-py3-none-any.whl
+[2023-08-02 11:01:03] INFO root fetch - processPackages [minddatapack]: executing diffoscope
+[2023-08-02 11:01:03] INFO root fetch - processPackages [minddatapack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minddatapack-1.0.0.tar.gz tmp/minddatapack-1.0.1.tar.gz --markdown 20230802/m/minddatapack/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-02 11:01:03] INFO root fetch - processPackages [napari-brainways]: executing diffoscope
+[2023-08-02 11:01:03] INFO root fetch - processPackages [napari-brainways]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_brainways-0.1.6.1.tar.gz tmp/napari_brainways-0.1.7.tar.gz --markdown 20230802/n/napari-brainways/0.1.6.1-0.1.7/diff.md --exclude *.pyd
+[2023-08-02 11:01:03] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-08-02 11:01:03] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.3.1.tar.gz tmp/scoda-tk-0.3.2.tar.gz --markdown 20230802/s/scoda-tk/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-02 11:01:03] INFO root fetch - processPackages [e2xauthoring]: Downloading https://files.pythonhosted.org/packages/9c/7f/e86adf252d186153d85bbcd40e733851bce5a79b244fe21ad99687a5c6f0/e2xauthoring-0.2.0.dev2.tar.gz
+[2023-08-02 11:01:03] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-08-02 11:01:03] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230802/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 11:01:03] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/46/6b/31920ea74c958ad93386f56bfb06760dfac1e7c2fbefd75115490c2ccf21/report-dh-0.9.2.tar.gz
+[2023-08-02 11:01:04] INFO root fetch - processPackages [report-dh]: executing diffoscope
+[2023-08-02 11:01:04] INFO root fetch - processPackages [report-dh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report-dh-0.9.1.tar.gz tmp/report-dh-0.9.2.tar.gz --markdown 20230802/r/report-dh/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-02 11:01:04] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-08-02 11:01:04] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230802/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-08-02 11:01:04] INFO root fetch - processPackages [e2xauthoring]: executing diffoscope
+[2023-08-02 11:01:04] INFO root fetch - processPackages [e2xauthoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2xauthoring-0.2.0.dev1.tar.gz tmp/e2xauthoring-0.2.0.dev2.tar.gz --markdown 20230802/e/e2xauthoring/0.2.0.dev1-0.2.0.dev2/diff.md --exclude *.pyd
+[2023-08-02 11:01:05] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.1.8.tar.gz]
+[2023-08-02 11:01:05] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.1.9.tar.gz]
+[2023-08-02 11:01:05] INFO root fetch - processPackages [cybrex]: Start processing: hecdbetz
+[2023-08-02 11:01:05] INFO root fetch - main [MainThread]: End processing [cybrex]: success
+[2023-08-02 11:01:05] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.4.tar.gz]
+[2023-08-02 11:01:05] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.5.tar.gz]
+[2023-08-02 11:01:05] INFO root fetch - processPackages [SageLogger]: Start processing: fiddler-client
+[2023-08-02 11:01:05] INFO root fetch - main [MainThread]: End processing [SageLogger]: success
+[2023-08-02 11:01:05] INFO root fetch - processPackages [hecdbetz]: New version: [3.0] Old Version: [2.0]
+[2023-08-02 11:01:05] INFO root fetch - processPackages [sui-brownie]: Remove: archive file [/home/abi/fetcher/tmp/sui_brownie-1.1.3-py3-none-any.whl.zip]
+[2023-08-02 11:01:05] INFO root fetch - processPackages [sui-brownie]: Remove: archive file [/home/abi/fetcher/tmp/sui_brownie-1.1.4-py3-none-any.whl.zip]
+[2023-08-02 11:01:05] INFO root fetch - processPackages [sui-brownie]: Start processing: iqm-cortex-cli
+[2023-08-02 11:01:05] INFO root fetch - main [MainThread]: End processing [sui-brownie]: success
+[2023-08-02 11:01:05] INFO root fetch - processPackages [fiddler-client]: New version: [2.0.0.dev9] Old Version: [2.0.0.dev8]
+[2023-08-02 11:01:05] INFO root fetch - processPackages [iqm-cortex-cli]: New version: [4.5] Old Version: [4.4]
+[2023-08-02 11:01:05] INFO root fetch - processPackages [minddatapack]: Remove: archive file [/home/abi/fetcher/tmp/minddatapack-1.0.0.tar.gz]
+[2023-08-02 11:01:05] INFO root fetch - processPackages [hecdbetz]: Downloading https://files.pythonhosted.org/packages/1e/83/28260f5f8c69d632fb9cc3c8db9f1cee88b3575815a9aed0b77c9a2171b6/hecdbetz-2.0.tar.gz
+[2023-08-02 11:01:05] INFO root fetch - processPackages [minddatapack]: Remove: archive file [/home/abi/fetcher/tmp/minddatapack-1.0.1.tar.gz]
+[2023-08-02 11:01:05] INFO root fetch - processPackages [minddatapack]: Start processing: daktari
+[2023-08-02 11:01:05] INFO root fetch - main [MainThread]: End processing [minddatapack]: success
+[2023-08-02 11:01:05] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/44/1e/945b4a8ffcd3c02db00453a0fac1df0d39bab93ab0704064ed96cf28c37a/fiddler-client-2.0.0.dev8.tar.gz
+[2023-08-02 11:01:05] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 11:01:05] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-08-02 11:01:05] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-08-02 11:01:05] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Start processing: hypymedia
+[2023-08-02 11:01:05] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-08-02 11:01:05] INFO root fetch - processPackages [hypymedia]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-02 11:01:05] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2023-08-02 11:01:05] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.1.tar.gz]
+[2023-08-02 11:01:05] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.2.tar.gz]
+[2023-08-02 11:01:05] INFO root fetch - processPackages [report-dh]: Start processing: newbee
+[2023-08-02 11:01:05] INFO root fetch - main [MainThread]: End processing [report-dh]: success
+[2023-08-02 11:01:05] INFO root fetch - processPackages [hypymedia]: Downloading https://files.pythonhosted.org/packages/a3/05/f4050bdfd14ae29f479cfdaa0f44470c51ee42dedc68b4f72e75b6f3ab72/hypymedia-0.1.7.tar.gz
+[2023-08-02 11:01:06] INFO root fetch - processPackages [napari-brainways]: Remove: archive file [/home/abi/fetcher/tmp/napari_brainways-0.1.6.1.tar.gz]
+[2023-08-02 11:01:06] INFO root fetch - processPackages [napari-brainways]: Remove: archive file [/home/abi/fetcher/tmp/napari_brainways-0.1.7.tar.gz]
+[2023-08-02 11:01:06] INFO root fetch - processPackages [napari-brainways]: Start processing: idds-atlas
+[2023-08-02 11:01:06] INFO root fetch - main [MainThread]: End processing [napari-brainways]: success
+[2023-08-02 11:01:06] INFO root fetch - processPackages [newbee]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2023-08-02 11:01:06] INFO root fetch - processPackages [hecdbetz]: Downloading https://files.pythonhosted.org/packages/02/e1/470734ec3f7844f309a5aa1d09cabe073123d31de50372ffb423b2d7e3e3/hecdbetz-3.0.tar.gz
+[2023-08-02 11:01:06] INFO root fetch - processPackages [idds-atlas]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-08-02 11:01:06] INFO root fetch - processPackages [iqm-cortex-cli]: Downloading https://files.pythonhosted.org/packages/71/b5/ee761e060e2dd952cae15d42751e69866d9e5682b69e6f9f3284afe94375/iqm-cortex-cli-4.4.tar.gz
+[2023-08-02 11:01:06] INFO root fetch - processPackages [hecdbetz]: executing diffoscope
+[2023-08-02 11:01:06] INFO root fetch - processPackages [hecdbetz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hecdbetz-2.0.tar.gz tmp/hecdbetz-3.0.tar.gz --markdown 20230802/h/hecdbetz/2.0-3.0/diff.md --exclude *.pyd
+[2023-08-02 11:01:06] INFO root fetch - processPackages [hypymedia]: Downloading https://files.pythonhosted.org/packages/f1/eb/0c1d2a292851ded8ad68e0c9477c32219ce044c9d663d1f9d1f797908c9a/hypymedia-0.1.8.tar.gz
+[2023-08-02 11:01:06] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2023-08-02 11:01:06] INFO root fetch - processPackages [newbee]: Downloading https://files.pythonhosted.org/packages/c2/06/ee3649c475c4c928e809c70041888abc074ff9e4d6c8d8ca24ff1d321bb1/newbee-0.0.1a0.tar.gz
+[2023-08-02 11:01:06] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/da/52/82b61ae300ee6a1c1baad2f0f55ebd26e958d34800a3b52cd52253b1f0ab/fiddler-client-2.0.0.dev9.tar.gz
+[2023-08-02 11:01:06] INFO root fetch - processPackages [hypymedia]: executing diffoscope
+[2023-08-02 11:01:06] INFO root fetch - processPackages [hypymedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypymedia-0.1.7.tar.gz tmp/hypymedia-0.1.8.tar.gz --markdown 20230802/h/hypymedia/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-02 11:01:06] INFO root fetch - processPackages [idds-atlas]: Downloading https://files.pythonhosted.org/packages/76/66/0a700479e8c872cccf92783051615af04a4c16871e99f24f7269d5d3ab11/idds-atlas-1.3.3.tar.gz
+[2023-08-02 11:01:06] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-08-02 11:01:06] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20230802/d/daktari/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 11:01:06] INFO root fetch - processPackages [iqm-cortex-cli]: Downloading https://files.pythonhosted.org/packages/49/1d/7e84b3a78097bba4cb21ee957b64e0cb9c8c58a812f54719804f6973cad6/iqm-cortex-cli-4.5.tar.gz
+[2023-08-02 11:01:06] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2023-08-02 11:01:06] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-2.0.0.dev8.tar.gz tmp/fiddler-client-2.0.0.dev9.tar.gz --markdown 20230802/f/fiddler-client/2.0.0.dev8-2.0.0.dev9/diff.md --exclude *.pyd
+[2023-08-02 11:01:06] INFO root fetch - processPackages [newbee]: Downloading https://files.pythonhosted.org/packages/d3/09/8cabfd207fff74cab63cc4a1ba37311b059e5848ca71021b0d468da98c3a/newbee-0.0.1a1.tar.gz
+[2023-08-02 11:01:06] INFO root fetch - processPackages [iqm-cortex-cli]: executing diffoscope
+[2023-08-02 11:01:06] INFO root fetch - processPackages [iqm-cortex-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqm-cortex-cli-4.4.tar.gz tmp/iqm-cortex-cli-4.5.tar.gz --markdown 20230802/i/iqm-cortex-cli/4.4-4.5/diff.md --exclude *.pyd
+[2023-08-02 11:01:06] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.3.1.tar.gz]
+[2023-08-02 11:01:06] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.3.2.tar.gz]
+[2023-08-02 11:01:06] INFO root fetch - processPackages [scoda-tk]: Start processing: idds-client
+[2023-08-02 11:01:06] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-08-02 11:01:06] INFO root fetch - processPackages [idds-atlas]: Downloading https://files.pythonhosted.org/packages/a8/36/c047146ac0fda03ea63e86f806146eedfed25b9aa4d79284e0f4637abf1f/idds-atlas-1.3.4.tar.gz
+[2023-08-02 11:01:06] INFO root fetch - processPackages [idds-client]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-08-02 11:01:06] INFO root fetch - processPackages [newbee]: executing diffoscope
+[2023-08-02 11:01:06] INFO root fetch - processPackages [newbee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newbee-0.0.1a0.tar.gz tmp/newbee-0.0.1a1.tar.gz --markdown 20230802/n/newbee/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2023-08-02 11:01:07] INFO root fetch - processPackages [idds-atlas]: executing diffoscope
+[2023-08-02 11:01:07] INFO root fetch - processPackages [idds-atlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-atlas-1.3.3.tar.gz tmp/idds-atlas-1.3.4.tar.gz --markdown 20230802/i/idds-atlas/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-08-02 11:01:07] INFO root fetch - processPackages [idds-client]: Downloading https://files.pythonhosted.org/packages/7f/78/91a2febf5aa061248bd4354a0936362507c7dfeeb17515e8bbce67825544/idds-client-1.3.3.tar.gz
+[2023-08-02 11:01:07] INFO root fetch - processPackages [hecdbetz]: Remove: archive file [/home/abi/fetcher/tmp/hecdbetz-2.0.tar.gz]
+[2023-08-02 11:01:07] INFO root fetch - processPackages [hecdbetz]: Remove: archive file [/home/abi/fetcher/tmp/hecdbetz-3.0.tar.gz]
+[2023-08-02 11:01:07] INFO root fetch - processPackages [hecdbetz]: Start processing: qrcode-styled
+[2023-08-02 11:01:07] INFO root fetch - main [MainThread]: End processing [hecdbetz]: success
+[2023-08-02 11:01:07] INFO root fetch - processPackages [qrcode-styled]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-02 11:01:07] INFO root fetch - processPackages [idds-client]: Downloading https://files.pythonhosted.org/packages/e1/be/4b5ba1d1009ae045397e86b706b2ba4a0add2b33d926056cdebbd7e1158f/idds-client-1.3.4.tar.gz
+[2023-08-02 11:01:07] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip]
+[2023-08-02 11:01:07] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip]
+[2023-08-02 11:01:07] INFO root fetch - processPackages [spaceone-api]: Start processing: idds-common
+[2023-08-02 11:01:07] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-08-02 11:01:07] INFO root fetch - processPackages [idds-common]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-08-02 11:01:07] INFO root fetch - processPackages [hypymedia]: Remove: archive file [/home/abi/fetcher/tmp/hypymedia-0.1.7.tar.gz]
+[2023-08-02 11:01:07] INFO root fetch - processPackages [hypymedia]: Remove: archive file [/home/abi/fetcher/tmp/hypymedia-0.1.8.tar.gz]
+[2023-08-02 11:01:07] INFO root fetch - processPackages [hypymedia]: Start processing: idds-doma
+[2023-08-02 11:01:07] INFO root fetch - main [MainThread]: End processing [hypymedia]: success
+[2023-08-02 11:01:07] INFO root fetch - processPackages [idds-client]: executing diffoscope
+[2023-08-02 11:01:07] INFO root fetch - processPackages [idds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-client-1.3.3.tar.gz tmp/idds-client-1.3.4.tar.gz --markdown 20230802/i/idds-client/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-08-02 11:01:07] INFO root fetch - processPackages [qrcode-styled]: Downloading https://files.pythonhosted.org/packages/20/4a/9a1ecac3e306fdf27c5f44b1c5560b90310c563af995ca0d7ad8a10b4641/qrcode_styled-0.2.1.tar.gz
+[2023-08-02 11:01:07] INFO root fetch - processPackages [idds-doma]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-08-02 11:01:07] INFO root fetch - processPackages [idds-common]: Downloading https://files.pythonhosted.org/packages/36/8a/021bc06e2756625258e5d29dad9b6fa352c84de2bf08b3d241b899057b5f/idds-common-1.3.3.tar.gz
+[2023-08-02 11:01:08] INFO root fetch - processPackages [idds-doma]: Downloading https://files.pythonhosted.org/packages/58/f8/4922b074dafaccc4cddc3bbf49ec0fecf0cd82efefdd2a0a08f43283ede4/idds-doma-1.3.3.tar.gz
+[2023-08-02 11:01:08] INFO root fetch - processPackages [qrcode-styled]: Downloading https://files.pythonhosted.org/packages/60/64/994b8eb4715ad743c88090782197cc9e060258e261b1c35023a7212136b2/qrcode_styled-0.2.2.tar.gz
+[2023-08-02 11:01:08] INFO root fetch - processPackages [qrcode-styled]: executing diffoscope
+[2023-08-02 11:01:08] INFO root fetch - processPackages [qrcode-styled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrcode_styled-0.2.1.tar.gz tmp/qrcode_styled-0.2.2.tar.gz --markdown 20230802/q/qrcode-styled/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-02 11:01:08] INFO root fetch - processPackages [idds-common]: Downloading https://files.pythonhosted.org/packages/5c/92/b3dc1fed0e26b529317cacb2a42d9d81fd276e0b93c3971a4c1d795c2950/idds-common-1.3.4.tar.gz
+[2023-08-02 11:01:08] INFO root fetch - processPackages [newbee]: Remove: archive file [/home/abi/fetcher/tmp/newbee-0.0.1a0.tar.gz]
+[2023-08-02 11:01:08] INFO root fetch - processPackages [newbee]: Remove: archive file [/home/abi/fetcher/tmp/newbee-0.0.1a1.tar.gz]
+[2023-08-02 11:01:08] INFO root fetch - processPackages [newbee]: Start processing: idds-server
+[2023-08-02 11:01:08] INFO root fetch - main [MainThread]: End processing [newbee]: success
+[2023-08-02 11:01:08] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2023-08-02 11:01:08] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2023-08-02 11:01:08] INFO root fetch - processPackages [daktari]: Start processing: idds-monitor
+[2023-08-02 11:01:08] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-08-02 11:01:08] INFO root fetch - processPackages [idds-common]: executing diffoscope
+[2023-08-02 11:01:08] INFO root fetch - processPackages [idds-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-common-1.3.3.tar.gz tmp/idds-common-1.3.4.tar.gz --markdown 20230802/i/idds-common/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-08-02 11:01:08] INFO root fetch - processPackages [idds-server]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-08-02 11:01:08] INFO root fetch - processPackages [idds-monitor]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-08-02 11:01:08] INFO root fetch - processPackages [idds-doma]: Downloading https://files.pythonhosted.org/packages/a3/e0/2c1cc7491def61a96e06ebb8b818c6c9a659694f8358a9854f626d5fa263/idds-doma-1.3.4.tar.gz
+[2023-08-02 11:01:08] INFO root fetch - processPackages [iqm-cortex-cli]: Remove: archive file [/home/abi/fetcher/tmp/iqm-cortex-cli-4.4.tar.gz]
+[2023-08-02 11:01:08] INFO root fetch - processPackages [iqm-cortex-cli]: Remove: archive file [/home/abi/fetcher/tmp/iqm-cortex-cli-4.5.tar.gz]
+[2023-08-02 11:01:08] INFO root fetch - processPackages [iqm-cortex-cli]: Start processing: idds-website
+[2023-08-02 11:01:08] INFO root fetch - main [MainThread]: End processing [iqm-cortex-cli]: success
+[2023-08-02 11:01:08] INFO root fetch - processPackages [idds-atlas]: Remove: archive file [/home/abi/fetcher/tmp/idds-atlas-1.3.3.tar.gz]
+[2023-08-02 11:01:08] INFO root fetch - processPackages [idds-atlas]: Remove: archive file [/home/abi/fetcher/tmp/idds-atlas-1.3.4.tar.gz]
+[2023-08-02 11:01:08] INFO root fetch - processPackages [idds-atlas]: Start processing: idds-workflow
+[2023-08-02 11:01:08] INFO root fetch - main [MainThread]: End processing [idds-atlas]: success
+[2023-08-02 11:01:08] INFO root fetch - processPackages [idds-server]: Downloading https://files.pythonhosted.org/packages/36/00/24ae1ac948bc0d7a8f4573f28f08169213cb08bc3d62bf083a55b911b639/idds-server-1.3.3.tar.gz
+[2023-08-02 11:01:08] INFO root fetch - processPackages [idds-doma]: executing diffoscope
+[2023-08-02 11:01:08] INFO root fetch - processPackages [idds-doma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-doma-1.3.3.tar.gz tmp/idds-doma-1.3.4.tar.gz --markdown 20230802/i/idds-doma/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-08-02 11:01:08] INFO root fetch - processPackages [idds-website]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-08-02 11:01:08] INFO root fetch - processPackages [idds-monitor]: Downloading https://files.pythonhosted.org/packages/69/9c/1061fda1b5b8d7d5f4e05f5b9b1e20e170e89f8a2b988e7cd5f48db1f773/idds-monitor-1.3.3.tar.gz
+[2023-08-02 11:01:08] INFO root fetch - processPackages [idds-workflow]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-08-02 11:01:08] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-2.0.0.dev8.tar.gz]
+[2023-08-02 11:01:08] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-2.0.0.dev9.tar.gz]
+[2023-08-02 11:01:08] INFO root fetch - processPackages [fiddler-client]: Start processing: pepperize.projen-awscdk-construct
+[2023-08-02 11:01:08] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2023-08-02 11:01:08] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-02 11:01:09] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-08-02 11:01:09] INFO root fetch - processPackages [idds-client]: Remove: archive file [/home/abi/fetcher/tmp/idds-client-1.3.3.tar.gz]
+[2023-08-02 11:01:09] INFO root fetch - processPackages [idds-client]: Remove: archive file [/home/abi/fetcher/tmp/idds-client-1.3.4.tar.gz]
+[2023-08-02 11:01:09] INFO root fetch - processPackages [idds-client]: Start processing: vip-hci
+[2023-08-02 11:01:09] INFO root fetch - main [MainThread]: End processing [idds-client]: success
+[2023-08-02 11:01:09] INFO root fetch - processPackages [idds-website]: Downloading https://files.pythonhosted.org/packages/2d/1a/528d6e5995fa9c5e40d2460b253e3d6104a2799e77f968a2d10cff0ca48e/idds-website-1.3.3.tar.gz
+[2023-08-02 11:01:09] INFO root fetch - processPackages [idds-server]: Downloading https://files.pythonhosted.org/packages/b2/2b/cd33ef45139e03b4825fe0c8ecfc5005ea76cd7476249f6d2a66c93a0fbb/idds-server-1.3.4.tar.gz
+[2023-08-02 11:01:09] INFO root fetch - processPackages [idds-workflow]: Downloading https://files.pythonhosted.org/packages/ba/f9/e91ec9521668a60b4cc18e20e630e01208321845ca726663b2ed77536adb/idds-workflow-1.3.3.tar.gz
+[2023-08-02 11:01:09] INFO root fetch - processPackages [vip-hci]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-08-02 11:01:09] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-08-02 11:01:09] INFO root fetch - processPackages [idds-server]: executing diffoscope
+[2023-08-02 11:01:09] INFO root fetch - processPackages [idds-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-server-1.3.3.tar.gz tmp/idds-server-1.3.4.tar.gz --markdown 20230802/i/idds-server/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-08-02 11:01:09] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-08-02 11:01:09] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230802/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-02 11:01:09] INFO root fetch - processPackages [idds-workflow]: Downloading https://files.pythonhosted.org/packages/b6/f3/58e39a059c7c5e889bb58376735f7ca547e3646dfdce7fd1e3ad1f27f614/idds-workflow-1.3.4.tar.gz
+[2023-08-02 11:01:09] INFO root fetch - processPackages [vip-hci]: Downloading https://files.pythonhosted.org/packages/4f/3b/9be46b319f4333b6269402d3954049baa2d87f7454e74426703ff69f6f15/vip_hci-1.4.2.tar.gz
+[2023-08-02 11:01:09] INFO root fetch - processPackages [idds-monitor]: Downloading https://files.pythonhosted.org/packages/3a/a3/7f1070c6e5aff5b8fd22497db193fe2094c201a58b66d2871751421d9c25/idds-monitor-1.3.4.tar.gz
+[2023-08-02 11:01:09] INFO root fetch - processPackages [idds-workflow]: executing diffoscope
+[2023-08-02 11:01:09] INFO root fetch - processPackages [idds-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-workflow-1.3.3.tar.gz tmp/idds-workflow-1.3.4.tar.gz --markdown 20230802/i/idds-workflow/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-08-02 11:01:09] INFO root fetch - processPackages [qrcode-styled]: Remove: archive file [/home/abi/fetcher/tmp/qrcode_styled-0.2.1.tar.gz]
+[2023-08-02 11:01:09] INFO root fetch - processPackages [qrcode-styled]: Remove: archive file [/home/abi/fetcher/tmp/qrcode_styled-0.2.2.tar.gz]
+[2023-08-02 11:01:09] INFO root fetch - main [MainThread]: End processing [qrcode-styled]: success
+[2023-08-02 11:01:09] INFO root fetch - processPackages [idds-common]: Remove: archive file [/home/abi/fetcher/tmp/idds-common-1.3.3.tar.gz]
+[2023-08-02 11:01:09] INFO root fetch - processPackages [idds-common]: Remove: archive file [/home/abi/fetcher/tmp/idds-common-1.3.4.tar.gz]
+[2023-08-02 11:01:09] INFO root fetch - main [MainThread]: End processing [idds-common]: success
+[2023-08-02 11:01:09] INFO root fetch - processPackages [idds-doma]: Remove: archive file [/home/abi/fetcher/tmp/idds-doma-1.3.3.tar.gz]
+[2023-08-02 11:01:09] INFO root fetch - processPackages [idds-doma]: Remove: archive file [/home/abi/fetcher/tmp/idds-doma-1.3.4.tar.gz]
+[2023-08-02 11:01:09] INFO root fetch - main [MainThread]: End processing [idds-doma]: success
+[2023-08-02 11:01:10] WARNING root fetch - processPackages [vip-hci]: Skipping package: exceeds size limit 71708708>=10485760
+[2023-08-02 11:01:10] INFO root fetch - main [MainThread]: End processing [vip-hci] error
+[2023-08-02 11:01:10] INFO root fetch - processPackages [idds-website]: Downloading https://files.pythonhosted.org/packages/12/14/08b5714a29389f479c81777dd62934aeacf92cec378994aa466c3bc8af17/idds-website-1.3.4.tar.gz
+[2023-08-02 11:01:10] INFO root fetch - processPackages [idds-monitor]: executing diffoscope
+[2023-08-02 11:01:10] INFO root fetch - processPackages [idds-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-monitor-1.3.3.tar.gz tmp/idds-monitor-1.3.4.tar.gz --markdown 20230802/i/idds-monitor/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-08-02 11:01:10] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-08-02 11:01:10] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-08-02 11:01:10] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-08-02 11:01:10] INFO root fetch - processPackages [idds-workflow]: Remove: archive file [/home/abi/fetcher/tmp/idds-workflow-1.3.3.tar.gz]
+[2023-08-02 11:01:10] INFO root fetch - processPackages [idds-workflow]: Remove: archive file [/home/abi/fetcher/tmp/idds-workflow-1.3.4.tar.gz]
+[2023-08-02 11:01:10] INFO root fetch - main [MainThread]: End processing [idds-workflow]: success
+[2023-08-02 11:01:11] INFO root fetch - processPackages [idds-website]: executing diffoscope
+[2023-08-02 11:01:11] INFO root fetch - processPackages [idds-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-website-1.3.3.tar.gz tmp/idds-website-1.3.4.tar.gz --markdown 20230802/i/idds-website/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-08-02 11:01:11] INFO root fetch - processPackages [idds-server]: Remove: archive file [/home/abi/fetcher/tmp/idds-server-1.3.3.tar.gz]
+[2023-08-02 11:01:11] INFO root fetch - processPackages [idds-server]: Remove: archive file [/home/abi/fetcher/tmp/idds-server-1.3.4.tar.gz]
+[2023-08-02 11:01:11] INFO root fetch - main [MainThread]: End processing [idds-server]: success
+[2023-08-02 11:01:12] INFO root fetch - processPackages [idds-website]: Remove: archive file [/home/abi/fetcher/tmp/idds-website-1.3.3.tar.gz]
+[2023-08-02 11:01:12] INFO root fetch - processPackages [idds-website]: Remove: archive file [/home/abi/fetcher/tmp/idds-website-1.3.4.tar.gz]
+[2023-08-02 11:01:12] INFO root fetch - main [MainThread]: End processing [idds-website]: success
+[2023-08-02 11:01:14] INFO root fetch - processPackages [idds-monitor]: Remove: archive file [/home/abi/fetcher/tmp/idds-monitor-1.3.3.tar.gz]
+[2023-08-02 11:01:14] INFO root fetch - processPackages [idds-monitor]: Remove: archive file [/home/abi/fetcher/tmp/idds-monitor-1.3.4.tar.gz]
+[2023-08-02 11:01:14] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
+[2023-08-02 11:02:30] INFO root fetch - processPackages [e2xauthoring]: Remove: archive file [/home/abi/fetcher/tmp/e2xauthoring-0.2.0.dev1.tar.gz]
+[2023-08-02 11:02:30] INFO root fetch - processPackages [e2xauthoring]: Remove: archive file [/home/abi/fetcher/tmp/e2xauthoring-0.2.0.dev2.tar.gz]
+[2023-08-02 11:02:30] INFO root fetch - main [MainThread]: End processing [e2xauthoring]: success
+[2023-08-02 11:02:30] INFO root fetch - main [MainThread]: Store serial: [19138961]

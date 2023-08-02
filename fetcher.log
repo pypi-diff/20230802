@@ -16613,3 +16613,141 @@
 [2023-08-02 10:17:37] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.7.8.tar.gz]
 [2023-08-02 10:17:37] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
 [2023-08-02 10:17:37] INFO root fetch - main [MainThread]: Store serial: [19138481]
+[2023-08-02 10:22:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19138481]
+[2023-08-02 10:22:47] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-02 10:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fibsem
+[2023-08-02 10:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: armonik
+[2023-08-02 10:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2023-08-02 10:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moethread
+[2023-08-02 10:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymef
+[2023-08-02 10:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RepRepBuild
+[2023-08-02 10:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: otx
+[2023-08-02 10:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rclip
+[2023-08-02 10:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymobiledevice3
+[2023-08-02 10:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kubedeployer
+[2023-08-02 10:22:47] INFO root fetch - processPackages [fibsem]: New version: [0.2.2a1] Old Version: [0.2.2a0]
+[2023-08-02 10:22:47] INFO root fetch - processPackages [moethread]: New version: [1.2.3] Old Version: [1.1.3]
+[2023-08-02 10:22:47] INFO root fetch - processPackages [pymef]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-08-02 10:22:47] INFO root fetch - processPackages [kubedeployer]: New version: [1.2.7] Old Version: [1.2.3]
+[2023-08-02 10:22:47] INFO root fetch - processPackages [rclip]: New version: [1.4.7a9] Old Version: [1.4.7a8]
+[2023-08-02 10:22:47] INFO root fetch - processPackages [otx]: New version: [1.4.1] Old Version: [1.4.0rc4]
+[2023-08-02 10:22:47] INFO root fetch - processPackages [RepRepBuild]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-02 10:22:47] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-08-02 10:22:47] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-08-02 10:22:47] INFO root fetch - processPackages [pymobiledevice3]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-08-02 10:22:48] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/b6/33/9368279ac437576613cd3b1c5360d684c7b9ab8730455128e271023e71bd/rclip-1.4.7a8.tar.gz
+[2023-08-02 10:22:48] INFO root fetch - processPackages [fibsem]: Downloading https://files.pythonhosted.org/packages/d7/30/b93e42954d23659272a1b8ac6f3dd60da6eff0df55fc4d31bb515f6934eb/fibsem-0.2.2a0-py3-none-any.whl
+[2023-08-02 10:22:48] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-08-02 10:22:48] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/47/d4/c65707d8805f232d325a54dfeaf67628b9b46a4b1ea8d23403ecae601ebb/pymobiledevice3-2.2.1.tar.gz
+[2023-08-02 10:22:48] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-08-02 10:22:48] INFO root fetch - processPackages [moethread]: Downloading https://files.pythonhosted.org/packages/09/e4/1b97f6d36869fdcfda0b430955bb93ab6fb35b0db3ef984e920a77717932/moethread-1.1.3.tar.gz
+[2023-08-02 10:22:48] INFO root fetch - processPackages [pymef]: Downloading https://files.pythonhosted.org/packages/76/d6/ccec5929c18ead093038a0127df8a24f7a377e91dda4f55cc9d83282e603/pymef-1.4.0-cp39-cp39-win_amd64.whl
+[2023-08-02 10:22:48] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/0e/81/183fa2673ed8f4d3c885d0958bd140616694b516dd59d7e8cab1fa824ff3/RepRepBuild-0.9.0.tar.gz
+[2023-08-02 10:22:48] INFO root fetch - processPackages [kubedeployer]: Downloading https://files.pythonhosted.org/packages/f4/dd/ccfccfec7efa75d2d0c7e749667587074e2c31ed482cf53953a48f05e871/kubedeployer-1.2.3.tar.gz
+[2023-08-02 10:22:48] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/a6/d2/fd6e46667b88639b255332bb9a67388d1a7b0ca7365ef6694f1da922b381/otx-1.4.0rc4.tar.gz
+[2023-08-02 10:22:48] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/31/e5/7bb0bec8ec5f762444a62bbc17fd8e01f29a10f98d54311ab9c756bd2fea/rclip-1.4.7a9.tar.gz
+[2023-08-02 10:22:48] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-08-02 10:22:48] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-08-02 10:22:48] INFO root fetch - processPackages [kubedeployer]: Downloading https://files.pythonhosted.org/packages/50/4b/8b4fb8add88cc7f85d87a80d8d5b0f6386672fb8b38526a87bfc168f5885/kubedeployer-1.2.7.tar.gz
+[2023-08-02 10:22:48] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-02 10:22:48] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.7a8.tar.gz tmp/rclip-1.4.7a9.tar.gz --markdown 20230802/r/rclip/1.4.7a8-1.4.7a9/diff.md --exclude *.pyd
+[2023-08-02 10:22:48] INFO root fetch - processPackages [fibsem]: Downloading https://files.pythonhosted.org/packages/c8/8f/4bfbe20bfa2ca615b74ad68a1317c1b61df9a93f5f8c9df9e223c9b20623/fibsem-0.2.2a1-py3-none-any.whl
+[2023-08-02 10:22:48] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/11/ee/31e0e07163d73bf460a9f7d8fa778a070c442df2db4410bb5ccbd4acc402/pymobiledevice3-2.2.2.tar.gz
+[2023-08-02 10:22:48] INFO root fetch - processPackages [moethread]: Downloading https://files.pythonhosted.org/packages/0e/24/fcea40a10cc7daf994116d8ec9456da64d0ba94303601d9b52209e805199/moethread-1.2.3.tar.gz
+[2023-08-02 10:22:48] INFO root fetch - processPackages [pymef]: Downloading https://files.pythonhosted.org/packages/5e/78/88f4e9b4c4367c91a5b30eb817b1b888ec4d3c0fc8f0c51c5b2071ac684a/pymef-1.4.1-cp39-cp39-win_amd64.whl
+[2023-08-02 10:22:48] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-08-02 10:22:48] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230802/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-08-02 10:22:48] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-08-02 10:22:48] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230802/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-08-02 10:22:48] INFO root fetch - processPackages [kubedeployer]: executing diffoscope
+[2023-08-02 10:22:48] INFO root fetch - processPackages [kubedeployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubedeployer-1.2.3.tar.gz tmp/kubedeployer-1.2.7.tar.gz --markdown 20230802/k/kubedeployer/1.2.3-1.2.7/diff.md --exclude *.pyd
+[2023-08-02 10:22:48] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/50/c1/f5a59c51cae6a695fbe01266bb7f75ded67d632b67bcbbee079deaecbc69/RepRepBuild-0.9.1.tar.gz
+[2023-08-02 10:22:48] INFO root fetch - processPackages [pymobiledevice3]: executing diffoscope
+[2023-08-02 10:22:48] INFO root fetch - processPackages [pymobiledevice3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymobiledevice3-2.2.1.tar.gz tmp/pymobiledevice3-2.2.2.tar.gz --markdown 20230802/p/pymobiledevice3/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-08-02 10:22:48] INFO root fetch - processPackages [moethread]: executing diffoscope
+[2023-08-02 10:22:48] INFO root fetch - processPackages [moethread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moethread-1.1.3.tar.gz tmp/moethread-1.2.3.tar.gz --markdown 20230802/m/moethread/1.1.3-1.2.3/diff.md --exclude *.pyd
+[2023-08-02 10:22:49] INFO root fetch - processPackages [pymef]: executing diffoscope
+[2023-08-02 10:22:49] INFO root fetch - processPackages [pymef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymef-1.4.0-cp39-cp39-win_amd64.whl.zip tmp/pymef-1.4.1-cp39-cp39-win_amd64.whl.zip --markdown 20230802/p/pymef/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-08-02 10:22:49] INFO root fetch - processPackages [RepRepBuild]: executing diffoscope
+[2023-08-02 10:22:49] INFO root fetch - processPackages [RepRepBuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RepRepBuild-0.9.0.tar.gz tmp/RepRepBuild-0.9.1.tar.gz --markdown 20230802/R/RepRepBuild/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-02 10:22:49] INFO root fetch - processPackages [fibsem]: executing diffoscope
+[2023-08-02 10:22:49] INFO root fetch - processPackages [fibsem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fibsem-0.2.2a0-py3-none-any.whl.zip tmp/fibsem-0.2.2a1-py3-none-any.whl.zip --markdown 20230802/f/fibsem/0.2.2a0-0.2.2a1/diff.md --exclude *.pyd
+[2023-08-02 10:22:50] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a8.tar.gz]
+[2023-08-02 10:22:50] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a9.tar.gz]
+[2023-08-02 10:22:50] INFO root fetch - processPackages [rclip]: Start processing: generic-path
+[2023-08-02 10:22:50] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-02 10:22:50] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/61/b4/c25fae61478dc311a803b67cb8e96f0d17f5b1a15f75651a596f721d52a3/otx-1.4.1.tar.gz
+[2023-08-02 10:22:50] INFO root fetch - processPackages [generic-path]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-08-02 10:22:50] INFO root fetch - processPackages [pymef]: Remove: archive file [/home/abi/fetcher/tmp/pymef-1.4.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-02 10:22:50] INFO root fetch - processPackages [pymef]: Remove: archive file [/home/abi/fetcher/tmp/pymef-1.4.1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-02 10:22:50] INFO root fetch - processPackages [pymef]: Start processing: xj-role
+[2023-08-02 10:22:50] INFO root fetch - main [MainThread]: End processing [pymef]: success
+[2023-08-02 10:22:50] INFO root fetch - processPackages [moethread]: Remove: archive file [/home/abi/fetcher/tmp/moethread-1.1.3.tar.gz]
+[2023-08-02 10:22:50] INFO root fetch - processPackages [moethread]: Remove: archive file [/home/abi/fetcher/tmp/moethread-1.2.3.tar.gz]
+[2023-08-02 10:22:50] INFO root fetch - processPackages [moethread]: Start processing: odoo14-addon-web-field-required-invisible-manager
+[2023-08-02 10:22:50] INFO root fetch - main [MainThread]: End processing [moethread]: success
+[2023-08-02 10:22:50] INFO root fetch - processPackages [xj-role]: New version: [1.0.91] Old Version: [1.0.9]
+[2023-08-02 10:22:50] INFO root fetch - processPackages [otx]: executing diffoscope
+[2023-08-02 10:22:50] INFO root fetch - processPackages [otx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otx-1.4.0rc4.tar.gz tmp/otx-1.4.1.tar.gz --markdown 20230802/o/otx/1.4.0rc4-1.4.1/diff.md --exclude *.pyd
+[2023-08-02 10:22:50] INFO root fetch - processPackages [odoo14-addon-web-field-required-invisible-manager]: New version: [14.0.2.0.0] Old Version: [14.0.1.0.1.dev5]
+[2023-08-02 10:22:50] INFO root fetch - processPackages [generic-path]: Downloading https://files.pythonhosted.org/packages/ff/ee/6dd37e1a925163913dd307c7e56b0969b5821e1d5da7f5f20e7646ad1c21/generic-path-0.4.4.tar.gz
+[2023-08-02 10:22:50] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2c/77/ebb1d3254b61bd786e3aaebbd01dfa15310557c1a927f61995a6b9e0531e/xj_role-1.0.9.tar.gz
+[2023-08-02 10:22:50] INFO root fetch - processPackages [RepRepBuild]: Remove: archive file [/home/abi/fetcher/tmp/RepRepBuild-0.9.0.tar.gz]
+[2023-08-02 10:22:50] INFO root fetch - processPackages [RepRepBuild]: Remove: archive file [/home/abi/fetcher/tmp/RepRepBuild-0.9.1.tar.gz]
+[2023-08-02 10:22:50] INFO root fetch - processPackages [odoo14-addon-web-field-required-invisible-manager]: Downloading https://files.pythonhosted.org/packages/fa/c0/cd770de0578eb1d5f9274983b2d8fe88c1bc601f580e23517cf3da469c50/odoo14_addon_web_field_required_invisible_manager-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-08-02 10:22:50] INFO root fetch - processPackages [RepRepBuild]: Start processing: uploader-client
+[2023-08-02 10:22:50] INFO root fetch - main [MainThread]: End processing [RepRepBuild]: success
+[2023-08-02 10:22:50] INFO root fetch - processPackages [kubedeployer]: Remove: archive file [/home/abi/fetcher/tmp/kubedeployer-1.2.3.tar.gz]
+[2023-08-02 10:22:50] INFO root fetch - processPackages [kubedeployer]: Remove: archive file [/home/abi/fetcher/tmp/kubedeployer-1.2.7.tar.gz]
+[2023-08-02 10:22:50] INFO root fetch - processPackages [kubedeployer]: Start processing: hcam-devices
+[2023-08-02 10:22:50] INFO root fetch - main [MainThread]: End processing [kubedeployer]: success
+[2023-08-02 10:22:50] INFO root fetch - processPackages [generic-path]: Downloading https://files.pythonhosted.org/packages/4c/45/3c4bd3fe756a08a4aaf241607b10917c2b5b95f3762d452755559afaee1d/generic-path-0.4.5.tar.gz
+[2023-08-02 10:22:50] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-08-02 10:22:50] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-08-02 10:22:50] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-08-02 10:22:51] INFO root fetch - processPackages [uploader-client]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-02 10:22:51] INFO root fetch - processPackages [hcam-devices]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-02 10:22:51] INFO root fetch - processPackages [generic-path]: executing diffoscope
+[2023-08-02 10:22:51] INFO root fetch - processPackages [generic-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generic-path-0.4.4.tar.gz tmp/generic-path-0.4.5.tar.gz --markdown 20230802/g/generic-path/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-08-02 10:22:51] INFO root fetch - processPackages [uploader-client]: Downloading https://files.pythonhosted.org/packages/50/df/55aa5ffe67e94dffff4357da3d50ef05ffc156c985d05b1296932b1c0f57/uploader-client-0.1.7.tar.gz
+[2023-08-02 10:22:51] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/19/ff/3fd8e61f9b05b74b74e59f860ff2537cbcccfef0bdf3be80c4d9bb8ab7d2/xj_role-1.0.91.tar.gz
+[2023-08-02 10:22:51] INFO root fetch - processPackages [odoo14-addon-web-field-required-invisible-manager]: Downloading https://files.pythonhosted.org/packages/35/f6/10022d1d2ac585dc016b8921aa923aa789c2889a139a1182a650a4d2b416/odoo14_addon_web_field_required_invisible_manager-14.0.2.0.0-py3-none-any.whl
+[2023-08-02 10:22:51] INFO root fetch - processPackages [hcam-devices]: Downloading https://files.pythonhosted.org/packages/3d/5f/5906c384522546b172e033bec80d13f5af6921e95f1c4dfc8cd0232d0b48/hcam_devices-1.0.0.tar.gz
+[2023-08-02 10:22:51] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-08-02 10:22:51] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.9.tar.gz tmp/xj_role-1.0.91.tar.gz --markdown 20230802/x/xj-role/1.0.9-1.0.91/diff.md --exclude *.pyd
+[2023-08-02 10:22:51] INFO root fetch - processPackages [odoo14-addon-web-field-required-invisible-manager]: executing diffoscope
+[2023-08-02 10:22:51] INFO root fetch - processPackages [odoo14-addon-web-field-required-invisible-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_web_field_required_invisible_manager-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_web_field_required_invisible_manager-14.0.2.0.0-py3-none-any.whl.zip --markdown 20230802/o/odoo14-addon-web-field-required-invisible-manager/14.0.1.0.1.dev5-14.0.2.0.0/diff.md --exclude *.pyd
+[2023-08-02 10:22:51] INFO root fetch - processPackages [pymobiledevice3]: Remove: archive file [/home/abi/fetcher/tmp/pymobiledevice3-2.2.1.tar.gz]
+[2023-08-02 10:22:51] INFO root fetch - processPackages [pymobiledevice3]: Remove: archive file [/home/abi/fetcher/tmp/pymobiledevice3-2.2.2.tar.gz]
+[2023-08-02 10:22:51] INFO root fetch - main [MainThread]: End processing [pymobiledevice3]: success
+[2023-08-02 10:22:51] INFO root fetch - processPackages [uploader-client]: Downloading https://files.pythonhosted.org/packages/be/14/1c41479fc23c11459be9c36dd4731a310f267c96b6782630cfc66ab4cf1b/uploader-client-0.1.8.tar.gz
+[2023-08-02 10:22:51] INFO root fetch - processPackages [hcam-devices]: Downloading https://files.pythonhosted.org/packages/ff/cd/421a361c906b1a16def2ce77ef3f1ae046b86fa46facac5df00e17b83654/hcam_devices-1.0.1.tar.gz
+[2023-08-02 10:22:51] INFO root fetch - processPackages [uploader-client]: executing diffoscope
+[2023-08-02 10:22:51] INFO root fetch - processPackages [uploader-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uploader-client-0.1.7.tar.gz tmp/uploader-client-0.1.8.tar.gz --markdown 20230802/u/uploader-client/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-02 10:22:51] INFO root fetch - processPackages [hcam-devices]: executing diffoscope
+[2023-08-02 10:22:51] INFO root fetch - processPackages [hcam-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230802:/home/abi/fetcher/20230802:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcam_devices-1.0.0.tar.gz tmp/hcam_devices-1.0.1.tar.gz --markdown 20230802/h/hcam-devices/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-02 10:22:52] INFO root fetch - processPackages [fibsem]: Remove: archive file [/home/abi/fetcher/tmp/fibsem-0.2.2a0-py3-none-any.whl.zip]
+[2023-08-02 10:22:52] INFO root fetch - processPackages [fibsem]: Remove: archive file [/home/abi/fetcher/tmp/fibsem-0.2.2a1-py3-none-any.whl.zip]
+[2023-08-02 10:22:52] INFO root fetch - main [MainThread]: End processing [fibsem]: success
+[2023-08-02 10:22:52] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.9.tar.gz]
+[2023-08-02 10:22:52] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.91.tar.gz]
+[2023-08-02 10:22:52] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-08-02 10:22:52] INFO root fetch - processPackages [odoo14-addon-web-field-required-invisible-manager]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_field_required_invisible_manager-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-08-02 10:22:52] INFO root fetch - processPackages [odoo14-addon-web-field-required-invisible-manager]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_field_required_invisible_manager-14.0.2.0.0-py3-none-any.whl.zip]
+[2023-08-02 10:22:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-field-required-invisible-manager]: success
+[2023-08-02 10:22:53] INFO root fetch - processPackages [uploader-client]: Remove: archive file [/home/abi/fetcher/tmp/uploader-client-0.1.7.tar.gz]
+[2023-08-02 10:22:53] INFO root fetch - processPackages [uploader-client]: Remove: archive file [/home/abi/fetcher/tmp/uploader-client-0.1.8.tar.gz]
+[2023-08-02 10:22:53] INFO root fetch - main [MainThread]: End processing [uploader-client]: success
+[2023-08-02 10:22:53] INFO root fetch - processPackages [hcam-devices]: Remove: archive file [/home/abi/fetcher/tmp/hcam_devices-1.0.0.tar.gz]
+[2023-08-02 10:22:53] INFO root fetch - processPackages [hcam-devices]: Remove: archive file [/home/abi/fetcher/tmp/hcam_devices-1.0.1.tar.gz]
+[2023-08-02 10:22:53] INFO root fetch - main [MainThread]: End processing [hcam-devices]: success
+[2023-08-02 10:22:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-08-02 10:22:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-08-02 10:22:53] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-08-02 10:22:54] INFO root fetch - processPackages [generic-path]: Remove: archive file [/home/abi/fetcher/tmp/generic-path-0.4.4.tar.gz]
+[2023-08-02 10:22:54] INFO root fetch - processPackages [generic-path]: Remove: archive file [/home/abi/fetcher/tmp/generic-path-0.4.5.tar.gz]
+[2023-08-02 10:22:54] INFO root fetch - main [MainThread]: End processing [generic-path]: success
+[2023-08-02 10:23:07] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.4.0rc4.tar.gz]
+[2023-08-02 10:23:07] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.4.1.tar.gz]
+[2023-08-02 10:23:07] INFO root fetch - main [MainThread]: End processing [otx]: success
+[2023-08-02 10:23:07] INFO root fetch - main [MainThread]: Store serial: [19138542]
